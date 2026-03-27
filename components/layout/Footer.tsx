@@ -11,7 +11,7 @@ export default function Footer() {
             </span>
             <span className="text-xs text-muted/50">|</span>
             <span className="text-xs text-muted/70">
-              Veille citoyenne — Liberte d&apos;expression (Art. 11 DDHC)
+              Veille citoyenne — Liberté d&apos;expression (Art. 11 DDHC)
             </span>
           </div>
 
@@ -20,7 +20,7 @@ export default function Footer() {
               href="/mentions-legales"
               className="hover:text-foreground transition-colors"
             >
-              Mentions legales
+              Mentions légales
             </Link>
             <Link
               href="/sources"

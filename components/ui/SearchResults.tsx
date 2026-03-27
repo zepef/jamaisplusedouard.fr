@@ -89,7 +89,7 @@ export default function SearchResults({ initialQuery }: { initialQuery?: string 
     },
     {
       key: "reseau",
-      label: "Reseau",
+      label: "Réseau",
       count: results.reseau.length,
       color: "tag-biographie",
     },
@@ -123,7 +123,7 @@ export default function SearchResults({ initialQuery }: { initialQuery?: string 
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Rechercher un evenement, une controverse, une personne..."
+            placeholder="Rechercher un événement, une controverse, une personne..."
             className="w-full bg-transparent text-foreground placeholder-muted/50 outline-none font-mono text-sm"
             autoFocus
           />
@@ -157,7 +157,7 @@ export default function SearchResults({ initialQuery }: { initialQuery?: string 
           {/* Stats + tabs */}
           <div className="flex items-center justify-between mb-4 flex-wrap gap-2">
             <p className="text-sm text-muted font-mono">
-              {total} resultat{total !== 1 ? "s" : ""}
+              {total} résultat{total !== 1 ? "s" : ""}
             </p>
             <div className="flex gap-1.5">
               {tabs.map((tab) => (
@@ -301,7 +301,7 @@ export default function SearchResults({ initialQuery }: { initialQuery?: string 
           {total === 0 && (
             <div className="text-center py-12">
               <p className="text-sm text-muted font-mono">
-                Aucun resultat pour &quot;{query}&quot;
+                Aucun résultat pour &quot;{query}&quot;
               </p>
               <p className="text-xs text-muted/50 mt-2">
                 Essayez : CMA CGM, Rivotril, Gilets jaunes, Matignon, Young
@@ -315,7 +315,7 @@ export default function SearchResults({ initialQuery }: { initialQuery?: string 
       {query.trim().length < 2 && (
         <div className="text-center py-12">
           <p className="text-sm text-muted font-mono mb-4">
-            Tapez au moins 2 caracteres pour lancer la recherche
+            Tapez au moins 2 caractères pour lancer la recherche
           </p>
           <div className="flex flex-wrap justify-center gap-2">
             {[

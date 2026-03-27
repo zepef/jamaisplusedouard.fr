@@ -4,9 +4,9 @@ import GlassCard from "@/components/ui/GlassCard";
 import { chainesConflits } from "@/lib/conflits-data";
 
 export const metadata: Metadata = {
-  title: "Conflits d'interets",
+  title: "Conflits d'intérêts",
   description:
-    "Chaines de conflits d'interets documentes autour d'Edouard Philippe — de Matignon au Havre.",
+    "Chaînes de conflits d'intérêts documentés autour d'Édouard Philippe — de Matignon au Havre.",
 };
 
 export default function ConflitsPage() {
@@ -16,19 +16,19 @@ export default function ConflitsPage() {
   return (
     <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-3xl font-bold mb-2">
-        <span className="text-neon-red glow-red">Conflits d&apos;interets</span>
+        <span className="text-neon-red glow-red">Conflits d&apos;intérêts</span>
       </h1>
       <p className="text-sm text-muted mb-8 font-mono">
-        {chainesConflits.length} chaines de conflits d&apos;interets documentees
+        {chainesConflits.length} chaînes de conflits d&apos;intérêts documentées
         — suivez les liens
       </p>
 
       {/* Legende */}
       <GlassCard glow="red" className="mb-8">
         <p className="text-sm text-muted">
-          Chaque chaine retrace un parcours multi-noeud reliant Edouard Philippe
-          a un interet prive. Les maillons montrent les intermediaires et les
-          mecanismes de transmission. Les consequences sont documentees et sourcees.
+          Chaque chaîne retrace un parcours multi-nœud reliant Édouard Philippe
+          à un intérêt privé. Les maillons montrent les intermédiaires et les
+          mécanismes de transmission. Les conséquences sont documentées et sourcées.
         </p>
       </GlassCard>
 

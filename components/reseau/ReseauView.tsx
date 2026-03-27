@@ -23,25 +23,25 @@ const SOUS_RESEAUX: {
     label: "Young Leaders (FAF)",
     color: "text-cyan",
     description:
-      "Reseau transatlantique de la French-American Foundation. Philippe (2011), Macron (2012), Juppe (1982).",
+      "Réseau transatlantique de la French-American Foundation. Philippe (2011), Macron (2012), Juppe (1982).",
   },
   {
     id: "sino-francais",
-    label: "Reseau sino-francais",
+    label: "Réseau sino-français",
     color: "text-neon-red",
     description:
-      "France China Foundation, Belt and Road, CMA CGM Asie, Comite France-Chine.",
+      "France China Foundation, Belt and Road, CMA CGM Asie, Comité France-Chine.",
   },
   {
     id: "matignon",
     label: "Cabinet Matignon",
     color: "text-magenta",
     description:
-      "L'equipe rapprochee de Philippe a Matignon (2017-2020).",
+      "L'équipe rapprochée de Philippe a Matignon (2017-2020).",
   },
   {
     id: "le-havre",
-    label: "Reseau havrais",
+    label: "Réseau havrais",
     color: "text-neon-green",
     description:
       "Le Havre, port HAROPA, CMA CGM, mentors locaux.",
@@ -58,7 +58,7 @@ const SOUS_RESEAUX: {
     label: "Parti Horizons",
     color: "text-magenta",
     description:
-      "Vehicule presidentiel 2027 fonde en 2021.",
+      "Véhicule présidentiel 2027 fonde en 2021.",
   },
 ];
 
@@ -159,7 +159,7 @@ export default function ReseauView({ personnes }: Props) {
 
       {/* List grouped by sous-reseau */}
       {activeSousReseau === "all" ? (
-        // Show by sous-reseau sections
+        // Show by sous-réseau sections
         <>
           {SOUS_RESEAUX.map((sr) => {
             const members = filtered.filter(
@@ -184,7 +184,7 @@ export default function ReseauView({ personnes }: Props) {
           })}
         </>
       ) : (
-        // Show flat list for filtered sous-reseau
+        // Show flat list for filtered sous-réseau
         <>
           <h2 className="text-lg font-semibold text-foreground mb-4">
             {filtered.length} connexion{filtered.length > 1 ? "s" : ""}

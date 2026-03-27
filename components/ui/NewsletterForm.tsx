@@ -21,7 +21,7 @@ export default function NewsletterForm() {
 
       if (res.ok) {
         setStatus("success");
-        setMessage("Inscription confirmee. Verifiez votre boite mail.");
+        setMessage("Inscription confirmée. Verifiez votre boîte mail.");
         setEmail("");
       } else {
         const data = await res.json();
@@ -30,7 +30,7 @@ export default function NewsletterForm() {
       }
     } catch {
       setStatus("error");
-      setMessage("Erreur de connexion. Reessayez.");
+      setMessage("Erreur de connexion. Réessayez.");
     }
   }
 

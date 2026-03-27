@@ -9,16 +9,16 @@ import {
 } from "@/lib/media-data";
 
 export const metadata: Metadata = {
-  title: "Matraquage mediatique",
+  title: "Matraquage médiatique",
   description:
-    "Suivi du temps d'antenne accorde a Edouard Philippe sur les medias publics et les medias infeodes a la Macronie.",
+    "Suivi du temps d'antenne accordé à Édouard Philippe sur les médias publics et les médias inféodés à la Macronie.",
 };
 
 const categorieLabels: Record<MediaCategorie, string> = {
-  public: "Medias publics",
-  macroniste: "Medias pro-Macron",
-  independant: "Medias independants",
-  opposition: "Medias d'opposition",
+  public: "Médias publics",
+  macroniste: "Médias pro-Macron",
+  independant: "Médias indépendants",
+  opposition: "Médias d'opposition",
 };
 
 const categorieColors: Record<MediaCategorie, string> = {
@@ -49,7 +49,7 @@ export default function MatraquagePage() {
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   );
 
-  // Top chaines by minutes
+  // Top chaînes by minutes
   const topChaines = Object.entries(stats.parChaine)
     .map(([slug, minutes]) => ({
       chaine: chainesMedia.find((c) => c.slug === slug)!,
@@ -69,11 +69,11 @@ export default function MatraquagePage() {
   return (
     <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-3xl font-bold mb-2">
-        <span className="text-neon-red glow-red">Matraquage mediatique</span>
+        <span className="text-neon-red glow-red">Matraquage médiatique</span>
       </h1>
       <p className="text-sm text-muted mb-8 font-mono">
-        Suivi du temps d&apos;antenne et de la couverture mediatique d&apos;Edouard
-        Philippe — medias publics et medias infeodes
+        Suivi du temps d&apos;antenne et de la couverture médiatique d&apos;Édouard
+        Philippe — médias publics et médias inféodés
       </p>
 
       {/* Stats globales */}
@@ -148,8 +148,8 @@ export default function MatraquagePage() {
           )}
         </div>
         <p className="text-xs text-muted">
-          {ratioFavorable}% de la couverture mediatique est favorable a Philippe.
-          Seuls les medias independants (Mediapart, Blast) produisent des
+          {ratioFavorable}% de la couverture médiatique est favorable à Philippe.
+          Seuls les médias indépendants (Mediapart, Blast) produisent des
           enquetes critiques.
         </p>
       </GlassCard>

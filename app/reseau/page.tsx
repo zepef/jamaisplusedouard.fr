@@ -3,9 +3,9 @@ import ReseauView from "@/components/reseau/ReseauView";
 import { reseau } from "@/lib/seed-data";
 
 export const metadata: Metadata = {
-  title: "Reseau",
+  title: "Réseau",
   description:
-    "Cartographie interactive du reseau d'Edouard Philippe — connexions politiques, financieres et mediatiques.",
+    "Cartographie interactive du réseau d'Édouard Philippe — connexions politiques, financières et médiatiques.",
 };
 
 export default function ReseauPage() {
@@ -15,7 +15,7 @@ export default function ReseauPage() {
         <span className="text-magenta glow-magenta">Reseau</span>
       </h1>
       <p className="text-sm text-muted mb-8 font-mono">
-        {reseau.length} connexions cartographiees — Edouard Philippe au centre
+        {reseau.length} connexions cartographiées — Édouard Philippe au centre
       </p>
 
       <ReseauView personnes={reseau} />

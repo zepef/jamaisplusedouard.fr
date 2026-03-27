@@ -42,7 +42,7 @@ export default function SearchBar({ placeholder }: { placeholder?: string }) {
           onChange={(e) => setQuery(e.target.value)}
           placeholder={
             placeholder ||
-            "Rechercher un article, une personne, un evenement..."
+            "Rechercher un article, une personne, un événement..."
           }
           className="w-full bg-transparent text-foreground placeholder-muted/50 outline-none font-mono text-sm"
         />

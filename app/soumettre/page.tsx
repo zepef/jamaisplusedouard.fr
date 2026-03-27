@@ -5,7 +5,7 @@ import SubmitForm from "./SubmitForm";
 export const metadata: Metadata = {
   title: "Soumettez vos informations",
   description:
-    "Vous disposez d'informations sur Edouard Philippe, son reseau ou ses activites ? Transmettez-les de maniere securisee.",
+    "Vous disposez d'informations sur Édouard Philippe, son réseau ou ses activités ? Transmettez-les de manière sécurisée.",
 };
 
 export default function SoumettrePage() {
@@ -15,8 +15,8 @@ export default function SoumettrePage() {
         <span className="text-cyan glow-cyan">Soumettez vos informations</span>
       </h1>
       <p className="text-sm text-muted mb-8 font-mono">
-        Vous disposez d&apos;informations sur Edouard Philippe, son reseau ou
-        ses activites ? Transmettez-les.
+        Vous disposez d&apos;informations sur Édouard Philippe, son réseau ou
+        ses activités ? Transmettez-les.
       </p>
 
       {/* Securite */}
@@ -27,15 +27,15 @@ export default function SoumettrePage() {
         <div className="text-sm text-muted space-y-2">
           <p>
             La protection des lanceurs d&apos;alerte est garantie par la loi
-            Sapin II (2016) et la loi du 21 mars 2022 visant a ameliorer la
-            protection des lanceurs d&apos;alerte. La liberte d&apos;expression
-            est un droit fondamental protege par l&apos;article 11 de la
-            Declaration des Droits de l&apos;Homme et du Citoyen.
+            Sapin II (2016) et la loi du 21 mars 2022 visant à améliorer la
+            protection des lanceurs d&apos;alerte. La liberté d&apos;expression
+            est un droit fondamental protégé par l&apos;article 11 de la
+            Déclaration des Droits de l&apos;Homme et du Citoyen.
           </p>
           <p>
-            Nous ne collectons aucune donnee d&apos;identification au-dela de ce
+            Nous ne collectons aucune donnée d&apos;identification au-delà de ce
             que vous choisissez de communiquer. L&apos;anonymat est possible et
-            respecte.
+            respecté.
           </p>
         </div>
       </GlassCard>
@@ -47,11 +47,11 @@ export default function SoumettrePage() {
             <span className="text-lg">🔍</span>
             <div>
               <h3 className="text-sm font-semibold text-foreground">
-                Conflits d&apos;interets
+                Conflits d&apos;intérêts
               </h3>
               <p className="text-xs text-muted mt-1">
-                Liens financiers, mandats non declares, relations entre
-                fonctions publiques et interets prives (Atos, Areva, CMA
+                Liens financiers, mandats non déclarés, relations entre
+                fonctions publiques et intérêts privés (Atos, Areva, CMA
                 CGM...).
               </p>
             </div>
@@ -62,11 +62,11 @@ export default function SoumettrePage() {
             <span className="text-lg">🕸️</span>
             <div>
               <h3 className="text-sm font-semibold text-foreground">
-                Reseau d&apos;influence
+                Réseau d&apos;influence
               </h3>
               <p className="text-xs text-muted mt-1">
                 Young Leaders, France China Foundation, nominations,
-                pantouflage, relations non documentees entre acteurs du reseau.
+                pantouflage, relations non documentées entre acteurs du réseau.
               </p>
             </div>
           </div>
@@ -79,7 +79,7 @@ export default function SoumettrePage() {
                 Gestion locale
               </h3>
               <p className="text-xs text-muted mt-1">
-                Mairie du Havre, communaute urbaine, port, marches publics,
+                Mairie du Havre, communauté urbaine, port, marchés publics,
                 urbanisme, favoritisme, gestion des fonds publics.
               </p>
             </div>
@@ -90,11 +90,11 @@ export default function SoumettrePage() {
             <span className="text-lg">📺</span>
             <div>
               <h3 className="text-sm font-semibold text-foreground">
-                Matraquage mediatique
+                Matraquage médiatique
               </h3>
               <p className="text-xs text-muted mt-1">
-                Connivence avec des journalistes, pressions editoriales,
-                couverture orientee, questions interdites lors d&apos;interviews.
+                Connivence avec des journalistes, pressions éditoriales,
+                couverture orientée, questions interdites lors d&apos;interviews.
               </p>
             </div>
           </div>
@@ -111,7 +111,7 @@ export default function SoumettrePage() {
 
       {/* Canaux alternatifs */}
       <h2 className="text-lg font-bold text-foreground mb-4">
-        Canaux alternatifs securises
+        Canaux alternatifs sécurisés
       </h2>
       <div className="space-y-3">
         <GlassCard className="!p-4">
@@ -121,11 +121,11 @@ export default function SoumettrePage() {
             </span>
             <div>
               <p className="text-sm text-foreground">
-                Application de messagerie chiffree de bout en bout. Aucune
-                metadonnee conservee.
+                Application de messagerie chiffrée de bout en bout. Aucune
+                métadonnée conservée.
               </p>
               <p className="text-xs text-muted/50 mt-1">
-                Numero communique sur demande via le formulaire ci-dessus.
+                Numéro communiqué sur demande via le formulaire ci-dessus.
               </p>
             </div>
           </div>
@@ -137,10 +137,10 @@ export default function SoumettrePage() {
             </span>
             <div>
               <p className="text-sm text-foreground">
-                Email chiffre, base en Suisse, hors juridiction francaise.
+                Email chiffré, basé en Suisse, hors juridiction française.
               </p>
               <p className="text-xs text-muted/50 mt-1">
-                Adresse communiquee sur demande via le formulaire ci-dessus.
+                Adresse communiquée sur demande via le formulaire ci-dessus.
               </p>
             </div>
           </div>
@@ -153,10 +153,10 @@ export default function SoumettrePage() {
             <div>
               <p className="text-sm text-foreground">
                 Documents papier, copies, photos. Le courrier postal reste le
-                canal le plus difficile a surveiller.
+                canal le plus difficile à surveiller.
               </p>
               <p className="text-xs text-muted/50 mt-1">
-                Adresse postale communiquee sur demande via le formulaire.
+                Adresse postale communiquée sur demande via le formulaire.
               </p>
             </div>
           </div>
@@ -172,19 +172,19 @@ export default function SoumettrePage() {
           <li className="flex items-start gap-2">
             <span className="text-neon-green shrink-0">✓</span>
             <span>
-              Toute information recue est verifiee et croisee avant publication.
+              Toute information reçue est vérifiée et croisée avant publication.
             </span>
           </li>
           <li className="flex items-start gap-2">
             <span className="text-neon-green shrink-0">✓</span>
             <span>
-              Aucune information n&apos;est publiee sans source verifiable.
+              Aucune information n&apos;est publiée sans source vérifiable.
             </span>
           </li>
           <li className="flex items-start gap-2">
             <span className="text-neon-green shrink-0">✓</span>
             <span>
-              L&apos;identite des sources n&apos;est jamais revelee, meme sur
+              L&apos;identité des sources n&apos;est jamais révélée, même sur
               demande judiciaire (protection des sources journalistiques, loi du
               4 janvier 2010).
             </span>
@@ -192,14 +192,14 @@ export default function SoumettrePage() {
           <li className="flex items-start gap-2">
             <span className="text-neon-green shrink-0">✓</span>
             <span>
-              Les documents sensibles sont stockes sur des serveurs chiffres
-              hors juridiction francaise.
+              Les documents sensibles sont stockés sur des serveurs chiffrés
+              hors juridiction française.
             </span>
           </li>
           <li className="flex items-start gap-2">
             <span className="text-neon-green shrink-0">✓</span>
             <span>
-              Droit de reponse garanti conformement a la loi du 29 juillet 1881.
+              Droit de réponse garanti conformément à la loi du 29 juillet 1881.
             </span>
           </li>
         </ul>

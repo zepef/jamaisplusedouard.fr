@@ -4,9 +4,9 @@ import NewsletterForm from "@/components/ui/NewsletterForm";
 import { timeline } from "@/lib/seed-data";
 
 export const metadata: Metadata = {
-  title: "Actualites",
+  title: "Actualités",
   description:
-    "Suivi quotidien des activites politiques d'Edouard Philippe.",
+    "Suivi quotidien des activités politiques d'Édouard Philippe.",
 };
 
 // Show the latest events from the timeline as a preview
@@ -31,7 +31,7 @@ export default function ActualitesPage() {
               Agents de veille actifs
             </p>
             <p className="text-xs text-muted mt-0.5">
-              Presse francaise · Journal Officiel · Reseaux sociaux · Registres
+              Presse française · Journal Officiel · Réseaux sociaux · Registres
               publics (HATVP)
             </p>
           </div>
@@ -40,7 +40,7 @@ export default function ActualitesPage() {
 
       {/* Recent events from biography */}
       <h2 className="text-lg font-semibold text-foreground mb-4">
-        Derniers evenements documentes
+        Derniers événements documentés
       </h2>
       <div className="space-y-3 mb-12">
         {recentEvents.map((event, i) => (
@@ -54,7 +54,7 @@ export default function ActualitesPage() {
                 className={`text-xs font-mono font-bold shrink-0 w-28 ${
                   event.categorie === "controverse"
                     ? "text-neon-red"
-                    : event.categorie === "carriere"
+                    : event.categorie === "carrière"
                       ? "text-yellow-400"
                       : "text-cyan"
                 }`}
@@ -67,7 +67,7 @@ export default function ActualitesPage() {
                     className={`tag ${
                       event.categorie === "controverse"
                         ? "tag-controverse"
-                        : event.categorie === "carriere"
+                        : event.categorie === "carrière"
                           ? "text-yellow-400 border-yellow-400/30 bg-yellow-400/8"
                           : "tag-actualite"
                     }`}
@@ -96,8 +96,8 @@ export default function ActualitesPage() {
           Recevoir les alertes
         </h2>
         <p className="text-xs text-muted mb-3">
-          Nouvelle controverse, nouvelle connexion decouverte — soyez
-          informe en temps reel.
+          Nouvelle controverse, nouvelle connexion découverte — soyez
+          informé en temps réel.
         </p>
         <NewsletterForm />
       </div>

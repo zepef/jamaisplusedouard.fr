@@ -17,7 +17,7 @@ export default function Home() {
           <span className="text-foreground">EDOUARD</span>
         </h1>
         <p className="text-lg text-muted max-w-2xl mx-auto font-mono">
-          Veille citoyenne sur Edouard Philippe
+          Veille citoyenne sur Édouard Philippe
         </p>
         <p className="text-sm text-muted/60 max-w-2xl mx-auto font-mono mt-2">
           l&apos;IA au service du Citoyen
@@ -37,17 +37,17 @@ export default function Home() {
             color="text-neon-red"
           />
           <Stat
-            label="Evenements documentes"
+            label="Événements documentés"
             value={String(stats.articles)}
             color="text-cyan"
           />
           <Stat
-            label="Connexions reseau"
+            label="Connexions réseau"
             value={String(stats.connexions)}
             color="text-magenta"
           />
           <Stat
-            label="Sources verifiees"
+            label="Sources vérifiées"
             value={String(stats.sources)}
             color="text-neon-green"
           />
@@ -110,7 +110,7 @@ export default function Home() {
           <div className="mb-8">
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-xl font-bold text-cyan glow-cyan">
-                Chronologie recente
+                Chronologie récente
               </h2>
               <Link
                 href="/biographie"
@@ -166,7 +166,7 @@ export default function Home() {
                     {reseau.length}
                   </div>
                   <p className="text-sm text-muted">
-                    connexions cartographiees
+                    connexions cartographiées
                   </p>
                   <div className="mt-3 flex flex-wrap items-center justify-center gap-2">
                     {reseau.slice(0, 5).map((p) => (

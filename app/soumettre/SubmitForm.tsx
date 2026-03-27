@@ -10,10 +10,10 @@ type Categorie =
   | "autre";
 
 const categorieLabels: Record<Categorie, string> = {
-  "conflits-interets": "Conflits d'interets",
-  reseau: "Reseau d'influence",
+  "conflits-interets": "Conflits d'intérêts",
+  reseau: "Réseau d'influence",
   "gestion-locale": "Gestion locale (Le Havre)",
-  matraquage: "Matraquage mediatique",
+  matraquage: "Matraquage médiatique",
   autre: "Autre",
 };
 
@@ -49,7 +49,7 @@ export default function SubmitForm() {
       if (res.ok) {
         setStatus("success");
         setMessage(
-          "Information recue. Elle sera verifiee et croisee avant toute publication."
+          "Information reçue. Elle sera vérifiée et croisée avant toute publication."
         );
         setContenu("");
         setSources("");
@@ -61,7 +61,7 @@ export default function SubmitForm() {
       }
     } catch {
       setStatus("error");
-      setMessage("Erreur de connexion. Reessayez.");
+      setMessage("Erreur de connexion. Réessayez.");
     }
   }
 
@@ -104,7 +104,7 @@ export default function SubmitForm() {
           onChange={(e) => setContenu(e.target.value)}
           required
           rows={6}
-          placeholder="Decrivez l'information dont vous disposez. Soyez aussi precis que possible : dates, noms, lieux, contexte..."
+          placeholder="Décrivez l'information dont vous disposez. Soyez aussi précis que possible : dates, noms, lieux, contexte..."
           className="w-full bg-glass text-foreground placeholder-muted/30 outline-none font-mono text-sm px-3 py-2 rounded border border-glass-border focus:border-cyan/30 transition-colors resize-y"
         />
       </div>
@@ -115,14 +115,14 @@ export default function SubmitForm() {
           htmlFor="sources"
           className="text-xs font-mono text-muted/70 block mb-1.5"
         >
-          Sources / preuves (URLs, references de documents, dates)
+          Sources / preuves (URLs, références de documents, dates)
         </label>
         <textarea
           id="sources"
           value={sources}
           onChange={(e) => setSources(e.target.value)}
           rows={3}
-          placeholder="URLs d'articles, references de documents officiels, numeros de decrets, dates de publication..."
+          placeholder="URLs d'articles, références de documents officiels, numéros de décrets, dates de publication..."
           className="w-full bg-glass text-foreground placeholder-muted/30 outline-none font-mono text-sm px-3 py-2 rounded border border-glass-border focus:border-cyan/30 transition-colors resize-y"
         />
       </div>
@@ -147,7 +147,7 @@ export default function SubmitForm() {
         <span className="text-sm text-muted">
           {anonyme
             ? "Soumission anonyme"
-            : "Je souhaite etre recontacte"}
+            : "Je souhaite être recontacté"}
         </span>
       </div>
 
@@ -165,7 +165,7 @@ export default function SubmitForm() {
             type="text"
             value={contact}
             onChange={(e) => setContact(e.target.value)}
-            placeholder="email@protonmail.com ou numero Signal"
+            placeholder="email@protonmail.com ou numéro Signal"
             className="w-full bg-glass text-foreground placeholder-muted/30 outline-none font-mono text-sm px-3 py-2 rounded border border-glass-border focus:border-cyan/30 transition-colors"
           />
         </div>

@@ -16,15 +16,15 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Jamais Plus Edouard — Veille Citoyenne",
-    template: "%s | Jamais Plus Edouard",
+    default: "Jamais Plus Édouard — Veille Citoyenne",
+    template: "%s | Jamais Plus Édouard",
   },
   description:
-    "Biographie, controverses et reseau d'Edouard Philippe. Suivi quotidien du candidat a la presidentielle.",
+    "Biographie, controverses et réseau d'Édouard Philippe. Suivi quotidien du candidat à la présidentielle.",
   openGraph: {
-    title: "Jamais Plus Edouard",
+    title: "Jamais Plus Édouard",
     description:
-      "Veille citoyenne sur Edouard Philippe — biographie, faux pas, reseau.",
+      "Veille citoyenne sur Édouard Philippe — biographie, faux pas, réseau.",
     url: "https://jamaisplusedouard.fr",
     siteName: "jamaisplusedouard.fr",
     locale: "fr_FR",

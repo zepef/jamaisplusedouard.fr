@@ -62,7 +62,7 @@ export default function CommentSection({ articleSlug }: Props) {
 
       if (res.ok) {
         setStatus("success");
-        setMessage("Commentaire publie.");
+        setMessage("Commentaire publié.");
         setContenu("");
         loadComments();
         setTimeout(() => setMessage(""), 3000);
@@ -102,7 +102,7 @@ export default function CommentSection({ articleSlug }: Props) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ commentId, motif }),
       });
-      setMessage(`Commentaire signale pour ${motif}. Merci.`);
+      setMessage(`Commentaire signalé pour ${motif}. Merci.`);
       setTimeout(() => setMessage(""), 3000);
       loadComments();
     } catch {
@@ -147,7 +147,7 @@ export default function CommentSection({ articleSlug }: Props) {
           <textarea
             value={contenu}
             onChange={(e) => setContenu(e.target.value)}
-            placeholder="Votre commentaire... Restez factuel et source vos affirmations."
+            placeholder="Votre commentaire... Restez factuel et sourcez vos affirmations."
             required
             rows={3}
             className="w-full bg-glass text-foreground placeholder-muted/30 outline-none font-mono text-sm px-3 py-2 rounded border border-glass-border focus:border-cyan/30 transition-colors resize-y"
@@ -155,7 +155,7 @@ export default function CommentSection({ articleSlug }: Props) {
           <div className="flex items-center justify-between">
             <p className="text-[10px] text-muted/40">
               Les commentaires insultants ou diffusant de fausses informations
-              seront signales par la communaute.
+              seront signalés par la communauté.
             </p>
             <button
               type="submit"
@@ -182,9 +182,9 @@ export default function CommentSection({ articleSlug }: Props) {
         <div className="flex gap-2 mb-4">
           {(
             [
-              { key: "recent", label: "Recents" },
+              { key: "recent", label: "Récents" },
               { key: "utile", label: "Plus utiles" },
-              { key: "signale", label: "Plus signales" },
+              { key: "signale", label: "Plus signalés" },
             ] as const
           ).map((t) => (
             <button
@@ -236,7 +236,7 @@ export default function CommentSection({ articleSlug }: Props) {
                 </div>
                 {isSignaled && (
                   <span className="tag text-neon-red border-neon-red/30 bg-neon-red/8">
-                    signale ({totalSignalements})
+                    signalé ({totalSignalements})
                   </span>
                 )}
               </div>
@@ -245,7 +245,7 @@ export default function CommentSection({ articleSlug }: Props) {
               {isSignaled ? (
                 <details>
                   <summary className="text-xs text-neon-red/70 cursor-pointer">
-                    Contenu masque — signale par la communaute. Cliquer pour
+                    Contenu masqué — signalé par la communauté. Cliquer pour
                     afficher.
                   </summary>
                   <p className="text-sm text-muted mt-2 italic">{c.contenu}</p>
@@ -291,7 +291,7 @@ export default function CommentSection({ articleSlug }: Props) {
                     className="text-[10px] font-mono text-muted/40 hover:text-neon-red transition-colors cursor-pointer"
                     title="Fausses informations"
                   >
-                    Desinfo
+                    Désinfo
                     {c.signalements.desinformation > 0 &&
                       ` (${c.signalements.desinformation})`}
                   </button>
@@ -313,7 +313,7 @@ export default function CommentSection({ articleSlug }: Props) {
 
       {commentaires.length === 0 && (
         <p className="text-sm text-muted/50 text-center py-8 font-mono">
-          Aucun commentaire. Soyez le premier a reagir.
+          Aucun commentaire. Soyez le premier à réagir.
         </p>
       )}
     </div>

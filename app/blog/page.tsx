@@ -6,7 +6,7 @@ import { blogPosts } from "@/lib/blog-data";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Analyses, editoriaux et enquetes sur Edouard Philippe et son reseau.",
+    "Analyses, éditoriaux et enquêtes sur Édouard Philippe et son réseau.",
 };
 
 export default function BlogPage() {

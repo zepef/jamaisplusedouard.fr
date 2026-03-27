@@ -6,7 +6,7 @@ import { controverses } from "@/lib/seed-data";
 export const metadata: Metadata = {
   title: "Controverses",
   description:
-    "Les faux pas, contradictions et scandales d'Edouard Philippe documentes et sources.",
+    "Les faux pas, contradictions et scandales d'Édouard Philippe documentés et sourcés.",
 };
 
 const graviteColors = {
@@ -27,7 +27,7 @@ export default function ControversesPage() {
         <span className="text-neon-red glow-red">Controverses</span>
       </h1>
       <p className="text-sm text-muted mb-8 font-mono">
-        {controverses.length} dossiers documentes — faux pas, contradictions et
+        {controverses.length} dossiers documentés — faux pas, contradictions et
         scandales
       </p>
 

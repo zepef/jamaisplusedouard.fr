@@ -5,10 +5,10 @@ import { usePathname } from "next/navigation";
 
 const navLinks = [
   { href: "/biographie", label: "Biographie" },
-  { href: "/actualites", label: "Actualites" },
+  { href: "/actualites", label: "Actualités" },
   { href: "/controverses", label: "Controverses" },
   { href: "/conflits", label: "Conflits" },
-  { href: "/reseau", label: "Reseau" },
+  { href: "/reseau", label: "Réseau" },
   { href: "/matraquage", label: "Matraquage" },
   { href: "/blog", label: "Blog" },
   { href: "/soumettre", label: "Soumettre" },

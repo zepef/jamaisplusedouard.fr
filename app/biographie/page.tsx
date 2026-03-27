@@ -5,7 +5,7 @@ import { timeline, ficheSynthetique } from "@/lib/seed-data";
 export const metadata: Metadata = {
   title: "Biographie",
   description:
-    "Parcours politique complet d'Edouard Philippe, du Havre a Matignon et au-dela.",
+    "Parcours politique complet d'Édouard Philippe, du Havre à Matignon et au-delà.",
 };
 
 // Group by section
@@ -22,15 +22,15 @@ const sections = timeline.reduce(
 const sectionOrder = [
   "Origines",
   "Formation",
-  "Carriere",
+  "Carrière",
   "Le Havre",
   "Politique nationale",
   "Matignon",
   "Covid",
   "Horizons",
-  "Presidentielle 2027",
+  "Présidentielle 2027",
   "Judiciaire",
-  "Reseau",
+  "Réseau",
 ];
 
 export default function BiographiePage() {
@@ -40,13 +40,13 @@ export default function BiographiePage() {
         <span className="text-magenta glow-magenta">Biographie</span>
       </h1>
       <p className="text-sm text-muted mb-8 font-mono">
-        Edouard Charles Philippe — ne le 28 novembre 1970 a Rouen
+        Édouard Charles Philippe — né le 28 novembre 1970 à Rouen
       </p>
 
-      {/* Fiche synthetique */}
+      {/* Fiche synthétique */}
       <GlassCard glow="cyan" className="mb-12">
         <h2 className="text-sm font-mono font-bold text-cyan mb-4">
-          Fiche synthetique
+          Fiche synthétique
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
           {Object.entries({
@@ -91,7 +91,7 @@ export default function BiographiePage() {
                         className={`text-xs font-mono font-bold ${
                           event.categorie === "controverse"
                             ? "text-neon-red"
-                            : event.categorie === "carriere"
+                            : event.categorie === "carrière"
                               ? "text-yellow-400"
                               : "text-cyan"
                         }`}
@@ -109,7 +109,7 @@ export default function BiographiePage() {
                         className={`tag ${
                           event.categorie === "controverse"
                             ? "tag-controverse"
-                            : event.categorie === "carriere"
+                            : event.categorie === "carrière"
                               ? "text-yellow-400 border-yellow-400/30 bg-yellow-400/8"
                               : "tag-biographie"
                         }`}

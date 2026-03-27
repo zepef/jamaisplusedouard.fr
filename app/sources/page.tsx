@@ -4,7 +4,7 @@ import { controverses } from "@/lib/seed-data";
 
 export const metadata: Metadata = {
   title: "Sources",
-  description: "Toutes les sources utilisees sur jamaisplusedouard.fr.",
+  description: "Toutes les sources utilisées sur jamaisplusedouard.fr.",
 };
 
 // Collect all unique sources
@@ -24,7 +24,7 @@ const sourcesByType = allSources.reduce(
 const typeLabels: Record<string, string> = {
   officiel: "Sources officielles",
   presse: "Presse",
-  social: "Reseaux sociaux",
+  social: "Réseaux sociaux",
   registre: "Registres publics",
 };
 
@@ -40,15 +40,15 @@ export default function SourcesPage() {
     <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-3xl font-bold mb-2 text-foreground">Sources</h1>
       <p className="text-sm text-muted mb-8 font-mono">
-        {allSources.length} sources verifiees — chaque fait est documente
+        {allSources.length} sources vérifiées — chaque fait est documenté
       </p>
 
       <GlassCard glow="cyan" className="mb-8">
         <p className="text-sm text-muted">
           jamaisplusedouard.fr applique une politique de sourcing obligatoire :
-          aucun article n&apos;est publie sans au moins une source verifiable.
-          Les agents de veille IA sont programmes pour rejeter toute information
-          non sourcee.
+          aucun article n&apos;est publié sans au moins une source vérifiable.
+          Les agents de veille IA sont programmés pour rejeter toute information
+          non sourcée.
         </p>
       </GlassCard>
 
@@ -73,7 +73,7 @@ export default function SourcesPage() {
                       {s.titre}
                     </a>
                     <p className="text-muted/50 mt-0.5">
-                      Utilise dans : {s.controverse}
+                      Utilisé dans : {s.controverse}
                     </p>
                   </div>
                 </div>
@@ -85,18 +85,18 @@ export default function SourcesPage() {
 
       <GlassCard className="mt-8">
         <h2 className="text-sm font-mono font-bold text-cyan mb-3">
-          Methode de veille
+          Méthode de veille
         </h2>
         <div className="text-sm text-muted space-y-2">
           <p>
-            Les sources sont collectees automatiquement par 4 agents de veille
+            Les sources sont collectées automatiquement par 4 agents de veille
             OpenClaw :
           </p>
           <ul className="list-disc list-inside text-xs space-y-1 text-muted/70">
-            <li>Presse francaise (toutes les 2h)</li>
-            <li>Journal Officiel et Legifrance (quotidien)</li>
-            <li>Reseaux sociaux (toutes les 4h)</li>
-            <li>Registres publics — HATVP, Societe.com (hebdomadaire)</li>
+            <li>Presse française (toutes les 2h)</li>
+            <li>Journal Officiel et Légifrance (quotidien)</li>
+            <li>Réseaux sociaux (toutes les 4h)</li>
+            <li>Registres publics — HATVP, Société.com (hebdomadaire)</li>
           </ul>
         </div>
       </GlassCard>

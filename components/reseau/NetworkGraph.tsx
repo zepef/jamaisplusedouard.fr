@@ -31,9 +31,9 @@ const TYPE_COLORS: Record<string, string> = {
 };
 
 const PHILIPPE_NODE: PersonneReseau = {
-  nom: "Edouard Philippe",
+  nom: "Édouard Philippe",
   slug: "edouard-philippe",
-  role: "Candidat a la presidentielle 2027",
+  role: "Candidat à la présidentielle 2027",
   description: "Ancien Premier ministre, maire du Havre, president d'Horizons",
   typeLien: "centre",
   partiPolitique: "Horizons",
