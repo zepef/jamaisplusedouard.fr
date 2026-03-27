@@ -674,17 +674,17 @@ export const reseau: PersonneReseau[] = [
   {
     nom: "Debevoise & Plimpton",
     slug: "debevoise-plimpton",
-    role: "Cabinet d'avocats anglo-saxon",
+    role: "Cabinet d'avocats anglo-saxon — employeur de Philippe (2004-2007)",
     description:
-      "Philippe avocat de 2004 a 2007. Cabinet americain avec filiale francaise.",
+      "Debevoise & Plimpton LLP est un cabinet d'avocats americain fonde en 1931 a New York, specialise dans le droit des affaires internationales, les fusions-acquisitions, le private equity et l'arbitrage international. Le cabinet compte environ 800 avocats et des bureaux a New York, Washington, Londres, Paris, Francfort, Hong Kong et Shanghai. Edouard Philippe y exerce comme avocat de 2004 a 2007, dans la filiale parisienne, apres avoir quitte ses fonctions de directeur general de l'UMP et s'etre mis en disponibilite du Conseil d'Etat. Ce passage dans un cabinet anglo-saxon de premier plan illustre la trajectoire classique du pantouflage : haute fonction publique (ENA, Conseil d'Etat), direction de parti politique (UMP), puis secteur prive international, avant de revenir en politique. Debevoise represente des entreprises du Fortune 500 et des fonds d'investissement, ce qui a permis a Philippe de tisser un reseau dans les milieux d'affaires internationaux. Le cabinet est present a Hong Kong et Shanghai, centres nevralgiques du commerce asiatique — un detail qui prend son sens au regard des connexions sino-francaises ulterieures de l'entourage de Philippe. Apres Debevoise, Philippe rejoint Areva comme directeur des affaires publiques (lobbying), confirmant son ancrage dans les cercles d'influence economiques. La sequence Conseil d'Etat → UMP → Debevoise → Areva → mairie → Matignon dessine un parcours ou chaque etape enrichit le carnet d'adresses de la suivante. Le passage chez Debevoise est la parenthese anglo-saxonne de ce parcours essentiellement francais. Les honoraires et les mandats qu'il a geres chez Debevoise n'ont jamais ete rendus publics.",
     typeLien: "professionnel",
   },
   {
     nom: "Antoine Rufenacht",
     slug: "antoine-rufenacht",
-    role: "Ancien maire du Havre — mentor local",
+    role: "Ancien maire du Havre — mentor et predecesseur de Philippe",
     description:
-      "Lance Philippe en politique en 2001. Christine Poyer-Rufenacht (meme patronyme) est Young Leader 2011.",
+      "Antoine Rufenacht est le maire du Havre de 1995 a 2010, ancien enarque et figure de la droite normande. C'est lui qui identifie Edouard Philippe comme successeur potentiel et le fait entrer en politique en 2001, en l'integrant a sa liste municipale comme adjoint charge des affaires juridiques. Rufenacht recommande ensuite Philippe a Alain Juppe pour la direction de l'UMP en 2002, lancant ainsi sa carriere nationale. Quand Rufenacht demissionne de la mairie en 2010, le conseil municipal elit Philippe pour lui succeder — une transmission du pouvoir local parfaitement orchestree. Christine Poyer-Rufenacht, avocate portant le meme patronyme que l'ancien maire, est selectionnee dans la promotion 2011 des Young Leaders de la FAF aux cotes de Philippe — une coincidence qui n'a jamais ete expliquee publiquement. Rufenacht a dirige Le Havre pendant quinze ans, faconnant le reseau politique et economique local que Philippe herite. Sous Rufenacht, Le Havre engage une transformation urbaine autour du port et de l'architecture Perret classee UNESCO. La relation Rufenacht-Philippe est un cas d'ecole de succession politique locale : le mentor identifie, forme et installe son protege a la tete de la ville. L'ancrage havrais de Philippe — mairie, port, communaute urbaine — est directement herite du reseau Rufenacht. Le fait que le mentor local et le reseau transatlantique (FAF) convergent autour du meme patronyme interroge sur les mecanismes de cooptation dans les elites francaises.",
     typeLien: "politique",
   },
   {
@@ -784,17 +784,18 @@ export const reseau: PersonneReseau[] = [
   {
     nom: "Horizons",
     slug: "horizons",
-    role: "Parti politique — vehicule presidentiel",
+    role: "Parti politique — vehicule presidentiel 2027",
     description:
-      "Fonde le 9 oct. 2021 au Havre. Centre-droit. 19 000 adherents, 465 maires, 6 deputes. Estrosi numero 2.",
+      "Horizons est le parti politique fonde par Edouard Philippe le 9 octobre 2021 lors d'une reunion publique au Havre, sa ville fief. Le parti se positionne au centre-droit, incarnant l'aile droite de la majorite presidentielle macroniste. Ses quatre themes centraux sont la demographie, l'environnement, la geopolitique et la technologie, sous le slogan « Voir loin pour faire bien ». Emmanuel Macron goute peu la creation d'Horizons par cet ancien Premier ministre « loyal mais libre ». En janvier 2022, le parti integre la coalition Ensemble Citoyens. Christian Estrosi, maire de Nice, en devient le numero deux, apportant un ancrage mediteraneen au parti ancre en Normandie. Pour les legislatives de 2022, Horizons obtient 58 investitures au sein de la coalition et constitue un groupe parlementaire « Horizons et independants » d'une trentaine de deputes, preside par Laurent Marcangeli. Apres la dissolution de 2024, le parti ne conserve que 6 sieges. En mars 2026, Horizons revendique 465 maires encarte sur l'ensemble du territoire — un maillage local qui constitue la colonne vertebrale de la campagne presidentielle 2027 de Philippe. Le parti fonctionne comme un vehicule electoral personnel : son seul objectif strategique est de porter Philippe a l'Elysee. Les cadres du parti sont largement issus du reseau havrais et juppeiste de Philippe.",
     typeLien: "politique",
     partiPolitique: "Horizons",
   },
   {
     nom: "Christian Estrosi",
     slug: "christian-estrosi",
-    role: "Maire de Nice — numero 2 d'Horizons",
-    description: "Figure-cle du parti, second de Philippe dans Horizons.",
+    role: "Maire de Nice — numero 2 d'Horizons — relais mediteraneen",
+    description:
+      "Christian Estrosi est le maire de Nice depuis 2008 (avec une interruption 2014-2017 ou il etait president de la region PACA) et le numero deux du parti Horizons d'Edouard Philippe. Ancien ministre de l'Industrie sous Sarkozy (2009-2010) et figure de la droite provencale, Estrosi apporte a Horizons un ancrage sudiste qui complete l'ancrage normand de Philippe. Son ralliement a Horizons en 2021 est un coup politique majeur : il quitte LR pour rejoindre un parti centriste, entrainant une partie de la droite nicoise et azureenne. Nice est la cinquieme ville de France et un hub touristique et economique de premier plan, ce qui confere a Estrosi un poids politique considerable au sein du parti. Estrosi a ete marque par l'attentat de Nice du 14 juillet 2016 (86 morts), qu'il a gere en tant que president de la metropole — un evenement qui a forge son image de gestionnaire de crise. Il est marie a Laura Tenoudji, journaliste, ce qui lui assure une visibilite mediatique supplementaire. Au sein d'Horizons, Estrosi joue le role de recruteur aupres des elus LR tentes par le centre-droit. Sa trajectoire illustre la strategie de Philippe : absorber les cadres de droite deçus par l'evolution de LR vers la droite dure. Le duo Philippe (Normandie) / Estrosi (PACA) donne a Horizons une assise bi-regionale qui structurera la campagne presidentielle 2027. Estrosi est egalement vice-president d'Intercommunalites de France, ce qui lui confere un reseau territorial complementaire a celui de Philippe.",
     typeLien: "politique",
     partiPolitique: "Horizons",
   },
@@ -803,25 +804,27 @@ export const reseau: PersonneReseau[] = [
     slug: "gilles-boyer",
     role: "Bras droit — co-auteur — Juppeiste historique",
     description:
-      "Bras droit de Philippe depuis la Juppeie. Co-auteur de deux fictions politiques (« L'heure de verite », « Dans l'ombre »). Conseiller strategique permanent, present a chaque etape cle : UMP, Matignon, Horizons. Fait le lien entre l'heritage Juppe et l'appareil Philippe.",
+      "Gilles Boyer est le conseiller le plus proche d'Edouard Philippe depuis plus de vingt ans, un binome politique forge dans l'orbite d'Alain Juppe. Les deux hommes se rencontrent dans les cercles juppeistes au debut des annees 2000 et ne se quitteront plus. Boyer est co-auteur de deux fictions politiques avec Philippe : « L'heure de verite » (2007) et « Dans l'ombre » (2011), des romans a cle qui eclairent leur vision du pouvoir. Il est directeur de campagne de Juppe pour la primaire de la droite en 2016, ou Philippe est co-porte-parole. Apres la defaite de Juppe et le ralliement a Macron, Boyer suit Philippe a Matignon comme conseiller officieux. Il est elu depute europeen en 2019 sur la liste LREM, confirmant son integration dans l'ecosysteme macroniste. Boyer fait le lien entre l'heritage politique de Juppe et la machine Horizons : il est present a chaque decision strategique de Philippe. Son role de « plume » et de confident en fait le gardien de la doctrine philippiste. Dans « Impressions et lignes claires » (2021), co-ecrit apres Matignon, les deux hommes livrent leur version de l'exercice du pouvoir. Boyer represente l'archetype du conseiller de l'ombre qui n'occupe jamais la premiere ligne mais influence chaque orientation.",
     typeLien: "professionnel",
   },
   {
     nom: "Christophe Castaner",
     slug: "christophe-castaner",
-    role: "Ministre de l'Interieur (2018-2020)",
+    role: "Ministre de l'Interieur (2018-2020) — doctrine maintien de l'ordre",
     description:
-      "Nomme par Philippe en oct. 2018. A qualifie les Gilets jaunes de « factieux venus pour tuer ». Responsable de la doctrine de maintien de l'ordre contestee.",
+      "Christophe Castaner est nomme ministre de l'Interieur par Edouard Philippe en octobre 2018, apres l'interim le plus long de la Ve Republique a la place Beauvau suite a la demission de Gerard Collomb. Sa nomination intervient un mois avant le debut du mouvement des Gilets jaunes, ce qui en fait le responsable direct de la doctrine de maintien de l'ordre la plus contestee depuis Mai 68. Castaner a qualifie les manifestants de « factieux venus pour tuer », legitimant une reponse securitaire disproportionnee. Sous sa direction, l'usage des lanceurs de balles de defense (LBD40) a bondi de plus de 200% par rapport a l'annee precedente. Le bilan humain est sans precedent : 25 personnes eborgnees, 5 mains arrachees, 432 blesses graves. L'ONU, le Conseil de l'Europe et Amnesty International ont demande l'interdiction de ces armes. Castaner a systematiquement ignore les signalements de violences policieres et refuse de suspendre l'usage des LBD. En tant que ministre de Philippe, sa doctrine engageait directement la responsabilite du Premier ministre. L'IGPN a ete saisie de 313 enquetes judiciaires pour suspicions de violences policieres — un record. Castaner etait auparavant delegue general de LREM, ce qui illustre la fusion entre l'appareil macroniste et l'appareil securitaire sous le gouvernement Philippe.",
     typeLien: "politique",
     partiPolitique: "LREM",
   },
-  // --- Nouvelles entites issues de l'analyse Wayback Machine ---
+  // ═══════════════════════════════════════════════════════
+  // RESEAU SINO-FRANCAIS
+  // ═══════════════════════════════════════════════════════
   {
     nom: "Benoit Ribadeau-Dumas",
     slug: "benoit-ribadeau-dumas",
     role: "Directeur de cabinet de Matignon — ENA Marc-Bloch — FCF 2013",
     description:
-      "Dircab de Philippe a Matignon (2017-2020). Issue de la meme promotion ENA Marc-Bloch (1995-1997). Membre de la France China Foundation (promotion 2013). A milite pour le maintien du 1er tour des municipales le 15 mars 2020, deux jours avant le confinement. Proximite avec CMA CGM via la FCF et les reseaux portuaires havrais.",
+      "Benoit Ribadeau-Dumas est le directeur de cabinet d'Edouard Philippe a Matignon de mai 2017 a juillet 2020, ce qui en fait le plus haut fonctionnaire non-elu du gouvernement pendant trois ans. Il est issu de la meme promotion de l'ENA Marc-Bloch (1995-1997) que Philippe — un lien de formation qui precede de vingt ans leur collaboration a Matignon. Ribadeau-Dumas est membre de la France China Foundation (promotion 2013), ce qui l'inscrit dans le reseau d'influence sino-francais en plus du reseau transatlantique. Avant Matignon, il etait directeur de cabinet adjoint de Nicolas Sarkozy a l'Elysee (2011-2012), puis secretaire general adjoint de l'Elysee sous Hollande — un parcours qui transcende les alternances politiques. A Matignon, il est l'architecte operationnel de toutes les decisions du gouvernement Philippe : ordonnances travail, 80 km/h, Gilets jaunes, reforme des retraites, Covid. C'est lui qui a milite pour le maintien du premier tour des elections municipales le 15 mars 2020, deux jours avant le confinement national — une decision qui reste controversee. La convergence entre son appartenance a la FCF, ses liens avec CMA CGM via les reseaux portuaires havrais, et sa position de dircab de Philippe dessine un systeme d'influence ou les interets sino-maritimes ont un acces direct au sommet de l'executif. L'ENA Marc-Bloch a produit une cohorte remarquable : Philippe, Ribadeau-Dumas, et plusieurs autres hauts fonctionnaires occupant des postes strategiques. Cette concentration de pouvoir issu d'une meme promotion illustre le fonctionnement oligarchique de la haute fonction publique francaise. Ribadeau-Dumas est le noeud central qui relie le reseau ENA, le reseau FCF, et le pouvoir executif.",
     typeLien: "politique",
   },
   {
@@ -829,24 +832,66 @@ export const reseau: PersonneReseau[] = [
     slug: "france-china-foundation",
     role: "Reseau franco-chinois — influence et diplomatie economique",
     description:
-      "Organisation fondee pour rapprocher les elites francaises et chinoises. Ribadeau-Dumas (dircab de Philippe) en est membre (promotion 2013). Emmanuel Lenain (conseiller diplomatique de Philippe a Matignon) en est le co-createur. Le reseau relie des decideurs politiques, des dirigeants de multinationales et des acteurs du transport maritime — dont CMA CGM, dont les routes commerciales vers l'Asie transitent massivement par Le Havre.",
+      "La France China Foundation (FCF) est une organisation fondee en 2012 pour rapprocher les elites dirigeantes francaises et chinoises, sur le modele de la French-American Foundation. Elle selectionne chaque annee une cohorte de « Young Leaders » franco-chinois — hauts fonctionnaires, dirigeants d'entreprise, diplomates, universitaires — qui participent a des seminaires confidentiels alternativement en France et en Chine. Emmanuel Lenain, diplomate et futur conseiller diplomatique d'Edouard Philippe a Matignon, est co-createur de la FCF. Benoit Ribadeau-Dumas, directeur de cabinet de Philippe a Matignon et camarade de promotion ENA Marc-Bloch, integre la FCF dans la promotion 2013. Jean-Pierre Raffarin, ancien Premier ministre connu pour ses liens privilegies avec Pekin, est l'un des parrains politiques de la fondation et preside le Comite France-Chine. La FCF opere a l'intersection de la diplomatie economique et de l'influence politique, dans un contexte ou la Chine investit massivement dans les infrastructures portuaires europeennes. CMA CGM, premier armateur francais dont les routes commerciales vers l'Asie transitent par Le Havre, est un acteur cle de cet ecosysteme — le commerce maritime franco-chinois representant des dizaines de milliards d'euros annuels. Le port du Havre, fief de Philippe, est la porte d'entree naturelle du commerce chinois en France via la facade Manche. L'opacite de la FCF sur ses activites et ses membres est comparable a celle de la FAF : pas de publication des ordres du jour, pas de comptes rendus publics. La simultaneite des reseaux FAF (transatlantique) et FCF (sino-francais) autour du meme noyau de pouvoir — Philippe, Ribadeau-Dumas, Lenain — cree un systeme d'influence bipolaire sans precedent a Matignon.",
     typeLien: "mediatique",
   },
   {
     nom: "Emmanuel Lenain",
     slug: "emmanuel-lenain",
-    role: "Co-createur FCF — conseiller diplomatique Matignon",
+    role: "Co-createur FCF — conseiller diplomatique Matignon — ambassadeur",
     description:
-      "Diplomate, co-fondateur de la France China Foundation. Conseiller diplomatique d'Edouard Philippe a Matignon. Fait le lien entre les reseaux transatlantiques (FAF) et sino-francais (FCF) autour du Premier ministre.",
+      "Emmanuel Lenain est diplomate de carriere, co-fondateur de la France China Foundation en 2012 et conseiller diplomatique d'Edouard Philippe a Matignon de 2017 a 2020. Cette double casquette — architecte du reseau sino-francais et conseiller du Premier ministre — en fait le pont humain entre les reseaux transatlantiques (FAF) et asiatiques (FCF) au coeur du pouvoir executif. Avant Matignon, Lenain a occupe plusieurs postes diplomatiques strategiques, notamment a la representation permanente de la France aupres des Nations Unies. Apres son passage a Matignon, il est nomme ambassadeur de France en Inde (2019-2022), un poste qui l'inscrit dans le triangle strategique France-Chine-Inde. Sa creation de la FCF en 2012, un an apres la selection de Philippe comme Young Leader a la FAF, suggere une strategie deliberee de construction de reseaux d'influence bilateraux complementaires. En tant que conseiller diplomatique de Philippe, Lenain avait acces a toutes les negociations internationales du gouvernement, y compris celles impliquant la Chine et les routes commerciales maritimes. Le Havre, premier port francais et fief de Philippe, est directement concerne par les enjeux du commerce sino-francais et l'initiative Belt and Road (Nouvelles Routes de la Soie). La position de Lenain a la croisee de la FCF, de Matignon et de la diplomatie asiatique illustre comment un seul individu peut servir de courroie de transmission entre des interets diplomatiques, economiques et politiques. Son parcours apres Matignon — ambassade en Inde, puis postes au Quai d'Orsay — confirme sa trajectoire au sein de l'appareil diplomatique francais oriente vers l'Asie. Lenain est le chainon manquant qui relie le reseau Young Leaders de Philippe au reseau sino-francais.",
     typeLien: "professionnel",
   },
   {
     nom: "Port du Havre (HAROPA)",
     slug: "port-du-havre",
-    role: "1er port francais — point d'entree cocaine en Europe",
+    role: "1er port francais — noeud sino-maritime — point d'entree cocaine",
     description:
-      "Premier port a conteneurs de France (HAROPA depuis 2021). Premier point d'entree de la cocaine en Europe selon Europol. Fief politique d'Edouard Philippe (maire depuis 2010). Les navires CMA CGM y representent une part majeure du trafic. Les saisies de drogue au Havre ont explose : 18 tonnes de cocaine en 2023.",
+      "Le port du Havre est le premier port a conteneurs de France et le cinquieme en Europe. Depuis 2021, il est integre dans l'ensemble HAROPA (Le Havre, Rouen, Paris), le premier complexe portuaire francais. Edouard Philippe en est le maire depuis 2010, ce qui lui confere une influence directe sur les orientations strategiques du port et de la communaute urbaine Le Havre Seine Metropole. CMA CGM, premier armateur francais, y represente une part majeure du trafic conteneurise, avec des lignes directes vers Shanghai, Ningbo, Shenzhen et les grands ports asiatiques. Le commerce maritime franco-chinois transiteant par Le Havre represente des milliards d'euros annuels. Le port est egalement concerne par l'initiative chinoise Belt and Road (Nouvelles Routes de la Soie), qui vise a connecter les infrastructures portuaires europeennes au reseau logistique chinois. Selon Europol, Le Havre est le premier point d'entree de la cocaine en Europe. Les saisies de drogue y ont explose : 18 tonnes de cocaine saisies par les douanes francaises en 2023, un record. La securite portuaire est sous la responsabilite partagee de l'Etat, des douanes et des autorites portuaires — un domaine ou les interets de CMA CGM (via Yann Le Goff, securite), de la mairie (Philippe), et des reseaux d'influence (FAF, FCF) se croisent. L'extension du port et les investissements dans les terminaux a conteneurs sont des enjeux economiques majeurs pour la region, ou Philippe jouit d'un ancrage politique sans partage depuis quinze ans. La question de la gouvernance portuaire — qui decide des investissements, des concessions, des controles — est au coeur du nexus Philippe-CMA CGM-FCF.",
     typeLien: "financier",
+  },
+  // --- Acteurs cles du reseau sino-francais ---
+  {
+    nom: "Jean-Pierre Raffarin",
+    slug: "jean-pierre-raffarin",
+    role: "Ancien Premier ministre — parrain du reseau franco-chinois",
+    description:
+      "Jean-Pierre Raffarin, Premier ministre de Jacques Chirac de 2002 a 2005, est considere comme le principal artisan des relations franco-chinoises au sein de la classe politique francaise. Il preside le Comite France-Chine du Medef International et est l'un des parrains politiques de la France China Foundation. Sinophile convaincu, Raffarin effectue des dizaines de voyages en Chine et entretient des relations personnelles avec les dirigeants du Parti communiste chinois. Il est senateur de la Vienne de 2011 a 2017, periode pendant laquelle il intensifie son role d'intermediaire franco-chinois. Raffarin est le predecesseur politique d'Edouard Philippe dans le role d'interlocuteur francais privilegie de Pekin — un role que Philippe peut heriter via le reseau FCF de Ribadeau-Dumas et Lenain. Le Comite France-Chine du Medef reunit les plus grandes entreprises francaises operant en Chine, dont plusieurs acteurs du transport maritime et de la logistique. Raffarin a ete critique pour ses positions jugees trop complaisantes envers Pekin, notamment sur la question des droits de l'homme, du Tibet et du Xinjiang. Il incarne la diplomatie economique francaise en Chine : ouverture de marches pour les entreprises francaises en echange d'un silence diplomatique sur les sujets sensibles. Sa position de parrain de la FCF fait de lui le patriarche du reseau sino-francais dans lequel s'inscrivent Ribadeau-Dumas et Lenain. La ligne de succession Raffarin → FCF → Ribadeau-Dumas → Matignon Philippe illustre la transmission du capital relationnel chinois au sein de l'elite politique francaise.",
+    typeLien: "politique",
+    partiPolitique: "UMP/LR",
+  },
+  {
+    nom: "Rodolphe Saade",
+    slug: "rodolphe-saade",
+    role: "PDG de CMA CGM — empire maritime franco-libanais",
+    description:
+      "Rodolphe Saade est le president-directeur general de CMA CGM depuis 2017, succedant a son pere Jacques Saade, fondateur du groupe en 1978. Sous sa direction, CMA CGM est devenu le troisieme armateur mondial avec un chiffre d'affaires depassant 70 milliards d'euros en 2022. Saade a diversifie le groupe au-dela du transport maritime : acquisition de CEVA Logistics (logistique), rachat de La Tribune et La Provence (medias), investissements dans la tech. Le groupe Saade est d'origine libanaise, base a Marseille, et entretient des liens commerciaux majeurs avec la Chine — les routes Asie-Europe representent le coeur de l'activite de CMA CGM. Le port du Havre, fief d'Edouard Philippe, est l'un des principaux hubs europeens de CMA CGM. Yann Le Goff, responsable securite CMA CGM et Young Leader 2011 avec Philippe, opere directement sous l'autorite de la direction Saade. La fortune de Rodolphe Saade est estimee a plus de 40 milliards d'euros, ce qui en fait l'une des plus grandes fortunes de France. Son expansion dans les medias (La Tribune, La Provence, BFM Marseille) lui confere une influence mediatique en plus de son poids economique. CMA CGM est un acteur central de l'initiative Belt and Road chinoise, avec des partenariats portuaires en Mediterranee, en Afrique et en Asie du Sud-Est. La convergence entre l'empire Saade, le port du Havre de Philippe, et les reseaux FCF de Ribadeau-Dumas constitue un nexus d'interets economiques et politiques d'une ampleur considerable.",
+    typeLien: "financier",
+  },
+  {
+    nom: "Nouvelles Routes de la Soie (Belt and Road)",
+    slug: "belt-and-road",
+    role: "Initiative chinoise d'infrastructures — impact portuaire europeen",
+    description:
+      "L'initiative Belt and Road (BRI), lancee par Xi Jinping en 2013, est le plus grand programme d'infrastructures de l'histoire, avec des investissements estimes a plus de 1 000 milliards de dollars a travers l'Asie, l'Afrique et l'Europe. Le volet maritime de la BRI — la « Route de la Soie Maritime du XXIe siecle » — vise a connecter les ports chinois aux ports europeens via des investissements dans les terminaux, la logistique et les concessions portuaires. En Europe, la Chine a investi dans les ports du Piree (Grece, via COSCO), de Hambourg, d'Anvers et de Valence. Le port du Havre, premier port francais a conteneurs et fief d'Edouard Philippe, est directement concerne par cette strategie. CMA CGM, dont les routes Asie-Europe sont le coeur de l'activite, est a la fois concurrent et partenaire potentiel des armateurs chinois COSCO et OOCL. La France China Foundation, dont le directeur de cabinet de Philippe (Ribadeau-Dumas) est membre, opere dans cet espace ou la diplomatie economique chinoise cherche a etablir des relais d'influence aupres des decideurs europeens. La BRI a ete critiquee comme un instrument de « diplomatie de la dette » et d'influence geopolitique chinoise. Le fait que le Premier ministre francais ait ete entoure a Matignon de personnes inscrites dans les reseaux sino-francais (FCF) tout en etant maire du premier port francais sur la route maritime chinoise cree une convergence d'interets inedite. L'Italie a signe un memorandum BRI en 2019 avant de s'en retirer en 2023 — la France, sous Philippe, n'a jamais signe mais a maintenu une position ambigue. La question de la souverainete portuaire face aux investissements chinois est un enjeu strategique qui touche directement Le Havre.",
+    typeLien: "mediatique",
+  },
+  {
+    nom: "COSCO Shipping",
+    slug: "cosco-shipping",
+    role: "Premier armateur chinois — rival et partenaire de CMA CGM",
+    description:
+      "COSCO Shipping est le premier armateur chinois et le quatrieme mondial, detenu par l'Etat chinois via le SASAC (commission de supervision des entreprises d'Etat). COSCO opere plus de 1 300 navires et dessert plus de 300 ports dans le monde. En Europe, COSCO a acquis 67% du port du Piree en Grece (2016), illustrant la strategie chinoise de prise de controle d'infrastructures portuaires strategiques. COSCO et CMA CGM sont a la fois concurrents et partenaires au sein de l'alliance maritime Ocean Alliance, qui regroupe les lignes Asie-Europe — les memes routes qui transitent par Le Havre. Cette alliance signifie que les conteneurs CMA CGM et COSCO partagent les memes navires et les memes terminaux, y compris au Havre. La presence de COSCO dans les ports europeens a suscite des inquietudes en matiere de securite nationale et de souverainete. L'Allemagne a bloque en 2022 la prise de participation de COSCO dans le terminal de Hambourg au-dela de 24,9%. La question se pose pour Le Havre : dans quelle mesure les investissements chinois dans les ports concurrents affectent-ils la strategie du premier port francais ? La France China Foundation, dont des membres entourent Philippe a Matignon, opere precisement dans cet espace de diplomatie portuaire sino-europeenne. L'imbrication entre Ocean Alliance (COSCO + CMA CGM), les reseaux FCF, et la mairie du Havre de Philippe constitue un faisceau d'interets qui merite un examen approfondi. COSCO est un bras arme de la politique Belt and Road chinoise dans le domaine maritime.",
+    typeLien: "financier",
+  },
+  {
+    nom: "Comite France-Chine (MEDEF)",
+    slug: "comite-france-chine",
+    role: "Diplomatie economique — lobby sino-francais du patronat",
+    description:
+      "Le Comite France-Chine, rattache au MEDEF International, est le principal organe de lobbying du patronat francais aupres de la Chine. Preside par Jean-Pierre Raffarin, ancien Premier ministre et parrain du reseau sino-francais, il reunit les dirigeants des plus grandes entreprises francaises operant en Chine ou desireuses de penetrer le marche chinois. Le Comite organise des missions economiques, des forums d'affaires franco-chinois et des rencontres entre dirigeants d'entreprise et responsables politiques des deux pays. CMA CGM, dont les routes commerciales vers l'Asie sont le coeur de l'activite, est un acteur naturel de cet ecosysteme. Le Comite France-Chine fonctionne en synergie avec la France China Foundation : le premier opere au niveau des entreprises, la seconde au niveau des individus (Young Leaders franco-chinois). La presence de Raffarin a la tete du Comite et comme parrain de la FCF cree un pont entre diplomatie economique officielle et reseaux d'influence informels. Les membres du Comite incluent des groupes du CAC 40 actifs en Chine : Airbus, Total, L'Oreal, Sanofi, et des acteurs portuaires et logistiques. Pour Le Havre, le Comite France-Chine est un interlocuteur cle dans la competition entre ports europeens pour attirer le commerce chinois. Ribadeau-Dumas (dircab de Philippe, FCF 2013) et Lenain (co-createur FCF, conseiller diplomatique) ont tous deux evolue dans cet ecosysteme avant et pendant Matignon. Le Comite represente la face institutionnelle du lobbying sino-francais, tandis que la FCF en est la face relationnelle et confidentielle.",
+    typeLien: "mediatique",
   },
 ];
 
