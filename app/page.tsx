@@ -17,12 +17,10 @@ export default function Home() {
           <span className="text-foreground">EDOUARD</span>
         </h1>
         <p className="text-lg text-muted max-w-2xl mx-auto font-mono">
-          Veille citoyenne sur Edouard Philippe — l&apos;IA au service du
-          Citoyen.
-          <br />
-          <span className="text-xs text-muted/50">
-            Suivi automatise 24/7 par agents IA
-          </span>
+          Veille citoyenne sur Edouard Philippe
+        </p>
+        <p className="text-sm text-muted/60 max-w-2xl mx-auto font-mono mt-2">
+          l&apos;IA au service du Citoyen
         </p>
         <div className="mt-6 flex items-center justify-center gap-2 text-xs text-muted/70">
           <span className="inline-block h-2 w-2 rounded-full bg-neon-green pulse-neon" />
