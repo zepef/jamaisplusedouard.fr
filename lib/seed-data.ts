@@ -1,5 +1,5 @@
 // Données extraites de edouard_philippe_biographie.docx
-// Seed statique pour le rendu initial — sera remplace par la BDD
+// Seed statique pour le rendu initial — sera remplacé par la BDD
 
 export const ficheSynthetique = {
   nomComplet: "Édouard Charles Philippe",
@@ -9,11 +9,11 @@ export const ficheSynthetique = {
   parti: "Horizons (depuis 2021) — ex-UMP/LR",
   fonctionActuelle: "Maire du Havre (3e mandat, depuis 2026)",
   premierMinistre: "15 mai 2017 – 3 juillet 2020",
-  conjoint: "Édith Chabre (marie depuis 2002)",
-  enfants: "Trois : Anatole, Leonard, Sarah",
+  conjoint: "Édith Chabre (marié depuis 2002)",
+  enfants: "Trois : Anatole, Léonard, Sarah",
   formation:
     "Sciences Po Paris (1992), ENA Marc-Bloch (1997), Young Leader FAF (2011)",
-  candidature2027: "Declaree en septembre 2024",
+  candidature2027: "Déclarée en septembre 2024",
 };
 
 export type TimelineEvent = {
@@ -28,17 +28,17 @@ export const timeline: TimelineEvent[] = [
   // I. Origines, jeunesse et formation
   {
     annee: "1970",
-    titre: "Naissance a Rouen",
+    titre: "Naissance à Rouen",
     description:
-      "Nait le 28 novembre 1970 a Rouen dans une famille d'enseignants. Son père est chef d'établissement scolaire, sa mère professeur de français. Il évoque régulièrement un arrière-grand-père docker, membre de la CGT au Havre, parmi les premiers adhérents du Parti communiste.",
+      "Naît le 28 novembre 1970 à Rouen dans une famille d'enseignants. Son père est chef d'établissement scolaire, sa mère professeur de français. Il évoque régulièrement un arrière-grand-père docker, membre de la CGT au Havre, parmi les premiers adhérents du Parti communiste.",
     categorie: "biographie",
     section: "Origines",
   },
   {
     annee: "1988",
-    titre: "Baccalaureat au lycee français de Bonn",
+    titre: "Baccalauréat au lycée français de Bonn",
     description:
-      "Passe son bac en Allemagne ou son père est proviseur. Ce séjour formateur marque durablement sa vision européenne.",
+      "Passe son bac en Allemagne où son père est proviseur. Ce séjour formateur marque durablement sa vision européenne.",
     categorie: "biographie",
     section: "Formation",
   },
@@ -46,7 +46,7 @@ export const timeline: TimelineEvent[] = [
     annee: "1992",
     titre: "Diplôme de Sciences Po Paris",
     description:
-      "Section Service public. Se rapproché un temps des clubs animes par le courant rocardien du PS. Milite brievement (environ deux ans) au PS avant de s'en éloigner définitivement.",
+      "Section Service public. Se rapproche un temps des clubs animés par le courant rocardien du PS. Milite brièvement (environ deux ans) au PS avant de s'en éloigner définitivement.",
     categorie: "biographie",
     section: "Formation",
   },
@@ -54,7 +54,7 @@ export const timeline: TimelineEvent[] = [
     annee: "1994",
     titre: "Service militaire — officier d'artillerie",
     description:
-      "Officier au 11e regiment d'artillerie de marine, avec le grade d'aspirant. Sera ensuite officier dans la reserve opérationnelle.",
+      "Officier au 11e régiment d'artillerie de marine, avec le grade d'aspirant. Sera ensuite officier dans la réserve opérationnelle.",
     categorie: "biographie",
     section: "Formation",
   },
@@ -70,7 +70,7 @@ export const timeline: TimelineEvent[] = [
     annee: "2011",
     titre: "Young Leader — French-American Foundation",
     description:
-      "Sélectionné avec 9 autres Français et 10 Americains. Dans sa promotion : Yann Le Goff (sécurité regionale CMA CGM), Yohann Benard (Amazon France). Macron sera dans la promotion suivante (2012), Juppe dans la fondatrice (1982). Le contenu des séminaires n'est pas public.",
+      "Sélectionné avec 9 autres Français et 10 Américains. Dans sa promotion : Yann Le Goff (sécurité régionale CMA CGM), Yohann Bénard (Amazon France). Macron sera dans la promotion suivante (2012), Juppé dans la fondatrice (1982). Le contenu des séminaires n'est pas public.",
     categorie: "biographie",
     section: "Réseau",
   },
@@ -79,14 +79,14 @@ export const timeline: TimelineEvent[] = [
     annee: "2013",
     titre: "Ribadeau-Dumas rejoint la France China Foundation",
     description:
-      "Benoit Ribadeau-Dumas, futur dircab de Philippe a Matignon, issu de la même promotion ENA Marc-Bloch, intègre la France China Foundation (FCF). Emmanuel Lenain, co-créateur de la FCF, deviendra conseiller diplomatique de Philippe a Matignon.",
+      "Benoît Ribadeau-Dumas, futur dircab de Philippe à Matignon, issu de la même promotion ENA Marc-Bloch, intègre la France China Foundation (FCF). Emmanuel Lenain, co-créateur de la FCF, deviendra conseiller diplomatique de Philippe à Matignon.",
     categorie: "biographie",
     section: "Réseau",
   },
   // II. Carrière professionnelle
   {
     annee: "1997-2002",
-    titre: "Conseil d'État — auditeur puis maitre des requetes",
+    titre: "Conseil d'État — auditeur puis maître des requêtes",
     description:
       "Section du contentieux, spécialisé dans le droit des marchés publics.",
     categorie: "carrière",
@@ -96,7 +96,7 @@ export const timeline: TimelineEvent[] = [
     annee: "2004-2007",
     titre: "Avocat chez Debevoise & Plimpton",
     description:
-      "Rejoint la filiale française du cabinet d'avocats anglo-saxon. Se met en disponibilite du Conseil d'État.",
+      "Rejoint la filiale française du cabinet d'avocats anglo-saxon. Se met en disponibilité du Conseil d'État.",
     categorie: "carrière",
     section: "Carrière",
   },
@@ -112,7 +112,7 @@ export const timeline: TimelineEvent[] = [
     annee: "2020",
     titre: "Administrateur d'Atos",
     description:
-      "Nomme administrateur indépendant. Mandat rémunéré ~70 000€/an, critique alors que l'entreprise connait de graves difficultes financières. Atos est en pointe sur le traitement des données des radars automatiques.",
+      "Nommé administrateur indépendant. Mandat rémunéré ~70 000€/an, critiqué alors que l'entreprise connaît de graves difficultés financières. Atos est en pointe sur le traitement des données des radars automatiques.",
     categorie: "controverse",
     section: "Carrière",
   },
@@ -121,15 +121,15 @@ export const timeline: TimelineEvent[] = [
     annee: "2001",
     titre: "Adjoint au maire du Havre",
     description:
-      "Antoine Rufenacht le propose sur sa liste municipale. Charge des affaires juridiques.",
+      "Antoine Rufenacht le propose sur sa liste municipale. Chargé des affaires juridiques.",
     categorie: "biographie",
     section: "Le Havre",
   },
   {
     annee: "2002",
-    titre: "Echec aux législatives / DG de l'UMP",
+    titre: "Échec aux législatives / DG de l'UMP",
     description:
-      "Battu par le communiste Daniel Paul (42,5%). Juppe lui propose de participer a la fondation de l'UMP — DG des services jusqu'en 2004.",
+      "Battu par le communiste Daniel Paul (42,5%). Juppé lui propose de participer à la fondation de l'UMP — DG des services jusqu'en 2004.",
     categorie: "biographie",
     section: "Politique nationale",
   },
@@ -137,7 +137,7 @@ export const timeline: TimelineEvent[] = [
     annee: "2010",
     titre: "Élu maire du Havre",
     description:
-      "Succede a Antoine Rufenacht. Président de la communaute d'agglomeration havraise. Mene une politique de transformation urbaine, mais endettement en forte hausse — finances « proches du seuil d'alerte » selon la chambre regionale des comptes.",
+      "Succède à Antoine Rufenacht. Président de la communauté d'agglomération havraise. Mène une politique de transformation urbaine, mais endettement en forte hausse — finances « proches du seuil d'alerte » selon la chambre régionale des comptes.",
     categorie: "biographie",
     section: "Le Havre",
   },
@@ -151,16 +151,16 @@ export const timeline: TimelineEvent[] = [
   {
     annee: "2014",
     titre: "Réélu maire du Havre au 1er tour",
-    description: "La liste qu'il conduit l'emporte des le premier tour.",
+    description: "La liste qu'il conduit l'emporte dès le premier tour.",
     categorie: "biographie",
     section: "Le Havre",
   },
   // IV. Route vers Matignon
   {
     annee: "2016",
-    titre: "Porte-parole de Juppe a la primaire",
+    titre: "Porte-parole de Juppé à la primaire",
     description:
-      "Co-porte-parole avec Benoist Apparu. Apres la défaite de Juppe, se rallie a Fillon.",
+      "Co-porte-parole avec Benoist Apparu. Après la défaite de Juppé, se rallie à Fillon.",
     categorie: "biographie",
     section: "Politique nationale",
   },
@@ -168,14 +168,14 @@ export const timeline: TimelineEvent[] = [
     annee: "Mars 2017",
     titre: "Retrait de la campagne Fillon",
     description:
-      "Se met en retrait apres l'affaire Fillon. Avait qualifie Macron d'« ancien banquier de chez Rothschild » et dénoncé son « cynisme de vieux routier ».",
+      "Se met en retrait après l'affaire Fillon. Avait qualifié Macron d'« ancien banquier de chez Rothschild » et dénoncé son « cynisme de vieux routier ».",
     categorie: "biographie",
     section: "Politique nationale",
   },
   // V. Premier ministre
   {
     annee: "15 mai 2017",
-    titre: "Nomme Premier ministre",
+    titre: "Nommé Premier ministre",
     description:
       "3e plus jeune PM de la Ve République (46 ans). Première fois hors cohabitation qu'un PM n'est pas du mouvement présidentiel.",
     categorie: "biographie",
@@ -183,14 +183,14 @@ export const timeline: TimelineEvent[] = [
   },
   {
     annee: "Mai 2017",
-    titre: "Ribadeau-Dumas nomme directeur de cabinet",
+    titre: "Ribadeau-Dumas nommé directeur de cabinet",
     description:
-      "Benoit Ribadeau-Dumas (ENA Marc-Bloch, même promotion que Philippe, FCF 2013) est nomme dircab de Matignon. Emmanuel Lenain (co-créateur FCF) devient conseiller diplomatique. Le réseau ENA/FAF/FCF se retrouve au cœur du pouvoir exécutif.",
+      "Benoît Ribadeau-Dumas (ENA Marc-Bloch, même promotion que Philippe, FCF 2013) est nommé dircab de Matignon. Emmanuel Lenain (co-créateur FCF) devient conseiller diplomatique. Le réseau ENA/FAF/FCF se retrouve au cœur du pouvoir exécutif.",
     categorie: "controverse",
     section: "Matignon",
   },
   {
-    annee: "Ete 2017",
+    annee: "Été 2017",
     titre: "Ordonnances Code du travail",
     description:
       "Flexibilisation du marché du travail, renforcement du dialogue social. Première réforme majeure par ordonnances.",
@@ -201,15 +201,15 @@ export const timeline: TimelineEvent[] = [
     annee: "1er janv. 2018",
     titre: "11 vaccins obligatoires",
     description:
-      "Annonce la mesure en personne le 4 juillet 2017. 8 vaccins recommandes deviennent obligatoires, conditionnant l'entrée en collectivite. Contestee par les mouvements anti-vaccination. La question des conflits d'intérêts avec les laboratoires est soulevee.",
+      "Annonce la mesure en personne le 4 juillet 2017. 8 vaccins recommandés deviennent obligatoires, conditionnant l'entrée en collectivité. Contestée par les mouvements anti-vaccination. La question des conflits d'intérêts avec les laboratoires est soulevée.",
     categorie: "controverse",
     section: "Matignon",
   },
   {
     annee: "1er juil. 2018",
-    titre: "Passage a 80 km/h",
+    titre: "Passage à 80 km/h",
     description:
-      "Reduction de la vitesse sur les routes secondaires. Dossier le plus personnel de son mandat, porte contre la volonté de Macron. Massivement impopulaire, contribue au ressentiment des Gilets jaunes. Lien potentiel avec Atos (radars automatiques) releve par la presse.",
+      "Réduction de la vitesse sur les routes secondaires. Dossier le plus personnel de son mandat, porté contre la volonté de Macron. Massivement impopulaire, contribue au ressentiment des Gilets jaunes. Lien potentiel avec Atos (radars automatiques) relevé par la presse.",
     categorie: "controverse",
     section: "Matignon",
   },
@@ -223,9 +223,9 @@ export const timeline: TimelineEvent[] = [
   },
   {
     annee: "Nov. 2018",
-    titre: "Gilets jaunes — debut du mouvement",
+    titre: "Gilets jaunes — début du mouvement",
     description:
-      "Ne de l'opposition aux taxes carburants et du ressentiment accumule. Bilan : 432 blesses graves, 25 éborgnes, 5 mains arrachees, 1 deces (Zineb Redouane). L'ONU et Amnesty International demandent l'interdiction des LBD40. Philippe encourage la réponse sécuritaire.",
+      "Né de l'opposition aux taxes carburants et du ressentiment accumulé. Bilan : 432 blessés graves, 25 éborgnes, 5 mains arrachées, 1 décès (Zineb Redouane). L'ONU et Amnesty International demandent l'interdiction des LBD40. Philippe encourage la réponse sécuritaire.",
     categorie: "controverse",
     section: "Matignon",
   },
@@ -233,7 +233,7 @@ export const timeline: TimelineEvent[] = [
     annee: "Dec. 2018",
     titre: "Moratoire sur les taxes carburants",
     description:
-      "Annonce un moratoire de 6 mois — l'Élysée revient dessus le lendemain. Tensions Matignon/présidence exposees au grand jour.",
+      "Annonce un moratoire de 6 mois — l'Élysée revient dessus le lendemain. Tensions Matignon/présidence exposées au grand jour.",
     categorie: "controverse",
     section: "Matignon",
   },
@@ -264,7 +264,7 @@ export const timeline: TimelineEvent[] = [
     annee: "13 mars 2020",
     titre: "« Le masque est inutile en population générale »",
     description:
-      "Déclaration sur TF1 alors que les stocks sont insuffisants. Volte-face debut avril. Maintien du 1er tour des municipales le 15 mars, 2 jours avant le confinement.",
+      "Déclaration sur TF1 alors que les stocks sont insuffisants. Volte-face début avril. Maintien du 1er tour des municipales le 15 mars, 2 jours avant le confinement.",
     categorie: "controverse",
     section: "Covid",
   },
@@ -272,7 +272,7 @@ export const timeline: TimelineEvent[] = [
     annee: "17 mars 2020",
     titre: "Confinement national — 55 jours",
     description:
-      "L'un des plus stricts d'Europe. 168 000 deces du Covid entre 2020 et septembre 2023.",
+      "L'un des plus stricts d'Europe. 168 000 décès du Covid entre 2020 et septembre 2023.",
     categorie: "controverse",
     section: "Covid",
   },
@@ -280,7 +280,7 @@ export const timeline: TimelineEvent[] = [
     annee: "28 mars 2020",
     titre: "Décret Rivotril",
     description:
-      "Autorise la dispensation de Rivotril (dépresseur respiratoire) pour patients Covid en fin de vie. Accusations d'« euthanasie légalisée ». Le décret pallie une pénurie de midazolam. Les ARS restreignent l'accès hospitalier des residents d'EHPAD.",
+      "Autorise la dispensation de Rivotril (dépresseur respiratoire) pour patients Covid en fin de vie. Accusations d'« euthanasie légalisée ». Le décret pallie une pénurie de midazolam. Les ARS restreignent l'accès hospitalier des résidents d'EHPAD.",
     categorie: "controverse",
     section: "Covid",
   },
@@ -288,7 +288,7 @@ export const timeline: TimelineEvent[] = [
     annee: "3 juil. 2020",
     titre: "Démission de Matignon",
     description:
-      "Réélu maire du Havre avec 58,83%. Remet la démission du gouvernement. Jean Castex lui succede. 3 ans et 49 jours a Matignon.",
+      "Réélu maire du Havre avec 58,83%. Remet la démission du gouvernement. Jean Castex lui succède. 3 ans et 49 jours à Matignon.",
     categorie: "biographie",
     section: "Matignon",
   },
@@ -313,16 +313,16 @@ export const timeline: TimelineEvent[] = [
     annee: "Juin 2024",
     titre: "Dissolution — « décision funeste et absurde »",
     description:
-      "Appelle a faire barrage a LFI et RN. Horizons obtient 6 sièges. Qualifie la dissolution de « funeste et absurde ».",
+      "Appelle à faire barrage à LFI et RN. Horizons obtient 6 sièges. Qualifie la dissolution de « funeste et absurde ».",
     categorie: "biographie",
     section: "Horizons",
   },
   // VII. Candidature 2027
   {
     annee: "3 sept. 2024",
-    titre: "Candidature présidentielle declaree",
+    titre: "Candidature présidentielle déclarée",
     description:
-      "Interview au Point : « Je serai candidat. » Evoque 4 « perils » : démocratique, budgetaire, immobilisme, ordre public.",
+      "Interview au Point : « Je serai candidat. » Évoque 4 « périls » : démocratique, budgétaire, immobilisme, ordre public.",
     categorie: "biographie",
     section: "Présidentielle 2027",
   },
@@ -330,7 +330,7 @@ export const timeline: TimelineEvent[] = [
     annee: "Automne 2025",
     titre: "Rupture avec Macron",
     description:
-      "Prend ouvertement ses distances. Appelle Macron a demissionner. « Ce président n'aime pas les premiers ministres qui prennent de l'espace. »",
+      "Prend ouvertement ses distances. Appelle Macron à démissionner. « Ce président n'aime pas les premiers ministres qui prennent de l'espace. »",
     categorie: "biographie",
     section: "Présidentielle 2027",
   },
@@ -338,7 +338,7 @@ export const timeline: TimelineEvent[] = [
     annee: "22 mars 2026",
     titre: "Réélu maire du Havre — 3e mandat",
     description:
-      "1er tour 43,76%, 2nd tour 47,71% en triangulaire. Face a Lecoq (gauche, 41,2%) et Keller (UDR-RN, 11,1%). 3 sièges extrême droite au conseil municipal. Horizons revendique 465 maires encarté nationalement.",
+      "1er tour 43,76%, 2nd tour 47,71% en triangulaire. Face à Lecoq (gauche, 41,2%) et Keller (UDR-RN, 11,1%). 3 sièges extrême droite au conseil municipal. Horizons revendique 465 maires encartés nationalement.",
     categorie: "biographie",
     section: "Présidentielle 2027",
   },
@@ -347,7 +347,7 @@ export const timeline: TimelineEvent[] = [
     annee: "Juil. 2025",
     titre: "Non-lieu CJR — affaire Covid",
     description:
-      "Non-lieu général pour Philippe, Buzyn et Veran. L'arrêt de 500 pages constitue paradoxalement un « réquisitoire impitoyable » contre la gestion gouvernementale (Pr. Olivier Beaud).",
+      "Non-lieu général pour Philippe, Buzyn et Véran. L'arrêt de 500 pages constitue paradoxalement un « réquisitoire impitoyable » contre la gestion gouvernementale (Pr. Olivier Beaud).",
     categorie: "controverse",
     section: "Judiciaire",
   },
@@ -355,7 +355,7 @@ export const timeline: TimelineEvent[] = [
     annee: "Avril 2024",
     titre: "Enquête PNF — gestion de la métropole du Havre",
     description:
-      "Enquête préliminaire pour prise illégale d'intérêts, détournement de fonds publics, favoritisme et harcèlement moral. Perquisitions a la mairie le 3 avril 2024. Philippe conteste fermement.",
+      "Enquête préliminaire pour prise illégale d'intérêts, détournement de fonds publics, favoritisme et harcèlement moral. Perquisitions à la mairie le 3 avril 2024. Philippe conteste fermement.",
     categorie: "controverse",
     section: "Judiciaire",
   },
@@ -363,7 +363,7 @@ export const timeline: TimelineEvent[] = [
     annee: "19 mars 2026",
     titre: "Menaces de mort pendant la campagne",
     description:
-      "Courrier anonyme avec menaces de mort et douille percutée recu a la mairie du Havre.",
+      "Courrier anonyme avec menaces de mort et douille percutée reçu à la mairie du Havre.",
     categorie: "biographie",
     section: "Présidentielle 2027",
   },
