@@ -54,7 +54,7 @@ export default function ActualitesPage() {
                 className={`text-xs font-mono font-bold shrink-0 w-28 ${
                   event.categorie === "controverse"
                     ? "text-neon-red"
-                    : event.categorie === "carrière"
+                    : event.categorie === "carriere"
                       ? "text-yellow-400"
                       : "text-cyan"
                 }`}
@@ -67,7 +67,7 @@ export default function ActualitesPage() {
                     className={`tag ${
                       event.categorie === "controverse"
                         ? "tag-controverse"
-                        : event.categorie === "carrière"
+                        : event.categorie === "carriere"
                           ? "text-yellow-400 border-yellow-400/30 bg-yellow-400/8"
                           : "tag-actualite"
                     }`}
