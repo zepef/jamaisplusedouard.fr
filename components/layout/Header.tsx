@@ -19,10 +19,10 @@ export default function Header() {
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-3 group">
             <span className="text-xl font-bold tracking-tight text-cyan glow-cyan">
-              JAMAIS+
+              #JamaisPlusEdouard
             </span>
-            <span className="text-sm font-mono text-muted hidden sm:block">
-              edouard.fr
+            <span className="text-xs font-mono text-magenta hidden sm:block">
+              #JPE
             </span>
           </Link>
 
