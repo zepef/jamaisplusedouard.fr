@@ -7,6 +7,7 @@ const navLinks = [
   { href: "/biographie", label: "Biographie" },
   { href: "/actualites", label: "Actualites" },
   { href: "/controverses", label: "Controverses" },
+  { href: "/conflits", label: "Conflits" },
   { href: "/reseau", label: "Reseau" },
   { href: "/matraquage", label: "Matraquage" },
   { href: "/soumettre", label: "Soumettre" },

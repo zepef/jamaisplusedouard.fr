@@ -17,8 +17,8 @@ export default function Home() {
           <span className="text-foreground">EDOUARD</span>
         </h1>
         <p className="text-lg text-muted max-w-2xl mx-auto font-mono">
-          Veille citoyenne sur Edouard Philippe — biographie, faux pas, reseau
-          suspect.
+          Veille citoyenne sur Edouard Philippe — l&apos;IA au service du
+          Citoyen.
           <br />
           <span className="text-xs text-muted/50">
             Suivi automatise 24/7 par agents IA

@@ -934,6 +934,63 @@ export const reseau: PersonneReseau[] = [
     typeLien: "mediatique",
     sousReseaux: ["sino-francais"],
   },
+  // ═══════════════════════════════════════════════════════
+  // ENTITES DE DEUXIEME NIVEAU — conflits d'interets
+  // ═══════════════════════════════════════════════════════
+  {
+    nom: "Alexis Kohler",
+    slug: "alexis-kohler",
+    role: "Secretaire general de l'Elysee — mis en examen pour conflits d'interets maritimes",
+    description:
+      "Alexis Kohler est le secretaire general de la presidence de la Republique depuis mai 2017, nomme par Emmanuel Macron. C'est le poste non-elu le plus puissant de France : il coordonne l'ensemble de l'action gouvernementale et gere l'agenda du president. Kohler est mis en examen en septembre 2022 pour prise illegale d'interets en lien avec ses fonctions anterieures a la direction du Tresor et au ministere de l'Economie, ou il supervisait des dossiers impliquant MSC (Mediterranean Shipping Company). Sa mere est cousine de Rafaela Aponte, epouse de Gianluigi Aponte, fondateur de MSC, deuxieme armateur mondial. Kohler a nie tout conflit d'interets, affirmant avoir recuse ses liens familiaux dans les procedures. MSC et CMA CGM sont les deux premiers armateurs operant au port du Havre, fief d'Edouard Philippe. La chaine Philippe → Macron → Kohler → armateurs cree un circuit ou le maire du premier port francais est nomme Premier ministre par un president dont le bras droit est familialement lie a l'industrie maritime. Kohler a egalement joue un role central dans la restructuration d'Areva/Orano et dans les grands contrats industriels du quinquennat — des dossiers ou Philippe etait directement implique comme ancien lobbyiste d'Areva. Son maintien au poste malgre la mise en examen illustre l'impunite structurelle au sommet de l'Etat. Kohler est le noeud qui relie le pouvoir presidentiel a l'industrie maritime mondiale.",
+    typeLien: "politique",
+    sousReseaux: ["matignon", "entreprises"],
+  },
+  {
+    nom: "Sibyle Veil",
+    slug: "sibyle-veil",
+    role: "Presidente de Radio France — ENA Senghor avec Macron",
+    description:
+      "Sibyle Veil est presidente de Radio France depuis avril 2018, nommee par le CSA (devenu Arcom) dont les membres sont influences par l'executif. Elle est issue de la promotion Leopold Sedar Senghor de l'ENA (2004), la meme promotion qu'Emmanuel Macron. Cette camaraderie de promotion — l'un des liens les plus forts dans la haute fonction publique francaise — connecte directement la presidence de la premiere radio publique au president de la Republique. Sous sa direction, France Inter est restee la radio la plus ecoutee de France avec sa matinale politique. Les interviews d'Edouard Philippe sur France Inter se caracterisent par une tonalite favorable et l'absence systematique de questions sur les dossiers sensibles : liens CMA CGM, France China Foundation, affaire Atos. Veil a ete renouvelee en 2022, confirmant la confiance de l'executif macroniste. Avant Radio France, elle etait conseillere au Conseil d'Etat et avait travaille a la Cour des comptes. Son parcours ENA → Conseil d'Etat → direction d'un media public est un archetype du systeme francais ou les memes promotions controlent le pouvoir executif et le pouvoir mediatique. La chaine Macron (president) → Arcom (nomination) → Veil (direction) → France Inter (editorial) illustre le controle indirect de l'audiovisuel public. Radio France couvre environ 15 millions d'auditeurs quotidiens.",
+    typeLien: "mediatique",
+    sousReseaux: ["matignon"],
+  },
+  {
+    nom: "Bernard Arnault",
+    slug: "bernard-arnault",
+    role: "PDG LVMH — 1ere fortune mondiale — proprietaire Les Echos / Le Parisien",
+    description:
+      "Bernard Arnault est le president-directeur general de LVMH, premiere fortune mondiale avec un patrimoine estime a plus de 200 milliards d'euros. Il est proprietaire du groupe Les Echos-Le Parisien, qui inclut le quotidien economique Les Echos, dont le redacteur en chef David Barroux est Young Leader 2011 avec Edouard Philippe. Arnault est considere comme le plus proche allie oligarchique d'Emmanuel Macron, avec qui il entretient des relations personnelles documentees. LVMH est le premier annonceur publicitaire de France, ce qui lui confere un pouvoir d'influence indirect sur l'ensemble des medias francais. La couverture des Echos est systematiquement favorable aux reformes economiques portees par Philippe (ordonnances travail, loi PACTE). Le Parisien, journal populaire le plus lu en Ile-de-France, complete le dispositif mediatique en touchant un public plus large. Arnault a inaugure plusieurs projets architecturaux avec Macron et Philippe. La convergence entre la premiere fortune mondiale, le president qui nomme Philippe, et le redacteur en chef Young Leader forme un triangle pouvoir-argent-media. LVMH a des interets commerciaux majeurs en Chine, ce qui relie Arnault au reseau sino-francais via des canaux differents de la FCF. Le fait que le proprietaire du premier media economique de France soit aussi le premier soutien financier du president qui a nomme Philippe cree un conflit d'interets mediatique structurel.",
+    typeLien: "financier",
+    sousReseaux: ["entreprises"],
+  },
+  {
+    nom: "Vincent Bollore",
+    slug: "vincent-bollore",
+    role: "Industriel — CNews, Europe 1, C8, Canal+ — reorientation droitiere des medias",
+    description:
+      "Vincent Bollore est un industriel breton qui a construit un empire mediatique via Vivendi : Canal+, CNews, C8, Europe 1, Paris Match, Le Journal du Dimanche. Son rachat progressif de ces medias a partir de 2015 a ete accompagne d'une reorientation editoriale vers la droite et l'extreme-droite, avec des figures comme Eric Zemmour, Pascal Praud et Laurence Ferrari. CNews est devenue la « Fox News francaise ». Dans le jeu politique, Bollore est un « faiseur de rois » : sa chaine a permis l'emergence mediatique de Zemmour comme candidat presidentiel en 2022. Pour Philippe, CNews joue un role paradoxal : la chaine le presente comme l'alternative « raisonnable » face au RN, servant le recit macroniste du barrage republicain. Europe 1, sous controle Bollore via Lagardere, a ete reorientee vers une ligne compatible avec le centre-droit de Philippe. Bollore a egalement des interets massifs en Afrique (Bollore Africa Logistics, ports) et en Asie, ce qui le connecte aux enjeux de transport maritime et aux reseaux sino-africains. Son empire logistique africain a ete revendu a CMA CGM (MSC) en 2022, creant un lien direct entre Bollore et le groupe Saade. La concentration mediatique entre Arnault (Les Echos, Le Parisien), Bollore (CNews, Europe 1) et Saade/CMA CGM (BFM TV) signifie que les trois premiers medias d'info de France sont detenus par des oligarques proches du pouvoir macroniste.",
+    typeLien: "mediatique",
+    sousReseaux: ["entreprises"],
+  },
+  {
+    nom: "Patrick Drahi",
+    slug: "patrick-drahi",
+    role: "Ex-proprietaire BFM TV / RMC — revendu a CMA CGM",
+    description:
+      "Patrick Drahi est un homme d'affaires franco-israelien, fondateur d'Altice, qui a detenu BFM TV, RMC et Libération jusqu'a la revente de ses actifs medias a CMA CGM (Rodolphe Saade) en 2024. Cette transaction est cruciale dans la chaine de conflits d'interets : BFM TV, premier media d'info en continu, passe d'un proprietaire entoure de controverses financieres (endettement massif d'Altice) a CMA CGM, premier armateur operant dans le port du fief d'Edouard Philippe. Drahi avait deja ete critique pour son influence sur la ligne editoriale de BFM. Le passage a CMA CGM aggrave le conflit : l'operateur portuaire du Havre possede desormais le media qui couvre le candidat-maire du Havre. Drahi est egalement proprietaire de HOT en Israel et de Sotheby's. Son empire est construit sur un endettement massif (plus de 60 milliards d'euros a son pic), un modele financier qui a suscite des enquetes fiscales dans plusieurs pays. La revente a Saade illustre la concentration mediatique en cours en France : les medias d'info passent des mains d'un milliardaire endette a celles d'un armateur milliardaire lie aux routes commerciales chinoises. La chaine Drahi → BFM → CMA CGM → Le Havre → Philippe est un parcours de conflit d'interets qui se construit par acquisitions successives.",
+    typeLien: "financier",
+    sousReseaux: ["entreprises"],
+  },
+  {
+    nom: "Pierre Moscovici",
+    slug: "pierre-moscovici",
+    role: "President de la Cour des comptes — Young Leader 1996",
+    description:
+      "Pierre Moscovici est president de la Cour des comptes depuis juin 2020, l'institution chargee de controler l'usage des fonds publics en France. Il est Young Leader de la promotion 1996, la meme que Francois Hollande. Ancien ministre de l'Economie sous Hollande (2012-2014) puis commissaire europeen aux Affaires economiques (2014-2019), Moscovici incarne le parcours Young Leader au sommet des institutions de controle. En tant que president de la Cour des comptes, il supervise les rapports sur les finances publiques — y compris les rapports sur la gestion du Havre et de la communaute urbaine, territoire de Philippe. La chambre regionale des comptes de Normandie avait note que l'endettement du Havre etait « proche du seuil d'alerte » sous la gestion Philippe. Moscovici est aussi membre du Conseil constitutionnel (de droit, en tant qu'ancien commissaire europeen). Le fait que le controleur supreme des comptes publics et l'ancien Premier ministre soient issus du meme reseau Young Leaders souleve des questions sur l'independance du controle. Moscovici (YL 1996), Hollande (YL 1996), Macron (YL 2012), Philippe (YL 2011) : quatre postes cles — president, Premier ministre, commissaire europeen, Cour des comptes — occupes par des membres du meme programme de selection. Cette concentration interpelle sur la capacite du systeme a se controler lui-meme.",
+    typeLien: "politique",
+    sousReseaux: ["young-leaders"],
+  },
 ];
 
 export const stats = {
