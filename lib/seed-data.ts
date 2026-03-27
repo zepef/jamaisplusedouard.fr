@@ -624,18 +624,18 @@ export const reseau: PersonneReseau[] = [
   {
     nom: "Emmanuel Macron",
     slug: "emmanuel-macron",
-    role: "President de la Republique",
+    role: "President de la Republique — Young Leader 2012",
     description:
-      "Young Leader 2012 (promotion suivante de Philippe). L'a nomme Premier ministre malgre ses critiques anterieures. Tensions croissantes depuis la dissolution de 2024.",
+      "Emmanuel Macron est selectionne Young Leader de la promotion 2012, un an apres Edouard Philippe. Leur mentor commun, Alain Juppe, appartenait a la promotion fondatrice de 1982 — trois generations de Young Leaders liees par un meme parrain politique. Macron nomme Philippe Premier ministre le 15 mai 2017, malgre les critiques anterieures de ce dernier (« ancien banquier de chez Rothschild », « cynisme d'un vieux routier »). Ce ralliement post-critiques illustre la force des liens de reseau sur les positions publiques. Macron est issu de l'inspection des finances, puis de la banque Rothschild, avant d'etre nomme secretaire general adjoint de l'Elysee sous Hollande (lui-meme Young Leader 1996). La chaine Hollande (YL 1996) → Macron (YL 2012) → Philippe (YL 2011) au sommet de l'Etat est unique dans l'histoire de la FAF. Les tensions entre les deux hommes sont croissantes depuis 2020 : Philippe reproche a Macron la dissolution de 2024 (« decision funeste et absurde ») et l'appelle a demissionner fin 2025. La promotion 2012 de Macron incluait aussi Fleur Pellerin et Cedric Villani, tous deux devenus des figures politiques. Le fait qu'un president et son Premier ministre soient issus de promotions consecutives du meme programme transatlantique est sans precedent et souleve des questions sur l'influence americaine dans la formation des elites dirigeantes francaises.",
     typeLien: "politique",
     partiPolitique: "LREM/Renaissance",
   },
   {
     nom: "Alain Juppe",
     slug: "alain-juppe",
-    role: "Mentor politique — ancien Premier ministre",
+    role: "Mentor politique — ancien Premier ministre — Young Leader 1982",
     description:
-      "Young Leader 1982 (promotion fondatrice). Lance Philippe en politique via l'UMP. Leur proximite marque toute sa carriere.",
+      "Alain Juppe appartient a la promotion fondatrice de 1982 des Young Leaders de la FAF, ce qui en fait l'un des premiers membres francais du programme. Premier ministre de Jacques Chirac (1995-1997), il est condamne en 2004 pour prise illegale d'interets dans l'affaire des emplois fictifs du RPR, ce qui l'ecarte temporairement de la vie politique. C'est Juppe qui lance Philippe en politique : il le fait entrer a l'UMP comme directeur general des services en 2002. Philippe ne cache jamais sa fidelite a Juppe, qu'il considere comme son modele. En 2016, Philippe est co-porte-parole de la campagne de Juppe pour la primaire de la droite. Apres la defaite de Juppe, Philippe se rallie d'abord a Fillon, puis a Macron — un autre Young Leader. Le triangle Juppe (YL 1982) – Philippe (YL 2011) – Macron (YL 2012) est le cas le plus spectaculaire de transmission du pouvoir au sein du reseau FAF. Juppe a ete maire de Bordeaux de 2006 a 2019 et membre du Conseil constitutionnel de 2019 a 2024. La constante de sa carriere est l'interconnexion entre la haute fonction publique, la politique nationale et les reseaux transatlantiques. Son role de mentor aupres de Philippe s'inscrit dans la logique du programme Young Leaders : les anciens membres parrainent les suivants, perpetuant le reseau de generation en generation.",
     typeLien: "politique",
     partiPolitique: "UMP/LR",
   },
@@ -644,31 +644,31 @@ export const reseau: PersonneReseau[] = [
     slug: "cma-cgm",
     role: "1er armateur francais — transport maritime mondial",
     description:
-      "Yann Le Goff (securite CMA CGM) est Young Leader 2011 avec Philippe. Le port du Havre, fief de Philippe, est le 1er point d'entree de cocaine en Europe.",
+      "CMA CGM est le premier armateur francais et le troisieme mondial, fonde a Marseille par Jacques Saade en 1978. Le groupe possede plus de 600 navires et dessert 420 ports dans le monde. Yann Le Goff, responsable de la securite regionale chez CMA CGM, est selectionne dans la promotion 2011 des Young Leaders aux cotes d'Edouard Philippe. Le port du Havre, fief politique de Philippe depuis 2010, est l'un des principaux hubs de CMA CGM en Europe — les navires du groupe representent une part significative du trafic conteneurise havrais. Le Havre est le premier point d'entree de la cocaine en Europe selon Europol, avec 18 tonnes saisies en 2023. La question de la securite portuaire — domaine ou se croisent CMA CGM (via Le Goff), la responsabilite du maire (Philippe), et les reseaux transatlantiques (FAF) — est un noeud critique. CMA CGM a ete dirige par Rodolphe Saade depuis 2017, et le groupe a diversifie ses activites dans les medias (rachat de La Tribune, La Provence) et la logistique. La France China Foundation, dont Ribadeau-Dumas (dircab de Philippe) est membre, s'inscrit dans les memes circuits d'influence sino-maritimes. Les routes commerciales CMA CGM vers l'Asie transitent massivement par Le Havre, faisant du port un point de convergence entre interets commerciaux, diplomatiques et politiques.",
     typeLien: "financier",
   },
   {
     nom: "Yann Le Goff",
     slug: "yann-le-goff",
-    role: "Responsable securite regionale CMA CGM",
+    role: "Responsable securite regionale CMA CGM — Young Leader 2011",
     description:
-      "Young Leader 2011 dans la meme promotion que Philippe. Charge de la securite chez CMA CGM, dont les navires transitent par le port du Havre.",
+      "Yann Le Goff est responsable de la securite regionale chez CMA CGM, premier armateur francais, au moment de sa selection comme Young Leader en 2011 aux cotes d'Edouard Philippe. Sa fonction chez CMA CGM le place au coeur des enjeux de securite du transport maritime — un domaine qui inclut la lutte contre le narcotrafic dans les ports. Le port du Havre, fief politique de Philippe, est le premier point d'entree de la cocaine en Europe selon Europol. Les navires CMA CGM representent une part majeure du trafic conteneurise au Havre, ce qui signifie que la securite CMA CGM et la securite portuaire havraise sont intimement liees. Le Goff et Philippe se sont cotoyes lors de deux seminaires de cinq jours en 2011-2012, forgeant des liens personnels dans un cadre informel et confidentiel. La presence dans la meme promotion Young Leaders d'un futur maire/Premier ministre et d'un responsable securite du principal armateur operant dans son port cree un canal d'influence direct. Cette connexion est d'autant plus significative que la question du narcotrafic portuaire est devenue un enjeu politique majeur en France, avec des saisies record au Havre (18 tonnes de cocaine en 2023). Le Goff represente le noeud CMA CGM dans le reseau Young Leaders de Philippe. La convergence entre son poste (securite maritime), le territoire de Philippe (Le Havre) et le probleme structurel (narcotrafic) merite un examen approfondi.",
     typeLien: "professionnel",
   },
   {
     nom: "Atos",
     slug: "atos",
-    role: "Groupe informatique — radars automatiques",
+    role: "Groupe informatique — radars automatiques — administrateur Philippe",
     description:
-      "Philippe administrateur depuis 2020 (~70 000€/an). Atos traite les donnees des radars. Lien avec la mesure du 80 km/h portee par Philippe en 2018.",
+      "Atos est un groupe informatique francais specialise dans la transformation numerique, la cybersecurite et le cloud computing. Edouard Philippe y est nomme administrateur independant en 2020, immediatement apres son depart de Matignon, pour un mandat remunere environ 70 000 euros par an. Atos est en pointe sur le traitement des donnees informatisees des infractions routieres, notamment les radars automatiques, un marche qui a directement beneficie de la mesure du 80 km/h imposee par Philippe en 2018. Boulevard Voltaire et Blast ont releve ce potentiel conflit d'interets : le Premier ministre qui impose une mesure routiere massivement impopulaire rejoint ensuite le conseil d'administration de l'entreprise qui traite les donnees generees par cette meme mesure. Les liens entre Philippe et Atos remontent a 2006, bien avant sa nomination a Matignon. L'entreprise a connu de graves difficultes financieres a partir de 2022, avec une chute spectaculaire de son cours de bourse et des restructurations massives. Atos gere egalement des activites strategiques pour l'Etat francais (supercalculateurs, defense, JO 2024), ce qui en fait un acteur sensible dont l'administrateur est aussi un candidat a la presidentielle. La chronologie — 80 km/h en 2018, depart de Matignon en 2020, nomination chez Atos en 2020 — souleve des questions sur la porosite entre decisions publiques et interets prives. Philippe n'a jamais commente publiquement ce potentiel conflit d'interets.",
     typeLien: "financier",
   },
   {
     nom: "Areva",
     slug: "areva",
-    role: "Industrie nucleaire — lobbying",
+    role: "Industrie nucleaire — lobbying — employeur de Philippe (2007-2010)",
     description:
-      "Philippe directeur des affaires publiques de 2007 a 2010. Fonction de lobbying au coeur de la sphere decisionnelle.",
+      "Areva (devenue Orano en 2018) est la multinationale francaise de l'industrie nucleaire, couvrant l'ensemble du cycle du combustible. Edouard Philippe y occupe le poste de directeur des affaires publiques d'octobre 2007 a octobre 2010, une fonction de lobbying et de relations avec les elus qui le maintient au coeur de la sphere decisionnelle. Cette periode coincide avec sa selection comme Young Leader en 2011, alors qu'il est presente comme « maire du Havre et directeur des affaires publiques d'Areva ». Le lobbying nucleaire est l'un des plus puissants en France, ou l'industrie represente environ 70% de la production electrique. En tant que directeur des affaires publiques, Philippe etait charge de defendre les interets d'Areva aupres des parlementaires et du gouvernement — les memes institutions qu'il dirigera plus tard comme Premier ministre. Sa trajectoire Conseil d'Etat → Debevoise & Plimpton (avocat d'affaires) → Areva (lobbying) → mairie du Havre → Matignon illustre un parcours classique de pantouflage entre public et prive. Areva a connu un scandale majeur avec le rachat desastreux d'UraMin en 2007 (3,6 milliards d'euros de pertes), une affaire qui a eclate pendant la periode ou Philippe y travaillait. Le groupe a du etre restructure et recapitalise par l'Etat a hauteur de 5 milliards d'euros en 2017 — sous le gouvernement Philippe. Le Premier ministre qui sauve l'entreprise qui l'a employe comme lobbyiste est un cas d'ecole de conflit d'interets potentiel.",
     typeLien: "professionnel",
   },
   {
@@ -692,7 +692,93 @@ export const reseau: PersonneReseau[] = [
     slug: "french-american-foundation",
     role: "Reseau transatlantique — Young Leaders",
     description:
-      "Programme de soft power americain depuis 1981. Philippe (2011), Macron (2012), Juppe (1982), Hollande (1996). Plus de 400 dirigeants passes par le programme.",
+      "La French-American Foundation (FAF) est une organisation fondee en 1976 sous les auspices des presidents Gerald Ford et Valery Giscard d'Estaing. Son programme Young Leaders, cree en 1981, selectionne chaque annee dix Francais et dix Americains ages de 30 a 40 ans, issus de la haute fonction publique, de l'entreprise, des medias, de l'armee et de la recherche. Les participants suivent deux seminaires de cinq jours sur deux annees consecutives, alternativement en France et aux Etats-Unis. Le contenu des seminaires n'est pas publie — la FAF ne divulgue pas les ordres du jour des editions passees. A l'issue du programme, les participants integrent un reseau d'alumni de plus de 600 membres. Le programme est regulierement decrit comme un instrument du soft power americain, meme si la FAF se presente comme n'etant « ni un think tank, ni un lobby, ni une amicale parlementaire ». La presence des Young Leaders au gouvernement francais est remarquable et transcende les alternances politiques. Edouard Philippe appartient a la promotion 2011, Emmanuel Macron a la promotion 2012, Alain Juppe a la promotion fondatrice de 1982, Francois Hollande a celle de 1996. Richard Ferrand, ministre du gouvernement Philippe, etait Young Leader 2005. Plus de 400 dirigeants ont beneficie du programme depuis 1981, et le fait qu'un president et son Premier ministre soient issus de promotions consecutives est sans precedent dans l'histoire de la FAF. Les sponsors du programme incluent Airbus, J.P. Morgan et Sodexo.",
+    typeLien: "mediatique",
+  },
+  // --- Young Leaders promotion 2011 (cote francais) ---
+  {
+    nom: "David Barroux",
+    slug: "david-barroux",
+    role: "Redacteur en chef aux Echos — Young Leader 2011",
+    description:
+      "David Barroux est journaliste et redacteur en chef au quotidien economique Les Echos, l'un des principaux journaux d'affaires francais. Il fait partie de la promotion 2011 des Young Leaders de la French-American Foundation, aux cotes d'Edouard Philippe. Sa position a la tete d'un media economique de reference lui confere une influence significative sur la couverture de la politique economique francaise. Les Echos appartiennent au groupe LVMH de Bernard Arnault, ce qui inscrit Barroux dans un ecosysteme mediatique lie aux grandes fortunes francaises. En tant que Young Leader, il a partage avec Philippe deux seminaires de cinq jours entre 2011 et 2012, forgeant des liens personnels et professionnels durables. La convergence entre un futur Premier ministre et un redacteur en chef d'un grand quotidien dans le meme reseau transatlantique merite d'etre notee. Les Echos ont generalement accorde une couverture favorable aux reformes du gouvernement Philippe, notamment sur le Code du travail et la loi PACTE. Cette proximite illustre l'imbrication des elites politiques et mediatiques francaises au sein des memes reseaux d'influence. Barroux represente le pilier mediatique de la promotion 2011. La FAF ne publie pas les echanges qui ont eu lieu entre ces futurs dirigeants lors des seminaires.",
+    typeLien: "mediatique",
+  },
+  {
+    nom: "Yohann Benard",
+    slug: "yohann-benard",
+    role: "Directeur des affaires publiques Amazon France — Young Leader 2011",
+    description:
+      "Yohann Benard est directeur des affaires publiques d'Amazon France au moment de sa selection comme Young Leader en 2011. Il partage la promotion de la FAF avec Edouard Philippe, alors maire du Havre et directeur des affaires publiques d'Areva. Les deux hommes occupent donc des fonctions similaires — le lobbying et les relations institutionnelles — l'un pour le geant du nucleaire, l'autre pour le geant du e-commerce americain. Amazon est l'une des entreprises les plus controversees en France pour ses pratiques sociales, fiscales et son impact sur le commerce de proximite. Benard est charge de defendre les interets d'Amazon aupres des elus et des administrations francaises. En partageant un reseau d'elite transatlantique avec un futur Premier ministre, il dispose d'un acces privilegie aux cercles decisionnels. Le gouvernement Philippe n'a pas particulierement durci la fiscalite des GAFA pendant ses trois annees a Matignon, malgre les promesses en la matiere. La presence simultanee dans la promotion 2011 d'un lobbyiste d'Amazon et d'un lobbyiste d'Areva qui deviendra Premier ministre illustre la porosite entre interets corporatistes et pouvoir politique. Les seminaires de la FAF ont offert un cadre informel pour tisser ces liens. Benard represente le pilier corporate americain de la promotion.",
+    typeLien: "professionnel",
+  },
+  {
+    nom: "Stephane Israel",
+    slug: "stephane-israel",
+    role: "President executif d'Arianespace — Young Leader 2011",
+    description:
+      "Stephane Israel est selectionne comme Young Leader 2011, la meme annee qu'Edouard Philippe. Il deviendra president executif d'Arianespace, le leader mondial des services de lancement spatial, filiale d'ArianeGroup (joint-venture Airbus/Safran). Avant Arianespace, Israel a ete directeur de cabinet de la ministre de l'Enseignement superieur et de la Recherche Genevieve Fioraso (2012-2014) sous la presidence Hollande. Il incarne le profil type du pantouflage entre haute fonction publique et industrie strategique. Sa trajectoire — cabinet ministeriel puis direction d'une entreprise publique — est comparable a celle de Philippe (Conseil d'Etat, Areva, politique). Arianespace est un acteur cle de la souverainete spatiale europeenne, et son president entretient necessairement des relations etroites avec le pouvoir executif francais. La presence d'Israel dans la meme promotion Young Leaders que Philippe cree un lien transversal entre les industries nucleaire, spatiale et le pouvoir politique. Airbus, maison-mere d'ArianeGroup, est par ailleurs l'un des sponsors du programme Young Leaders de la FAF. Ces interconnexions entre sponsors du programme et membres selectionnes soulèvent des questions sur l'independance du processus de selection. Israel represente le pilier industriel strategique de la promotion 2011.",
+    typeLien: "professionnel",
+  },
+  {
+    nom: "Christine Poyer-Rufenacht",
+    slug: "christine-poyer-rufenacht",
+    role: "Avocate associee — Young Leader 2011",
+    description:
+      "Christine Poyer-Rufenacht est avocate associee, selectionnee dans la promotion 2011 des Young Leaders de la FAF aux cotes d'Edouard Philippe. Son patronyme n'est pas sans evoquer Antoine Rufenacht, le maire du Havre qui a lance Philippe en politique en 2001 — une homonymie troublante que la biographie officielle ne commente pas. Antoine Rufenacht a ete le mentor local de Philippe, lui offrant sa premiere place sur une liste municipale puis le recommandant pour la direction de l'UMP aupres d'Alain Juppe. La presence dans la meme promotion Young Leaders d'un protege de Rufenacht et d'une personne portant le meme nom de famille interroge sur les mecanismes de cooptation au sein de ces reseaux. La FAF ne publie pas les criteres de selection detailles, et le processus de candidature repose en partie sur le parrainage. Si Christine Poyer-Rufenacht est parente d'Antoine Rufenacht, cela constituerait un cas de reseau familial et politique se reproduisant au sein d'une institution transatlantique. A minima, la coincidence patronymique illustre l'etroitesse des cercles dans lesquels evoluent les elites francaises selectionnees par la FAF. Le Havre apparait comme un noeud recurrent dans ces reseaux : Philippe, Rufenacht, CMA CGM. Cette connexion merite une investigation approfondie. L'opacite de la FAF sur ses processus rend la verification difficile.",
+    typeLien: "mediatique",
+  },
+  {
+    nom: "Estelle Youssouffa",
+    slug: "estelle-youssouffa",
+    role: "Deputee de Mayotte — Young Leader 2011",
+    description:
+      "Estelle Youssouffa est aujourd'hui deputee de la premiere circonscription de Mayotte, elue en 2022. Elle est selectionnee comme Young Leader 2011 dans la meme promotion qu'Edouard Philippe. Avant son entree en politique, Youssouffa etait journaliste, notamment pour France 24 et Al Jazeera, ce qui l'inscrit dans le pilier mediatique du programme. Son parcours — du journalisme international a la representation parlementaire — illustre la trajectoire classique des Young Leaders vers les postes de pouvoir. En tant que deputee, elle siege a l'Assemblee nationale ou le groupe Horizons d'Edouard Philippe dispose egalement de representants, creant des possibilites d'alliance parlementaire entre anciens de la meme promotion. Mayotte est un territoire confronte a des defis majeurs (immigration, securite, developpement) qui font regulierement l'objet de debats nationaux. La presence de Youssouffa et Philippe dans la meme promotion FAF etablit un lien entre les enjeux ultramarins et le reseau philippiste. Le programme Young Leaders a historiquement produit des connexions durables entre ses membres, qui se retrouvent ensuite a des postes d'influence dans differentes spheres. Cette dynamique de cohorte est l'un des mecanismes les plus efficaces du reseau. Youssouffa represente le pilier ultramarin et mediatique de la promotion 2011.",
+    typeLien: "politique",
+  },
+  // --- Young Leaders d'autres promotions connectes a Philippe ---
+  {
+    nom: "Richard Ferrand",
+    slug: "richard-ferrand",
+    role: "Ancien president de l'Assemblee nationale — Young Leader 2005",
+    description:
+      "Richard Ferrand est un homme politique francais, ancien president de l'Assemblee nationale (2018-2022) et ancien ministre de la Cohesion des territoires dans le premier gouvernement d'Edouard Philippe (mai-juin 2017). Il est Young Leader de la promotion 2005, six ans avant Philippe. Ferrand est l'un des premiers soutiens d'Emmanuel Macron et cofondateur d'En Marche en 2016. En tant que ministre de Philippe puis president de l'Assemblee, il a ete un rouage essentiel du systeme macroniste dans lequel Philippe a opere. Sa promotion Young Leader 2005 l'inscrit dans le meme reseau transatlantique que Philippe (2011), Macron (2012) et Juppe (1982). Le fait que le ministre de la Cohesion des territoires et le Premier ministre soient tous deux d'anciens Young Leaders illustre la densite de ce reseau au sein du gouvernement. Ferrand a ete mis en examen en 2019 pour prise illegale d'interets dans une affaire immobiliere — les Mutuelles de Bretagne. Il a beneficie d'un non-lieu en 2023. Son parcours judiciaire montre que l'appartenance au reseau Young Leaders ne protege pas necessairement des poursuites. Neanmoins, la convergence entre Young Leaders au sommet de l'executif et du legislatif merite un examen critique.",
+    typeLien: "politique",
+    partiPolitique: "LREM/Renaissance",
+  },
+  {
+    nom: "Francois Hollande",
+    slug: "francois-hollande",
+    role: "Ancien president de la Republique — Young Leader 1996",
+    description:
+      "Francois Hollande, president de la Republique de 2012 a 2017, est Young Leader de la promotion 1996 de la FAF, aux cotes de Pierre Moscovici. Son passage par le programme quinze ans avant Philippe illustre la continuite du reseau a travers les generations politiques et les alternances. Hollande nomme Manuel Valls puis Bernard Cazeneuve a Matignon, mais c'est son successeur Macron (Young Leader 2012) qui nommera Philippe (Young Leader 2011). La chaine de succession presidentielle Hollande-Macron est donc une chaine interne au reseau Young Leaders. Hollande a ete premier secretaire du PS pendant onze ans (1997-2008) avant d'acceder a la presidence, ce qui lui a permis de structurer un reseau politique dense. Sa promotion 1996 incluait Pierre Moscovici, futur commissaire europeen puis president de la Cour des comptes, illustrant la diversite des postes occupes par les anciens Young Leaders. Le programme FAF a ainsi produit deux presidents de la Republique (Hollande et Macron), au moins quatre Premiers ministres (Juppe, Philippe, et indirectement d'autres), et de nombreux ministres. Cette concentration de pouvoir issu d'un meme programme de selection souleve des questions democratiques sur la formation des elites dirigeantes francaises. Hollande a critique Philippe a plusieurs reprises apres 2017, mais ils partagent le meme reseau structurel.",
+    typeLien: "politique",
+    partiPolitique: "PS",
+  },
+  {
+    nom: "Laurent Wauquiez",
+    slug: "laurent-wauquiez",
+    role: "President de la region Auvergne-Rhone-Alpes — Young Leader 2006",
+    description:
+      "Laurent Wauquiez, president de la region Auvergne-Rhone-Alpes et ancien president des Republicains (2017-2019), est Young Leader de la promotion 2006. Il represente l'aile droite du meme reseau transatlantique qu'Edouard Philippe. Les deux hommes se sont affrontes au sein de LR avant que Philippe ne rejoigne Macron en 2017. Wauquiez a vivement critique la nomination de Philippe a Matignon, la qualifiant de trahison envers la droite. Malgre leur rivalite politique, ils partagent le meme parcours de formation d'elite — ENA pour les deux, Young Leaders pour les deux. Wauquiez est considere comme un potentiel candidat a la presidentielle 2027, ce qui en ferait un rival direct de Philippe issu du meme reseau. Le fait que deux candidats potentiels a la presidentielle soient d'anciens Young Leaders illustre la capacite du programme a produire les futurs dirigeants du pays, quel que soit le bord politique. La promotion 2006 de Wauquiez le place entre les generations Ferrand (2005) et Philippe (2011) dans la chronologie du reseau. Sa trajectoire politique — de secretaire d'Etat sous Sarkozy a president de region — montre un parcours parallele a celui de Philippe mais dans un registre plus droitier. Les seminaires FAF ont potentiellement permis a Wauquiez et Philippe de se croiser via le reseau alumni avant meme leur confrontation politique publique.",
+    typeLien: "politique",
+    partiPolitique: "LR",
+  },
+  {
+    nom: "Fleur Pellerin",
+    slug: "fleur-pellerin",
+    role: "Ancienne ministre de la Culture — Young Leader 2012",
+    description:
+      "Fleur Pellerin est selectionnee dans la promotion 2012 des Young Leaders, la meme annee qu'Emmanuel Macron. Elle est alors ministre deleguee aux PME, a l'Innovation et a l'Economie numerique sous Hollande, puis deviendra ministre de la Culture (2014-2016). Sa promotion 2012 est la promotion immediatement successive a celle de Philippe (2011), ce qui signifie que les seminaires des deux cohortes se chevauchaient potentiellement — le second seminaire de Philippe en 2012 pouvait coincider avec le premier de Pellerin et Macron. Pellerin est diplome de l'ENA (promotion Senghor, 2000), une ecole qui revient constamment dans les profils Young Leaders. Apres son passage ministeriel, elle a fonde une societe de capital-risque, Korelya Capital, specialisee dans l'investissement en Asie — creant un pont entre les reseaux transatlantiques (FAF) et asiatiques qui rappelle la France China Foundation. Pellerin est nee en Coree du Sud et adoptee en France, ce qui lui confere un profil biculturel valorise par la FAF. Sa trajectoire post-ministerielle vers le capital-risque asiatique illustre comment les connexions tissees dans les reseaux d'elite se transforment en opportunites economiques. La promotion 2012, qui inclut aussi Macron et Cedric Villani, est l'une des plus politiquement influentes de l'histoire du programme.",
+    typeLien: "politique",
+    partiPolitique: "PS",
+  },
+  {
+    nom: "Laphonza Butler",
+    slug: "laphonza-butler",
+    role: "Senatrice de Californie — Young Leader 2011 (USA)",
+    description:
+      "Laphonza Butler est une femme politique americaine, nommee senatrice de Californie en octobre 2023 par le gouverneur Gavin Newsom pour remplacer la senatrice Dianne Feinstein. Elle fait partie de la promotion 2011 des Young Leaders, cote americain, aux cotes d'Edouard Philippe cote francais. Avant le Senat, Butler etait presidente du SEIU Local 2015, le plus grand syndicat de travailleurs de la sante en Californie (400 000 membres). Elle a ensuite dirige EMILYs List, l'organisation democrate de soutien aux candidates feministes. Sa nomination au Senat illustre la trajectoire des Young Leaders americains vers les plus hautes fonctions. Le fait qu'un senateur americain et un ancien Premier ministre francais aient ete formes ensemble dans le meme programme transatlantique cree un canal d'influence direct entre le Senat americain et la politique francaise. Butler a cotoye Philippe pendant deux seminaires de cinq jours en 2011-2012, forgeant des liens personnels durables. Le programme Young Leaders est concu precisement pour creer ces ponts entre futurs dirigeants des deux pays. Butler represente le pilier politique progressiste americain de la promotion 2011. Sa presence illustre la capacite de la FAF a identifier de futurs leaders bien avant leur accession aux fonctions les plus elevees.",
     typeLien: "mediatique",
   },
   {
