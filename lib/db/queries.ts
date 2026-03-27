@@ -213,24 +213,26 @@ export async function searchArticles(query: string, limit = 20) {
 // ─── Newsletter ──────────────────────────────────────────────
 
 export async function subscribeNewsletter(email: string, token: string) {
-  return db
-    .insert(abonnesNewsletter)
-    .values({ email, token, confirmed: false })
-    .onConflictDoNothing();
+  // SQL brut pour compatibilité avec le pooler Supabase (mode transaction)
+  // qui ne supporte pas le mot-clé DEFAULT dans les prepared statements
+  return db.execute(
+    sql`INSERT INTO abonnes_newsletter (email, confirmed, token, created_at)
+        VALUES (${email}, false, ${token}, NOW())
+        ON CONFLICT (email) DO NOTHING`
+  );
 }
 
 export async function confirmNewsletter(token: string) {
-  return db
-    .update(abonnesNewsletter)
-    .set({ confirmed: true })
-    .where(eq(abonnesNewsletter.token, token));
+  return db.execute(
+    sql`UPDATE abonnes_newsletter SET confirmed = true WHERE token = ${token}`
+  );
 }
 
 export async function getConfirmedSubscribers() {
-  return db
-    .select({ email: abonnesNewsletter.email })
-    .from(abonnesNewsletter)
-    .where(eq(abonnesNewsletter.confirmed, true));
+  const result = await db.execute(
+    sql`SELECT email FROM abonnes_newsletter WHERE confirmed = true`
+  );
+  return result.rows as { email: string }[];
 }
 
 // ─── Stats (page d'accueil) ──────────────────────────────────

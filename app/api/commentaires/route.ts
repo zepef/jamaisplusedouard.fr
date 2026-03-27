@@ -51,11 +51,11 @@ export async function POST(request: NextRequest) {
     }
 
     if (contenu.trim().length < 5) {
-      return errorResponse("Le commentaire doit contenir au moins 5 caracteres");
+      return errorResponse("Le commentaire doit contenir au moins 5 caractères");
     }
 
     if (contenu.trim().length > 2000) {
-      return errorResponse("Le commentaire ne doit pas depasser 2000 caracteres");
+      return errorResponse("Le commentaire ne doit pas dépasser 2000 caractères");
     }
 
     const comment = {
