@@ -1,5 +1,6 @@
 import type { NextRequest } from "next/server";
 import { jsonResponse, errorResponse } from "@/lib/api-utils";
+import { randomUUID } from "crypto";
 
 export async function POST(request: NextRequest) {
   try {
@@ -9,36 +10,44 @@ export async function POST(request: NextRequest) {
       return errorResponse("Email invalide");
     }
 
-    // Si la BDD n'est pas configuree, on stocke en memoire
-    // et on retourne un succes (sera migre quand PostgreSQL sera connecte)
-    const dbUrl = process.env.DATABASE_URL || process.env.POSTGRES_URL || process.env.POSTGRES_URL_NON_POOLING;
-    if (!dbUrl) {
-      console.log(`[newsletter] Inscription sans BDD: ${email}`);
-      return jsonResponse({
-        message: "Inscription enregistree. Vous serez notifie des le lancement.",
-      });
-    }
-
-    // Avec BDD
-    const { subscribeNewsletter } = await import("@/lib/db/queries");
-    const { sendConfirmationEmail } = await import("@/lib/email");
-    const { randomUUID } = await import("crypto");
-
     const normalizedEmail = email.toLowerCase().trim();
     const token = randomUUID();
 
-    await subscribeNewsletter(normalizedEmail, token);
+    // Utiliser le client Supabase JS (pas de problème de pooler)
+    if (process.env.SUPABASE_URL) {
+      const { supabase } = await import("@/lib/db/supabase");
 
-    if (process.env.RESEND_API_KEY) {
-      try {
-        await sendConfirmationEmail(normalizedEmail, token);
-      } catch (emailError) {
-        console.error("Erreur envoi email:", emailError);
+      const { error } = await supabase
+        .from("abonnes_newsletter")
+        .upsert(
+          { email: normalizedEmail, token, confirmed: false },
+          { onConflict: "email", ignoreDuplicates: true }
+        );
+
+      if (error) {
+        console.error("Supabase newsletter error:", error.message);
+        return errorResponse(`Erreur BDD: ${error.message}`, 500);
       }
+
+      // Envoyer l'email de confirmation si Resend est configuré
+      if (process.env.RESEND_API_KEY) {
+        try {
+          const { sendConfirmationEmail } = await import("@/lib/email");
+          await sendConfirmationEmail(normalizedEmail, token);
+        } catch (emailError) {
+          console.error("Erreur envoi email:", emailError);
+        }
+      }
+
+      return jsonResponse({
+        message: "Inscription enregistrée. Vérifiez votre boîte mail.",
+      });
     }
 
+    // Fallback sans BDD
+    console.log(`[newsletter] Inscription sans BDD: ${normalizedEmail}`);
     return jsonResponse({
-      message: "Inscription enregistree. Verifiez votre boite mail.",
+      message: "Inscription enregistrée. Vous serez notifié dès le lancement.",
     });
   } catch (error) {
     const msg = error instanceof Error ? error.message : String(error);
@@ -54,14 +63,23 @@ export async function GET(request: NextRequest) {
     return errorResponse("Token manquant");
   }
 
-  if (!process.env.DATABASE_URL) {
-    return errorResponse("Base de donnees non configuree", 503);
+  if (!process.env.SUPABASE_URL) {
+    return errorResponse("Base de données non configurée", 503);
   }
 
   try {
-    const { confirmNewsletter } = await import("@/lib/db/queries");
-    await confirmNewsletter(token);
-    return jsonResponse({ message: "Abonnement confirme." });
+    const { supabase } = await import("@/lib/db/supabase");
+
+    const { error } = await supabase
+      .from("abonnes_newsletter")
+      .update({ confirmed: true })
+      .eq("token", token);
+
+    if (error) {
+      return errorResponse(`Erreur: ${error.message}`, 500);
+    }
+
+    return jsonResponse({ message: "Abonnement confirmé." });
   } catch (error) {
     return errorResponse("Erreur lors de la confirmation", 500);
   }

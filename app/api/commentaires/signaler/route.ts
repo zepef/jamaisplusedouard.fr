@@ -14,28 +14,37 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    if (process.env.DATABASE_URL || process.env.POSTGRES_URL) {
+    if (process.env.SUPABASE_URL) {
       try {
-        const { db } = await import("@/lib/db/client");
-        const { sql } = await import("drizzle-orm");
+        const { supabase } = await import("@/lib/db/supabase");
         const colMap: Record<string, string> = {
           insulte: "sig_insulte",
           desinformation: "sig_desinfo",
           spam: "sig_spam",
         };
         const col = colMap[motif];
-        await db.execute(
-          sql.raw(
-            `UPDATE commentaires SET ${col} = ${col} + 1 WHERE id = '${commentId}'`
-          )
-        );
+
+        const { data } = await supabase
+          .from("commentaires")
+          .select(col)
+          .eq("id", commentId)
+          .single();
+
+        if (data) {
+          const current = (data as unknown as Record<string, number>)[col] || 0;
+          await supabase
+            .from("commentaires")
+            .update({ [col]: current + 1 })
+            .eq("id", commentId);
+        }
+
         return jsonResponse({ ok: true, motif });
       } catch {
         // fallback
       }
     }
 
-    return jsonResponse({ ok: true, motif, note: "in-memory mode" });
+    return jsonResponse({ ok: true, motif });
   } catch {
     return errorResponse("Erreur", 500);
   }

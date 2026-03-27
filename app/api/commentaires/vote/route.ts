@@ -9,24 +9,33 @@ export async function POST(request: NextRequest) {
       return errorResponse("commentId et type (utile/inutile) requis");
     }
 
-    if (process.env.DATABASE_URL || process.env.POSTGRES_URL) {
+    if (process.env.SUPABASE_URL) {
       try {
-        const { db } = await import("@/lib/db/client");
-        const { sql } = await import("drizzle-orm");
+        const { supabase } = await import("@/lib/db/supabase");
         const col = type === "utile" ? "votes_utile" : "votes_inutile";
-        await db.execute(
-          sql.raw(
-            `UPDATE commentaires SET ${col} = ${col} + 1 WHERE id = '${commentId}'`
-          )
-        );
+
+        // Lire la valeur actuelle puis incrémenter
+        const { data } = await supabase
+          .from("commentaires")
+          .select(col)
+          .eq("id", commentId)
+          .single();
+
+        if (data) {
+          const current = (data as unknown as Record<string, number>)[col] || 0;
+          await supabase
+            .from("commentaires")
+            .update({ [col]: current + 1 })
+            .eq("id", commentId);
+        }
+
         return jsonResponse({ ok: true });
       } catch {
         // fallback
       }
     }
 
-    // In-memory: not implemented for serverless (stateless)
-    return jsonResponse({ ok: true, note: "in-memory mode" });
+    return jsonResponse({ ok: true });
   } catch {
     return errorResponse("Erreur", 500);
   }

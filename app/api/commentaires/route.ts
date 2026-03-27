@@ -1,27 +1,23 @@
 import type { NextRequest } from "next/server";
 import { jsonResponse, errorResponse } from "@/lib/api-utils";
 
-// In-memory store (sera remplace par Supabase quand DATABASE_URL est configure)
-// Format: Map<articleSlug, Commentaire[]>
-const store = new Map<string, any[]>();
-
-function getComments(slug: string) {
-  return store.get(slug) || [];
-}
-
 export async function GET(request: NextRequest) {
   const slug = request.nextUrl.searchParams.get("slug");
   if (!slug) return errorResponse("slug requis");
 
-  if (process.env.DATABASE_URL || process.env.POSTGRES_URL) {
+  if (process.env.SUPABASE_URL) {
     try {
-      const { db } = await import("@/lib/db/client");
-      const { sql } = await import("drizzle-orm");
-      const result = await db.execute(
-        sql`SELECT * FROM commentaires WHERE article_slug = ${slug} ORDER BY created_at DESC`
-      );
+      const { supabase } = await import("@/lib/db/supabase");
+      const { data, error } = await supabase
+        .from("commentaires")
+        .select("*")
+        .eq("article_slug", slug)
+        .order("created_at", { ascending: false });
+
+      if (error) throw error;
+
       return jsonResponse({
-        commentaires: result.rows.map((r: any) => ({
+        commentaires: (data || []).map((r: any) => ({
           id: r.id,
           pseudo: r.pseudo,
           contenu: r.contenu,
@@ -35,11 +31,11 @@ export async function GET(request: NextRequest) {
         })),
       });
     } catch {
-      // Fallback to in-memory
+      // Fallback
     }
   }
 
-  return jsonResponse({ commentaires: getComments(slug) });
+  return jsonResponse({ commentaires: [] });
 }
 
 export async function POST(request: NextRequest) {
@@ -67,25 +63,30 @@ export async function POST(request: NextRequest) {
       signalements: { insulte: 0, desinformation: 0, spam: 0 },
     };
 
-    if (process.env.DATABASE_URL || process.env.POSTGRES_URL) {
+    if (process.env.SUPABASE_URL) {
       try {
-        const { db } = await import("@/lib/db/client");
-        const { sql } = await import("drizzle-orm");
-        await db.execute(
-          sql`INSERT INTO commentaires (id, article_slug, pseudo, contenu, created_at, votes_utile, votes_inutile, sig_insulte, sig_desinfo, sig_spam)
-              VALUES (${comment.id}, ${articleSlug}, ${comment.pseudo}, ${comment.contenu}, NOW(), 0, 0, 0, 0, 0)`
-        );
+        const { supabase } = await import("@/lib/db/supabase");
+        const { error } = await supabase.from("commentaires").insert({
+          id: comment.id,
+          article_slug: articleSlug,
+          pseudo: comment.pseudo,
+          contenu: comment.contenu,
+          votes_utile: 0,
+          votes_inutile: 0,
+          sig_insulte: 0,
+          sig_desinfo: 0,
+          sig_spam: 0,
+        });
+
+        if (error) {
+          console.error("Supabase comment error:", error.message);
+        }
+
         return jsonResponse(comment, 201);
       } catch (err) {
         console.error("DB insert comment error:", err);
-        // Fallback
       }
     }
-
-    // In-memory fallback
-    const existing = store.get(articleSlug) || [];
-    existing.unshift(comment);
-    store.set(articleSlug, existing);
 
     return jsonResponse(comment, 201);
   } catch {
