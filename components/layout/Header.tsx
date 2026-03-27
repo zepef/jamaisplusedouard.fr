@@ -10,6 +10,7 @@ const navLinks = [
   { href: "/conflits", label: "Conflits" },
   { href: "/reseau", label: "Reseau" },
   { href: "/matraquage", label: "Matraquage" },
+  { href: "/blog", label: "Blog" },
   { href: "/soumettre", label: "Soumettre" },
 ];
 
