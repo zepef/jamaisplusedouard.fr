@@ -24,7 +24,7 @@ export const chainesConflits: ChaineConflit[] = [
     id: "philippe-macron-kohler-cmacgm",
     titre: "Philippe → Macron → Kohler → CMA CGM",
     resume:
-      "Le secrétaire général de l'Élysée, Alexis Kohler, est lie familialement a la famille Aponte-Saade du transport maritime. Philippe, maire du premier port CMA CGM en France, est nomme par Macron dont le bras droit est compromis avec le même armateur.",
+      "Le secrétaire général de l'Élysée, Alexis Kohler, est lie familialement a la famille Aponte-Saadé du transport maritime. Philippe, maire du premier port CMA CGM en France, est nomme par Macron dont le bras droit est compromis avec le même armateur.",
     gravite: "critique",
     domaine: "Transport maritime / Port du Havre",
     maillons: [
@@ -57,7 +57,7 @@ export const chainesConflits: ChaineConflit[] = [
       },
     ],
     consequence:
-      "Le maire du premier port français est nomme Premier ministre par un président dont le bras droit est mis en examen pour ses liens avec l'industrie maritime. Les décisions portuaires, douanieres et d'amenagement du Havre sont prises dans cet écosystème. CMA CGM (Saade) a ensuite rachete BFM TV, devenant propriétaire du premier media d'info en continu — un cercle complet pouvoir-port-media.",
+      "Le maire du premier port français est nomme Premier ministre par un président dont le bras droit est mis en examen pour ses liens avec l'industrie maritime. Les décisions portuaires, douanières et d'aménagement du Havre sont prises dans cet écosystème. CMA CGM (Saadé) a ensuite racheté BFM TV, devenant propriétaire du premier média d'info en continu — un cercle complet pouvoir-port-media.",
     sources: [
       {
         titre: "Mise en examen de Kohler — Le Monde",
@@ -75,7 +75,7 @@ export const chainesConflits: ChaineConflit[] = [
     resume:
       "Philippe impose le 80 km/h contre l'avis de Macron, générant un boom des infractions. Il rejoint ensuite le conseil d'administration d'Atos, entreprise qui traite les données des radars automatiques.",
     gravite: "critique",
-    domaine: "Sécurité routiere / Données numériques",
+    domaine: "Sécurité routière / Données numériques",
     maillons: [
       {
         nom: "Édouard Philippe",
@@ -96,7 +96,7 @@ export const chainesConflits: ChaineConflit[] = [
         slug: "atos",
         role: "Système de contrôle automatise — marché en expansion",
         lienSuivant:
-          "Le traitement des données des infractions routieres est assure par Atos, via des contrats avec l'État.",
+          "Le traitement des données des infractions routières est assure par Atos, via des contrats avec l'État.",
       },
       {
         nom: "Atos",
@@ -106,7 +106,7 @@ export const chainesConflits: ChaineConflit[] = [
       },
     ],
     consequence:
-      "Le Premier ministre qui impose une mesure générant plus d'infractions rejoint 2 ans plus tard le conseil d'administration de l'entreprise qui traite ces infractions (~70 000€/an). Les liens Philippe-Atos remontent a 2006, bien avant Matignon. La séquence temporelle — décision publique puis bénéfice privé — est un schema classique de conflit d'intérêts differe.",
+      "Le Premier ministre qui impose une mesure générant plus d'infractions rejoint 2 ans plus tard le conseil d'administration de l'entreprise qui traite ces infractions (~70 000€/an). Les liens Philippe-Atos remontent a 2006, bien avant Matignon. La séquence temporelle — décision publique puis bénéfice privé — est un schéma classique de conflit d'intérêts différé.",
     sources: [
       {
         titre: "Enquête Blast — liens Philippe-Atos",
@@ -155,7 +155,7 @@ export const chainesConflits: ChaineConflit[] = [
       },
     ],
     consequence:
-      "L'ancien lobbyiste d'Areva sauve son ancien employeur avec l'argent public quand il arrive au pouvoir. La perte de 3,6 milliards sur UraMin a eu lieu en 2007, l'année même ou Philippe rejoint Areva comme directeur des affaires publiques. Le Premier ministre qui restructuré le nucléaire français est l'ancien charge de com du groupe en difficulte.",
+      "L'ancien lobbyiste d'Areva sauve son ancien employeur avec l'argent public quand il arrive au pouvoir. La perte de 3,6 milliards sur UraMin a eu lieu en 2007, l'année même ou Philippe rejoint Areva comme directeur des affaires publiques. Le Premier ministre qui restructuré le nucléaire français est l'ancien chargé de com du groupe en difficulte.",
     sources: [
       {
         titre: "Recapitalisation Areva — Les Échos",
@@ -312,9 +312,9 @@ export const chainesConflits: ChaineConflit[] = [
   },
   {
     id: "philippe-bfm-cmacgm-media",
-    titre: "Philippe → Le Havre → CMA CGM (Saade) → BFM TV → couverture favorable",
+    titre: "Philippe → Le Havre → CMA CGM (Saadé) → BFM TV → couverture favorable",
     resume:
-      "CMA CGM, premier opérateur du port de Philippe, a rachete BFM TV. Le media couvre Philippe sans jamais interroger les liens entre le candidat et son propriétaire.",
+      "CMA CGM, premier opérateur du port de Philippe, a racheté BFM TV. Le media couvre Philippe sans jamais interroger les liens entre le candidat et son propriétaire.",
     gravite: "critique",
     domaine: "Medias / Concentration médiatique",
     maillons: [
@@ -326,11 +326,11 @@ export const chainesConflits: ChaineConflit[] = [
           "Le Havre est un hub majeur de CMA CGM. Les décisions municipales impactent l'activite de l'armateur.",
       },
       {
-        nom: "CMA CGM / Rodolphe Saade",
+        nom: "CMA CGM / Rodolphe Saadé",
         slug: "cma-cgm",
         role: "1er armateur français — fortune >40 Mds€",
         lienSuivant:
-          "Saade rachete BFM TV (ex-Altice/Drahi) en 2024, devenant propriétaire du premier media d'info en continu.",
+          "Saadé racheté BFM TV (ex-Altice/Drahi) en 2024, devenant propriétaire du premier média d'info en continu.",
       },
       {
         nom: "BFM TV",
