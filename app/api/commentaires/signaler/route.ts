@@ -14,7 +14,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    if (process.env.DATABASE_URL) {
+    if (process.env.DATABASE_URL || process.env.POSTGRES_URL) {
       try {
         const { db } = await import("@/lib/db/client");
         const { sql } = await import("drizzle-orm");

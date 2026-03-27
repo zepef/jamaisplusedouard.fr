@@ -9,7 +9,7 @@ export async function POST(request: NextRequest) {
       return errorResponse("commentId et type (utile/inutile) requis");
     }
 
-    if (process.env.DATABASE_URL) {
+    if (process.env.DATABASE_URL || process.env.POSTGRES_URL) {
       try {
         const { db } = await import("@/lib/db/client");
         const { sql } = await import("drizzle-orm");

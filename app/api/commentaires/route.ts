@@ -13,7 +13,7 @@ export async function GET(request: NextRequest) {
   const slug = request.nextUrl.searchParams.get("slug");
   if (!slug) return errorResponse("slug requis");
 
-  if (process.env.DATABASE_URL) {
+  if (process.env.DATABASE_URL || process.env.POSTGRES_URL) {
     try {
       const { db } = await import("@/lib/db/client");
       const { sql } = await import("drizzle-orm");
@@ -67,7 +67,7 @@ export async function POST(request: NextRequest) {
       signalements: { insulte: 0, desinformation: 0, spam: 0 },
     };
 
-    if (process.env.DATABASE_URL) {
+    if (process.env.DATABASE_URL || process.env.POSTGRES_URL) {
       try {
         const { db } = await import("@/lib/db/client");
         const { sql } = await import("drizzle-orm");

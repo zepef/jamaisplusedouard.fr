@@ -11,7 +11,8 @@ export async function POST(request: NextRequest) {
 
     // Si la BDD n'est pas configuree, on stocke en memoire
     // et on retourne un succes (sera migre quand PostgreSQL sera connecte)
-    if (!process.env.DATABASE_URL) {
+    const dbUrl = process.env.DATABASE_URL || process.env.POSTGRES_URL || process.env.POSTGRES_URL_NON_POOLING;
+    if (!dbUrl) {
       console.log(`[newsletter] Inscription sans BDD: ${email}`);
       return jsonResponse({
         message: "Inscription enregistree. Vous serez notifie des le lancement.",
