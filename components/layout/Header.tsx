@@ -8,6 +8,7 @@ const navLinks = [
   { href: "/actualites", label: "Actualites" },
   { href: "/controverses", label: "Controverses" },
   { href: "/reseau", label: "Reseau" },
+  { href: "/matraquage", label: "Matraquage" },
 ];
 
 export default function Header() {
