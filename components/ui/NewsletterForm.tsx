@@ -21,7 +21,7 @@ export default function NewsletterForm() {
 
       if (res.ok) {
         setStatus("success");
-        setMessage("Inscription confirmée. Verifiez votre boîte mail.");
+        setMessage("Inscription enregistrée. Vérifiez votre boîte mail — pensez à regarder vos spams si vous ne voyez pas l'email de confirmation.");
         setEmail("");
       } else {
         const data = await res.json();
