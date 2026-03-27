@@ -1,0 +1,135 @@
+import type { Metadata } from "next";
+import GlassCard from "@/components/ui/GlassCard";
+import { timeline, ficheSynthetique } from "@/lib/seed-data";
+
+export const metadata: Metadata = {
+  title: "Biographie",
+  description:
+    "Parcours politique complet d'Edouard Philippe, du Havre a Matignon et au-dela.",
+};
+
+// Group by section
+const sections = timeline.reduce(
+  (acc, event) => {
+    const section = event.section || "Autre";
+    if (!acc[section]) acc[section] = [];
+    acc[section].push(event);
+    return acc;
+  },
+  {} as Record<string, typeof timeline>
+);
+
+const sectionOrder = [
+  "Origines",
+  "Formation",
+  "Carriere",
+  "Le Havre",
+  "Politique nationale",
+  "Matignon",
+  "Covid",
+  "Horizons",
+  "Presidentielle 2027",
+  "Judiciaire",
+  "Reseau",
+];
+
+export default function BiographiePage() {
+  return (
+    <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12">
+      <h1 className="text-3xl font-bold mb-2">
+        <span className="text-magenta glow-magenta">Biographie</span>
+      </h1>
+      <p className="text-sm text-muted mb-8 font-mono">
+        Edouard Charles Philippe — ne le 28 novembre 1970 a Rouen
+      </p>
+
+      {/* Fiche synthetique */}
+      <GlassCard glow="cyan" className="mb-12">
+        <h2 className="text-sm font-mono font-bold text-cyan mb-4">
+          Fiche synthetique
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+          {Object.entries({
+            "Nom complet": ficheSynthetique.nomComplet,
+            Naissance: `${ficheSynthetique.dateNaissance} (${ficheSynthetique.age} ans) — ${ficheSynthetique.lieuNaissance}`,
+            Parti: ficheSynthetique.parti,
+            "Fonction actuelle": ficheSynthetique.fonctionActuelle,
+            "Premier ministre": ficheSynthetique.premierMinistre,
+            Formation: ficheSynthetique.formation,
+            Famille: `${ficheSynthetique.conjoint} · ${ficheSynthetique.enfants}`,
+            "Candidature 2027": ficheSynthetique.candidature2027,
+          }).map(([key, value]) => (
+            <div key={key}>
+              <span className="text-xs font-mono text-muted/50 uppercase">
+                {key}
+              </span>
+              <p className="text-foreground">{value}</p>
+            </div>
+          ))}
+        </div>
+      </GlassCard>
+
+      {/* Timeline by section */}
+      {sectionOrder.map((sectionName) => {
+        const events = sections[sectionName];
+        if (!events) return null;
+
+        return (
+          <section key={sectionName} className="mb-10">
+            <h2 className="text-lg font-bold text-foreground mb-4 border-b border-glass-border pb-2">
+              {sectionName}
+            </h2>
+            <div className="relative">
+              {/* Vertical line */}
+              <div className="absolute left-[47px] top-0 bottom-0 w-px bg-gradient-to-b from-cyan/30 via-magenta/30 to-neon-red/30" />
+
+              <div className="space-y-4">
+                {events.map((event, i) => (
+                  <div key={i} className="flex gap-4">
+                    <div className="shrink-0 w-24 text-right pr-3">
+                      <span
+                        className={`text-xs font-mono font-bold ${
+                          event.categorie === "controverse"
+                            ? "text-neon-red"
+                            : event.categorie === "carriere"
+                              ? "text-yellow-400"
+                              : "text-cyan"
+                        }`}
+                      >
+                        {event.annee}
+                      </span>
+                    </div>
+                    <GlassCard
+                      glow={
+                        event.categorie === "controverse" ? "red" : "none"
+                      }
+                      className="flex-1 !p-4"
+                    >
+                      <span
+                        className={`tag ${
+                          event.categorie === "controverse"
+                            ? "tag-controverse"
+                            : event.categorie === "carriere"
+                              ? "text-yellow-400 border-yellow-400/30 bg-yellow-400/8"
+                              : "tag-biographie"
+                        }`}
+                      >
+                        {event.categorie}
+                      </span>
+                      <h3 className="mt-1.5 text-sm font-semibold text-foreground">
+                        {event.titre}
+                      </h3>
+                      <p className="mt-1 text-xs text-muted">
+                        {event.description}
+                      </p>
+                    </GlassCard>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        );
+      })}
+    </div>
+  );
+}
