@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "Jamais Plus Édouard — Bürgerüberwachung",
+    "titleTemplate": "{title} | Jamais Plus Édouard",
+    "description": "Biografie, Kontroversen und Netzwerk von Édouard Philippe. Tägliche Beobachtung des Präsidentschaftskandidaten.",
+    "ogDescription": "Bürgerüberwachung zu Édouard Philippe — Biografie, Fehltritte, Netzwerk."
+  },
+  "nav": {
+    "biographie": "Biografie",
+    "actualites": "Aktuelles",
+    "controverses": "Kontroversen",
+    "conflits": "Konflikte",
+    "reseau": "Netzwerk",
+    "matraquage": "Medienpräsenz",
+    "blog": "Blog",
+    "soumettre": "Einreichen",
+    "recherche": "Suche"
+  },
+  "hero": {
+    "tagline": "Bürgerüberwachung zu Édouard Philippe",
+    "subtitle": "KI im Dienst der Bürger",
+    "agentsOnline": "AGENTEN ONLINE"
+  },
+  "stats": {
+    "controverses": "Kontroversen",
+    "evenements": "Dokumentierte Ereignisse",
+    "connexions": "Netzwerkverbindungen",
+    "sources": "Verifizierte Quellen"
+  },
+  "sections": {
+    "controversesMajeures": "Schwerwiegende Kontroversen",
+    "chronologieRecente": "Aktuelle Chronologie",
+    "reseau": "Netzwerk",
+    "newsletter": "Newsletter",
+    "voirTout": "Alle anzeigen →",
+    "explorer": "Erkunden →",
+    "connexionsCartographiees": "kartierte Verbindungen"
+  },
+  "newsletter": {
+    "titre": "Newsletter",
+    "description": "Erhalten Sie neue Veröffentlichungen per E-Mail.",
+    "placeholder": "ihre@email.de",
+    "bouton": "Abonnieren",
+    "succes": "Anmeldung bestätigt. Überprüfen Sie Ihr Postfach — schauen Sie auch im Spam-Ordner nach, falls Sie die Bestätigungsmail nicht finden.",
+    "erreur": "Verbindungsfehler. Bitte versuchen Sie es erneut.",
+    "alertes": "Benachrichtigungen erhalten",
+    "alertesDescription": "Neue Kontroverse, neu entdeckte Verbindung — in Echtzeit informiert bleiben."
+  },
+  "recherche": {
+    "titre": "Suche",
+    "placeholder": "Nach einem Ereignis, einer Kontroverse, einer Person suchen...",
+    "resultats": "{count} Ergebnis{count, plural, one {} other {se}}",
+    "aucun": "Keine Ergebnisse für {query}",
+    "suggestion": "Geben Sie mindestens 2 Zeichen ein, um die Suche zu starten",
+    "tous": "Alle",
+    "chronologie": "Chronologie",
+    "essayez": "Versuchen Sie: CMA CGM, Rivotril, Gelbwesten, Young Leaders..."
+  },
+  "biographie": {
+    "titre": "Biografie",
+    "sousTitre": "Édouard Charles Philippe — geboren am 28. November 1970 in Rouen",
+    "ficheSynthetique": "Kurzprofil"
+  },
+  "controverses": {
+    "titre": "Kontroversen",
+    "sousTitre": "dokumentierte Fälle — Fehltritte, Widersprüche und Skandale"
+  },
+  "conflits": {
+    "titre": "Interessenkonflikte",
+    "sousTitre": "dokumentierte Ketten von Interessenkonflikten — folgen Sie den Verbindungen",
+    "legende": "Jede Kette zeichnet einen Pfad über mehrere Knotenpunkte nach, der Édouard Philippe mit einem privaten Interesse verbindet. Die Glieder zeigen die Mittler und Übertragungsmechanismen. Die Konsequenzen sind dokumentiert und belegt.",
+    "critiques": "Kritische Ketten",
+    "autres": "Weitere Ketten",
+    "consequence": "Konsequenz"
+  },
+  "reseauPage": {
+    "titre": "Netzwerk",
+    "sousTitre": "kartierte Verbindungen — Édouard Philippe im Zentrum",
+    "tous": "Alle",
+    "youngLeaders": "Young Leaders (FAF)",
+    "sinoFrancais": "Chinesisch-französisches Netzwerk",
+    "matignon": "Kabinett Matignon",
+    "leHavre": "Le Havre-Netzwerk",
+    "entreprises": "Unternehmen & Lobbyismus",
+    "horizons": "Partei Horizons",
+    "grapheAide": "Auf einen Knoten klicken, um das Profil anzuzeigen · Ziehen zum Verschieben · Scrollen zum Zoomen"
+  },
+  "matraquage": {
+    "titre": "Medienpräsenz",
+    "sousTitre": "Erfassung der Sendezeit und Medienberichterstattung über Édouard Philippe — öffentlich-rechtliche und hörige Medien",
+    "minutesAntenne": "Minuten Sendezeit",
+    "apparitions": "Auftritte",
+    "couvertureFavorable": "wohlwollende Berichterstattung",
+    "enquetesCritiques": "kritische Recherchen",
+    "tonalite": "Tonalität der Berichterstattung",
+    "classement": "Rangliste nach Sendezeit",
+    "apparitionsRecentes": "Aktuelle Auftritte",
+    "proprietaires": "Wem gehört was — Kartografie der Eigentümer"
+  },
+  "blog": {
+    "titre": "Blog",
+    "sousTitre": "Analysen, Leitartikel und Recherchen"
+  },
+  "commentaires": {
+    "titre": "Kommentare",
+    "placeholder": "Ihr Kommentar... Bleiben Sie sachlich und belegen Sie Ihre Aussagen.",
+    "publier": "Veröffentlichen",
+    "avertissement": "Beleidigende Kommentare oder solche, die Falschinformationen verbreiten, werden von der Community gemeldet.",
+    "recents": "Neueste",
+    "plusUtiles": "Hilfreichste",
+    "plusSignales": "Am häufigsten gemeldet",
+    "utile": "Hilfreich",
+    "inutile": "Nicht hilfreich",
+    "signaler": "Melden:",
+    "insulte": "Beleidigung",
+    "desinfo": "Desinformation",
+    "spam": "Spam",
+    "masque": "Verborgener Inhalt — von der Community gemeldet. Klicken zum Anzeigen.",
+    "aucun": "Keine Kommentare. Seien Sie der Erste, der reagiert.",
+    "publie": "Kommentar veröffentlicht."
+  },
+  "soumettre": {
+    "titre": "Reichen Sie Ihre Informationen ein",
+    "sousTitre": "Sie verfügen über Informationen zu Édouard Philippe, seinem Netzwerk oder seinen Aktivitäten? Übermitteln Sie sie uns.",
+    "protection": "Quellenschutz",
+    "categories": {
+      "conflitsInterets": "Interessenkonflikte",
+      "reseau": "Einflussnetzwerk",
+      "gestionLocale": "Kommunalverwaltung (Le Havre)",
+      "matraquage": "Medienpräsenz",
+      "autre": "Sonstiges"
+    },
+    "formulaire": "Einreichungsformular",
+    "canaux": "Sichere alternative Kanäle",
+    "engagement": "Unsere Verpflichtung"
+  },
+  "footer": {
+    "veille": "Bürgerüberwachung — Meinungsfreiheit (Art. 11 DDHC)",
+    "mentionsLegales": "Impressum",
+    "sources": "Quellen",
+    "agentsActifs": "Aktive Agenten"
+  },
+  "common": {
+    "controverse": "Kontroverse",
+    "actualite": "Aktuelles",
+    "biographie": "Biografie",
+    "retour": "← Zurück",
+    "sources": "Quellen",
+    "sourcesVerifiees": "Verifizierte Quellen",
+    "haute": "hoch",
+    "moyenne": "mittel",
+    "basse": "niedrig",
+    "critique": "kritisch",
+    "favorable": "wohlwollend",
+    "neutre": "neutral",
+    "proprietaire": "Eigentümer"
+  }
+}

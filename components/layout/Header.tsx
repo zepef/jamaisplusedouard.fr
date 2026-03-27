@@ -2,26 +2,30 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useTranslations, useLocale } from "next-intl";
 
-const navLinks = [
-  { href: "/biographie", label: "Biographie" },
-  { href: "/actualites", label: "Actualités" },
-  { href: "/controverses", label: "Controverses" },
-  { href: "/conflits", label: "Conflits" },
-  { href: "/reseau", label: "Réseau" },
-  { href: "/matraquage", label: "Matraquage" },
-  { href: "/blog", label: "Blog" },
-  { href: "/soumettre", label: "Soumettre" },
+const navKeys = [
+  { href: "/biographie", key: "biographie" },
+  { href: "/actualites", key: "actualites" },
+  { href: "/controverses", key: "controverses" },
+  { href: "/conflits", key: "conflits" },
+  { href: "/reseau", key: "reseau" },
+  { href: "/matraquage", key: "matraquage" },
+  { href: "/blog", key: "blog" },
+  { href: "/soumettre", key: "soumettre" },
 ];
 
 export default function Header() {
   const pathname = usePathname();
+  const t = useTranslations("nav");
+  const locale = useLocale();
+  const prefix = `/${locale}`;
 
   return (
     <header className="sticky top-0 z-50 glass border-b border-glass-border">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          <Link href="/" className="flex items-center gap-3 group">
+          <Link href={`${prefix}`} className="flex items-center gap-3 group">
             <span className="text-xl font-bold tracking-tight text-cyan glow-cyan">
               #JamaisPlusEdouard
             </span>
@@ -31,26 +35,27 @@ export default function Header() {
           </Link>
 
           <nav className="flex items-center gap-1">
-            {navLinks.map((link) => {
-              const isActive = pathname.startsWith(link.href);
+            {navKeys.map((link) => {
+              const fullHref = `${prefix}${link.href}`;
+              const isActive = pathname.startsWith(fullHref);
               return (
                 <Link
-                  key={link.href}
-                  href={link.href}
+                  key={link.key}
+                  href={fullHref}
                   className={`neon-underline px-3 py-2 text-sm font-medium transition-colors ${
                     isActive
                       ? "text-cyan glow-cyan"
                       : "text-muted hover:text-foreground"
                   }`}
                 >
-                  {link.label}
+                  {t(link.key)}
                 </Link>
               );
             })}
             <Link
-              href="/recherche"
+              href={`${prefix}/recherche`}
               className="ml-2 flex h-8 w-8 items-center justify-center rounded-md text-muted hover:text-cyan transition-colors"
-              aria-label="Rechercher"
+              aria-label={t("recherche")}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

@@ -1,6 +1,13 @@
+"use client";
+
 import Link from "next/link";
+import { useTranslations, useLocale } from "next-intl";
 
 export default function Footer() {
+  const t = useTranslations("footer");
+  const locale = useLocale();
+  const prefix = `/${locale}`;
+
   return (
     <footer className="border-t border-glass-border mt-auto">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
@@ -10,27 +17,25 @@ export default function Footer() {
               jamaisplusedouard.fr
             </span>
             <span className="text-xs text-muted/50">|</span>
-            <span className="text-xs text-muted/70">
-              Veille citoyenne — Liberté d&apos;expression (Art. 11 DDHC)
-            </span>
+            <span className="text-xs text-muted/70">{t("veille")}</span>
           </div>
 
           <div className="flex items-center gap-4 text-xs text-muted/70">
             <Link
-              href="/mentions-legales"
+              href={`${prefix}/mentions-legales`}
               className="hover:text-foreground transition-colors"
             >
-              Mentions légales
+              {t("mentionsLegales")}
             </Link>
             <Link
-              href="/sources"
+              href={`${prefix}/sources`}
               className="hover:text-foreground transition-colors"
             >
-              Sources
+              {t("sources")}
             </Link>
             <span className="flex items-center gap-1">
               <span className="inline-block h-1.5 w-1.5 rounded-full bg-neon-green pulse-neon" />
-              Agents actifs
+              {t("agentsActifs")}
             </span>
           </div>
         </div>

@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "Jamais Plus Édouard — Sorveglianza Civica",
+    "titleTemplate": "{title} | Jamais Plus Édouard",
+    "description": "Biografia, controversie e rete di Édouard Philippe. Monitoraggio quotidiano del candidato alla presidenza.",
+    "ogDescription": "Sorveglianza civica su Édouard Philippe — biografia, passi falsi, rete."
+  },
+  "nav": {
+    "biographie": "Biografia",
+    "actualites": "Attualità",
+    "controverses": "Controversie",
+    "conflits": "Conflitti",
+    "reseau": "Rete",
+    "matraquage": "Martellamento mediatico",
+    "blog": "Blog",
+    "soumettre": "Invia",
+    "recherche": "Cerca"
+  },
+  "hero": {
+    "tagline": "Sorveglianza civica su Édouard Philippe",
+    "subtitle": "l'IA al servizio del Cittadino",
+    "agentsOnline": "AGENTI ONLINE"
+  },
+  "stats": {
+    "controverses": "Controversie",
+    "evenements": "Eventi documentati",
+    "connexions": "Connessioni nella rete",
+    "sources": "Fonti verificate"
+  },
+  "sections": {
+    "controversesMajeures": "Controversie principali",
+    "chronologieRecente": "Cronologia recente",
+    "reseau": "Rete",
+    "newsletter": "Newsletter",
+    "voirTout": "Vedi tutto →",
+    "explorer": "Esplora →",
+    "connexionsCartographiees": "connessioni mappate"
+  },
+  "newsletter": {
+    "titre": "Newsletter",
+    "description": "Ricevi le nuove pubblicazioni via email.",
+    "placeholder": "tua@email.it",
+    "bouton": "Iscriviti",
+    "succes": "Iscrizione registrata. Controlla la tua casella di posta — verifica anche la cartella spam se non trovi l'email di conferma.",
+    "erreur": "Errore di connessione. Riprova.",
+    "alertes": "Ricevi le notifiche",
+    "alertesDescription": "Nuova controversia, nuova connessione scoperta — resta informato in tempo reale."
+  },
+  "recherche": {
+    "titre": "Ricerca",
+    "placeholder": "Cerca un evento, una controversia, una persona...",
+    "resultats": "{count} risultat{count, plural, one {o} other {i}}",
+    "aucun": "Nessun risultato per \"{query}\"",
+    "suggestion": "Digita almeno 2 caratteri per avviare la ricerca",
+    "tous": "Tutti",
+    "chronologie": "Cronologia",
+    "essayez": "Prova: CMA CGM, Rivotril, Gilet gialli, Young Leaders..."
+  },
+  "biographie": {
+    "titre": "Biografia",
+    "sousTitre": "Édouard Charles Philippe — nato il 28 novembre 1970 a Rouen",
+    "ficheSynthetique": "Scheda riassuntiva"
+  },
+  "controverses": {
+    "titre": "Controversie",
+    "sousTitre": "dossier documentati — passi falsi, contraddizioni e scandali"
+  },
+  "conflits": {
+    "titre": "Conflitti di interessi",
+    "sousTitre": "catene documentate di conflitti di interessi — segui i collegamenti",
+    "legende": "Ogni catena traccia un percorso multinodo che collega Édouard Philippe a un interesse privato. Gli anelli mostrano gli intermediari e i meccanismi di trasmissione. Le conseguenze sono documentate e corredate da fonti.",
+    "critiques": "Catene critiche",
+    "autres": "Altre catene",
+    "consequence": "Conseguenza"
+  },
+  "reseauPage": {
+    "titre": "Rete",
+    "sousTitre": "connessioni mappate — Édouard Philippe al centro",
+    "tous": "Tutti",
+    "youngLeaders": "Young Leaders (FAF)",
+    "sinoFrancais": "Rete sino-francese",
+    "matignon": "Gabinetto Matignon",
+    "leHavre": "Rete di Le Havre",
+    "entreprises": "Imprese e lobbying",
+    "horizons": "Partito Horizons",
+    "grapheAide": "Clicca su un nodo per vederne la scheda · Trascina per spostare · Scorri per zoomare"
+  },
+  "matraquage": {
+    "titre": "Martellamento mediatico",
+    "sousTitre": "Monitoraggio del tempo in onda e della copertura mediatica di Édouard Philippe — media pubblici e media asserviti",
+    "minutesAntenne": "minuti in onda",
+    "apparitions": "apparizioni",
+    "couvertureFavorable": "copertura favorevole",
+    "enquetesCritiques": "inchieste critiche",
+    "tonalite": "Tonalità della copertura",
+    "classement": "Classifica per tempo in onda",
+    "apparitionsRecentes": "Apparizioni recenti",
+    "proprietaires": "Chi possiede cosa — cartografia dei proprietari"
+  },
+  "blog": {
+    "titre": "Blog",
+    "sousTitre": "Analisi, editoriali e inchieste"
+  },
+  "commentaires": {
+    "titre": "Commenti",
+    "placeholder": "Il tuo commento... Resta obiettivo e cita le tue fonti.",
+    "publier": "Pubblica",
+    "avertissement": "I commenti offensivi o contenenti disinformazione saranno segnalati dalla comunità.",
+    "recents": "Recenti",
+    "plusUtiles": "Più utili",
+    "plusSignales": "Più segnalati",
+    "utile": "Utile",
+    "inutile": "Non utile",
+    "signaler": "Segnala:",
+    "insulte": "Insulto",
+    "desinfo": "Disinformazione",
+    "spam": "Spam",
+    "masque": "Contenuto nascosto — segnalato dalla comunità. Clicca per mostrare.",
+    "aucun": "Nessun commento. Sii il primo a reagire.",
+    "publie": "Commento pubblicato."
+  },
+  "soumettre": {
+    "titre": "Invia le tue informazioni",
+    "sousTitre": "Disponi di informazioni su Édouard Philippe, la sua rete o le sue attività? Trasmettile.",
+    "protection": "Protezione delle fonti",
+    "categories": {
+      "conflitsInterets": "Conflitti di interessi",
+      "reseau": "Rete di influenza",
+      "gestionLocale": "Gestione locale (Le Havre)",
+      "matraquage": "Martellamento mediatico",
+      "autre": "Altro"
+    },
+    "formulaire": "Modulo di invio",
+    "canaux": "Canali alternativi sicuri",
+    "engagement": "Il nostro impegno"
+  },
+  "footer": {
+    "veille": "Sorveglianza civica — Libertà di espressione (Art. 11 DDHC)",
+    "mentionsLegales": "Note legali",
+    "sources": "Fonti",
+    "agentsActifs": "Agenti attivi"
+  },
+  "common": {
+    "controverse": "Controversia",
+    "actualite": "Attualità",
+    "biographie": "Biografia",
+    "retour": "← Indietro",
+    "sources": "Fonti",
+    "sourcesVerifiees": "Fonti verificate",
+    "haute": "alta",
+    "moyenne": "media",
+    "basse": "bassa",
+    "critique": "critico",
+    "favorable": "favorevole",
+    "neutre": "neutro",
+    "proprietaire": "Proprietario"
+  }
+}

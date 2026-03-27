@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "Jamais Plus Édouard — 公民监督",
+    "titleTemplate": "{title} | Jamais Plus Édouard",
+    "description": "爱德华·菲利普的传记、争议事件与人脉网络。每日追踪这位总统候选人。",
+    "ogDescription": "对爱德华·菲利普的公民监督——传记、失误、人脉。"
+  },
+  "nav": {
+    "biographie": "传记",
+    "actualites": "时事",
+    "controverses": "争议事件",
+    "conflits": "利益冲突",
+    "reseau": "人脉",
+    "matraquage": "媒体轰炸",
+    "blog": "博客",
+    "soumettre": "提交",
+    "recherche": "搜索"
+  },
+  "hero": {
+    "tagline": "对爱德华·菲利普的公民监督",
+    "subtitle": "AI服务于公民",
+    "agentsOnline": "代理在线"
+  },
+  "stats": {
+    "controverses": "争议事件",
+    "evenements": "已记录事件",
+    "connexions": "人脉连接",
+    "sources": "已核实来源"
+  },
+  "sections": {
+    "controversesMajeures": "重大争议事件",
+    "chronologieRecente": "近期大事记",
+    "reseau": "人脉",
+    "newsletter": "通讯订阅",
+    "voirTout": "查看全部 →",
+    "explorer": "探索 →",
+    "connexionsCartographiees": "已绘制的人脉关系"
+  },
+  "newsletter": {
+    "titre": "通讯订阅",
+    "description": "通过电子邮件接收最新发布的内容。",
+    "placeholder": "your@email.com",
+    "bouton": "订阅",
+    "succes": "订阅成功。请检查您的收件箱——如果没有看到确认邮件，请查看垃圾邮件文件夹。",
+    "erreur": "连接出错，请重试。",
+    "alertes": "接收提醒",
+    "alertesDescription": "新争议事件、新发现的人脉关系——实时获取信息。"
+  },
+  "recherche": {
+    "titre": "搜索",
+    "placeholder": "搜索事件、争议、人物...",
+    "resultats": "{count} 条结果",
+    "aucun": "未找到 {query} 的相关结果",
+    "suggestion": "请输入至少2个字符开始搜索",
+    "tous": "全部",
+    "chronologie": "大事记",
+    "essayez": "试试搜索：CMA CGM、Rivotril、黄背心运动、Young Leaders..."
+  },
+  "biographie": {
+    "titre": "传记",
+    "sousTitre": "爱德华·夏尔·菲利普——1970年11月28日生于鲁昂",
+    "ficheSynthetique": "简要档案"
+  },
+  "controverses": {
+    "titre": "争议事件",
+    "sousTitre": "已记录的案件——失误、矛盾与丑闻"
+  },
+  "conflits": {
+    "titre": "利益冲突",
+    "sousTitre": "已记录的利益冲突链——追踪关联",
+    "legende": "每条链路追溯一条多节点路径，将爱德华·菲利普与私人利益相连。各环节展示了中间人和传导机制。后果均有文件记录和来源佐证。",
+    "critiques": "关键链条",
+    "autres": "其他链条",
+    "consequence": "后果"
+  },
+  "reseauPage": {
+    "titre": "人脉",
+    "sousTitre": "已绘制的人脉关系——爱德华·菲利普居于中心",
+    "tous": "全部",
+    "youngLeaders": "Young Leaders (FAF)",
+    "sinoFrancais": "中法人脉网络",
+    "matignon": "马提尼翁内阁",
+    "leHavre": "勒阿弗尔人脉",
+    "entreprises": "企业与游说",
+    "horizons": "Horizons党",
+    "grapheAide": "点击节点查看详情 · 拖拽移动 · 滚轮缩放"
+  },
+  "matraquage": {
+    "titre": "媒体轰炸",
+    "sousTitre": "追踪爱德华·菲利普的播出时间和媒体报道——公共媒体与依附性媒体",
+    "minutesAntenne": "分钟播出时间",
+    "apparitions": "次出镜",
+    "couvertureFavorable": "正面报道",
+    "enquetesCritiques": "批评性调查",
+    "tonalite": "报道基调",
+    "classement": "播出时间排名",
+    "apparitionsRecentes": "近期出镜",
+    "proprietaires": "谁拥有什么——所有者全景图"
+  },
+  "blog": {
+    "titre": "博客",
+    "sousTitre": "分析、评论与调查报道"
+  },
+  "commentaires": {
+    "titre": "评论",
+    "placeholder": "您的评论……请保持客观，引用信息来源。",
+    "publier": "发布",
+    "avertissement": "侮辱性评论或传播虚假信息的评论将被社区标记。",
+    "recents": "最新",
+    "plusUtiles": "最有用",
+    "plusSignales": "被标记最多",
+    "utile": "有用",
+    "inutile": "无用",
+    "signaler": "举报：",
+    "insulte": "侮辱",
+    "desinfo": "虚假信息",
+    "spam": "垃圾信息",
+    "masque": "隐藏内容——已被社区标记。点击查看。",
+    "aucun": "暂无评论。成为第一个发表评论的人。",
+    "publie": "评论已发布。"
+  },
+  "soumettre": {
+    "titre": "提交您的信息",
+    "sousTitre": "您掌握有关爱德华·菲利普、其人脉或活动的信息？请提交给我们。",
+    "protection": "信息来源保护",
+    "categories": {
+      "conflitsInterets": "利益冲突",
+      "reseau": "影响力网络",
+      "gestionLocale": "地方治理（勒阿弗尔）",
+      "matraquage": "媒体轰炸",
+      "autre": "其他"
+    },
+    "formulaire": "提交表单",
+    "canaux": "安全替代渠道",
+    "engagement": "我们的承诺"
+  },
+  "footer": {
+    "veille": "公民监督——言论自由（DDHC第11条）",
+    "mentionsLegales": "法律声明",
+    "sources": "来源",
+    "agentsActifs": "活跃代理"
+  },
+  "common": {
+    "controverse": "争议事件",
+    "actualite": "时事",
+    "biographie": "传记",
+    "retour": "← 返回",
+    "sources": "来源",
+    "sourcesVerifiees": "已核实来源",
+    "haute": "高",
+    "moyenne": "中",
+    "basse": "低",
+    "critique": "严重",
+    "favorable": "正面",
+    "neutre": "中立",
+    "proprietaire": "所有者"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "Jamais Plus Édouard — 市民監視プロジェクト",
+    "titleTemplate": "{title} | Jamais Plus Édouard",
+    "description": "エドゥアール・フィリップの経歴、スキャンダル、人脈。大統領候補の日常的な追跡調査。",
+    "ogDescription": "エドゥアール・フィリップに関する市民監視 — 経歴、失言、人脈。"
+  },
+  "nav": {
+    "biographie": "経歴",
+    "actualites": "ニュース",
+    "controverses": "スキャンダル",
+    "conflits": "利益相反",
+    "reseau": "人脈",
+    "matraquage": "メディア攻勢",
+    "blog": "ブログ",
+    "soumettre": "情報提供",
+    "recherche": "検索"
+  },
+  "hero": {
+    "tagline": "エドゥアール・フィリップに関する市民監視",
+    "subtitle": "市民のためのAI",
+    "agentsOnline": "エージェント稼働中"
+  },
+  "stats": {
+    "controverses": "スキャンダル",
+    "evenements": "記録された事件",
+    "connexions": "ネットワーク接続",
+    "sources": "検証済み情報源"
+  },
+  "sections": {
+    "controversesMajeures": "主要スキャンダル",
+    "chronologieRecente": "最近の年表",
+    "reseau": "人脈",
+    "newsletter": "ニュースレター",
+    "voirTout": "すべて見る →",
+    "explorer": "探索する →",
+    "connexionsCartographiees": "マッピングされた人脈"
+  },
+  "newsletter": {
+    "titre": "ニュースレター",
+    "description": "新しい記事をメールで受け取れます。",
+    "placeholder": "your@email.jp",
+    "bouton": "登録する",
+    "succes": "登録が完了しました。受信トレイをご確認ください。確認メールが届かない場合は迷惑メールフォルダもご確認ください。",
+    "erreur": "接続エラーが発生しました。もう一度お試しください。",
+    "alertes": "アラートを受け取る",
+    "alertesDescription": "新たなスキャンダル、新たに発覚した人脈 — リアルタイムで情報を入手。"
+  },
+  "recherche": {
+    "titre": "検索",
+    "placeholder": "事件、スキャンダル、人物を検索...",
+    "resultats": "{count} 件の結果",
+    "aucun": "「{query}」の検索結果はありません",
+    "suggestion": "検索を開始するには2文字以上入力してください",
+    "tous": "すべて",
+    "chronologie": "年表",
+    "essayez": "検索例：CMA CGM、Rivotril、黄色いベスト運動、Young Leaders..."
+  },
+  "biographie": {
+    "titre": "経歴",
+    "sousTitre": "エドゥアール・シャルル・フィリップ — 1970年11月28日ルーアン生まれ",
+    "ficheSynthetique": "プロフィール概要"
+  },
+  "controverses": {
+    "titre": "スキャンダル",
+    "sousTitre": "記録された案件 — 失言、矛盾、不祥事"
+  },
+  "conflits": {
+    "titre": "利益相反",
+    "sousTitre": "記録された利益相反の連鎖 — つながりをたどる",
+    "legende": "各連鎖は、エドゥアール・フィリップと私的利益を結ぶ複数ノードの経路を示しています。各リンクは仲介者と伝達メカニズムを表しています。結果は文書化され、情報源が明記されています。",
+    "critiques": "重大な連鎖",
+    "autres": "その他の連鎖",
+    "consequence": "結果"
+  },
+  "reseauPage": {
+    "titre": "人脈",
+    "sousTitre": "マッピングされた人脈 — エドゥアール・フィリップを中心に",
+    "tous": "すべて",
+    "youngLeaders": "Young Leaders (FAF)",
+    "sinoFrancais": "中仏ネットワーク",
+    "matignon": "マティニョン官邸内閣",
+    "leHavre": "ル・アーヴル人脈",
+    "entreprises": "企業・ロビー活動",
+    "horizons": "Horizons党",
+    "grapheAide": "ノードをクリックして詳細を表示 · ドラッグで移動 · スクロールでズーム"
+  },
+  "matraquage": {
+    "titre": "メディア攻勢",
+    "sousTitre": "エドゥアール・フィリップの放送時間とメディア露出の追跡 — 公共メディアと御用メディア",
+    "minutesAntenne": "分の放送時間",
+    "apparitions": "出演回数",
+    "couvertureFavorable": "好意的な報道",
+    "enquetesCritiques": "批判的な調査報道",
+    "tonalite": "報道のトーン",
+    "classement": "放送時間ランキング",
+    "apparitionsRecentes": "最近の出演",
+    "proprietaires": "誰が何を所有しているか — オーナーのマッピング"
+  },
+  "blog": {
+    "titre": "ブログ",
+    "sousTitre": "分析、論説、調査報道"
+  },
+  "commentaires": {
+    "titre": "コメント",
+    "placeholder": "コメントを入力... 事実に基づき、主張には出典を明記してください。",
+    "publier": "投稿する",
+    "avertissement": "誹謗中傷や虚偽情報を含むコメントはコミュニティによって報告されます。",
+    "recents": "最新",
+    "plusUtiles": "最も役立つ",
+    "plusSignales": "最も報告された",
+    "utile": "役に立つ",
+    "inutile": "役に立たない",
+    "signaler": "報告：",
+    "insulte": "誹謗中傷",
+    "desinfo": "虚偽情報",
+    "spam": "スパム",
+    "masque": "非表示コンテンツ — コミュニティにより報告済み。クリックして表示。",
+    "aucun": "コメントはまだありません。最初のコメントを投稿しましょう。",
+    "publie": "コメントが投稿されました。"
+  },
+  "soumettre": {
+    "titre": "情報を提供する",
+    "sousTitre": "エドゥアール・フィリップ、その人脈や活動に関する情報をお持ちですか？お寄せください。",
+    "protection": "情報源の保護",
+    "categories": {
+      "conflitsInterets": "利益相反",
+      "reseau": "影響力ネットワーク",
+      "gestionLocale": "地方行政（ル・アーヴル）",
+      "matraquage": "メディア攻勢",
+      "autre": "その他"
+    },
+    "formulaire": "提出フォーム",
+    "canaux": "安全な代替連絡手段",
+    "engagement": "私たちの約束"
+  },
+  "footer": {
+    "veille": "市民監視 — 表現の自由（DDHC第11条）",
+    "mentionsLegales": "法的表示",
+    "sources": "情報源",
+    "agentsActifs": "稼働中のエージェント"
+  },
+  "common": {
+    "controverse": "スキャンダル",
+    "actualite": "ニュース",
+    "biographie": "経歴",
+    "retour": "← 戻る",
+    "sources": "情報源",
+    "sourcesVerifiees": "検証済み情報源",
+    "haute": "高",
+    "moyenne": "中",
+    "basse": "低",
+    "critique": "重大",
+    "favorable": "好意的",
+    "neutre": "中立",
+    "proprietaire": "所有者"
+  }
+}

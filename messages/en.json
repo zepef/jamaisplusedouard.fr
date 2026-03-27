@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "Jamais Plus Édouard — Citizen Watchdog",
+    "titleTemplate": "{title} | Jamais Plus Édouard",
+    "description": "Biography, controversies and network of Édouard Philippe. Daily tracking of the presidential candidate.",
+    "ogDescription": "Citizen watchdog on Édouard Philippe — biography, blunders, network."
+  },
+  "nav": {
+    "biographie": "Biography",
+    "actualites": "News",
+    "controverses": "Controversies",
+    "conflits": "Conflicts",
+    "reseau": "Network",
+    "matraquage": "Media Blitz",
+    "blog": "Blog",
+    "soumettre": "Submit",
+    "recherche": "Search"
+  },
+  "hero": {
+    "tagline": "Citizen watchdog on Édouard Philippe",
+    "subtitle": "AI in the service of the Citizen",
+    "agentsOnline": "AGENTS ONLINE"
+  },
+  "stats": {
+    "controverses": "Controversies",
+    "evenements": "Documented events",
+    "connexions": "Network connections",
+    "sources": "Verified sources"
+  },
+  "sections": {
+    "controversesMajeures": "Major controversies",
+    "chronologieRecente": "Recent timeline",
+    "reseau": "Network",
+    "newsletter": "Newsletter",
+    "voirTout": "See all →",
+    "explorer": "Explore →",
+    "connexionsCartographiees": "mapped connections"
+  },
+  "newsletter": {
+    "titre": "Newsletter",
+    "description": "Receive new publications by email.",
+    "placeholder": "your@email.com",
+    "bouton": "Subscribe",
+    "succes": "Subscription confirmed. Check your inbox — look in your spam folder if you don't see the confirmation email.",
+    "erreur": "Connection error. Please try again.",
+    "alertes": "Receive alerts",
+    "alertesDescription": "New controversy, newly discovered connection — stay informed in real time."
+  },
+  "recherche": {
+    "titre": "Search",
+    "placeholder": "Search for an event, a controversy, a person...",
+    "resultats": "{count} result{count, plural, one {} other {s}}",
+    "aucun": "No results for \"{query}\"",
+    "suggestion": "Type at least 2 characters to start searching",
+    "tous": "All",
+    "chronologie": "Timeline",
+    "essayez": "Try: CMA CGM, Rivotril, Yellow Vests, Young Leaders..."
+  },
+  "biographie": {
+    "titre": "Biography",
+    "sousTitre": "Édouard Charles Philippe — born November 28, 1970 in Rouen",
+    "ficheSynthetique": "Summary profile"
+  },
+  "controverses": {
+    "titre": "Controversies",
+    "sousTitre": "documented cases — blunders, contradictions and scandals"
+  },
+  "conflits": {
+    "titre": "Conflicts of interest",
+    "sousTitre": "documented chains of conflicts of interest — follow the links",
+    "legende": "Each chain traces a multi-node path connecting Édouard Philippe to a private interest. The links show the intermediaries and transmission mechanisms. The consequences are documented and sourced.",
+    "critiques": "Critical chains",
+    "autres": "Other chains",
+    "consequence": "Consequence"
+  },
+  "reseauPage": {
+    "titre": "Network",
+    "sousTitre": "mapped connections — Édouard Philippe at the centre",
+    "tous": "All",
+    "youngLeaders": "Young Leaders (FAF)",
+    "sinoFrancais": "Sino-French network",
+    "matignon": "Matignon Cabinet",
+    "leHavre": "Le Havre network",
+    "entreprises": "Corporations & lobbying",
+    "horizons": "Horizons Party",
+    "grapheAide": "Click a node to view its profile · Drag to move · Scroll to zoom"
+  },
+  "matraquage": {
+    "titre": "Media blitz",
+    "sousTitre": "Tracking the airtime and media coverage of Édouard Philippe — public broadcasters and subservient media",
+    "minutesAntenne": "minutes of airtime",
+    "apparitions": "appearances",
+    "couvertureFavorable": "favourable coverage",
+    "enquetesCritiques": "critical investigations",
+    "tonalite": "Coverage tone",
+    "classement": "Ranking by airtime",
+    "apparitionsRecentes": "Recent appearances",
+    "proprietaires": "Who owns what — mapping the owners"
+  },
+  "blog": {
+    "titre": "Blog",
+    "sousTitre": "Analyses, editorials and investigations"
+  },
+  "commentaires": {
+    "titre": "Comments",
+    "placeholder": "Your comment... Stay factual and cite your sources.",
+    "publier": "Publish",
+    "avertissement": "Insulting comments or those spreading misinformation will be flagged by the community.",
+    "recents": "Recent",
+    "plusUtiles": "Most useful",
+    "plusSignales": "Most flagged",
+    "utile": "Useful",
+    "inutile": "Not useful",
+    "signaler": "Report:",
+    "insulte": "Insult",
+    "desinfo": "Misinfo",
+    "spam": "Spam",
+    "masque": "Hidden content — flagged by the community. Click to reveal.",
+    "aucun": "No comments yet. Be the first to react.",
+    "publie": "Comment published."
+  },
+  "soumettre": {
+    "titre": "Submit your information",
+    "sousTitre": "Do you have information about Édouard Philippe, his network or his activities? Send it to us.",
+    "protection": "Source protection",
+    "categories": {
+      "conflitsInterets": "Conflicts of interest",
+      "reseau": "Influence network",
+      "gestionLocale": "Local governance (Le Havre)",
+      "matraquage": "Media blitz",
+      "autre": "Other"
+    },
+    "formulaire": "Submission form",
+    "canaux": "Secure alternative channels",
+    "engagement": "Our commitment"
+  },
+  "footer": {
+    "veille": "Citizen watchdog — Freedom of expression (Art. 11 DDHC)",
+    "mentionsLegales": "Legal notice",
+    "sources": "Sources",
+    "agentsActifs": "Active agents"
+  },
+  "common": {
+    "controverse": "Controversy",
+    "actualite": "News",
+    "biographie": "Biography",
+    "retour": "← Back",
+    "sources": "Sources",
+    "sourcesVerifiees": "Verified sources",
+    "haute": "high",
+    "moyenne": "medium",
+    "basse": "low",
+    "critique": "critical",
+    "favorable": "favourable",
+    "neutre": "neutral",
+    "proprietaire": "Owner"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "Jamais Plus Édouard — Veille Citoyenne",
+    "titleTemplate": "{title} | Jamais Plus Édouard",
+    "description": "Biographie, controverses et réseau d'Édouard Philippe. Suivi quotidien du candidat à la présidentielle.",
+    "ogDescription": "Veille citoyenne sur Édouard Philippe — biographie, faux pas, réseau."
+  },
+  "nav": {
+    "biographie": "Biographie",
+    "actualites": "Actualités",
+    "controverses": "Controverses",
+    "conflits": "Conflits",
+    "reseau": "Réseau",
+    "matraquage": "Matraquage",
+    "blog": "Blog",
+    "soumettre": "Soumettre",
+    "recherche": "Rechercher"
+  },
+  "hero": {
+    "tagline": "Veille citoyenne sur Édouard Philippe",
+    "subtitle": "l'IA au service du Citoyen",
+    "agentsOnline": "AGENTS EN LIGNE"
+  },
+  "stats": {
+    "controverses": "Controverses",
+    "evenements": "Événements documentés",
+    "connexions": "Connexions réseau",
+    "sources": "Sources vérifiées"
+  },
+  "sections": {
+    "controversesMajeures": "Controverses majeures",
+    "chronologieRecente": "Chronologie récente",
+    "reseau": "Réseau",
+    "newsletter": "Newsletter",
+    "voirTout": "Voir tout →",
+    "explorer": "Explorer →",
+    "connexionsCartographiees": "connexions cartographiées"
+  },
+  "newsletter": {
+    "titre": "Newsletter",
+    "description": "Recevez les nouvelles publications par email.",
+    "placeholder": "votre@email.fr",
+    "bouton": "S'abonner",
+    "succes": "Inscription enregistrée. Vérifiez votre boîte mail — pensez à regarder vos spams si vous ne voyez pas l'email de confirmation.",
+    "erreur": "Erreur de connexion. Réessayez.",
+    "alertes": "Recevoir les alertes",
+    "alertesDescription": "Nouvelle controverse, nouvelle connexion découverte — soyez informé en temps réel."
+  },
+  "recherche": {
+    "titre": "Recherche",
+    "placeholder": "Rechercher un événement, une controverse, une personne...",
+    "resultats": "{count} résultat{count, plural, one {} other {s}}",
+    "aucun": "Aucun résultat pour \"{query}\"",
+    "suggestion": "Tapez au moins 2 caractères pour lancer la recherche",
+    "tous": "Tous",
+    "chronologie": "Chronologie",
+    "essayez": "Essayez : CMA CGM, Rivotril, Gilets jaunes, Young Leaders..."
+  },
+  "biographie": {
+    "titre": "Biographie",
+    "sousTitre": "Édouard Charles Philippe — né le 28 novembre 1970 à Rouen",
+    "ficheSynthetique": "Fiche synthétique"
+  },
+  "controverses": {
+    "titre": "Controverses",
+    "sousTitre": "dossiers documentés — faux pas, contradictions et scandales"
+  },
+  "conflits": {
+    "titre": "Conflits d'intérêts",
+    "sousTitre": "chaînes de conflits d'intérêts documentées — suivez les liens",
+    "legende": "Chaque chaîne retrace un parcours multi-nœud reliant Édouard Philippe à un intérêt privé. Les maillons montrent les intermédiaires et les mécanismes de transmission. Les conséquences sont documentées et sourcées.",
+    "critiques": "Chaînes critiques",
+    "autres": "Autres chaînes",
+    "consequence": "Conséquence"
+  },
+  "reseauPage": {
+    "titre": "Réseau",
+    "sousTitre": "connexions cartographiées — Édouard Philippe au centre",
+    "tous": "Tous",
+    "youngLeaders": "Young Leaders (FAF)",
+    "sinoFrancais": "Réseau sino-français",
+    "matignon": "Cabinet Matignon",
+    "leHavre": "Réseau havrais",
+    "entreprises": "Entreprises & lobbying",
+    "horizons": "Parti Horizons",
+    "grapheAide": "Cliquer sur un nœud pour voir sa fiche · Glisser pour déplacer · Molette pour zoomer"
+  },
+  "matraquage": {
+    "titre": "Matraquage médiatique",
+    "sousTitre": "Suivi du temps d'antenne et de la couverture médiatique d'Édouard Philippe — médias publics et médias inféodés",
+    "minutesAntenne": "minutes d'antenne",
+    "apparitions": "apparitions",
+    "couvertureFavorable": "couverture favorable",
+    "enquetesCritiques": "enquêtes critiques",
+    "tonalite": "Tonalité de la couverture",
+    "classement": "Classement par temps d'antenne",
+    "apparitionsRecentes": "Apparitions récentes",
+    "proprietaires": "Qui possède quoi — cartographie des propriétaires"
+  },
+  "blog": {
+    "titre": "Blog",
+    "sousTitre": "Analyses, éditoriaux et enquêtes"
+  },
+  "commentaires": {
+    "titre": "Commentaires",
+    "placeholder": "Votre commentaire... Restez factuel et sourcez vos affirmations.",
+    "publier": "Publier",
+    "avertissement": "Les commentaires insultants ou diffusant de fausses informations seront signalés par la communauté.",
+    "recents": "Récents",
+    "plusUtiles": "Plus utiles",
+    "plusSignales": "Plus signalés",
+    "utile": "Utile",
+    "inutile": "Inutile",
+    "signaler": "Signaler :",
+    "insulte": "Insulte",
+    "desinfo": "Désinfo",
+    "spam": "Spam",
+    "masque": "Contenu masqué — signalé par la communauté. Cliquer pour afficher.",
+    "aucun": "Aucun commentaire. Soyez le premier à réagir.",
+    "publie": "Commentaire publié."
+  },
+  "soumettre": {
+    "titre": "Soumettez vos informations",
+    "sousTitre": "Vous disposez d'informations sur Édouard Philippe, son réseau ou ses activités ? Transmettez-les.",
+    "protection": "Protection des sources",
+    "categories": {
+      "conflitsInterets": "Conflits d'intérêts",
+      "reseau": "Réseau d'influence",
+      "gestionLocale": "Gestion locale (Le Havre)",
+      "matraquage": "Matraquage médiatique",
+      "autre": "Autre"
+    },
+    "formulaire": "Formulaire de soumission",
+    "canaux": "Canaux alternatifs sécurisés",
+    "engagement": "Notre engagement"
+  },
+  "footer": {
+    "veille": "Veille citoyenne — Liberté d'expression (Art. 11 DDHC)",
+    "mentionsLegales": "Mentions légales",
+    "sources": "Sources",
+    "agentsActifs": "Agents actifs"
+  },
+  "common": {
+    "controverse": "Controverse",
+    "actualite": "Actualité",
+    "biographie": "Biographie",
+    "retour": "← Retour",
+    "sources": "Sources",
+    "sourcesVerifiees": "Sources vérifiées",
+    "haute": "haute",
+    "moyenne": "moyenne",
+    "basse": "basse",
+    "critique": "critique",
+    "favorable": "favorable",
+    "neutre": "neutre",
+    "proprietaire": "Propriétaire"
+  }
+}
