@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import GlassCard from "@/components/ui/GlassCard";
+import CommentSection from "@/components/blog/CommentSection";
 import { blogPosts } from "@/lib/blog-data";
 
 export function generateStaticParams() {
@@ -89,6 +90,9 @@ export default async function BlogPostPage({
             ))}
           </div>
         </div>
+
+        {/* Commentaires */}
+        <CommentSection articleSlug={post.slug} />
       </article>
     </div>
   );
