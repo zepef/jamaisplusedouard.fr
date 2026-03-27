@@ -383,20 +383,20 @@ export type Controverse = {
 export const controverses: Controverse[] = [
   {
     slug: "gilets-jaunes-mutiles",
-    titre: "Gilets jaunes mutiles — la doctrine du maintien de l'ordre",
+    titre: "Gilets jaunes mutilés — la doctrine du maintien de l'ordre",
     resume:
-      "432 blesses graves, 25 éborgnes, 5 mains arrachees, 1 deces. L'ONU et Amnesty International ont demandé l'interdiction des LBD40.",
-    contenu: `Le mouvement des Gilets jaunes éclate en novembre 2018. Le bilan humain est sans précédent dans l'histoire récente du maintien de l'ordre en France : 432 blesses graves recensés parmi plus de 2 500 blesses, dont 1 deces (Zineb Redouane, 80 ans, tuee par une grenade lacrymogene a Marseille), 5 mains arrachees, 25 personnes éborgnées, 236 blesses a la tête, 221 blesses par des tirs de LBD40.
+      "432 blessés graves, 25 éborgnes, 5 mains arrachées, 1 décès. L'ONU et Amnesty International ont demandé l'interdiction des LBD40.",
+    contenu: `Le mouvement des Gilets jaunes éclate en novembre 2018. Le bilan humain est sans précédent dans l'histoire récente du maintien de l'ordre en France : 432 blessés graves recensés parmi plus de 2 500 blessés, dont 1 décès (Zineb Redouane, 80 ans, tuée par une grenade lacrymogène à Marseille), 5 mains arrachées, 25 personnes éborgnées, 236 blessés à la tête, 221 blessés par des tirs de LBD40.
 
-L'usage massif des lanceurs de balles de defense (LBD40) et des grenades de désencerclement (GLI-F4) est au cœur des critiques. En 2018, l'utilisation des LBD a bondi de plus de 200% par rapport a l'année précédente selon l'IGPN. L'ONU, le Conseil de l'Europe, Amnesty International et le Defenseur des droits Jacques Toubon ont demande l'interdiction de ces armes, proscrites ailleurs en Europe.
+L'usage massif des lanceurs de balles de défense (LBD40) et des grenades de désencerclement (GLI-F4) est au cœur des critiques. En 2018, l'utilisation des LBD a bondi de plus de 200% par rapport à l'année précédente selon l'IGPN. L'ONU, le Conseil de l'Europe, Amnesty International et le Défenseur des droits Jacques Toubon ont demandé l'interdiction de ces armes, proscrites ailleurs en Europe.
 
-David Dufresne (Visionscarto) note que les policiers etaient « encourages par le gouvernement d'Édouard Philippe a employer la force ». L'IGPN a ete saisie de 313 enquetes judiciaires pour suspicions de violences policieres.`,
+David Dufresne (Visionscarto) note que les policiers étaient « encouragés par le gouvernement d'Édouard Philippe à employer la force ». L'IGPN a été saisie de 313 enquêtes judiciaires pour suspicions de violences policières.`,
     date: "2018-11-17",
     gravite: "haute",
-    themes: ["gilets-jaunes", "répression", "droits-humains", "maintien-ordre"],
+    themes: ["gilets-jaunes", "repression", "droits-humains", "maintien-ordre"],
     sources: [
       {
-        titre: "Le Mur Jaune — bilan des blesses",
+        titre: "Le Mur Jaune — bilan des blessés",
         url: "https://lemurjaune.fr",
         type: "presse",
       },
@@ -417,16 +417,16 @@ David Dufresne (Visionscarto) note que les policiers etaient « encourages par l
     titre: "Décret Rivotril — euthanasie légalisée ?",
     resume:
       "Le décret du 28 mars 2020 autorise un dépresseur respiratoire pour patients Covid en EHPAD, alors que l'accès hospitalier est restreint.",
-    contenu: `Le décret n° 2020-360 du 28 mars 2020, signe par Édouard Philippe et Olivier Veran, autorise la dispensation du Rivotril (clonazepam) injectable en pharmacie pour les patients Covid « dont l'etat clinique le justifié ».
+    contenu: `Le décret n° 2020-360 du 28 mars 2020, signé par Édouard Philippe et Olivier Véran, autorise la dispensation du Rivotril (clonazépam) injectable en pharmacie pour les patients Covid « dont l'état clinique le justifie ».
 
-Le Rivotril est une benzodiazepine dont l'un des effets principaux est la depression respiratoire — précisément le symptome du Covid grave. Des accusations d'« euthanasie legalisee » se repandent.
+Le Rivotril est une benzodiazépine dont l'un des effets principaux est la dépression respiratoire — précisément le symptôme du Covid grave. Des accusations d'« euthanasie légalisée » se répandent.
 
-La penurie de midazolam (medicament de reference pour les sedations, reserve aux reanimateurs) a provoque le recours au Rivotril comme produit de substitution. Parallelement, les ARS emettent des fiches restreignant l'accès hospitalier pour les residents d'EHPAD dans le cadre du Plan Blanc.
+La pénurie de midazolam (médicament de référence pour les sédations, réservé aux réanimateurs) a provoqué le recours au Rivotril comme produit de substitution. Parallèlement, les ARS émettent des fiches restreignant l'accès hospitalier pour les résidents d'EHPAD dans le cadre du Plan Blanc.
 
-Des familles ont ete prevenues du deces de proches qu'elles avaient eus au téléphone la veille, sans pouvoir les revoir ni les enterrer en leur présence.`,
+Des familles ont été prévenues du décès de proches qu'elles avaient eus au téléphone la veille, sans pouvoir les revoir ni les enterrer en leur présence.`,
     date: "2020-03-28",
     gravite: "haute",
-    themes: ["covid", "santé", "ehpad", "rivotril"],
+    themes: ["covid", "sante", "ehpad", "rivotril"],
     sources: [
       {
         titre: "Décret n° 2020-360 du 28 mars 2020",
@@ -445,13 +445,13 @@ Des familles ont ete prevenues du deces de proches qu'elles avaient eus au tél�
     titre: "Covid — « Le masque est inutile en population générale »",
     resume:
       "Déclaration du 13 mars 2020 sur TF1 alors que les stocks sont insuffisants. Maintien du 1er tour des municipales le 15 mars.",
-    contenu: `Le 13 mars 2020, Édouard Philippe affirme sur TF1 que le port du masque est inutile « en population générale », avant de faire volte-face debut avril.
+    contenu: `Le 13 mars 2020, Édouard Philippe affirme sur TF1 que le port du masque est inutile « en population générale », avant de faire volte-face début avril.
 
-Le premier tour des elections municipales est maintenu le 15 mars, deux jours avant le confinement national de 55 jours — l'un des plus stricts d'Europe.
+Le premier tour des élections municipales est maintenu le 15 mars, deux jours avant le confinement national de 55 jours — l'un des plus stricts d'Europe.
 
-Le gouvernement a nie l'utilite des masques alors que les stocks etaient insuffisants. La commission d'enquete parlementaire revelera les contradictions entre les declarations publiques et la realite de la gestion des stocks.
+Le gouvernement a nié l'utilité des masques alors que les stocks étaient insuffisants. La commission d'enquête parlementaire révélera les contradictions entre les déclarations publiques et la réalité de la gestion des stocks.
 
-168 000 personnes sont decedees du Covid-19 entre 2020 et septembre 2023.`,
+168 000 personnes sont décédées du Covid-19 entre 2020 et septembre 2023.`,
     date: "2020-03-13",
     gravite: "haute",
     themes: ["covid", "masques", "municipales", "mensonge"],
@@ -470,17 +470,17 @@ Le gouvernement a nie l'utilite des masques alors que les stocks etaient insuffi
   },
   {
     slug: "80-kmh",
-    titre: "80 km/h — la mesure imposee contre tous",
+    titre: "80 km/h — la mesure imposée contre tous",
     resume:
-      "Portee contre la volonté de Macron, massivement impopulaire, a contribue au mouvement des Gilets jaunes. Lien potentiel avec Atos (radars automatiques).",
-    contenu: `En janvier 2018, Philippe annonce la réduction de la vitesse de 90 a 80 km/h sur les routes secondaires. C'est le dossier le plus personnel de son mandat : il le porte contre la volonté d'Emmanuel Macron lui-même.
+      "Portée contre la volonté de Macron, massivement impopulaire, a contribué au mouvement des Gilets jaunes. Lien potentiel avec Atos (radars automatiques).",
+    contenu: `En janvier 2018, Philippe annonce la réduction de la vitesse de 90 à 80 km/h sur les routes secondaires. C'est le dossier le plus personnel de son mandat : il le porte contre la volonté d'Emmanuel Macron lui-même.
 
-La mesure est massivement impopulaire, particulierement dans la France periurbaine et rurale. Elle contribue au ressentiment qui nourrira le mouvement des Gilets jaunes quelques mois plus tard.
+La mesure est massivement impopulaire, particulièrement dans la France périurbaine et rurale. Elle contribue au ressentiment qui nourrira le mouvement des Gilets jaunes quelques mois plus tard.
 
-Le groupe Atos — dont Philippe deviendra administrateur en 2020 (remunere ~70 000€/an) et avec lequel il entretient des liens depuis 2006 — est en pointe sur le traitement des donnees des infractions routieres (radars automatiques). Boulevard Voltaire et Blast ont releve un potentiel conflit d'intérêts.`,
+Le groupe Atos — dont Philippe deviendra administrateur en 2020 (rémunéré ~70 000€/an) et avec lequel il entretient des liens depuis 2006 — est en pointe sur le traitement des données des infractions routières (radars automatiques). Boulevard Voltaire et Blast ont relevé un potentiel conflit d'intérêts.`,
     date: "2018-07-01",
     gravite: "moyenne",
-    themes: ["80km", "sécurité-routiere", "atos", "conflits-intérêts"],
+    themes: ["80km", "securite-routiere", "atos", "conflits-interets"],
     sources: [
       {
         titre: "Boulevard Voltaire — liens Atos",
@@ -498,15 +498,15 @@ Le groupe Atos — dont Philippe deviendra administrateur en 2020 (remunere ~70 
     slug: "vaccins-obligatoires",
     titre: "11 vaccins obligatoires — « Dans la patrie de Pasteur »",
     resume:
-      "8 vaccins supplementaires imposes sous peine d'exclusion de la collectivite. Conflits d'intérêts avec les laboratoires souleves.",
-    contenu: `Édouard Philippe annonce en personne le 4 juillet 2017 : « L'an prochain, les vaccins pour la petite enfance qui sont unanimement recommandes par les autorités de santé deviendront obligatoires. Dans la patrie de Pasteur, ce n'est pas admissible » que des enfants meurent de la rougeole.
+      "8 vaccins supplémentaires imposés sous peine d'exclusion de la collectivité. Conflits d'intérêts avec les laboratoires soulevés.",
+    contenu: `Édouard Philippe annonce en personne le 4 juillet 2017 : « L'an prochain, les vaccins pour la petite enfance qui sont unanimement recommandés par les autorités de santé deviendront obligatoires. Dans la patrie de Pasteur, ce n'est pas admissible » que des enfants meurent de la rougeole.
 
-8 vaccins recommandes s'ajoutent aux 3 déjà obligatoires. La vaccination conditionne l'entree en collectivite (creches, ecoles, centres de loisirs).
+8 vaccins recommandés s'ajoutent aux 3 déjà obligatoires. La vaccination conditionne l'entrée en collectivité (crèches, écoles, centres de loisirs).
 
-La mesure est contestee par les mouvements anti-vaccination et certains medecins qui estiment qu'« etendre l'obligation peut transformer des hesitants en opposants ». La question des conflits d'intérêts lies aux laboratoires est soulevee.`,
+La mesure est contestée par les mouvements anti-vaccination et certains médecins qui estiment qu'« étendre l'obligation peut transformer des hésitants en opposants ». La question des conflits d'intérêts liés aux laboratoires est soulevée.`,
     date: "2018-01-01",
     gravite: "moyenne",
-    themes: ["vaccins", "santé", "obligation", "libertés"],
+    themes: ["vaccins", "sante", "obligation", "libertes"],
     sources: [
       {
         titre: "Discours de politique générale — 4 juillet 2017",
@@ -519,12 +519,12 @@ La mesure est contestee par les mouvements anti-vaccination et certains medecins
     slug: "cma-cgm-reseau",
     titre: "CMA CGM — les liens du réseau havrais",
     resume:
-      "Les connexions entre le réseau d'Édouard Philippe et CMA CGM, geant du transport maritime base au Havre, suscitent des interrogations.",
-    contenu: `Yann Le Goff, responsable sécurité regionale chez CMA CGM, figure dans la promotion 2011 des Young Leaders de la French-American Foundation aux cotes d'Édouard Philippe.
+      "Les connexions entre le réseau d'Édouard Philippe et CMA CGM, géant du transport maritime basé au Havre, suscitent des interrogations.",
+    contenu: `Yann Le Goff, responsable sécurité régionale chez CMA CGM, figure dans la promotion 2011 des Young Leaders de la French-American Foundation aux côtés d'Édouard Philippe.
 
-Le port du Havre, fief politique de Philippe (maire depuis 2010), est le premier point d'entrée de cocaine en Europe.
+Le port du Havre, fief politique de Philippe (maire depuis 2010), est le premier point d'entrée de cocaïne en Europe.
 
-CMA CGM est le premier armateur francais et l'un des plus grands groupes mondiaux de transport maritime. La convergence entre les fonctions de maire du Havre, les liens dans le réseau Young Leaders, et le rôle stratégique du port dans le trafic de stupefiants merite un examen attentif.`,
+CMA CGM est le premier armateur français et l'un des plus grands groupes mondiaux de transport maritime. La convergence entre les fonctions de maire du Havre, les liens dans le réseau Young Leaders, et le rôle stratégique du port dans le trafic de stupéfiants mérite un examen attentif.`,
     date: "2026-03-25",
     gravite: "haute",
     themes: ["cma-cgm", "le-havre", "narcotrafic", "reseau", "young-leaders"],
@@ -542,11 +542,11 @@ CMA CGM est le premier armateur francais et l'un des plus grands groupes mondiau
     titre: "Enquête PNF — gestion de la métropole du Havre",
     resume:
       "Enquête pour prise illégale d'intérêts, détournement de fonds publics, favoritisme et harcèlement moral. Perquisitions en avril 2024.",
-    contenu: `En avril 2024, Édouard Philippe est vise par une enquête préliminaire du parquet national financier pour prise illégale d'intérêts, détournement de fonds publics, favoritisme et harcèlement moral.
+    contenu: `En avril 2024, Édouard Philippe est visé par une enquête préliminaire du parquet national financier pour prise illégale d'intérêts, détournement de fonds publics, favoritisme et harcèlement moral.
 
-L'enquête fait suite a une plainte d'une ancienne directrice generale adjointe de la metropole. Des perquisitions ont lieu a la mairie du Havre le 3 avril 2024.
+L'enquête fait suite à une plainte d'une ancienne directrice générale adjointe de la métropole. Des perquisitions ont lieu à la mairie du Havre le 3 avril 2024.
 
-En juin 2025, une plainte avec constitution de partie civile est deposee. Philippe conteste fermement toute irregularite.`,
+En juin 2025, une plainte avec constitution de partie civile est déposée. Philippe conteste fermement toute irrégularité.`,
     date: "2024-04-03",
     gravite: "haute",
     themes: ["le-havre", "justice", "favoritisme", "fonds-publics"],
@@ -562,18 +562,18 @@ En juin 2025, une plainte avec constitution de partie civile est deposee. Philip
     slug: "fcf-cma-cgm-nexus",
     titre: "Le nexus FCF — CMA CGM — Le Havre : un réseau d'influence sino-portuaire",
     resume:
-      "Le directeur de cabinet de Philippe a Matignon (Ribadeau-Dumas, ENA Marc-Bloch) est membre de la France China Foundation. Le co-créateur de la FCF (Lenain) est conseiller diplomatique de Philippe. CMA CGM, premier client du port du Havre, est au cœur de ce réseau. Le Havre est le 1er point d'entrée de cocaine en Europe.",
-    contenu: `Benoit Ribadeau-Dumas, directeur de cabinet d'Édouard Philippe a Matignon de 2017 a 2020, est issu de la même promotion ENA Marc-Bloch (1995-1997) que Philippe. Il est également membre de la France China Foundation (promotion 2013).
+      "Le directeur de cabinet de Philippe à Matignon (Ribadeau-Dumas, ENA Marc-Bloch) est membre de la France China Foundation. Le co-créateur de la FCF (Lenain) est conseiller diplomatique de Philippe. CMA CGM, premier client du port du Havre, est au cœur de ce réseau. Le Havre est le 1er point d'entrée de cocaïne en Europe.",
+    contenu: `Benoît Ribadeau-Dumas, directeur de cabinet d'Édouard Philippe à Matignon de 2017 à 2020, est issu de la même promotion ENA Marc-Bloch (1995-1997) que Philippe. Il est également membre de la France China Foundation (promotion 2013).
 
-Emmanuel Lenain, co-createur de la France China Foundation, est le conseiller diplomatique d'Édouard Philippe a Matignon. Il fait le lien entre les réseaux transatlantiques (French-American Foundation) et sino-français (FCF) autour du Premier ministre.
+Emmanuel Lenain, co-créateur de la France China Foundation, est le conseiller diplomatique d'Édouard Philippe à Matignon. Il fait le lien entre les réseaux transatlantiques (French-American Foundation) et sino-français (FCF) autour du Premier ministre.
 
-CMA CGM, premier armateur francais et l'un des plus grands groupes mondiaux de transport maritime, est un acteur majeur des routes commerciales vers l'Asie. Ses navires representent une part significative du trafic du port du Havre — fief politique d'Édouard Philippe depuis 2010.
+CMA CGM, premier armateur français et l'un des plus grands groupes mondiaux de transport maritime, est un acteur majeur des routes commerciales vers l'Asie. Ses navires représentent une part significative du trafic du port du Havre — fief politique d'Édouard Philippe depuis 2010.
 
-Yann Le Goff, responsable de la securite regionale chez CMA CGM, est dans la promotion Young Leaders 2011 de Philippe a la French-American Foundation.
+Yann Le Goff, responsable de la sécurité régionale chez CMA CGM, est dans la promotion Young Leaders 2011 de Philippe à la French-American Foundation.
 
-Le port du Havre est le premier point d'entrée de la cocaine en Europe selon Europol. Les saisies de drogue y ont explose : 18 tonnes de cocaine saisies en 2023 selon les douanes françaises. La question de la sécurité portuaire — domaine ou se croisent les intérêts de CMA CGM, la responsabilité du maire, et les réseaux d'influence franco-chinois — merite un examen approfondi.
+Le port du Havre est le premier point d'entrée de la cocaïne en Europe selon Europol. Les saisies de drogue y ont explosé : 18 tonnes de cocaïne saisies en 2023 selon les douanes françaises. La question de la sécurité portuaire — domaine où se croisent les intérêts de CMA CGM, la responsabilité du maire, et les réseaux d'influence franco-chinois — mérite un examen approfondi.
 
-Ce faisceau de connexions — meme promotion ENA, meme reseau Young Leaders, memes cercles franco-chinois, meme port strategique — dessine un systeme d'influence qui entoure Édouard Philippe depuis ses années de formation jusqu'a son exercice du pouvoir.`,
+Ce faisceau de connexions — même promotion ENA, même réseau Young Leaders, mêmes cercles franco-chinois, même port stratégique — dessine un système d'influence qui entoure Édouard Philippe depuis ses années de formation jusqu'à son exercice du pouvoir.`,
     date: "2026-03-27",
     gravite: "haute",
     themes: [
