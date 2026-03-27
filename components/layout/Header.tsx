@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useTranslations, useLocale } from "next-intl";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const navKeys = [
   { href: "/biographie", key: "biographie" },
@@ -72,6 +73,7 @@ export default function Header() {
                 <path d="m21 21-4.3-4.3" />
               </svg>
             </Link>
+            <LanguageSwitcher />
           </nav>
         </div>
       </div>
