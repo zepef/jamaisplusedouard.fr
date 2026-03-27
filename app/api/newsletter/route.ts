@@ -41,8 +41,9 @@ export async function POST(request: NextRequest) {
       message: "Inscription enregistree. Verifiez votre boite mail.",
     });
   } catch (error) {
-    console.error("Newsletter error:", error);
-    return errorResponse("Erreur lors de l'inscription", 500);
+    const msg = error instanceof Error ? error.message : String(error);
+    console.error("Newsletter error:", msg);
+    return errorResponse(`Erreur: ${msg}`, 500);
   }
 }
 
