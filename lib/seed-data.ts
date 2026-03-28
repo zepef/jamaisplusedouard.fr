@@ -1238,6 +1238,16 @@ export const reseau: PersonneReseau[] = [
     rattachement: "philippe",
   },
   {
+    nom: "Plastic Omnium",
+    slug: "plastic-omnium",
+    role: "Équipementier automobile — lien Raffarin — intérêts chinois majeurs",
+    description:
+      "Plastic Omnium est un équipementier automobile français dont le conseil d'administration a compté Raffarin. Le groupe réalise une part significative de son chiffre d'affaires en Chine, ce qui en fait un bénéficiaire direct des réseaux sino-français facilités par Raffarin. Sa présence dans l'écosystème Raffarin illustre le mécanisme de valorisation du carnet d'adresses : les entreprises à intérêts chinois financent la FPI (15 000 €/an) et bénéficient en retour de l'accès au marché chinois facilité par le « Monsieur Chine » de la politique française.",
+    typeLien: "financier",
+    sousReseaux: ["sino-francais", "entreprises"],
+    rattachement: "raffarin",
+  },
+  {
     nom: "Laurent Marcangeli",
     slug: "laurent-marcangeli",
     role: "Président du groupe Horizons à l'Assemblée nationale",
