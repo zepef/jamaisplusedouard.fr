@@ -621,7 +621,7 @@ export type SousReseau =
   | "villepin"
   | "chiraquien";
 
-export type Centroide = "philippe" | "raffarin" | "villepin";
+export type Centroide = "philippe" | "juppe" | "raffarin" | "villepin";
 
 export type PersonneReseau = {
   nom: string;
@@ -649,13 +649,13 @@ export const reseau: PersonneReseau[] = [
   {
     nom: "Alain Juppé",
     slug: "alain-juppe",
-    role: "Mentor politique — parrain commun Philippe/Villepin — Young Leader 1982",
+    role: "Parrain neutralisé — Conseil constitutionnel — YL FAF 1982 — Institut Pompidou",
     description:
-      "Alain Juppé appartient à la promotion fondatrice de 1982 des Young Leaders de la FAF, ce qui en fait l'un des premiers membres français du programme. Premier ministre de Jacques Chirac (1995-1997), il est condamné en 2004 pour prise illégale d'intérêts dans l'affaire des emplois fictifs du RPR, ce qui l'écarte temporairement de la vie politique. C'est Juppé qui lance Philippe en politique : il le fait entrer à l'UMP comme directeur général des services en 2002. Philippe ne cache jamais sa fidélité à Juppé, qu'il considère comme son modèle. En 2016, Philippe est co-porte-parole de la campagne de Juppé pour la primaire de la droite. Après la défaite de Juppé, Philippe se rallie d'abord à Fillon, puis à Macron — un autre Young Leader. Le triangle Juppé (YL 1982) – Philippe (YL 2011) – Macron (YL 2012) est le cas le plus spectaculaire de transmission du pouvoir au sein du réseau FAF. Juppé a été maire de Bordeaux de 2006 à 2019 et membre du Conseil constitutionnel de 2019 à 2024. La constante de sa carrière est l'interconnexion entre la haute fonction publique, la politique nationale et les réseaux transatlantiques. Son rôle de mentor auprès de Philippe s'inscrit dans la logique du programme Young Leaders : les anciens membres parrainent les suivants, perpétuant le réseau de génération en génération.",
+      "Alain Juppé est le parrain de tout l'écosystème. Premier ministre de Chirac (1995-1997), condamné en 2004 (emplois fictifs RPR), Young Leader de la promotion fondatrice FAF (1982), maire de Bordeaux (2006-2019), membre du Conseil constitutionnel depuis mars 2019 (mandat jusqu'en 2028), président de l'Institut Georges-Pompidou depuis février 2025. C'est Juppé qui lance Philippe en politique (DG de l'UMP en 2002), et Villepin l'a côtoyé dès le « groupe J » (1979) avant d'être nommé dircab au Quai d'Orsay par Juppé (1993). Le triangle Juppé (YL 1982) → Philippe (YL 2011) → Macron (YL 2012) est le cas le plus spectaculaire de transmission du pouvoir au sein de la FAF. Aujourd'hui neutralisé par les contraintes du CC (devoir de réserve, interdiction de toute responsabilité partisane, incompatibilité avec tout mandat), il ne peut ni soutenir Philippe, ni s'exprimer sur les sujets politiques, ni exercer de rôle dans Horizons. Mais son pouvoir résiduel est triple : institutionnel (il participe aux décisions constitutionnelles, siège avec Richard Ferrand YL 2005), symbolique (son héritage irrigue Horizons : pragmatisme, européisme, libéralisme tempéré), et réticulaire (la « Juppéie » — son réseau informel de fidèles — forme l'épine dorsale d'Horizons). Publication de L'heure du choix (Tallandier, 2025) sur l'indépendance européenne. « Alain Juppé a perdu mais les juppéistes ont gagné : ils sont partout dans les cabinets ministériels » (Julien Miro).",
     typeLien: "politique",
-    partiPolitique: "UMP/LR",
+    partiPolitique: "CC (ex-UMP/LR)",
     sousReseaux: ["young-leaders", "chiraquien"],
-    rattachement: ["philippe", "villepin"],
+    rattachement: ["philippe", "juppe", "villepin"],
   },
   {
     nom: "CMA CGM",
@@ -839,11 +839,12 @@ export const reseau: PersonneReseau[] = [
   {
     nom: "Gilles Boyer",
     slug: "gilles-boyer",
-    role: "Bras droit — co-auteur — Juppeiste historique",
+    role: "Alter ego de Philippe — 1er cercle Juppéie — eurodéputé Renaissance",
     description:
-      "Gilles Boyer est le conseiller le plus proche d'Édouard Philippe depuis plus de vingt ans, un binome politique forge dans l'orbite d'Alain Juppé. Les deux hommes se rencontrent dans les cercles juppeistes au debut des années 2000 et ne se quitteront plus. Boyer est co-auteur de deux fictions politiques avec Philippe : « L'heure de vérité » (2007) et « Dans l'ombre » (2011), des romans à cle qui eclairent leur vision du pouvoir. Il est directeur de campagne de Juppé pour la primaire de la droite en 2016, où Philippe est co-porte-parole. Après la défaite de Juppé et le ralliement à Macron, Boyer suit Philippe à Matignon comme conseiller officieux. Il est élu député européen en 2019 sur la liste LREM, confirmant son intégration dans l'écosystème macroniste. Boyer fait le lien entre l'héritage politique de Juppé et la machine Horizons : il est présent à chaque décision stratégique de Philippe. Son rôle de « plume » et de confident en fait le gardien de la doctrine philippiste. Dans « Impressions et lignes claires » (2021), co-ecrit après Matignon, les deux hommes livrent leur version de l'exercice du pouvoir. Boyer représente l'archetype du conseiller de l'ombre qui n'occupe jamais la première ligne mais influence chaque orientation.",
+      "Gilles Boyer est le conseiller le plus proche d'Édouard Philippe depuis plus de vingt ans, forgé dans l'orbite de Juppé. Directeur de cabinet de Juppé à la mairie de Bordeaux (2002-2004, 2006-2010), puis directeur de campagne de Juppé à la primaire 2016 (Philippe co-porte-parole). Co-auteur avec Philippe de deux romans politiques (L'heure de vérité 2007, Dans l'ombre 2011) et d'Impressions et lignes claires (2021). Conseiller spécial de Philippe à Matignon (2017-2019). Aujourd'hui eurodéputé Renaissance. Un sarkozyste les surnommait « Plic et Ploc » (Boyer et Philippe) tant leur tandem était indissociable. Boyer fait le lien entre l'héritage Juppé et la machine Horizons : il est le gardien de la doctrine philippiste et l'archétype du conseiller de l'ombre qui influence chaque orientation. Premier cercle de la Juppéie.",
     typeLien: "professionnel",
-    sousReseaux: ["matignon"],
+    sousReseaux: ["matignon", "chiraquien"],
+    rattachement: ["philippe", "juppe"],
   },
   {
     nom: "Christophe Castaner",
@@ -861,11 +862,12 @@ export const reseau: PersonneReseau[] = [
   {
     nom: "Benoît Ribadeau-Dumas",
     slug: "benoit-ribadeau-dumas",
-    role: "Directeur de cabinet de Matignon — ENA Marc-Bloch — FCF 2013",
+    role: "Dircab Matignon — 1er cercle Juppéie — ENA Marc-Bloch — FCF 2013 — « Le Vatican »",
     description:
-      "Benoît Ribadeau-Dumas est le directeur de cabinet d'Édouard Philippe à Matignon de mai 2017 à juillet 2020, ce qui en fait le plus haut fonctionnaire non-élu du gouvernement pendant trois ans. Il est issu de la même promotion de l'ENA Marc-Bloch (1995-1997) que Philippe — un lien de formation qui précède de vingt ans leur collaboration à Matignon. Ribadeau-Dumas est membre de la France China Foundation (promotion 2013), ce qui l'inscrit dans le réseau d'influence sino-français en plus du réseau transatlantique. Avant Matignon, il était directeur de cabinet adjoint de Nicolas Sarkozy à l'Élysée (2011-2012), puis secrétaire général adjoint de l'Élysée sous Hollande — un parcours qui transcende les alternances politiques. A Matignon, il est l'architecte opérationnel de toutes les décisions du gouvernement Philippe : ordonnances travail, 80 km/h, Gilets jaunes, réforme des retraites, Covid. C'est lui qui a milité pour le maintien du premier tour des élections municipales le 15 mars 2020, deux jours avant le confinement national — une décision qui reste controversée. La convergence entre son appartenance à la FCF, ses liens avec CMA CGM via les réseaux portuaires havrais, et sa position de dircab de Philippe dessine un système d'influence où les intérêts sino-maritimes ont un accès direct au sommet de l'exécutif. L'ENA Marc-Bloch a produit une cohorte remarquable : Philippe, Ribadeau-Dumas, et plusieurs autres hauts fonctionnaires occupant des postes stratégiques. Cette concentration de pouvoir issu d'une même promotion illustre le fonctionnement oligarchique de la haute fonction publique française. Ribadeau-Dumas est le nœud central qui relie le réseau ENA, le réseau FCF, et le pouvoir exécutif.",
+      "Benoît Ribadeau-Dumas, major de la promotion Marc-Bloch de l'ENA (1997), condisciple de Philippe. Directeur de cabinet à Matignon (2017-2020) — choisi contre la volonté de Macron qui voulait imposer Nicolas Revel. Surnommé « Le Vatican » pour sa rigidité. Membre de la FCF (promotion inaugurale 2013 avec Philippe et Macron). Avant Matignon : dircab adjoint de Sarkozy à l'Élysée (2011-2012), secrétaire général adjoint sous Hollande — un parcours qui transcende les alternances. Architecte opérationnel de toutes les décisions du gouvernement Philippe : ordonnances travail, 80 km/h, Gilets jaunes, réforme des retraites, Covid. A milité pour le maintien du premier tour des municipales le 15 mars 2020. Après Matignon, rejoint Exor (family office Elkann/Agnelli), administrateur de Stellantis et Iveco. Premier cercle de la Juppéie — le nœud qui relie réseau ENA, FCF et pouvoir exécutif.",
     typeLien: "politique",
-    sousReseaux: ["sino-francais", "matignon"],
+    sousReseaux: ["sino-francais", "matignon", "chiraquien"],
+    rattachement: ["philippe", "juppe"],
   },
   {
     nom: "France China Foundation",
@@ -899,12 +901,12 @@ export const reseau: PersonneReseau[] = [
   {
     nom: "Jean-Pierre Raffarin",
     slug: "jean-pierre-raffarin",
-    role: "Ancien Premier ministre — plaque tournante des réseaux chinois",
+    role: "Ancien PM — plaque tournante sino-française — membre Horizons — alerté par la DGSI",
     description:
-      "Jean-Pierre Raffarin, Premier ministre de Jacques Chirac de 2002 à 2005, est la plaque tournante entre les réseaux chinois de Philippe et de Villepin. Co-parrain de la France China Foundation (dont Philippe est Young Leader) et président du Comité France-Chine du Medef, il est aussi le modèle de reconversion chiraquienne vers la Chine que Villepin a suivi par des canaux parallèles. Causeur note que Raffarin et Villepin ont suivi des « parcours miroirs » dans leurs reconversions chinoises post-Matignon. Raffarin est mandaté officiellement par le gouvernement français pour les relations franco-chinoises (source : Radio France), ce qui lui confère une légitimité institutionnelle que Villepin ne possède pas. C'est par Raffarin que la séquence Chirac → Juppé → réseaux chinois prend une cohérence structurelle. Il entretient des relations personnelles avec les dirigeants du PCC et effectue des dizaines de voyages en Chine. Sa position de parrain de la FCF et de président du Comité France-Chine fait de lui le patriarche du réseau sino-français. La ligne de succession Raffarin → FCF → Ribadeau-Dumas → Matignon Philippe illustre la transmission du capital relationnel chinois, tandis que le parallèle Raffarin/Villepin illustre deux voies de reconversion vers Pékin — l'une institutionnelle, l'autre privée et opaque.",
+      "Jean-Pierre Raffarin, Premier ministre de Chirac (2002-2005), est la plaque tournante entre les réseaux chinois de Philippe et de Villepin. Il cumule un nombre sans équivalent de positions chinoises : membre du « council of advisors » du Forum de Bo'ao (Davos asiatique), du Belt & Road Forum, administrateur de la CEIBS de Shanghai, co-président de la Sino-International Entrepreneurs Federation, présentateur d'émission sur la CGTN (TV publique chinoise), représentant spécial du gouvernement français pour la Chine (depuis 2018), co-parrain FCF et président du Comité France-Chine. Le 29 septembre 2019, Xi Jinping lui remet la médaille de l'ordre de l'Amitié — plus haute distinction chinoise pour un étranger, partagée avec Poutine et Castro. La DGSI l'a convoqué à un « entretien de sensibilisation » à l'été 2018 pour sa fréquentation d'hommes d'affaires chinois considérés comme agents du Parti. Sa Fondation Prospective et Innovation (FPI) dispose d'un budget de 3,5 M€ financé par une trentaine d'entreprises (Carrefour, Kering, L'Oréal, LVMH) et a reçu 85 000 € de l'ancien ambassadeur chinois Wu Jianmin. En 2022, Raffarin rejoint Horizons — sa double casquette (représentant officiel pour la Chine ET membre du parti de Philippe) est sans équivalent. Causeur note que Raffarin et Villepin ont suivi des « parcours miroirs » dans leurs reconversions chinoises post-Matignon.",
     typeLien: "politique",
-    partiPolitique: "UMP/LR",
-    sousReseaux: ["sino-francais", "chiraquien"],
+    partiPolitique: "Horizons (depuis 2022)",
+    sousReseaux: ["sino-francais", "chiraquien", "horizons"],
     rattachement: ["philippe", "raffarin", "villepin"],
   },
   {
@@ -1007,9 +1009,9 @@ export const reseau: PersonneReseau[] = [
   {
     nom: "Dominique de Villepin",
     slug: "dominique-de-villepin",
-    role: "Ancien Premier ministre — candidat probable 2027 — réseaux chinois privés",
+    role: "Ancien PM — candidat probable 2027 — réseau privé multipolaire (Chine, Qatar, Russie)",
     description:
-      "Dominique de Villepin, Premier ministre de Chirac (2005-2007), est le troisième centroïde du réseau. Aucune relation personnelle directe documentée ne le relie à Philippe — leurs réseaux sont parallèles mais distincts, convergeant par Juppé et les connexions chinoises. Villepin a intégré le « groupe J » (fidèles de Juppé) dès 1979, puis a été nommé directeur de cabinet au Quai d'Orsay par Juppé en 1993. Depuis 2008, il a développé un réseau chinois privé et opaque : présidence d'associations de droit chinois, sociétés à Hong Kong (Villepin International, Villepin Group Limited), environ 50 conférences rémunérées en Chine (94 000 € pour deux conférences selon Radio France). Considéré comme proche de Xi Jinping. Enthousiaste public des Nouvelles Routes de la Soie. Aide des entreprises chinoises à se développer en Afrique et Europe, parfois en concurrence avec des entreprises françaises (Clément Fayol, Ces Français au service de l'étranger). Comptes de Villepin International non déposés depuis 2015. Dans les sondages de popularité (mai 2025), Villepin à 51 %, Philippe à 50 %. Il séduit davantage à gauche (65 % chez LFI), Philippe au centre-droit.",
+      "Dominique de Villepin, Premier ministre de Chirac (2005-2007), opère un réseau privé, multipolaire et opaque. Aucune relation directe documentée ne le relie à Philippe — leurs réseaux convergent par Juppé et les connexions chinoises. Villepin a intégré le « groupe J » (fidèles de Juppé) dès 1979, puis a été nommé directeur de cabinet au Quai d'Orsay par Juppé en 1993. Depuis 2008 : ~50 conférences rémunérées en Chine (94 000 € pour deux selon Radio France), présidence de l'IMTA (organisme chinois), sociétés à Hong Kong (comptes non déposés depuis 2015), proximité Xi Jinping. Réseau multipolaire au-delà de la Chine : ami de la famille Al-Thani (Qatar), poste à l'Autorité des musées du Qatar, tribune partagée avec Poutine à Valdaï (2014), 800 000 €/an du groupe saoudien Bugshan via une société panaméenne liée à Djouhri (2008-2010), contrat Veolia de 17 ans via Proglio, activités en Iran, Venezuela, Arménie, Azerbaïdjan. Aide des entreprises chinoises en Afrique et Europe, parfois en concurrence avec des entreprises françaises. Sondages mai 2025 : Villepin 51 %, Philippe 50 %. Séduit à gauche (65 % LFI), Philippe au centre-droit. Concurrent direct pour 2027.",
     typeLien: "politique",
     partiPolitique: "Indépendant",
     sousReseaux: ["villepin", "chiraquien", "sino-francais"],
@@ -1105,6 +1107,146 @@ export const reseau: PersonneReseau[] = [
     typeLien: "mediatique",
     sousReseaux: ["sino-francais"],
     rattachement: "raffarin",
+  },
+  // ═══════════════════════════════════════════════════════
+  // LA JUPPÉIE — Les cercles juppéistes
+  // ═══════════════════════════════════════════════════════
+  {
+    nom: "Charles Hufnagel",
+    slug: "charles-hufnagel",
+    role: "1er cercle Juppéie — communication — porte-parole Matignon",
+    description:
+      "Charles Hufnagel est le conseiller en communication de Juppé, croisé chez Areva dans les années 2000. Porte-parole de Philippe à Matignon. Jugé par les journalistes politiques comme « bien plus fiable » que son homologue de l'Élysée (Le Temps). Il incarne la continuité communicationnelle de la Juppéie : c'est la même doctrine de discrétion et de sobriété médiatique qui a marqué les campagnes de Juppé et le passage de Philippe à Matignon. Premier cercle de la Juppéie.",
+    typeLien: "professionnel",
+    sousReseaux: ["matignon", "chiraquien"],
+    rattachement: ["philippe", "juppe"],
+  },
+  {
+    nom: "Benoist Apparu",
+    slug: "benoist-apparu",
+    role: "1er cercle Juppéie — co-porte-parole campagne Juppé 2016",
+    description:
+      "Benoist Apparu, ancien secrétaire d'État au Logement sous Sarkozy, est co-porte-parole de la campagne Juppé 2016 avec Philippe. Après la défaite de Juppé à la primaire, il intègre l'équipe de campagne Fillon. Son parcours illustre la dispersion des juppéistes après novembre 2016 — une partie rejoint Macron (Boyer, Philippe), une autre reste dans l'orbite LR. Premier cercle de la Juppéie.",
+    typeLien: "politique",
+    partiPolitique: "LR",
+    sousReseaux: ["chiraquien"],
+    rattachement: "juppe",
+  },
+  {
+    nom: "Anne Clerc",
+    slug: "anne-clerc",
+    role: "Directrice de cabinet Matignon — ancienne équipe Raffarin",
+    description:
+      "Anne Clerc est directrice de cabinet à Matignon sous Philippe. Ancienne membre de l'équipe Raffarin à Matignon — ce qui en fait le pont humain entre les deux cabinets de Premiers ministres chiraquiens. Sa présence dans le cabinet Philippe illustre la continuité de la Juppéie au sein de l'appareil d'État : les mêmes réseaux se transmettent de Matignon en Matignon.",
+    typeLien: "professionnel",
+    sousReseaux: ["matignon", "chiraquien"],
+    rattachement: ["philippe", "juppe", "raffarin"],
+  },
+  {
+    nom: "Xavier Chinaud",
+    slug: "xavier-chinaud",
+    role: "Conseiller relations élus Matignon — ancien Matignon Raffarin",
+    description:
+      "Xavier Chinaud est conseiller aux relations avec les élus à Matignon sous Philippe. Ancien « études politiques » à Matignon sous Raffarin. Comme Anne Clerc, il est un trait d'union entre les cabinets Raffarin et Philippe, assurant la transmission des pratiques et des réseaux entre les deux Matignons chiraquiens.",
+    typeLien: "professionnel",
+    sousReseaux: ["matignon", "chiraquien"],
+    rattachement: ["philippe", "juppe", "raffarin"],
+  },
+  {
+    nom: "Christophe Béchu",
+    slug: "christophe-bechu",
+    role: "Secrétaire général d'Horizons — ancien ministre — maire d'Angers",
+    description:
+      "Christophe Béchu est le secrétaire général du parti Horizons, ancien ministre de la Transition écologique (2022-2024) et maire d'Angers. Son rôle au sein d'Horizons est structurant : il assure l'organisation territoriale du parti et fait le lien entre l'appareil philippiste et les élus locaux. L'axe Philippe (Normandie) / Béchu (Loire) / Estrosi (PACA) donne à Horizons une assise multi-régionale pour 2027. Troisième cercle de la Juppéie — allié institutionnel.",
+    typeLien: "politique",
+    partiPolitique: "Horizons",
+    sousReseaux: ["horizons", "chiraquien"],
+    rattachement: ["philippe", "juppe"],
+  },
+  {
+    nom: "Nathalie Loiseau",
+    slug: "nathalie-loiseau",
+    role: "Eurodéputée Renaissance — ancienne directrice de l'ENA — proche juppéistes",
+    description:
+      "Nathalie Loiseau, eurodéputée Renaissance et ancienne ministre des Affaires européennes (2017-2019), est proche des cercles juppéistes. Ancienne directrice de l'ENA, elle représente le lien européen de la Juppéie. Après la défaite de Juppé à la primaire, elle fait partie du groupe des « marcheurs » — les juppéistes ralliés à Macron. Troisième cercle de la Juppéie.",
+    typeLien: "politique",
+    partiPolitique: "Renaissance",
+    sousReseaux: ["chiraquien"],
+    rattachement: ["philippe", "juppe"],
+  },
+  {
+    nom: "Virginie Calmels",
+    slug: "virginie-calmels",
+    role: "Ex-adjointe de Juppé à Bordeaux — ralliée Wauquiez/DroiteLib",
+    description:
+      "Virginie Calmels, ancienne première adjointe de Juppé à la mairie de Bordeaux, représente la branche « néo-droitière » de la Juppéie — celle qui s'est éloignée de Philippe pour rejoindre Laurent Wauquiez via le mouvement DroiteLib. Son parcours illustre la fragmentation de la Juppéie après la défaite de 2016 : si la majorité des juppéistes a rejoint Macron, une minorité a opté pour la droitisation de LR. Ancienne patronne d'Endemol France, elle incarne le profil manager-politique valorisé par Juppé.",
+    typeLien: "politique",
+    partiPolitique: "LR (DroiteLib)",
+    sousReseaux: ["chiraquien"],
+    rattachement: "juppe",
+  },
+  {
+    nom: "Julien Miro",
+    slug: "julien-miro",
+    role: "2e cercle Juppéie — organisateur des « bébés Juppé »",
+    description:
+      "Julien Miro est l'un des organisateurs du réseau des « bébés Juppé » — une trentaine de trentenaires, anciens de la campagne de la primaire 2016, structurés en réseau informel après la défaite. Avec Guillaume Pfister, il organise des dîners bimestriels avec des personnalités amies (Boyer, Gaymard, Keller, Bournazel). Fait révélateur, Miro déclarait : « Alain Juppé a perdu mais les juppéistes ont gagné : ils sont partout dans les cabinets ministériels ». Conseillers à Matignon, au Quai d'Orsay, aux ministères de l'Économie, de la Transition écologique, de la Culture — les bébés Juppé étaient aux manettes des réformes de la Macronie. Deuxième cercle de la Juppéie.",
+    typeLien: "professionnel",
+    sousReseaux: ["chiraquien"],
+    rattachement: "juppe",
+  },
+  {
+    nom: "Guillaume Pfister",
+    slug: "guillaume-pfister",
+    role: "2e cercle Juppéie — co-organisateur des « bébés Juppé »",
+    description:
+      "Guillaume Pfister est le co-organisateur, avec Julien Miro, du réseau informel des « bébés Juppé ». Leur objectif déclaré : « entretenir la flamme juppéiste » et « préparer l'après-Juppé ». Les dîners réunissent des personnalités proches de Juppé (Boyer, Gaymard, Keller, Bournazel) et des jeunes conseillers disséminés dans les cabinets ministériels. Ce réseau constitue la pépinière de cadres d'Horizons. Deuxième cercle de la Juppéie.",
+    typeLien: "professionnel",
+    sousReseaux: ["chiraquien"],
+    rattachement: "juppe",
+  },
+  {
+    nom: "Fondation Prospective et Innovation (FPI)",
+    slug: "fpi-raffarin",
+    role: "Véhicule de relations franco-chinoises de Raffarin — budget 3,5 M€",
+    description:
+      "La FPI est la fondation de Raffarin, reconfigurée pour servir de véhicule aux relations franco-chinoises. Budget de 3,5 M€ financé par une trentaine d'entreprises (Carrefour, Kering, L'Oréal, LVMH) à 15 000 €/an chacune. La fondation a reçu des dons de personnalités chinoises, dont 85 000 € de l'ancien ambassadeur Wu Jianmin. La FPI opère à l'intersection du think tank et du réseau d'influence, fournissant à Raffarin une infrastructure institutionnelle pour ses activités chinoises. C'est un canal parallèle à la FCF — l'un (FPI) est le véhicule personnel de Raffarin, l'autre (FCF) est la structure collective.",
+    typeLien: "financier",
+    sousReseaux: ["sino-francais"],
+    rattachement: "raffarin",
+  },
+  {
+    nom: "Groupe Bugshan",
+    slug: "groupe-bugshan",
+    role: "Conglomérat saoudien — 800 000 €/an à Villepin via Djouhri (2008-2010)",
+    description:
+      "Le groupe Bugshan est un conglomérat saoudien qui a versé 800 000 €/an à Villepin entre 2008 et 2010, via une société panaméenne liée à Alexandre Djouhri. Ces flux financiers, révélés par l'enquête de Radio France, illustrent l'opacité du réseau d'affaires de Villepin. L'argent transitait par une structure offshore, ce qui rend la traçabilité des bénéficiaires difficile. Le lien Bugshan-Djouhri-Villepin est l'un des nœuds les plus opaques du réseau.",
+    typeLien: "financier",
+    sousReseaux: ["villepin"],
+    rattachement: "villepin",
+  },
+  // Nouveaux alliés gouvernementaux du cercle philippiste
+  {
+    nom: "Sébastien Lecornu",
+    slug: "sebastien-lecornu",
+    role: "Premier ministre en exercice — relation compétition-coopération avec Philippe",
+    description:
+      "Sébastien Lecornu, Premier ministre en exercice, entretient une relation de compétition-coopération avec Philippe. Ancien lemairiste passé dans l'équipe Fillon avec les juppéistes après la primaire 2016. Son parcours croise celui de la Juppéie sans s'y fondre. Normand comme Philippe (Évreux), il représente un rival potentiel au sein de la majorité pour l'influence sur la droite modérée.",
+    typeLien: "politique",
+    partiPolitique: "Renaissance",
+    sousReseaux: ["chiraquien"],
+    rattachement: "philippe",
+  },
+  {
+    nom: "Laurent Marcangeli",
+    slug: "laurent-marcangeli",
+    role: "Président du groupe Horizons à l'Assemblée nationale",
+    description:
+      "Laurent Marcangeli préside le groupe parlementaire « Horizons et indépendants » à l'Assemblée nationale. C'est le relais législatif de Philippe : il coordonne les positions du groupe sur les textes de loi et assure la cohésion des députés philippistes. Après la dissolution de 2024, le groupe est passé de trente députés à six — un effondrement qui illustre la fragilité de la base parlementaire d'Horizons.",
+    typeLien: "politique",
+    partiPolitique: "Horizons",
+    sousReseaux: ["horizons"],
+    rattachement: "philippe",
   },
 ];
 
