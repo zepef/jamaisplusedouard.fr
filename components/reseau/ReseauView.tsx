@@ -19,25 +19,39 @@ const SOUS_RESEAUX: {
   description: string;
 }[] = [
   {
+    id: "chiraquien",
+    label: "Héritage chiraquien",
+    color: "text-foreground",
+    description:
+      "Le terreau commun : Chirac → Juppé → Philippe / Villepin / Raffarin. Tradition gaulliste de politique asiatique de la France.",
+  },
+  {
+    id: "villepin",
+    label: "Réseau Villepin",
+    color: "text-purple-400",
+    description:
+      "Réseau privé et opaque : Villepin International, sociétés à Hong Kong, Djouhri, Veolia/Proglio, conférences en Chine.",
+  },
+  {
     id: "young-leaders",
     label: "Young Leaders (FAF)",
     color: "text-cyan",
     description:
-      "Réseau transatlantique de la French-American Foundation. Philippe (2011), Macron (2012), Juppe (1982).",
+      "Réseau transatlantique de la French-American Foundation. Philippe (2011), Macron (2012), Juppé (1982).",
   },
   {
     id: "sino-francais",
     label: "Réseau sino-français",
     color: "text-neon-red",
     description:
-      "France China Foundation, Belt and Road, CMA CGM Asie, Comité France-Chine.",
+      "France China Foundation, Belt and Road, CMA CGM Asie, Comité France-Chine. Le réseau qui relie Philippe et Villepin via Raffarin.",
   },
   {
     id: "matignon",
     label: "Cabinet Matignon",
     color: "text-magenta",
     description:
-      "L'équipe rapprochée de Philippe a Matignon (2017-2020).",
+      "L'équipe rapprochée de Philippe à Matignon (2017-2020).",
   },
   {
     id: "le-havre",
@@ -51,14 +65,14 @@ const SOUS_RESEAUX: {
     label: "Entreprises & lobbying",
     color: "text-yellow-400",
     description:
-      "Areva, Atos, Debevoise, CMA CGM — les employeurs et mandats de Philippe.",
+      "Areva, Atos, Debevoise, CMA CGM, Veolia — les employeurs et mandats.",
   },
   {
     id: "horizons",
     label: "Parti Horizons",
     color: "text-magenta",
     description:
-      "Véhicule présidentiel 2027 fonde en 2021.",
+      "Véhicule présidentiel 2027 fondé en 2021.",
   },
 ];
 

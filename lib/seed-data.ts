@@ -617,7 +617,11 @@ export type SousReseau =
   | "matignon"
   | "le-havre"
   | "entreprises"
-  | "horizons";
+  | "horizons"
+  | "villepin"
+  | "chiraquien";
+
+export type Centroide = "philippe" | "raffarin" | "villepin";
 
 export type PersonneReseau = {
   nom: string;
@@ -627,6 +631,8 @@ export type PersonneReseau = {
   typeLien: string;
   partiPolitique?: string;
   sousReseaux?: SousReseau[];
+  /** Si défini, ce nœud est rattaché à un centroïde spécifique dans le graphe */
+  rattachement?: Centroide | Centroide[];
 };
 
 export const reseau: PersonneReseau[] = [
@@ -641,14 +647,15 @@ export const reseau: PersonneReseau[] = [
     sousReseaux: ["young-leaders", "matignon"],
   },
   {
-    nom: "Alain Juppe",
+    nom: "Alain Juppé",
     slug: "alain-juppe",
-    role: "Mentor politique — ancien Premier ministre — Young Leader 1982",
+    role: "Mentor politique — parrain commun Philippe/Villepin — Young Leader 1982",
     description:
       "Alain Juppé appartient à la promotion fondatrice de 1982 des Young Leaders de la FAF, ce qui en fait l'un des premiers membres français du programme. Premier ministre de Jacques Chirac (1995-1997), il est condamné en 2004 pour prise illégale d'intérêts dans l'affaire des emplois fictifs du RPR, ce qui l'écarte temporairement de la vie politique. C'est Juppé qui lance Philippe en politique : il le fait entrer à l'UMP comme directeur général des services en 2002. Philippe ne cache jamais sa fidélité à Juppé, qu'il considère comme son modèle. En 2016, Philippe est co-porte-parole de la campagne de Juppé pour la primaire de la droite. Après la défaite de Juppé, Philippe se rallie d'abord à Fillon, puis à Macron — un autre Young Leader. Le triangle Juppé (YL 1982) – Philippe (YL 2011) – Macron (YL 2012) est le cas le plus spectaculaire de transmission du pouvoir au sein du réseau FAF. Juppé a été maire de Bordeaux de 2006 à 2019 et membre du Conseil constitutionnel de 2019 à 2024. La constante de sa carrière est l'interconnexion entre la haute fonction publique, la politique nationale et les réseaux transatlantiques. Son rôle de mentor auprès de Philippe s'inscrit dans la logique du programme Young Leaders : les anciens membres parrainent les suivants, perpétuant le réseau de génération en génération.",
     typeLien: "politique",
     partiPolitique: "UMP/LR",
-    sousReseaux: ["young-leaders"],
+    sousReseaux: ["young-leaders", "chiraquien"],
+    rattachement: ["philippe", "villepin"],
   },
   {
     nom: "CMA CGM",
@@ -865,9 +872,10 @@ export const reseau: PersonneReseau[] = [
     slug: "france-china-foundation",
     role: "Réseau franco-chinois — influence et diplomatie économique",
     description:
-      "La France China Foundation (FCF) est une organisation fondee en 2012 pour rapprocher les élites dirigeantes françaises et chinoises, sur le modèle de la French-American Foundation. Elle sélectionné chaque année une cohorte de « Young Leaders » franco-chinois — hauts fonctionnaires, dirigeants d'entreprise, diplomates, universitaires — qui participent à des séminaires confidentiels alternativement en France et en Chine. Emmanuel Lenain, diplomate et futur conseiller diplomatique d'Édouard Philippe à Matignon, est co-créateur de la FCF. Benoît Ribadeau-Dumas, directeur de cabinet de Philippe à Matignon et camarade de promotion ENA Marc-Bloch, intègre la FCF dans la promotion 2013. Jean-Pierre Raffarin, ancien Premier ministre connu pour ses liens privilégiés avec Pekin, est l'un des parrains politiques de la fondation et présidé le Comité France-Chine. La FCF opère à l'intersection de la diplomatie économique et de l'influence politique, dans un contexte où la Chine investit massivement dans les infrastructures portuaires européennes. CMA CGM, premier armateur français dont les routes commerciales vers l'Asie transitent par Le Havre, est un acteur cle de cet écosystème — le commerce maritime franco-chinois représentant des dizaines de milliards d'euros annuels. Le port du Havre, fief de Philippe, est la porté d'entrée naturelle du commerce chinois en France via la facade Manche. L'opacité de la FCF sur ses activités et ses membres est comparable à celle de la FAF : pas de publication des ordres du jour, pas de comptes rendus publics. La simultaneite des réseaux FAF (transatlantique) et FCF (sino-français) autour du même noyau de pouvoir — Philippe, Ribadeau-Dumas, Lenain — crée un système d'influence bipolaire sans précédent à Matignon.",
+      "La France China Foundation (FCF) est une organisation fondée en 2012 pour rapprocher les élites dirigeantes françaises et chinoises. Son conseil stratégique inclut Jean-Pierre Raffarin, Laurent Fabius et Alain Mérieux (architecte du laboratoire P4 de Wuhan). Son partenaire chinois officiel est le CPIFA (Chinese People's Institute of Foreign Affairs), lié au ministère chinois des Affaires étrangères. La promotion inaugurale 2013 réunit Philippe, Macron et Ribadeau-Dumas. En 2015, Philippe accueille la délégation FCF au Havre pour une visite du port. En mai 2018, il assiste au gala annuel à Versailles en tant que Premier ministre et ancien Young Leader. L'opacité de la FCF est comparable à celle de la FAF : pas de publication des ordres du jour, pas de comptes rendus publics. La simultanéité des réseaux FAF (transatlantique) et FCF (sino-français) autour du même noyau — Philippe, Ribadeau-Dumas, Lenain — crée un système d'influence bipolaire sans précédent à Matignon. Villepin ne figure dans aucun espace FCF — son réseau chinois est personnel et privé, non institutionnel.",
     typeLien: "mediatique",
     sousReseaux: ["sino-francais"],
+    rattachement: ["philippe", "raffarin"],
   },
   {
     nom: "Emmanuel Lenain",
@@ -891,12 +899,13 @@ export const reseau: PersonneReseau[] = [
   {
     nom: "Jean-Pierre Raffarin",
     slug: "jean-pierre-raffarin",
-    role: "Ancien Premier ministre — parrain du réseau franco-chinois",
+    role: "Ancien Premier ministre — plaque tournante des réseaux chinois",
     description:
-      "Jean-Pierre Raffarin, Premier ministre de Jacques Chirac de 2002 à 2005, est considéré comme le principal artisan des relations franco-chinoises au sein de la classe politique française. Il présidé le Comité France-Chine du Medef International et est l'un des parrains politiques de la France China Foundation. Sinophile convaincu, Raffarin effectue des dizaines de voyages en Chine et entretient des relations personnelles avec les dirigeants du Parti communiste chinois. Il est sénateur de la Vienne de 2011 à 2017, periode pendant laquelle il intensifié son rôle d'intermédiaire franco-chinois. Raffarin est le predecesseur politique d'Édouard Philippe dans le rôle d'interlocuteur français privilégié de Pekin — un rôle que Philippe peut héritér via le réseau FCF de Ribadeau-Dumas et Lenain. Le Comité France-Chine du Medef réunit les plus grandes entreprises françaises opérant en Chine, dont plusieurs acteurs du transport maritime et de la logistique. Raffarin à été critique pour ses positions jugees trop complaisantes envers Pekin, notamment sur la question des droits de l'homme, du Tibet et du Xinjiang. Il incarne la diplomatie économique française en Chine : ouverture de marchés pour les entreprises françaises en echange d'un silence diplomatique sur les sujets sensibles. Sa position de parrain de la FCF fait de lui le patriarche du réseau sino-français dans lequel s'inscrivent Ribadeau-Dumas et Lenain. La ligne de succession Raffarin → FCF → Ribadeau-Dumas → Matignon Philippe illustre la transmission du capital relationnel chinois au sein de l'élite politique française.",
+      "Jean-Pierre Raffarin, Premier ministre de Jacques Chirac de 2002 à 2005, est la plaque tournante entre les réseaux chinois de Philippe et de Villepin. Co-parrain de la France China Foundation (dont Philippe est Young Leader) et président du Comité France-Chine du Medef, il est aussi le modèle de reconversion chiraquienne vers la Chine que Villepin a suivi par des canaux parallèles. Causeur note que Raffarin et Villepin ont suivi des « parcours miroirs » dans leurs reconversions chinoises post-Matignon. Raffarin est mandaté officiellement par le gouvernement français pour les relations franco-chinoises (source : Radio France), ce qui lui confère une légitimité institutionnelle que Villepin ne possède pas. C'est par Raffarin que la séquence Chirac → Juppé → réseaux chinois prend une cohérence structurelle. Il entretient des relations personnelles avec les dirigeants du PCC et effectue des dizaines de voyages en Chine. Sa position de parrain de la FCF et de président du Comité France-Chine fait de lui le patriarche du réseau sino-français. La ligne de succession Raffarin → FCF → Ribadeau-Dumas → Matignon Philippe illustre la transmission du capital relationnel chinois, tandis que le parallèle Raffarin/Villepin illustre deux voies de reconversion vers Pékin — l'une institutionnelle, l'autre privée et opaque.",
     typeLien: "politique",
     partiPolitique: "UMP/LR",
-    sousReseaux: ["sino-francais"],
+    sousReseaux: ["sino-francais", "chiraquien"],
+    rattachement: ["philippe", "raffarin", "villepin"],
   },
   {
     nom: "Rodolphe Saadé",
@@ -930,9 +939,10 @@ export const reseau: PersonneReseau[] = [
     slug: "comite-france-chine",
     role: "Diplomatie économique — lobby sino-français du patronat",
     description:
-      "Le Comité France-Chine, rattache au MEDEF International, est le principal organe de lobbying du patronat français auprès de la Chine. Preside par Jean-Pierre Raffarin, ancien Premier ministre et parrain du réseau sino-français, il réunit les dirigeants des plus grandes entreprises françaises opérant en Chine où désireuses de pénétrer le marché chinois. Le Comité organisé des missions économiques, des forums d'affaires franco-chinois et des rencontres entre dirigeants d'entreprise et responsables politiques des deux pays. CMA CGM, dont les routes commerciales vers l'Asie sont le cœur de l'activité, est un acteur naturel de cet écosystème. Le Comité France-Chine fonctionne en synergie avec la France China Foundation : le premier opère au niveau des entreprises, la seconde au niveau des individus (Young Leaders franco-chinois). La présence de Raffarin à la tête du Comité et comme parrain de la FCF crée un pont entre diplomatie économique officielle et réseaux d'influence informels. Les membres du Comité incluent des groupes du CAC 40 actifs en Chine : Airbus, Total, L'Oreal, Sanofi, et des acteurs portuaires et logistiques. Pour Le Havre, le Comité France-Chine est un interlocuteur cle dans la competition entre ports européens pour attirer le commerce chinois. Ribadeau-Dumas (dircab de Philippe, FCF 2013) et Lenain (co-créateur FCF, conseiller diplomatique) ont tous deux évolué dans cet écosystème avant et pendant Matignon. Le Comité représente la face institutionnelle du lobbying sino-français, tandis que la FCF en est la face relationnelle et confidentielle.",
+      "Le Comité France-Chine, rattaché au MEDEF International, est le principal organe de lobbying du patronat français auprès de la Chine. Présidé par Jean-Pierre Raffarin, il fonctionne en synergie avec la France China Foundation : le Comité opère au niveau des entreprises, la FCF au niveau des individus. La présence de Raffarin à la tête du Comité et comme parrain de la FCF crée un pont entre diplomatie économique officielle et réseaux d'influence informels. Les membres incluent des groupes du CAC 40 actifs en Chine : Airbus, Total, L'Oréal, Sanofi, et des acteurs portuaires et logistiques. Ribadeau-Dumas (dircab de Philippe, FCF 2013) et Lenain (co-créateur FCF, conseiller diplomatique) ont tous deux évolué dans cet écosystème.",
     typeLien: "mediatique",
     sousReseaux: ["sino-francais"],
+    rattachement: "raffarin",
   },
   // ═══════════════════════════════════════════════════════
   // ENTITES DE DEUXIEME NIVEAU — conflits d'intérêts
@@ -987,9 +997,114 @@ export const reseau: PersonneReseau[] = [
     slug: "pierre-moscovici",
     role: "Président de la Cour des comptes — Young Leader 1996",
     description:
-      "Pierre Moscovici est président de la Cour des comptes depuis juin 2020, l'institution chargee de contrôler l'usage des fonds publics en France. Il est Young Leader de la promotion 1996, la même que François Hollande. Ancien ministre de l'Economie sous Hollande (2012-2014) puis commissaire européen aux Affaires économiques (2014-2019), Moscovici incarne le parcours Young Leader au sommet des institutions de contrôle. En tant que président de la Cour des comptes, il supervisé les rapports sur les finances publiques — y compris les rapports sur la gestion du Havre et de la communauté urbaine, territoire de Philippe. La chambre régionale des comptes de Normandie avait note que l'endettement du Havre était « proche du seuil d'alerte » sous la gestion Philippe. Moscovici est aussi membre du Conseil constitutionnel (de droit, en tant qu'ancien commissaire européen). Le fait que le contrôleur supreme des comptes publics et l'ancien Premier ministre soient issus du même réseau Young Leaders soulève des questions sur l'indépendance du contrôle. Moscovici (YL 1996), Hollande (YL 1996), Macron (YL 2012), Philippe (YL 2011) : quatre postes cles — président, Premier ministre, commissaire européen, Cour des comptes — occupes par des membres du même programme de sélection. Cette concentration interpelle sur la capacité du système à se contrôler lui-même.",
+      "Pierre Moscovici est président de la Cour des comptes depuis juin 2020. Young Leader 1996 (même promotion que Hollande). Ancien ministre de l'Économie puis commissaire européen. Le fait que le contrôleur suprême des comptes publics et l'ancien Premier ministre soient issus du même réseau Young Leaders soulève des questions sur l'indépendance du contrôle.",
     typeLien: "politique",
     sousReseaux: ["young-leaders"],
+  },
+  // ═══════════════════════════════════════════════════════
+  // RESEAU VILLEPIN — connexions chinoises privées et opaques
+  // ═══════════════════════════════════════════════════════
+  {
+    nom: "Dominique de Villepin",
+    slug: "dominique-de-villepin",
+    role: "Ancien Premier ministre — candidat probable 2027 — réseaux chinois privés",
+    description:
+      "Dominique de Villepin, Premier ministre de Chirac (2005-2007), est le troisième centroïde du réseau. Aucune relation personnelle directe documentée ne le relie à Philippe — leurs réseaux sont parallèles mais distincts, convergeant par Juppé et les connexions chinoises. Villepin a intégré le « groupe J » (fidèles de Juppé) dès 1979, puis a été nommé directeur de cabinet au Quai d'Orsay par Juppé en 1993. Depuis 2008, il a développé un réseau chinois privé et opaque : présidence d'associations de droit chinois, sociétés à Hong Kong (Villepin International, Villepin Group Limited), environ 50 conférences rémunérées en Chine (94 000 € pour deux conférences selon Radio France). Considéré comme proche de Xi Jinping. Enthousiaste public des Nouvelles Routes de la Soie. Aide des entreprises chinoises à se développer en Afrique et Europe, parfois en concurrence avec des entreprises françaises (Clément Fayol, Ces Français au service de l'étranger). Comptes de Villepin International non déposés depuis 2015. Dans les sondages de popularité (mai 2025), Villepin à 51 %, Philippe à 50 %. Il séduit davantage à gauche (65 % chez LFI), Philippe au centre-droit.",
+    typeLien: "politique",
+    partiPolitique: "Indépendant",
+    sousReseaux: ["villepin", "chiraquien", "sino-francais"],
+  },
+  {
+    nom: "Villepin International",
+    slug: "villepin-international",
+    role: "Société de conseil — comptes non déposés depuis 2015",
+    description:
+      "Villepin International est la société de conseil de Dominique de Villepin créée après son départ de Matignon. Ses comptes ne sont plus déposés depuis 2015 — la même année, deux sociétés sont créées à Hong Kong, puis une troisième (Villepin Group Limited), avec des flux financiers importants. L'enquête de la cellule investigation de Radio France (décembre 2025) révèle l'étendue des activités chinoises transitant par ces structures. La destination et les bénéficiaires des flux financiers restent des zones d'ombre majeures. L'opacité financière contraste avec le réseau institutionnel et relativement transparent de Philippe via la FCF.",
+    typeLien: "financier",
+    sousReseaux: ["villepin", "sino-francais"],
+    rattachement: "villepin",
+  },
+  {
+    nom: "Alexandre Djouhri",
+    slug: "alexandre-djouhri",
+    role: "Intermédiaire — condamné à 6 ans (financements libyens) — voyages avec Villepin",
+    description:
+      "Alexandre Djouhri est un intermédiaire condamné en septembre 2025 à six ans de prison dans l'affaire des financements libyens. L'enquête de Radio France révèle que Villepin a effectué des déplacements à l'étranger en sa compagnie. Lors du forum de Saint-Pétersbourg, les deux hommes se sont fait enregistrer comme « vice-présidents » de Veolia — un enregistrement démenti par la direction du groupe. Aucun lien comparable n'est documenté pour Philippe. Djouhri est un nœud d'ombre spécifique au réseau Villepin, reliant l'ancien Premier ministre aux milieux d'affaires les plus controversés (Russie, Golfe, Libye).",
+    typeLien: "financier",
+    sousReseaux: ["villepin"],
+    rattachement: "villepin",
+  },
+  {
+    nom: "Henri Proglio",
+    slug: "henri-proglio",
+    role: "Ancien PDG EDF/Veolia — lien Villepin-Veolia depuis 17 ans",
+    description:
+      "Henri Proglio est l'ancien PDG de Veolia Environnement (2003-2009) puis d'EDF (2009-2014). Selon les investigations, Villepin est sous contrat avec Veolia depuis 17 ans via Proglio. Ce lien explique l'épisode du forum de Saint-Pétersbourg où Villepin et Djouhri se sont enregistrés comme « vice-présidents » de Veolia. Proglio est une figure du capitalisme français ayant navigué entre secteur public et privé. Son rôle comme point de contact entre Villepin et le monde des affaires constitue une piste d'approfondissement identifiée par le rapport.",
+    typeLien: "financier",
+    sousReseaux: ["villepin", "entreprises"],
+    rattachement: "villepin",
+  },
+  {
+    nom: "IMTA (International Mountain Tourism Alliance)",
+    slug: "imta",
+    role: "Organisme chinois — présidé par Villepin",
+    description:
+      "L'International Mountain Tourism Alliance (IMTA) est un organisme chinois dont Villepin est le président. Cette présidence s'inscrit dans le réseau de fonctions officielles et semi-officielles que Villepin a accumulées en Chine depuis 2008 : présidence d'associations de droit chinois, intégration de comités exécutifs de fonds d'investissement. L'IMTA illustre l'ancrage institutionnel chinois de Villepin — une légitimité obtenue par le haut, directement auprès du pouvoir central, contrairement au parcours FCF de Philippe qui passe par des structures franco-chinoises encadrées.",
+    typeLien: "mediatique",
+    sousReseaux: ["villepin", "sino-francais"],
+    rattachement: "villepin",
+  },
+  {
+    nom: "Alain Mérieux",
+    slug: "alain-merieux",
+    role: "Architecte du laboratoire P4 de Wuhan — Conseil stratégique FCF",
+    description:
+      "Alain Mérieux est l'industriel lyonnais fondateur de bioMérieux, leader mondial du diagnostic in vitro. Il est l'architecte du laboratoire P4 de haute sécurité de Wuhan, inauguré en 2018 — un projet de coopération franco-chinoise lancé sous la présidence Chirac. Mérieux siège au Conseil stratégique de la France China Foundation aux côtés de Raffarin et Fabius. Sa présence au cœur du dispositif FCF établit un lien entre la diplomatie sanitaire franco-chinoise (le P4 de Wuhan) et les réseaux d'influence dans lesquels s'inscrit Philippe. La question du laboratoire P4 est devenue géopolitiquement sensible depuis 2020 et la pandémie de Covid-19.",
+    typeLien: "professionnel",
+    sousReseaux: ["sino-francais", "chiraquien"],
+    rattachement: "raffarin",
+  },
+  {
+    nom: "Laurent Fabius",
+    slug: "laurent-fabius",
+    role: "Président du Conseil constitutionnel — co-parrain FCF",
+    description:
+      "Laurent Fabius, ancien Premier ministre (1984-1986) et président du Conseil constitutionnel depuis 2016, est co-parrain de la France China Foundation avec Raffarin. Ancien ministre des Affaires étrangères sous Hollande (2012-2016), il a contribué à structurer la diplomatie sino-française. Sa présence au Conseil stratégique de la FCF aux côtés de Raffarin et Mérieux transcende les clivages gauche-droite et illustre le consensus des élites françaises autour du rapprochement avec Pékin. Fabius valide la constitutionnalité des lois — y compris celles du gouvernement Philippe.",
+    typeLien: "politique",
+    partiPolitique: "PS",
+    sousReseaux: ["sino-francais", "chiraquien"],
+    rattachement: "raffarin",
+  },
+  {
+    nom: "Hubert Védrine",
+    slug: "hubert-vedrine",
+    role: "Ancien ministre des Affaires étrangères — Conseil stratégique FCF",
+    description:
+      "Hubert Védrine, ancien secrétaire général de l'Élysée sous Mitterrand puis ministre des Affaires étrangères (1997-2002), est membre du Conseil stratégique de la FCF. Théoricien de la politique étrangère française et inventeur du concept d'« hyperpuissance » américaine, il représente la continuité de la tradition diplomatique française d'indépendance vis-à-vis des États-Unis — la même tradition qui a poussé les héritiers de Chirac vers la Chine.",
+    typeLien: "politique",
+    sousReseaux: ["sino-francais"],
+    rattachement: "raffarin",
+  },
+  {
+    nom: "Jacques Chirac",
+    slug: "jacques-chirac",
+    role: "Ancien président de la République — source du chiraquisme",
+    description:
+      "Jacques Chirac (1932-2019), président de la République (1995-2007), est la source commune de tout l'écosystème. Sa politique d'indépendance vis-à-vis des États-Unis et son dialogue privilégié avec Pékin ont produit une tradition de relations sino-françaises dont Philippe et Villepin sont les héritiers par des canaux distincts. Un sondage JDD/Ifop de 2019 classait Juppé comme premier héritier de Chirac (62 %), Villepin en troisième, tout en se demandant si « le dernier bastion du chiraquisme n'est pas à Matignon, avec Édouard Philippe ». Villepin était l'un des « fils préférés » de Chirac (La Libre). Chirac → Juppé → Philippe et Chirac → Villepin sont les deux branches de cet arbre politique.",
+    typeLien: "politique",
+    partiPolitique: "RPR/UMP",
+    sousReseaux: ["chiraquien"],
+    rattachement: ["philippe", "raffarin", "villepin"],
+  },
+  {
+    nom: "CPIFA",
+    slug: "cpifa",
+    role: "Chinese People's Institute of Foreign Affairs — partenaire officiel FCF",
+    description:
+      "Le CPIFA (Chinese People's Institute of Foreign Affairs) est le partenaire chinois officiel de la France China Foundation. Lié au ministère chinois des Affaires étrangères, il constitue l'interlocuteur institutionnel du réseau sino-français de Philippe et Raffarin. Le CPIFA est l'interface entre le soft power français (FCF) et l'appareil diplomatique chinois. Cette connexion distingue le réseau Philippe/Raffarin (institutionnel, encadré) du réseau Villepin (privé, accès direct au pouvoir central via Xi Jinping).",
+    typeLien: "mediatique",
+    sousReseaux: ["sino-francais"],
+    rattachement: "raffarin",
   },
 ];
 
