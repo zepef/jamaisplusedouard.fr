@@ -9,6 +9,7 @@ const navKeys = [
   { href: "/biographie", key: "biographie" },
   { href: "/actualites", key: "actualites" },
   { href: "/controverses", key: "controverses" },
+  { href: "/investigations", key: "investigations" },
   { href: "/conflits", key: "conflits" },
   { href: "/reseau", key: "reseau" },
   { href: "/matraquage", key: "matraquage" },

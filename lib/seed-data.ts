@@ -619,7 +619,11 @@ export type SousReseau =
   | "entreprises"
   | "horizons"
   | "villepin"
-  | "chiraquien";
+  | "chiraquien"
+  | "facilitateurs"
+  | "portuaire"
+  | "bilderberg"
+  | "coalition-2027";
 
 export type Centroide = "philippe" | "juppe" | "raffarin" | "villepin";
 
@@ -1258,6 +1262,468 @@ export const reseau: PersonneReseau[] = [
     sousReseaux: ["horizons"],
     rattachement: "philippe",
   },
+  // === RAPPORT ATTALI-MINC : les architectes de l'ombre ===
+  {
+    nom: "Jacques Attali",
+    slug: "jacques-attali",
+    role: "Faiseur de rois transpartisan — architecte du couple Macron-Philippe",
+    description:
+      "Polytechnicien, énarque, conseiller de Mitterrand (1981-1991), fondateur de la BERD, président de la Commission Attali (2007). Co-fondateur du Conseil stratégique de la FCF. A lancé la carrière de Macron (rapporteur Commission 2007), l'a présenté à Hollande (2011), puis a suggéré Philippe comme Premier ministre et organisé leur rencontre (mars 2017). Quitte la FCF en mars 2020.",
+    typeLien: "politique",
+    sousReseaux: ["facilitateurs", "sino-francais"],
+    rattachement: ["philippe", "raffarin"],
+  },
+  {
+    nom: "Alain Minc",
+    slug: "alain-minc",
+    role: "Conseiller transversal des présidents — canal Boyer vers Philippe",
+    description:
+      "ENA (major, promotion Léon Blum), ancien président du conseil de surveillance du Monde, président d'AM Conseil. A soutenu Juppé à la primaire 2016, puis Macron en 2017. Fait passer des messages à Philippe via Gilles Boyer à Matignon. Young Leader FAF. Un tiers des patrons du CAC 40 rémunèrent ses services. Trésorier de la Fondation Saint-Simon, membre du Siècle.",
+    typeLien: "politique",
+    sousReseaux: ["facilitateurs", "young-leaders"],
+    rattachement: ["philippe", "juppe"],
+  },
+  {
+    nom: "Commission Attali",
+    slug: "commission-attali",
+    role: "Commission pour la libération de la croissance (2007-2010) — 316 mesures",
+    description:
+      "Commandée par Sarkozy, présidée par Attali, avec Macron comme rapporteur général adjoint. Parmi les 316 mesures : la libéralisation des VTC, qui conduit à la loi Novelli (2009) puis au « deal » Uber-Macron (2014-2016). Point d'origine de la chaîne de dérégulation Commission → Uber → Macron → Philippe.",
+    typeLien: "professionnel",
+    sousReseaux: ["facilitateurs"],
+    rattachement: ["philippe", "juppe"],
+  },
+  // === RAPPORT UBER FILES & KOHLER : le triangle portuaire ===
+  {
+    nom: "Alexis Kohler",
+    slug: "alexis-kohler",
+    role: "Secrétaire général de l'Élysée (2017-2025) — mis en examen — liens MSC",
+    description:
+      "Bras droit de Macron, énarque, Inspection des finances. A siégé au conseil de surveillance du GPMH (2010-2012) aux côtés de Philippe (maire), sans déclarer ses liens familiaux avec MSC (famille Aponte). A voté des contrats MSC. Mis en examen pour prise illégale d'intérêts, trafic d'influence et corruption passive (2022). Circuit : IGF → APE/GPMH → cabinet Macron → MSC → Élysée → Société Générale.",
+    typeLien: "politique",
+    sousReseaux: ["portuaire", "le-havre"],
+    rattachement: "philippe",
+  },
+  {
+    nom: "MSC (Mediterranean Shipping Company)",
+    slug: "msc-aponte",
+    role: "2e armateur mondial — famille Aponte (cousins de Kohler) — terminal au Havre",
+    description:
+      "Fondé par la famille Aponte, cousins de la mère d'Alexis Kohler. Deuxième armateur mondial, exploite un terminal à conteneurs au port du Havre. Kohler n'a jamais déclaré ses liens familiaux avec MSC lors de son mandat au GPMH. Au cœur de la mise en examen de Kohler pour prise illégale d'intérêts.",
+    typeLien: "financier",
+    sousReseaux: ["portuaire", "entreprises"],
+    rattachement: "philippe",
+  },
+  {
+    nom: "Rodolphe Saadé (CMA CGM)",
+    slug: "rodolphe-saade-cma-cgm",
+    role: "PDG CMA CGM — propriétaire BFM/RMC — hub Le Havre — nœud multifonctionnel",
+    description:
+      "PDG de CMA CGM (3e armateur mondial), propriétaire de BFM TV et RMC depuis le rachat d'Altice Media (2023). CMA CGM exploite des terminaux au port du Havre, hub de Philippe. A racheté Bolloré Transport & Logistics (2024). Nœud triple : économique (transport maritime), médiatique (BFM/RMC) et politique (partenaire portuaire du maire du Havre).",
+    typeLien: "financier",
+    sousReseaux: ["portuaire", "le-havre", "entreprises"],
+    rattachement: "philippe",
+  },
+  {
+    nom: "Grand Port Maritime du Havre (GPMH)",
+    slug: "gpmh",
+    role: "Premier port français — nœud géostratégique Philippe/Kohler/MSC/CMA CGM",
+    description:
+      "Premier port de France, nœud de convergence du réseau. Kohler et Philippe y ont siégé ensemble au conseil de surveillance (2010-2012). Hub de CMA CGM et client de MSC. Jumelé avec Dalian (Chine). Lié à COSCO Shipping (1er armateur chinois). Point géographique où convergent pouvoir politique, financier, médiatique et géostratégique.",
+    typeLien: "professionnel",
+    sousReseaux: ["portuaire", "le-havre"],
+    rattachement: "philippe",
+  },
+  {
+    nom: "Uber Files",
+    slug: "uber-files",
+    role: "124 000 documents fuités — deal caché Macron-Uber (2014-2016)",
+    description:
+      "124 000 documents internes d'Uber fuités à l'ICIJ. Révèlent 17 échanges Uber-cabinet Macron, 4 rencontres Macron-Kalanick, un deal caché (Uber renonce à UberPop, l'État réduit la formation VTC de 250h à 7h), des amendements rédigés par Uber transmis à des députés. Commission d'enquête parlementaire (2023) : pas de conflit d'intérêts mais « relations privilégiées » confirmées.",
+    typeLien: "professionnel",
+    sousReseaux: ["facilitateurs"],
+    rattachement: "philippe",
+  },
+  // === RAPPORT BILDERBERG : le cénacle transatlantique ===
+  {
+    nom: "Henri de Castries",
+    slug: "henri-de-castries",
+    role: "Super-facilitateur — président Bilderberg — CS FCF — ex-PDG AXA — ENA Voltaire (condisciple Villepin)",
+    description:
+      "Nœud unique du système : préside le comité de direction du Bilderberg depuis 2012, siège au Conseil stratégique de la FCF aux côtés d'Attali, Raffarin et Philippe, et est condisciple de Villepin à l'ENA (promotion Voltaire, 1980). Ancien PDG d'AXA (2000-2016), président de l'Institut Montaigne, triple Young Leader FAF (1994, 1995, 1998). Pont unique entre réseau transatlantique (Bilderberg, FAF) et réseau sino-français (FCF).",
+    typeLien: "financier",
+    sousReseaux: ["bilderberg", "sino-francais", "young-leaders", "facilitateurs"],
+    rattachement: ["philippe", "juppe", "raffarin", "villepin"],
+  },
+  {
+    nom: "Gabriel Attal",
+    slug: "gabriel-attal",
+    role: "Ancien Premier ministre — Bilderberg 2023 + 2025 — promu PM 7 mois après sa 1ère participation",
+    description:
+      "Premier ministre (janvier-septembre 2024), plus jeune PM de la Ve République. Invité au Bilderberg à Lisbonne (2023) alors ministre des Comptes publics, nommé PM sept mois plus tard. Présent à Stockholm (2025) aux côtés de Philippe — première fois que deux anciens PM macronistes participent ensemble. Pattern récurrent : Macron (Bilderberg 2014 → ministre 2 mois après), Philippe (2016 → PM 11 mois après), Attal (2023 → PM 7 mois après).",
+    typeLien: "politique",
+    partiPolitique: "Renaissance",
+    sousReseaux: ["bilderberg"],
+    rattachement: "philippe",
+  },
+  {
+    nom: "Patricia Barbizet",
+    slug: "patricia-barbizet",
+    role: "Comité directeur permanent du Bilderberg — ancienne présidente du Siècle",
+    description:
+      "Membre du comité directeur permanent du Bilderberg — second représentant français permanent après de Castries. Ancienne présidente du Siècle, ancienne DG de la holding Artémis (Pinault). Présente au Bilderberg 2023 à Lisbonne. Connecte le Bilderberg au Siècle, où siègent également Attali et Minc.",
+    typeLien: "financier",
+    sousReseaux: ["bilderberg", "entreprises"],
+    rattachement: "philippe",
+  },
+  {
+    nom: "Institut Montaigne",
+    slug: "institut-montaigne",
+    role: "Think tank libéral (de Castries) — financé par AXA, BNP, LVMH, Total — référence Macron 2017",
+    description:
+      "Think tank libéral présidé par Henri de Castries, financé par AXA, Engie, BNP Paribas, LVMH et TotalEnergies. Référence intellectuelle de la campagne Macron 2017 : son directeur Laurent Bigorgne avait fourni l'adresse de campagne de LREM. Véhicule de production doctrinale pour le programme Horizons 2027.",
+    typeLien: "professionnel",
+    sousReseaux: ["bilderberg", "entreprises"],
+    rattachement: "philippe",
+  },
+  // === RAPPORT BLACKROCK : le gestionnaire d'actifs au cœur du système ===
+  {
+    nom: "BlackRock",
+    slug: "blackrock",
+    role: "1er gestionnaire d'actifs mondial (10 000 Mds $) — actionnaire de 18 entreprises du CAC 40",
+    description:
+      "Premier gestionnaire d'actifs mondial, fondé par Larry Fink. Détient des participations dans au moins 18 entreprises du CAC 40 dont AXA (de Castries), BNP (Lemierre, Bilderberg 2025), TotalEnergies (Pouyanné, Bilderberg), Société Générale (Kohler 2025). Allié de MSC dans l'acquisition de 43 ports mondiaux pour 22,8 Mds $ (2025). Philippe propose 15 % de capitalisation retraites en 2027 — précisément l'objectif de BlackRock en France.",
+    typeLien: "financier",
+    sousReseaux: ["entreprises", "portuaire"],
+    rattachement: ["philippe", "raffarin"],
+  },
+  {
+    nom: "Jean-François Cirelli",
+    slug: "jean-francois-cirelli",
+    role: "Président BlackRock France — ancien dircab Raffarin — promu LH par Philippe en pleine crise retraites",
+    description:
+      "ENA (promotion Léonard de Vinci, 1985), ancien conseiller de Chirac, directeur adjoint du cabinet de Raffarin (2002-2004), artisan de la réforme des retraites Fillon 2003. PDG de Gaz de France, numéro 2 d'Engie. Président de BlackRock France depuis 2015. Invité par Philippe au Comité Action Publique 2022 (2018). Promu officier de la Légion d'honneur par Philippe le 31 décembre 2019, en pleine grève historique des retraites.",
+    typeLien: "financier",
+    sousReseaux: ["entreprises", "facilitateurs"],
+    rattachement: ["philippe", "raffarin"],
+  },
+  // === RAPPORT COALITION 2027 : la tribune des 90 ===
+  {
+    nom: "Marc Ferracci",
+    slug: "marc-ferracci",
+    role: "Témoin de mariage de Macron — fils de Pierre Ferracci (Commission Attali) — signataire tribune 2027",
+    description:
+      "Économiste, HEC, docteur en sciences économiques. Rencontre Macron à 22 ans à Sciences Po. Témoin de mariage de Macron. Son père Pierre Ferracci a siégé à la Commission Attali (2007) où Macron était rapporteur. Député Renaissance, ex-ministre de l'Industrie. Patrimoine déclaré : 23 M€. Signataire de la tribune « Pour la France, construisons l'union ! » (29 mars 2026). Agent-pont entre l'écosystème Macron et la coalition Philippe.",
+    typeLien: "politique",
+    partiPolitique: "Renaissance",
+    sousReseaux: ["coalition-2027", "facilitateurs"],
+    rattachement: "philippe",
+  },
+  {
+    nom: "Philippe Tabarot",
+    slug: "philippe-tabarot",
+    role: "Ministre des Transports — supervise les ports — signataire tribune 2027 — enquêté PNF",
+    description:
+      "Ministre des Transports depuis décembre 2024. Supervise les ports maritimes français dont le GPMH (nœud Philippe/Kohler/MSC/CMA CGM). Ex-vice-président régional PACA aux côtés d'Estrosi (Horizons). Sénateur LR. Enquêté par le PNF pour détournement de fonds publics et prise illégale d'intérêts. Le poste de ministre des Transports est un nœud récurrent : Djebbari (YL FCF 2020) s'est vu interdire par la HATVP de rejoindre CMA CGM.",
+    typeLien: "politique",
+    partiPolitique: "LR",
+    sousReseaux: ["coalition-2027", "portuaire"],
+    rattachement: "philippe",
+  },
+  {
+    nom: "Maud Bregeon",
+    slug: "maud-bregeon",
+    role: "Porte-parole du gouvernement — signataire tribune 2027 — « Philippe mieux placé »",
+    description:
+      "Porte-parole du gouvernement Lecornu, ministre déléguée. Signataire de la tribune « Pour la France, construisons l'union ! » (29 mars 2026). A déclaré sur LCI que Philippe « a pris une sérieuse option, étant potentiellement le mieux placé pour mener ce combat ». Fait la jonction explicite entre le gouvernement actuel et la candidature Philippe 2027.",
+    typeLien: "politique",
+    partiPolitique: "Renaissance",
+    sousReseaux: ["coalition-2027"],
+    rattachement: "philippe",
+  },
+];
+
+export type Investigation = {
+  slug: string;
+  titre: string;
+  sousTitre: string;
+  resume: string;
+  date: string;
+  themes: string[];
+  parties: {
+    titre: string;
+    contenu: string;
+  }[];
+  noeudsLies: string[]; // slugs of related network nodes
+  sources: { titre: string; url?: string; type: string }[];
+};
+
+export const investigations: Investigation[] = [
+  {
+    slug: "attali-minc-architectes-ombre",
+    titre: "Attali & Minc — Les architectes de l'ombre",
+    sousTitre: "Connexions avec le réseau étendu Philippe–Juppé–Raffarin–Villepin",
+    resume:
+      "Jacques Attali et Alain Minc constituent les deux « architectes de l'ombre » du système politique français. Sans mandat électif, ils ont façonné les carrières de trois présidents et influencé deux Premiers ministres du réseau étudié. Attali est l'architecte direct du couple Macron-Philippe.",
+    date: "2026-03-30",
+    themes: ["fcf", "faf", "facilitateurs", "macron", "philippe", "juppe", "raffarin"],
+    parties: [
+      {
+        titre: "Jacques Attali : le faiseur de rois transpartisan",
+        contenu: `Polytechnicien, énarque (promotion Robespierre, 1970), ancien auditeur au Conseil d'État. Conseiller spécial de Mitterrand pendant dix ans (1981-1991). Fondateur et premier président de la BERD (1991-1993). Président de la Commission pour la libération de la croissance française (2007-2010).
+
+La séquence Attali → Macron → Philippe est documentée et constitue la découverte la plus significative de cette investigation :
+
+2007 : Attali choisit Macron (28 ans, inspecteur des finances) comme rapporteur général adjoint de la Commission pour la libération de la croissance.
+2011 : Attali présente Macron à François Hollande. Macron est nommé secrétaire général adjoint de l'Élysée (2012), puis ministre de l'Économie (2014).
+Mars 2017 : Attali suggère à Macron de choisir Édouard Philippe comme Premier ministre. Il organise leur rencontre.
+Mai 2017 : Philippe est nommé Premier ministre. Son cabinet est peuplé de juppéistes et de membres de la FCF.
+
+Attali est membre fondateur du Conseil stratégique de la FCF dès 2013, aux côtés de Raffarin, Fabius, Philippe, Mérieux, de Castries et Villani. Il quitte la fondation en mars 2020, coïncidant avec l'arrivée de la pandémie.`,
+      },
+      {
+        titre: "Alain Minc : le conseiller transversal des présidents",
+        contenu: `ENA (promotion Léon Blum, 1975, major), Inspection générale des finances. Ancien président du conseil de surveillance du Monde. Président d'AM Conseil. Trésorier de la Fondation Saint-Simon. Membre du Siècle. Un tiers des grands patrons du CAC 40 ont rémunéré ses services.
+
+Minc → Juppé : a soutenu Juppé à la primaire 2016, puis s'est reporté sur Macron après sa défaite — le même transfert que les juppéistes eux-mêmes (Philippe, Boyer, Hufnagel).
+
+Minc → Philippe (via Boyer) : fait passer des messages à Philippe via Gilles Boyer (conseiller spécial à Matignon). Le canal Minc → Boyer → Philippe est documenté par le JDD.
+
+Minc → Macron : mentor dès sa sortie de l'ENA, l'a introduit dans les cercles du pouvoir. A soutenu Macron en 2017 et 2022.
+
+Minc est ancien Young Leader de la FAF. La séquence Minc (YL) → Juppé (YL 1982) → Philippe (YL 2011) → Macron (YL 2012) dessine une chaîne de cooptation transatlantique sur quatre décennies.`,
+      },
+      {
+        titre: "Analyse croisée : agents facilitateurs du système",
+        contenu: `Les deux hommes fonctionnent en tandem complémentaire depuis les années 1980. Attali opère depuis la gauche (Mitterrand, Hollande), Minc depuis la droite (Balladur, Sarkozy, Juppé). Mais les deux convergent vers Macron, qui incarne la synthèse droite-gauche.
+
+En termes de systèmes multi-agents, Attali et Minc ne sont pas des centroïdes mais des « agents facilitateurs » — des nœuds qui optimisent non pas leur propre accès au pouvoir mais leur capacité à connecter des agents entre eux. Leur valeur réside dans le réseau, pas dans le pouvoir formel.
+
+La FCF est la structure où Attali et le réseau Philippe-Raffarin se rencontrent formellement. Le Conseil stratégique réunit un « faiseur de rois » (Attali), un candidat présidentiel (Philippe), un « Monsieur Chine » (Raffarin), le président du Conseil constitutionnel (Fabius) et un industriel lié au P4 de Wuhan (Mérieux) — cinq niveaux de pouvoir dans une seule fondation.
+
+L'angle mort : ni Attali ni Minc n'ont de connexion documentée avec Villepin, qui opère dans un écosystème distinct (Djouhri, Veolia/Proglio, Qatar, Russie).`,
+      },
+    ],
+    noeudsLies: [
+      "jacques-attali", "alain-minc", "commission-attali", "emmanuel-macron",
+      "edouard-philippe", "alain-juppe", "jean-pierre-raffarin",
+      "gilles-boyer", "benoit-ribadeau-dumas", "emmanuel-lenain",
+      "laurent-fabius", "alain-merieux",
+    ],
+    sources: [
+      { titre: "Wikipédia — Jacques Attali", type: "presse" },
+      { titre: "Wikipédia — Commission pour la libération de la croissance", type: "presse" },
+      { titre: "Europe 1 — Attali sur Macron : « Je ne crois pas m'être trompé »", type: "presse" },
+      { titre: "Le Lanceur — Macron, le candidat des oligarques (double mentorat Attali-Minc)", type: "presse" },
+      { titre: "France 2 / Quelle époque — Attali et Minc critiquent Philippe et Macron (mars 2026)", type: "presse" },
+      { titre: "Wikipédia — Alain Minc", type: "presse" },
+      { titre: "Le JDD — Minc et le prélèvement à la source : canal Boyer–Philippe", type: "presse" },
+      { titre: "Cairn.info — Alain Minc, marchand d'affaires et d'idéologie", type: "presse" },
+      { titre: "Révolution Permanente — La FAF, usine à dirigeants capitalistes", type: "presse" },
+      { titre: "Forbes France — Conseil stratégique FCF (Attali, Philippe, Raffarin)", type: "presse" },
+      { titre: "France China Foundation — liste du Conseil stratégique", type: "officiel" },
+    ],
+  },
+  {
+    slug: "uber-files-kohler-triangle-portuaire",
+    titre: "Uber Files & Affaire Kohler — Le triangle portuaire",
+    sousTitre: "De la Commission Attali (2007) au Grand Port Maritime du Havre",
+    resume:
+      "Ce rapport approfondit deux axes : la chaîne Commission Attali → Uber Files → Macron → Philippe, et le triangle portuaire Kohler–Philippe–CMA CGM/MSC au Havre. Kohler a siégé au GPMH aux côtés de Philippe sans déclarer ses liens avec MSC.",
+    date: "2026-03-30",
+    themes: ["uber-files", "kohler", "port-du-havre", "msc", "cma-cgm", "conflits-interets", "deregulation"],
+    parties: [
+      {
+        titre: "De la Commission Attali aux Uber Files : la chaîne de dérégulation",
+        contenu: `En juillet 2007, Jacques Attali est chargé par Sarkozy de présider une commission de 42 membres. Emmanuel Macron, inspecteur des finances de 28 ans, est nommé rapporteur général adjoint. Parmi les 316 mesures : la libéralisation des VTC, qui conduit à la loi Novelli (2009).
+
+Quand Macron devient ministre de l'Économie (2014), il met en œuvre ces principes. Les Uber Files (124 000 documents internes) révèlent : 17 échanges documentés entre Uber et le cabinet de Macron, au moins 4 rencontres Macron-Kalanick, un « deal » caché (Uber renonce à UberPop, l'État réduit la formation VTC de 250h à 7h), des amendements « clé en main » rédigés par Uber, un « kill switch » désactivant les serveurs lors des perquisitions.
+
+La commission d'enquête parlementaire (2023) conclut : pas de conflit d'intérêts ni d'enrichissement personnel, mais des « relations privilégiées » et un « deal » confirmé sous serment. Les 10 députés Renaissance se sont abstenus. Les 12 députés Nupes/Liot/RN l'ont approuvé.`,
+      },
+      {
+        titre: "Alexis Kohler : le triangle portuaire",
+        contenu: `Alexis Kohler, secrétaire général de l'Élysée (2017-2025), est mis en examen en 2022 pour prise illégale d'intérêts, trafic d'influence et corruption passive pour ses conflits d'intérêts avec MSC, fondée par la famille Aponte — cousins de sa mère.
+
+De 2010 à 2012, Kohler siège au GPMH comme représentant de l'APE. Dans la même enceinte : Édouard Philippe (maire depuis octobre 2010) et Antoine Rufenacht (ancien maire, mentor de Philippe). Selon Mediapart, Kohler n'a jamais informé les autres membres de ses liens familiaux avec MSC et ne s'est pas déporté lors des votes concernant MSC. Philippe, en revanche, se déportait quand il détectait un risque de conflit d'intérêts.
+
+Le port du Havre est le nœud géostratégique : hub de CMA CGM (3e armateur mondial), client de MSC (2e armateur, famille Kohler), lié à COSCO Shipping (1er armateur chinois, jumelage avec Dalian), sous la gouvernance politique de Philippe.`,
+      },
+      {
+        titre: "CMA CGM : le nœud multifonctionnel",
+        contenu: `En 2023, Rodolphe Saadé (PDG de CMA CGM) rachète BFM TV, RMC et BFM Business à Patrick Drahi. CMA CGM devient simultanément un acteur du transport maritime mondial, un propriétaire de médias nationaux et un partenaire portuaire du maire du Havre.
+
+En 2024, CMA CGM rachète la branche Bolloré Transport & Logistics, renforçant sa position en Afrique. Yann Le Goff, responsable sécurité régionale de CMA CGM, est Young Leader FAF 2011 dans la même promotion que Philippe.
+
+Le triangle portuaire MSC–CMA CGM–Élysée constitue un nœud de conflits d'intérêts documentés. Kohler est l'« agent pivot » qui connecte l'écosystème Macron/Élysée à l'écosystème maritime mondial via le port du Havre, où Philippe exerce le pouvoir local.`,
+      },
+    ],
+    noeudsLies: [
+      "alexis-kohler", "msc-aponte", "rodolphe-saade-cma-cgm", "gpmh",
+      "uber-files", "jacques-attali", "commission-attali", "emmanuel-macron",
+      "edouard-philippe", "cma-cgm", "yann-le-goff", "antoine-rufenacht",
+    ],
+    sources: [
+      { titre: "ICIJ — Uber Files investigation (2022-2023)", type: "presse" },
+      { titre: "The Guardian — publication initiale des Uber Files (juillet 2022)", type: "presse" },
+      { titre: "Le Monde / Radio France — enquête conjointe Uber Files", type: "presse" },
+      { titre: "Assemblée nationale — rapport commission d'enquête n° 1521 (juillet 2023)", type: "officiel" },
+      { titre: "Mediapart — révélations Kohler-MSC (mai-août 2018)", type: "presse" },
+      { titre: "Anticor — plaintes successives Kohler (2018-2019)", type: "officiel" },
+      { titre: "Off-Investigation — Affaire Kohler : le scandale qui menace Macron", type: "presse" },
+      { titre: "Europe 1 — Ce que la justice reproche à Kohler (novembre 2024)", type: "presse" },
+      { titre: "Transparency International France — note Uber Files (mai 2023)", type: "officiel" },
+    ],
+  },
+  {
+    slug: "bilderberg-philippe-attal",
+    titre: "Le réseau Bilderberg — Philippe, Attal et le cénacle transatlantique",
+    sousTitre: "Henri de Castries : le pont entre Bilderberg et la France China Foundation",
+    resume:
+      "Le groupe Bilderberg réunit chaque année 120 à 140 dirigeants sous la règle de Chatham House. Henri de Castries, président du comité depuis 2012, est simultanément au CS de la FCF — pont unique entre réseau transatlantique et sino-français. Philippe y a participé quatre fois, Attal deux, Macron une. Les trois ont été promus dans les mois suivant leur première participation.",
+    date: "2026-03-30",
+    themes: ["bilderberg", "castries", "axa", "attal", "transatlantique", "fcf", "institut-montaigne"],
+    parties: [
+      {
+        titre: "Chronologie des participations Bilderberg",
+        contenu: `Philippe : quatre participations confirmées (2016, 2023, 2024, 2025). Nommé Premier ministre onze mois après sa première participation en 2016.
+
+Attal : invité à Lisbonne en 2023 (ministre des Comptes publics), nommé PM sept mois plus tard. Présent à Stockholm en 2025 comme ancien PM. En 2025, les deux anciens PM macronistes sont présents ensemble, aux côtés de Nicolas Roche (SGDSN).
+
+Macron : participe en 2014 (SG adjoint Élysée), nommé ministre de l'Économie deux mois plus tard.
+
+Le pattern « promotion post-Bilderberg » ne démontre pas une causalité, mais révèle que le comité de sélection (présidé par de Castries) identifie des personnalités à fort potentiel d'ascension avant que leur promotion ne soit publique.`,
+      },
+      {
+        titre: "Henri de Castries : le nœud unique du système",
+        contenu: `Ancien PDG d'AXA pendant 16 ans (2000-2016), de Castries cumule des positions sans équivalent : président du comité de direction du Bilderberg depuis 2012, président de l'Institut Montaigne depuis 2015, membre du Conseil stratégique de la FCF, Young Leader FAF à triple sélection (1994, 1995, 1998), condisciple de Villepin à l'ENA (promotion Voltaire, 1980).
+
+Il est le seul individu identifié qui siège simultanément au comité de direction du Bilderberg ET au Conseil stratégique de la FCF. Au sein de la FCF, il retrouve Philippe, Raffarin et Attali. Au Bilderberg, il sélectionne et accueille Philippe, Attal et avait accueilli Macron.
+
+L'écosystème AXA irrigue le Bilderberg français : de Castries (ex-PDG), Buberl (DG actuel) et Gosset-Grainville (président du CA) étaient présents ensemble en 2023. Patricia Barbizet, ex-présidente du Siècle, est le second représentant français permanent au comité directeur.`,
+      },
+      {
+        titre: "Le Bilderberg comme 7ème cercle du réseau Philippe",
+        contenu: `Notre cartographie identifiait six cercles d'influence : Juppéie, ENA Marc-Bloch, FAF, FCF, monde des affaires, Horizons. Le Bilderberg constitue un septième cercle, plus discret, caractérisé par : opacité maximale (Chatham House), sélection par le haut (de Castries sélectionne), exclusivité transatlantique (aucune personnalité russe, chinoise, indienne ou africaine invitée).
+
+L'édition 2025 (Stockholm) marque un tournant avec les sujets : relations transatlantiques, axe autoritaire, IA et sécurité nationale. Parmi les participants : le SG de l'OTAN (Rutte), le PDG de Pfizer (Bourla), Peter Thiel et Alex Karp (Palantir), Satya Nadella (Microsoft).
+
+En MAS, de Castries est un « super-facilitateur » qui ne se contente pas de connecter des agents mais sélectionne ceux exposés au réseau transatlantique. En cooptant les futurs dirigeants, il garantit que le prochain occupant de l'Élysée aura été exposé à la vision transatlantique avant d'y accéder.`,
+      },
+    ],
+    noeudsLies: [
+      "henri-de-castries", "gabriel-attal", "patricia-barbizet",
+      "institut-montaigne", "edouard-philippe", "emmanuel-macron",
+      "jacques-attali", "jean-pierre-raffarin",
+    ],
+    sources: [
+      { titre: "bilderberg-meetings.org — listes officielles des participants 2023-2025", type: "officiel" },
+      { titre: "FranceSoir — Le groupe Bilderberg, un mini-Davos très secret (2023)", type: "presse" },
+      { titre: "Regards.fr — Deux anciens PM macronistes chez Bilderberg (2025)", type: "presse" },
+      { titre: "Ifri — Bilderberg, la conférence la plus secrète du monde", type: "presse" },
+      { titre: "Parlement européen — question écrite E-001703/2023 (Virginie Joron)", type: "officiel" },
+      { titre: "Wikipédia — Henri de Castries, Institut Montaigne", type: "presse" },
+    ],
+  },
+  {
+    slug: "blackrock-reseau-philippe",
+    titre: "BlackRock & le réseau Philippe — Le gestionnaire d'actifs au cœur du système",
+    sousTitre: "De Cirelli à Kohler : la convergence des intérêts financiers et politiques",
+    resume:
+      "BlackRock (10 000 Mds $) est lié structurellement au réseau Philippe via Cirelli (ex-dircab Raffarin, promu LH par Philippe en pleine grève des retraites). En mars 2025, BlackRock et MSC (famille Kohler) s'associent pour acheter 43 ports mondiaux. Philippe propose 15 % de capitalisation retraites — le rêve de BlackRock.",
+    date: "2026-03-30",
+    themes: ["blackrock", "cirelli", "retraites", "capitalisation", "msc", "ports", "cac-40", "raffarin"],
+    parties: [
+      {
+        titre: "Jean-François Cirelli : le pont BlackRock–Raffarin–Philippe",
+        contenu: `ENA (promotion Léonard de Vinci, 1985), ancien conseiller de Chirac, directeur adjoint du cabinet de Raffarin (2002-2004), artisan de la réforme des retraites Fillon 2003 — son « plus grand sujet de fierté ». PDG de Gaz de France puis numéro 2 de GDF Suez (Engie). Président de BlackRock France depuis 2015.
+
+La chaîne est directe : conseiller de Chirac → dircab de Raffarin → PDG Gaz de France → BlackRock France → invité par Philippe au CAP 2022 → promu LH par Philippe.
+
+Philippe lance en 2018 le Comité Action Publique 2022. Cirelli y siège et recommande des « transferts au secteur privé ». Cirelli déclarait devant l'AMF vouloir « renforcer l'idée auprès des autorités publiques qu'il faut investir pour la retraite dans les marchés de capitaux ». Le patron de BlackRock conseille directement le Premier ministre.
+
+Le 31 décembre 2019, en pleine grève historique, Cirelli est élevé officier de la Légion d'honneur sur proposition de Philippe. Le 7 janvier 2020, des grévistes envahissent le siège de BlackRock.`,
+      },
+      {
+        titre: "Le deal BlackRock–MSC : le nœud portuaire mondial",
+        contenu: `En mars 2025, BlackRock et TiL (opérateur portuaire de MSC, famille Aponte, cousins de Kohler) annoncent l'acquisition de 43 ports de CK Hutchison dans 23 pays pour 22,8 milliards de dollars. BlackRock prend les deux ports stratégiques du Canal de Panama, MSC/TiL la majorité des 41 autres.
+
+COSCO Shipping (armateur chinois d'État, partenaire du port du Havre via le jumelage Dalian) exige une participation majoritaire dans le consortium, menaçant de faire capoter le deal. Ce bras de fer illustre la rivalité sino-américaine pour le contrôle des infrastructures portuaires — le même enjeu qui sous-tend le port du Havre.
+
+Connexions avec le réseau : BlackRock est actionnaire d'AXA (de Castries/Bilderberg), BNP (Lemierre/Bilderberg 2025), Total (Pouyanné/Bilderberg), SocGen (où Kohler rejoint en 2025). Le deal BlackRock-MSC connecte directement le gestionnaire d'actifs au triangle Kohler–MSC–Le Havre–Philippe.`,
+      },
+      {
+        titre: "Philippe 2027 : le programme BlackRock",
+        contenu: `En juin 2025, Philippe propose 15 % de capitalisation dans les retraites, tout en menaçant de relever l'âge de départ à 67 ans si cette option n'est pas retenue.
+
+Chronologie de la convergence : Cirelli dircab Raffarin et réforme Fillon 2003 → Cirelli président BlackRock France 2015 → Larry Fink reçu à l'Élysée juin 2017 (30 jours après investiture Macron) → ministres Philippe pitchent la France à BlackRock octobre 2017 → Cirelli invité au CAP 2022 (2018) → Cirelli promu LH décembre 2019 → réforme retraites Philippe/Macron 2019-2020 → Philippe propose 15 % capitalisation 2025.
+
+Dans le modèle MAS, BlackRock est une contrainte environnementale — un attracteur financier vers lequel gravitent les agents qui optimisent leur capital relationnel. La convergence Philippe-BlackRock est le produit d'un alignement structurel entre un candidat réformateur et un gestionnaire qui a besoin de la capitalisation.`,
+      },
+    ],
+    noeudsLies: [
+      "blackrock", "jean-francois-cirelli", "jean-pierre-raffarin",
+      "edouard-philippe", "alexis-kohler", "msc-aponte",
+      "henri-de-castries", "gpmh",
+    ],
+    sources: [
+      { titre: "FranceSoir — La dangereuse collusion entre Philippe et BlackRock (juin 2025)", type: "presse" },
+      { titre: "Basta! — BlackRock et les retraites : pourquoi et comment", type: "presse" },
+      { titre: "Élucid — BlackRock en France : les dangers d'une intoxication institutionnelle (2023)", type: "presse" },
+      { titre: "Novethic — La promotion du patron français de BlackRock passe mal (2020)", type: "presse" },
+      { titre: "Arte — reportage BlackRock et les retraites (septembre 2019)", type: "presse" },
+      { titre: "The Maritime Executive — Hutchison Sells Panama and Other Ports (mars 2025)", type: "presse" },
+      { titre: "Wikipédia — BlackRock, Jean-François Cirelli", type: "presse" },
+    ],
+  },
+  {
+    slug: "coalition-philippe-2027",
+    titre: "La Coalition Philippe 2027 — 90 signataires, un réseau, une candidature",
+    sousTitre: "Analyse de la tribune « Pour la France, construisons l'union ! » — La Tribune dimanche, 29 mars 2026",
+    resume:
+      "90 personnalités de quatre familles politiques (Renaissance, LR, Horizons, MoDem) publient un appel à une candidature unique pour 2027. Marc Ferracci (témoin de Macron, fils d'un membre de la Commission Attali) signe la tribune, bouclant la chaîne Attali → Macron → Philippe. Philippe Tabarot (ministre des Transports, supervise les ports) renforce le triangle portuaire.",
+    date: "2026-03-30",
+    themes: ["coalition-2027", "tribune", "ferracci", "tabarot", "bregeon", "transports", "attali", "primaire"],
+    parties: [
+      {
+        titre: "La tribune : anatomie d'un ralliement",
+        contenu: `La tribune paraît le 29 mars 2026, un jour après l'installation de Philippe comme maire du Havre pour son troisième mandat. Le timing accompagne la transition municipales → présidentielle. Le grand meeting présidentiel est prévu le 12 avril à Paris.
+
+Les signataires écrivent : « Nous appelons à un sursaut d'unité, pour créer les conditions d'un large rassemblement autour d'un projet et d'une candidature unique en 2027 ». Officiellement, aucun candidat n'est désigné. Officieusement, Maud Bregeon déclare sur LCI que Philippe « a pris une sérieuse option, étant potentiellement le mieux placé pour mener ce combat ».
+
+Parmi les signataires : des ministres en exercice (Bregeon, Jeanbrun, Tabarot, Rist, Moutchou), des députés et anciens ministres (Ferracci, Travert, Panosyan-Bouvet), et des sénateurs (Buffet) issus de quatre familles politiques.`,
+      },
+      {
+        titre: "Marc Ferracci : le bouclage de la chaîne Attali",
+        contenu: `Marc Ferracci rencontre Macron à 22 ans à Sciences Po. Témoin de mariage de Macron, et Macron est le sien. Son père Pierre Ferracci (Groupe Alpha) a siégé à la Commission Attali en 2007 — la même commission où Macron était rapporteur. Pierre Ferracci a déclaré que le libéralisme de Macron est « un peu le produit de la commission Attali ».
+
+La chaîne se boucle : Attali → Pierre Ferracci (commission 2007) → Marc Ferracci (ami intime de Macron) → Macron → Philippe (PM 2017, suggestion d'Attali) → coalition 2027 (tribune du 29 mars). L'écosystème Attali-Macron ne disparaît pas avec la fin du mandat Macron. Il se transfère vers Philippe via ses agents les plus intimes.
+
+En 2023, Blast révèle que Ferracci détient un tiers des parts du Groupe Alpha, dont la filiale Secafi bénéficierait de la réorganisation de Pôle emploi qu'il co-rapporte. Ce schéma de conflit d'intérêts familial rappelle l'affaire Kohler/MSC.`,
+      },
+      {
+        titre: "Le triangle Transports-Ports-Philippe renforcé",
+        contenu: `Philippe Tabarot, ministre des Transports et co-signataire, supervise les ports maritimes français dont le GPMH — nœud Philippe/Kohler/MSC/CMA CGM. Deux précédents sur ce poste : Djebbari (YL FCF 2020, interdit par la HATVP de rejoindre CMA CGM) et Beaune (Bilderberg 2023).
+
+Tabarot est visé par une enquête PNF pour détournement de fonds publics et prise illégale d'intérêts. Ce pattern d'investigations PNF se retrouve chez Philippe (métropole du Havre, 2024) et Kohler (MSC, 2022) — trois nœuds du réseau sous surveillance judiciaire.
+
+Cette tribune constitue un 8ème cercle du réseau Philippe : la coalition gouvernementale transpartisane. Elle se distingue des précédents cercles par sa nature explicitement politique et sa composition multipartite. C'est le passage de l'émergence à la coalescence — les agents qui optimisaient individuellement leur capital relationnel se coordonnent explicitement autour de la candidature Philippe.`,
+      },
+    ],
+    noeudsLies: [
+      "marc-ferracci", "philippe-tabarot", "maud-bregeon",
+      "edouard-philippe", "jacques-attali", "commission-attali",
+      "emmanuel-macron", "gpmh", "alexis-kohler",
+    ],
+    sources: [
+      { titre: "La Tribune dimanche — tribune « Pour la France, construisons l'union ! » (29 mars 2026)", type: "presse" },
+      { titre: "France Info — 90 personnalités appellent à une candidature unique (29 mars 2026)", type: "presse" },
+      { titre: "LCI — Maud Bregeon : Philippe « mieux placé pour mener ce combat »", type: "presse" },
+      { titre: "Blast — conflit d'intérêts Secafi/Alpha/France Travail (2023)", type: "presse" },
+      { titre: "Wikipédia — Marc Ferracci, Philippe Tabarot", type: "presse" },
+      { titre: "France 3 PACA — « Ce sont des traîtres » : réactions LR (octobre 2025)", type: "presse" },
+    ],
+  },
 ];
 
 export const stats = {
@@ -1265,4 +1731,5 @@ export const stats = {
   articles: timeline.length,
   connexions: reseau.length,
   sources: controverses.reduce((acc, c) => acc + c.sources.length, 0),
+  investigations: investigations.length,
 };

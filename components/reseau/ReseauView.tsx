@@ -74,6 +74,34 @@ const SOUS_RESEAUX: {
     description:
       "Véhicule présidentiel 2027 fondé en 2021.",
   },
+  {
+    id: "facilitateurs",
+    label: "Facilitateurs",
+    color: "text-yellow-400",
+    description:
+      "Agents facilitateurs transpartisans : Attali, Minc, Commission Attali. Connectent les centroïdes entre eux sans être eux-mêmes des centroïdes.",
+  },
+  {
+    id: "portuaire",
+    label: "Réseau portuaire",
+    color: "text-neon-green",
+    description:
+      "Triangle portuaire Le Havre : Kohler (MSC/Élysée), CMA CGM (Saadé/BFM), GPMH. Convergence du pouvoir politique, financier, médiatique et géostratégique.",
+  },
+  {
+    id: "bilderberg",
+    label: "Bilderberg",
+    color: "text-foreground",
+    description:
+      "Le 7ème cercle : groupe Bilderberg (120-140 dirigeants, Chatham House). De Castries préside et sélectionne. Philippe (4 éditions), Attal (2), Macron (1). Promotions post-Bilderberg récurrentes.",
+  },
+  {
+    id: "coalition-2027",
+    label: "Coalition 2027",
+    color: "text-cyan",
+    description:
+      "Tribune « Pour la France, construisons l'union ! » (29 mars 2026) — 90 signataires de 4 familles politiques convergent vers la candidature Philippe. Le 8ème cercle.",
+  },
 ];
 
 export default function ReseauView({ personnes }: Props) {
