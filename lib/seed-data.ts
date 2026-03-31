@@ -1441,6 +1441,28 @@ export const reseau: PersonneReseau[] = [
     sousReseaux: ["coalition-2027"],
     rattachement: "philippe",
   },
+  // === RAPPORT BILAN FISCAL/SOCIAL + CONTROVERSES MANDAT ===
+  {
+    nom: "Jean-Paul Delevoye",
+    slug: "jean-paul-delevoye",
+    role: "Haut-commissaire aux retraites — a rencontré BlackRock — démission pour activités non déclarées",
+    description:
+      "Haut-commissaire aux retraites sous le gouvernement Philippe, chargé du système universel à points. A rencontré BlackRock dès mars 2018, soit trois mois après sa nomination. Démissionne le 16 décembre 2019 pour 13 mandats non déclarés à la HATVP. La réforme qu'il préparait est soupçonnée de préparer la capitalisation au profit de BlackRock. Le recours au 49.3 en février 2020, puis la pandémie, gèlent la réforme indéfiniment.",
+    typeLien: "politique",
+    sousReseaux: ["matignon", "entreprises"],
+    rattachement: "philippe",
+  },
+  // === RAPPORT SONDAGES & MÉDIAS ===
+  {
+    nom: "Elabe / BFMTV",
+    slug: "elabe-bfmtv",
+    role: "Sondage du 28 mars 2026 — Philippe « seul capable de battre le RN » — commandité par CMA CGM/BFM",
+    description:
+      "Sondage Elabe pour BFMTV (propriété de CMA CGM/Saadé) du 28 mars 2026 donnant Philippe à 20,5-25,5 % au 1er tour. L'agrégation bayésienne indépendante de moipresident.online le donne à 17 %, soit 3,5 à 8,5 points de moins. Le score de 51,5 % face à Bardella au 2nd tour est dans la marge d'erreur. Le commanditaire (BFMTV/CMA CGM) partage un intérêt avec le candidat (port du Havre).",
+    typeLien: "mediatique",
+    sousReseaux: ["portuaire", "coalition-2027"],
+    rattachement: "philippe",
+  },
 ];
 
 export type Investigation = {
@@ -1722,6 +1744,154 @@ Cette tribune constitue un 8ème cercle du réseau Philippe : la coalition gouve
       { titre: "Blast — conflit d'intérêts Secafi/Alpha/France Travail (2023)", type: "presse" },
       { titre: "Wikipédia — Marc Ferracci, Philippe Tabarot", type: "presse" },
       { titre: "France 3 PACA — « Ce sont des traîtres » : réactions LR (octobre 2025)", type: "presse" },
+    ],
+  },
+  {
+    slug: "bilan-fiscal-social-philippe",
+    titre: "Bilan fiscal, social et sanitaire — Les dossiers manquants du mandat Philippe",
+    sousTitre: "CSG, ISF/IFI, flat tax, ordonnances travail, assurance chômage, obligation vaccinale",
+    resume:
+      "Huit dossiers supplémentaires du mandat Philippe (2017-2020) : la réforme fiscale du capital (ISF→IFI, flat tax, CSG), la réforme du marché du travail (ordonnances, assurance chômage) et les dossiers sanitaires. Le bilan dessine une orientation cohérente : alléger la fiscalité du capital tout en alourdissant les prélèvements sur le travail et les retraités — exactement aligné avec les intérêts de BlackRock.",
+    date: "2026-03-31",
+    themes: ["isf", "ifi", "flat-tax", "csg", "ordonnances-travail", "chomage", "blackrock", "ferracci", "retraites"],
+    parties: [
+      {
+        titre: "La réforme fiscale du capital : ISF, flat tax, CSG",
+        contenu: `Au 1er janvier 2018, trois réformes simultanées transforment la fiscalité française :
+
+CSG +1,7 point : 22,5 milliards de recettes. Les salariés du privé sont légèrement gagnants (suppression cotisations), mais les retraités perdent 3,5 milliards. Selon l'IFRAP, l'État gagne 1,32 milliard net — un impôt déguisé. Déclencheur direct de la colère des Gilets jaunes.
+
+ISF → IFI : seuls les biens immobiliers taxés, actifs financiers exonérés. Contribuables : 358 000 (ISF) → 133 000 (IFI). Coût : 4,5 Mds/an. France Stratégie (2023) conclut : aucun effet significatif sur l'investissement. Connexion BlackRock : en exonérant les actifs financiers, la réforme rend les ETF BlackRock plus attractifs que l'immobilier.
+
+Flat tax (PFU 30 %) : taux unique remplaçant le barème progressif pour les revenus du capital. Les dividendes explosent (+60 % entre 2017 et 2019) mais se concentrent sur les 0,1 % les plus riches. Le sénateur Éblé : « 4,5 Mds/an pour 50 000 emplois = 90 000 € par emploi ! »`,
+      },
+      {
+        titre: "Ordonnances travail et assurance chômage : la chaîne Attali-Ferracci",
+        contenu: `Le 31 août 2017, Philippe et Pénicaud présentent 5 ordonnances réformant le Code du travail : plafonnement des indemnités prud'homales (« barème Macron »), rupture conventionnelle collective, fusion des instances en CSE, primauté de l'accord d'entreprise.
+
+Connexion réseau : les ordonnances s'inscrivent dans la chaîne Commission Attali (2007) → Macron ministre (deal Uber) → ordonnances Philippe (2017). Marc Ferracci, théoricien de la « flexisécurité », est le cerveau de la réforme. Il est témoin de mariage de Macron ET fils de Pierre Ferracci (Commission Attali). Ferracci signe la tribune des 90 pour Philippe en mars 2026.
+
+L'été 2019, la réforme de l'assurance chômage réduit les allocations pour les travailleurs précaires. L'Unédic estime que 1,15 million d'allocataires verront leurs droits réduits. La réforme est inspirée par Ferracci.
+
+En MAS, le bilan Philippe n'est pas une série de décisions isolées — c'est la fonction d'utilité révélée d'un centroïde optimisant dans l'espace d'états défini par BlackRock (capitalisation), CMA CGM (dérégulation portuaire) et le réseau Attali-Ferracci (flexisécurité).`,
+      },
+      {
+        titre: "Dossiers sanitaires et correctif factuel",
+        contenu: `Point de rigueur : l'obligation vaccinale des soignants (loi du 5 août 2021) a été votée sous Castex, pas Philippe (parti le 3 juillet 2020). L'infographie virale la lui attribue à tort. Philippe est responsable de la gestion initiale du Covid : confinement (17 mars 2020), décret Rivotril (28 mars 2020), « masques inutiles » (13 mars 2020, TF1).
+
+Environ 15 000 soignants ont été suspendus, dont 4 000 encore suspendus en mai 2022. L'obligation a été suspendue le 13 mai 2023 après recommandation de la HAS.
+
+Les impôts de production (3,5 % du PIB, champion européen) n'ont PAS été réduits sous Philippe malgré les recommandations de BlackRock, du MEDEF et de la Commission européenne. Philippe a préféré ISF/flat tax — des mesures qui bénéficient aux actionnaires plutôt qu'aux entreprises productrices. La baisse n'interviendra que sous Castex et Attal.`,
+      },
+    ],
+    noeudsLies: [
+      "edouard-philippe", "blackrock", "jean-francois-cirelli",
+      "marc-ferracci", "commission-attali", "jacques-attali",
+      "jean-paul-delevoye", "emmanuel-macron",
+    ],
+    sources: [
+      { titre: "France Stratégie — Comité d'évaluation réformes fiscalité du capital (octobre 2023)", type: "officiel" },
+      { titre: "Sénat — ISF → IFI et PFU : un premier bilan (rapport Éblé-Montgolfier, octobre 2019)", type: "officiel" },
+      { titre: "Vie-publique.fr — Suppression de l'ISF, IFI, flat tax : quel bilan ?", type: "officiel" },
+      { titre: "IFRAP — Ce que l'ISF a fait perdre à la France", type: "presse" },
+      { titre: "Vision Libérale — Philippe a ajouté 406 milliards à la dette (mars 2026)", type: "presse" },
+      { titre: "JDN — Loi Travail : les principales mesures des ordonnances", type: "presse" },
+      { titre: "Légifrance — Décret n° 2023-368 (suspension obligation vaccinale)", type: "officiel" },
+    ],
+  },
+  {
+    slug: "controverses-mandat-philippe",
+    titre: "Les controverses du mandat Philippe — Huit dossiers, un bilan contesté",
+    sousTitre: "LBD, Rivotril, Fessenheim, 80 km/h, retraites, NDDL, taxe carbone, chômage",
+    resume:
+      "Le mandat Philippe (2017-2020) est marqué par huit dossiers controversés : répression des Gilets jaunes (2 500 blessés, 24 éborgnés), décret Rivotril, fermeture de Fessenheim (5 Mds de coût), 80 km/h, réforme des retraites inachevée, NDDL, taxe carbone (déclencheur Gilets jaunes) et 406,6 milliards de dette ajoutée.",
+    date: "2026-03-31",
+    themes: ["gilets-jaunes", "rivotril", "fessenheim", "80kmh", "retraites", "nddl", "taxe-carbone", "dette"],
+    parties: [
+      {
+        titre: "Répression des Gilets jaunes et décret Rivotril",
+        contenu: `De novembre 2018 à mi-2019, le mouvement des Gilets jaunes constitue la pire crise sociale depuis Mai 68. Selon Amnesty International : 2 500 blessés, 24 éborgnés, 5 mains arrachées. La France est le seul pays de l'UE à utiliser les LBD 40 et les grenades GLI-F4 (25 g de TNT) en maintien de l'ordre. L'ONU, le Conseil de l'Europe et Amnesty International condamnent une répression disproportionnée. 89 000 agents mobilisés, véhicules blindés en métropole.
+
+Le 28 mars 2020, le décret Rivotril autorise la dispensation d'un dépresseur respiratoire pour patients Covid en fin de vie. Des soignants témoignent sur France 2 : « On nous demande de faire une euthanasie passive. » La SFGG dément : c'est un soin palliatif. Le décret pallie une pénurie de midazolam.
+
+Parallèlement, les ARS établissent des fiches excluant les résidents d'EHPAD de l'hospitalisation en réanimation. Philippe affirme devant la commission d'enquête qu'il n'y avait pas d'instruction d'interdiction, contredisant les fiches ARS documentées.`,
+      },
+      {
+        titre: "Fessenheim, NDDL et taxe carbone",
+        contenu: `Fessenheim : le gouvernement ferme la doyenne des centrales nucléaires (décret du 18 février 2020). Aucune justification technique — c'est l'exécution d'une promesse Hollande aux écologistes. Coût estimé : 5 milliards d'euros. En pleine crise énergétique 2022, les 10 TWh manquants auraient représenté 3 à 6 milliards sur le marché. La mission parlementaire conclut à un « fiasco ».
+
+NDDL : le 17 janvier 2018, Philippe abandonne le projet d'aéroport. Le 9 avril, 2 500 gendarmes expulsent les zadistes. Un étudiant a la main arrachée en ramassant une grenade. La droite accuse Philippe d'avoir « capitulé ».
+
+Taxe carbone : la composante carbone de la TICPE passe de 7 €/t (2014) à 44,60 €/t (2018). Le 17 novembre 2018, 280 000 Gilets jaunes se lèvent. Le 4 décembre, Philippe annonce un moratoire ; l'Élysée le désavoue le lendemain. Résultat : zéro recette, une crise historique, et une prime d'activité d'urgence de 9,5 Mds/an.`,
+      },
+      {
+        titre: "Retraites inachevées et bilan économique : 406 milliards de dette",
+        contenu: `Le 11 décembre 2019, Philippe présente le système universel à points. Trois mois de grèves s'ensuivent. Delevoye démissionne pour activités non déclarées (il avait rencontré BlackRock en mars 2018). Philippe utilise le 49.3 en février 2020, puis la pandémie gèle la réforme.
+
+Bilan économique : le chômage baisse (9,4 % → 7,1 % entre 2017 et 2019) mais la dette explose de 406,6 milliards en trois ans (98,4 % → 115,7 % du PIB). Les réformes structurelles sont inachevées (retraites, assurance chômage). Le sénateur Dallier (LR) : « La situation de la France est moins bonne au moment où il part que quand il arrive. »
+
+Public Sénat titre : « Un homme d'État mais des réformes inachevées. » Euractiv résume un mandat « marqué par les crises ». La dette ajoutée en trois ans dépasse celle des huit années Hollande.`,
+      },
+    ],
+    noeudsLies: [
+      "edouard-philippe", "jean-paul-delevoye", "blackrock",
+      "jean-francois-cirelli", "emmanuel-macron",
+    ],
+    sources: [
+      { titre: "Amnesty International — Gilets jaunes : un bilan inquiétant (novembre 2019)", type: "officiel" },
+      { titre: "France Info / Pièces à conviction — EHPAD et Rivotril (novembre 2020)", type: "presse" },
+      { titre: "Légifrance — Décret n° 2020-360 (Rivotril) et n° 2020-129 (Fessenheim)", type: "officiel" },
+      { titre: "Assemblée nationale — Mission d'information Fessenheim", type: "officiel" },
+      { titre: "Public Sénat — Un homme d'État mais des réformes inachevées (juillet 2020)", type: "presse" },
+      { titre: "Euractiv — Philippe quitte Matignon après un mandat marqué par les crises", type: "presse" },
+      { titre: "Vision Libérale — Philippe a ajouté 406 milliards à la dette (mars 2026)", type: "presse" },
+    ],
+  },
+  {
+    slug: "sondages-medias-philippe",
+    titre: "Sondages & médias complaisants — La fabrique du candidat providentiel",
+    sousTitre: "Elabe/BFMTV vs moipresident.online vs Ipsos-BVA vs Odoxa",
+    resume:
+      "Le sondage Elabe/BFMTV du 28 mars 2026 donne à Philippe 3,5 à 8,5 points de plus que l'agrégation bayésienne indépendante. BFMTV appartient à CMA CGM (Saadé), dont le hub est Le Havre. La synchronisation sondage + tribune 90 signataires + meeting constitue une opération de communication intégrée. Le baromètre Ipsos-BVA donne Philippe dernier du bloc central (20 %).",
+    date: "2026-03-31",
+    themes: ["sondages", "bfmtv", "cma-cgm", "elabe", "medias", "propagande", "moipresident"],
+    parties: [
+      {
+        titre: "Le sondage Elabe/BFMTV : un candidat surévalué",
+        contenu: `Sondage Elabe du 25-27 mars 2026 (1 504 personnes) : Philippe à 20,5-25,5 % au premier tour selon les configurations. Philippe 51,5 % vs Bardella 48,5 % au second tour.
+
+Point critique : le score de 51,5 % est DANS la marge d'erreur (3,1 points). Ce résultat n'est pas statistiquement significatif. Le meilleur score (25,5 %) repose sur une configuration irréaliste : gauche éparpillée ET absence de tout candidat LR. Or Retailleau est déclaré et affirme qu'« un candidat macroniste ne pourra pas être élu ».
+
+L'agrégation bayésienne de moipresident.online donne Philippe à 17 % au 16 mars — soit 3,5 à 8,5 points de moins. Seul Philippe bénéficie de cet écart ; Bardella et Glucksmann sont cohérents entre les sources.`,
+      },
+      {
+        titre: "Ipsos-BVA et Odoxa : la réalité des données",
+        contenu: `Le baromètre Ipsos-BVA/CESI de mars 2026 donne la satisfaction en cas d'accession à la présidence : Bardella 35 %, Le Pen 33 %, Marion Maréchal 24 %, Darmanin 22 %, Attal 21 %, Philippe 20 %. Philippe est dernier du bloc central, à 15 points de Bardella. Ce baromètre contredit frontalement le récit du « seul capable de battre le RN ».
+
+Le baromètre Odoxa de décembre 2025 montrait Philippe sous la barre des 30 % d'opinions favorables (29 %, point le plus bas depuis sa candidature). Avant les municipales, un sondage le donnait battu au Havre par le communiste Lecoq.
+
+Luc Ferry qualifie Philippe de « pire Premier ministre de la Ve République » et ne croit pas aux sondages. Le contraste entre la promotion médiatique et les indicateurs réels est saisissant.`,
+      },
+      {
+        titre: "BFMTV/CMA CGM : le conflit d'intérêts médiatique",
+        contenu: `BFMTV, commanditaire du sondage, appartient depuis 2023 à CMA Média (filiale CMA CGM, Rodolphe Saadé). CMA CGM est le 3e armateur mondial, dont le hub principal est Le Havre — fief de Philippe. Le média qui commande le sondage et le candidat qu'il promeut partagent un intérêt commun.
+
+La triple offensive du 28-29 mars : sondage Elabe/BFMTV (28 mars) + tribune 90 signataires dans La Tribune dimanche (29 mars) + annonce meeting Horizons (12 avril). Le sondage légitime la tribune, la tribune légitime le meeting, le meeting lance la campagne. Boulevard Voltaire : « La Macronie poursuit la mise en orbite d'Édouard Philippe. »
+
+En MAS, les sondages ne sont pas des mesures neutres — ce sont des signaux qui influencent le comportement des agents. Un sondage commandé par un média du réseau crée une boucle de rétroaction positive : la prophétie auto-réalisatrice du système médiatico-politique.`,
+      },
+    ],
+    noeudsLies: [
+      "edouard-philippe", "rodolphe-saade-cma-cgm", "cma-cgm",
+      "elabe-bfmtv", "gabriel-attal", "maud-bregeon",
+    ],
+    sources: [
+      { titre: "Elabe — Sondage pour BFMTV et La Tribune dimanche (25-27 mars 2026)", type: "presse" },
+      { titre: "moipresident.online — agrégation bayésienne des sondages (16 mars 2026)", type: "presse" },
+      { titre: "Ipsos-BVA/CESI — Baromètre politique mars 2026", type: "presse" },
+      { titre: "Odoxa-Mascaret — Baromètre de popularité décembre 2025 pour Public Sénat", type: "presse" },
+      { titre: "Boulevard Voltaire — Sondage, tribune, meeting : la promotion de Philippe (30 mars 2026)", type: "presse" },
+      { titre: "Planet.fr — Cote de popularité en net recul (décembre 2025)", type: "presse" },
     ],
   },
 ];
