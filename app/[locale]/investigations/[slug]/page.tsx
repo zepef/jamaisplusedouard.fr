@@ -6,6 +6,10 @@ import { investigations, reseau } from "@/lib/seed-data";
 import { getInvestigationTranslation } from "@/lib/investigations-translations";
 import { routing } from "@/i18n/routing";
 
+// Force static generation for all locale+slug combinations
+export const dynamicParams = false;
+export const revalidate = false; // Static generation, no ISR
+
 const sourceTypeStyles: Record<string, string> = {
   presse: "tag-actualite",
   officiel: "text-neon-green border-neon-green/30 bg-neon-green/8",
