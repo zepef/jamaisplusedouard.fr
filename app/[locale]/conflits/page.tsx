@@ -1,7 +1,8 @@
 import Link from "next/link";
 import GlassCard from "@/components/ui/GlassCard";
-import { chainesConflits } from "@/lib/conflits-data";
+import { chainesConflits, type ChaineConflit } from "@/lib/conflits-data";
 import { getTranslations } from "next-intl/server";
+import { getLocalizedConflits } from "@/lib/get-localized-data";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -15,7 +16,12 @@ const graviteColors = {
   moyenne: "text-muted border-glass-border bg-glass",
 };
 
-export default async function ConflitsPage() {
+export default async function ConflitsPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
   const t = await getTranslations("conflits");
   const tc = await getTranslations("common");
   const graviteLabels: Record<string, string> = {
@@ -24,9 +30,10 @@ export default async function ConflitsPage() {
     moyenne: tc("moyenne"),
   };
   const consequence = t("consequence");
+  const localizedConflits = getLocalizedConflits(locale);
 
-  const critiques = chainesConflits.filter((c) => c.gravite === "critique");
-  const autres = chainesConflits.filter((c) => c.gravite !== "critique");
+  const critiques = localizedConflits.filter((c) => c.gravite === "critique");
+  const autres = localizedConflits.filter((c) => c.gravite !== "critique");
 
   return (
     <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
@@ -72,7 +79,7 @@ function ChaineCard({
   graviteLabels,
   consequence,
 }: {
-  chaine: (typeof chainesConflits)[0];
+  chaine: ChaineConflit;
   graviteLabels: Record<string, string>;
   consequence: string;
 }) {

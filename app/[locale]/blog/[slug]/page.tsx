@@ -5,6 +5,7 @@ import CommentSection from "@/components/blog/CommentSection";
 import { blogPosts } from "@/lib/blog-data";
 import { routing } from "@/i18n/routing";
 import { getTranslations } from "next-intl/server";
+import { getLocalizedBlogPost } from "@/lib/get-localized-data";
 
 export function generateStaticParams() {
   return blogPosts.flatMap((p) =>
@@ -18,10 +19,10 @@ export function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }) {
-  const { slug } = await params;
-  const post = blogPosts.find((p) => p.slug === slug);
+  const { locale, slug } = await params;
+  const post = getLocalizedBlogPost(locale, slug);
   return {
     title: post?.titre || "Blog",
     description: post?.resume,
@@ -31,10 +32,10 @@ export async function generateMetadata({
 export default async function BlogPostPage({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }) {
-  const { slug } = await params;
-  const post = blogPosts.find((p) => p.slug === slug);
+  const { locale, slug } = await params;
+  const post = getLocalizedBlogPost(locale, slug);
   const tc = await getTranslations("common");
 
   if (!post) notFound();

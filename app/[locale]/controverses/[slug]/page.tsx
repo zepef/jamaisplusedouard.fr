@@ -4,6 +4,7 @@ import GlassCard from "@/components/ui/GlassCard";
 import { controverses } from "@/lib/seed-data";
 import { routing } from "@/i18n/routing";
 import { getTranslations } from "next-intl/server";
+import { getLocalizedControverse } from "@/lib/get-localized-data";
 
 const graviteColors = {
   haute: "text-neon-red border-neon-red/30 bg-neon-red/8",
@@ -30,10 +31,10 @@ export function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }) {
-  const { slug } = await params;
-  const item = controverses.find((c) => c.slug === slug);
+  const { locale, slug } = await params;
+  const item = getLocalizedControverse(locale, slug);
   return {
     title: item?.titre || "Controverse",
     description: item?.resume,
@@ -43,10 +44,10 @@ export async function generateMetadata({
 export default async function ControverseDetailPage({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }) {
-  const { slug } = await params;
-  const item = controverses.find((c) => c.slug === slug);
+  const { locale, slug } = await params;
+  const item = getLocalizedControverse(locale, slug);
   const tc = await getTranslations("common");
 
   if (!item) notFound();

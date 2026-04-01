@@ -1,7 +1,7 @@
 import Link from "next/link";
 import GlassCard from "@/components/ui/GlassCard";
-import { blogPosts } from "@/lib/blog-data";
 import { getTranslations } from "next-intl/server";
+import { getLocalizedBlogPosts } from "@/lib/get-localized-data";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -9,8 +9,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return { title: t("title"), description: t("description") };
 }
 
-export default async function BlogPage() {
+export default async function BlogPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
   const t = await getTranslations("blog");
+  const localizedBlogPosts = getLocalizedBlogPosts(locale);
 
   return (
     <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
@@ -22,7 +28,7 @@ export default async function BlogPage() {
       </p>
 
       <div className="space-y-6">
-        {blogPosts.map((post) => (
+        {localizedBlogPosts.map((post) => (
           <Link key={post.slug} href={`/blog/${post.slug}`}>
             <GlassCard className="group cursor-pointer">
               <div className="flex items-start justify-between gap-4">

@@ -2,6 +2,7 @@ import Link from "next/link";
 import GlassCard from "@/components/ui/GlassCard";
 import { controverses } from "@/lib/seed-data";
 import { getTranslations } from "next-intl/server";
+import { getLocalizedControverses } from "@/lib/get-localized-data";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -15,12 +16,17 @@ const graviteColors = {
   basse: "text-muted border-glass-border bg-glass",
 };
 
-// Extract unique themes
+// Extract unique themes from source (language-independent slugs)
 const allThemes = [
   ...new Set(controverses.flatMap((c) => c.themes)),
 ].sort();
 
-export default async function ControversesPage() {
+export default async function ControversesPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
   const t = await getTranslations("pages.controverses");
   const tc = await getTranslations("common");
   const graviteLabels: Record<string, string> = {
@@ -28,6 +34,7 @@ export default async function ControversesPage() {
     moyenne: tc("moyenne"),
     basse: tc("basse"),
   };
+  const localizedControverses = getLocalizedControverses(locale);
 
   return (
     <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12">
@@ -52,7 +59,7 @@ export default async function ControversesPage() {
 
       {/* Controverses list */}
       <div className="space-y-4">
-        {controverses.map((item) => (
+        {localizedControverses.map((item) => (
           <Link key={item.slug} href={`/controverses/${item.slug}`}>
             <GlassCard glow="red" className="group cursor-pointer">
               <div className="flex items-start justify-between gap-4">

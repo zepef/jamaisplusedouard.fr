@@ -1,23 +1,12 @@
 import GlassCard from "@/components/ui/GlassCard";
-import { timeline, ficheSynthetique } from "@/lib/seed-data";
 import { getTranslations } from "next-intl/server";
+import { getLocalizedTimeline, getLocalizedFiche } from "@/lib/get-localized-data";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "pages.biographie" });
   return { title: t("title"), description: t("description") };
 }
-
-// Group by section
-const sections = timeline.reduce(
-  (acc, event) => {
-    const section = event.section || "Autre";
-    if (!acc[section]) acc[section] = [];
-    acc[section].push(event);
-    return acc;
-  },
-  {} as Record<string, typeof timeline>
-);
 
 const sectionOrder = [
   "Origines",
@@ -33,8 +22,27 @@ const sectionOrder = [
   "Réseau",
 ];
 
-export default async function BiographiePage() {
+export default async function BiographiePage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
   const t = await getTranslations("pages.biographie");
+
+  const fiche = getLocalizedFiche(locale);
+  const localizedTimeline = getLocalizedTimeline(locale);
+
+  // Group by section (using French section names as data keys)
+  const sections = localizedTimeline.reduce(
+    (acc, event) => {
+      const section = event.section || "Autre";
+      if (!acc[section]) acc[section] = [];
+      acc[section].push(event);
+      return acc;
+    },
+    {} as Record<string, typeof localizedTimeline>
+  );
 
   // Map French section names (used as data keys) to translated display labels
   const sectionDisplayNames: Record<string, string> = {
@@ -52,14 +60,14 @@ export default async function BiographiePage() {
   };
 
   const ficheEntries: [string, string][] = [
-    [t("labels.nomComplet"), ficheSynthetique.nomComplet],
-    [t("labels.naissance"), `${ficheSynthetique.dateNaissance} (${ficheSynthetique.age} ans) — ${ficheSynthetique.lieuNaissance}`],
-    [t("labels.parti"), ficheSynthetique.parti],
-    [t("labels.fonctionActuelle"), ficheSynthetique.fonctionActuelle],
-    [t("labels.premierMinistre"), ficheSynthetique.premierMinistre],
-    [t("labels.formation"), ficheSynthetique.formation],
-    [t("labels.famille"), `${ficheSynthetique.conjoint} · ${ficheSynthetique.enfants}`],
-    [t("labels.candidature2027"), ficheSynthetique.candidature2027],
+    [t("labels.nomComplet"), fiche.nomComplet],
+    [t("labels.naissance"), `${fiche.dateNaissance} (${fiche.age} ans) — ${fiche.lieuNaissance}`],
+    [t("labels.parti"), fiche.parti],
+    [t("labels.fonctionActuelle"), fiche.fonctionActuelle],
+    [t("labels.premierMinistre"), fiche.premierMinistre],
+    [t("labels.formation"), fiche.formation],
+    [t("labels.famille"), `${fiche.conjoint} · ${fiche.enfants}`],
+    [t("labels.candidature2027"), fiche.candidature2027],
   ];
 
   return (

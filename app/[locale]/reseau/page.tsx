@@ -2,6 +2,7 @@ import ReseauView from "@/components/reseau/ReseauView";
 import GlassCard from "@/components/ui/GlassCard";
 import { reseau } from "@/lib/seed-data";
 import { getTranslations } from "next-intl/server";
+import { getLocalizedReseau } from "@/lib/get-localized-data";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -9,8 +10,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return { title: t("title"), description: t("description") };
 }
 
-export default async function ReseauPage() {
+export default async function ReseauPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
   const t = await getTranslations("pages.reseau");
+  const localizedReseau = getLocalizedReseau(locale);
 
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
@@ -79,7 +86,7 @@ export default async function ReseauPage() {
         </p>
       </GlassCard>
 
-      <ReseauView personnes={reseau} />
+      <ReseauView personnes={localizedReseau} />
     </div>
   );
 }

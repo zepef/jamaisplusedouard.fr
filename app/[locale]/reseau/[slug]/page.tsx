@@ -5,6 +5,7 @@ import { reseau } from "@/lib/seed-data";
 import type { Centroide } from "@/lib/seed-data";
 import { routing } from "@/i18n/routing";
 import { getTranslations } from "next-intl/server";
+import { getLocalizedPersonne, getLocalizedReseau } from "@/lib/get-localized-data";
 
 const typeColors: Record<string, string> = {
   politique: "text-cyan border-cyan/30 bg-cyan/8",
@@ -47,10 +48,10 @@ export function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }) {
-  const { slug } = await params;
-  const personne = reseau.find((p) => p.slug === slug);
+  const { locale, slug } = await params;
+  const personne = getLocalizedPersonne(locale, slug);
   return {
     title: personne
       ? `${personne.nom} — Réseau | jamaisplusedouard.fr`
@@ -62,10 +63,10 @@ export async function generateMetadata({
 export default async function PersonneDetailPage({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }) {
-  const { slug } = await params;
-  const personne = reseau.find((p) => p.slug === slug);
+  const { locale, slug } = await params;
+  const personne = getLocalizedPersonne(locale, slug);
   const tReseau = await getTranslations("reseauPage");
   const tc = await getTranslations("common");
 
@@ -89,8 +90,10 @@ export default async function PersonneDetailPage({
       : [personne.rattachement]
     : [];
 
+  const localizedReseau = getLocalizedReseau(locale);
+
   // Find related by shared sous-réseaux (more useful than same type)
-  const relatedBySousReseau = reseau.filter(
+  const relatedBySousReseau = localizedReseau.filter(
     (p) =>
       p.slug !== slug &&
       p.sousReseaux &&
@@ -99,7 +102,7 @@ export default async function PersonneDetailPage({
   );
 
   // Also find same-type connections
-  const relatedByType = reseau.filter(
+  const relatedByType = localizedReseau.filter(
     (p) =>
       p.slug !== slug &&
       p.typeLien === personne.typeLien &&
