@@ -84,7 +84,15 @@
     "leHavre": "勒阿弗尔人脉",
     "entreprises": "企业与游说",
     "horizons": "Horizons党",
-    "grapheAide": "点击节点查看详情 · 拖拽移动 · 滚轮缩放"
+    "grapheAide": "点击节点查看详情 · 拖拽移动 · 滚轮缩放",
+    "rattachementReseau": "网络归属",
+    "ficheDetaillee": "详细档案",
+    "positionLosange": "菱形中的位置",
+    "memeSousReseau": "相同子网络",
+    "autresConnexions": "其他连接",
+    "plusConnexions": "+ {count}个连接",
+    "villepin": "维勒潘网络",
+    "chiraquien": "希拉克遗产"
   },
   "matraquage": {
     "titre": "媒体轰炸",
@@ -96,7 +104,11 @@
     "tonalite": "报道基调",
     "classement": "播出时间排名",
     "apparitionsRecentes": "近期出镜",
-    "proprietaires": "谁拥有什么——所有者全景图"
+    "proprietaires": "谁拥有什么——所有者全景图",
+    "mediasPublics": "公共媒体",
+    "mediasMacronistes": "亲马克龙媒体",
+    "mediasIndependants": "独立媒体",
+    "mediasOpposition": "反对派媒体"
   },
   "blog": {
     "titre": "博客",
@@ -142,17 +154,117 @@
     "agentsActifs": "活跃代理"
   },
   "pages": {
-    "biographie": {"title": "传记", "description": "爱德华·菲利普的完整政治经历——从勒阿弗尔到马蒂尼翁及以后。", "subtitle": "爱德华·查尔斯·菲利普——生于1970年11月28日鲁昂", "ficheSynthetique": "简明概览", "sections": {"origines": "出身背景", "formation": "教育", "carriere": "职业生涯", "leHavre": "勒阿弗尔", "politiqueNationale": "国家政治", "matignon": "马蒂尼翁", "covid": "疫情", "horizons": "Horizons", "presidentielle2027": "2027年总统选举", "judiciaire": "司法", "reseau": "人脉"}, "labels": {"nomComplet": "全名", "naissance": "出生", "parti": "政党", "fonctionActuelle": "现职", "premierMinistre": "总理", "formation": "教育", "famille": "家族", "candidature2027": "2027年参选"}},
-    "actualites": {"title": "时事", "description": "日常追踪——最新记录的事件"},
-    "controverses": {"title": "争议事件", "description": "爱德华·菲利普的失言、矛盾和丑闻已被记录和验证。", "subtitle": "{count}件记录的案例——失言、矛盾和丑闻"},
-    "conflits": {"title": "利益冲突", "description": "已记录的利益冲突链——跟随链接了解更多。", "subtitle": "已记录的利益冲突链——跟随链接了解更多"},
-    "investigations": {"title": "调查报告", "description": "关于爱德华·菲利普影响力网络的深入调查报告。", "subtitle": "{count}件调查报告——机密文件已分析", "labels": {"investigation": "调查", "parties": "部分{plural}", "noeudsLies": "相关节点{plural}", "sources": "来源{plural}"}},
-    "reseau": {"title": "人脉——4个中心人物的制图", "description": "儒佩–菲利普–拉法兰–维尔潘交织网络的互动制图。4个中心人物，政治、中国、金融和媒体联系。", "heading": "人脉", "subheading": "4个中心人物", "subtitle": "{count}个已制图的人脉关系——儒佩–菲利普–拉法兰–维尔潘菱形", "analyseStructurelle": "结构分析——为什么4个中心人物会汇聚", "analyseText": "这四个人物并不追求相同的目标——维尔潘和菲利普是2027年的直接竞争对手。他们共同之处在于产生汇聚行为的结构性条件：相同的制度框架（Sciences Po → ENA → 国务委员会/外交部）、相同的希拉克传统、相同的精英循环逻辑、相同的精英选拔项目（FAF、FCF）。", "centroïdes": {"juppé": {"initiales": "AJ", "nom": "阿兰·儒佩", "description": "被中立化的教父。「儒佩派」运动形成Horizons的骨干。残余权力：制度性、象征性、网络性。"}, "philippe": {"initiales": "EP", "nom": "爱德华·菲利普", "description": "运营继承人。制度性中国网络（FCF、FAF）。已宣布的2027年候选人。勒阿弗尔市长、Horizons党主席。"}, "villepin": {"initiales": "DDV", "nom": "多米尼克·德·维尔潘", "description": "多极化且不透明的私人网络（中国、卡塔尔、俄罗斯）。菲利普的直接竞争对手。", "warning": "与菲利普没有直接联系。"}, "raffarin": {"initiales": "JPR", "nom": "让-皮埃尔·拉法兰", "description": "中法枢纽。Horizons成员且中国官方代表。被DGSI警告。获习近平友谊勋章。"}}},
-    "matraquage": {"title": "媒体轰炸", "description": "爱德华·菲利普的播放时间和媒体报道追踪——官方媒体和倾斜媒体。", "subtitle": "爱德华·菲利普的播放时间和媒体报道追踪——官方媒体和倾斜媒体"},
-    "blog": {"title": "博客", "description": "分析、社论和调查", "subtitle": "分析、社论和调查"},
-    "mentions": {"title": "法律声明", "description": "法律和合规信息"},
-    "recherche": {"title": "搜索", "description": "在jamaisplusedouard.fr的所有内容中搜索。"},
-    "sources": {"title": "来源", "description": "jamaisplusedouard.fr中使用的所有来源。"}
+    "biographie": {
+      "title": "传记",
+      "description": "爱德华·菲利普的完整政治经历——从勒阿弗尔到马蒂尼翁及以后。",
+      "subtitle": "爱德华·查尔斯·菲利普——生于1970年11月28日鲁昂",
+      "ficheSynthetique": "简明概览",
+      "sections": {
+        "origines": "出身背景",
+        "formation": "教育",
+        "carriere": "职业生涯",
+        "leHavre": "勒阿弗尔",
+        "politiqueNationale": "国家政治",
+        "matignon": "马蒂尼翁",
+        "covid": "疫情",
+        "horizons": "Horizons",
+        "presidentielle2027": "2027年总统选举",
+        "judiciaire": "司法",
+        "reseau": "人脉"
+      },
+      "labels": {
+        "nomComplet": "全名",
+        "naissance": "出生",
+        "parti": "政党",
+        "fonctionActuelle": "现职",
+        "premierMinistre": "总理",
+        "formation": "教育",
+        "famille": "家族",
+        "candidature2027": "2027年参选"
+      }
+    },
+    "actualites": {
+      "title": "时事",
+      "description": "日常追踪——最新记录的事件",
+      "agentsActifs": "监控代理在线",
+      "sourcesSuivies": "法国媒体·官方公报·社交网络·公共登记（HATVP）",
+      "derniersEvenements": "最新记录事件"
+    },
+    "controverses": {
+      "title": "争议事件",
+      "description": "爱德华·菲利普的失言、矛盾和丑闻已被记录和验证。",
+      "subtitle": "{count}件记录的案例——失言、矛盾和丑闻"
+    },
+    "conflits": {
+      "title": "利益冲突",
+      "description": "已记录的利益冲突链——跟随链接了解更多。",
+      "subtitle": "已记录的利益冲突链——跟随链接了解更多"
+    },
+    "investigations": {
+      "title": "调查报告",
+      "description": "关于爱德华·菲利普影响力网络的深入调查报告。",
+      "subtitle": "{count}件调查报告——机密文件已分析",
+      "labels": {
+        "investigation": "调查",
+        "parties": "部分{plural}",
+        "noeudsLies": "相关节点{plural}",
+        "sources": "来源{plural}"
+      }
+    },
+    "reseau": {
+      "title": "人脉——4个中心人物的制图",
+      "description": "儒佩–菲利普–拉法兰–维尔潘交织网络的互动制图。4个中心人物，政治、中国、金融和媒体联系。",
+      "heading": "人脉",
+      "subheading": "4个中心人物",
+      "subtitle": "{count}个已制图的人脉关系——儒佩–菲利普–拉法兰–维尔潘菱形",
+      "analyseStructurelle": "结构分析——为什么4个中心人物会汇聚",
+      "analyseText": "这四个人物并不追求相同的目标——维尔潘和菲利普是2027年的直接竞争对手。他们共同之处在于产生汇聚行为的结构性条件：相同的制度框架（Sciences Po → ENA → 国务委员会/外交部）、相同的希拉克传统、相同的精英循环逻辑、相同的精英选拔项目（FAF、FCF）。",
+      "centroïdes": {
+        "juppé": {
+          "initiales": "AJ",
+          "nom": "阿兰·儒佩",
+          "description": "被中立化的教父。「儒佩派」运动形成Horizons的骨干。残余权力：制度性、象征性、网络性。"
+        },
+        "philippe": {
+          "initiales": "EP",
+          "nom": "爱德华·菲利普",
+          "description": "运营继承人。制度性中国网络（FCF、FAF）。已宣布的2027年候选人。勒阿弗尔市长、Horizons党主席。"
+        },
+        "villepin": {
+          "initiales": "DDV",
+          "nom": "多米尼克·德·维尔潘",
+          "description": "多极化且不透明的私人网络（中国、卡塔尔、俄罗斯）。菲利普的直接竞争对手。",
+          "warning": "与菲利普没有直接联系。"
+        },
+        "raffarin": {
+          "initiales": "JPR",
+          "nom": "让-皮埃尔·拉法兰",
+          "description": "中法枢纽。Horizons成员且中国官方代表。被DGSI警告。获习近平友谊勋章。"
+        }
+      }
+    },
+    "matraquage": {
+      "title": "媒体轰炸",
+      "description": "爱德华·菲利普的播放时间和媒体报道追踪——官方媒体和倾斜媒体。",
+      "subtitle": "爱德华·菲利普的播放时间和媒体报道追踪——官方媒体和倾斜媒体"
+    },
+    "blog": {
+      "title": "博客",
+      "description": "分析、社论和调查",
+      "subtitle": "分析、社论和调查"
+    },
+    "mentions": {
+      "title": "法律声明",
+      "description": "法律和合规信息"
+    },
+    "recherche": {
+      "title": "搜索",
+      "description": "在jamaisplusedouard.fr的所有内容中搜索。"
+    },
+    "sources": {
+      "title": "来源",
+      "description": "jamaisplusedouard.fr中使用的所有来源。"
+    }
   },
   "common": {
     "controverse": "争议事件",

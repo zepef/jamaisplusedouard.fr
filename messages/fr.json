@@ -84,7 +84,15 @@
     "leHavre": "Réseau havrais",
     "entreprises": "Entreprises & lobbying",
     "horizons": "Parti Horizons",
-    "grapheAide": "Cliquer sur un nœud pour voir sa fiche · Glisser pour déplacer · Molette pour zoomer"
+    "grapheAide": "Cliquer sur un nœud pour voir sa fiche · Glisser pour déplacer · Molette pour zoomer",
+    "rattachementReseau": "Rattachement dans le réseau",
+    "ficheDetaillee": "Fiche détaillée",
+    "positionLosange": "Position dans le losange",
+    "memeSousReseau": "Même(s) sous-réseau(x)",
+    "autresConnexions": "Autres connexions",
+    "plusConnexions": "+ {count} connexions",
+    "villepin": "Réseau Villepin",
+    "chiraquien": "Héritage chiraquien"
   },
   "matraquage": {
     "titre": "Matraquage médiatique",
@@ -96,7 +104,11 @@
     "tonalite": "Tonalité de la couverture",
     "classement": "Classement par temps d'antenne",
     "apparitionsRecentes": "Apparitions récentes",
-    "proprietaires": "Qui possède quoi — cartographie des propriétaires"
+    "proprietaires": "Qui possède quoi — cartographie des propriétaires",
+    "mediasPublics": "Médias publics",
+    "mediasMacronistes": "Médias pro-Macron",
+    "mediasIndependants": "Médias indépendants",
+    "mediasOpposition": "Médias d'opposition"
   },
   "blog": {
     "titre": "Blog",
@@ -173,7 +185,10 @@
     },
     "actualites": {
       "title": "Actualités",
-      "description": "Suivi quotidien — derniers événements documentés"
+      "description": "Suivi quotidien — derniers événements documentés",
+      "agentsActifs": "Agents de veille actifs",
+      "sourcesSuivies": "Presse française · Journal Officiel · Réseaux sociaux · Registres publics (HATVP)",
+      "derniersEvenements": "Derniers événements documentés"
     },
     "controverses": {
       "title": "Controverses",

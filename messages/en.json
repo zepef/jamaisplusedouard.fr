@@ -84,7 +84,15 @@
     "leHavre": "Le Havre network",
     "entreprises": "Corporations & lobbying",
     "horizons": "Horizons Party",
-    "grapheAide": "Click a node to view its profile · Drag to move · Scroll to zoom"
+    "grapheAide": "Click a node to view its profile · Drag to move · Scroll to zoom",
+    "rattachementReseau": "Network attachment",
+    "ficheDetaillee": "Detailed profile",
+    "positionLosange": "Position in the diamond",
+    "memeSousReseau": "Same sub-network(s)",
+    "autresConnexions": "Other connections",
+    "plusConnexions": "+ {count} connections",
+    "villepin": "Villepin network",
+    "chiraquien": "Chirac legacy"
   },
   "matraquage": {
     "titre": "Media blitz",
@@ -96,7 +104,11 @@
     "tonalite": "Coverage tone",
     "classement": "Ranking by airtime",
     "apparitionsRecentes": "Recent appearances",
-    "proprietaires": "Who owns what — mapping the owners"
+    "proprietaires": "Who owns what — mapping the owners",
+    "mediasPublics": "Public media",
+    "mediasMacronistes": "Pro-Macron media",
+    "mediasIndependants": "Independent media",
+    "mediasOpposition": "Opposition media"
   },
   "blog": {
     "titre": "Blog",
@@ -173,7 +185,10 @@
     },
     "actualites": {
       "title": "News",
-      "description": "Daily tracking — latest documented events"
+      "description": "Daily tracking — latest documented events",
+      "agentsActifs": "Active monitoring agents",
+      "sourcesSuivies": "French press · Official Journal · Social networks · Public registers (HATVP)",
+      "derniersEvenements": "Latest documented events"
     },
     "controverses": {
       "title": "Controversies",

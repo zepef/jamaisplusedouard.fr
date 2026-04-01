@@ -1,11 +1,12 @@
-import type { Metadata } from "next";
 import GlassCard from "@/components/ui/GlassCard";
 import { controverses } from "@/lib/seed-data";
+import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "Sources",
-  description: "Toutes les sources utilisées sur jamaisplusedouard.fr.",
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pages.sources" });
+  return { title: t("title"), description: t("description") };
+}
 
 // Collect all unique sources
 const allSources = controverses.flatMap((c) =>
@@ -35,10 +36,15 @@ const typeStyles: Record<string, string> = {
   registre: "text-yellow-400",
 };
 
-export default function SourcesPage() {
+export default async function SourcesPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const t = await getTranslations("pages.sources");
   return (
     <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12">
-      <h1 className="text-3xl font-bold mb-2 text-foreground">Sources</h1>
+      <h1 className="text-3xl font-bold mb-2 text-foreground">{t("title")}</h1>
       <p className="text-sm text-muted mb-8 font-mono">
         {allSources.length} sources vérifiées — chaque fait est documenté
       </p>

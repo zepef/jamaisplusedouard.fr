@@ -84,7 +84,15 @@
     "leHavre": "Rete di Le Havre",
     "entreprises": "Imprese e lobbying",
     "horizons": "Partito Horizons",
-    "grapheAide": "Clicca su un nodo per vederne la scheda · Trascina per spostare · Scorri per zoomare"
+    "grapheAide": "Clicca su un nodo per vederne la scheda · Trascina per spostare · Scorri per zoomare",
+    "rattachementReseau": "Appartenenza alla rete",
+    "ficheDetaillee": "Scheda dettagliata",
+    "positionLosange": "Posizione nel losanga",
+    "memeSousReseau": "Stessa(e) sotto-rete(i)",
+    "autresConnexions": "Altre connessioni",
+    "plusConnexions": "+ {count} connessioni",
+    "villepin": "Rete Villepin",
+    "chiraquien": "Eredità chiraquiana"
   },
   "matraquage": {
     "titre": "Martellamento mediatico",
@@ -96,7 +104,11 @@
     "tonalite": "Tonalità della copertura",
     "classement": "Classifica per tempo in onda",
     "apparitionsRecentes": "Apparizioni recenti",
-    "proprietaires": "Chi possiede cosa — cartografia dei proprietari"
+    "proprietaires": "Chi possiede cosa — cartografia dei proprietari",
+    "mediasPublics": "Media pubblici",
+    "mediasMacronistes": "Media pro-Macron",
+    "mediasIndependants": "Media indipendenti",
+    "mediasOpposition": "Media d'opposizione"
   },
   "blog": {
     "titre": "Blog",
@@ -142,17 +154,117 @@
     "agentsActifs": "Agenti attivi"
   },
   "pages": {
-    "biographie": {"title": "Biografia", "description": "Biografia politica completa di Édouard Philippe, da Le Havre a Matignon e oltre.", "subtitle": "Édouard Charles Philippe — nato il 28 novembre 1970 a Rouen", "ficheSynthetique": "Scheda riassuntiva", "sections": {"origines": "Origini", "formation": "Educazione", "carriere": "Carriera", "leHavre": "Le Havre", "politiqueNationale": "Politica nazionale", "matignon": "Matignon", "covid": "Covid", "horizons": "Horizons", "presidentielle2027": "Elezioni presidenziali 2027", "judiciaire": "Giudiziario", "reseau": "Rete"}, "labels": {"nomComplet": "Nome completo", "naissance": "Nascita", "parti": "Partito", "fonctionActuelle": "Incarico attuale", "premierMinistre": "Primo Ministro", "formation": "Educazione", "famille": "Famiglia", "candidature2027": "Candidatura 2027"}},
-    "actualites": {"title": "Attualità", "description": "Monitoraggio quotidiano — ultimi eventi documentati"},
-    "controverses": {"title": "Controversie", "description": "Passi falsi, contraddizioni e scandali di Édouard Philippe documentati e verificati.", "subtitle": "{count} dossier documentati — passi falsi, contraddizioni e scandali"},
-    "conflits": {"title": "Conflitti di interessi", "description": "Catene documentate di conflitti di interessi — segui i collegamenti.", "subtitle": "Catene documentate di conflitti di interessi — segui i collegamenti"},
-    "investigations": {"title": "Indagini", "description": "Rapporti di indagine approfonditi sulle reti di influenza di Édouard Philippe.", "subtitle": "{count} rapporto{plural} d'indagine — documenti riservati analizzati", "labels": {"investigation": "Indagine", "parties": "parte{plural}", "noeudsLies": "nodo{plural} collegato{plural}", "sources": "fonte{plural}"}},
-    "reseau": {"title": "Rete — Cartografia dei 4 centroïdes", "description": "Cartografia interattiva delle reti interconnesse Juppé–Philippe–Raffarin–Villepin. 4 centroïdes, connessioni politiche, cinesi, finanziarie e mediatiche.", "heading": "Rete", "subheading": "4 centroïdes", "subtitle": "{count} connessioni mappate — il rombo Juppé–Philippe–Raffarin–Villepin", "analyseStructurelle": "Analisi strutturale — perché convergono i 4 centroïdes", "analyseText": "Questi quattro personaggi non condividono gli stessi obiettivi — Villepin e Philippe sono competitor diretti per il 2027. Ciò che condividono sono condizioni strutturali che producono comportamenti convergenti: lo stesso stampo istituzionale (Sciences Po → ENA → Conseil d'État / Quai d'Orsay), la stessa matrice chiraquiana, la stessa logica di pantouflage, gli stessi programmi di selezione dell'élite (FAF, FCF).", "centroïdes": {"juppé": {"initiales": "AJ", "nom": "Alain Juppé", "description": "Padrino neutralizzato al CC. Il movimento «juppista» forma la spina dorsale di Horizons. Potere residuo: istituzionale, simbolico, reticolare."}, "philippe": {"initiales": "EP", "nom": "Édouard Philippe", "description": "Erede operazionale. Rete cinese istituzionale (FCF, FAF). Candidato dichiarato 2027. Sindaco di Le Havre, presidente di Horizons."}, "villepin": {"initiales": "DDV", "nom": "Dominique de Villepin", "description": "Rete privata multipolare e opaca (Cina, Qatar, Russia). Competitor diretto di Philippe.", "warning": "Nessun legame diretto con Philippe."}, "raffarin": {"initiales": "JPR", "nom": "Jean-Pierre Raffarin", "description": "Snodo sino-francese. Membro di Horizons E rappresentante ufficiale per la Cina. Allertato da DGSI. Medaglia dell'Amicizia di Xi Jinping."}}},
-    "matraquage": {"title": "Martellamento mediatico", "description": "Monitoraggio del tempo in onda e della copertura mediatica di Édouard Philippe — media pubblici e media asserviti.", "subtitle": "Monitoraggio del tempo in onda e della copertura mediatica di Édouard Philippe — media pubblici e media asserviti"},
-    "blog": {"title": "Blog", "description": "Analisi, editoriali e inchieste", "subtitle": "Analisi, editoriali e inchieste"},
-    "mentions": {"title": "Note legali", "description": "Informazioni legali e di conformità"},
-    "recherche": {"title": "Ricerca", "description": "Ricerca in tutti i contenuti su jamaisplusedouard.fr."},
-    "sources": {"title": "Fonti", "description": "Tutte le fonti utilizzate su jamaisplusedouard.fr."}
+    "biographie": {
+      "title": "Biografia",
+      "description": "Biografia politica completa di Édouard Philippe, da Le Havre a Matignon e oltre.",
+      "subtitle": "Édouard Charles Philippe — nato il 28 novembre 1970 a Rouen",
+      "ficheSynthetique": "Scheda riassuntiva",
+      "sections": {
+        "origines": "Origini",
+        "formation": "Educazione",
+        "carriere": "Carriera",
+        "leHavre": "Le Havre",
+        "politiqueNationale": "Politica nazionale",
+        "matignon": "Matignon",
+        "covid": "Covid",
+        "horizons": "Horizons",
+        "presidentielle2027": "Elezioni presidenziali 2027",
+        "judiciaire": "Giudiziario",
+        "reseau": "Rete"
+      },
+      "labels": {
+        "nomComplet": "Nome completo",
+        "naissance": "Nascita",
+        "parti": "Partito",
+        "fonctionActuelle": "Incarico attuale",
+        "premierMinistre": "Primo Ministro",
+        "formation": "Educazione",
+        "famille": "Famiglia",
+        "candidature2027": "Candidatura 2027"
+      }
+    },
+    "actualites": {
+      "title": "Attualità",
+      "description": "Monitoraggio quotidiano — ultimi eventi documentati",
+      "agentsActifs": "Agenti di monitoraggio attivi",
+      "sourcesSuivies": "Stampa francese · Gazzetta Ufficiale · Social network · Registri pubblici (HATVP)",
+      "derniersEvenements": "Ultimi eventi documentati"
+    },
+    "controverses": {
+      "title": "Controversie",
+      "description": "Passi falsi, contraddizioni e scandali di Édouard Philippe documentati e verificati.",
+      "subtitle": "{count} dossier documentati — passi falsi, contraddizioni e scandali"
+    },
+    "conflits": {
+      "title": "Conflitti di interessi",
+      "description": "Catene documentate di conflitti di interessi — segui i collegamenti.",
+      "subtitle": "Catene documentate di conflitti di interessi — segui i collegamenti"
+    },
+    "investigations": {
+      "title": "Indagini",
+      "description": "Rapporti di indagine approfonditi sulle reti di influenza di Édouard Philippe.",
+      "subtitle": "{count} rapporto{plural} d'indagine — documenti riservati analizzati",
+      "labels": {
+        "investigation": "Indagine",
+        "parties": "parte{plural}",
+        "noeudsLies": "nodo{plural} collegato{plural}",
+        "sources": "fonte{plural}"
+      }
+    },
+    "reseau": {
+      "title": "Rete — Cartografia dei 4 centroïdes",
+      "description": "Cartografia interattiva delle reti interconnesse Juppé–Philippe–Raffarin–Villepin. 4 centroïdes, connessioni politiche, cinesi, finanziarie e mediatiche.",
+      "heading": "Rete",
+      "subheading": "4 centroïdes",
+      "subtitle": "{count} connessioni mappate — il rombo Juppé–Philippe–Raffarin–Villepin",
+      "analyseStructurelle": "Analisi strutturale — perché convergono i 4 centroïdes",
+      "analyseText": "Questi quattro personaggi non condividono gli stessi obiettivi — Villepin e Philippe sono competitor diretti per il 2027. Ciò che condividono sono condizioni strutturali che producono comportamenti convergenti: lo stesso stampo istituzionale (Sciences Po → ENA → Conseil d'État / Quai d'Orsay), la stessa matrice chiraquiana, la stessa logica di pantouflage, gli stessi programmi di selezione dell'élite (FAF, FCF).",
+      "centroïdes": {
+        "juppé": {
+          "initiales": "AJ",
+          "nom": "Alain Juppé",
+          "description": "Padrino neutralizzato al CC. Il movimento «juppista» forma la spina dorsale di Horizons. Potere residuo: istituzionale, simbolico, reticolare."
+        },
+        "philippe": {
+          "initiales": "EP",
+          "nom": "Édouard Philippe",
+          "description": "Erede operazionale. Rete cinese istituzionale (FCF, FAF). Candidato dichiarato 2027. Sindaco di Le Havre, presidente di Horizons."
+        },
+        "villepin": {
+          "initiales": "DDV",
+          "nom": "Dominique de Villepin",
+          "description": "Rete privata multipolare e opaca (Cina, Qatar, Russia). Competitor diretto di Philippe.",
+          "warning": "Nessun legame diretto con Philippe."
+        },
+        "raffarin": {
+          "initiales": "JPR",
+          "nom": "Jean-Pierre Raffarin",
+          "description": "Snodo sino-francese. Membro di Horizons E rappresentante ufficiale per la Cina. Allertato da DGSI. Medaglia dell'Amicizia di Xi Jinping."
+        }
+      }
+    },
+    "matraquage": {
+      "title": "Martellamento mediatico",
+      "description": "Monitoraggio del tempo in onda e della copertura mediatica di Édouard Philippe — media pubblici e media asserviti.",
+      "subtitle": "Monitoraggio del tempo in onda e della copertura mediatica di Édouard Philippe — media pubblici e media asserviti"
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Analisi, editoriali e inchieste",
+      "subtitle": "Analisi, editoriali e inchieste"
+    },
+    "mentions": {
+      "title": "Note legali",
+      "description": "Informazioni legali e di conformità"
+    },
+    "recherche": {
+      "title": "Ricerca",
+      "description": "Ricerca in tutti i contenuti su jamaisplusedouard.fr."
+    },
+    "sources": {
+      "title": "Fonti",
+      "description": "Tutte le fonti utilizzate su jamaisplusedouard.fr."
+    }
   },
   "common": {
     "controverse": "Controversia",

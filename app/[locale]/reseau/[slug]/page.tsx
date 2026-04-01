@@ -24,17 +24,6 @@ const centroideInfo: Record<
   villepin: { label: "DDV", color: "#cc44ff", nom: "Dominique de Villepin" },
 };
 
-// Fallback labels for sous-réseaux (used if translation key missing)
-const sousReseauFallbacks: Record<string, string> = {
-  "young-leaders": "Young Leaders (FAF)",
-  "sino-francais": "Réseau sino-français",
-  matignon: "Cabinet Matignon",
-  "le-havre": "Réseau havrais",
-  entreprises: "Entreprises & lobbying",
-  horizons: "Parti Horizons",
-  villepin: "Réseau Villepin",
-  chiraquien: "Héritage chiraquien",
-};
 
 export function generateStaticParams() {
   return reseau.flatMap((p) =>
@@ -78,8 +67,8 @@ export default async function PersonneDetailPage({
     "le-havre": tReseau("leHavre"),
     entreprises: tReseau("entreprises"),
     horizons: tReseau("horizons"),
-    villepin: sousReseauFallbacks["villepin"],
-    chiraquien: sousReseauFallbacks["chiraquien"],
+    villepin: tReseau("villepin"),
+    chiraquien: tReseau("chiraquien"),
   };
 
   if (!personne) notFound();
@@ -154,7 +143,7 @@ export default async function PersonneDetailPage({
         {rattachements.length > 0 && (
           <div className="mt-4">
             <p className="text-[10px] font-mono text-muted/50 mb-2 uppercase tracking-wider">
-              Rattachement dans le réseau
+              {tReseau("rattachementReseau")}
             </p>
             <div className="flex flex-wrap gap-2">
               {rattachements.map((c) => {
@@ -192,7 +181,7 @@ export default async function PersonneDetailPage({
         {/* Description détaillée */}
         <GlassCard glow="magenta" className="mt-8">
           <h2 className="text-xs font-mono font-semibold text-magenta mb-3 uppercase tracking-wider">
-            Fiche détaillée
+            {tReseau("ficheDetaillee")}
           </h2>
           <p className="text-sm text-foreground/90 leading-relaxed whitespace-pre-line">
             {personne.description}
@@ -203,7 +192,7 @@ export default async function PersonneDetailPage({
         {rattachements.length > 0 && (
           <div className="mt-8">
             <h2 className="text-xs font-mono font-semibold text-muted/60 mb-3 uppercase tracking-wider">
-              Position dans le losange
+              {tReseau("positionLosange")}
             </h2>
             <GlassCard className="!p-4">
               <div className="space-y-3">
@@ -251,7 +240,7 @@ export default async function PersonneDetailPage({
         {relatedBySousReseau.length > 0 && (
           <div className="mt-8">
             <h2 className="text-xs font-mono font-semibold text-muted/60 mb-3 uppercase tracking-wider">
-              Même(s) sous-réseau(x) ({relatedBySousReseau.length})
+              {tReseau("memeSousReseau")} ({relatedBySousReseau.length})
             </h2>
             <div className="space-y-2">
               {relatedBySousReseau.slice(0, 12).map((p) => (
@@ -275,7 +264,7 @@ export default async function PersonneDetailPage({
               ))}
               {relatedBySousReseau.length > 12 && (
                 <p className="text-[10px] text-muted/40 font-mono">
-                  + {relatedBySousReseau.length - 12} connexions
+                  {tReseau("plusConnexions", { count: relatedBySousReseau.length - 12 })}
                 </p>
               )}
             </div>
@@ -286,7 +275,7 @@ export default async function PersonneDetailPage({
         {relatedByType.length > 0 && (
           <div className="mt-8">
             <h2 className="text-xs font-mono font-semibold text-muted/60 mb-3 uppercase tracking-wider">
-              Autres connexions {personne.typeLien}s ({relatedByType.length})
+              {tReseau("autresConnexions")} {personne.typeLien}s ({relatedByType.length})
             </h2>
             <div className="space-y-2">
               {relatedByType.slice(0, 8).map((p) => (

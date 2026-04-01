@@ -1,25 +1,32 @@
-import type { Metadata } from "next";
 import GlassCard from "@/components/ui/GlassCard";
 import NewsletterForm from "@/components/ui/NewsletterForm";
-import { timeline } from "@/lib/seed-data";
+import { getTranslations } from "next-intl/server";
+import { getLocalizedTimeline } from "@/lib/get-localized-data";
 
-export const metadata: Metadata = {
-  title: "Actualités",
-  description:
-    "Suivi quotidien des activités politiques d'Édouard Philippe.",
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pages.actualites" });
+  return { title: t("title"), description: t("description") };
+}
 
-// Show the latest events from the timeline as a preview
-const recentEvents = [...timeline].reverse().slice(0, 10);
+export default async function ActualitesPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations("pages.actualites");
+  const tn = await getTranslations("newsletter");
 
-export default function ActualitesPage() {
+  const recentEvents = getLocalizedTimeline(locale).reverse().slice(0, 10);
+
   return (
     <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-3xl font-bold mb-2">
-        <span className="text-cyan glow-cyan">Actualites</span>
+        <span className="text-cyan glow-cyan">{t("title")}</span>
       </h1>
       <p className="text-sm text-muted mb-8 font-mono">
-        Suivi quotidien — alimente par agents OpenClaw 24/7
+        {t("description")}
       </p>
 
       {/* Status */}
@@ -28,11 +35,10 @@ export default function ActualitesPage() {
           <span className="inline-block h-2 w-2 rounded-full bg-neon-green pulse-neon" />
           <div>
             <p className="text-sm text-foreground font-medium">
-              Agents de veille actifs
+              {t("agentsActifs")}
             </p>
             <p className="text-xs text-muted mt-0.5">
-              Presse française · Journal Officiel · Réseaux sociaux · Registres
-              publics (HATVP)
+              {t("sourcesSuivies")}
             </p>
           </div>
         </div>
@@ -40,7 +46,7 @@ export default function ActualitesPage() {
 
       {/* Recent events from biography */}
       <h2 className="text-lg font-semibold text-foreground mb-4">
-        Derniers événements documentés
+        {t("derniersEvenements")}
       </h2>
       <div className="space-y-3 mb-12">
         {recentEvents.map((event, i) => (
@@ -93,11 +99,10 @@ export default function ActualitesPage() {
       {/* Newsletter */}
       <div>
         <h2 className="text-lg font-semibold text-foreground mb-3">
-          Recevoir les alertes
+          {tn("alertes")}
         </h2>
         <p className="text-xs text-muted mb-3">
-          Nouvelle controverse, nouvelle connexion découverte — soyez
-          informé en temps réel.
+          {tn("alertesDescription")}
         </p>
         <NewsletterForm />
       </div>

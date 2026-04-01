@@ -14,13 +14,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return { title: t("title"), description: t("description") };
 }
 
-const categorieLabels: Record<MediaCategorie, string> = {
-  public: "Médias publics",
-  macroniste: "Médias pro-Macron",
-  independant: "Médias indépendants",
-  opposition: "Médias d'opposition",
-};
-
 const categorieColors: Record<MediaCategorie, string> = {
   public: "text-cyan",
   macroniste: "text-neon-red",
@@ -45,6 +38,13 @@ export default async function MatraquagePage() {
   const t = await getTranslations("matraquage");
   const tc = await getTranslations("common");
   const stats = getStatsMedia();
+
+  const categorieLabels: Record<MediaCategorie, string> = {
+    public: t("mediasPublics"),
+    macroniste: t("mediasMacronistes"),
+    independant: t("mediasIndependants"),
+    opposition: t("mediasOpposition"),
+  };
 
   // Sort apparitions by date desc
   const recentApparitions = [...apparitions].sort(

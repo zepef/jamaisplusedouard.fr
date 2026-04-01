@@ -84,7 +84,15 @@
     "leHavre": "Le Havre-Netzwerk",
     "entreprises": "Unternehmen & Lobbyismus",
     "horizons": "Partei Horizons",
-    "grapheAide": "Auf einen Knoten klicken, um das Profil anzuzeigen · Ziehen zum Verschieben · Scrollen zum Zoomen"
+    "grapheAide": "Auf einen Knoten klicken, um das Profil anzuzeigen · Ziehen zum Verschieben · Scrollen zum Zoomen",
+    "rattachementReseau": "Netzwerkzugehörigkeit",
+    "ficheDetaillee": "Detailliertes Profil",
+    "positionLosange": "Position im Viereck",
+    "memeSousReseau": "Gleiche(s) Teilnetzwerk(e)",
+    "autresConnexions": "Weitere Verbindungen",
+    "plusConnexions": "+ {count} Verbindungen",
+    "villepin": "Villepin-Netzwerk",
+    "chiraquien": "Chirac-Erbe"
   },
   "matraquage": {
     "titre": "Medienpräsenz",
@@ -96,7 +104,11 @@
     "tonalite": "Tonalität der Berichterstattung",
     "classement": "Rangliste nach Sendezeit",
     "apparitionsRecentes": "Aktuelle Auftritte",
-    "proprietaires": "Wem gehört was — Kartografie der Eigentümer"
+    "proprietaires": "Wem gehört was — Kartografie der Eigentümer",
+    "mediasPublics": "Öffentliche Medien",
+    "mediasMacronistes": "Macron-freundliche Medien",
+    "mediasIndependants": "Unabhängige Medien",
+    "mediasOpposition": "Oppositionsmedien"
   },
   "blog": {
     "titre": "Blog",
@@ -142,17 +154,117 @@
     "agentsActifs": "Aktive Agenten"
   },
   "pages": {
-    "biographie": {"title": "Biografie", "description": "Vollständige politische Biografie von Édouard Philippe, von Le Havre bis Matignon und darüber hinaus.", "subtitle": "Édouard Charles Philippe — geboren am 28. November 1970 in Rouen", "ficheSynthetique": "Kurzprofil", "sections": {"origines": "Ursprünge", "formation": "Ausbildung", "carriere": "Karriere", "leHavre": "Le Havre", "politiqueNationale": "Nationale Politik", "matignon": "Matignon", "covid": "Covid", "horizons": "Horizons", "presidentielle2027": "Präsidentschaftswahl 2027", "judiciaire": "Justiz", "reseau": "Netzwerk"}, "labels": {"nomComplet": "Vollständiger Name", "naissance": "Geburt", "parti": "Partei", "fonctionActuelle": "Aktuelle Position", "premierMinistre": "Premierminister", "formation": "Ausbildung", "famille": "Familie", "candidature2027": "Kandidatur 2027"}},
-    "actualites": {"title": "Aktuelles", "description": "Tägliche Überwachung — letzte dokumentierte Ereignisse"},
-    "controverses": {"title": "Kontroversen", "description": "Fehltritte, Widersprüche und Skandale von Édouard Philippe dokumentiert und belegt.", "subtitle": "{count} dokumentierte Fälle — Fehltritte, Widersprüche und Skandale"},
-    "conflits": {"title": "Interessenkonflikte", "description": "Dokumentierte Ketten von Interessenkonflikten — folgen Sie den Verbindungen.", "subtitle": "Dokumentierte Ketten von Interessenkonflikten — folgen Sie den Verbindungen"},
-    "investigations": {"title": "Ermittlungen", "description": "Umfassende Ermittlungsberichte über die Einflussnetzwerke von Édouard Philippe.", "subtitle": "{count} Ermittlungsbericht{plural} — vertrauliche Dokumente analysiert", "labels": {"investigation": "Ermittlung", "parties": "Teil{plural}", "noeudsLies": "verknüpfter Knoten{plural}", "sources": "Quelle{plural}"}},
-    "reseau": {"title": "Netzwerk — Kartografie der 4 Centroïdes", "description": "Interaktive Kartografie der vernetzten Netzwerke Juppé–Philippe–Raffarin–Villepin. 4 Zentroiden, politische, chinesische, finanzielle und mediale Verbindungen.", "heading": "Netzwerk", "subheading": "4 Zentroiden", "subtitle": "{count} kartierte Verbindungen — die Juppé–Philippe–Raffarin–Villepin-Raute", "analyseStructurelle": "Strukturelle Analyse — warum 4 Zentroiden konvergieren", "analyseText": "Diese vier Figuren teilen nicht dieselben Ziele — Villepin und Philippe sind direkte Konkurrenten für 2027. Was sie teilen, sind strukturelle Bedingungen, die konvergentes Verhalten erzeugen: die gleiche institutionelle Form (Sciences Po → ENA → Conseil d'État / Quai d'Orsay), die gleiche chiraquianische Matrix, die gleiche Pantouflage-Logik, die gleichen Elite-Auswahlprogramme (FAF, FCF).", "centroïdes": {"juppé": {"initiales": "AJ", "nom": "Alain Juppé", "description": "Neutralisierter Pate im CC. Die «Juppeisten» bilden das Rückgrat von Horizons. Residuelle Macht: institutionell, symbolisch, netzwerkförmig."}, "philippe": {"initiales": "EP", "nom": "Édouard Philippe", "description": "Operativer Erbe. Institutionelles chinesisches Netzwerk (FCF, FAF). Erklärter Kandidat 2027. Bürgermeister von Le Havre, Präsident von Horizons."}, "villepin": {"initiales": "DDV", "nom": "Dominique de Villepin", "description": "Multipolares und undurchsichtiges Privatnetz (China, Katar, Russland). Direkter Konkurrent von Philippe.", "warning": "Keine direkte Verbindung zu Philippe."}, "raffarin": {"initiales": "JPR", "nom": "Jean-Pierre Raffarin", "description": "Chinesisch-französisches Schaltwerk. Mitglied von Horizons UND offizieller Vertreter für China. Von der DGSI alarmiert. Medaille der Freundschaft von Xi Jinping."}}},
-    "matraquage": {"title": "Medienpräsenz", "description": "Erfassung der Sendezeit und Medienberichterstattung über Édouard Philippe — öffentlich-rechtliche und hörige Medien.", "subtitle": "Erfassung der Sendezeit und Medienberichterstattung über Édouard Philippe — öffentlich-rechtliche und hörige Medien"},
-    "blog": {"title": "Blog", "description": "Analysen, Leitartikel und Recherchen", "subtitle": "Analysen, Leitartikel und Recherchen"},
-    "mentions": {"title": "Impressum", "description": "Rechtliche und Compliance-Informationen"},
-    "recherche": {"title": "Suche", "description": "Durchsuchen Sie alle Inhalte auf jamaisplusedouard.fr."},
-    "sources": {"title": "Quellen", "description": "Alle auf jamaisplusedouard.fr verwendeten Quellen."}
+    "biographie": {
+      "title": "Biografie",
+      "description": "Vollständige politische Biografie von Édouard Philippe, von Le Havre bis Matignon und darüber hinaus.",
+      "subtitle": "Édouard Charles Philippe — geboren am 28. November 1970 in Rouen",
+      "ficheSynthetique": "Kurzprofil",
+      "sections": {
+        "origines": "Ursprünge",
+        "formation": "Ausbildung",
+        "carriere": "Karriere",
+        "leHavre": "Le Havre",
+        "politiqueNationale": "Nationale Politik",
+        "matignon": "Matignon",
+        "covid": "Covid",
+        "horizons": "Horizons",
+        "presidentielle2027": "Präsidentschaftswahl 2027",
+        "judiciaire": "Justiz",
+        "reseau": "Netzwerk"
+      },
+      "labels": {
+        "nomComplet": "Vollständiger Name",
+        "naissance": "Geburt",
+        "parti": "Partei",
+        "fonctionActuelle": "Aktuelle Position",
+        "premierMinistre": "Premierminister",
+        "formation": "Ausbildung",
+        "famille": "Familie",
+        "candidature2027": "Kandidatur 2027"
+      }
+    },
+    "actualites": {
+      "title": "Aktuelles",
+      "description": "Tägliche Überwachung — letzte dokumentierte Ereignisse",
+      "agentsActifs": "Aktive Überwachungsagenten",
+      "sourcesSuivies": "Französische Presse · Amtsblatt · Soziale Netzwerke · Öffentliche Register (HATVP)",
+      "derniersEvenements": "Letzte dokumentierte Ereignisse"
+    },
+    "controverses": {
+      "title": "Kontroversen",
+      "description": "Fehltritte, Widersprüche und Skandale von Édouard Philippe dokumentiert und belegt.",
+      "subtitle": "{count} dokumentierte Fälle — Fehltritte, Widersprüche und Skandale"
+    },
+    "conflits": {
+      "title": "Interessenkonflikte",
+      "description": "Dokumentierte Ketten von Interessenkonflikten — folgen Sie den Verbindungen.",
+      "subtitle": "Dokumentierte Ketten von Interessenkonflikten — folgen Sie den Verbindungen"
+    },
+    "investigations": {
+      "title": "Ermittlungen",
+      "description": "Umfassende Ermittlungsberichte über die Einflussnetzwerke von Édouard Philippe.",
+      "subtitle": "{count} Ermittlungsbericht{plural} — vertrauliche Dokumente analysiert",
+      "labels": {
+        "investigation": "Ermittlung",
+        "parties": "Teil{plural}",
+        "noeudsLies": "verknüpfter Knoten{plural}",
+        "sources": "Quelle{plural}"
+      }
+    },
+    "reseau": {
+      "title": "Netzwerk — Kartografie der 4 Centroïdes",
+      "description": "Interaktive Kartografie der vernetzten Netzwerke Juppé–Philippe–Raffarin–Villepin. 4 Zentroiden, politische, chinesische, finanzielle und mediale Verbindungen.",
+      "heading": "Netzwerk",
+      "subheading": "4 Zentroiden",
+      "subtitle": "{count} kartierte Verbindungen — die Juppé–Philippe–Raffarin–Villepin-Raute",
+      "analyseStructurelle": "Strukturelle Analyse — warum 4 Zentroiden konvergieren",
+      "analyseText": "Diese vier Figuren teilen nicht dieselben Ziele — Villepin und Philippe sind direkte Konkurrenten für 2027. Was sie teilen, sind strukturelle Bedingungen, die konvergentes Verhalten erzeugen: die gleiche institutionelle Form (Sciences Po → ENA → Conseil d'État / Quai d'Orsay), die gleiche chiraquianische Matrix, die gleiche Pantouflage-Logik, die gleichen Elite-Auswahlprogramme (FAF, FCF).",
+      "centroïdes": {
+        "juppé": {
+          "initiales": "AJ",
+          "nom": "Alain Juppé",
+          "description": "Neutralisierter Pate im CC. Die «Juppeisten» bilden das Rückgrat von Horizons. Residuelle Macht: institutionell, symbolisch, netzwerkförmig."
+        },
+        "philippe": {
+          "initiales": "EP",
+          "nom": "Édouard Philippe",
+          "description": "Operativer Erbe. Institutionelles chinesisches Netzwerk (FCF, FAF). Erklärter Kandidat 2027. Bürgermeister von Le Havre, Präsident von Horizons."
+        },
+        "villepin": {
+          "initiales": "DDV",
+          "nom": "Dominique de Villepin",
+          "description": "Multipolares und undurchsichtiges Privatnetz (China, Katar, Russland). Direkter Konkurrent von Philippe.",
+          "warning": "Keine direkte Verbindung zu Philippe."
+        },
+        "raffarin": {
+          "initiales": "JPR",
+          "nom": "Jean-Pierre Raffarin",
+          "description": "Chinesisch-französisches Schaltwerk. Mitglied von Horizons UND offizieller Vertreter für China. Von der DGSI alarmiert. Medaille der Freundschaft von Xi Jinping."
+        }
+      }
+    },
+    "matraquage": {
+      "title": "Medienpräsenz",
+      "description": "Erfassung der Sendezeit und Medienberichterstattung über Édouard Philippe — öffentlich-rechtliche und hörige Medien.",
+      "subtitle": "Erfassung der Sendezeit und Medienberichterstattung über Édouard Philippe — öffentlich-rechtliche und hörige Medien"
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Analysen, Leitartikel und Recherchen",
+      "subtitle": "Analysen, Leitartikel und Recherchen"
+    },
+    "mentions": {
+      "title": "Impressum",
+      "description": "Rechtliche und Compliance-Informationen"
+    },
+    "recherche": {
+      "title": "Suche",
+      "description": "Durchsuchen Sie alle Inhalte auf jamaisplusedouard.fr."
+    },
+    "sources": {
+      "title": "Quellen",
+      "description": "Alle auf jamaisplusedouard.fr verwendeten Quellen."
+    }
   },
   "common": {
     "controverse": "Kontroverse",

@@ -1,28 +1,33 @@
-import type { Metadata } from "next";
 import GlassCard from "@/components/ui/GlassCard";
 import SubmitForm from "./SubmitForm";
+import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "Soumettez vos informations",
-  description:
-    "Vous disposez d'informations sur Édouard Philippe, son réseau ou ses activités ? Transmettez-les de manière sécurisée.",
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "soumettre" });
+  return { title: t("titre"), description: t("sousTitre") };
+}
 
-export default function SoumettrePage() {
+export default async function SoumettrePage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  await params;
+  const t = await getTranslations("soumettre");
   return (
     <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-3xl font-bold mb-2">
-        <span className="text-cyan glow-cyan">Soumettez vos informations</span>
+        <span className="text-cyan glow-cyan">{t("titre")}</span>
       </h1>
       <p className="text-sm text-muted mb-8 font-mono">
-        Vous disposez d&apos;informations sur Édouard Philippe, son réseau ou
-        ses activités ? Transmettez-les.
+        {t("sousTitre")}
       </p>
 
       {/* Securite */}
       <GlassCard glow="cyan" className="mb-8">
         <h2 className="text-sm font-mono font-bold text-cyan mb-3">
-          Protection des sources
+          {t("protection")}
         </h2>
         <div className="text-sm text-muted space-y-2">
           <p>
@@ -47,7 +52,7 @@ export default function SoumettrePage() {
             <span className="text-lg">🔍</span>
             <div>
               <h3 className="text-sm font-semibold text-foreground">
-                Conflits d&apos;intérêts
+                {t("categories.conflitsInterets")}
               </h3>
               <p className="text-xs text-muted mt-1">
                 Liens financiers, mandats non déclarés, relations entre
@@ -62,7 +67,7 @@ export default function SoumettrePage() {
             <span className="text-lg">🕸️</span>
             <div>
               <h3 className="text-sm font-semibold text-foreground">
-                Réseau d&apos;influence
+                {t("categories.reseau")}
               </h3>
               <p className="text-xs text-muted mt-1">
                 Young Leaders, France China Foundation, nominations,
@@ -76,7 +81,7 @@ export default function SoumettrePage() {
             <span className="text-lg">🏛️</span>
             <div>
               <h3 className="text-sm font-semibold text-foreground">
-                Gestion locale
+                {t("categories.gestionLocale")}
               </h3>
               <p className="text-xs text-muted mt-1">
                 Mairie du Havre, communauté urbaine, port, marchés publics,
@@ -90,7 +95,7 @@ export default function SoumettrePage() {
             <span className="text-lg">📺</span>
             <div>
               <h3 className="text-sm font-semibold text-foreground">
-                Matraquage médiatique
+                {t("categories.matraquage")}
               </h3>
               <p className="text-xs text-muted mt-1">
                 Connivence avec des journalistes, pressions éditoriales,
@@ -104,14 +109,14 @@ export default function SoumettrePage() {
       {/* Formulaire */}
       <GlassCard className="mb-8">
         <h2 className="text-sm font-mono font-bold text-foreground mb-4">
-          Formulaire de soumission
+          {t("formulaire")}
         </h2>
         <SubmitForm />
       </GlassCard>
 
       {/* Canaux alternatifs */}
       <h2 className="text-lg font-bold text-foreground mb-4">
-        Canaux alternatifs sécurisés
+        {t("canaux")}
       </h2>
       <div className="space-y-3">
         <GlassCard className="!p-4">
@@ -166,7 +171,7 @@ export default function SoumettrePage() {
       {/* Engagement */}
       <GlassCard glow="magenta" className="mt-8">
         <h2 className="text-sm font-mono font-bold text-magenta mb-3">
-          Notre engagement
+          {t("engagement")}
         </h2>
         <ul className="text-sm text-muted space-y-2">
           <li className="flex items-start gap-2">

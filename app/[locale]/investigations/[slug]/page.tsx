@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import GlassCard from "@/components/ui/GlassCard";
 import { investigations, reseau } from "@/lib/seed-data";
 import { getInvestigationTranslation } from "@/lib/investigations-translations";
@@ -52,7 +52,8 @@ export default async function InvestigationDetailPage({
   const { locale, slug } = await params;
   const item = investigations.find((inv) => inv.slug === slug);
   const translation = item ? getInvestigationTranslation(slug, locale) : null;
-  const t = useTranslations("common");
+  const t = await getTranslations("common");
+  const ti = await getTranslations("pages.investigations");
 
   if (!item) notFound();
 
@@ -82,11 +83,11 @@ export default async function InvestigationDetailPage({
       <article className="mt-8">
         <div className="flex items-center gap-2 flex-wrap">
           <span className="tag text-yellow-400 border-yellow-400/30 bg-yellow-400/8">
-            {t("investigation")}
+            {ti("labels.investigation")}
           </span>
           <span className="tag text-muted border-glass-border bg-glass">
-            {item.parties.length} partie
-            {item.parties.length > 1 ? "s" : ""}
+            {item.parties.length}{" "}
+            {ti("labels.parties", { plural: item.parties.length > 1 ? "s" : "" })}
           </span>
         </div>
         <h1 className="mt-3 text-3xl font-bold text-foreground">
@@ -137,7 +138,7 @@ export default async function InvestigationDetailPage({
         {noeudsRelies.length > 0 && (
           <div className="mt-10">
             <h2 className="text-sm font-mono font-semibold text-cyan mb-3">
-              Noeuds du réseau liés ({noeudsRelies.length})
+              {ti("labels.noeudsLies", { plural: noeudsRelies.length > 1 ? "s" : "" })} ({noeudsRelies.length})
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
               {noeudsRelies.map((node) =>
@@ -163,7 +164,7 @@ export default async function InvestigationDetailPage({
         {/* Sources */}
         <div className="mt-8">
           <h2 className="text-sm font-mono font-semibold text-neon-green mb-3">
-            Sources ({item.sources.length})
+            {t("sources")} ({item.sources.length})
           </h2>
           <div className="space-y-2">
             {item.sources.map((source, i) => (

@@ -1,15 +1,22 @@
-import type { Metadata } from "next";
 import GlassCard from "@/components/ui/GlassCard";
+import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "Mentions légales",
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pages.mentions" });
+  return { title: t("title"), description: t("description") };
+}
 
-export default function MentionsLegalesPage() {
+export default async function MentionsLegalesPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const t = await getTranslations("pages.mentions");
   return (
     <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-3xl font-bold mb-8 text-foreground">
-        Mentions légales
+        {t("title")}
       </h1>
 
       <div className="space-y-6">

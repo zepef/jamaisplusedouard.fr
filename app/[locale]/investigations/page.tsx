@@ -1,30 +1,39 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import GlassCard from "@/components/ui/GlassCard";
 import { investigations } from "@/lib/seed-data";
+import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "Investigations",
-  description:
-    "Rapports d'investigation approfondis sur les réseaux d'influence d'Édouard Philippe.",
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pages.investigations" });
+  return { title: t("title"), description: t("description") };
+}
 
 // Extract unique themes
 const allThemes = [
   ...new Set(investigations.flatMap((inv) => inv.themes)),
 ].sort();
 
-export default function InvestigationsPage() {
+export default async function InvestigationsPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  await params;
+  const t = await getTranslations("pages.investigations");
+
+  const plural = (n: number) => (n > 1 ? "s" : "");
+
   return (
     <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-3xl font-bold mb-2">
-        <span className="text-yellow-400 glow-yellow">Investigations</span>
+        <span className="text-yellow-400 glow-yellow">{t("title")}</span>
       </h1>
       <p className="text-sm text-muted mb-8 font-mono">
-        {investigations.length} rapport
-        {investigations.length > 1 ? "s" : ""} d&apos;investigation approfondi
-        {investigations.length > 1 ? "s" : ""} — documents confidentiels
-        analysés
+        {t("subtitle", {
+          count: investigations.length,
+          plural: plural(investigations.length),
+        })}
       </p>
 
       {/* Theme filters */}
@@ -48,11 +57,11 @@ export default function InvestigationsPage() {
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2 flex-wrap">
                     <span className="tag text-yellow-400 border-yellow-400/30 bg-yellow-400/8">
-                      Investigation
+                      {t("labels.investigation")}
                     </span>
                     <span className="tag text-muted border-glass-border bg-glass">
-                      {item.parties.length} partie
-                      {item.parties.length > 1 ? "s" : ""}
+                      {item.parties.length}{" "}
+                      {t("labels.parties", { plural: plural(item.parties.length) })}
                     </span>
                   </div>
                   <h2 className="mt-2 text-lg font-semibold text-foreground group-hover:text-yellow-400 transition-colors">
@@ -74,12 +83,12 @@ export default function InvestigationsPage() {
                       ))}
                     </div>
                     <span className="text-[10px] font-mono text-neon-green shrink-0">
-                      {item.sources.length} source
-                      {item.sources.length > 1 ? "s" : ""}
+                      {item.sources.length}{" "}
+                      {t("labels.sources", { plural: plural(item.sources.length) })}
                     </span>
                     <span className="text-[10px] font-mono text-cyan shrink-0">
-                      {item.noeudsLies.length} noeud
-                      {item.noeudsLies.length > 1 ? "s" : ""} liés
+                      {item.noeudsLies.length}{" "}
+                      {t("labels.noeudsLies", { plural: plural(item.noeudsLies.length) })}
                     </span>
                   </div>
                 </div>
