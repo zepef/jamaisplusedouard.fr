@@ -29,25 +29,11 @@ export default function Image() {
             left: 0,
             right: 0,
             height: "4px",
-            background: "linear-gradient(90deg, #ff2233 0%, #ff2233 40%, #00f0ff 70%, transparent 100%)",
+            background: "linear-gradient(90deg, #ff2233 0%, #ff2233 40%, #00f0ff 70%, #080810 100%)",
           }}
         />
 
-        {/* Grid lines decoration */}
-        <div
-          style={{
-            position: "absolute",
-            top: 0,
-            left: 0,
-            right: 0,
-            bottom: 0,
-            backgroundImage:
-              "linear-gradient(rgba(255,34,51,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,34,51,0.04) 1px, transparent 1px)",
-            backgroundSize: "80px 80px",
-          }}
-        />
-
-        {/* Tag */}
+        {/* Tags */}
         <div
           style={{
             display: "flex",
@@ -64,7 +50,6 @@ export default function Image() {
               fontSize: "13px",
               fontWeight: 600,
               letterSpacing: "0.12em",
-              textTransform: "uppercase",
               padding: "6px 14px",
               borderRadius: "4px",
             }}
@@ -87,20 +72,36 @@ export default function Image() {
           </div>
         </div>
 
-        {/* Main title */}
+        {/* Main title — two separate divs instead of <br /> */}
         <div
           style={{
-            fontSize: "88px",
-            fontWeight: 800,
-            lineHeight: 1.0,
-            color: "#ffffff",
-            letterSpacing: "-0.02em",
-            marginBottom: "20px",
+            display: "flex",
+            flexDirection: "column",
+            marginBottom: "24px",
           }}
         >
-          JAMAIS PLUS
-          <br />
-          <span style={{ color: "#ff2233" }}>ÉDOUARD</span>
+          <div
+            style={{
+              fontSize: "88px",
+              fontWeight: 800,
+              lineHeight: 1.0,
+              color: "#ffffff",
+              letterSpacing: "-0.02em",
+            }}
+          >
+            JAMAIS PLUS
+          </div>
+          <div
+            style={{
+              fontSize: "88px",
+              fontWeight: 800,
+              lineHeight: 1.0,
+              color: "#ff2233",
+              letterSpacing: "-0.02em",
+            }}
+          >
+            ÉDOUARD
+          </div>
         </div>
 
         {/* Subtitle */}
@@ -110,12 +111,11 @@ export default function Image() {
             color: "rgba(200,200,220,0.6)",
             fontWeight: 400,
             letterSpacing: "0.02em",
-            marginTop: "8px",
             maxWidth: "700px",
             lineHeight: 1.4,
           }}
         >
-          Biographie · Controverses · Réseau d&apos;influence · Conflits d&apos;intérêts
+          {"Biographie \u00B7 Controverses \u00B7 R\u00E9seau d'influence \u00B7 Conflits d'int\u00E9r\u00EAts"}
         </div>
 
         {/* Bottom domain */}
@@ -126,7 +126,6 @@ export default function Image() {
             right: "80px",
             fontSize: "16px",
             color: "rgba(255,255,255,0.25)",
-            fontFamily: "monospace",
             letterSpacing: "0.05em",
           }}
         >
