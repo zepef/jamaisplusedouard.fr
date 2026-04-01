@@ -1,61 +1,81 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import GlassCard from "@/components/ui/GlassCard";
 import { chainesConflits } from "@/lib/conflits-data";
+import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "Conflits d'intérêts",
-  description:
-    "Chaînes de conflits d'intérêts documentés autour d'Édouard Philippe — de Matignon au Havre.",
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pages.conflits" });
+  return { title: t("title"), description: t("description") };
+}
+
+const graviteColors = {
+  critique: "text-neon-red border-neon-red/30 bg-neon-red/8",
+  haute: "text-yellow-400 border-yellow-400/30 bg-yellow-400/8",
+  moyenne: "text-muted border-glass-border bg-glass",
 };
 
-export default function ConflitsPage() {
+export default async function ConflitsPage() {
+  const t = await getTranslations("conflits");
+  const tc = await getTranslations("common");
+  const graviteLabels: Record<string, string> = {
+    critique: tc("critique"),
+    haute: tc("haute"),
+    moyenne: tc("moyenne"),
+  };
+  const consequence = t("consequence");
+
   const critiques = chainesConflits.filter((c) => c.gravite === "critique");
   const autres = chainesConflits.filter((c) => c.gravite !== "critique");
 
   return (
     <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-3xl font-bold mb-2">
-        <span className="text-neon-red glow-red">Conflits d&apos;intérêts</span>
+        <span className="text-neon-red glow-red">{t("titre")}</span>
       </h1>
       <p className="text-sm text-muted mb-8 font-mono">
-        {chainesConflits.length} chaînes de conflits d&apos;intérêts documentées
-        — suivez les liens
+        {chainesConflits.length} {t("sousTitre")}
       </p>
 
       {/* Legende */}
       <GlassCard glow="red" className="mb-8">
         <p className="text-sm text-muted">
-          Chaque chaîne retrace un parcours multi-nœud reliant Édouard Philippe
-          à un intérêt privé. Les maillons montrent les intermédiaires et les
-          mécanismes de transmission. Les conséquences sont documentées et sourcées.
+          {t("legende")}
         </p>
       </GlassCard>
 
       {/* Chaines critiques */}
       <h2 className="text-lg font-bold text-neon-red mb-4">
-        Chaines critiques ({critiques.length})
+        {t("critiques")} ({critiques.length})
       </h2>
       <div className="space-y-6 mb-12">
         {critiques.map((chaine) => (
-          <ChaineCard key={chaine.id} chaine={chaine} />
+          <ChaineCard key={chaine.id} chaine={chaine} graviteLabels={graviteLabels} consequence={consequence} />
         ))}
       </div>
 
       {/* Autres chaines */}
       <h2 className="text-lg font-bold text-foreground mb-4">
-        Autres chaines ({autres.length})
+        {t("autres")} ({autres.length})
       </h2>
       <div className="space-y-6">
         {autres.map((chaine) => (
-          <ChaineCard key={chaine.id} chaine={chaine} />
+          <ChaineCard key={chaine.id} chaine={chaine} graviteLabels={graviteLabels} consequence={consequence} />
         ))}
       </div>
     </div>
   );
 }
 
-function ChaineCard({ chaine }: { chaine: (typeof chainesConflits)[0] }) {
+function ChaineCard({
+  chaine,
+  graviteLabels,
+  consequence,
+}: {
+  chaine: (typeof chainesConflits)[0];
+  graviteLabels: Record<string, string>;
+  consequence: string;
+}) {
   return (
     <GlassCard
       glow={chaine.gravite === "critique" ? "red" : "none"}
@@ -66,10 +86,10 @@ function ChaineCard({ chaine }: { chaine: (typeof chainesConflits)[0] }) {
           <div className="flex items-center gap-2 mb-1">
             <span
               className={`tag ${
-                graviteColors[chaine.gravite]
+                graviteColors[chaine.gravite as keyof typeof graviteColors]
               }`}
             >
-              {chaine.gravite}
+              {graviteLabels[chaine.gravite] ?? chaine.gravite}
             </span>
             <span className="tag text-muted border-glass-border bg-glass">
               {chaine.domaine}
@@ -122,7 +142,7 @@ function ChaineCard({ chaine }: { chaine: (typeof chainesConflits)[0] }) {
       {/* Consequence */}
       <div className="glass rounded-md p-3 border border-neon-red/10 mb-3">
         <h4 className="text-xs font-mono font-bold text-neon-red mb-1">
-          Consequence
+          {consequence}
         </h4>
         <p className="text-xs text-muted leading-relaxed">
           {chaine.consequence}
@@ -146,9 +166,3 @@ function ChaineCard({ chaine }: { chaine: (typeof chainesConflits)[0] }) {
     </GlassCard>
   );
 }
-
-const graviteColors = {
-  critique: "text-neon-red border-neon-red/30 bg-neon-red/8",
-  haute: "text-yellow-400 border-yellow-400/30 bg-yellow-400/8",
-  moyenne: "text-muted border-glass-border bg-glass",
-};

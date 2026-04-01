@@ -4,6 +4,7 @@ import GlassCard from "@/components/ui/GlassCard";
 import { reseau } from "@/lib/seed-data";
 import type { Centroide } from "@/lib/seed-data";
 import { routing } from "@/i18n/routing";
+import { getTranslations } from "next-intl/server";
 
 const typeColors: Record<string, string> = {
   politique: "text-cyan border-cyan/30 bg-cyan/8",
@@ -22,7 +23,8 @@ const centroideInfo: Record<
   villepin: { label: "DDV", color: "#cc44ff", nom: "Dominique de Villepin" },
 };
 
-const sousReseauLabels: Record<string, string> = {
+// Fallback labels for sous-réseaux (used if translation key missing)
+const sousReseauFallbacks: Record<string, string> = {
   "young-leaders": "Young Leaders (FAF)",
   "sino-francais": "Réseau sino-français",
   matignon: "Cabinet Matignon",
@@ -64,6 +66,20 @@ export default async function PersonneDetailPage({
 }) {
   const { slug } = await params;
   const personne = reseau.find((p) => p.slug === slug);
+  const tReseau = await getTranslations("reseauPage");
+  const tc = await getTranslations("common");
+
+  // Build translated sous-réseau labels from existing keys
+  const sousReseauLabels: Record<string, string> = {
+    "young-leaders": tReseau("youngLeaders"),
+    "sino-francais": tReseau("sinoFrancais"),
+    matignon: tReseau("matignon"),
+    "le-havre": tReseau("leHavre"),
+    entreprises: tReseau("entreprises"),
+    horizons: tReseau("horizons"),
+    villepin: sousReseauFallbacks["villepin"],
+    chiraquien: sousReseauFallbacks["chiraquien"],
+  };
 
   if (!personne) notFound();
 
@@ -96,7 +112,7 @@ export default async function PersonneDetailPage({
         href="/reseau"
         className="text-xs font-mono text-muted hover:text-cyan transition-colors neon-underline"
       >
-        ← Retour au réseau
+        {tc("retour")}
       </Link>
 
       <article className="mt-8">

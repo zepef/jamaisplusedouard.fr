@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import GlassCard from "@/components/ui/GlassCard";
 import { controverses } from "@/lib/seed-data";
 import { routing } from "@/i18n/routing";
+import { getTranslations } from "next-intl/server";
 
 const graviteColors = {
   haute: "text-neon-red border-neon-red/30 bg-neon-red/8",
@@ -46,8 +47,15 @@ export default async function ControverseDetailPage({
 }) {
   const { slug } = await params;
   const item = controverses.find((c) => c.slug === slug);
+  const tc = await getTranslations("common");
 
   if (!item) notFound();
+
+  const graviteLabels: Record<string, string> = {
+    haute: tc("haute"),
+    moyenne: tc("moyenne"),
+    basse: tc("basse"),
+  };
 
   return (
     <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
@@ -55,14 +63,14 @@ export default async function ControverseDetailPage({
         href="/controverses"
         className="text-xs font-mono text-muted hover:text-cyan transition-colors neon-underline"
       >
-        ← Retour aux controverses
+        {tc("retour")}
       </Link>
 
       <article className="mt-8">
         <div className="flex items-center gap-2 flex-wrap">
-          <span className="tag tag-controverse">Controverse</span>
-          <span className={`tag ${graviteColors[item.gravite]}`}>
-            {item.gravite}
+          <span className="tag tag-controverse">{tc("controverse")}</span>
+          <span className={`tag ${graviteColors[item.gravite as keyof typeof graviteColors]}`}>
+            {graviteLabels[item.gravite] ?? item.gravite}
           </span>
         </div>
         <h1 className="mt-3 text-3xl font-bold text-foreground">
@@ -97,7 +105,7 @@ export default async function ControverseDetailPage({
         {/* Sources */}
         <div className="mt-8">
           <h2 className="text-sm font-mono font-semibold text-neon-green mb-3">
-            Sources verifiees ({item.sources.length})
+            {tc("sourcesVerifiees")} ({item.sources.length})
           </h2>
           <div className="space-y-2">
             {item.sources.map((source, i) => (

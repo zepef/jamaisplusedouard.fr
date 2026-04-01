@@ -3,6 +3,7 @@
 import { useState, useMemo, useCallback } from "react";
 import Link from "next/link";
 import GlassCard from "@/components/ui/GlassCard";
+import { useTranslations } from "next-intl";
 import {
   timeline,
   controverses,
@@ -30,6 +31,9 @@ function highlight(text: string, query: string): React.ReactNode {
 }
 
 export default function SearchResults({ initialQuery }: { initialQuery?: string }) {
+  const t = useTranslations("recherche");
+  const tn = useTranslations("nav");
+  const tc = useTranslations("common");
   const [query, setQuery] = useState(initialQuery || "");
   const [activeTab, setActiveTab] = useState<ResultType | "all">("all");
 
@@ -74,22 +78,22 @@ export default function SearchResults({ initialQuery }: { initialQuery?: string 
     results.reseau.length;
 
   const tabs: { key: ResultType | "all"; label: string; count: number; color: string }[] = [
-    { key: "all", label: "Tous", count: total, color: "tag-actualite" },
+    { key: "all", label: t("tous"), count: total, color: "tag-actualite" },
     {
       key: "controverse",
-      label: "Controverses",
+      label: tn("controverses"),
       count: results.controverses.length,
       color: "tag-controverse",
     },
     {
       key: "chronologie",
-      label: "Chronologie",
+      label: t("chronologie"),
       count: results.timeline.length,
       color: "tag-actualite",
     },
     {
       key: "reseau",
-      label: "Réseau",
+      label: tn("reseau"),
       count: results.reseau.length,
       color: "tag-biographie",
     },
@@ -123,7 +127,7 @@ export default function SearchResults({ initialQuery }: { initialQuery?: string 
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Rechercher un événement, une controverse, une personne..."
+            placeholder={t("placeholder")}
             className="w-full bg-transparent text-foreground placeholder-muted/50 outline-none font-mono text-sm"
             autoFocus
           />
@@ -157,7 +161,7 @@ export default function SearchResults({ initialQuery }: { initialQuery?: string 
           {/* Stats + tabs */}
           <div className="flex items-center justify-between mb-4 flex-wrap gap-2">
             <p className="text-sm text-muted font-mono">
-              {total} résultat{total !== 1 ? "s" : ""}
+              {t("resultats", { count: total })}
             </p>
             <div className="flex gap-1.5">
               {tabs.map((tab) => (
@@ -181,7 +185,7 @@ export default function SearchResults({ initialQuery }: { initialQuery?: string 
             <section className="mb-6">
               {activeTab === "all" && (
                 <h2 className="text-sm font-mono font-bold text-neon-red mb-3">
-                  Controverses
+                  {tn("controverses")}
                 </h2>
               )}
               <div className="space-y-2">
@@ -192,7 +196,7 @@ export default function SearchResults({ initialQuery }: { initialQuery?: string 
                       className="!p-4 group cursor-pointer"
                     >
                       <div className="flex items-center gap-2 mb-1">
-                        <span className="tag tag-controverse">Controverse</span>
+                        <span className="tag tag-controverse">{tc("controverse")}</span>
                         <span className="text-[10px] font-mono text-neon-green">
                           {c.sources.length} source{c.sources.length > 1 ? "s" : ""}
                         </span>
@@ -225,7 +229,7 @@ export default function SearchResults({ initialQuery }: { initialQuery?: string 
             <section className="mb-6">
               {activeTab === "all" && (
                 <h2 className="text-sm font-mono font-bold text-cyan mb-3">
-                  Chronologie
+                  {t("chronologie")}
                 </h2>
               )}
               <div className="space-y-2">
@@ -270,7 +274,7 @@ export default function SearchResults({ initialQuery }: { initialQuery?: string 
             <section className="mb-6">
               {activeTab === "all" && (
                 <h2 className="text-sm font-mono font-bold text-magenta mb-3">
-                  Reseau
+                  {tn("reseau")}
                 </h2>
               )}
               <div className="space-y-2">
@@ -301,11 +305,10 @@ export default function SearchResults({ initialQuery }: { initialQuery?: string 
           {total === 0 && (
             <div className="text-center py-12">
               <p className="text-sm text-muted font-mono">
-                Aucun résultat pour &quot;{query}&quot;
+                {t("aucun", { query })}
               </p>
               <p className="text-xs text-muted/50 mt-2">
-                Essayez : CMA CGM, Rivotril, Gilets jaunes, Matignon, Young
-                Leaders...
+                {t("essayez")}
               </p>
             </div>
           )}
@@ -315,7 +318,7 @@ export default function SearchResults({ initialQuery }: { initialQuery?: string 
       {query.trim().length < 2 && (
         <div className="text-center py-12">
           <p className="text-sm text-muted font-mono mb-4">
-            Tapez au moins 2 caractères pour lancer la recherche
+            {t("suggestion")}
           </p>
           <div className="flex flex-wrap justify-center gap-2">
             {[

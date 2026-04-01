@@ -1,22 +1,24 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import GlassCard from "@/components/ui/GlassCard";
 import { blogPosts } from "@/lib/blog-data";
+import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "Blog",
-  description:
-    "Analyses, éditoriaux et enquêtes sur Édouard Philippe et son réseau.",
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pages.blog" });
+  return { title: t("title"), description: t("description") };
+}
 
-export default function BlogPage() {
+export default async function BlogPage() {
+  const t = await getTranslations("blog");
+
   return (
     <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-3xl font-bold mb-2">
-        <span className="text-cyan glow-cyan">Blog</span>
+        <span className="text-cyan glow-cyan">{t("titre")}</span>
       </h1>
       <p className="text-sm text-muted mb-8 font-mono">
-        Analyses, editoriaux et enquetes
+        {t("sousTitre")}
       </p>
 
       <div className="space-y-6">

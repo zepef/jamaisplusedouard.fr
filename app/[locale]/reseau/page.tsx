@@ -1,77 +1,65 @@
-import type { Metadata } from "next";
 import ReseauView from "@/components/reseau/ReseauView";
 import GlassCard from "@/components/ui/GlassCard";
 import { reseau } from "@/lib/seed-data";
+import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "Réseau — Cartographie des 4 centroïdes",
-  description:
-    "Cartographie interactive des réseaux croisés Juppé–Philippe–Raffarin–Villepin. 4 centroïdes, connexions politiques, chinoises, financières et médiatiques.",
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pages.reseau" });
+  return { title: t("title"), description: t("description") };
+}
 
-export default function ReseauPage() {
+export default async function ReseauPage() {
+  const t = await getTranslations("pages.reseau");
+
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-3xl font-bold mb-2">
-        <span className="text-magenta glow-magenta">Réseau</span>{" "}
-        <span className="text-foreground/40 text-xl">�� 4 centroïdes</span>
+        <span className="text-magenta glow-magenta">{t("heading")}</span>{" "}
+        <span className="text-foreground/40 text-xl">◈ {t("subheading")}</span>
       </h1>
       <p className="text-sm text-muted mb-4 font-mono">
-        {reseau.length} connexions cartographiées — le losange
-        Juppé–Philippe–Raffarin–Villepin
+        {t("subtitle", { count: reseau.length })}
       </p>
 
       {/* Analyse structurelle */}
       <GlassCard className="mb-8 !p-5">
         <h2 className="text-xs font-mono font-semibold text-cyan mb-3 uppercase tracking-wider">
-          Analyse structurelle — pourquoi 4 centroïdes convergent
+          {t("analyseStructurelle")}
         </h2>
         <p className="text-sm text-foreground/80 leading-relaxed mb-4">
-          Ces quatre figures ne partagent pas les mêmes objectifs — Villepin et
-          Philippe sont des concurrents directs pour 2027. Ce qu&apos;ils
-          partagent, ce sont des{" "}
-          <span className="text-cyan">conditions structurelles</span> qui
-          produisent des comportements convergents : même moule institutionnel
-          (Sciences Po → ENA → Conseil d&apos;État / Quai d&apos;Orsay), même
-          matrice chiraquienne, même logique de pantouflage, mêmes programmes de
-          sélection des élites (FAF, FCF).
+          {t("analyseText")}
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-[11px]">
           <div className="glass rounded-md p-3 border border-white/10">
-            <span className="font-bold text-white">AJ</span>
-            <span className="text-muted/60"> — Alain Juppé</span>
+            <span className="font-bold text-white">{t("centroïdes.juppé.initiales")}</span>
+            <span className="text-muted/60"> — {t("centroïdes.juppé.nom")}</span>
             <p className="text-muted/70 mt-1">
-              Parrain neutralisé au CC. La « Juppéie » forme l&apos;épine
-              dorsale d&apos;Horizons. Pouvoir résiduel : institutionnel,
-              symbolique, réticulaire.
+              {t("centroïdes.juppé.description")}
             </p>
           </div>
           <div className="glass rounded-md p-3 border border-cyan/20">
-            <span className="font-bold text-cyan">EP</span>
-            <span className="text-muted/60"> — Édouard Philippe</span>
+            <span className="font-bold text-cyan">{t("centroïdes.philippe.initiales")}</span>
+            <span className="text-muted/60"> — {t("centroïdes.philippe.nom")}</span>
             <p className="text-muted/70 mt-1">
-              Héritier opérationnel. R��seau chinois institutionnel (FCF, FAF).
-              Candidat déclaré 2027. Maire du Havre, président d&apos;Horizons.
+              {t("centroïdes.philippe.description")}
             </p>
           </div>
           <div className="glass rounded-md p-3 border border-purple-400/20">
-            <span className="font-bold text-purple-400">DDV</span>
-            <span className="text-muted/60"> — Dominique de Villepin</span>
+            <span className="font-bold text-purple-400">{t("centroïdes.villepin.initiales")}</span>
+            <span className="text-muted/60"> — {t("centroïdes.villepin.nom")}</span>
             <p className="text-muted/70 mt-1">
-              Réseau privé multipolaire et opaque (Chine, Qatar, Russie).
-              Concurrent direct de Philippe.{" "}
+              {t("centroïdes.villepin.description")}{" "}
               <span className="text-neon-red">
-                Aucun lien direct avec Philippe.
+                {t("centroïdes.villepin.warning")}
               </span>
             </p>
           </div>
           <div className="glass rounded-md p-3 border border-orange-400/20">
-            <span className="font-bold text-orange-400">JPR</span>
-            <span className="text-muted/60"> — Jean-Pierre Raffarin</span>
+            <span className="font-bold text-orange-400">{t("centroïdes.raffarin.initiales")}</span>
+            <span className="text-muted/60"> — {t("centroïdes.raffarin.nom")}</span>
             <p className="text-muted/70 mt-1">
-              Plaque tournante sino-française. Membre Horizons ET représentant
-              officiel pour la Chine. Alerté par la DGSI. Médaille de
-              l&apos;Amitié de Xi Jinping.
+              {t("centroïdes.raffarin.description")}
             </p>
           </div>
         </div>

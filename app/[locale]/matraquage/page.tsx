@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import GlassCard from "@/components/ui/GlassCard";
 import {
@@ -7,12 +6,13 @@ import {
   getStatsMedia,
   type MediaCategorie,
 } from "@/lib/media-data";
+import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "Matraquage médiatique",
-  description:
-    "Suivi du temps d'antenne accordé à Édouard Philippe sur les médias publics et les médias inféodés à la Macronie.",
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pages.matraquage" });
+  return { title: t("title"), description: t("description") };
+}
 
 const categorieLabels: Record<MediaCategorie, string> = {
   public: "Médias publics",
@@ -41,7 +41,9 @@ const tonaliteColors: Record<string, string> = {
   critique: "text-neon-green border-neon-green/30 bg-neon-green/8",
 };
 
-export default function MatraquagePage() {
+export default async function MatraquagePage() {
+  const t = await getTranslations("matraquage");
+  const tc = await getTranslations("common");
   const stats = getStatsMedia();
 
   // Sort apparitions by date desc
@@ -69,11 +71,10 @@ export default function MatraquagePage() {
   return (
     <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-3xl font-bold mb-2">
-        <span className="text-neon-red glow-red">Matraquage médiatique</span>
+        <span className="text-neon-red glow-red">{t("titre")}</span>
       </h1>
       <p className="text-sm text-muted mb-8 font-mono">
-        Suivi du temps d&apos;antenne et de la couverture médiatique d&apos;Édouard
-        Philippe — médias publics et médias inféodés
+        {t("sousTitre")}
       </p>
 
       {/* Stats globales */}
@@ -83,21 +84,21 @@ export default function MatraquagePage() {
             {stats.totalMinutes}
           </div>
           <div className="text-xs text-muted mt-1">
-            minutes d&apos;antenne
+            {t("minutesAntenne")}
           </div>
         </GlassCard>
         <GlassCard className="text-center !p-4">
           <div className="text-3xl font-bold font-mono text-cyan">
             {stats.totalApparitions}
           </div>
-          <div className="text-xs text-muted mt-1">apparitions</div>
+          <div className="text-xs text-muted mt-1">{t("apparitions")}</div>
         </GlassCard>
         <GlassCard className="text-center !p-4">
           <div className="text-3xl font-bold font-mono text-neon-red">
             {ratioFavorable}%
           </div>
           <div className="text-xs text-muted mt-1">
-            couverture favorable
+            {t("couvertureFavorable")}
           </div>
         </GlassCard>
         <GlassCard className="text-center !p-4">
@@ -105,7 +106,7 @@ export default function MatraquagePage() {
             {critique}
           </div>
           <div className="text-xs text-muted mt-1">
-            enquetes critiques
+            {t("enquetesCritiques")}
           </div>
         </GlassCard>
       </div>
@@ -113,7 +114,7 @@ export default function MatraquagePage() {
       {/* Barre de repartition tonalite */}
       <GlassCard glow="red" className="mb-8">
         <h2 className="text-sm font-mono font-bold text-foreground mb-3">
-          Tonalite de la couverture
+          {t("tonalite")}
         </h2>
         <div className="flex rounded-full overflow-hidden h-6 mb-3">
           {favorable > 0 && (
@@ -123,7 +124,7 @@ export default function MatraquagePage() {
                 width: `${(favorable / stats.totalApparitions) * 100}%`,
               }}
             >
-              {favorable} favorables
+              {favorable} {tc("favorable")}s
             </div>
           )}
           {neutre > 0 && (
@@ -133,7 +134,7 @@ export default function MatraquagePage() {
                 width: `${(neutre / stats.totalApparitions) * 100}%`,
               }}
             >
-              {neutre} neutres
+              {neutre} {tc("neutre")}s
             </div>
           )}
           {critique > 0 && (
@@ -143,7 +144,7 @@ export default function MatraquagePage() {
                 width: `${(critique / stats.totalApparitions) * 100}%`,
               }}
             >
-              {critique} critiques
+              {critique} {tc("critique")}s
             </div>
           )}
         </div>
@@ -171,7 +172,7 @@ export default function MatraquagePage() {
                   {categorieLabels[cat]}
                 </h3>
                 <span className="text-xs font-mono text-muted">
-                  {count} apparitions · {minutes} min
+                  {count} {t("apparitions")} · {minutes} min
                 </span>
               </div>
               <div className="flex flex-wrap gap-1.5">
@@ -191,7 +192,7 @@ export default function MatraquagePage() {
 
       {/* Classement des chaines */}
       <h2 className="text-lg font-bold text-foreground mb-4">
-        Classement par temps d&apos;antenne
+        {t("classement")}
       </h2>
       <div className="space-y-2 mb-8">
         {topChaines.map(({ chaine, minutes }, i) => {
@@ -238,7 +239,7 @@ export default function MatraquagePage() {
 
       {/* Timeline des apparitions */}
       <h2 className="text-lg font-bold text-foreground mb-4">
-        Apparitions recentes
+        {t("apparitionsRecentes")}
       </h2>
       <div className="space-y-3 mb-8">
         {recentApparitions.map((a, i) => {
@@ -259,7 +260,7 @@ export default function MatraquagePage() {
                       {chaine.nom}
                     </span>
                     <span className={`tag ${tonaliteColors[a.tonalite]}`}>
-                      {a.tonalite}
+                      {tc(a.tonalite as "favorable" | "neutre" | "critique")}
                     </span>
                     <span className="tag text-muted border-glass-border bg-glass">
                       {a.type}
@@ -286,7 +287,7 @@ export default function MatraquagePage() {
 
       {/* Qui possede quoi */}
       <h2 className="text-lg font-bold text-foreground mb-4">
-        Qui possede quoi — cartographie des proprietaires
+        {t("proprietaires")}
       </h2>
       <div className="space-y-3">
         {chainesMedia.map((c) => (
@@ -302,7 +303,7 @@ export default function MatraquagePage() {
                   {c.nom}
                 </h3>
                 <p className="text-xs text-muted/70 mt-0.5">
-                  Proprietaire : {c.proprietaire}
+                  {tc("proprietaire")} : {c.proprietaire}
                 </p>
                 <p className="text-xs text-muted mt-1">{c.description}</p>
                 <p className="text-xs text-neon-red/70 mt-1 italic">

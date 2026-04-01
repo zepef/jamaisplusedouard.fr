@@ -1,8 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 export default function NewsletterForm() {
+  const t = useTranslations("newsletter");
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [message, setMessage] = useState("");
@@ -21,16 +23,16 @@ export default function NewsletterForm() {
 
       if (res.ok) {
         setStatus("success");
-        setMessage("Inscription enregistrée. Vérifiez votre boîte mail — pensez à regarder vos spams si vous ne voyez pas l'email de confirmation.");
+        setMessage(t("succes"));
         setEmail("");
       } else {
         const data = await res.json();
         setStatus("error");
-        setMessage(data.error || "Une erreur est survenue.");
+        setMessage(data.error || t("erreur"));
       }
     } catch {
       setStatus("error");
-      setMessage("Erreur de connexion. Réessayez.");
+      setMessage(t("erreur"));
     }
   }
 
@@ -41,7 +43,7 @@ export default function NewsletterForm() {
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          placeholder="votre@email.fr"
+          placeholder={t("placeholder")}
           required
           className="flex-1 bg-transparent text-foreground placeholder-muted/50 outline-none font-mono text-sm px-3 py-2 rounded border border-glass-border focus:border-cyan/30 transition-colors"
         />
@@ -50,7 +52,7 @@ export default function NewsletterForm() {
           disabled={status === "loading"}
           className="tag tag-actualite cursor-pointer hover:bg-cyan/20 transition-colors px-4 py-2 disabled:opacity-50"
         >
-          {status === "loading" ? "..." : "S'abonner"}
+          {status === "loading" ? "..." : t("bouton")}
         </button>
       </div>
       {message && (

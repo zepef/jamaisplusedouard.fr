@@ -4,6 +4,7 @@ import GlassCard from "@/components/ui/GlassCard";
 import CommentSection from "@/components/blog/CommentSection";
 import { blogPosts } from "@/lib/blog-data";
 import { routing } from "@/i18n/routing";
+import { getTranslations } from "next-intl/server";
 
 export function generateStaticParams() {
   return blogPosts.flatMap((p) =>
@@ -34,6 +35,7 @@ export default async function BlogPostPage({
 }) {
   const { slug } = await params;
   const post = blogPosts.find((p) => p.slug === slug);
+  const tc = await getTranslations("common");
 
   if (!post) notFound();
 
@@ -43,7 +45,7 @@ export default async function BlogPostPage({
         href="/blog"
         className="text-xs font-mono text-muted hover:text-cyan transition-colors neon-underline"
       >
-        ← Retour au blog
+        {tc("retour")}
       </Link>
 
       <article className="mt-8">
@@ -76,7 +78,7 @@ export default async function BlogPostPage({
         {/* Sources */}
         <div className="mt-8">
           <h2 className="text-sm font-mono font-semibold text-neon-green mb-3">
-            Sources ({post.sources.length})
+            {tc("sources")} ({post.sources.length})
           </h2>
           <div className="space-y-2">
             {post.sources.map((source, i) => (

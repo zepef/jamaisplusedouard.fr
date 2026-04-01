@@ -2,8 +2,15 @@ import Link from "next/link";
 import GlassCard from "@/components/ui/GlassCard";
 import NewsletterForm from "@/components/ui/NewsletterForm";
 import { controverses, reseau, timeline, stats } from "@/lib/seed-data";
+import { getTranslations } from "next-intl/server";
 
-export default function Home() {
+export default async function Home() {
+  const tHero = await getTranslations("hero");
+  const tStats = await getTranslations("stats");
+  const tSections = await getTranslations("sections");
+  const tNewsletter = await getTranslations("newsletter");
+  const tc = await getTranslations("common");
+
   const topControverses = controverses.filter((c) => c.gravite === "haute").slice(0, 4);
   const recentTimeline = timeline.slice(-5).reverse();
 
@@ -17,14 +24,14 @@ export default function Home() {
           <span className="text-foreground">EDOUARD</span>
         </h1>
         <p className="text-lg text-muted max-w-2xl mx-auto font-mono">
-          Veille citoyenne sur Édouard Philippe
+          {tHero("tagline")}
         </p>
         <p className="text-sm text-muted/60 max-w-2xl mx-auto font-mono mt-2">
-          l&apos;IA au service du Citoyen
+          {tHero("subtitle")}
         </p>
         <div className="mt-6 flex items-center justify-center gap-2 text-xs text-muted/70">
           <span className="inline-block h-2 w-2 rounded-full bg-neon-green pulse-neon" />
-          <span className="font-mono">AGENTS EN LIGNE</span>
+          <span className="font-mono">{tHero("agentsOnline")}</span>
         </div>
       </section>
 
@@ -32,22 +39,22 @@ export default function Home() {
       <section className="mb-12">
         <GlassCard className="flex flex-wrap items-center justify-around gap-6 py-4">
           <Stat
-            label="Controverses"
+            label={tStats("controverses")}
             value={String(stats.controverses)}
             color="text-neon-red"
           />
           <Stat
-            label="Événements documentés"
+            label={tStats("evenements")}
             value={String(stats.articles)}
             color="text-cyan"
           />
           <Stat
-            label="Connexions réseau"
+            label={tStats("connexions")}
             value={String(stats.connexions)}
             color="text-magenta"
           />
           <Stat
-            label="Sources vérifiées"
+            label={tStats("sources")}
             value={String(stats.sources)}
             color="text-neon-green"
           />
@@ -60,13 +67,13 @@ export default function Home() {
         <section>
           <div className="flex items-center justify-between mb-6">
             <h2 className="text-xl font-bold text-neon-red glow-red">
-              Controverses majeures
+              {tSections("controversesMajeures")}
             </h2>
             <Link
               href="/controverses"
               className="text-xs font-mono text-muted hover:text-cyan transition-colors neon-underline"
             >
-              Voir tout →
+              {tSections("voirTout")}
             </Link>
           </div>
           <div className="space-y-4">
@@ -76,7 +83,7 @@ export default function Home() {
                   <div className="flex items-start justify-between gap-4">
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center gap-2">
-                        <span className="tag tag-controverse">Controverse</span>
+                        <span className="tag tag-controverse">{tc("controverse")}</span>
                         <span className="tag text-neon-red border-neon-red/30 bg-neon-red/8">
                           {item.gravite}
                         </span>
@@ -110,13 +117,13 @@ export default function Home() {
           <div className="mb-8">
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-xl font-bold text-cyan glow-cyan">
-                Chronologie récente
+                {tSections("chronologieRecente")}
               </h2>
               <Link
                 href="/biographie"
                 className="text-xs font-mono text-muted hover:text-cyan transition-colors neon-underline"
               >
-                Voir tout →
+                {tSections("voirTout")}
               </Link>
             </div>
             <div className="space-y-3">
@@ -150,13 +157,13 @@ export default function Home() {
           <div className="mb-8">
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-xl font-bold text-magenta glow-magenta">
-                Reseau
+                {tSections("reseau")}
               </h2>
               <Link
                 href="/reseau"
                 className="text-xs font-mono text-muted hover:text-cyan transition-colors neon-underline"
               >
-                Explorer →
+                {tSections("explorer")}
               </Link>
             </div>
             <Link href="/reseau">
@@ -166,7 +173,7 @@ export default function Home() {
                     {reseau.length}
                   </div>
                   <p className="text-sm text-muted">
-                    connexions cartographiées
+                    {tSections("connexionsCartographiees")}
                   </p>
                   <div className="mt-3 flex flex-wrap items-center justify-center gap-2">
                     {reseau.slice(0, 5).map((p) => (
@@ -189,10 +196,10 @@ export default function Home() {
           {/* Newsletter */}
           <div>
             <h2 className="text-lg font-bold text-foreground mb-4">
-              Newsletter
+              {tSections("newsletter")}
             </h2>
             <p className="text-xs text-muted mb-3">
-              Recevez les nouvelles publications par email.
+              {tNewsletter("description")}
             </p>
             <NewsletterForm />
           </div>

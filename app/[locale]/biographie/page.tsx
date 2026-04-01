@@ -1,12 +1,12 @@
-import type { Metadata } from "next";
 import GlassCard from "@/components/ui/GlassCard";
 import { timeline, ficheSynthetique } from "@/lib/seed-data";
+import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "Biographie",
-  description:
-    "Parcours politique complet d'Édouard Philippe, du Havre à Matignon et au-delà.",
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pages.biographie" });
+  return { title: t("title"), description: t("description") };
+}
 
 // Group by section
 const sections = timeline.reduce(
@@ -33,32 +33,51 @@ const sectionOrder = [
   "Réseau",
 ];
 
-export default function BiographiePage() {
+export default async function BiographiePage() {
+  const t = await getTranslations("pages.biographie");
+
+  // Map French section names (used as data keys) to translated display labels
+  const sectionDisplayNames: Record<string, string> = {
+    "Origines": t("sections.origines"),
+    "Formation": t("sections.formation"),
+    "Carrière": t("sections.carriere"),
+    "Le Havre": t("sections.leHavre"),
+    "Politique nationale": t("sections.politiqueNationale"),
+    "Matignon": t("sections.matignon"),
+    "Covid": t("sections.covid"),
+    "Horizons": t("sections.horizons"),
+    "Présidentielle 2027": t("sections.presidentielle2027"),
+    "Judiciaire": t("sections.judiciaire"),
+    "Réseau": t("sections.reseau"),
+  };
+
+  const ficheEntries: [string, string][] = [
+    [t("labels.nomComplet"), ficheSynthetique.nomComplet],
+    [t("labels.naissance"), `${ficheSynthetique.dateNaissance} (${ficheSynthetique.age} ans) — ${ficheSynthetique.lieuNaissance}`],
+    [t("labels.parti"), ficheSynthetique.parti],
+    [t("labels.fonctionActuelle"), ficheSynthetique.fonctionActuelle],
+    [t("labels.premierMinistre"), ficheSynthetique.premierMinistre],
+    [t("labels.formation"), ficheSynthetique.formation],
+    [t("labels.famille"), `${ficheSynthetique.conjoint} · ${ficheSynthetique.enfants}`],
+    [t("labels.candidature2027"), ficheSynthetique.candidature2027],
+  ];
+
   return (
     <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-3xl font-bold mb-2">
-        <span className="text-magenta glow-magenta">Biographie</span>
+        <span className="text-magenta glow-magenta">{t("title")}</span>
       </h1>
       <p className="text-sm text-muted mb-8 font-mono">
-        Édouard Charles Philippe — né le 28 novembre 1970 à Rouen
+        {t("subtitle")}
       </p>
 
       {/* Fiche synthétique */}
       <GlassCard glow="cyan" className="mb-12">
         <h2 className="text-sm font-mono font-bold text-cyan mb-4">
-          Fiche synthétique
+          {t("ficheSynthetique")}
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
-          {Object.entries({
-            "Nom complet": ficheSynthetique.nomComplet,
-            Naissance: `${ficheSynthetique.dateNaissance} (${ficheSynthetique.age} ans) — ${ficheSynthetique.lieuNaissance}`,
-            Parti: ficheSynthetique.parti,
-            "Fonction actuelle": ficheSynthetique.fonctionActuelle,
-            "Premier ministre": ficheSynthetique.premierMinistre,
-            Formation: ficheSynthetique.formation,
-            Famille: `${ficheSynthetique.conjoint} · ${ficheSynthetique.enfants}`,
-            "Candidature 2027": ficheSynthetique.candidature2027,
-          }).map(([key, value]) => (
+          {ficheEntries.map(([key, value]) => (
             <div key={key}>
               <span className="text-xs font-mono text-muted/50 uppercase">
                 {key}
@@ -77,7 +96,7 @@ export default function BiographiePage() {
         return (
           <section key={sectionName} className="mb-10">
             <h2 className="text-lg font-bold text-foreground mb-4 border-b border-glass-border pb-2">
-              {sectionName}
+              {sectionDisplayNames[sectionName] ?? sectionName}
             </h2>
             <div className="relative">
               {/* Vertical line */}
