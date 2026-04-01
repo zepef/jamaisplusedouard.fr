@@ -33,7 +33,7 @@ export async function generateMetadata({
   return {
     title: {
       default: t("title"),
-      template: t("titleTemplate"),
+      template: `%s | Jamais Plus Édouard`,
     },
     description: t("description"),
     openGraph: {
