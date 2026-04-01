@@ -13,30 +13,6 @@ type Props = {
 
 const ALL_TYPES = ["politique", "financier", "professionnel", "mediatique"];
 
-// Descriptions restent en français (contenu éditorial)
-const SOUS_RESEAU_DESCRIPTIONS: Record<SousReseau, string> = {
-  chiraquien:
-    "Le terreau commun : Chirac → Juppé → Philippe / Villepin / Raffarin. Tradition gaulliste de politique asiatique de la France.",
-  villepin:
-    "Réseau privé et opaque : Villepin International, sociétés à Hong Kong, Djouhri, Veolia/Proglio, conférences en Chine.",
-  "young-leaders":
-    "Réseau transatlantique de la French-American Foundation. Philippe (2011), Macron (2012), Juppé (1982).",
-  "sino-francais":
-    "France China Foundation, Belt and Road, CMA CGM Asie, Comité France-Chine. Le réseau qui relie Philippe et Villepin via Raffarin.",
-  matignon: "L'équipe rapprochée de Philippe à Matignon (2017-2020).",
-  "le-havre": "Le Havre, port HAROPA, CMA CGM, mentors locaux.",
-  entreprises:
-    "Areva, Atos, Debevoise, CMA CGM, Veolia — les employeurs et mandats.",
-  horizons: "Véhicule présidentiel 2027 fondé en 2021.",
-  facilitateurs:
-    "Agents facilitateurs transpartisans : Attali, Minc, Commission Attali. Connectent les centroïdes entre eux sans être eux-mêmes des centroïdes.",
-  portuaire:
-    "Triangle portuaire Le Havre : Kohler (MSC/Élysée), CMA CGM (Saadé/BFM), GPMH. Convergence du pouvoir politique, financier, médiatique et géostratégique.",
-  bilderberg:
-    "Le 7ème cercle : groupe Bilderberg (120-140 dirigeants, Chatham House). De Castries préside et sélectionne. Philippe (4 éditions), Attal (2), Macron (1). Promotions post-Bilderberg récurrentes.",
-  "coalition-2027":
-    "Tribune « Pour la France, construisons l'union ! » (29 mars 2026) — 90 signataires de 4 familles politiques convergent vers la candidature Philippe. Le 8ème cercle.",
-};
 
 const SOUS_RESEAU_COLORS: Record<SousReseau, string> = {
   chiraquien: "text-foreground",
@@ -89,6 +65,22 @@ export default function ReseauView({ personnes }: Props) {
     portuaire: tReseau("portuaire"),
     bilderberg: tReseau("bilderberg"),
     "coalition-2027": tReseau("coalition2027"),
+  };
+
+  // Descriptions traduites pour les sous-réseaux
+  const sousReseauDescriptions: Record<SousReseau, string> = {
+    chiraquien: tReseau("desc.chiraquien"),
+    villepin: tReseau("desc.villepin"),
+    "young-leaders": tReseau("desc.youngLeaders"),
+    "sino-francais": tReseau("desc.sinoFrancais"),
+    matignon: tReseau("desc.matignon"),
+    "le-havre": tReseau("desc.leHavre"),
+    entreprises: tReseau("desc.entreprises"),
+    horizons: tReseau("desc.horizons"),
+    facilitateurs: tReseau("desc.facilitateurs"),
+    portuaire: tReseau("desc.portuaire"),
+    bilderberg: tReseau("desc.bilderberg"),
+    "coalition-2027": tReseau("desc.coalition2027"),
   };
 
   const typeCounts = ALL_TYPES.map((type) => ({
@@ -152,7 +144,7 @@ export default function ReseauView({ personnes }: Props) {
       {activeSousReseau !== "all" && (
         <div className="glass rounded-lg p-4 mb-4 border border-cyan/20">
           <p className="text-xs text-muted">
-            {SOUS_RESEAU_DESCRIPTIONS[activeSousReseau]}
+            {sousReseauDescriptions[activeSousReseau]}
           </p>
         </div>
       )}
@@ -191,7 +183,7 @@ export default function ReseauView({ personnes }: Props) {
                   {sousReseauLabels[id]} ({members.length})
                 </h2>
                 <p className="text-xs text-muted mb-3">
-                  {SOUS_RESEAU_DESCRIPTIONS[id]}
+                  {sousReseauDescriptions[id]}
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                   {members.map((p) => (

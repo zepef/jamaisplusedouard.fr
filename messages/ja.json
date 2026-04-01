@@ -97,7 +97,21 @@
     "coalition2027": "連合2027",
     "facilitateurs": "仲介者",
     "portuaire": "港湾ネットワーク",
-    "connexions": "接続"
+    "connexions": "接続",
+    "desc": {
+      "chiraquien": "共通の土台：シラク→ジュペ→フィリップ/ビルパン/ラファラン。フランスのアジア政策のゴーリスト的伝統。",
+      "villepin": "非公開かつ不透明なネットワーク：Villepin International、香港の企業、ジューリ、Veolia/プロリオ、中国での会議。",
+      "youngLeaders": "French-American Foundationのトランスアトランティックネットワーク。フィリップ（2011年）、マクロン（2012年）、ジュペ（1982年）。",
+      "sinoFrancais": "France China Foundation、一帯一路、CMA CGMアジア、フランス中国委員会。ラファランを通じてフィリップとビルパンをつなぐネットワーク。",
+      "matignon": "マティニョンでのフィリップの側近チーム（2017-2020年）。",
+      "leHavre": "ル・アーブル、HARIOPAポート、CMA CGM、地元メンター。",
+      "entreprises": "Areva、Atos、Debevoise、CMA CGM、Veolia — 雇用主と委任。",
+      "horizons": "2021年設立の2027年大統領選のための政治的手段。",
+      "facilitateurs": "超党派の仲介エージェント：アタリ、マンク、アタリ委員会。自らは中心ノードにならず、中心ノード間を結ぶ。",
+      "portuaire": "ル・アーブルの港湾三角形：コレール（MSC/エリゼ）、CMA CGM（サアデ/BFM）、GPMH。政治、金融、メディア、地政学的権力の収束。",
+      "bilderberg": "第7の輪：ビルダーバーグ・グループ（120-140人のリーダー、チャタム・ハウス）。ド・カストリが議長を務め選抜する。フィリップ（4回）、アタル（2回）、マクロン（1回）。ビルダーバーグ後の昇進が繰り返し起きている。",
+      "coalition2027": "「フランスのために、団結を構築しよう！」声明（2026年3月29日）— 4つの政治的家族から90人の署名者がフィリップ候補に収束。第8の輪。"
+    }
   },
   "matraquage": {
     "titre": "メディア攻勢",

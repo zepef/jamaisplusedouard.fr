@@ -97,7 +97,21 @@
     "coalition2027": "Coalizione 2027",
     "facilitateurs": "Facilitatori",
     "portuaire": "Rete portuale",
-    "connexions": "connessione"
+    "connexions": "connessione",
+    "desc": {
+      "chiraquien": "Il terreno comune: Chirac → Juppé → Philippe / Villepin / Raffarin. Tradizione gollista della politica asiatica della Francia.",
+      "villepin": "Rete privata e opaca: Villepin International, società a Hong Kong, Djouhri, Veolia/Proglio, conferenze in Cina.",
+      "youngLeaders": "Rete transatlantica della French-American Foundation. Philippe (2011), Macron (2012), Juppé (1982).",
+      "sinoFrancais": "France China Foundation, Belt and Road, CMA CGM Asia, Comitato Francia-Cina. La rete che collega Philippe e Villepin attraverso Raffarin.",
+      "matignon": "La cerchia ristretta di Philippe a Matignon (2017-2020).",
+      "leHavre": "Le Havre, porto HAROPA, CMA CGM, mentori locali.",
+      "entreprises": "Areva, Atos, Debevoise, CMA CGM, Veolia — datori di lavoro e mandati.",
+      "horizons": "Veicolo presidenziale 2027 fondato nel 2021.",
+      "facilitateurs": "Agenti facilitatori transpartitici: Attali, Minc, Commissione Attali. Collegano i centroidi tra loro senza essere essi stessi centroidi.",
+      "portuaire": "Triangolo portuale di Le Havre: Kohler (MSC/Élysée), CMA CGM (Saadé/BFM), GPMH. Convergenza del potere politico, finanziario, mediatico e geostrategico.",
+      "bilderberg": "Il 7° cerchio: gruppo Bilderberg (120-140 dirigenti, Chatham House). De Castries presiede e seleziona. Philippe (4 edizioni), Attal (2), Macron (1). Promozioni post-Bilderberg ricorrenti.",
+      "coalition2027": "Tribuna 'Per la Francia, costruiamo l'unione!' (29 marzo 2026) — 90 firmatari di 4 famiglie politiche convergono verso la candidatura Philippe. L'8° cerchio."
+    }
   },
   "matraquage": {
     "titre": "Martellamento mediatico",
