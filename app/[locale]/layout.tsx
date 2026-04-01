@@ -31,6 +31,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "meta" });
 
   return {
+    metadataBase: new URL("https://jamaisplusedouard.fr"),
     title: {
       default: t("title"),
       template: `%s | Jamais Plus Édouard`,
