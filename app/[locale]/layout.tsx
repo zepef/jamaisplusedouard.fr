@@ -44,12 +44,20 @@ export async function generateMetadata({
       siteName: "jamaisplusedouard.fr",
       locale: locale === "fr" ? "fr_FR" : locale,
       type: "website",
+      images: [
+        {
+          url: "https://jamaisplusedouard.fr/api/og",
+          width: 1200,
+          height: 630,
+          alt: "Jamais Plus Édouard — Veille citoyenne sur Édouard Philippe",
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: "Jamais Plus Édouard",
       description: t("ogDescription"),
-      site: "@jamaisplusedouard",
+      images: ["https://jamaisplusedouard.fr/api/og"],
     },
   };
 }

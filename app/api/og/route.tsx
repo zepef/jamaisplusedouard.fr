@@ -1,10 +1,8 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Jamais Plus Édouard — Veille citoyenne sur Édouard Philippe";
-export const size = { width: 1200, height: 630 };
-export const contentType = "image/png";
+export const runtime = "edge";
 
-export default function Image() {
+export async function GET() {
   return new ImageResponse(
     (
       <div
@@ -29,7 +27,8 @@ export default function Image() {
             left: 0,
             right: 0,
             height: "4px",
-            background: "linear-gradient(90deg, #ff2233 0%, #ff2233 40%, #00f0ff 70%, #080810 100%)",
+            background:
+              "linear-gradient(90deg, #ff2233 0%, #ff2233 40%, #00f0ff 70%, #080810 100%)",
           }}
         />
 
@@ -72,7 +71,7 @@ export default function Image() {
           </div>
         </div>
 
-        {/* Main title — two separate divs instead of <br /> */}
+        {/* Main title */}
         <div
           style={{
             display: "flex",
@@ -100,7 +99,7 @@ export default function Image() {
               letterSpacing: "-0.02em",
             }}
           >
-            ÉDOUARD
+            {"\u00C9DOUARD"}
           </div>
         </div>
 
@@ -115,7 +114,7 @@ export default function Image() {
             lineHeight: 1.4,
           }}
         >
-          {"Biographie \u00B7 Controverses \u00B7 R\u00E9seau d'influence \u00B7 Conflits d'int\u00E9r\u00EAts"}
+          {"Biographie \u00B7 Controverses \u00B7 R\u00E9seau d\u2019influence \u00B7 Conflits d\u2019int\u00E9r\u00EAts"}
         </div>
 
         {/* Bottom domain */}
@@ -133,6 +132,13 @@ export default function Image() {
         </div>
       </div>
     ),
-    { ...size }
+    {
+      width: 1200,
+      height: 630,
+      headers: {
+        "Content-Type": "image/png",
+        "Cache-Control": "public, max-age=86400, immutable",
+      },
+    }
   );
 }
