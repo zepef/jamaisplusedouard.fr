@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import NetworkGraph from "./NetworkGraph";
 import Legend from "./Legend";
 import NodeCard from "./NodeCard";
@@ -12,103 +13,83 @@ type Props = {
 
 const ALL_TYPES = ["politique", "financier", "professionnel", "mediatique"];
 
-const SOUS_RESEAUX: {
-  id: SousReseau;
-  label: string;
-  color: string;
-  description: string;
-}[] = [
-  {
-    id: "chiraquien",
-    label: "Héritage chiraquien",
-    color: "text-foreground",
-    description:
-      "Le terreau commun : Chirac → Juppé → Philippe / Villepin / Raffarin. Tradition gaulliste de politique asiatique de la France.",
-  },
-  {
-    id: "villepin",
-    label: "Réseau Villepin",
-    color: "text-purple-400",
-    description:
-      "Réseau privé et opaque : Villepin International, sociétés à Hong Kong, Djouhri, Veolia/Proglio, conférences en Chine.",
-  },
-  {
-    id: "young-leaders",
-    label: "Young Leaders (FAF)",
-    color: "text-cyan",
-    description:
-      "Réseau transatlantique de la French-American Foundation. Philippe (2011), Macron (2012), Juppé (1982).",
-  },
-  {
-    id: "sino-francais",
-    label: "Réseau sino-français",
-    color: "text-neon-red",
-    description:
-      "France China Foundation, Belt and Road, CMA CGM Asie, Comité France-Chine. Le réseau qui relie Philippe et Villepin via Raffarin.",
-  },
-  {
-    id: "matignon",
-    label: "Cabinet Matignon",
-    color: "text-magenta",
-    description:
-      "L'équipe rapprochée de Philippe à Matignon (2017-2020).",
-  },
-  {
-    id: "le-havre",
-    label: "Réseau havrais",
-    color: "text-neon-green",
-    description:
-      "Le Havre, port HAROPA, CMA CGM, mentors locaux.",
-  },
-  {
-    id: "entreprises",
-    label: "Entreprises & lobbying",
-    color: "text-yellow-400",
-    description:
-      "Areva, Atos, Debevoise, CMA CGM, Veolia — les employeurs et mandats.",
-  },
-  {
-    id: "horizons",
-    label: "Parti Horizons",
-    color: "text-magenta",
-    description:
-      "Véhicule présidentiel 2027 fondé en 2021.",
-  },
-  {
-    id: "facilitateurs",
-    label: "Facilitateurs",
-    color: "text-yellow-400",
-    description:
-      "Agents facilitateurs transpartisans : Attali, Minc, Commission Attali. Connectent les centroïdes entre eux sans être eux-mêmes des centroïdes.",
-  },
-  {
-    id: "portuaire",
-    label: "Réseau portuaire",
-    color: "text-neon-green",
-    description:
-      "Triangle portuaire Le Havre : Kohler (MSC/Élysée), CMA CGM (Saadé/BFM), GPMH. Convergence du pouvoir politique, financier, médiatique et géostratégique.",
-  },
-  {
-    id: "bilderberg",
-    label: "Bilderberg",
-    color: "text-foreground",
-    description:
-      "Le 7ème cercle : groupe Bilderberg (120-140 dirigeants, Chatham House). De Castries préside et sélectionne. Philippe (4 éditions), Attal (2), Macron (1). Promotions post-Bilderberg récurrentes.",
-  },
-  {
-    id: "coalition-2027",
-    label: "Coalition 2027",
-    color: "text-cyan",
-    description:
-      "Tribune « Pour la France, construisons l'union ! » (29 mars 2026) — 90 signataires de 4 familles politiques convergent vers la candidature Philippe. Le 8ème cercle.",
-  },
+// Descriptions restent en français (contenu éditorial)
+const SOUS_RESEAU_DESCRIPTIONS: Record<SousReseau, string> = {
+  chiraquien:
+    "Le terreau commun : Chirac → Juppé → Philippe / Villepin / Raffarin. Tradition gaulliste de politique asiatique de la France.",
+  villepin:
+    "Réseau privé et opaque : Villepin International, sociétés à Hong Kong, Djouhri, Veolia/Proglio, conférences en Chine.",
+  "young-leaders":
+    "Réseau transatlantique de la French-American Foundation. Philippe (2011), Macron (2012), Juppé (1982).",
+  "sino-francais":
+    "France China Foundation, Belt and Road, CMA CGM Asie, Comité France-Chine. Le réseau qui relie Philippe et Villepin via Raffarin.",
+  matignon: "L'équipe rapprochée de Philippe à Matignon (2017-2020).",
+  "le-havre": "Le Havre, port HAROPA, CMA CGM, mentors locaux.",
+  entreprises:
+    "Areva, Atos, Debevoise, CMA CGM, Veolia — les employeurs et mandats.",
+  horizons: "Véhicule présidentiel 2027 fondé en 2021.",
+  facilitateurs:
+    "Agents facilitateurs transpartisans : Attali, Minc, Commission Attali. Connectent les centroïdes entre eux sans être eux-mêmes des centroïdes.",
+  portuaire:
+    "Triangle portuaire Le Havre : Kohler (MSC/Élysée), CMA CGM (Saadé/BFM), GPMH. Convergence du pouvoir politique, financier, médiatique et géostratégique.",
+  bilderberg:
+    "Le 7ème cercle : groupe Bilderberg (120-140 dirigeants, Chatham House). De Castries préside et sélectionne. Philippe (4 éditions), Attal (2), Macron (1). Promotions post-Bilderberg récurrentes.",
+  "coalition-2027":
+    "Tribune « Pour la France, construisons l'union ! » (29 mars 2026) — 90 signataires de 4 familles politiques convergent vers la candidature Philippe. Le 8ème cercle.",
+};
+
+const SOUS_RESEAU_COLORS: Record<SousReseau, string> = {
+  chiraquien: "text-foreground",
+  villepin: "text-purple-400",
+  "young-leaders": "text-cyan",
+  "sino-francais": "text-neon-red",
+  matignon: "text-magenta",
+  "le-havre": "text-neon-green",
+  entreprises: "text-yellow-400",
+  horizons: "text-magenta",
+  facilitateurs: "text-yellow-400",
+  portuaire: "text-neon-green",
+  bilderberg: "text-foreground",
+  "coalition-2027": "text-cyan",
+};
+
+const SOUS_RESEAU_ORDER: SousReseau[] = [
+  "chiraquien",
+  "villepin",
+  "young-leaders",
+  "sino-francais",
+  "matignon",
+  "le-havre",
+  "entreprises",
+  "horizons",
+  "facilitateurs",
+  "portuaire",
+  "bilderberg",
+  "coalition-2027",
 ];
 
 export default function ReseauView({ personnes }: Props) {
+  const tReseau = useTranslations("reseauPage");
   const [activeTypes, setActiveTypes] = useState<string[]>(ALL_TYPES);
   const [activeSousReseau, setActiveSousReseau] = useState<SousReseau | "all">(
     "all"
   );
+
+  // Labels traduits pour les sous-réseaux
+  const sousReseauLabels: Record<SousReseau, string> = {
+    chiraquien: tReseau("chiraquien"),
+    villepin: tReseau("villepin"),
+    "young-leaders": tReseau("youngLeaders"),
+    "sino-francais": tReseau("sinoFrancais"),
+    matignon: tReseau("matignon"),
+    "le-havre": tReseau("leHavre"),
+    entreprises: tReseau("entreprises"),
+    horizons: tReseau("horizons"),
+    facilitateurs: tReseau("facilitateurs"),
+    portuaire: tReseau("portuaire"),
+    bilderberg: tReseau("bilderberg"),
+    "coalition-2027": tReseau("coalition2027"),
+  };
 
   const typeCounts = ALL_TYPES.map((type) => ({
     type,
@@ -142,27 +123,25 @@ export default function ReseauView({ personnes }: Props) {
                 : "text-muted border-glass-border bg-glass hover:border-cyan/30"
             }`}
           >
-            Tous ({personnes.length})
+            {tReseau("tous")} ({personnes.length})
           </button>
-          {SOUS_RESEAUX.map((sr) => {
+          {SOUS_RESEAU_ORDER.map((id) => {
             const count = personnes.filter(
-              (p) => p.sousReseaux && p.sousReseaux.includes(sr.id)
+              (p) => p.sousReseaux && p.sousReseaux.includes(id)
             ).length;
             return (
               <button
-                key={sr.id}
+                key={id}
                 onClick={() =>
-                  setActiveSousReseau(
-                    activeSousReseau === sr.id ? "all" : sr.id
-                  )
+                  setActiveSousReseau(activeSousReseau === id ? "all" : id)
                 }
                 className={`tag cursor-pointer transition-colors ${
-                  activeSousReseau === sr.id
+                  activeSousReseau === id
                     ? "tag-actualite"
                     : "text-muted border-glass-border bg-glass hover:border-cyan/30"
                 }`}
               >
-                {sr.label} ({count})
+                {sousReseauLabels[id]} ({count})
               </button>
             );
           })}
@@ -173,10 +152,7 @@ export default function ReseauView({ personnes }: Props) {
       {activeSousReseau !== "all" && (
         <div className="glass rounded-lg p-4 mb-4 border border-cyan/20">
           <p className="text-xs text-muted">
-            {
-              SOUS_RESEAUX.find((sr) => sr.id === activeSousReseau)
-                ?.description
-            }
+            {SOUS_RESEAU_DESCRIPTIONS[activeSousReseau]}
           </p>
         </div>
       )}
@@ -194,8 +170,7 @@ export default function ReseauView({ personnes }: Props) {
       <div className="glass rounded-lg p-2 mb-8 border-glow-cyan">
         <NetworkGraph personnes={filtered} activeTypes={activeTypes} />
         <p className="text-[10px] text-muted/30 text-center mt-2 font-mono">
-          Cliquer sur un noeud pour voir sa fiche · Glisser pour deplacer ·
-          Molette pour zoomer
+          {tReseau("grapheAide")}
         </p>
       </div>
 
@@ -203,19 +178,21 @@ export default function ReseauView({ personnes }: Props) {
       {activeSousReseau === "all" ? (
         // Show by sous-réseau sections
         <>
-          {SOUS_RESEAUX.map((sr) => {
+          {SOUS_RESEAU_ORDER.map((id) => {
             const members = filtered.filter(
-              (p) => p.sousReseaux && p.sousReseaux.includes(sr.id)
+              (p) => p.sousReseaux && p.sousReseaux.includes(id)
             );
             if (members.length === 0) return null;
             return (
-              <section key={sr.id} className="mb-8">
+              <section key={id} className="mb-8">
                 <h2
-                  className={`text-lg font-bold mb-1 ${sr.color}`}
+                  className={`text-lg font-bold mb-1 ${SOUS_RESEAU_COLORS[id]}`}
                 >
-                  {sr.label} ({members.length})
+                  {sousReseauLabels[id]} ({members.length})
                 </h2>
-                <p className="text-xs text-muted mb-3">{sr.description}</p>
+                <p className="text-xs text-muted mb-3">
+                  {SOUS_RESEAU_DESCRIPTIONS[id]}
+                </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                   {members.map((p) => (
                     <NodeCard key={p.slug} personne={p} />
@@ -229,7 +206,9 @@ export default function ReseauView({ personnes }: Props) {
         // Show flat list for filtered sous-réseau
         <>
           <h2 className="text-lg font-semibold text-foreground mb-4">
-            {filtered.length} connexion{filtered.length > 1 ? "s" : ""}
+            {filtered.length}{" "}
+            {tReseau("connexions")}
+            {filtered.length > 1 ? "s" : ""}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
             {filtered.map((p) => (

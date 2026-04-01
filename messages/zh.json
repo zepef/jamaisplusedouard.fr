@@ -92,7 +92,12 @@
     "autresConnexions": "其他连接",
     "plusConnexions": "+ {count}个连接",
     "villepin": "维勒潘网络",
-    "chiraquien": "希拉克遗产"
+    "chiraquien": "希拉克遗产",
+    "bilderberg": "比尔德伯格",
+    "coalition2027": "2027联盟",
+    "facilitateurs": "协调者",
+    "portuaire": "港口网络",
+    "connexions": "连接"
   },
   "matraquage": {
     "titre": "媒体轰炸",
@@ -130,7 +135,13 @@
     "spam": "垃圾信息",
     "masque": "隐藏内容——已被社区标记。点击查看。",
     "aucun": "暂无评论。成为第一个发表评论的人。",
-    "publie": "评论已发布。"
+    "publie": "评论已发布。",
+    "erreur": "错误。",
+    "erreurConnexion": "连接错误。",
+    "signaleConfirm": "评论已举报（{motif}）。谢谢。",
+    "pseudoPlaceholder": "昵称（可选）",
+    "ouAnonyme": "或匿名",
+    "signaleTag": "已举报"
   },
   "soumettre": {
     "titre": "提交您的信息",
@@ -145,7 +156,23 @@
     },
     "formulaire": "提交表单",
     "canaux": "安全替代渠道",
-    "engagement": "我们的承诺"
+    "engagement": "我们的承诺",
+    "form": {
+      "labelCategorie": "信息类型",
+      "labelContenu": "您的信息 *",
+      "placeholderContenu": "请描述您掌握的信息。尽量详细：日期、姓名、地点、背景...",
+      "labelSources": "来源/证据（链接、文件参考、日期）",
+      "placeholderSources": "文章链接、官方文件参考、法令编号、发布日期...",
+      "anonyme": "匿名提交",
+      "nonAnonyme": "我希望被联系",
+      "labelContact": "如何联系您（电子邮件、Signal、其他）",
+      "placeholderContact": "email@protonmail.com 或Signal号码",
+      "boutonEnvoi": "发送中...",
+      "bouton": "提交",
+      "msgSucces": "信息已收到。发布前将进行核实。",
+      "msgErreur": "发生错误。",
+      "msgConnexion": "连接错误，请重试。"
+    }
   },
   "footer": {
     "veille": "公民监督——言论自由（DDHC第11条）",

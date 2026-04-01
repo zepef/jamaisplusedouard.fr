@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 type Categorie =
   | "conflits-interets"
@@ -9,15 +10,8 @@ type Categorie =
   | "matraquage"
   | "autre";
 
-const categorieLabels: Record<Categorie, string> = {
-  "conflits-interets": "Conflits d'intérêts",
-  reseau: "Réseau d'influence",
-  "gestion-locale": "Gestion locale (Le Havre)",
-  matraquage: "Matraquage médiatique",
-  autre: "Autre",
-};
-
 export default function SubmitForm() {
+  const t = useTranslations("soumettre");
   const [categorie, setCategorie] = useState<Categorie>("conflits-interets");
   const [contenu, setContenu] = useState("");
   const [sources, setSources] = useState("");
@@ -27,6 +21,14 @@ export default function SubmitForm() {
     "idle" | "loading" | "success" | "error"
   >("idle");
   const [message, setMessage] = useState("");
+
+  const categorieLabels: Record<Categorie, string> = {
+    "conflits-interets": t("categories.conflitsInterets"),
+    reseau: t("categories.reseau"),
+    "gestion-locale": t("categories.gestionLocale"),
+    matraquage: t("categories.matraquage"),
+    autre: t("categories.autre"),
+  };
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -48,20 +50,18 @@ export default function SubmitForm() {
 
       if (res.ok) {
         setStatus("success");
-        setMessage(
-          "Information reçue. Elle sera vérifiée et croisée avant toute publication."
-        );
+        setMessage(t("form.msgSucces"));
         setContenu("");
         setSources("");
         setContact("");
       } else {
         const data = await res.json();
         setStatus("error");
-        setMessage(data.error || "Une erreur est survenue.");
+        setMessage(data.error || t("form.msgErreur"));
       }
     } catch {
       setStatus("error");
-      setMessage("Erreur de connexion. Réessayez.");
+      setMessage(t("form.msgConnexion"));
     }
   }
 
@@ -70,7 +70,7 @@ export default function SubmitForm() {
       {/* Categorie */}
       <div>
         <label className="text-xs font-mono text-muted/70 block mb-1.5">
-          Type d&apos;information
+          {t("form.labelCategorie")}
         </label>
         <div className="flex flex-wrap gap-2">
           {(Object.keys(categorieLabels) as Categorie[]).map((cat) => (
@@ -96,7 +96,7 @@ export default function SubmitForm() {
           htmlFor="contenu"
           className="text-xs font-mono text-muted/70 block mb-1.5"
         >
-          Votre information *
+          {t("form.labelContenu")}
         </label>
         <textarea
           id="contenu"
@@ -104,7 +104,7 @@ export default function SubmitForm() {
           onChange={(e) => setContenu(e.target.value)}
           required
           rows={6}
-          placeholder="Décrivez l'information dont vous disposez. Soyez aussi précis que possible : dates, noms, lieux, contexte..."
+          placeholder={t("form.placeholderContenu")}
           className="w-full bg-glass text-foreground placeholder-muted/30 outline-none font-mono text-sm px-3 py-2 rounded border border-glass-border focus:border-cyan/30 transition-colors resize-y"
         />
       </div>
@@ -115,14 +115,14 @@ export default function SubmitForm() {
           htmlFor="sources"
           className="text-xs font-mono text-muted/70 block mb-1.5"
         >
-          Sources / preuves (URLs, références de documents, dates)
+          {t("form.labelSources")}
         </label>
         <textarea
           id="sources"
           value={sources}
           onChange={(e) => setSources(e.target.value)}
           rows={3}
-          placeholder="URLs d'articles, références de documents officiels, numéros de décrets, dates de publication..."
+          placeholder={t("form.placeholderSources")}
           className="w-full bg-glass text-foreground placeholder-muted/30 outline-none font-mono text-sm px-3 py-2 rounded border border-glass-border focus:border-cyan/30 transition-colors resize-y"
         />
       </div>
@@ -145,9 +145,7 @@ export default function SubmitForm() {
           />
         </button>
         <span className="text-sm text-muted">
-          {anonyme
-            ? "Soumission anonyme"
-            : "Je souhaite être recontacté"}
+          {anonyme ? t("form.anonyme") : t("form.nonAnonyme")}
         </span>
       </div>
 
@@ -158,14 +156,14 @@ export default function SubmitForm() {
             htmlFor="contact"
             className="text-xs font-mono text-muted/70 block mb-1.5"
           >
-            Comment vous recontacter (email, Signal, autre)
+            {t("form.labelContact")}
           </label>
           <input
             id="contact"
             type="text"
             value={contact}
             onChange={(e) => setContact(e.target.value)}
-            placeholder="email@protonmail.com ou numéro Signal"
+            placeholder={t("form.placeholderContact")}
             className="w-full bg-glass text-foreground placeholder-muted/30 outline-none font-mono text-sm px-3 py-2 rounded border border-glass-border focus:border-cyan/30 transition-colors"
           />
         </div>
@@ -177,7 +175,7 @@ export default function SubmitForm() {
         disabled={status === "loading" || !contenu.trim()}
         className="tag tag-actualite cursor-pointer hover:bg-cyan/20 transition-colors px-6 py-2.5 text-sm disabled:opacity-50"
       >
-        {status === "loading" ? "Envoi en cours..." : "Soumettre"}
+        {status === "loading" ? t("form.boutonEnvoi") : t("form.bouton")}
       </button>
 
       {message && (

@@ -92,7 +92,12 @@
     "autresConnexions": "Weitere Verbindungen",
     "plusConnexions": "+ {count} Verbindungen",
     "villepin": "Villepin-Netzwerk",
-    "chiraquien": "Chirac-Erbe"
+    "chiraquien": "Chirac-Erbe",
+    "bilderberg": "Bilderberg",
+    "coalition2027": "Koalition 2027",
+    "facilitateurs": "Vermittler",
+    "portuaire": "Hafennetzwerk",
+    "connexions": "Verbindung"
   },
   "matraquage": {
     "titre": "Medienpräsenz",
@@ -130,7 +135,13 @@
     "spam": "Spam",
     "masque": "Verborgener Inhalt — von der Community gemeldet. Klicken zum Anzeigen.",
     "aucun": "Keine Kommentare. Seien Sie der Erste, der reagiert.",
-    "publie": "Kommentar veröffentlicht."
+    "publie": "Kommentar veröffentlicht.",
+    "erreur": "Fehler.",
+    "erreurConnexion": "Verbindungsfehler.",
+    "signaleConfirm": "Kommentar gemeldet für {motif}. Danke.",
+    "pseudoPlaceholder": "Benutzername (optional)",
+    "ouAnonyme": "oder anonym",
+    "signaleTag": "gemeldet"
   },
   "soumettre": {
     "titre": "Reichen Sie Ihre Informationen ein",
@@ -145,7 +156,23 @@
     },
     "formulaire": "Einreichungsformular",
     "canaux": "Sichere alternative Kanäle",
-    "engagement": "Unsere Verpflichtung"
+    "engagement": "Unsere Verpflichtung",
+    "form": {
+      "labelCategorie": "Art der Information",
+      "labelContenu": "Ihre Information *",
+      "placeholderContenu": "Beschreiben Sie die Information. Bitte so präzise wie möglich: Daten, Namen, Orte, Kontext...",
+      "labelSources": "Quellen / Beweise (URLs, Dokumentenreferenzen, Daten)",
+      "placeholderSources": "Artikel-URLs, amtliche Dokumentenreferenzen, Erlassnummern, Veröffentlichungsdaten...",
+      "anonyme": "Anonyme Einreichung",
+      "nonAnonyme": "Ich möchte kontaktiert werden",
+      "labelContact": "Wie Sie kontaktiert werden können (E-Mail, Signal, andere)",
+      "placeholderContact": "email@protonmail.com oder Signal-Nummer",
+      "boutonEnvoi": "Wird gesendet...",
+      "bouton": "Einreichen",
+      "msgSucces": "Information erhalten. Sie wird vor der Veröffentlichung geprüft.",
+      "msgErreur": "Ein Fehler ist aufgetreten.",
+      "msgConnexion": "Verbindungsfehler. Versuchen Sie es erneut."
+    }
   },
   "footer": {
     "veille": "Bürgerüberwachung — Meinungsfreiheit (Art. 11 DDHC)",

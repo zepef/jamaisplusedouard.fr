@@ -92,7 +92,12 @@
     "autresConnexions": "他の接続",
     "plusConnexions": "+ {count}件の接続",
     "villepin": "ヴィルパンネットワーク",
-    "chiraquien": "シラクの遺産"
+    "chiraquien": "シラクの遺産",
+    "bilderberg": "ビルダーバーグ",
+    "coalition2027": "連合2027",
+    "facilitateurs": "仲介者",
+    "portuaire": "港湾ネットワーク",
+    "connexions": "接続"
   },
   "matraquage": {
     "titre": "メディア攻勢",
@@ -130,7 +135,13 @@
     "spam": "スパム",
     "masque": "非表示コンテンツ — コミュニティにより報告済み。クリックして表示。",
     "aucun": "コメントはまだありません。最初のコメントを投稿しましょう。",
-    "publie": "コメントが投稿されました。"
+    "publie": "コメントが投稿されました。",
+    "erreur": "エラー。",
+    "erreurConnexion": "接続エラー。",
+    "signaleConfirm": "コメントを{motif}として報告しました。ありがとう。",
+    "pseudoPlaceholder": "ニックネーム（任意）",
+    "ouAnonyme": "または匿名で",
+    "signaleTag": "報告済み"
   },
   "soumettre": {
     "titre": "情報を提供する",
@@ -145,7 +156,23 @@
     },
     "formulaire": "提出フォーム",
     "canaux": "安全な代替連絡手段",
-    "engagement": "私たちの約束"
+    "engagement": "私たちの約束",
+    "form": {
+      "labelCategorie": "情報の種類",
+      "labelContenu": "あなたの情報 *",
+      "placeholderContenu": "お持ちの情報を説明してください。できるだけ正確に：日付、名前、場所、状況...",
+      "labelSources": "情報源・証拠（URL、文書参照、日付）",
+      "placeholderSources": "記事URL、公式文書参照、政令番号、発行日...",
+      "anonyme": "匿名で送信",
+      "nonAnonyme": "連絡を希望します",
+      "labelContact": "連絡方法（メール、Signal、その他）",
+      "placeholderContact": "email@protonmail.com またはSignal番号",
+      "boutonEnvoi": "送信中...",
+      "bouton": "送信",
+      "msgSucces": "情報を受け取りました。公開前に確認されます。",
+      "msgErreur": "エラーが発生しました。",
+      "msgConnexion": "接続エラー。もう一度お試しください。"
+    }
   },
   "footer": {
     "veille": "市民監視 — 表現の自由（DDHC第11条）",

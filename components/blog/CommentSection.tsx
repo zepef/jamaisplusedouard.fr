@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import GlassCard from "@/components/ui/GlassCard";
+import { useTranslations } from "next-intl";
 
 type Commentaire = {
   id: string;
@@ -19,6 +20,7 @@ type Props = {
 };
 
 export default function CommentSection({ articleSlug }: Props) {
+  const t = useTranslations("commentaires");
   const [commentaires, setCommentaires] = useState<Commentaire[]>([]);
   const [pseudo, setPseudo] = useState("");
   const [contenu, setContenu] = useState("");
@@ -62,18 +64,18 @@ export default function CommentSection({ articleSlug }: Props) {
 
       if (res.ok) {
         setStatus("success");
-        setMessage("Commentaire publié.");
+        setMessage(t("publie"));
         setContenu("");
         loadComments();
         setTimeout(() => setMessage(""), 3000);
       } else {
         const data = await res.json();
         setStatus("error");
-        setMessage(data.error || "Erreur.");
+        setMessage(data.error || t("erreur"));
       }
     } catch {
       setStatus("error");
-      setMessage("Erreur de connexion.");
+      setMessage(t("erreurConnexion"));
     }
   }
 
@@ -102,7 +104,7 @@ export default function CommentSection({ articleSlug }: Props) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ commentId, motif }),
       });
-      setMessage(`Commentaire signalé pour ${motif}. Merci.`);
+      setMessage(t("signaleConfirm", { motif }));
       setTimeout(() => setMessage(""), 3000);
       loadComments();
     } catch {
@@ -126,7 +128,7 @@ export default function CommentSection({ articleSlug }: Props) {
   return (
     <div className="mt-12">
       <h2 className="text-lg font-bold text-foreground mb-6">
-        Commentaires ({commentaires.length})
+        {t("titre")} ({commentaires.length})
       </h2>
 
       {/* Formulaire */}
@@ -137,32 +139,31 @@ export default function CommentSection({ articleSlug }: Props) {
               type="text"
               value={pseudo}
               onChange={(e) => setPseudo(e.target.value)}
-              placeholder="Pseudo (optionnel)"
+              placeholder={t("pseudoPlaceholder")}
               className="w-40 bg-glass text-foreground placeholder-muted/30 outline-none font-mono text-sm px-3 py-2 rounded border border-glass-border focus:border-cyan/30 transition-colors"
             />
             <span className="text-xs text-muted/50 self-center">
-              ou anonyme
+              {t("ouAnonyme")}
             </span>
           </div>
           <textarea
             value={contenu}
             onChange={(e) => setContenu(e.target.value)}
-            placeholder="Votre commentaire... Restez factuel et sourcez vos affirmations."
+            placeholder={t("placeholder")}
             required
             rows={3}
             className="w-full bg-glass text-foreground placeholder-muted/30 outline-none font-mono text-sm px-3 py-2 rounded border border-glass-border focus:border-cyan/30 transition-colors resize-y"
           />
           <div className="flex items-center justify-between">
             <p className="text-[10px] text-muted/40">
-              Les commentaires insultants ou diffusant de fausses informations
-              seront signalés par la communauté.
+              {t("avertissement")}
             </p>
             <button
               type="submit"
               disabled={status === "loading" || !contenu.trim()}
               className="tag tag-actualite cursor-pointer hover:bg-cyan/20 transition-colors px-4 py-2 disabled:opacity-50 shrink-0"
             >
-              {status === "loading" ? "..." : "Publier"}
+              {status === "loading" ? "..." : t("publier")}
             </button>
           </div>
           {message && (
@@ -182,21 +183,21 @@ export default function CommentSection({ articleSlug }: Props) {
         <div className="flex gap-2 mb-4">
           {(
             [
-              { key: "recent", label: "Récents" },
-              { key: "utile", label: "Plus utiles" },
-              { key: "signale", label: "Plus signalés" },
+              { key: "recent", label: t("recents") },
+              { key: "utile", label: t("plusUtiles") },
+              { key: "signale", label: t("plusSignales") },
             ] as const
-          ).map((t) => (
+          ).map((item) => (
             <button
-              key={t.key}
-              onClick={() => setTri(t.key)}
+              key={item.key}
+              onClick={() => setTri(item.key)}
               className={`tag cursor-pointer transition-colors ${
-                tri === t.key
+                tri === item.key
                   ? "tag-actualite"
                   : "text-muted border-glass-border bg-glass"
               }`}
             >
-              {t.label}
+              {item.label}
             </button>
           ))}
         </div>
@@ -236,7 +237,7 @@ export default function CommentSection({ articleSlug }: Props) {
                 </div>
                 {isSignaled && (
                   <span className="tag text-neon-red border-neon-red/30 bg-neon-red/8">
-                    signalé ({totalSignalements})
+                    {t("signaleTag")} ({totalSignalements})
                   </span>
                 )}
               </div>
@@ -245,8 +246,7 @@ export default function CommentSection({ articleSlug }: Props) {
               {isSignaled ? (
                 <details>
                   <summary className="text-xs text-neon-red/70 cursor-pointer">
-                    Contenu masqué — signalé par la communauté. Cliquer pour
-                    afficher.
+                    {t("masque")}
                   </summary>
                   <p className="text-sm text-muted mt-2 italic">{c.contenu}</p>
                 </details>
@@ -262,26 +262,26 @@ export default function CommentSection({ articleSlug }: Props) {
                     onClick={() => handleVote(c.id, "utile")}
                     className="text-[10px] font-mono text-muted/50 hover:text-neon-green transition-colors cursor-pointer"
                   >
-                    ▲ Utile ({c.notes.utile})
+                    ▲ {t("utile")} ({c.notes.utile})
                   </button>
                   <span className="text-muted/20">|</span>
                   <button
                     onClick={() => handleVote(c.id, "inutile")}
                     className="text-[10px] font-mono text-muted/50 hover:text-neon-red transition-colors cursor-pointer"
                   >
-                    ▼ Inutile ({c.notes.inutile})
+                    ▼ {t("inutile")} ({c.notes.inutile})
                   </button>
                 </div>
 
                 {/* Signalements */}
                 <div className="flex items-center gap-1">
-                  <span className="text-[10px] text-muted/30">Signaler :</span>
+                  <span className="text-[10px] text-muted/30">{t("signaler")}</span>
                   <button
                     onClick={() => handleSignal(c.id, "insulte")}
                     className="text-[10px] font-mono text-muted/40 hover:text-neon-red transition-colors cursor-pointer"
                     title="Contenu insultant"
                   >
-                    Insulte
+                    {t("insulte")}
                     {c.signalements.insulte > 0 &&
                       ` (${c.signalements.insulte})`}
                   </button>
@@ -291,7 +291,7 @@ export default function CommentSection({ articleSlug }: Props) {
                     className="text-[10px] font-mono text-muted/40 hover:text-neon-red transition-colors cursor-pointer"
                     title="Fausses informations"
                   >
-                    Désinfo
+                    {t("desinfo")}
                     {c.signalements.desinformation > 0 &&
                       ` (${c.signalements.desinformation})`}
                   </button>
@@ -301,7 +301,7 @@ export default function CommentSection({ articleSlug }: Props) {
                     className="text-[10px] font-mono text-muted/40 hover:text-neon-red transition-colors cursor-pointer"
                     title="Spam ou hors-sujet"
                   >
-                    Spam
+                    {t("spam")}
                     {c.signalements.spam > 0 && ` (${c.signalements.spam})`}
                   </button>
                 </div>
@@ -313,7 +313,7 @@ export default function CommentSection({ articleSlug }: Props) {
 
       {commentaires.length === 0 && (
         <p className="text-sm text-muted/50 text-center py-8 font-mono">
-          Aucun commentaire. Soyez le premier à réagir.
+          {t("aucun")}
         </p>
       )}
     </div>

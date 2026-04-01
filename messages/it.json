@@ -92,7 +92,12 @@
     "autresConnexions": "Altre connessioni",
     "plusConnexions": "+ {count} connessioni",
     "villepin": "Rete Villepin",
-    "chiraquien": "Eredità chiraquiana"
+    "chiraquien": "Eredità chiraquiana",
+    "bilderberg": "Bilderberg",
+    "coalition2027": "Coalizione 2027",
+    "facilitateurs": "Facilitatori",
+    "portuaire": "Rete portuale",
+    "connexions": "connessione"
   },
   "matraquage": {
     "titre": "Martellamento mediatico",
@@ -130,7 +135,13 @@
     "spam": "Spam",
     "masque": "Contenuto nascosto — segnalato dalla comunità. Clicca per mostrare.",
     "aucun": "Nessun commento. Sii il primo a reagire.",
-    "publie": "Commento pubblicato."
+    "publie": "Commento pubblicato.",
+    "erreur": "Errore.",
+    "erreurConnexion": "Errore di connessione.",
+    "signaleConfirm": "Commento segnalato per {motif}. Grazie.",
+    "pseudoPlaceholder": "Pseudonimo (opzionale)",
+    "ouAnonyme": "o anonimo",
+    "signaleTag": "segnalato"
   },
   "soumettre": {
     "titre": "Invia le tue informazioni",
@@ -145,7 +156,23 @@
     },
     "formulaire": "Modulo di invio",
     "canaux": "Canali alternativi sicuri",
-    "engagement": "Il nostro impegno"
+    "engagement": "Il nostro impegno",
+    "form": {
+      "labelCategorie": "Tipo di informazione",
+      "labelContenu": "La tua informazione *",
+      "placeholderContenu": "Descrivi l'informazione che hai. Sii il più preciso possibile: date, nomi, luoghi, contesto...",
+      "labelSources": "Fonti / prove (URL, riferimenti a documenti, date)",
+      "placeholderSources": "URL degli articoli, riferimenti a documenti ufficiali, numeri di decreti, date di pubblicazione...",
+      "anonyme": "Invio anonimo",
+      "nonAnonyme": "Vorrei essere ricontattato",
+      "labelContact": "Come ricontattarla (email, Signal, altro)",
+      "placeholderContact": "email@protonmail.com o numero Signal",
+      "boutonEnvoi": "Invio in corso...",
+      "bouton": "Invia",
+      "msgSucces": "Informazione ricevuta. Sarà verificata prima della pubblicazione.",
+      "msgErreur": "Si è verificato un errore.",
+      "msgConnexion": "Errore di connessione. Riprovare."
+    }
   },
   "footer": {
     "veille": "Sorveglianza civica — Libertà di espressione (Art. 11 DDHC)",

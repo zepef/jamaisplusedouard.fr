@@ -92,7 +92,12 @@
     "autresConnexions": "Other connections",
     "plusConnexions": "+ {count} connections",
     "villepin": "Villepin network",
-    "chiraquien": "Chirac legacy"
+    "chiraquien": "Chirac legacy",
+    "bilderberg": "Bilderberg",
+    "coalition2027": "Coalition 2027",
+    "facilitateurs": "Facilitators",
+    "portuaire": "Port network",
+    "connexions": "connection"
   },
   "matraquage": {
     "titre": "Media blitz",
@@ -130,7 +135,13 @@
     "spam": "Spam",
     "masque": "Hidden content — flagged by the community. Click to reveal.",
     "aucun": "No comments yet. Be the first to react.",
-    "publie": "Comment published."
+    "publie": "Comment published.",
+    "erreur": "Error.",
+    "erreurConnexion": "Connection error.",
+    "signaleConfirm": "Comment reported for {motif}. Thank you.",
+    "pseudoPlaceholder": "Username (optional)",
+    "ouAnonyme": "or anonymous",
+    "signaleTag": "reported"
   },
   "soumettre": {
     "titre": "Submit your information",
@@ -145,7 +156,23 @@
     },
     "formulaire": "Submission form",
     "canaux": "Secure alternative channels",
-    "engagement": "Our commitment"
+    "engagement": "Our commitment",
+    "form": {
+      "labelCategorie": "Type of information",
+      "labelContenu": "Your information *",
+      "placeholderContenu": "Describe the information you have. Be as precise as possible: dates, names, places, context...",
+      "labelSources": "Sources / evidence (URLs, document references, dates)",
+      "placeholderSources": "Article URLs, official document references, decree numbers, publication dates...",
+      "anonyme": "Anonymous submission",
+      "nonAnonyme": "I would like to be contacted",
+      "labelContact": "How to contact you (email, Signal, other)",
+      "placeholderContact": "email@protonmail.com or Signal number",
+      "boutonEnvoi": "Sending...",
+      "bouton": "Submit",
+      "msgSucces": "Information received. It will be verified and cross-checked before publication.",
+      "msgErreur": "An error occurred.",
+      "msgConnexion": "Connection error. Please try again."
+    }
   },
   "footer": {
     "veille": "Citizen watchdog — Freedom of expression (Art. 11 DDHC)",

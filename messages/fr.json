@@ -92,7 +92,12 @@
     "autresConnexions": "Autres connexions",
     "plusConnexions": "+ {count} connexions",
     "villepin": "Réseau Villepin",
-    "chiraquien": "Héritage chiraquien"
+    "chiraquien": "Héritage chiraquien",
+    "bilderberg": "Bilderberg",
+    "coalition2027": "Coalition 2027",
+    "facilitateurs": "Facilitateurs",
+    "portuaire": "Réseau portuaire",
+    "connexions": "connexion"
   },
   "matraquage": {
     "titre": "Matraquage médiatique",
@@ -130,7 +135,13 @@
     "spam": "Spam",
     "masque": "Contenu masqué — signalé par la communauté. Cliquer pour afficher.",
     "aucun": "Aucun commentaire. Soyez le premier à réagir.",
-    "publie": "Commentaire publié."
+    "publie": "Commentaire publié.",
+    "erreur": "Erreur.",
+    "erreurConnexion": "Erreur de connexion.",
+    "signaleConfirm": "Commentaire signalé pour {motif}. Merci.",
+    "pseudoPlaceholder": "Pseudo (optionnel)",
+    "ouAnonyme": "ou anonyme",
+    "signaleTag": "signalé"
   },
   "soumettre": {
     "titre": "Soumettez vos informations",
@@ -145,7 +156,23 @@
     },
     "formulaire": "Formulaire de soumission",
     "canaux": "Canaux alternatifs sécurisés",
-    "engagement": "Notre engagement"
+    "engagement": "Notre engagement",
+    "form": {
+      "labelCategorie": "Type d'information",
+      "labelContenu": "Votre information *",
+      "placeholderContenu": "Décrivez l'information dont vous disposez. Soyez aussi précis que possible : dates, noms, lieux, contexte...",
+      "labelSources": "Sources / preuves (URLs, références de documents, dates)",
+      "placeholderSources": "URLs d'articles, références de documents officiels, numéros de décrets, dates de publication...",
+      "anonyme": "Soumission anonyme",
+      "nonAnonyme": "Je souhaite être recontacté",
+      "labelContact": "Comment vous recontacter (email, Signal, autre)",
+      "placeholderContact": "email@protonmail.com ou numéro Signal",
+      "boutonEnvoi": "Envoi en cours...",
+      "bouton": "Soumettre",
+      "msgSucces": "Information reçue. Elle sera vérifiée et croisée avant toute publication.",
+      "msgErreur": "Une erreur est survenue.",
+      "msgConnexion": "Erreur de connexion. Réessayez."
+    }
   },
   "footer": {
     "veille": "Veille citoyenne — Liberté d'expression (Art. 11 DDHC)",
