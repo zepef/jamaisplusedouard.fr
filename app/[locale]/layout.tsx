@@ -44,6 +44,12 @@ export async function generateMetadata({
       locale: locale === "fr" ? "fr_FR" : locale,
       type: "website",
     },
+    twitter: {
+      card: "summary_large_image",
+      title: "Jamais Plus Édouard",
+      description: t("ogDescription"),
+      site: "@jamaisplusedouard",
+    },
   };
 }
 
