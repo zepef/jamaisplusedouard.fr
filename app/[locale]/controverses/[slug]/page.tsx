@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import GlassCard from "@/components/ui/GlassCard";
 import { controverses } from "@/lib/seed-data";
+import { routing } from "@/i18n/routing";
 
 const graviteColors = {
   haute: "text-neon-red border-neon-red/30 bg-neon-red/8",
@@ -17,7 +18,12 @@ const sourceTypeStyles: Record<string, string> = {
 };
 
 export function generateStaticParams() {
-  return controverses.map((c) => ({ slug: c.slug }));
+  return controverses.flatMap((c) =>
+    routing.locales.map((locale) => ({
+      locale,
+      slug: c.slug,
+    }))
+  );
 }
 
 export async function generateMetadata({

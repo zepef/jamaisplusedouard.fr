@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import GlassCard from "@/components/ui/GlassCard";
 import { reseau } from "@/lib/seed-data";
 import type { Centroide } from "@/lib/seed-data";
+import { routing } from "@/i18n/routing";
 
 const typeColors: Record<string, string> = {
   politique: "text-cyan border-cyan/30 bg-cyan/8",
@@ -33,7 +34,12 @@ const sousReseauLabels: Record<string, string> = {
 };
 
 export function generateStaticParams() {
-  return reseau.map((p) => ({ slug: p.slug }));
+  return reseau.flatMap((p) =>
+    routing.locales.map((locale) => ({
+      locale,
+      slug: p.slug,
+    }))
+  );
 }
 
 export async function generateMetadata({

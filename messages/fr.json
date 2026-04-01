@@ -141,6 +141,116 @@
     "sources": "Sources",
     "agentsActifs": "Agents actifs"
   },
+  "pages": {
+    "biographie": {
+      "title": "Biographie",
+      "description": "Parcours politique complet d'Édouard Philippe, du Havre à Matignon et au-delà.",
+      "subtitle": "Édouard Charles Philippe — né le 28 novembre 1970 à Rouen",
+      "ficheSynthetique": "Fiche synthétique",
+      "sections": {
+        "origines": "Origines",
+        "formation": "Formation",
+        "carriere": "Carrière",
+        "leHavre": "Le Havre",
+        "politiqueNationale": "Politique nationale",
+        "matignon": "Matignon",
+        "covid": "Covid",
+        "horizons": "Horizons",
+        "presidentielle2027": "Présidentielle 2027",
+        "judiciaire": "Judiciaire",
+        "reseau": "Réseau"
+      },
+      "labels": {
+        "nomComplet": "Nom complet",
+        "naissance": "Naissance",
+        "parti": "Parti",
+        "fonctionActuelle": "Fonction actuelle",
+        "premierMinistre": "Premier ministre",
+        "formation": "Formation",
+        "famille": "Famille",
+        "candidature2027": "Candidature 2027"
+      }
+    },
+    "actualites": {
+      "title": "Actualités",
+      "description": "Suivi quotidien — derniers événements documentés"
+    },
+    "controverses": {
+      "title": "Controverses",
+      "description": "Les faux pas, contradictions et scandales d'Édouard Philippe documentés et sourcés.",
+      "subtitle": "{count} dossiers documentés — faux pas, contradictions et scandales"
+    },
+    "conflits": {
+      "title": "Conflits d'intérêts",
+      "description": "Chaînes de conflits d'intérêts documentées — suivez les liens.",
+      "subtitle": "Chaînes de conflits d'intérêts documentées — suivez les liens"
+    },
+    "investigations": {
+      "title": "Investigations",
+      "description": "Rapports d'investigation approfondis sur les réseaux d'influence d'Édouard Philippe.",
+      "subtitle": "{count} rapport{plural} d'investigation approfondi{plural} — documents confidentiels analysés",
+      "labels": {
+        "investigation": "Investigation",
+        "parties": "partie{plural}",
+        "noeudsLies": "noeud{plural} liés",
+        "sources": "source{plural}"
+      }
+    },
+    "reseau": {
+      "title": "Réseau — Cartographie des 4 centroïdes",
+      "description": "Cartographie interactive des réseaux croisés Juppé–Philippe–Raffarin–Villepin. 4 centroïdes, connexions politiques, chinoises, financières et médiatiques.",
+      "heading": "Réseau",
+      "subheading": "4 centroïdes",
+      "subtitle": "{count} connexions cartographiées — le losange Juppé–Philippe–Raffarin–Villepin",
+      "analyseStructurelle": "Analyse structurelle — pourquoi 4 centroïdes convergent",
+      "analyseText": "Ces quatre figures ne partagent pas les mêmes objectifs — Villepin et Philippe sont des concurrents directs pour 2027. Ce qu'ils partagent, ce sont des conditions structurelles qui produisent des comportements convergents : même moule institutionnel (Sciences Po → ENA → Conseil d'État / Quai d'Orsay), même matrice chiraquienne, même logique de pantouflage, mêmes programmes de sélection des élites (FAF, FCF).",
+      "centroïdes": {
+        "juppé": {
+          "initiales": "AJ",
+          "nom": "Alain Juppé",
+          "description": "Parrain neutralisé au CC. La « Juppéie » forme l'épine dorsale d'Horizons. Pouvoir résiduel : institutionnel, symbolique, réticulaire."
+        },
+        "philippe": {
+          "initiales": "EP",
+          "nom": "Édouard Philippe",
+          "description": "Héritier opérationnel. Réseau chinois institutionnel (FCF, FAF). Candidat déclaré 2027. Maire du Havre, président d'Horizons."
+        },
+        "villepin": {
+          "initiales": "DDV",
+          "nom": "Dominique de Villepin",
+          "description": "Réseau privé multipolaire et opaque (Chine, Qatar, Russie). Concurrent direct de Philippe.",
+          "warning": "Aucun lien direct avec Philippe."
+        },
+        "raffarin": {
+          "initiales": "JPR",
+          "nom": "Jean-Pierre Raffarin",
+          "description": "Plaque tournante sino-française. Membre Horizons ET représentant officiel pour la Chine. Alerté par la DGSI. Médaille de l'Amitié de Xi Jinping."
+        }
+      }
+    },
+    "matraquage": {
+      "title": "Matraquage médiatique",
+      "description": "Suivi du temps d'antenne et de la couverture médiatique d'Édouard Philippe — médias publics et médias inféodés.",
+      "subtitle": "Suivi du temps d'antenne et de la couverture médiatique d'Édouard Philippe — médias publics et médias inféodés"
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Analyses, éditoriaux et enquêtes",
+      "subtitle": "Analyses, éditoriaux et enquêtes"
+    },
+    "mentions": {
+      "title": "Mentions légales",
+      "description": "Informations légales et de conformité"
+    },
+    "recherche": {
+      "title": "Recherche",
+      "description": "Rechercher dans l'ensemble du contenu de jamaisplusedouard.fr."
+    },
+    "sources": {
+      "title": "Sources",
+      "description": "Toutes les sources utilisées sur jamaisplusedouard.fr."
+    }
+  },
   "common": {
     "controverse": "Controverse",
     "actualite": "Actualité",

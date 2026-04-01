@@ -3,9 +3,15 @@ import { notFound } from "next/navigation";
 import GlassCard from "@/components/ui/GlassCard";
 import CommentSection from "@/components/blog/CommentSection";
 import { blogPosts } from "@/lib/blog-data";
+import { routing } from "@/i18n/routing";
 
 export function generateStaticParams() {
-  return blogPosts.map((p) => ({ slug: p.slug }));
+  return blogPosts.flatMap((p) =>
+    routing.locales.map((locale) => ({
+      locale,
+      slug: p.slug,
+    }))
+  );
 }
 
 export async function generateMetadata({

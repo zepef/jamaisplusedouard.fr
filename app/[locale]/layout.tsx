@@ -8,6 +8,10 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import "../globals.css";
 
+// Force static generation for all locales and all child pages
+export const dynamicParams = false;
+export const revalidate = false;
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],

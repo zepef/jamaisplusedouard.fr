@@ -1494,6 +1494,38 @@ export const reseau: PersonneReseau[] = [
     sousReseaux: ["bilderberg"],
     rattachement: "philippe",
   },
+  // === AGENTS FACILITATEURS (RAPPORTS ATTALI-MINC & UBER-KOHLER) ===
+  {
+    nom: "Jacques Attali",
+    slug: "jacques-attali",
+    role: "Polytechnicien, énarque — Faiseur de rois transpartisan — Architecte du couple Macron-Philippe",
+    description:
+      "Jacques Attali (né 1943) est polytechnicien et énarque (promotion Robespierre, 1970). Ancien auditeur au Conseil d'État, conseiller spécial de François Mitterrand pendant dix ans (1981-1991), fondateur et premier président de la BERD (1991-1993), président de la Commission pour la libération de la croissance française (2007-2010). En tant qu'agent facilitateur, Attali a architecturé le couple Macron-Philippe : en 2007, il choisit le jeune Macron comme rapporteur adjoint de sa Commission. En 2011, il présente Macron à Hollande. En mars 2017, il suggère à Macron de choisir Philippe comme Premier ministre et organise leur rencontre. Cette chaîne Attali → Macron → Philippe est le mécanisme fondateur du gouvernement Philippe (2017-2020). Attali est co-fondateur du Conseil stratégique de la France China Foundation (2013), où il siège aux côtés de Philippe, Raffarin, Fabius, Mérieux et de Castries — une convergence unique de cinq niveaux de pouvoir. Il quitte la FCF en mars 2020, date de l'arrivée de la pandémie. En système multi-agent, Attali ne possède pas de centroïde propre mais fonctionne comme nœud de connexion maximisant l'influence indirecte par la liaison de centroïdes entre eux. Sa valeur réside dans le réseau, pas dans le pouvoir formel, ce qui lui permet de traverser les alternances sans dommage — un président peut changer, un Premier ministre peut tomber, Attali reste.",
+    typeLien: "politique",
+    partiPolitique: "Technocrate transpartisan",
+    sousReseaux: ["facilitateurs", "sino-francais"],
+  },
+  {
+    nom: "Alain Minc",
+    slug: "alain-minc",
+    role: "Énarque, major 1975 — Conseiller transversal des présidents — Agent facilitateur",
+    description:
+      "Alain Minc (né 1954) est énarque (promotion Léon Blum, 1975, major), inspecteur général des finances. Ancien président du conseil de surveillance du Monde, président d'AM Conseil, président du conseil d'administration de la Sanef, trésorier de la Fondation Saint-Simon, membre du Siècle. Un tiers des grands patrons du CAC 40 ont rémunéré ses services (Bolloré, Bouygues, Vinci, Club Med, Suez). En tant qu'agent facilitateur, Minc opère depuis la droite française (Balladur, Sarkozy, Juppé) tandis que son complémentaire Attali opère depuis la gauche (Mitterrand, Hollande) — une symétrie qui leur permet de couvrir l'ensemble de l'échiquier politique. Minc soutient Juppé à la primaire 2016, puis se reporte sur Macron en 2017 (transfert identique à celui des juppéistes eux-mêmes). Il entretient un canal indirect avec Philippe via Gilles Boyer (conseiller à Matignon), documenté par le JDD concernant le prélèvement à la source (2018). Macron dispose de deux mentors à sa sortie de l'ENA : Minc et Attali, confirmant le modèle facilitateur en tandem. Minc est ancien Young Leader de la FAF, formant ainsi une chaîne de quatre décennies : Minc (YL) → Juppé (YL 1982) → Philippe (YL 2011) → Macron (YL 2012). Comme Attali, Minc maximise son influence indirecte en restant invisible aux yeux du public. Aucune responsabilité électorale, pas de pouvoir formel, mais une capacité de connexion inégalée.",
+    typeLien: "professionnel",
+    partiPolitique: "Technocrate transpartisan",
+    sousReseaux: ["facilitateurs", "young-leaders"],
+  },
+  {
+    nom: "Alexis Kohler",
+    slug: "alexis-kohler",
+    role: "Secrétaire général de l'Élysée (2017-2025) — Agent pivot portuaire — MSC/Aponte",
+    description:
+      "Alexis Kohler (né 1972 à Strasbourg) est énarque, directeur de cabinet au ministère de l'Économie sous Macron (2014), puis secrétaire général de l'Élysée (2017-2025) — le bras droit d'Emmanuel Macron pendant huit ans. En mars 2022, il est mis en examen pour prise illégale d'intérêts, trafic d'influence et corruption passive, pour ses conflits d'intérêts avec MSC (Mediterranean Shipping Company), fondée par la famille Aponte — cousins de sa mère. De 2010 à 2012, Kohler siège au conseil de surveillance du Grand Port Maritime du Havre (GPMH) comme représentant de l'Agence des participations de l'État, aux côtés d'Édouard Philippe (maire depuis octobre 2010). Selon Mediapart, Kohler n'a jamais déclaré ses liens familiaux avec MSC et ne s'est pas déporté lors des votes concernant MSC, tandis que Philippe respectait scrupuleusement les règles de déport. Kohler fonctionne comme agent pivot : Inspection des finances → APE/GPMH (aux côtés de Philippe) → cabinet Macron (Bercy) → MSC (pantouflage) → Élysée (SG) → Société Générale (2025). Ce circuit illustre le mécanisme de rendements croissants du carnet d'adresses. Le port du Havre où Kohler et Philippe se côtoient est un nœud géostratégique : hub de CMA CGM (3e armateur mondial), client de MSC (2e armateur, famille de Kohler), lié à COSCO Shipping (1er armateur chinois, jumelage Dalian), sous gouvernance politique de Philippe. En 2025, Kohler quitte l'Élysée pour la Société Générale, poursuivant le circuit eau-de-vie entre État et finance.",
+    typeLien: "politique",
+    partiPolitique: "Technocrate macroniste",
+    sousReseaux: ["facilitateurs", "portuaire", "entreprises"],
+    rattachement: "philippe",
+  },
 ];
 
 export type Investigation = {

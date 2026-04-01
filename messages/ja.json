@@ -141,6 +141,19 @@
     "sources": "情報源",
     "agentsActifs": "稼働中のエージェント"
   },
+  "pages": {
+    "biographie": {"title": "経歴", "description": "エドゥアール・フィリップの完全な政治経歴——ハーブル市長からマティニョン首相を経て現在まで。", "subtitle": "エドゥアール・シャルル・フィリップ——1970年11月28日ルーアン生まれ", "ficheSynthetique": "要約プロフィール", "sections": {"origines": "出自", "formation": "教育", "carriere": "キャリア", "leHavre": "ハーブル", "politiqueNationale": "国家政治", "matignon": "マティニョン", "covid": "Covid", "horizons": "Horizons", "presidentielle2027": "2027年大統領選", "judiciaire": "司法", "reseau": "人脈"}, "labels": {"nomComplet": "正式名称", "naissance": "生誕", "parti": "政党", "fonctionActuelle": "現職", "premierMinistre": "首相", "formation": "教育", "famille": "家族", "candidature2027": "2027年立候補"}},
+    "actualites": {"title": "ニュース", "description": "日々の追跡——最新の記録された出来事"},
+    "controverses": {"title": "スキャンダル", "description": "エドゥアール・フィリップの失言、矛盾、スキャンダルが記録され検証されています。", "subtitle": "{count}件の記録されたケース——失言、矛盾、スキャンダル"},
+    "conflits": {"title": "利益相反", "description": "記録された利益相反の連鎖——リンクをたどってください。", "subtitle": "記録された利益相反の連鎖——リンクをたどってください"},
+    "investigations": {"title": "調査報告", "description": "エドゥアール・フィリップの影響力ネットワークに関する詳細な調査報告。", "subtitle": "{count}件の調査報告——機密文書を分析", "labels": {"investigation": "調査", "parties": "部分{plural}", "noeudsLies": "関連ノード{plural}", "sources": "情報源{plural}"}},
+    "reseau": {"title": "人脈——4つの中心人物の地図化", "description": "ジュペ–フィリップ–ラファラン–ヴィルパン交差ネットワークのインタラクティブ地図化。4つの中心人物、政治、中国、金融、メディア接続。", "heading": "人脈", "subheading": "4つの中心人物", "subtitle": "{count}件の地図化された人脈——ジュペ–フィリップ–ラファラン–ヴィルパンのダイヤ形", "analyseStructurelle": "構造分析——4つの中心人物が収束する理由", "analyseText": "これら4つの人物は同じ目標を共有していません——ヴィルパンとフィリップは2027年の直接的な競争相手です。彼らが共有するのは、収束的な行動を生み出す構造的条件です：同じ制度的枠組み（Sciences Po → ENA → Conseil d'État / Quai d'Orsay）、同じシラク派的伝統、同じ高級官僚の回転ドア現象、同じエリート選抜プログラム（FAF、FCF）。", "centroïdes": {"juppé": {"initiales": "AJ", "nom": "アラン・ジュペ", "description": "中立化した後援者。「ジュペ派」運動がHorizonsの中核。残存権力：制度的、象徴的、ネットワーク的。"}, "philippe": {"initiales": "EP", "nom": "エドゥアール・フィリップ", "description": "運用上の後継者。制度的中国ネットワーク（FCF、FAF）。2027年宣言候補。ハーブル市長、Horizons党首。"}, "villepin": {"initiales": "DDV", "nom": "ドミニク・ド・ヴィルパン", "description": "多極的かつ不透明な民間ネットワーク（中国、カタール、ロシア）。フィリップの直接的競争相手。", "warning": "フィリップとの直接的な繋がりはなし。"}, "raffarin": {"initiales": "JPR", "nom": "ジャン=ピエール・ラファラン", "description": "シナ・フランス交換のハブ。Horizons委員およ且つ中国公式代表。DGSIに警告。習近平の友好勲章。"}}},
+    "matraquage": {"title": "メディア攻勢", "description": "エドゥアール・フィリップのメディア放映時間とメディア報道の追跡——公式メディアとタイド・メディア。", "subtitle": "エドゥアール・フィリップのメディア放映時間とメディア報道の追跡——公式メディアとタイド・メディア"},
+    "blog": {"title": "ブログ", "description": "分析、社論、調査", "subtitle": "分析、社論、調査"},
+    "mentions": {"title": "法的通知", "description": "法的およびコンプライアンス情報"},
+    "recherche": {"title": "検索", "description": "jamaisplusedouard.fr全体のコンテンツを検索。"},
+    "sources": {"title": "情報源", "description": "jamaisplusedouard.frで使用されているすべての情報源。"}
+  },
   "common": {
     "controverse": "スキャンダル",
     "actualite": "ニュース",
