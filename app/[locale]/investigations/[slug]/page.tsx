@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { useTranslations } from "next-intl";
 import GlassCard from "@/components/ui/GlassCard";
 import { investigations, reseau } from "@/lib/seed-data";
+import { getInvestigationTranslation } from "@/lib/investigations-translations";
 
 const sourceTypeStyles: Record<string, string> = {
   presse: "tag-actualite",
@@ -10,32 +12,55 @@ const sourceTypeStyles: Record<string, string> = {
   registre: "text-yellow-400 border-yellow-400/30 bg-yellow-400/8",
 };
 
+const LOCALES = ["fr", "en", "de", "es", "ru", "ja", "it", "zh"];
+
 export function generateStaticParams() {
-  return investigations.map((inv) => ({ slug: inv.slug }));
+  return investigations.flatMap((inv) =>
+    LOCALES.map((locale) => ({
+      locale,
+      slug: inv.slug,
+    }))
+  );
 }
 
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }) {
-  const { slug } = await params;
+  const { locale, slug } = await params;
   const item = investigations.find((inv) => inv.slug === slug);
+  const translation = item ? getInvestigationTranslation(slug, locale) : null;
+
+  const title = translation?.titre || item?.titre || "Investigation";
+  const description = translation?.resume || item?.resume;
+
   return {
-    title: item?.titre || "Investigation",
-    description: item?.resume,
+    title,
+    description,
   };
 }
 
 export default async function InvestigationDetailPage({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }) {
-  const { slug } = await params;
+  const { locale, slug } = await params;
   const item = investigations.find((inv) => inv.slug === slug);
+  const translation = item ? getInvestigationTranslation(slug, locale) : null;
+  const t = useTranslations("common");
 
   if (!item) notFound();
+
+  // Use translated content with fallback to original French from seed-data
+  const displayItem = {
+    ...item,
+    titre: translation?.titre || item.titre,
+    sousTitre: translation?.sousTitre || item.sousTitre,
+    resume: translation?.resume || item.resume,
+    parties: translation?.parties || item.parties,
+  };
 
   // Find related network nodes
   const noeudsRelies = item.noeudsLies
@@ -48,13 +73,13 @@ export default async function InvestigationDetailPage({
         href="/investigations"
         className="text-xs font-mono text-muted hover:text-cyan transition-colors neon-underline"
       >
-        ← Retour aux investigations
+        {t("retour")}
       </Link>
 
       <article className="mt-8">
         <div className="flex items-center gap-2 flex-wrap">
           <span className="tag text-yellow-400 border-yellow-400/30 bg-yellow-400/8">
-            Investigation
+            {t("investigation")}
           </span>
           <span className="tag text-muted border-glass-border bg-glass">
             {item.parties.length} partie
@@ -62,15 +87,15 @@ export default async function InvestigationDetailPage({
           </span>
         </div>
         <h1 className="mt-3 text-3xl font-bold text-foreground">
-          {item.titre}
+          {displayItem.titre}
         </h1>
         <p className="text-sm font-mono text-muted/60 mt-1">
-          {item.sousTitre}
+          {displayItem.sousTitre}
         </p>
         <time className="block mt-2 text-xs font-mono text-muted/50">
           {item.date}
         </time>
-        <p className="mt-4 text-sm text-muted italic">{item.resume}</p>
+        <p className="mt-4 text-sm text-muted italic">{displayItem.resume}</p>
 
         {/* Themes */}
         <div className="mt-4 flex flex-wrap gap-1.5">
@@ -86,7 +111,7 @@ export default async function InvestigationDetailPage({
 
         {/* Parties */}
         <div className="mt-8 space-y-8">
-          {item.parties.map((partie, i) => (
+          {displayItem.parties.map((partie, i) => (
             <section key={i}>
               <h2 className="text-lg font-semibold text-yellow-400 mb-3 flex items-center gap-2">
                 <span className="text-xs font-mono text-muted/40">
