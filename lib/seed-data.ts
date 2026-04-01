@@ -1463,6 +1463,37 @@ export const reseau: PersonneReseau[] = [
     sousReseaux: ["portuaire", "coalition-2027"],
     rattachement: "philippe",
   },
+  // === RAPPORTS BILDERBERG APPROFONDI + KOHLER-SAADÉ-HAVRE ===
+  {
+    nom: "Patrick Pouyanné",
+    slug: "patrick-pouyanné",
+    role: "PDG TotalEnergies — Bilderberg 2023 + 2025 — actionnaire BlackRock",
+    description:
+      "PDG de TotalEnergies, participant récurrent du Bilderberg (2023, 2025) aux côtés de Philippe. TotalEnergies est actionnaire de l'Institut Montaigne (de Castries) et détenue à hauteur significative par BlackRock. Présent à Lisbonne et Stockholm avec Philippe, Attal et de Castries. Nœud reliant le cercle Bilderberg au cercle entreprises/BlackRock.",
+    typeLien: "financier",
+    sousReseaux: ["bilderberg", "entreprises"],
+    rattachement: "philippe",
+  },
+  {
+    nom: "Jean Lemierre",
+    slug: "jean-lemierre",
+    role: "Président BNP Paribas — Bilderberg 2025 — Kohler rejoint SocGen (même écosystème bancaire)",
+    description:
+      "Président de BNP Paribas, présent au Bilderberg 2025 à Stockholm aux côtés de Philippe et Attal. BNP est détenue partiellement par BlackRock et finance l'Institut Montaigne. Kohler quitte l'Élysée en 2025 pour rejoindre la Société Générale — même écosystème bancaire. Le cercle Bilderberg connecte directement les banques systémiques françaises aux candidats présidentiels.",
+    typeLien: "financier",
+    sousReseaux: ["bilderberg", "entreprises"],
+    rattachement: "philippe",
+  },
+  {
+    nom: "Bernard Émié",
+    slug: "bernard-emie",
+    role: "Directeur de la DGSE — Bilderberg 2023 — renseignement français au cénacle transatlantique",
+    description:
+      "Directeur général de la sécurité extérieure (DGSE, 2017-2024), présent au Bilderberg 2023 à Lisbonne aux côtés de Philippe, Attal et de Castries. La présence du patron du renseignement extérieur français dans un forum privé transatlantique est un fait notable, soulevé par Regards.fr. En 2025, Nicolas Roche (SGDSN), nommé deux mois plus tôt, le remplace au Bilderberg.",
+    typeLien: "politique",
+    sousReseaux: ["bilderberg"],
+    rattachement: "philippe",
+  },
 ];
 
 export type Investigation = {
@@ -1892,6 +1923,114 @@ En MAS, les sondages ne sont pas des mesures neutres — ce sont des signaux qui
       { titre: "Odoxa-Mascaret — Baromètre de popularité décembre 2025 pour Public Sénat", type: "presse" },
       { titre: "Boulevard Voltaire — Sondage, tribune, meeting : la promotion de Philippe (30 mars 2026)", type: "presse" },
       { titre: "Planet.fr — Cote de popularité en net recul (décembre 2025)", type: "presse" },
+    ],
+  },
+  {
+    slug: "bilderberg-cooptation-castries",
+    titre: "Édouard Philippe et le groupe Bilderberg — Cinq participations, un coopteur",
+    sousTitre: "Henri de Castries, le coopteur commun de Macron et Philippe",
+    resume:
+      "De Castries confirme au JDD avoir personnellement coopté Philippe au Bilderberg en 2015 et Macron en 2014. Cinq participations documentées (2015-2025). Le pattern d'élévation post-Bilderberg est récurrent : Macron ministre 2 mois après, Philippe PM 11 mois après, Attal PM 7 mois après. Juppé était présent en 2015 avec Philippe.",
+    date: "2026-04-01",
+    themes: ["bilderberg", "castries", "cooptation", "macron", "juppe", "axa", "dgse", "transatlantique"],
+    parties: [
+      {
+        titre: "Les cinq participations d'Édouard Philippe (2015-2025)",
+        contenu: `Henri de Castries confirme au JDD : « C'est moi qui l'ai proposé. Comme maire, il avait développé des idées intéressantes. » Philippe n'est alors que simple maire du Havre.
+
+2015 (Telfs-Buchen) : première cooptation. Philippe se retrouve à la table de Kissinger, Peter Thiel (Palantir), Demis Hassabis (DeepMind), les présidents de BP, Shell, Lazard, BlackRock, LinkedIn, le PM belge Charles Michel. Alain Juppé, son mentor, est également présent.
+
+2016 (Dresde) : deuxième carton. Philippe y côtoie Christine Lagarde (FMI), Laurent Fabius, Emmanuelle Charpentier. Onze mois plus tard, il est nommé Premier ministre.
+
+2023-2025 (Lisbonne, Madrid, Stockholm) : retour en force. En 2025, première fois que deux anciens PM macronistes (Philippe et Attal) participent ensemble, aux côtés de Nicolas Roche (SGDSN, nommé deux mois plus tôt).
+
+Chronologie des cooptations de Castries : Macron en 2014 → ministre 2 mois après. Philippe en 2015 → PM 11 mois après la 2e participation (2016). Attal en 2023 → PM 7 mois après. FranceSoir documente ce pattern récurrent d'élévation post-Bilderberg.`,
+      },
+      {
+        titre: "Le noyau français récurrent et le renseignement",
+        contenu: `L'analyse des listes de participants révèle un noyau qui recoupe les autres cercles d'influence de Philippe :
+
+Henri de Castries (AXA, Institut Montaigne) — 2015, 2016, 2023. Patrick Pouyanné (TotalEnergies) — 2023, 2025. Patricia Barbizet (ex-Kering, ex-présidente du Siècle) — 2016, 2023. Thomas Buberl (DG AXA) — 2023. Antoine Gosset-Grainville (président CA AXA) — 2023. Jean Lemierre (président BNP Paribas) — 2025. Bernard Émié (directeur DGSE) — 2023. Nicolas Roche (SGDSN) — 2025.
+
+La présence simultanée de dirigeants du renseignement français (Émié, Roche) aux côtés de candidats présidentiels dans un forum privé est soulevée par Regards.fr : « Il est légitime de s'interroger sur ce qu'ont été faire et dire Nicolas Roche, mais aussi Gabriel Attal et Édouard Philippe à cette réunion annuelle. »
+
+La triple concentration AXA (de Castries + Buberl + Gosset-Grainville) au Bilderberg 2023 documente l'irrigation de l'écosystème par un seul assureur — dont le conseil stratégique FCF inclut Philippe et Raffarin.`,
+      },
+      {
+        titre: "Le Bilderberg comme méta-cercle du réseau Philippe",
+        contenu: `Le Bilderberg constitue le 7ème cercle de la cartographie. Il se distingue par sa dimension transatlantique et le calibre des co-participants (chefs d'État, PDG Fortune 500, chefs du renseignement).
+
+Les intersections entre cercles sont significatives : AXA (Bilderberg) est au CS de la FCF. Juppé (cercle 1) est présent au Bilderberg 2015 avec Philippe. Castries (Bilderberg) préside l'Institut Montaigne, qui a inspiré la doctrine Macron 2017. Le Bilderberg fonctionne comme un méta-cercle où les nœuds des cercles inférieurs (FAF, FCF, monde des affaires) se retrouvent.
+
+Philippe Villin, ancien patron du Figaro, décrit les invités comme « assez conformistes, tous attachés au capitalisme et au libre-échangisme ». Etienne Davignon (avant-dernier président) : « Pour y être coopté, il faut avoir de l'entregent et une vision planétaire. »
+
+En MAS, le Bilderberg est l'espace de coordination de plus haut niveau — le lieu où les fonctions d'utilité des centroïdes s'alignent sous couvert de confidentialité Chatham House.`,
+      },
+    ],
+    noeudsLies: [
+      "henri-de-castries", "edouard-philippe", "gabriel-attal",
+      "emmanuel-macron", "alain-juppe", "patricia-barbizet",
+      "patrick-pouyanné", "jean-lemierre", "bernard-emie",
+      "institut-montaigne", "blackrock",
+    ],
+    sources: [
+      { titre: "bilderbergmeetings.org — listes officielles 2015-2025", type: "officiel" },
+      { titre: "JDD — Ce que Macron a dit au Bilderberg en 2014 (témoignage de Castries)", type: "presse" },
+      { titre: "FranceSoir — enquêtes Bilderberg 2023-2024, schémas d'élévation", type: "presse" },
+      { titre: "Regards.fr — Deux anciens PM macronistes chez Bilderberg (juin 2025)", type: "presse" },
+      { titre: "Parlement européen — question écrite E-001703/2023 (Virginie Joron)", type: "officiel" },
+      { titre: "publicintelligence.net — archives participants depuis 1954", type: "presse" },
+    ],
+  },
+  {
+    slug: "kohler-saade-narcotrafic-havre",
+    titre: "Kohler, Saadé, le port du Havre et le tsunami blanc",
+    sousTitre: "MSC, CMA CGM, narcotrafic portuaire et nexus médiatico-politique",
+    resume:
+      "Le Havre représente 78 % des saisies portuaires françaises de cocaïne. Estimation : 70 à 280 tonnes/an transitent par le port. Kohler a voté des contrats MSC au GPMH sans déclarer ses liens familiaux. Saadé (CMA CGM) contrôle BFM TV/RMC et affiche 296 M€ de déficit médiatique — un investissement d'influence, pas de rendement. Macron a personnellement écrit au PNF pour disculper Kohler.",
+    date: "2026-04-01",
+    themes: ["kohler", "saade", "cma-cgm", "msc", "narcotrafic", "cocaïne", "bfmtv", "havre", "gpmh", "medias"],
+    parties: [
+      {
+        titre: "Kohler au GPMH : les votes MSC et la chronologie judiciaire",
+        contenu: `Mediapart révèle en août 2018 que Kohler a voté en faveur de contrats entre le GPMH et Terminal Normandie MSC (TNMSC) lors des séances de septembre 2010 et septembre 2011. Or la mère de Kohler est cousine germaine de Rafaela Aponte, cofondatrice de MSC. Kohler n'a jamais informé les autres membres ni ne s'est déporté. Philippe, lui, se déportait régulièrement.
+
+Chronologie judiciaire : mai 2018 (révélation Mediapart, enquête PNF) → août 2018 (plainte Anticor) → été 2019 (classement sans suite) → Mediapart révèle que Macron a personnellement écrit au PNF pour disculper Kohler, au lendemain d'un rapport de police l'accablant → septembre 2022 (mise en examen prise illégale d'intérêts, témoin assisté trafic d'influence) → novembre 2024 (cour d'appel confirme les poursuites). Ses anciens supérieurs à l'APE (Bézard, Comolli) sont également mis en examen pour complicité.
+
+France Télévisions a déprogrammé un Complément d'enquête prévu sur Kohler. La question de ce que Philippe savait des liens Kohler-Aponte au GPMH reste ouverte.`,
+      },
+      {
+        titre: "L'empire médiatique Saadé : 296 M€ de déficit pour l'influence",
+        contenu: `En moins de trois ans, Saadé a bâti un pôle médiatique de premier plan : La Provence et Corse-Matin (81 M€, 2022), La Tribune (2023), Altice Média — BFM TV, RMC, BFM Business, 10 BFM Régions, RMC Sport (1,55 Md€, mars 2024), Brut (2025), parts dans M6 (10,25 %). Troisième pôle médiatique français après Bolloré et Arnault.
+
+L'Informé note que le rachat d'Altice Média représentait 14 fois l'Ebitda 2023. Le vendeur (Drahi) aurait déclaré : « Une influence politique, ça n'a pas de prix. » Six mois après, 250 M€ de dépréciation et 296 M€ de déficit net en 2024. L'investissement est structurellement déficitaire — objectif d'influence, pas de rentabilité.
+
+En mars 2024, le directeur de La Provence est mis à pied après une Une défavorable à Macron. Grève de plusieurs titres. L'actionnaire intervient quand la couverture du pouvoir exécutif ne convient pas. La question : cette influence s'exercera-t-elle en faveur de Philippe pendant la campagne 2027 ?`,
+      },
+      {
+        titre: "Le tsunami blanc : narcotrafic portuaire au Havre",
+        contenu: `Le Havre représente 78 % des saisies portuaires françaises de cocaïne. En 2024, 22 tonnes saisies (avec interceptions amont). Les spécialistes estiment que les saisies ne représentent que 5 à 20 % du trafic réel — soit 70 à 280 tonnes par an. Les experts parlent d'un « tsunami blanc ».
+
+Le mode opératoire du « conteneur clone » (saisie du 30/12/2024, 2 tonnes) : un conteneur portant un marquage identique est déposé à l'avance, sort sans passer par le scanner. Implication récurrente de dockers : en huit ans, une quinzaine d'enlèvements, dont un docker torturé et tué en 2020. La zone portuaire couvre 10 000 hectares (= Paris intra-muros). 8 000 conteneurs/jour, moins de 5 % contrôlés. 350 douaniers. L'OFAST n'est installé que depuis septembre 2023 (21 agents).
+
+Off-Investigation et Bloomberg confirment que « plusieurs cargos MSC ont été découverts avec d'importantes quantités de cocaïne ». Le maire, dont la légitimité repose en partie sur la prospérité portuaire, se trouve en conflit d'intérêts structurel entre promotion du port et contrôle de ses dérives — et ce depuis 2010.`,
+      },
+    ],
+    noeudsLies: [
+      "alexis-kohler", "rodolphe-saade-cma-cgm", "msc-aponte",
+      "gpmh", "edouard-philippe", "cma-cgm", "elabe-bfmtv",
+      "antoine-rufenacht", "yann-le-goff",
+    ],
+    sources: [
+      { titre: "Mediapart (Martine Orange, Laurent Mauduit) — révélations Kohler-MSC-GPMH 2018", type: "presse" },
+      { titre: "Off-Investigation — série « Emmanuel, un homme d'affaires à l'Élysée », épisode Kohler", type: "presse" },
+      { titre: "Bloomberg — enquête MSC-cocaïne", type: "presse" },
+      { titre: "Europe 1 — Kohler a voté des contrats MSC au port du Havre", type: "presse" },
+      { titre: "Décideurs Magazine — relations Saadé-Philippe", type: "presse" },
+      { titre: "L'Informé — pertes CMA Média 2024, 296 M€ de déficit", type: "presse" },
+      { titre: "Franceinfo / Envoyé spécial — saisies Le Havre 2019-2024", type: "presse" },
+      { titre: "France Bleu Normandie — conteneurs clones, enlèvements dockers", type: "presse" },
+      { titre: "HATVP — avis Djebbari/CMA CGM, risques déontologiques substantiels", type: "officiel" },
     ],
   },
 ];
