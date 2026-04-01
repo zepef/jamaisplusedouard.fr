@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import GlassCard from "@/components/ui/GlassCard";
 import { investigations, reseau } from "@/lib/seed-data";
 import { getInvestigationTranslation } from "@/lib/investigations-translations";
+import { routing } from "@/i18n/routing";
 
 const sourceTypeStyles: Record<string, string> = {
   presse: "tag-actualite",
@@ -12,11 +13,9 @@ const sourceTypeStyles: Record<string, string> = {
   registre: "text-yellow-400 border-yellow-400/30 bg-yellow-400/8",
 };
 
-const LOCALES = ["fr", "en", "de", "es", "ru", "ja", "it", "zh"];
-
 export function generateStaticParams() {
   return investigations.flatMap((inv) =>
-    LOCALES.map((locale) => ({
+    routing.locales.map((locale) => ({
       locale,
       slug: inv.slug,
     }))
