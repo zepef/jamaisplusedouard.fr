@@ -1526,6 +1526,40 @@ export const reseau: PersonneReseau[] = [
     sousReseaux: ["facilitateurs", "portuaire", "entreprises"],
     rattachement: "philippe",
   },
+  // === RAPPORT NUÑEZ : le bras armé de la répression macroniste ===
+  {
+    nom: "Laurent Nuñez",
+    slug: "laurent-nunez",
+    role: "Ministre de l'Intérieur (Lecornu II) — ex-DGSI — ex-préfet de police — exécuteur Gilets jaunes",
+    description:
+      "Laurent Nuñez-Belda (né 1964 à Bourges) est énarque (promotion Cyrano de Bergerac, 1997-1999, concours interne). Directeur de la DGSI (juin 2017–octobre 2018), secrétaire d'État à l'Intérieur dans le gouvernement Philippe II (octobre 2018–juillet 2020), coordonnateur national du renseignement à l'Élysée (juillet 2020–juillet 2022), préfet de police de Paris (juillet 2022–octobre 2025), puis ministre de l'Intérieur dans le gouvernement Lecornu II (depuis octobre 2025). Il est l'exécuteur opérationnel de la répression des Gilets jaunes aux côtés de Castaner, tandis que Philippe en assume la responsabilité politique. Nuñez défend publiquement les LBD, participe au limogeage du préfet Delpuech (mars 2019), et assume sans ambiguïté la doctrine du maintien de l'ordre la plus dure de la Ve République. En termes MAS, il est un agent d'exécution régalien : sa loyauté va directement à Macron (qui le nomme personnellement à chaque poste), pas à Philippe (son supérieur nominal). Sa présence dans le gouvernement Lecornu II, aux côtés de membres d'Horizons, crée un lien indirect supplémentaire avec la sphère philippiste. Le triangle Nuñez–Bompard–Caubel est la découverte structurante du rapport : condisciple ENA de Bompard (PDG Carrefour), dont l'épouse Charlotte Caubel était cheffe du pôle justice au cabinet Philippe (2017-2020) et est membre d'Horizons.",
+    typeLien: "politique",
+    partiPolitique: "Technocrate macroniste",
+    sousReseaux: ["matignon"],
+    rattachement: "philippe",
+  },
+  {
+    nom: "Alexandre Bompard",
+    slug: "alexandre-bompard",
+    role: "PDG Carrefour — condisciple ENA Nuñez (Cyrano 1997-99) — époux de Charlotte Caubel",
+    description:
+      "Alexandre Joubert-Bompard (né 1972) est PDG du groupe Carrefour (CA 2024 : 86 milliards d'euros), sorti 4e de la promotion Cyrano de Bergerac de l'ENA (1997-1999). Il est le condisciple de Laurent Nuñez dans cette même promotion (arrêté du 19 avril 1999, Légifrance, JORFTEXT000000211140). Son épouse Charlotte Caubel a été cheffe du pôle justice au cabinet d'Édouard Philippe à Matignon (2017-2020). Bompard n'a aucun lien documenté direct avec Philippe, mais son réseau familial (via Caubel) et professionnel (via Nuñez) relie l'univers de la grande distribution aux cercles du pouvoir exécutif. Carrefour a d'importants intérêts en Chine et a été partenaire officiel des JO de Paris 2024.",
+    typeLien: "professionnel",
+    partiPolitique: undefined,
+    sousReseaux: ["entreprises"],
+    rattachement: "philippe",
+  },
+  {
+    nom: "Charlotte Caubel",
+    slug: "charlotte-caubel",
+    role: "Ancienne cheffe pôle justice cabinet Philippe (2017-20) — membre Horizons — épouse Bompard",
+    description:
+      "Charlotte Caubel (magistrate, Sciences Po) est nommée conseillère justice au cabinet d'Édouard Philippe à Matignon en mai 2017. Elle y reste trois ans (2017-2020), devenant cheffe du pôle justice. Après Matignon, elle dirige la Protection judiciaire de la jeunesse (2020-2022), puis est nommée secrétaire d'État chargée de l'Enfance dans le gouvernement Borne (2022-2024). Elle est membre du parti Horizons. En août 2025, elle est nommée procureure adjointe à Paris. Son mari est Alexandre Bompard (PDG Carrefour), condisciple ENA de Laurent Nuñez. Ce triangle Nuñez–Bompard–Caubel relie directement la promotion ENA de Nuñez au cœur du cabinet Philippe et au parti Horizons.",
+    typeLien: "politique",
+    partiPolitique: "Horizons",
+    sousReseaux: ["matignon", "horizons"],
+    rattachement: "philippe",
+  },
 ];
 
 export type Investigation = {
@@ -2063,6 +2097,84 @@ Off-Investigation et Bloomberg confirment que « plusieurs cargos MSC ont été 
       { titre: "Franceinfo / Envoyé spécial — saisies Le Havre 2019-2024", type: "presse" },
       { titre: "France Bleu Normandie — conteneurs clones, enlèvements dockers", type: "presse" },
       { titre: "HATVP — avis Djebbari/CMA CGM, risques déontologiques substantiels", type: "officiel" },
+    ],
+  },
+  {
+    slug: "nunez-bras-arme-repression",
+    titre: "Laurent Nuñez — Le bras armé de la répression macroniste",
+    sousTitre: "DGSI • Gilets jaunes • BRAV-M • JO 2024 • gouvernement Lecornu II",
+    resume:
+      "Laurent Nuñez est l'exécuteur opérationnel de la répression des Gilets jaunes (2 500 blessés, 24 éborgnés) dans le gouvernement Philippe II. Directeur de la DGSI, secrétaire d'État à l'Intérieur (tandem Castaner-Nuñez), coordonnateur renseignement à l'Élysée, préfet de police de Paris, puis ministre de l'Intérieur (Lecornu II). Découverte centrale : le triangle ENA Nuñez–Bompard–Caubel relie directement sa promotion (Cyrano de Bergerac, 1997-99) au cabinet Philippe et au parti Horizons.",
+    date: "2026-04-02",
+    themes: ["nunez", "dgsi", "gilets-jaunes", "brav-m", "jo-2024", "lecornu", "ena", "repression"],
+    parties: [
+      {
+        titre: "Parcours préfectoral — l'ascension d'un appareil sécuritaire",
+        contenu: `Laurent Nuñez-Belda (né le 19 février 1964 à Bourges) est issu d'une famille de pieds-noirs d'origine espagnole rapatriés en 1962. Après un DESS en gestion des collectivités locales, il est inspecteur des impôts à Bercy, puis intègre l'ENA par le concours interne en 1997 (promotion Cyrano de Bergerac, 1997-1999).
+
+Chaque poste le place au cœur de crises majeures : directeur de cabinet du préfet de police de Paris (attentats Charlie Hebdo/Hyper Cacher, 2015), préfet de police des Bouches-du-Rhône — où il déploie charges de CRS et canon à eau contre des grévistes à Fos-sur-Mer en 2016.
+
+Le 22 juin 2017, cinq semaines après la nomination de Philippe à Matignon, Macron nomme Nuñez à la tête de la DGSI. La simultanéité avec la formation du gouvernement Philippe n'est pas anodine : Macron réorganise l'ensemble du dispositif sécuritaire dès les premières semaines du quinquennat.`,
+      },
+      {
+        titre: "La répression des Gilets jaunes — le bras armé de Philippe",
+        contenu: `Le 16 octobre 2018, Nuñez entre au gouvernement Philippe II comme secrétaire d'État auprès du ministre de l'Intérieur Christophe Castaner. Le timing est critique : le mouvement des Gilets jaunes éclate un mois plus tard, le 17 novembre 2018.
+
+Le tandem Castaner-Nuñez : officiellement, Castaner est le ministre et Nuñez son adjoint. En réalité, selon Libération et Le Monde, « c'est lui [Nuñez] qui est véritablement aux manettes » à Beauvau. Castaner assume le rôle politique et médiatique ; Nuñez épluche les dossiers et prémâche le travail.
+
+Défense des LBD (mars 2019, BFMTV) : « Sans le LBD, on est incapable d'interpeller des personnes dans des scènes de guérilla urbaine. » Il reproche au Défenseur des droits Jacques Toubon d'avoir fragilisé les policiers. Il participe au limogeage du préfet Delpuech en mars 2019, jugé trop laxiste, ouvrant la phase la plus dure de la répression sous Lallement.
+
+La chaîne de responsabilité s'établit sur quatre niveaux : décision politique (Macron/Philippe), pilotage opérationnel (Castaner/Nuñez), exécution terrain (Lallement), continuité post-2020 (Nuñez comme préfet de police, puis ministre).`,
+      },
+      {
+        titre: "Le triangle ENA : Nuñez–Bompard–Caubel",
+        contenu: `La découverte structurante de l'investigation : Nuñez et Alexandre Bompard sont condisciples de la promotion Cyrano de Bergerac de l'ENA (1997-1999). L'arrêté du 19 avril 1999 (Légifrance, JORFTEXT000000211140) en fait foi. Bompard sort 4e de la promotion et choisit l'Inspection générale des finances ; Nuñez rejoint le ministère de l'Intérieur.
+
+L'épouse d'Alexandre Bompard, Charlotte Caubel (magistrate, Sciences Po), est nommée en mai 2017 conseillère justice au cabinet d'Édouard Philippe à Matignon. Elle y reste trois ans (2017-2020), devenant cheffe du pôle justice. Nuñez, entré au gouvernement Philippe en octobre 2018, siège donc dans le même exécutif que l'épouse de son condisciple de l'ENA.
+
+Charlotte Caubel est membre du parti Horizons. Après Matignon, elle dirige la Protection judiciaire de la jeunesse (2020-2022), puis devient secrétaire d'État chargée de l'Enfance dans le gouvernement Borne (2022-2024). Son mari Alexandre Bompard dirige Carrefour (CA 2024 : 86 milliards d'euros), groupe ayant d'importants intérêts en Chine et partenaire officiel des JO 2024.
+
+Ce triangle relie directement la promotion ENA de Nuñez au cœur du cabinet Philippe et au parti Horizons.`,
+      },
+      {
+        titre: "Analyse MAS — l'agent d'exécution régalien",
+        contenu: `En termes de systèmes multi-agents, Laurent Nuñez n'est pas un centroïde mais un agent spécialisé de type « exécuteur régalien ». Sa fonction d'utilité est la maximisation du contrôle sécuritaire au service du centroïde dominant (Macron).
+
+Contrairement à Attali ou Minc (agents facilitateurs qui connectent des centroïdes), Nuñez implémente les décisions des centroïdes dans l'espace d'états sécuritaire. Sa loyauté va directement au président — qui le nomme personnellement à chaque poste clé (DGSI, CNRLT, préfecture de police, ministère) — pas au Premier ministre qui le supervise nominalement.
+
+Vis-à-vis de Philippe, Nuñez est un subordonné opérationnel (2018-2020) sans fidélité organique. Leur lien est une co-responsabilité : toute mise en cause de la répression des Gilets jaunes implique simultanément Philippe (responsabilité politique) et Nuñez (exécution opérationnelle).
+
+Dans le gouvernement Lecornu II, sa présence aux côtés de membres Horizons (Parmentier-Lecocq, Bregeon) crée un lien indirect supplémentaire avec la sphère philippiste.`,
+      },
+      {
+        titre: "Controverses — BRAV-M, Nahel Merzouk, Sainte-Soline",
+        contenu: `BRAV-M et retraites (2023) : la brigade BRAV-M, créée sous son secrétariat d'État (2019), est mise en cause pour sept blessés graves lors des manifestations contre la réforme des retraites 2023. Nuñez prend leur défense et paie leurs frais d'avocat contre l'avis de ses services.
+
+Affaire Nahel Merzouk (2023-2024) : en juillet 2023, Nuñez soutient les propos du DGPN Frédéric Veaux estimant « qu'un policier n'a pas sa place en prison ». En février 2024, il émet un avis « particulièrement favorable » pour la mutation du policier ayant tué Nahel dans le commissariat de son choix — décision dénoncée comme une institutionnalisation de l'impunité policière.
+
+Sainte-Soline (2023-2025) : des vidéos policières révèlent des « tirs tendus » de grenades, pratique illégale. Nuñez refuse le terme de « violences policières » mais demande une enquête administrative.
+
+En parallèle, sa gestion des JO de Paris 2024 est unanimement reconnue comme un succès sécuritaire majeur, lui valant le grade de commandeur de la Légion d'honneur.`,
+      },
+    ],
+    noeudsLies: [
+      "laurent-nunez", "christophe-castaner", "sebastien-lecornu",
+      "gabriel-attal", "bernard-emie", "alexandre-bompard", "charlotte-caubel",
+    ],
+    sources: [
+      { titre: "Wikipédia — article « Laurent Nuñez »", type: "presse" },
+      { titre: "Légifrance — Arrêté du 19 avril 1999, promotion Cyrano de Bergerac (JORFTEXT000000211140)", type: "officiel" },
+      { titre: "Europe 1 — « Cinq choses à savoir sur Laurent Nuñez » (octobre 2018)", type: "presse" },
+      { titre: "Le JDD — « Laurent Nuñez, patron de la DGSI et nouvel homme fort du renseignement » (juillet 2017)", type: "presse" },
+      { titre: "France 24 — « Nuñez nommé à l'Intérieur » (octobre 2025)", type: "presse" },
+      { titre: "Révolution Permanente — « Un artisan de la répression des Gilets jaunes à Beauvau » (octobre 2025)", type: "presse" },
+      { titre: "Vie-publique.fr — Interview Nuñez, BFMTV, 19 mars 2019 (maintien de l'ordre)", type: "officiel" },
+      { titre: "Libération / Le Monde — « C'est lui qui est véritablement aux manettes » (Nuñez à Beauvau)", type: "presse" },
+      { titre: "Le Point — « Le couple Bompard a le vent en poupe » (juin 2017)", type: "presse" },
+      { titre: "Gendinfo — « Laurent Nuñez succède à Bruno Retailleau » (octobre 2025)", type: "presse" },
+      { titre: "info.gouv.fr — Fiche Charlotte Caubel (parcours officiel)", type: "officiel" },
+      { titre: "JSS — « Charlotte Caubel nommée procureure adjointe à Paris » (août 2025)", type: "presse" },
+      { titre: "FranceSoir — « Laurent Nuñez succède à Didier Lallement » (juillet 2022)", type: "presse" },
     ],
   },
 ];
