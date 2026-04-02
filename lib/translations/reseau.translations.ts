@@ -90,6 +90,7 @@ export const reseauRoleTranslations: Record<string, Record<string, string>> = {
     "laurent-nunez": "Minister of the Interior (Lecornu II) — former DGSI — former prefect of police — executor of the Gilets Jaunes crackdown",
     "alexandre-bompard": "CEO Carrefour — ENA classmate of Nuñez (Cyrano 1997-99) — husband of Charlotte Caubel",
     "charlotte-caubel": "Former head of the justice unit in Philippe's cabinet (2017-20) — Horizons member — wife of Bompard",
+    "la-tribune-dimanche": "CMA Médias weekly (Saadé) — published the 90-signatory pro-Philippe tribune — commissioned Elabe poll",
   },
   de: {
     "emmanuel-macron": "Präsident der Republik — Young Leader 2012",
@@ -179,6 +180,7 @@ export const reseauRoleTranslations: Record<string, Record<string, string>> = {
     "laurent-nunez": "Innenminister (Lecornu II) — ehemaliger DGSI-Chef — ehemaliger Polizeipräfekt — Vollstrecker der Unterdrückung der Gilets jaunes",
     "alexandre-bompard": "CEO Carrefour — ENA-Kommilitone von Nuñez (Cyrano 1997-99) — Ehemann von Charlotte Caubel",
     "charlotte-caubel": "Ehemalige Leiterin des Justizreferats im Kabinett Philippe (2017-20) — Horizons-Mitglied — Ehefrau von Bompard",
+    "la-tribune-dimanche": "CMA-Médias-Wochenzeitung (Saadé) — veröffentlichte die Tribune der 90 Pro-Philippe-Unterzeichner — beauftragte Elabe-Umfrage",
   },
   es: {
     "emmanuel-macron": "Presidente de la República — Young Leader 2012",
@@ -268,6 +270,7 @@ export const reseauRoleTranslations: Record<string, Record<string, string>> = {
     "laurent-nunez": "Ministro del Interior (Lecornu II) — ex-DGSI — ex-prefecto de policía — ejecutor de la represión de los Gilets jaunes",
     "alexandre-bompard": "CEO Carrefour — condiscípulo ENA de Nuñez (Cyrano 1997-99) — esposo de Charlotte Caubel",
     "charlotte-caubel": "Antigua jefa del área de justicia del gabinete Philippe (2017-20) — miembro de Horizons — esposa de Bompard",
+    "la-tribune-dimanche": "Semanario CMA Médias (Saadé) — publicó la tribuna de los 90 pro-Philippe — encargó sondeo Elabe",
   },
   ru: {
     "emmanuel-macron": "Президент Республики — Young Leader 2012",
@@ -357,6 +360,7 @@ export const reseauRoleTranslations: Record<string, Record<string, string>> = {
     "laurent-nunez": "Министр внутренних дел (Lecornu II) — бывший директор DGSI — бывший префект полиции — исполнитель репрессий против \"жёлтых жилетов\"",
     "alexandre-bompard": "Генеральный директор Carrefour — однокурсник Nuñez по ENA (Cyrano 1997-99) — муж Шарлотты Кобель",
     "charlotte-caubel": "Бывшая руководитель отдела юстиции кабинета Филиппа (2017-20) — член Horizons — жена Бомпара",
+    "la-tribune-dimanche": "Еженедельник CMA Médias (Саадé) — опубликовал трибуну 90 сторонников Филиппа — заказчик опроса Elabe",
   },
   ja: {
     "emmanuel-macron": "共和国大統領 — Young Leader 2012",
@@ -446,6 +450,7 @@ export const reseauRoleTranslations: Record<string, Record<string, string>> = {
     "laurent-nunez": "内務大臣（Lecornu II） — 元DGSI長官 — 元警視総監 — 「黄色いベスト」弾圧の執行者",
     "alexandre-bompard": "Carrefour CEO — Nuñezとの同期（Cyrano 1997-99） — Charlotte Caubelの夫",
     "charlotte-caubel": "フィリップ内閣司法部門元責任者（2017-20） — Horizons党員 — ボンパールの妻",
+    "la-tribune-dimanche": "CMA Médias週刊誌（Saadé）— フィリップ支持90人声明を掲載 — Elabeアンケート委託元",
   },
   it: {
     "emmanuel-macron": "Presidente della Repubblica — Young Leader 2012",
@@ -535,6 +540,7 @@ export const reseauRoleTranslations: Record<string, Record<string, string>> = {
     "laurent-nunez": "Ministro dell'Interno (Lecornu II) — ex-DGSI — ex-prefetto di polizia — esecutore della repressione dei Gilets jaunes",
     "alexandre-bompard": "CEO Carrefour — compagno di corso ENA di Nuñez (Cyrano 1997-99) — marito di Charlotte Caubel",
     "charlotte-caubel": "Ex responsabile del polo giustizia nel gabinetto Philippe (2017-20) — membro di Horizons — moglie di Bompard",
+    "la-tribune-dimanche": "Settimanale CMA Médias (Saadé) — ha pubblicato la tribuna dei 90 pro-Philippe — ha commissionato il sondaggio Elabe",
   },
   zh: {
     "emmanuel-macron": "共和国总统 — Young Leader 2012",
@@ -624,5 +630,6 @@ export const reseauRoleTranslations: Record<string, Record<string, string>> = {
     "laurent-nunez": "内政部长（Lecornu II） — 前DGSI局长 — 前警察总局长 — \"黄背心\"镇压执行者",
     "alexandre-bompard": "Carrefour首席执行官 — Nuñez的ENA同届同学（Cyrano 1997-99） — Charlotte Caubel之夫",
     "charlotte-caubel": "菲利普内阁司法部门前负责人（2017-20） — Horizons党员 — 邦帕尔之妻",
+    "la-tribune-dimanche": "CMA Médias周刊（Saadé）— 刊登90人亲菲利普联署声明 — 委托Elabe民调",
   },
 };

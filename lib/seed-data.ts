@@ -1560,6 +1560,16 @@ export const reseau: PersonneReseau[] = [
     sousReseaux: ["matignon", "horizons"],
     rattachement: "philippe",
   },
+  {
+    nom: "La Tribune dimanche",
+    slug: "la-tribune-dimanche",
+    role: "Hebdomadaire CMA Médias (Saadé) — publie la tribune des 90 pro-Philippe — commanditaire sondage Elabe",
+    description:
+      "La Tribune dimanche est un hebdomadaire économique et politique lancé en septembre 2023, propriété de CMA Médias, pôle presse du groupe CMA CGM (Rodolphe Saadé). Le 29 mars 2026, le journal publie la tribune « Pour la France, construisons l'union ! » signée par 90 personnalités Horizons, LR et Renaissance — déclencheur médiatique officiel de la candidature Philippe pour 2027. Le même week-end, La Tribune dimanche et BFMTV (même actionnaire) ont commandité le sondage Elabe (25-27 mars 2026) qui présente Philippe comme « le seul capable de battre le RN ». La simultanéité sondage + tribune dans des médias du même propriétaire constitue une opération de communication intégrée au service du narratif philippiste. Ce double rôle — éditeur de la tribune ET commanditaire du sondage qui la légitime — illustre la concentration des leviers médiatiques entre les mains de Saadé, premier armateur du port du Havre, fief d'Édouard Philippe.",
+    typeLien: "mediatique",
+    sousReseaux: ["entreprises", "coalition-2027"],
+    rattachement: "philippe",
+  },
 ];
 
 export type Investigation = {
