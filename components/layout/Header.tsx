@@ -24,7 +24,7 @@ export default function Header() {
   const prefix = `/${locale}`;
 
   return (
-    <header className="sticky top-0 z-50 glass border-b border-glass-border">
+    <header className="sticky top-0 z-50 bg-surface border-b border-glass-border">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <Link href={`${prefix}`} className="flex items-center gap-3 group">
