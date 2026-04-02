@@ -19,6 +19,7 @@ import {
 } from "@/lib/translations/timeline.translations";
 import { controversesTranslations } from "@/lib/translations/controverses.translations";
 import { reseauRoleTranslations } from "@/lib/translations/reseau.translations";
+import { reseauDescriptionTranslations } from "@/lib/translations/reseau.description.translations";
 import { conflitsTranslations } from "@/lib/translations/conflits.translations";
 import { blogTranslations } from "@/lib/translations/blog.translations";
 
@@ -70,10 +71,13 @@ export function getLocalizedControverse(
 
 export function getLocalizedReseau(locale: string): PersonneReseau[] {
   const roleMap = reseauRoleTranslations[locale];
-  if (!roleMap) return reseau;
+  const descMap = reseauDescriptionTranslations[locale];
+  if (!roleMap && !descMap) return reseau;
   return reseau.map((p) => {
-    const role = roleMap[p.slug];
-    return role ? { ...p, role } : p;
+    const role = roleMap?.[p.slug];
+    const description = descMap?.[p.slug];
+    if (!role && !description) return p;
+    return { ...p, ...(role && { role }), ...(description && { description }) };
   });
 }
 
@@ -84,8 +88,11 @@ export function getLocalizedPersonne(
   const personne = reseau.find((p) => p.slug === slug);
   if (!personne) return undefined;
   const roleMap = reseauRoleTranslations[locale];
+  const descMap = reseauDescriptionTranslations[locale];
   const role = roleMap?.[slug];
-  return role ? { ...personne, role } : personne;
+  const description = descMap?.[slug];
+  if (!role && !description) return personne;
+  return { ...personne, ...(role && { role }), ...(description && { description }) };
 }
 
 // ─── Conflits ────────────────────────────────────────────────────────────────
