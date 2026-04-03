@@ -3208,6 +3208,149 @@ Al contrario, la sua gestione delle Olimpiadi di Parigi 2024 fu unanimemente ric
     },
   },
 
+  "leakid-forward-global": {
+    fr: {
+      titre: "LeakID & Forward Global — Intelligence économique, désinformation et réseaux macronistes",
+      sousTitre: "De iStrat à Bridgepoint : l'ascension d'un groupe d'influence dans la sphère du pouvoir",
+      resume:
+        "Forward Global (ex-Avisa Partners, ex-iStrat) est un groupe d'intelligence économique valorisé à plus de 200 M€ en 2024, organisateur du FIC et client du CAC 40. Sa connexion avec la sphère macroniste est documentée : Olivia Grégoire (secrétaire d'État 2021-2024) y était directrice associée (2013-2014) ; Sylvain Fort (rédacteur des discours de Macron 2017-2019) en était associé (2020-2022). L'enquête révèle aussi un « nettoyage de réputation » après les scandales de désinformation 2022-23 (faux articles dans des médias nationaux, manipulation Wikipédia, clients autoritaires, tensions DGSI/DGSE), et la dissolution juridique de l'entité LeakID au 1er janvier 2025.",
+      parties: [
+        {
+          titre: "Forward Global (ex-Avisa Partners) : du nettoyage de réputation à la valorisation 200 M€",
+          contenu: "Forward Global est fondé en 2010 sous le nom d'iStrat par Matthieu Creux, 23 ans, Sciences Po Paris, ancien collaborateur parlementaire de Valérie Pécresse. Le groupe agrège cybersécurité offensive (Lexfo, 80 ingénieurs, 2 accréditations ANSSI), intelligence économique (CEIS), anti-piratage (LeakID, Rivendell — 800 M d'URLs signalées à Google), investigation (Uncovery) et communication stratégique. En 2022-2023, Avisa Partners est touché par des scandales documentés par Mediapart et Politico : journalistes payés pour écrire de faux contenus dans les espaces participatifs de Mediapart, L'Express, HuffPost, AgoraVox, Les Échos ; manipulations clandestines de Wikipédia ; conseils à des régimes autoritaires (Égypte, Turquie, Kazakhstan, Qatar, RDC, Tchad) ; accusations des ministères de l'Intérieur et des Armées d'opérations contraires aux intérêts français. En juin 2023, le groupe se rebaptise Forward Global et cède les activités d'influence digitale à Arnaud Dassier pour 5 M€. En novembre 2024, un LBO conduit par Bridgepoint Development Capital valorise Forward Global à plus de 200 M€.",
+        },
+        {
+          titre: "Les connexions macronistes : Grégoire et Fort",
+          contenu: "Olivia Grégoire (secrétaire d'État déléguée à la Consommation 2021-2024, Renaissance) était directrice associée d'iStrat de 2013 à 2014 — la période où Macron entre au gouvernement Hollande. Sylvain Fort (normalien, agrégé de lettres, directeur de la communication de l'Élysée puis rédacteur des discours de Macron 2017-2019) est associé d'Avisa Partners de 2020 à 2022 — juste avant les scandales. Ces deux connexions placent Forward Global à l'intersection du pouvoir exécutif macroniste et d'une industrie de l'influence qui opère dans une zone grise entre intelligence légitime et désinformation documentée. L'enquête ne démontre pas d'implication de Grégoire ou Fort dans les pratiques controversées — ils sont partis avant les scandales — mais leur présence dessine l'écosystème de recrutement du groupe.",
+        },
+        {
+          titre: "LeakID SAS : dissolution et héritage technologique",
+          contenu: "LeakID a été fondée en 2007 par Hervé Lemaire (ex-Head of Digital chez Virgin/EMI). Pionnière française du Notice & Takedown, elle a créé Rivendell en 2013, devenant le premier émetteur mondial de demandes DMCA à Google — plus de 800 millions d'URLs signalées. Acquise par Avisa Partners en juin 2022, LeakID SAS est dissoute sans liquidation le 1er janvier 2025, par décision de l'associé unique Forward Global. Une controverse technique : la stratégie de notification préemptive de Rivendell (signaler des URLs avant indexation) gonfle artificiellement les statistiques — TorrentFreak estime que plus de 50 % des URLs signalées n'existaient pas dans l'index Google au moment du signalement.",
+        },
+      ],
+    },
+    en: {
+      titre: "LeakID & Forward Global — Economic Intelligence, Disinformation and Macronist Networks",
+      sousTitre: "From iStrat to Bridgepoint: the rise of an influence group in the sphere of power",
+      resume:
+        "Forward Global (ex-Avisa Partners, ex-iStrat) is an economic intelligence group valued at over €200M in 2024, organiser of the FIC and client of the CAC 40. Its connection with the Macronist sphere is documented: Olivia Grégoire (Secretary of State 2021-2024) was an associate director there (2013-2014); Sylvain Fort (Macron's speechwriter 2017-2019) was an associate (2020-2022). The investigation also reveals a 'reputation laundering' operation following the 2022-23 disinformation scandals (fake articles in national media, Wikipedia manipulation, authoritarian clients, DGSI/DGSE tensions), and the legal dissolution of the LeakID entity on 1 January 2025.",
+      parties: [
+        {
+          titre: "Forward Global (ex-Avisa Partners): from reputation laundering to €200M valuation",
+          contenu: "Forward Global was founded in 2010 as iStrat by Matthieu Creux, 23, Sciences Po Paris, former parliamentary aide to Valérie Pécresse. The group brings together offensive cybersecurity (Lexfo, 80 engineers, 2 ANSSI accreditations), economic intelligence (CEIS), anti-piracy (LeakID, Rivendell — 800M URLs reported to Google), investigation (Uncovery) and strategic communications. In 2022-2023, Avisa Partners was hit by scandals documented by Mediapart and Politico: journalists paid to write fake content in participatory spaces of national media; clandestine Wikipedia manipulation; advice to authoritarian regimes (Egypt, Turkey, Kazakhstan, Qatar, DRC, Chad); accusations from the Interior and Armed Forces ministries of operations contrary to French interests. In June 2023, the group rebranded as Forward Global and sold the digital influence activities to Arnaud Dassier for €5M. In November 2024, a LBO led by Bridgepoint Development Capital valued Forward Global at over €200M.",
+        },
+        {
+          titre: "The Macronist connections: Grégoire and Fort",
+          contenu: "Olivia Grégoire (Secretary of State for Consumer Affairs 2021-2024, Renaissance) was associate director at iStrat from 2013 to 2014 — the period when Macron joined the Hollande government. Sylvain Fort (normalien, agrégé in literature, director of Élysée communications then Macron's chief speechwriter 2017-2019) was an associate at Avisa Partners from 2020 to 2022 — just before the scandals. These two connections place Forward Global at the intersection of Macronist executive power and an influence industry operating in a grey zone between legitimate intelligence and documented disinformation. The investigation does not demonstrate Grégoire or Fort's involvement in the controversial practices — they left before the scandals — but their presence maps the group's recruitment ecosystem.",
+        },
+        {
+          titre: "LeakID SAS: dissolution and technological legacy",
+          contenu: "LeakID was founded in 2007 by Hervé Lemaire (ex-Head of Digital at Virgin/EMI). A French pioneer in Notice & Takedown, it created Rivendell in 2013, becoming the world's largest DMCA notice sender to Google — over 800 million URLs reported. Acquired by Avisa Partners in June 2022, LeakID SAS was dissolved without liquidation on 1 January 2025, by decision of its sole shareholder Forward Global. A technical controversy: Rivendell's pre-emptive notification strategy (reporting URLs before indexation) artificially inflates statistics — TorrentFreak estimates over 50% of reported URLs did not exist in Google's index at the time of reporting.",
+        },
+      ],
+    },
+    de: {
+      titre: "LeakID & Forward Global — Wirtschaftsgeheimdienst, Desinformation und Macronisten-Netzwerke",
+      sousTitre: "Von iStrat zu Bridgepoint: der Aufstieg einer Einflussfirma in die Machtsphäre",
+      resume:
+        "Forward Global (ex-Avisa Partners, ex-iStrat) ist eine Wirtschaftsgeheimdienstgruppe, die 2024 mit über 200 Mio. € bewertet wurde, Organisator des FIC und Kunde des CAC 40. Die Verbindungen zur Macronisten-Sphäre sind dokumentiert: Olivia Grégoire (Staatssekretärin 2021-2024) war dort von 2013 bis 2014 Direktorin; Sylvain Fort (Macrons Redenschreiber 2017-2019) war von 2020 bis 2022 Partner. Die Untersuchung enthüllt auch eine 'Reputationswäsche' nach den Desinformationsskandalen 2022-23 und die juristische Auflösung der Einheit LeakID am 1. Januar 2025.",
+      parties: [
+        {
+          titre: "Forward Global (ex-Avisa Partners): von der Reputationswäsche zur 200-Mio.-€-Bewertung",
+          contenu: "Forward Global wurde 2010 als iStrat von Matthieu Creux, 23 Jahre alt, Sciences Po Paris, ehemaliger Parlamentsmitarbeiter von Valérie Pécresse, gegründet. Die Gruppe vereint offensive Cybersicherheit (Lexfo), Wirtschaftsgeheimdienst (CEIS), Urheberrechtsschutz (LeakID, Rivendell — 800 Mio. URLs an Google gemeldet), Ermittlungen (Uncovery) und strategische Kommunikation. In 2022-2023 wurde Avisa Partners von Desinformationsskandalen erschüttert: bezahlte Journalisten schrieben Fake-Inhalte, Wikipedia-Manipulationen, Beratung autoritärer Regime, Vorwürfe der Ministerien. Im Juni 2023 umbenennung zu Forward Global, Verkauf der Einflussaktivitäten an Dassier für 5 Mio. €. Im November 2024 LBO mit Bridgepoint, Bewertung über 200 Mio. €.",
+        },
+        {
+          titre: "Die Macronisten-Verbindungen: Grégoire und Fort",
+          contenu: "Olivia Grégoire (Staatssekretärin 2021-2024, Renaissance) war von 2013 bis 2014 Direktorin bei iStrat. Sylvain Fort (Normalien, Macrons Chefredner 2017-2019) war von 2020 bis 2022 Partner bei Avisa Partners. Diese beiden Verbindungen positionieren Forward Global an der Schnittstelle zwischen Macronistischer Exekutivmacht und einer Einflussbranche, die in einer Grauzone zwischen legitimer Nachrichtenbeschaffung und dokumentierter Desinformation operiert.",
+        },
+        {
+          titre: "LeakID SAS: Auflösung und technologisches Erbe",
+          contenu: "LeakID wurde 2007 von Hervé Lemaire gegründet. Französischer Pionier im Notice & Takedown-Bereich, schuf Rivendell 2013 und wurde zum weltgrößten DMCA-Absender an Google — über 800 Millionen gemeldete URLs. Nach der Übernahme durch Avisa Partners 2022 wurde LeakID SAS am 1. Januar 2025 ohne Liquidation aufgelöst. Technische Kontroverse: Rivendells präventive Meldestrategien blasen Statistiken künstlich auf — laut TorrentFreak existierten über 50 % der gemeldeten URLs nicht im Google-Index.",
+        },
+      ],
+    },
+    es: {
+      titre: "LeakID & Forward Global — Inteligencia económica, desinformación y redes macronistas",
+      sousTitre: "De iStrat a Bridgepoint: el ascenso de un grupo de influencia en la esfera del poder",
+      resume:
+        "Forward Global (ex-Avisa Partners, ex-iStrat) es un grupo de inteligencia económica valorado en más de 200 M€ en 2024, organizador del FIC y cliente del CAC 40. Su conexión con la esfera macronista está documentada: Olivia Grégoire (secretaria de Estado 2021-2024) fue directora asociada (2013-2014); Sylvain Fort (redactor de discursos de Macron 2017-2019) fue socio (2020-2022). La investigación también revela un 'lavado de reputación' tras los escándalos de desinformación 2022-23 y la disolución jurídica de LeakID el 1 de enero de 2025.",
+      parties: [
+        {
+          titre: "Forward Global (ex-Avisa Partners): del lavado de reputación a la valoración de 200 M€",
+          contenu: "Forward Global fue fundada en 2010 como iStrat por Matthieu Creux, Sciences Po París, ex-colaborador parlamentario de Valérie Pécresse. El grupo reúne ciberseguridad ofensiva (Lexfo), inteligencia económica (CEIS), antipiratería (LeakID, Rivendell — 800 M de URLs notificadas a Google), investigación (Uncovery) y comunicación estratégica. En 2022-2023, escándalos de desinformación: periodistas pagados para escribir contenidos falsos, manipulación de Wikipedia, asesoramiento a regímenes autoritarios, acusaciones ministeriales. En junio 2023, rebautizada como Forward Global, venta de actividades de influencia a Dassier por 5 M€. En noviembre 2024, LBO con Bridgepoint, valoración superior a 200 M€.",
+        },
+        {
+          titre: "Las conexiones macronistas: Grégoire y Fort",
+          contenu: "Olivia Grégoire (secretaria de Estado 2021-2024, Renaissance) fue directora asociada de iStrat de 2013 a 2014. Sylvain Fort (normalien, redactor jefe de discursos de Macron 2017-2019) fue socio de Avisa Partners de 2020 a 2022. Estas dos conexiones sitúan a Forward Global en la intersección del poder ejecutivo macronista y una industria de la influencia que opera en una zona gris entre la inteligencia legítima y la desinformación documentada.",
+        },
+        {
+          titre: "LeakID SAS: disolución y legado tecnológico",
+          contenu: "LeakID fue fundada en 2007 por Hervé Lemaire. Pionera francesa del Notice & Takedown, creó Rivendell en 2013, convirtiéndose en el mayor emisor mundial de solicitudes DMCA a Google — más de 800 millones de URLs notificadas. Tras la adquisición por Avisa Partners en 2022, LeakID SAS fue disuelta sin liquidación el 1 de enero de 2025. Controversia técnica: la estrategia de notificación preemptiva de Rivendell infla artificialmente las estadísticas.",
+        },
+      ],
+    },
+    ru: {
+      titre: "LeakID & Forward Global — Экономическая разведка, дезинформация и макронистские сети",
+      sousTitre: "От iStrat к Bridgepoint: восхождение группы влияния в сферу власти",
+      resume:
+        "Forward Global (бывший Avisa Partners, бывший iStrat) — группа экономической разведки, оценённая в более чем 200 млн € в 2024 году, организатор FIC и клиент CAC 40. Её связь с макронистской сферой задокументирована: Оливия Грегуар (государственный секретарь 2021-2024) была там директором (2013-2014); Сильвен Фор (спичрайтер Макрона 2017-2019) был партнёром (2020-2022). Расследование также выявляет 'отмывание репутации' после скандалов с дезинформацией 2022-23 и юридическую ликвидацию LeakID 1 января 2025 года.",
+      parties: [
+        {
+          titre: "Forward Global (бывший Avisa Partners): от отмывания репутации к оценке 200 млн €",
+          contenu: "Forward Global основана в 2010 году как iStrat Matthieu Creux, Sciences Po Paris, бывшим парламентским помощником Валери Пекрес. Группа объединяет наступательную кибербезопасность (Lexfo), экономическую разведку (CEIS), антипиратство (LeakID, Rivendell — 800 млн URL в Google), расследования (Uncovery) и стратегические коммуникации. В 2022-2023 годах скандалы с дезинформацией: оплачиваемые журналисты с фейками, манипуляции в Википедии, консультирование авторитарных режимов, обвинения министерств. В июне 2023 года переименована в Forward Global, продажа активностей Dassier за 5 млн €. В ноябре 2024 года LBO с Bridgepoint, оценка свыше 200 млн €.",
+        },
+        {
+          titre: "Макронистские связи: Грегуар и Фор",
+          contenu: "Оливия Грегуар (государственный секретарь 2021-2024, Renaissance) была директором iStrat с 2013 по 2014 год. Сильвен Фор (нормалист, главный спичрайтер Макрона 2017-2019) был партнёром Avisa Partners с 2020 по 2022 год. Эти две связи помещают Forward Global на пересечение макронистской исполнительной власти и индустрии влияния.",
+        },
+        {
+          titre: "LeakID SAS: ликвидация и технологическое наследие",
+          contenu: "LeakID основана в 2007 году Эрве Лемером. Французский пионер Notice & Takedown, создала Rivendell в 2013 году, став крупнейшим в мире отправителем требований DMCA в Google — свыше 800 млн URL. После поглощения Avisa Partners в 2022 году LeakID SAS была ликвидирована без банкротства 1 января 2025 года. Техническая полемика: стратегия Rivendell по превентивным уведомлениям искусственно раздувает статистику.",
+        },
+      ],
+    },
+    ja: {
+      titre: "LeakID & Forward Global — 経済情報、偽情報、マクロン派ネットワーク",
+      sousTitre: "iStratからBridgepointへ：権力の圏域における影響力グループの台頭",
+      resume:
+        "Forward Global（旧Avisa Partners、旧iStrat）は2024年に2億ユーロ超と評価された経済情報グループで、FICの主催者でありCAC40の顧客。マクロン派との繋がりが記録されている：Olivia Grégoire（国務長官2021-2024）が取締役（2013-2014）を務め；Sylvain Fort（マクロン演説ライター2017-2019）がパートナー（2020-2022）だった。調査は2022-23年の偽情報スキャンダル後の「評判洗浄」と2025年1月1日のLeakID解散も明らかにする。",
+      parties: [
+        {
+          titre: "Forward Global（旧Avisa Partners）：評判洗浄から2億ユーロ評価へ",
+          contenu: "Forward Globalは2010年にMatthieu Creux（Sciences Po、元Pécresse議員秘書）によってiStratとして設立。攻撃的サイバーセキュリティ（Lexfo）、経済情報（CEIS）、著作権保護（LeakID、Rivendell — 8億件URL）、調査（Uncovery）、戦略的コミュニケーションを統合。2022-23年に偽情報スキャンダル：偽記事、Wikipedia操作、権威主義政権への助言、省庁からの告発。2023年6月にForward Globalに改称、影響力活動をDassierに500万ユーロで売却。2024年11月にBridgepointのLBOで2億ユーロ超に評価。",
+        },
+        {
+          titre: "マクロン派との繋がり：GregoireとFort",
+          contenu: "Olivia Grégoire（国務長官2021-2024、Renaissance）は2013-2014年にiStrat取締役を務めた。Sylvain Fort（高師卒、マクロン首席スピーチライター2017-2019）は2020-2022年にAvisa Partnersパートナーを務めた。この2つの繋がりはForward Globalをマクロン派行政権力と影響力産業の交差点に位置付ける。",
+        },
+        {
+          titre: "LeakID SAS：解散と技術的遺産",
+          contenu: "LeakIDは2007年にHervé Lemaire（元Virgin/EMI）により設立。フランスのNotice & Takedown先駆者、2013年にRivendellを創設し世界最大のGoogleへのDMCA通報者となった（8億件超）。2022年のAvisa Partners買収後、LeakID SASは2025年1月1日に清算なし解散。技術的論争：RivendellのURL先行通報戦略が統計を水増し、TorrentFreakによると通報URLの50%超がGoogle索引に存在しなかった。",
+        },
+      ],
+    },
+    it: {
+      titre: "LeakID & Forward Global — Intelligence economica, disinformazione e reti macroniste",
+      sousTitre: "Da iStrat a Bridgepoint: l'ascesa di un gruppo di influenza nella sfera del potere",
+      resume:
+        "Forward Global (ex-Avisa Partners, ex-iStrat) è un gruppo di intelligence economica valutato a oltre 200 milioni di euro nel 2024, organizzatore del FIC e cliente del CAC 40. I suoi legami con la sfera macronista sono documentati: Olivia Grégoire (Segretaria di Stato 2021-2024) vi era direttrice associata (2013-2014); Sylvain Fort (speechwriter di Macron 2017-2019) ne era socio (2020-2022). L'indagine rivela anche una 'pulizia della reputazione' dopo gli scandali di disinformazione 2022-23 e la dissoluzione giuridica di LeakID il 1° gennaio 2025.",
+      parties: [
+        {
+          titre: "Forward Global (ex-Avisa Partners): dalla pulizia della reputazione alla valutazione di 200 milioni di euro",
+          contenu: "Forward Global è stata fondata nel 2010 come iStrat da Matthieu Creux, Sciences Po Parigi, ex-collaboratore parlamentare di Valérie Pécresse. Il gruppo riunisce cybersicurezza offensiva (Lexfo), intelligence economica (CEIS), antipirateria (LeakID, Rivendell — 800 milioni di URL segnalate a Google), investigazioni (Uncovery) e comunicazione strategica. Nel 2022-2023, scandali di disinformazione: giornalisti pagati per scrivere contenuti falsi, manipolazione di Wikipedia, consulenze a regimi autoritari, accuse ministeriali. Nel giugno 2023, ribattezzata Forward Global, vendita delle attività di influenza a Dassier per 5 milioni di euro. Nel novembre 2024, LBO con Bridgepoint, valorazione superiore a 200 milioni di euro.",
+        },
+        {
+          titre: "Le connessioni macroniste: Grégoire e Fort",
+          contenu: "Olivia Grégoire (Segretaria di Stato 2021-2024, Renaissance) era direttrice associata di iStrat dal 2013 al 2014. Sylvain Fort (normalien, principale speechwriter di Macron 2017-2019) era socio di Avisa Partners dal 2020 al 2022. Queste due connessioni collocano Forward Global all'intersezione del potere esecutivo macronista e di un'industria dell'influenza che opera in una zona grigia.",
+        },
+        {
+          titre: "LeakID SAS: dissoluzione e eredità tecnologica",
+          contenu: "LeakID è stata fondata nel 2007 da Hervé Lemaire. Pioniera francese nel Notice & Takedown, ha creato Rivendell nel 2013, diventando il più grande mittente mondiale di richieste DMCA a Google — oltre 800 milioni di URL segnalate. Dopo l'acquisizione da Avisa Partners nel 2022, LeakID SAS è stata sciolta senza liquidazione il 1° gennaio 2025. Controversia tecnica: la strategia di notifica preventiva di Rivendell gonfia artificialmente le statistiche.",
+        },
+      ],
+    },
+  },
+
 };
 
 /**

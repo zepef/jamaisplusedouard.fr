@@ -623,7 +623,8 @@ export type SousReseau =
   | "facilitateurs"
   | "portuaire"
   | "bilderberg"
-  | "coalition-2027";
+  | "coalition-2027"
+  | "cyber-influence";
 
 export type Centroide = "philippe" | "juppe" | "raffarin" | "villepin";
 
@@ -1570,6 +1571,46 @@ export const reseau: PersonneReseau[] = [
     sousReseaux: ["entreprises", "coalition-2027"],
     rattachement: "philippe",
   },
+  // === RAPPORT LEAKID : Forward Global, intelligence économique et réseaux Macron ===
+  {
+    nom: "Forward Global",
+    slug: "forward-global",
+    role: "Groupe d'intelligence économique — ex-Avisa Partners — scandales désinformation 2022-23 — FIC organisateur",
+    description:
+      "Forward Global (fondé en 2010 sous le nom d'iStrat par Matthieu Creux, ex-collaborateur parlementaire de Valérie Pécresse) réunit cybersécurité offensive (Lexfo, 2 accréditations ANSSI), intelligence économique (CEIS), anti-piratage (LeakID/Rivendell), investigation (Uncovery) et communication stratégique. En novembre 2024, un LBO conduit par Bridgepoint Development Capital valorise le groupe à plus de 200 M€. Deux connexions directes avec la sphère macroniste sont documentées : Olivia Grégoire (secrétaire d'État sous Macron, 2021-2024) était directrice associée d'iStrat de 2013 à 2014 ; Sylvain Fort, rédacteur des discours d'Emmanuel Macron (2017-2019), était associé d'Avisa Partners de 2020 à 2022. De 2022 à 2023, Avisa Partners est touché par des scandales de désinformation documentés par Mediapart et Politico : faux articles dans des espaces participatifs de médias nationaux, manipulation de Wikipédia, conseils à des régimes autoritaires (Égypte, Turquie, Kazakhstan, Qatar, RDC, Tchad), et accusations des ministères de l'Intérieur et des Armées d'opérations contraires aux intérêts français. En juin 2023, le groupe se rebaptise Forward Global et cède les activités d'influence digitale à Arnaud Dassier pour 5 M€. Dans le modèle MAS, Forward Global est un agent facilitateur d'influence : il connecte les sphères politiques, médiatiques et sécuritaires sans être lui-même un centroïde.",
+    typeLien: "professionnel",
+    sousReseaux: ["cyber-influence", "entreprises", "facilitateurs"],
+    rattachement: "philippe",
+  },
+  {
+    nom: "Matthieu Creux",
+    slug: "matthieu-creux",
+    role: "Président-fondateur Forward Global (ex-Avisa Partners) — ex-collab parlementaire Pécresse (2006) — Sciences Po",
+    description:
+      "Matthieu Creux (né 1987) est diplômé de Sciences Po Paris. À 19 ans, il commence comme collaborateur parlementaire de Valérie Pécresse (2006) — future candidate présidentielle 2022. En 2007-2010, chargé de mission au cabinet du Ministère de l'Enseignement supérieur. En 2010, il fonde iStrat, qui devient Avisa Partners (2015) puis Forward Global (2023). Président de Forward Global et de Financière Pagnol, associé de Lexfo, CEIS, Observatoire des Pays Arabes, 35°Nord, Databack, LeakID, Forward Risk, DGM Conseil et Uncovery. Le groupe revendique un CA de 100 M€, 420 collaborateurs et 90 % du CAC 40 en clients. Auteur de « Cyberdjihadisme » (VA Editions, 2020) et « La fabrique de la propagande terroriste » (Hermann, 2024). Son passage précoce par les cabinets ministériels et les cercles politiques avant l'âge de 20 ans illustre un accès au réseau de pouvoir dès la sortie de Sciences Po, bien avant la création de son groupe d'intelligence économique.",
+    typeLien: "professionnel",
+    sousReseaux: ["cyber-influence", "facilitateurs"],
+  },
+  {
+    nom: "Olivia Grégoire",
+    slug: "olivia-gregoire",
+    role: "Secrétaire d'État déléguée à la Consommation (2021-2024) — ex-directrice associée iStrat/Avisa Partners (2013-2014)",
+    description:
+      "Olivia Grégoire est une femme politique française, membre de Renaissance (ex-LREM). Nommée secrétaire d'État déléguée chargée de la Consommation dans les gouvernements Castets (2021-2022), Borne (2022-2024) et Attal (janvier-septembre 2024). De 2013 à 2014, elle est directrice associée d'iStrat — la société fondée par Matthieu Creux qui deviendra Avisa Partners puis Forward Global. Cette période coïncide avec les débuts du macronisme : Macron entre au gouvernement Hollande en 2014 comme ministre de l'Économie. Grégoire est une des premières macronistes, femme d'affaires puis élue, dont le parcours pré-politique inclut une direction dans le futur groupe Forward Global. Le lien iStrat → Grégoire → secrétaire d'État constitue une connexion directe entre Forward Global et la sphère exécutive macroniste, parallèle à la connexion Sylvain Fort (rédacteur discours Macron, associé Avisa 2020-22).",
+    typeLien: "politique",
+    partiPolitique: "Renaissance",
+    sousReseaux: ["cyber-influence", "matignon"],
+    rattachement: "philippe",
+  },
+  {
+    nom: "Sylvain Fort",
+    slug: "sylvain-fort",
+    role: "Rédacteur en chef des discours de Macron (2017-2019) — ex-associé Avisa Partners (2020-2022)",
+    description:
+      "Sylvain Fort est normalien (ENS Paris), agrégé de lettres modernes. Il rejoint Emmanuel Macron en 2017 comme directeur de la communication de l'Élysée puis principal rédacteur des discours présidentiels (Davos, Athènes, Versailles) jusqu'en 2019. En 2020-2022, il est associé d'Avisa Partners — le groupe d'intelligence économique de Matthieu Creux ultérieurement touché par les scandales de désinformation de 2022-23 (faux articles dans des médias, manipulation Wikipédia, clients autoritaires, tensions DGSI/DGSE). Cette séquence (co-architecte de la communication présidentielle → associé d'une firme d'influence) illustre le pantouflage classique des cercles du pouvoir vers l'intelligence économique privée. Dans le modèle MAS, il est un agent de passage entre le pouvoir formel (discours présidentiels) et l'influence informelle (intelligence économique).",
+    typeLien: "mediatique",
+    sousReseaux: ["cyber-influence", "matignon", "facilitateurs"],
+  },
 ];
 
 export type Investigation = {
@@ -2185,6 +2226,74 @@ En parallèle, sa gestion des JO de Paris 2024 est unanimement reconnue comme un
       { titre: "info.gouv.fr — Fiche Charlotte Caubel (parcours officiel)", type: "officiel" },
       { titre: "JSS — « Charlotte Caubel nommée procureure adjointe à Paris » (août 2025)", type: "presse" },
       { titre: "FranceSoir — « Laurent Nuñez succède à Didier Lallement » (juillet 2022)", type: "presse" },
+    ],
+  },
+  // === RAPPORT LEAKID / FORWARD GLOBAL ===
+  {
+    slug: "leakid-forward-global",
+    titre: "LeakID & Forward Global — Intelligence économique, désinformation et réseaux macronistes",
+    sousTitre: "De iStrat à Bridgepoint : l'ascension d'un groupe d'influence dans la sphère du pouvoir",
+    resume:
+      "Forward Global (ex-Avisa Partners, ex-iStrat) est un groupe d'intelligence économique valorisé à plus de 200 M€ en 2024, organisateur du FIC et client du CAC 40. Sa connexion avec la sphère macroniste est documentée : Olivia Grégoire (secrétaire d'État 2021-2024) y était directrice associée (2013-2014) ; Sylvain Fort (rédacteur des discours de Macron 2017-2019) en était associé (2020-2022). L'enquête révèle aussi un « nettoyage de réputation » après les scandales de désinformation 2022-23 (faux articles dans des médias nationaux, manipulation Wikipédia, clients autoritaires, tensions DGSI/DGSE), et la dissolution juridique de l'entité LeakID au 1er janvier 2025.",
+    date: "2026-04-03",
+    themes: [
+      "avisa-partners",
+      "forward-global",
+      "desinformation",
+      "intelligence-economique",
+      "fic",
+      "olivia-gregoire",
+      "sylvain-fort",
+      "leakid",
+      "bridgepoint",
+      "matthieu-creux",
+    ],
+    parties: [
+      {
+        titre: "Forward Global (ex-Avisa Partners) : du nettoyage de réputation à la valorisation 200 M€",
+        contenu: `Forward Global est fondé en 2010 sous le nom d'iStrat par Matthieu Creux, 23 ans, Sciences Po Paris, ancien collaborateur parlementaire de Valérie Pécresse et chargé de mission au cabinet du Ministère de l'Enseignement supérieur. Le groupe agrège progressivement : cybersécurité offensive (Lexfo, 80 ingénieurs, 2 accréditations ANSSI), intelligence économique (CEIS, organisateur du FIC), anti-piratage (LeakID, Rivendell — 800 M d'URLs signalées à Google), investigation (Uncovery), communication stratégique (DGM Conseil, 35°Nord), récupération de données (Databack) et formation (Ubik Academy).
+
+En 2022-2023, Avisa Partners est touché par des scandales documentés par Mediapart et Politico : journalistes payés pour écrire de faux contenus dans les espaces participatifs de Mediapart, L'Express, HuffPost, AgoraVox, Les Échos ; interventions clandestines sur Wikipédia au profit de clients ; conseils à des régimes autoritaires (Égypte, Turquie, Kazakhstan, Qatar, RDC, Tchad). Les ministères de l'Intérieur et des Armées boycottent le FIC en 2023. La DGSI et la DGSE accusent Avisa d'opérations contraires aux intérêts diplomatiques et économiques français.
+
+En juin 2023, le groupe se rebaptise Forward Global, cède les activités d'influence digitale et la marque Avisa Partners à Arnaud Dassier pour 5 M€. Cette opération de « nettoyage de réputation » permet d'attirer Bridgepoint Development Capital : en novembre 2024, un LBO valorise Forward Global à plus de 200 M€, Bridgepoint prenant environ 48 % du capital.`,
+      },
+      {
+        titre: "Les connexions macronistes : Grégoire et Fort",
+        contenu: `Deux agents de la sphère macroniste ont des liens documentés avec Forward Global :
+
+Olivia Grégoire (secrétaire d'État déléguée à la Consommation 2021-2024, Renaissance) était directrice associée d'iStrat de 2013 à 2014 — la période où Macron entre au gouvernement Hollande comme ministre de l'Économie. Ce lien iStrat → Grégoire → macronie constitue une connexion précoce entre le futur groupe d'intelligence économique et les cercles du pouvoir.
+
+Sylvain Fort (normalien, agrégé de lettres, directeur de la communication de l'Élysée puis rédacteur des discours de Macron 2017-2019) est associé d'Avisa Partners de 2020 à 2022 — la période juste avant les scandales. Sa séquence (architecte de la communication présidentielle → firme d'influence qui sera ensuite éclaboussée) illustre le pantouflage vers l'intelligence économique privée.
+
+Ces deux connexions placent Forward Global à l'intersection du pouvoir exécutif macroniste et d'une industrie de l'influence qui opère dans une zone grise entre intelligence légitime et désinformation documentée. L'enquête ne démontre pas d'implication de Grégoire ou Fort dans les pratiques controversées — ils sont partis avant les scandales — mais leur présence dessine l'écosystème de recrutement du groupe.`,
+      },
+      {
+        titre: "LeakID SAS : dissolution et héritage technologique",
+        contenu: `LeakID a été fondée en 2007 par Hervé Lemaire (ex-Head of Digital chez Virgin/EMI) sous le SIREN 499 956 092. Pionnière française du Notice & Takedown anti-piratage, elle a créé Rivendell (désindexation Google) en 2013, devenant le premier émetteur mondial de demandes DMCA — plus de 800 millions d'URLs signalées. LeakID protège annuellement plus de 20 000 œuvres et 4 000 événements en direct.
+
+Acquise par Avisa Partners en juin 2022, LeakID SAS est dissoute sans liquidation le 1er janvier 2025, par décision de l'associé unique Forward Global (article 1844-5 al. 3 du Code civil), ses activités étant absorbées dans la division Content Protection du groupe.
+
+Une controverse technique : la stratégie de notification préemptive de Rivendell (signaler des URLs avant leur indexation) gonfle artificiellement les statistiques — TorrentFreak estime que plus de 50 % des URLs signalées n'existaient pas dans l'index Google. Cette pratique sert de blacklisting préventif mais interroge sur la réalité des volumes affichés.
+
+En termes MAS, LeakID était un agent d'enforcement distribué (crawling multi-protocole, takedown automatisé), absorbé dans un conglomérat d'intelligence plus large. La dissolution de l'entité juridique modifie les cadres contractuels des clients sans changer l'activité opérationnelle.`,
+      },
+    ],
+    noeudsLies: [
+      "forward-global",
+      "matthieu-creux",
+      "olivia-gregoire",
+      "sylvain-fort",
+      "edouard-philippe",
+      "emmanuel-macron",
+    ],
+    sources: [
+      { titre: "Rapport d'enquête LeakID / Forward Global — Claude (Anthropic), 2 avril 2026", type: "officiel" },
+      { titre: "Mediapart — Avisa Partners : l'empire de la désinformation (2022-2023)", type: "presse" },
+      { titre: "Politico — Avisa Partners Wikipedia manipulation (2022)", type: "presse" },
+      { titre: "Légifrance — Avis de dissolution LeakID SAS (SIREN 499 956 092)", type: "officiel" },
+      { titre: "TorrentFreak — Rivendell : the world's biggest copyright notice sender", type: "presse" },
+      { titre: "Bridgepoint — communiqué LBO Forward Global (novembre 2024)", type: "officiel" },
+      { titre: "Percona — Case study : LeakID MariaDB multi-master architecture", type: "officiel" },
     ],
   },
 ];

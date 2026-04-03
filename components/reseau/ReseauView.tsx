@@ -27,6 +27,7 @@ const SOUS_RESEAU_COLORS: Record<SousReseau, string> = {
   portuaire: "text-neon-green",
   bilderberg: "text-foreground",
   "coalition-2027": "text-cyan",
+  "cyber-influence": "text-neon-red",
 };
 
 const SOUS_RESEAU_ORDER: SousReseau[] = [
@@ -42,6 +43,7 @@ const SOUS_RESEAU_ORDER: SousReseau[] = [
   "portuaire",
   "bilderberg",
   "coalition-2027",
+  "cyber-influence",
 ];
 
 export default function ReseauView({ personnes }: Props) {
@@ -65,6 +67,7 @@ export default function ReseauView({ personnes }: Props) {
     portuaire: tReseau("portuaire"),
     bilderberg: tReseau("bilderberg"),
     "coalition-2027": tReseau("coalition2027"),
+    "cyber-influence": tReseau("cyberInfluence"),
   };
 
   // Descriptions traduites pour les sous-réseaux
@@ -81,6 +84,7 @@ export default function ReseauView({ personnes }: Props) {
     portuaire: tReseau("desc.portuaire"),
     bilderberg: tReseau("desc.bilderberg"),
     "coalition-2027": tReseau("desc.coalition2027"),
+    "cyber-influence": tReseau("desc.cyberInfluence"),
   };
 
   const typeCounts = ALL_TYPES.map((type) => ({
