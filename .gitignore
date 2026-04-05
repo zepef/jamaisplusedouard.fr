@@ -47,3 +47,6 @@ next-env.d.ts
 
 # Claude memory
 app/CLAUDE.md
+
+# Cron runtime artifacts
+scripts/inbox-watcher.log
