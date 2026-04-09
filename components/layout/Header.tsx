@@ -14,6 +14,7 @@ const navKeys = [
   { href: "/reseau", key: "reseau" },
   { href: "/matraquage", key: "matraquage" },
   { href: "/blog", key: "blog" },
+  { href: "/dashboard", key: "dashboard" },
   { href: "/soumettre", key: "soumettre" },
 ];
 
