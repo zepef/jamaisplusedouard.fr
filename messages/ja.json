@@ -16,7 +16,9 @@
     "soumettre": "情報提供",
     "recherche": "検索",
     "investigations": "調査報告",
-    "dashboard": "首相ダッシュボード"
+    "dashboard": "首相ダッシュボード",
+    "enquetes": "調査",
+    "dashboardDesc": "首相の多部門指標"
   },
   "hero": {
     "tagline": "エドゥアール・フィリップに関する市民監視",

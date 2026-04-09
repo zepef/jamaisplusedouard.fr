@@ -16,7 +16,9 @@
     "soumettre": "Einreichen",
     "recherche": "Suche",
     "investigations": "Ermittlungen",
-    "dashboard": "PM-Dashboard"
+    "dashboard": "PM-Dashboard",
+    "enquetes": "Ermittlungen",
+    "dashboardDesc": "Multisektoraler Indikator der Premierminister"
   },
   "hero": {
     "tagline": "Bürgerüberwachung zu Édouard Philippe",

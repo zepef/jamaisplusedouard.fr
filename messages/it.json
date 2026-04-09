@@ -16,7 +16,9 @@
     "soumettre": "Invia",
     "recherche": "Cerca",
     "investigations": "Indagini",
-    "dashboard": "Dashboard PM"
+    "dashboard": "Dashboard PM",
+    "enquetes": "Inchieste",
+    "dashboardDesc": "Indicatore multisettoriale dei Primi Ministri"
   },
   "hero": {
     "tagline": "Sorveglianza civica su Édouard Philippe",

@@ -16,7 +16,9 @@
     "soumettre": "Soumettre",
     "recherche": "Rechercher",
     "investigations": "Investigations",
-    "dashboard": "Dashboard PM"
+    "dashboard": "Dashboard PM",
+    "enquetes": "Enquêtes",
+    "dashboardDesc": "Indicateur multisectoriel des Premiers Ministres"
   },
   "hero": {
     "tagline": "Veille citoyenne sur Édouard Philippe",

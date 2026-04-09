@@ -16,7 +16,9 @@
     "soumettre": "Enviar",
     "recherche": "Buscar",
     "investigations": "Investigaciones",
-    "dashboard": "Dashboard PM"
+    "dashboard": "Dashboard PM",
+    "enquetes": "Investigaciones",
+    "dashboardDesc": "Indicador multisectorial de Primeros Ministros"
   },
   "hero": {
     "tagline": "Vigilancia ciudadana sobre Édouard Philippe",

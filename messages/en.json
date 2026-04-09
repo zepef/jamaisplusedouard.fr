@@ -16,7 +16,9 @@
     "soumettre": "Submit",
     "recherche": "Search",
     "investigations": "Investigations",
-    "dashboard": "PM Dashboard"
+    "dashboard": "PM Dashboard",
+    "enquetes": "Inquiries",
+    "dashboardDesc": "Multi-sector indicator of Prime Ministers"
   },
   "hero": {
     "tagline": "Citizen watchdog on Édouard Philippe",

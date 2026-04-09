@@ -1,21 +1,31 @@
 import Link from "next/link";
 import GlassCard from "@/components/ui/GlassCard";
 import NewsletterForm from "@/components/ui/NewsletterForm";
-import { controverses, reseau, timeline, stats } from "@/lib/seed-data";
+import { stats } from "@/lib/seed-data";
 import { getTranslations } from "next-intl/server";
+
+const sections = [
+  { href: "/biographie", key: "biographie", color: "text-cyan", glow: "cyan" as const, icon: "01" },
+  { href: "/actualites", key: "actualites", color: "text-neon-green", glow: "cyan" as const, icon: "02" },
+  { href: "/controverses", key: "controverses", color: "text-neon-red", glow: "red" as const, icon: "03" },
+  { href: "/investigations", key: "investigations", color: "text-neon-red", glow: "red" as const, icon: "04" },
+  { href: "/conflits", key: "conflits", color: "text-neon-red", glow: "red" as const, icon: "05" },
+  { href: "/reseau", key: "reseau", color: "text-magenta", glow: "magenta" as const, icon: "06" },
+  { href: "/matraquage", key: "matraquage", color: "text-neon-red", glow: "red" as const, icon: "07" },
+  { href: "/dashboard", key: "dashboard", color: "text-cyan", glow: "cyan" as const, icon: "08" },
+  { href: "/blog", key: "blog", color: "text-cyan", glow: "cyan" as const, icon: "09" },
+  { href: "/soumettre", key: "soumettre", color: "text-neon-green", glow: "cyan" as const, icon: "10" },
+];
 
 export default async function Home() {
   const tHero = await getTranslations("hero");
-  const tStats = await getTranslations("stats");
+  const tNav = await getTranslations("nav");
   const tSections = await getTranslations("sections");
   const tNewsletter = await getTranslations("newsletter");
-  const tc = await getTranslations("common");
-
-  const topControverses = controverses.filter((c) => c.gravite === "haute").slice(0, 4);
-  const recentTimeline = timeline.slice(-5).reverse();
+  const tStats = await getTranslations("stats");
 
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
+    <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
       {/* Hero */}
       <section className="mb-16 text-center">
         <h1 className="text-5xl sm:text-7xl font-bold tracking-tighter mb-4">
@@ -35,189 +45,67 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* Stats banner */}
+      {/* Stats */}
       <section className="mb-12">
         <GlassCard className="flex flex-wrap items-center justify-around gap-6 py-4">
-          <Stat
-            label={tStats("controverses")}
-            value={String(stats.controverses)}
-            color="text-neon-red"
-          />
-          <Stat
-            label={tStats("evenements")}
-            value={String(stats.articles)}
-            color="text-cyan"
-          />
-          <Stat
-            label={tStats("connexions")}
-            value={String(stats.connexions)}
-            color="text-magenta"
-          />
-          <Stat
-            label={tStats("sources")}
-            value={String(stats.sources)}
-            color="text-neon-green"
-          />
+          <Stat label={tStats("controverses")} value={String(stats.controverses)} color="text-neon-red" />
+          <Stat label={tStats("evenements")} value={String(stats.articles)} color="text-cyan" />
+          <Stat label={tStats("connexions")} value={String(stats.connexions)} color="text-magenta" />
+          <Stat label={tStats("sources")} value={String(stats.sources)} color="text-neon-green" />
         </GlassCard>
       </section>
 
-      {/* Two columns */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        {/* Controverses */}
-        <section>
-          <div className="flex items-center justify-between mb-6">
-            <h2 className="text-xl font-bold text-neon-red glow-red">
-              {tSections("controversesMajeures")}
-            </h2>
-            <Link
-              href="/controverses"
-              className="text-xs font-mono text-muted hover:text-cyan transition-colors neon-underline"
-            >
-              {tSections("voirTout")}
-            </Link>
-          </div>
-          <div className="space-y-4">
-            {topControverses.map((item) => (
-              <Link key={item.slug} href={`/controverses/${item.slug}`}>
-                <GlassCard glow="red" className="group cursor-pointer">
-                  <div className="flex items-start justify-between gap-4">
-                    <div className="flex-1 min-w-0">
-                      <div className="flex items-center gap-2">
-                        <span className="tag tag-controverse">{tc("controverse")}</span>
-                        <span className="tag text-neon-red border-neon-red/30 bg-neon-red/8">
-                          {item.gravite}
-                        </span>
-                      </div>
-                      <h3 className="mt-2 text-sm font-semibold text-foreground group-hover:text-neon-red transition-colors">
-                        {item.titre}
-                      </h3>
-                      <p className="mt-1 text-xs text-muted line-clamp-2">
-                        {item.resume}
-                      </p>
-                      <div className="mt-2 flex items-center gap-2">
-                        <span className="text-[10px] font-mono text-neon-green">
-                          {item.sources.length} source
-                          {item.sources.length > 1 ? "s" : ""}
-                        </span>
-                      </div>
-                    </div>
-                    <time className="text-xs font-mono text-muted/50 shrink-0">
-                      {item.date}
-                    </time>
+      {/* Sections grid */}
+      <section className="mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {sections.map((s) => (
+            <Link key={s.key} href={s.href}>
+              <GlassCard glow={s.glow} className="group cursor-pointer h-full">
+                <div className="flex items-center gap-4">
+                  <span className={`text-2xl font-bold font-mono ${s.color} opacity-30`}>
+                    {s.icon}
+                  </span>
+                  <div>
+                    <h2 className={`text-lg font-bold ${s.color} group-hover:brightness-125 transition`}>
+                      {tNav(s.key)}
+                    </h2>
+                    {s.key === "dashboard" && (
+                      <p className="text-xs text-muted mt-0.5">{tNav("dashboardDesc")}</p>
+                    )}
                   </div>
-                </GlassCard>
-              </Link>
-            ))}
-          </div>
-        </section>
-
-        {/* Right column */}
-        <section>
-          {/* Recent timeline */}
-          <div className="mb-8">
-            <div className="flex items-center justify-between mb-6">
-              <h2 className="text-xl font-bold text-cyan glow-cyan">
-                {tSections("chronologieRecente")}
-              </h2>
-              <Link
-                href="/biographie"
-                className="text-xs font-mono text-muted hover:text-cyan transition-colors neon-underline"
-              >
-                {tSections("voirTout")}
-              </Link>
-            </div>
-            <div className="space-y-3">
-              {recentTimeline.map((item, i) => (
-                <GlassCard key={i} className="!p-4">
-                  <div className="flex items-start gap-3">
-                    <span
-                      className={`text-xs font-mono font-bold shrink-0 w-24 ${
-                        item.categorie === "controverse"
-                          ? "text-neon-red"
-                          : "text-cyan"
-                      }`}
-                    >
-                      {item.annee}
-                    </span>
-                    <div className="flex-1 min-w-0">
-                      <h3 className="text-sm font-semibold text-foreground">
-                        {item.titre}
-                      </h3>
-                      <p className="text-xs text-muted mt-0.5 line-clamp-2">
-                        {item.description}
-                      </p>
-                    </div>
-                  </div>
-                </GlassCard>
-              ))}
-            </div>
-          </div>
-
-          {/* Reseau teaser */}
-          <div className="mb-8">
-            <div className="flex items-center justify-between mb-6">
-              <h2 className="text-xl font-bold text-magenta glow-magenta">
-                {tSections("reseau")}
-              </h2>
-              <Link
-                href="/reseau"
-                className="text-xs font-mono text-muted hover:text-cyan transition-colors neon-underline"
-              >
-                {tSections("explorer")}
-              </Link>
-            </div>
-            <Link href="/reseau">
-              <GlassCard glow="magenta" className="cursor-pointer group">
-                <div className="text-center py-6">
-                  <div className="text-4xl font-bold text-magenta mb-2">
-                    {reseau.length}
-                  </div>
-                  <p className="text-sm text-muted">
-                    {tSections("connexionsCartographiees")}
-                  </p>
-                  <div className="mt-3 flex flex-wrap items-center justify-center gap-2">
-                    {reseau.slice(0, 5).map((p) => (
-                      <span
-                        key={p.slug}
-                        className="text-[10px] font-mono text-muted/50 bg-glass px-1.5 py-0.5 rounded"
-                      >
-                        {p.nom}
-                      </span>
-                    ))}
-                    <span className="text-[10px] font-mono text-magenta">
-                      +{reseau.length - 5}
-                    </span>
-                  </div>
+                  <svg
+                    className="ml-auto text-muted/30 group-hover:text-foreground transition-colors shrink-0"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  >
+                    <path d="M9 18l6-6-6-6" />
+                  </svg>
                 </div>
               </GlassCard>
             </Link>
-          </div>
+          ))}
+        </div>
+      </section>
 
-          {/* Newsletter */}
-          <div>
-            <h2 className="text-lg font-bold text-foreground mb-4">
-              {tSections("newsletter")}
-            </h2>
-            <p className="text-xs text-muted mb-3">
-              {tNewsletter("description")}
-            </p>
-            <NewsletterForm />
-          </div>
-        </section>
-      </div>
+      {/* Newsletter */}
+      <section className="max-w-md mx-auto text-center">
+        <h2 className="text-lg font-bold text-foreground mb-2">
+          {tSections("newsletter")}
+        </h2>
+        <p className="text-xs text-muted mb-4">
+          {tNewsletter("description")}
+        </p>
+        <NewsletterForm />
+      </section>
     </div>
   );
 }
 
-function Stat({
-  label,
-  value,
-  color,
-}: {
-  label: string;
-  value: string;
-  color: string;
-}) {
+function Stat({ label, value, color }: { label: string; value: string; color: string }) {
   return (
     <div className="text-center">
       <div className={`text-2xl font-bold font-mono ${color}`}>{value}</div>
