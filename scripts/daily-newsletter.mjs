@@ -205,7 +205,15 @@ async function getSubscribers() {
     return [];
   }
 
-  return data.map((r) => r.email);
+  const emails = data.map((r) => r.email);
+
+  // Destinataires permanents
+  const ALWAYS_SEND = ["pef@tckc.ai"];
+  for (const addr of ALWAYS_SEND) {
+    if (!emails.includes(addr)) emails.push(addr);
+  }
+
+  return emails;
 }
 
 // ── 4. Send via Resend ──────────────────────────────────────
