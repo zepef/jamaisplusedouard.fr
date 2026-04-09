@@ -571,7 +571,7 @@ export default function DashboardPage() {
                   <YAxis domain={[0, 100]} tick={{ fill: "#3f3f46", fontSize: 10 }} />
                   <Tooltip
                     contentStyle={{ background: "#18181b", border: `1px solid ${bdr}`, borderRadius: 6, color: "#e4e4e7", fontSize: 11 }}
-                    labelFormatter={(v, p) => (p as Array<{ payload?: { fullName?: string } }>)?.[0]?.payload?.fullName || String(v)}
+                    labelFormatter={(v, p) => (p as unknown as Array<{ payload?: { fullName?: string } }>)?.[0]?.payload?.fullName || String(v)}
                   />
                   <Legend wrapperStyle={{ fontSize: 10, color: "#71717a" }} />
                   <Line type="monotone" dataKey="avg" stroke="#f59e0b" strokeWidth={2.5} name="Score global" dot={{ r: 2.5, fill: "#f59e0b" }} />
