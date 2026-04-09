@@ -45,3 +45,11 @@ Co-Authored-By: Paperclip <noreply@paperclip.ing>" 2>&1 | tee -a "$LOG_FILE"
 git push 2>&1 | tee -a "$LOG_FILE"
 
 echo "[elestio-cron] $(date -Iseconds) — Done, pushed bot-exchange updates." | tee -a "$LOG_FILE"
+
+# ── Newsletter quotidienne (une seule fois par jour, run du matin 8h UTC) ──
+HOUR=$(date -u +%H)
+if [ "$HOUR" -lt 12 ]; then
+  echo "[elestio-cron] Running daily newsletter..." | tee -a "$LOG_FILE"
+  node scripts/daily-newsletter.mjs 2>&1 | tee -a "$LOG_FILE"
+  echo "[elestio-cron] Newsletter done." | tee -a "$LOG_FILE"
+fi
