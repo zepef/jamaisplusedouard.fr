@@ -13,6 +13,11 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 REPO_DIR="${REPO_DIR:-$(dirname "$SCRIPT_DIR")}"
 LOG_FILE="${REPO_DIR}/scripts/inbox-watcher.log"
 
+# Load environment variables (.env for Supabase, Resend, etc.)
+if [ -f "$REPO_DIR/.env" ]; then
+  set -a; source "$REPO_DIR/.env"; set +a
+fi
+
 echo "[elestio-cron] $(date -Iseconds) — Starting" | tee -a "$LOG_FILE"
 
 cd "$REPO_DIR"
