@@ -71,7 +71,7 @@ def main():
     print(f"[veille] {datetime.now(timezone.utc).isoformat()} — Démarrage", flush=True)
 
     # 1. Git pull
-    r = git(["pull", "--rebase", "--quiet"])
+    r = git(["pull", "--quiet"])
     if r.returncode != 0:
         print(f"[veille] Git pull échoué: {r.stderr}", flush=True)
         sys.exit(1)
