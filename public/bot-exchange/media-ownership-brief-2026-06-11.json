@@ -1,0 +1,105 @@
+{
+  "_meta": {
+    "source": "media-ownership-brief-2026-06-11",
+    "producer": "edouard-webapp/matraquage",
+    "to": "hermes",
+    "subject": "Propriété des médias suivis (Matraquage) — vérifications 2024-2026 et nouveaux titres",
+    "generatedAt": "2026-06-11T00:00:00Z",
+    "version": "1.0.0",
+    "note": "Renseignement issu de la vérification de lib/media-data.ts (page /matraquage). Les propriétaires sont vérifiés par recherche web (juin 2026). À intégrer côté veille : nœuds réseau des propriétaires et liens propriété → titre → cercle Macron/Philippe. Schéma proposals.newNodes conforme au contrat data-incoming (PersonneReseau)."
+  },
+  "entities": {
+    "persons": [
+      { "nom": "Rodolphe Saadé", "slug": "rodolphe-saade", "role": "PDG de CMA CGM", "medias": ["BFM TV", "RMC", "La Tribune", "La Provence", "Corse-Matin"] },
+      { "nom": "Bernard Arnault", "slug": "bernard-arnault", "role": "PDG de LVMH", "medias": ["Les Échos", "Le Parisien", "L'Opinion", "Paris Match", "Radio Classique"] },
+      { "nom": "Xavier Niel", "slug": "xavier-niel", "role": "Fondateur d'Iliad/Free", "medias": ["Le Monde (groupe)"] },
+      { "nom": "François-Henri Pinault", "slug": "francois-henri-pinault", "role": "Président d'Artémis / Kering", "medias": ["Le Point"] },
+      { "nom": "Vincent Bolloré", "slug": "vincent-bollore", "role": "Actionnaire de contrôle de Bolloré SE", "medias": ["CNews", "Europe 1", "Canal+", "Le JDD"] }
+    ],
+    "organizations": [
+      { "nom": "CMA CGM / CMA Média", "slug": "cma-cgm", "mentionCount": 0 },
+      { "nom": "LVMH", "slug": "lvmh", "mentionCount": 0 },
+      { "nom": "Groupe Le Monde", "slug": "groupe-le-monde", "mentionCount": 0 },
+      { "nom": "Artémis", "slug": "artemis", "mentionCount": 0 },
+      { "nom": "Groupe Canal+ / Louis Hachette Group", "slug": "canal-plus", "mentionCount": 0 },
+      { "nom": "Groupe Industriel Marcel Dassault (GIMD)", "slug": "gimd", "mentionCount": 0 }
+    ]
+  },
+  "connections": [
+    { "source": "rodolphe-saade", "target": "bfm-tv", "typeLien": "financier", "description": "CMA CGM a racheté Altice Media (BFM TV, RMC) à Patrick Drahi — finalisé le 2 juillet 2024." },
+    { "source": "rodolphe-saade", "target": "la-tribune", "typeLien": "financier", "description": "CMA CGM a racheté 100 % du groupe Hima (La Tribune, La Tribune Dimanche) — finalisé en juillet 2023." },
+    { "source": "rodolphe-saade", "target": "edouard-philippe", "typeLien": "professionnel", "description": "Yann Le Goff, responsable sécurité de CMA CGM, est Young Leader 2011 (French-American Foundation) avec Philippe. Convergence CMA CGM / médias / réseau Philippe." },
+    { "source": "bernard-arnault", "target": "les-echos", "typeLien": "financier", "description": "LVMH (Arnault) détient Les Échos, Le Parisien et, depuis juillet 2025, L'Opinion (rachat de Bey Médias)." },
+    { "source": "bernard-arnault", "target": "emmanuel-macron", "typeLien": "politique", "description": "Arnault, premier allié oligarchique de Macron ; alignement structurel de ses titres avec le centre-libéral macroniste." },
+    { "source": "xavier-niel", "target": "le-monde", "typeLien": "financier", "description": "Niel (avec Daniel Křetínský et Matthieu Pigasse) contrôle le Groupe Le Monde ; Niel est un proche de Macron, mais la rédaction a révélé les réquisitions du PNF visant Philippe." },
+    { "source": "francois-henri-pinault", "target": "le-point", "typeLien": "financier", "description": "Le Point appartient à Artémis (famille Pinault). Philippe y a annoncé sa candidature en septembre 2024." },
+    { "source": "vincent-bollore", "target": "cnews", "typeLien": "financier", "description": "Depuis la scission de Vivendi (déc. 2024), CNews relève du Groupe Canal+ et Europe 1 de Lagardère/Louis Hachette Group, tous deux contrôlés par Bolloré. ADVERSAIRE de la Macronie (à ne pas classer pro-Philippe)." }
+  ],
+  "leads": [
+    {
+      "source": "media-ownership-brief-2026-06-11",
+      "themes": ["media", "financier", "reseau", "lobbying"],
+      "gravite": "moyenne",
+      "sousReseaux": ["entreprises", "portuaire", "cyber-influence"],
+      "centroides": ["philippe"],
+      "summary": "Concentration de la couverture favorable à Philippe autour de médias détenus par des milliardaires proches de Macron : Saadé/CMA CGM (BFM, RMC, La Tribune), Arnault/LVMH (Les Échos, Le Parisien, L'Opinion), Niel (Le Monde), Pinault (Le Point). À distinguer des médias Bolloré (CNews, Europe 1), structurellement adversaires de la Macronie. Angle : corrélation propriété ↔ tonalité de couverture."
+    }
+  ],
+  "proposals": {
+    "newNodes": [
+      {
+        "nom": "Rodolphe Saadé",
+        "slug": "rodolphe-saade",
+        "role": "PDG de CMA CGM, propriétaire de BFM TV, RMC, La Tribune, La Provence",
+        "description": "Armateur (3e mondial). Via CMA CGM/CMA Média, il a racheté Altice Media (BFM TV, RMC) à Patrick Drahi (finalisé le 2 juillet 2024) et le groupe Hima (La Tribune, juillet 2023). Son responsable sécurité Yann Le Goff est Young Leader 2011 avec Édouard Philippe. Pôle médiatique structurellement favorable à Philippe.",
+        "typeLien": "professionnel",
+        "sousReseaux": ["entreprises", "portuaire", "young-leaders"],
+        "rattachement": "philippe"
+      },
+      {
+        "nom": "Bernard Arnault",
+        "slug": "bernard-arnault",
+        "role": "PDG de LVMH, propriétaire des Échos, du Parisien et de L'Opinion",
+        "description": "Premier allié oligarchique d'Emmanuel Macron. LVMH détient Les Échos, Le Parisien, Paris Match, Radio Classique et, depuis juillet 2025, L'Opinion (rachat de Bey Médias). David Barroux, rédacteur en chef des Échos, est Young Leader 2011 avec Philippe.",
+        "typeLien": "professionnel",
+        "sousReseaux": ["entreprises"],
+        "rattachement": "philippe"
+      },
+      {
+        "nom": "Xavier Niel",
+        "slug": "xavier-niel",
+        "role": "Fondateur d'Iliad/Free, actionnaire de référence du Groupe Le Monde",
+        "description": "Proche d'Emmanuel Macron. Contrôle le Groupe Le Monde avec Daniel Křetínský et Matthieu Pigasse. Fut aussi investisseur fondateur de Mediapart (200 000 € en 2008). Le Monde a révélé les réquisitions du PNF visant Philippe (mai 2026), illustrant l'écart entre propriété et ligne rédactionnelle.",
+        "typeLien": "professionnel",
+        "sousReseaux": ["entreprises"],
+        "rattachement": null
+      },
+      {
+        "nom": "Vincent Bolloré",
+        "slug": "vincent-bollore",
+        "role": "Actionnaire de contrôle de CNews, Europe 1, Canal+",
+        "description": "ADVERSAIRE structurel de la Macronie (droite dure). Depuis la scission de Vivendi (déc. 2024), CNews relève du Groupe Canal+ et Europe 1 de Lagardère/Louis Hachette Group, tous deux contrôlés par Bolloré SE. À NE PAS classer comme média pro-Philippe : sa reprise de sujets favorables reflète l'opposition commune au RN, pas un soutien.",
+        "typeLien": "politique",
+        "sousReseaux": ["entreprises"],
+        "rattachement": null
+      }
+    ],
+    "newConnections": [
+      { "source": "rodolphe-saade", "target": "edouard-philippe", "typeLien": "professionnel", "description": "Lien CMA CGM (Yann Le Goff, YL 2011) ↔ Philippe ; pôle médiatique BFM/RMC/La Tribune favorable." },
+      { "source": "bernard-arnault", "target": "edouard-philippe", "typeLien": "professionnel", "description": "Titres LVMH (Les Échos via Barroux YL 2011) ↔ couverture favorable à Philippe." }
+    ],
+    "newControverses": [
+      {
+        "slug": "concentration-mediatique-pro-philippe-2026",
+        "titre": "[À titrer] Concentration médiatique favorable à Philippe (Saadé, Arnault, Niel, Pinault)",
+        "resume": "La couverture favorable à Philippe est concentrée dans des médias détenus par des milliardaires proches de Macron (CMA CGM, LVMH, Le Monde, Le Point), tandis que seuls les médias indépendants (Mediapart, Blast) produisent des enquêtes critiques.",
+        "gravite": "moyenne",
+        "themes": ["media", "financier", "lobbying"]
+      }
+    ],
+    "timelineEvents": [
+      { "annee": "2023-07", "titre": "CMA CGM (Saadé) rachète La Tribune", "description": "Finalisation du rachat de 100 % du groupe Hima (La Tribune, La Tribune Dimanche) par CMA CGM.", "categorie": "controverse", "section": "Médias" },
+      { "annee": "2024-07", "titre": "CMA CGM (Saadé) rachète BFM TV et RMC", "description": "Finalisation le 2 juillet 2024 du rachat d'Altice Media (BFM TV, RMC) à Patrick Drahi.", "categorie": "controverse", "section": "Médias" }
+    ]
+  }
+}

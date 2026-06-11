@@ -1,4 +1,12 @@
 {
   "processed": {},
+  "outbound": {
+    "media-ownership-brief-2026-06-11.json": {
+      "to": "hermes",
+      "producer": "edouard-webapp/matraquage",
+      "subject": "Propriété des médias suivis (Matraquage) — vérifications 2024-2026 et nouveaux titres",
+      "publishedAt": "2026-06-11T00:00:00Z"
+    }
+  },
   "lastRun": "2026-04-08T16:00:04.211Z"
 }
