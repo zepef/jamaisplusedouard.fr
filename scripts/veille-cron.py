@@ -9,7 +9,18 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO = "/opt/data/jamaisplusedouard.fr"
-TAVILY_KEY = "***"
+# Charge TAVILY_API_KEY depuis .env (sans dépendance externe)
+TAVILY_KEY = os.environ.get("TAVILY_API_KEY", "")
+if not TAVILY_KEY:
+    dotenv_path = Path(REPO) / ".env"
+    if dotenv_path.exists():
+        for line in dotenv_path.read_text().splitlines():
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                k, v = line.split("=", 1)
+                if k.strip() == "TAVILY_API_KEY":
+                    TAVILY_KEY = v.strip().strip('"').strip("'")
+                    break
 GIT_SSH = "ssh -i /home/hermes/.hermes/.ssh/id_ed25519_veille -o StrictHostKeyChecking=accept-new"
 
 QUEBEC = [
