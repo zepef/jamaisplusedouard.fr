@@ -265,6 +265,47 @@ export const chainesMedia: ChaineMedia[] = [
 // --- Apparitions (données seed — sera alimente par les agents) ---
 
 export const apparitions: ApparitionMedia[] = [
+  // --- Lot Hermès du 11 juin 2026 (collecte RSS blogwatcher — articles sourcés) ---
+  {
+    chaineSlug: "le-monde",
+    date: "2026-05-28",
+    emission: "Présidentielle 2027 — « une mise en examen ne m'empêchera pas d'être candidat »",
+    dureeMinutes: 0,
+    type: "reportage",
+    tonalite: "neutre",
+    resume: "Philippe assure qu'une éventuelle mise en examen ne l'empêchera pas de se présenter en 2027, malgré l'enquête du PNF sur des soupçons de détournement de fonds publics au Havre. Maintien affiché de la candidature.",
+    url: "https://www.lemonde.fr/election-presidentielle-2027/article/2026/05/28/edouard-philippe-assure-qu-une-mise-en-examen-ne-l-empechera-pas-d-etre-candidat-a-la-presidentielle-malgre-l-enquete-du-pnf-sur-des-soupcons-de-detournement-de-fonds-au-havre_6694461_6205049.html",
+  },
+  {
+    chaineSlug: "rtl",
+    date: "2026-05-19",
+    emission: "Politique — Philippe visé par une enquête au Havre",
+    dureeMinutes: 2,
+    type: "reportage",
+    tonalite: "neutre",
+    resume: "À un an de la présidentielle, RTL relaie l'enquête du PNF visant Philippe pour soupçons de détournement de fonds publics au Havre. Format court (2 min de lecture), traitement factuel.",
+    url: "https://www.rtl.fr/actu/politique/edouard-philippe-vise-par-une-enquete-pour-soupcons-de-detournement-de-fonds-publics-au-havre-a-un-an-de-la-presidentielle-7900636523",
+  },
+  {
+    chaineSlug: "la-gazette-france",
+    date: "2026-05-20",
+    emission: "Enquête sur Édouard Philippe : les clés du dossier",
+    dureeMinutes: 0,
+    type: "reportage",
+    tonalite: "neutre",
+    resume: "Décryptage du dossier judiciaire (détournement de fonds publics, harcèlement moral, prise illégale d'intérêt) au sein de la communauté d'agglomération du Havre dont Philippe est président. Mise en contexte économique territoriale.",
+    url: "https://www.lagazettefrance.fr/article/enquete-sur-edouard-philippe-les-cles-du-dossier",
+  },
+  {
+    chaineSlug: "le-nouvel-obs",
+    date: "2024-04-03",
+    emission: "Perquisition à la mairie du Havre dans le cadre de l'enquête PNF",
+    dureeMinutes: 0,
+    type: "reportage",
+    tonalite: "neutre",
+    resume: "Le Nouvel Obs (avec AFP) couvre la perquisition de la mairie du Havre par le PNF : soupçons de prise illégale d'intérêts, favoritisme, détournement de fonds publics et harcèlement moral visant notamment Philippe.",
+    url: "https://www.nouvelobs.com/politique/20240403.OBS86618/perquisitions-a-la-mairie-du-havre-dans-le-cadre-d-une-enquete-visant-notamment-edouard-philippe.html",
+  },
   // --- Veille avril-juin 2026 (depuis l'implémentation du Matraquage, 27 mars 2026) ---
   {
     chaineSlug: "le-monde",
@@ -394,7 +435,7 @@ export const apparitions: ApparitionMedia[] = [
     type: "reportage",
     tonalite: "neutre",
     resume: "Un juge d'instruction va enquêter sur Philippe au Havre. Reprise des réquisitions du PNF et rappel de la plainte de la lanceuse d'alerte de septembre 2023.",
-    url: "https://www.radiofrance.fr/franceinter/",
+    url: "https://www.radiofrance.fr/franceinter/podcasts/l-info-de-france-inter/le-maire-du-havre-edouard-philippe-vise-par-une-enquete-pour-detournements-de-fonds-publics-5402614",
   },
   {
     chaineSlug: "france-info-tv",
