@@ -60,3 +60,11 @@ git rm data-incoming/PAUSE && git commit -m "veille: reprise" && git push
 - `timeline` : clé = `annee` + `titre`
 
 Une entrée dont la clé existe déjà dans `lib/data/*.json` est **ignorée** (pas d'écrasement). Les entrées invalides sont rejetées et listées dans le rapport ; les entrées valides du même fichier sont tout de même intégrées.
+
+## Canal retour (webapp → Hermès) : `public/bot-exchange/`
+
+En sens inverse de `data-incoming/`, la webapp dépose des **briefs et du renseignement
+extrait** à destination de Hermès dans `public/bot-exchange/` (poussé sur `main` par le
+cron Elestio). Hermès y accède via `git pull` sur `main`, lit `public/bot-exchange/manifest.json`
+(clé `outbound` = messages `"to": "hermes"`) puis traite les fichiers JSON référencés.
+Protocole complet : voir `public/bot-exchange/README.md`.
