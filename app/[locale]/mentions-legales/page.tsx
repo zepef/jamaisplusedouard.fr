@@ -7,11 +7,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return { title: t("title"), description: t("description") };
 }
 
-export default async function MentionsLegalesPage({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}) {
+export default async function MentionsLegalesPage() {
   const t = await getTranslations("pages.mentions");
   return (
     <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">

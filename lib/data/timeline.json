@@ -1,0 +1,345 @@
+[
+  {
+    "annee": "1970",
+    "titre": "Naissance à Rouen",
+    "description": "Naît le 28 novembre 1970 à Rouen dans une famille d'enseignants. Son père est chef d'établissement scolaire, sa mère professeur de français. Il évoque régulièrement un arrière-grand-père docker, membre de la CGT au Havre, parmi les premiers adhérents du Parti communiste.",
+    "categorie": "biographie",
+    "section": "Origines"
+  },
+  {
+    "annee": "1988",
+    "titre": "Baccalauréat au lycée français de Bonn",
+    "description": "Passe son bac en Allemagne où son père est proviseur. Ce séjour formateur marque durablement sa vision européenne.",
+    "categorie": "biographie",
+    "section": "Formation"
+  },
+  {
+    "annee": "1992",
+    "titre": "Diplôme de Sciences Po Paris",
+    "description": "Section Service public. Se rapproche un temps des clubs animés par le courant rocardien du PS. Milite brièvement (environ deux ans) au PS avant de s'en éloigner définitivement.",
+    "categorie": "biographie",
+    "section": "Formation"
+  },
+  {
+    "annee": "1994",
+    "titre": "Service militaire — officier d'artillerie",
+    "description": "Officier au 11e régiment d'artillerie de marine, avec le grade d'aspirant. Sera ensuite officier dans la réserve opérationnelle.",
+    "categorie": "biographie",
+    "section": "Formation"
+  },
+  {
+    "annee": "1995-1997",
+    "titre": "ENA — promotion Marc-Bloch",
+    "description": "Son excellent classement de sortie lui permet d'intégrer le Conseil d'État, section du contentieux, spécialité droit des marchés publics.",
+    "categorie": "biographie",
+    "section": "Formation"
+  },
+  {
+    "annee": "2011",
+    "titre": "Young Leader — French-American Foundation",
+    "description": "Sélectionné avec 9 autres Français et 10 Américains. Dans sa promotion : Yann Le Goff (sécurité régionale CMA CGM), Yohann Bénard (Amazon France). Macron sera dans la promotion suivante (2012), Juppé dans la fondatrice (1982). Le contenu des séminaires n'est pas public.",
+    "categorie": "biographie",
+    "section": "Réseau"
+  },
+  {
+    "annee": "2013",
+    "titre": "Ribadeau-Dumas rejoint la France China Foundation",
+    "description": "Benoît Ribadeau-Dumas, futur dircab de Philippe à Matignon, issu de la même promotion ENA Marc-Bloch, intègre la France China Foundation (FCF). Emmanuel Lenain, co-créateur de la FCF, deviendra conseiller diplomatique de Philippe à Matignon.",
+    "categorie": "biographie",
+    "section": "Réseau"
+  },
+  {
+    "annee": "1997-2002",
+    "titre": "Conseil d'État — auditeur puis maître des requêtes",
+    "description": "Section du contentieux, spécialisé dans le droit des marchés publics.",
+    "categorie": "carriere",
+    "section": "Carrière"
+  },
+  {
+    "annee": "2004-2007",
+    "titre": "Avocat chez Debevoise & Plimpton",
+    "description": "Rejoint la filiale française du cabinet d'avocats anglo-saxon. Se met en disponibilité du Conseil d'État.",
+    "categorie": "carriere",
+    "section": "Carrière"
+  },
+  {
+    "annee": "2007-2010",
+    "titre": "Directeur des affaires publiques d'Areva",
+    "description": "Fonction de lobbying et de relations avec les élus au sein de la multinationale nucléaire.",
+    "categorie": "carriere",
+    "section": "Carrière"
+  },
+  {
+    "annee": "2020",
+    "titre": "Administrateur d'Atos",
+    "description": "Nommé administrateur indépendant. Mandat rémunéré ~70 000€/an, critiqué alors que l'entreprise connaît de graves difficultés financières. Atos est en pointe sur le traitement des données des radars automatiques.",
+    "categorie": "controverse",
+    "section": "Carrière"
+  },
+  {
+    "annee": "2001",
+    "titre": "Adjoint au maire du Havre",
+    "description": "Antoine Rufenacht le propose sur sa liste municipale. Chargé des affaires juridiques.",
+    "categorie": "biographie",
+    "section": "Le Havre"
+  },
+  {
+    "annee": "2002",
+    "titre": "Échec aux législatives / DG de l'UMP",
+    "description": "Battu par le communiste Daniel Paul (42,5%). Juppé lui propose de participer à la fondation de l'UMP — DG des services jusqu'en 2004.",
+    "categorie": "biographie",
+    "section": "Politique nationale"
+  },
+  {
+    "annee": "2010",
+    "titre": "Élu maire du Havre",
+    "description": "Succède à Antoine Rufenacht. Président de la communauté d'agglomération havraise. Mène une politique de transformation urbaine, mais endettement en forte hausse — finances « proches du seuil d'alerte » selon la chambre régionale des comptes.",
+    "categorie": "biographie",
+    "section": "Le Havre"
+  },
+  {
+    "annee": "2012",
+    "titre": "Élu député de la Seine-Maritime",
+    "description": "7e circonscription, sous l'étiquette UMP.",
+    "categorie": "biographie",
+    "section": "Politique nationale"
+  },
+  {
+    "annee": "2014",
+    "titre": "Réélu maire du Havre au 1er tour",
+    "description": "La liste qu'il conduit l'emporte dès le premier tour.",
+    "categorie": "biographie",
+    "section": "Le Havre"
+  },
+  {
+    "annee": "2016",
+    "titre": "Porte-parole de Juppé à la primaire",
+    "description": "Co-porte-parole avec Benoist Apparu. Après la défaite de Juppé, se rallié à Fillon.",
+    "categorie": "biographie",
+    "section": "Politique nationale"
+  },
+  {
+    "annee": "Mars 2017",
+    "titre": "Retrait de la campagne Fillon",
+    "description": "Se met en retrait après l'affaire Fillon. Avait qualifié Macron d'« ancien banquier de chez Rothschild » et dénoncé son « cynisme de vieux routier ».",
+    "categorie": "biographie",
+    "section": "Politique nationale"
+  },
+  {
+    "annee": "15 mai 2017",
+    "titre": "Nommé Premier ministre",
+    "description": "3e plus jeune PM de la Ve République (46 ans). Première fois hors cohabitation qu'un PM n'est pas du mouvement présidentiel.",
+    "categorie": "biographie",
+    "section": "Matignon"
+  },
+  {
+    "annee": "Mai 2017",
+    "titre": "Ribadeau-Dumas nommé directeur de cabinet",
+    "description": "Benoît Ribadeau-Dumas (ENA Marc-Bloch, même promotion que Philippe, FCF 2013) est nommé dircab de Matignon. Emmanuel Lenain (co-créateur FCF) devient conseiller diplomatique. Le réseau ENA/FAF/FCF se retrouve au cœur du pouvoir exécutif.",
+    "categorie": "controverse",
+    "section": "Matignon"
+  },
+  {
+    "annee": "Été 2017",
+    "titre": "Ordonnances Code du travail",
+    "description": "Flexibilisation du marché du travail, renforcement du dialogue social. Première réforme majeure par ordonnances.",
+    "categorie": "controverse",
+    "section": "Matignon"
+  },
+  {
+    "annee": "1er janv. 2018",
+    "titre": "11 vaccins obligatoires",
+    "description": "Annonce la mesure en personne le 4 juillet 2017. 8 vaccins recommandés deviennent obligatoires, conditionnant l'entrée en collectivité. Contestée par les mouvements anti-vaccination. La question des conflits d'intérêts avec les laboratoires est soulevée.",
+    "categorie": "controverse",
+    "section": "Matignon"
+  },
+  {
+    "annee": "1er juil. 2018",
+    "titre": "Passage à 80 km/h",
+    "description": "Réduction de la vitesse sur les routes secondaires. Dossier le plus personnel de son mandat, porté contre la volonté de Macron. Massivement impopulaire, contribue au ressentiment des Gilets jaunes. Lien potentiel avec Atos (radars automatiques) relevé par la presse.",
+    "categorie": "controverse",
+    "section": "Matignon"
+  },
+  {
+    "annee": "Juil. 2018",
+    "titre": "Affaire Benalla",
+    "description": "Deux motions de censure rejetées contre le gouvernement.",
+    "categorie": "controverse",
+    "section": "Matignon"
+  },
+  {
+    "annee": "Nov. 2018",
+    "titre": "Gilets jaunes — début du mouvement",
+    "description": "Né de l'opposition aux taxes carburants et du ressentiment accumulé. Bilan : 432 blessés graves, 25 éborgnes, 5 mains arrachées, 1 décès (Zineb Redouane). L'ONU et Amnesty International demandent l'interdiction des LBD40. Philippe encourage la réponse sécuritaire.",
+    "categorie": "controverse",
+    "section": "Matignon"
+  },
+  {
+    "annee": "Dec. 2018",
+    "titre": "Moratoire sur les taxes carburants",
+    "description": "Annonce un moratoire de 6 mois — l'Élysée revient dessus le lendemain. Tensions Matignon/présidence exposées au grand jour.",
+    "categorie": "controverse",
+    "section": "Matignon"
+  },
+  {
+    "annee": "Janv.-mars 2019",
+    "titre": "Grand débat national",
+    "description": "Consultation inédite. A l'issue, Macron annonce baisse de l'IR et réindexation des petites retraites.",
+    "categorie": "biographie",
+    "section": "Matignon"
+  },
+  {
+    "annee": "Mai 2019",
+    "titre": "Loi PACTE adoptée",
+    "description": "Loi pour la croissance et la transformation des entreprises.",
+    "categorie": "biographie",
+    "section": "Matignon"
+  },
+  {
+    "annee": "Dec. 2019",
+    "titre": "Réforme des retraites — grève massive",
+    "description": "800 000 manifestants le 5 décembre. Système universel en remplacement de 42 régimes. Recours au 49-3 en février 2020.",
+    "categorie": "controverse",
+    "section": "Matignon"
+  },
+  {
+    "annee": "13 mars 2020",
+    "titre": "« Le masque est inutile en population générale »",
+    "description": "Déclaration sur TF1 alors que les stocks sont insuffisants. Volte-face début avril. Maintien du 1er tour des municipales le 15 mars, 2 jours avant le confinement.",
+    "categorie": "controverse",
+    "section": "Covid"
+  },
+  {
+    "annee": "17 mars 2020",
+    "titre": "Confinement national — 55 jours",
+    "description": "L'un des plus stricts d'Europe. 168 000 décès du Covid entre 2020 et septembre 2023.",
+    "categorie": "controverse",
+    "section": "Covid"
+  },
+  {
+    "annee": "28 mars 2020",
+    "titre": "Décret Rivotril",
+    "description": "Autorise la dispensation de Rivotril (dépresseur respiratoire) pour patients Covid en fin de vie. Accusations d'« euthanasie légalisée ». Le décret pallié une pénurie de midazolam. Les ARS restreignent l'accès hospitalier des résidents d'EHPAD.",
+    "categorie": "controverse",
+    "section": "Covid"
+  },
+  {
+    "annee": "3 juil. 2020",
+    "titre": "Démission de Matignon",
+    "description": "Réélu maire du Havre avec 58,83%. Remet la démission du gouvernement. Jean Castex lui succède. 3 ans et 49 jours à Matignon.",
+    "categorie": "biographie",
+    "section": "Matignon"
+  },
+  {
+    "annee": "9 oct. 2021",
+    "titre": "Création du parti Horizons",
+    "description": "Lance le parti au Havre. Centre-droit, aile droite de la majorité. Macron « goûte peu » cette création. Estrosi numéro 2. 19 000 adhérents en octobre 2022.",
+    "categorie": "biographie",
+    "section": "Horizons"
+  },
+  {
+    "annee": "2022",
+    "titre": "Législatives — 30 députés Horizons",
+    "description": "58 investitures au sein d'Ensemble. Groupe « Horizons et indépendants » présidé par Laurent Marcangeli.",
+    "categorie": "biographie",
+    "section": "Horizons"
+  },
+  {
+    "annee": "Juin 2024",
+    "titre": "Dissolution — « décision funeste et absurde »",
+    "description": "Appelle à faire barrage à LFI et RN. Horizons obtient 6 sièges. Qualifie la dissolution de « funeste et absurde ».",
+    "categorie": "biographie",
+    "section": "Horizons"
+  },
+  {
+    "annee": "3 sept. 2024",
+    "titre": "Candidature présidentielle déclarée",
+    "description": "Interview au Point : « Je serai candidat. » Évoque 4 « périls » : démocratique, budgétaire, immobilisme, ordre public.",
+    "categorie": "biographie",
+    "section": "Présidentielle 2027"
+  },
+  {
+    "annee": "Automne 2025",
+    "titre": "Rupture avec Macron",
+    "description": "Prend ouvertement ses distances. Appelle Macron à démissionner. « Ce président n'aime pas les premiers ministres qui prennent de l'espace. »",
+    "categorie": "biographie",
+    "section": "Présidentielle 2027"
+  },
+  {
+    "annee": "22 mars 2026",
+    "titre": "Réélu maire du Havre — 3e mandat",
+    "description": "1er tour 43,76%, 2nd tour 47,71% en triangulaire. Face à Lecoq (gauche, 41,2%) et Keller (UDR-RN, 11,1%). 3 sièges extrême droite au conseil municipal. Horizons revendique 465 maires encartés nationalement.",
+    "categorie": "biographie",
+    "section": "Présidentielle 2027"
+  },
+  {
+    "annee": "Juil. 2025",
+    "titre": "Non-lieu CJR — affaire Covid",
+    "description": "Non-lieu général pour Philippe, Buzyn et Véran. L'arrêt de 500 pages constitue paradoxalement un « réquisitoire impitoyable » contre la gestion gouvernementale (Pr. Olivier Beaud).",
+    "categorie": "controverse",
+    "section": "Judiciaire"
+  },
+  {
+    "annee": "Avril 2024",
+    "titre": "Enquête PNF — gestion de la métropole du Havre",
+    "description": "Enquête préliminaire pour prise illégale d'intérêts, détournement de fonds publics, favoritisme et harcèlement moral. Perquisitions à la mairie le 3 avril 2024. Philippe conteste fermement.",
+    "categorie": "controverse",
+    "section": "Judiciaire"
+  },
+  {
+    "annee": "19 mars 2026",
+    "titre": "Menaces de mort pendant la campagne",
+    "description": "Courrier anonyme avec menaces de mort et douille percutée reçu à la mairie du Havre.",
+    "categorie": "biographie",
+    "section": "Présidentielle 2027"
+  },
+  {
+    "annee": "2023-09",
+    "titre": "Première plainte contre Édouard Philippe au Havre",
+    "description": "Une ancienne cadre de la mairie du Havre dépose une première plainte concernant la création d'un hub numérique, visant Édouard Philippe et deux autres élus. Le Parquet national financier (PNF) ouvre une enquête préliminaire pour trafic d'influence, favoritisme, détournement de fonds publics et harcèlement.",
+    "categorie": "controverse",
+    "section": "Affaire du Havre"
+  },
+  {
+    "annee": "2024-04",
+    "titre": "Perquisition de la mairie du Havre par la police judiciaire",
+    "description": "Dans le cadre de l'enquête préliminaire ouverte par le PNF, la police judiciaire perquisitionne l'hôtel de ville du Havre et saisit des documents. L'enquête est toujours en cours, les enquêteurs examinent les documents saisis.",
+    "categorie": "controverse",
+    "section": "Affaire du Havre"
+  },
+  {
+    "annee": "2025-01",
+    "titre": "La lanceuse d'alerte obtient le statut officiel de lanceuse d'alerte",
+    "description": "La Défenseure des droits reconnaît le statut de lanceuse d'alerte à l'ancienne cadre municipale. Édouard Philippe conteste cette qualification et dénonce une 'vendetta personnelle'.",
+    "categorie": "controverse",
+    "section": "Affaire du Havre"
+  },
+  {
+    "annee": "2025-06-20",
+    "titre": "Dépôt d'une plainte avec constitution de partie civile",
+    "description": "L'avocat Jérôme Karsenti dépose une plainte avec constitution de partie civile au nom de la lanceuse d'alerte contre Édouard Philippe et deux autres personnes. Cette plainte vise à contourner un éventuel classement sans suite de l'enquête préliminaire et à obtenir la désignation d'un juge d'instruction indépendant. Motifs : trafic d'influence, favoritisme, prise illégale d'intérêts et harcèlement.",
+    "categorie": "controverse",
+    "section": "Affaire du Havre"
+  },
+  {
+    "annee": "2026-03",
+    "titre": "Édouard Philippe réélu maire du Havre (3e mandat)",
+    "description": "Philippe remporte une élection municipale serrée face au candidat communiste, confortant son ancrage local. Cette victoire est présentée comme un tremplin pour sa candidature présidentielle de 2027.",
+    "categorie": "carriere",
+    "section": "Carrière"
+  },
+  {
+    "annee": "2026-05-10",
+    "titre": "Lancement officiel de la campagne présidentielle à Reims",
+    "description": "Édouard Philippe lance officiellement sa campagne pour l'élection présidentielle de 2027 lors d'un rassemblement de son parti Horizons à Reims. Discours marqué à droite : promet de réduire les formalités administratives, baisser l'impôt sur les sociétés et lutter contre le trafic de stupéfiants. Se positionne comme l'héritier de la droite gaulliste et chiraquienne.",
+    "categorie": "carriere",
+    "section": "Présidentielle 2027"
+  },
+  {
+    "annee": "2026-05",
+    "titre": "Sondages : Philippe en tête des candidats centristes face au RN",
+    "description": "Un sondage Elabe de mars 2026 donne Philippe battant Marine Le Pen au second tour (53%-47%) et Jordan Bardella (51.5%-48.5%). Cependant, il fait face à une concurrence croissante de Bruno Retailleau (LR) et Gabriel Attal (Renaissance) qui fragmentent l'électorat de droite et du centre.",
+    "categorie": "carriere",
+    "section": "Présidentielle 2027"
+  }
+]

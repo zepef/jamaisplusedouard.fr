@@ -249,9 +249,9 @@ export default function NetworkGraph({ personnes, activeTypes }: Props) {
       .force(
         "link",
         d3
-          .forceLink(links)
-          .id((d: any) => d.slug)
-          .distance((d: any) => {
+          .forceLink<NetworkNode, NetworkLink>(links)
+          .id((d) => d.slug)
+          .distance((d) => {
             if (d.isCentroideLink) return rx * 1.8;
             const target = typeof d.target === "string" ? d.target : d.target.slug;
             const p = filtered.find((f) => f.slug === target);
@@ -286,7 +286,7 @@ export default function NetworkGraph({ personnes, activeTypes }: Props) {
     // Nodes
     const node = g
       .append("g")
-      .selectAll("g")
+      .selectAll<SVGGElement, NetworkNode>("g")
       .data(allNodes)
       .join("g")
       .attr("cursor", "pointer")
@@ -312,7 +312,7 @@ export default function NetworkGraph({ personnes, activeTypes }: Props) {
               d.fx = null;
               d.fy = null;
             }
-          }) as any
+          })
       );
 
     // Node circles
@@ -367,22 +367,22 @@ export default function NetworkGraph({ personnes, activeTypes }: Props) {
         setTooltipPos({ x, y: y - 10 });
 
         link
-          .attr("stroke-opacity", (l: any) => {
+          .attr("stroke-opacity", (l: NetworkLink) => {
             const src = typeof l.source === "string" ? l.source : l.source.slug;
             const tgt = typeof l.target === "string" ? l.target : l.target.slug;
             return src === d.slug || tgt === d.slug ? 0.8 : 0.06;
           })
-          .attr("stroke-width", (l: any) => {
+          .attr("stroke-width", (l: NetworkLink) => {
             const src = typeof l.source === "string" ? l.source : l.source.slug;
             const tgt = typeof l.target === "string" ? l.target : l.target.slug;
             if (src === d.slug || tgt === d.slug) return l.isCentroideLink ? 3 : 2.5;
             return l.isCentroideLink ? 0.5 : 0.5;
           });
 
-        node.selectAll("circle").attr("opacity", (n: any) => {
+        node.selectAll<SVGCircleElement, NetworkNode>("circle").attr("opacity", (n) => {
           if (n.slug === d.slug) return 1;
           if (n.isCentroide) return 0.5;
-          const isConnected = links.some((l: any) => {
+          const isConnected = links.some((l: NetworkLink) => {
             const src = typeof l.source === "string" ? l.source : l.source.slug;
             const tgt = typeof l.target === "string" ? l.target : l.target.slug;
             return (src === d.slug && tgt === n.slug) || (tgt === d.slug && src === n.slug);
@@ -393,8 +393,8 @@ export default function NetworkGraph({ personnes, activeTypes }: Props) {
       .on("mouseleave", () => {
         setHoveredNode(null);
         link
-          .attr("stroke-opacity", (d: any) => (d.isCentroideLink ? 0.12 : 0.22))
-          .attr("stroke-width", (d: any) => (d.isCentroideLink ? 1.8 : 1));
+          .attr("stroke-opacity", (d: NetworkLink) => (d.isCentroideLink ? 0.12 : 0.22))
+          .attr("stroke-width", (d: NetworkLink) => (d.isCentroideLink ? 1.8 : 1));
         node.selectAll("circle").attr("opacity", 1);
       })
       .on("click", (_event, d) => {
@@ -405,12 +405,12 @@ export default function NetworkGraph({ personnes, activeTypes }: Props) {
     // Tick
     simulation.on("tick", () => {
       link
-        .attr("x1", (d: any) => d.source.x)
-        .attr("y1", (d: any) => d.source.y)
-        .attr("x2", (d: any) => d.target.x)
-        .attr("y2", (d: any) => d.target.y);
+        .attr("x1", (d: NetworkLink) => (d.source as NetworkNode).x ?? 0)
+        .attr("y1", (d: NetworkLink) => (d.source as NetworkNode).y ?? 0)
+        .attr("x2", (d: NetworkLink) => (d.target as NetworkNode).x ?? 0)
+        .attr("y2", (d: NetworkLink) => (d.target as NetworkNode).y ?? 0);
 
-      node.attr("transform", (d: any) => `translate(${d.x},${d.y})`);
+      node.attr("transform", (d: NetworkNode) => `translate(${d.x},${d.y})`);
     });
 
     return () => {

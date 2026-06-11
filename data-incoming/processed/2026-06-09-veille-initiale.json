@@ -1,0 +1,199 @@
+{
+  "_meta": {
+    "source": "collecte-web: RFI, Politico, Forward Global, Wikipedia",
+    "producer": "hermes",
+    "generatedAt": "2026-06-09T08:10:00Z"
+  },
+  "reseau": [
+    {
+      "nom": "Jérôme Karsenti",
+      "slug": "jerome-karsenti",
+      "role": "Avocat de la lanceuse d'alerte dans l'affaire du Havre",
+      "description": "Avocat représentant une ancienne cadre de la mairie du Havre ayant obtenu le statut de lanceuse d'alerte (défenseur des droits, janvier 2025). A déposé une plainte avec constitution de partie civile le 20 juin 2025 visant Édouard Philippe pour trafic d'influence, favoritisme, prise illégale d'intérêts et harcèlement.",
+      "typeLien": "professionnel",
+      "sousReseaux": ["le-havre"],
+      "rattachement": null
+    },
+    {
+      "nom": "Bruno Retailleau",
+      "slug": "bruno-retailleau",
+      "role": "Président des Républicains, candidat à l'élection présidentielle 2027",
+      "description": "Concurrent direct d'Édouard Philippe sur l'aile droite de l'échiquier politique. Mène une campagne dure sur l'immigration. Sa candidature empiète sur l'espace politique d'Horizons, fragmentant le vote de droite traditionnel.",
+      "typeLien": "politique",
+      "partiPolitique": "Les Républicains (LR)",
+      "sousReseaux": ["coalition-2027"],
+      "rattachement": null
+    },
+    {
+      "nom": "Gabriel Attal",
+      "slug": "gabriel-attal",
+      "role": "Ancien Premier ministre, candidat à l'élection présidentielle 2027",
+      "description": "Ancien locataire de Matignon poursuivant une stratégie médiatique agressive, grignotant les intentions de vote sur le flanc centriste de Philippe. Les sondages récents (mai 2026) le montrent en progression, rattrapant Philippe dans les intentions de vote pour le premier tour.",
+      "typeLien": "politique",
+      "partiPolitique": "Renaissance (ex-LREM)",
+      "sousReseaux": ["coalition-2027"],
+      "rattachement": null
+    },
+    {
+      "nom": "Michel Calzaroni",
+      "slug": "michel-calzaroni",
+      "role": "Fondateur de DGM Conseil, précurseur des métiers de la communication corporate en France",
+      "description": "A fondé DGM Conseil en 1986, pionnier de la communication corporate en France. DGM Conseil fait aujourd'hui partie du groupe Forward Global. Calzaroni a créé la structure qui a servi de noyau à ce qui est devenu l'un des plus grands groupes d'influence et de conseil stratégique en Europe.",
+      "typeLien": "professionnel",
+      "sousReseaux": ["entreprises", "cyber-influence"],
+      "rattachement": null
+    },
+    {
+      "nom": "Antoine Basbous",
+      "slug": "antoine-basbous",
+      "role": "Fondateur de l'Observatoire des Pays Arabes",
+      "description": "A lancé l'Observatoire des Pays Arabes en 1992, devenu filiale de Forward Global en juin 2020. Structure spécialisée en recherche géopolitique, analyse de risques et investigations pour la région MENA.",
+      "typeLien": "professionnel",
+      "sousReseaux": ["cyber-influence"],
+      "rattachement": null
+    }
+  ],
+  "timeline": [
+    {
+      "annee": "2023-09",
+      "titre": "Première plainte contre Édouard Philippe au Havre",
+      "description": "Une ancienne cadre de la mairie du Havre dépose une première plainte concernant la création d'un hub numérique, visant Édouard Philippe et deux autres élus. Le Parquet national financier (PNF) ouvre une enquête préliminaire pour trafic d'influence, favoritisme, détournement de fonds publics et harcèlement.",
+      "categorie": "controverse",
+      "section": "Affaire du Havre"
+    },
+    {
+      "annee": "2024-04",
+      "titre": "Perquisition de la mairie du Havre par la police judiciaire",
+      "description": "Dans le cadre de l'enquête préliminaire ouverte par le PNF, la police judiciaire perquisitionne l'hôtel de ville du Havre et saisit des documents. L'enquête est toujours en cours, les enquêteurs examinent les documents saisis.",
+      "categorie": "controverse",
+      "section": "Affaire du Havre"
+    },
+    {
+      "annee": "2025-01",
+      "titre": "La lanceuse d'alerte obtient le statut officiel de lanceuse d'alerte",
+      "description": "La Défenseure des droits reconnaît le statut de lanceuse d'alerte à l'ancienne cadre municipale. Édouard Philippe conteste cette qualification et dénonce une 'vendetta personnelle'.",
+      "categorie": "controverse",
+      "section": "Affaire du Havre"
+    },
+    {
+      "annee": "2025-06-20",
+      "titre": "Dépôt d'une plainte avec constitution de partie civile",
+      "description": "L'avocat Jérôme Karsenti dépose une plainte avec constitution de partie civile au nom de la lanceuse d'alerte contre Édouard Philippe et deux autres personnes. Cette plainte vise à contourner un éventuel classement sans suite de l'enquête préliminaire et à obtenir la désignation d'un juge d'instruction indépendant. Motifs : trafic d'influence, favoritisme, prise illégale d'intérêts et harcèlement.",
+      "categorie": "controverse",
+      "section": "Affaire du Havre"
+    },
+    {
+      "annee": "2026-03",
+      "titre": "Édouard Philippe réélu maire du Havre (3e mandat)",
+      "description": "Philippe remporte une élection municipale serrée face au candidat communiste, confortant son ancrage local. Cette victoire est présentée comme un tremplin pour sa candidature présidentielle de 2027.",
+      "categorie": "carriere",
+      "section": "Carrière"
+    },
+    {
+      "annee": "2026-05-10",
+      "titre": "Lancement officiel de la campagne présidentielle à Reims",
+      "description": "Édouard Philippe lance officiellement sa campagne pour l'élection présidentielle de 2027 lors d'un rassemblement de son parti Horizons à Reims. Discours marqué à droite : promet de réduire les formalités administratives, baisser l'impôt sur les sociétés et lutter contre le trafic de stupéfiants. Se positionne comme l'héritier de la droite gaulliste et chiraquienne.",
+      "categorie": "carriere",
+      "section": "Présidentielle 2027"
+    },
+    {
+      "annee": "2026-05",
+      "titre": "Sondages : Philippe en tête des candidats centristes face au RN",
+      "description": "Un sondage Elabe de mars 2026 donne Philippe battant Marine Le Pen au second tour (53%-47%) et Jordan Bardella (51.5%-48.5%). Cependant, il fait face à une concurrence croissante de Bruno Retailleau (LR) et Gabriel Attal (Renaissance) qui fragmentent l'électorat de droite et du centre.",
+      "categorie": "carriere",
+      "section": "Présidentielle 2027"
+    }
+  ],
+  "controverses": [
+    {
+      "slug": "plainte-partie-civile-juin-2025-havre",
+      "titre": "Plainte avec constitution de partie civile contre Édouard Philippe pour trafic d'influence au Havre",
+      "resume": "Une ancienne cadre de la mairie du Havre, reconnue lanceuse d'alerte par la Défenseure des droits, a déposé une plainte avec constitution de partie civile le 20 juin 2025 contre Édouard Philippe pour trafic d'influence, favoritisme, prise illégale d'intérêts et harcèlement. Cette procédure vise à forcer la désignation d'un juge d'instruction indépendant, la lanceuse d'alerte estimant que l'enquête préliminaire du Parquet national financier n'avançait pas suffisamment, craignant que le parquet ne soit 'trop craintif' pour instruire vis-à-vis d'un 'probable futur candidat à la présidentielle'.",
+      "contenu": "L'affaire débute en septembre 2023 lorsqu'une ancienne cadre de la mairie du Havre dépose une première plainte concernant la mise en place d'un hub numérique censé favoriser l'innovation dans la ville. Le Parquet national financier (PNF) ouvre une enquête préliminaire visant Édouard Philippe et deux autres élus pour des soupçons de trafic d'influence, favoritisme, détournement de fonds publics et harcèlement moral. En avril 2024, la police judiciaire perquisitionne l'hôtel de ville du Havre et saisit des documents. En janvier 2025, la Défenseure des droits reconnaît officiellement la plaignante comme lanceuse d'alerte, un label que Philippe conteste fermement. Le 20 juin 2025, par l'intermédiaire de son avocat Jérôme Karsenti, elle dépose une plainte avec constitution de partie civile — une procédure qui, si elle aboutit, force la nomination d'un juge d'instruction indépendant et permet au plaignant d'être informé de l'avancement de l'enquête. La lanceuse d'alerte déclare aux médias (RFI, Le Monde, France Inter) qu'elle estime que le dossier n'avance pas, tandis que son avocat exprime la crainte que le PNF soit réticent à instruire contre un candidat potentiel à la présidence. Édouard Philippe rejette toutes les accusations, qualifiant la procédure de 'triste vendetta' d'une fonctionnaire mécontente dont le contrat n'a pas été renouvelé. L'enquête préliminaire est toujours en cours à la date de juin 2025. Le PNF examine toujours les documents saisis lors de la perquisition de 2024.",
+      "date": "2025-06",
+      "gravite": "haute",
+      "themes": ["judiciaire", "politique", "gestion-locale"],
+      "sources": [
+        {
+          "titre": "'Whistleblower' files complaint against French presidential hopeful — RFI",
+          "url": "https://www.rfi.fr/en/france/20250624-whistleblower-files-complaint-against-french-presidential-hopeful",
+          "type": "presse",
+          "auteur": "RFI"
+        },
+        {
+          "titre": "Police raid ex-French PM's office in Le Havre as part of corruption inquiry — RFI",
+          "url": "https://www.rfi.fr/en/france/20240418-police-raid-ex-french-pm-s-office-in-le-havre-as-part-of-corruption-inquiry",
+          "type": "presse",
+          "auteur": "RFI"
+        }
+      ]
+    },
+    {
+      "slug": "enquete-pnf-havre-2023-2025",
+      "titre": "Enquête préliminaire du PNF sur les marchés publics et le hub numérique du Havre",
+      "resume": "Depuis septembre 2023, le Parquet national financier (PNF) mène une enquête préliminaire pour trafic d'influence, favoritisme, détournement de fonds publics et harcèlement visant Édouard Philippe et deux autres élus du Havre. L'enquête, toujours en cours en juin 2025, concerne l'attribution de marchés liés à un hub numérique.",
+      "contenu": "L'enquête préliminaire ouverte par le Parquet national financier (PNF) en septembre 2023 porte sur des faits présumés de trafic d'influence, favoritisme, détournement de fonds publics et harcèlement. Elle vise Édouard Philippe — en sa qualité de maire du Havre — et deux autres responsables municipaux. L'affaire est centrée sur la création d'un 'hub numérique' destiné à promouvoir l'innovation dans la ville. Les termes exacts du projet, les contrats attribués et leurs bénéficiaires font l'objet des investigations. En avril 2024, la police judiciaire a perquisitionné l'hôtel de ville et saisi des documents qui sont toujours en cours d'analyse par les enquêteurs. L'enquête demeure au stade préliminaire, et la lanceuse d'alerte — par sa plainte avec constitution de partie civile du 20 juin 2025 — cherche à obtenir la désignation d'un juge d'instruction indépendant pour accélérer la procédure. La nature exacte des marchés attribués, les montants en jeu et les éventuels liens avec des sociétés de conseil (dont Forward Global ou ses filiales) n'ont pas été formellement établis par les sources publiques à ce stade de l'enquête.",
+      "date": "2023-09",
+      "gravite": "haute",
+      "themes": ["judiciaire", "lobbying", "gestion-locale"],
+      "sources": [
+        {
+          "titre": "'Whistleblower' files complaint against French presidential hopeful — RFI",
+          "url": "https://www.rfi.fr/en/france/20250624-whistleblower-files-complaint-against-french-presidential-hopeful",
+          "type": "presse",
+          "auteur": "RFI"
+        },
+        {
+          "titre": "Police raid ex-French PM's office in Le Havre as part of corruption inquiry — RFI",
+          "url": "https://www.rfi.fr/en/france/20240418-police-raid-ex-french-pm-s-office-in-le-havre-as-part-of-corruption-inquiry",
+          "type": "presse",
+          "auteur": "RFI"
+        }
+      ]
+    }
+  ],
+  "investigations": [
+    {
+      "slug": "forward-global-ecosysteme-influence",
+      "titre": "Forward Global : la galaxie de l'influence et les connexions havraises",
+      "sousTitre": "Un groupe international de conseil stratégique et d'influence numérique aux ramifications multiples",
+      "resume": "Forward Global est un groupe international de conseil en gestion des risques numériques, économiques et informationnels, basé à Paris avec des bureaux à Bruxelles, Londres et Washington. Né de l'agrégation de nombreuses sociétés (DGM Conseil, CEIS, Avisa Partners, Lexfo, Gabara Strategies, Observatoire des Pays Arabes, 35°Nord, etc.), il intervient dans la cybersécurité, le conseil en affaires publiques, la lutte anti-contrefaçon (LeakID), la gestion de réputation et les investigations. Le groupe, qui a adopté le statut de Société à Mission en 2022, travaille pour des gouvernements, des institutions et des grandes entreprises internationales. Ses liens avec l'écosystème d'Édouard Philippe et les possibles attributions de marchés publics au Havre constituent une piste d'investigation ouverte, dans le cadre de l'enquête préliminaire du PNF sur le hub numérique havrais.",
+      "date": "2025-06",
+      "themes": ["lobbying", "cyber-influence", "entreprises", "international"],
+      "parties": [
+        {
+          "titre": "I. Présentation du groupe Forward Global",
+          "contenu": "Forward Global se présente comme un cabinet international spécialisé dans la gestion des risques numériques, économiques et informationnels. Basé en France, il possède des bureaux principaux à Paris, Bruxelles, Londres et Washington D.C., avec des équipes techniques à Lyon, Toulouse, La Roche-sur-Yon, Genève, Abidjan, Dakar, Tunis et Maurice. Le groupe est structuré autour de trois pôles (Cybersécurité, Conseil Stratégique, Affaires Publiques) et propose sept catégories de services : Cybersécurité, Soutien aux contentieux (Litigation & Dispute Support), Lutte anti-contrefaçon (Combating Illicit Trade), Stratégie d'investissement et intelligence économique, Intelligence M&A, Risques et conformité (Risk & Compliance), Communication stratégique et affaires gouvernementales (Strategic Communications & Government Affairs). En 2022, Forward Global a adopté le statut de Société à Mission (loi Pacte 2019). Source : site officiel Forward Global."
+        },
+        {
+          "titre": "II. Agréation par acquisitions successives",
+          "contenu": "Forward Global s'est constitué par croissance organique et acquisitions : DGM Conseil (fondé en 1986 par Michel Calzaroni, pionnier de la communication corporate) ; Observatoire des Pays Arabes (fondé en 1992 par Antoine Basbous, recherche géopolitique) ; CEIS (Compagnie Européenne d'Intelligence Stratégique, fondée en 1997, leader en intelligence économique et cybersécurité) ; bureau de Bruxelles (établi en 2001) ; Databack (laboratoire de récupération de données, 2004) ; LeakID (technologie anti-contrefaçon, 2007) ; Lexfo (consulting cybersécurité, 2009) ; Momentum System International (lutte contre la désinformation, 2015) ; Avisa Partners (affaires publiques Bruxelles, 2018) ; Gabara Strategies (relations publiques Londres, 2019) ; IDA Group (affaires publiques Berlin et Bruxelles, 2019) ; 35°Nord (communication Afrique, 2021). Cette accumulation de sociétés d'influence, de renseignement économique et de cybersécurité en fait un acteur majeur du conseil aux décideurs politiques et économiques. Source : site officiel Forward Global."
+        },
+        {
+          "titre": "III. Piste d'investigation : liens avec l'écosystème Philippiste et Le Havre",
+          "contenu": "Dans le cadre de l'enquête préliminaire du PNF (septembre 2023 - en cours) portant sur des soupçons de favoritisme, trafic d'influence et détournement de fonds publics autour d'un 'hub numérique' au Havre, les types de sociétés susceptibles d'avoir bénéficié de contrats ou marchés liés à ce projet incluent potentiellement des sociétés de conseil en stratégie numérique, cybersécurité et affaires publiques. Forward Global, par son périmètre d'activité (conseil aux collectivités, affaires publiques, communication stratégique), est un type d'acteur pertinent à investiguer dans ce contexte. Les documents saisis lors de la perquisition d'avril 2024 à la mairie du Havre — toujours examinés par les enquêteurs en juin 2025 — sont susceptibles de contenir des éléments relatifs à l'attribution de marchés publics. Cette piste nécessite une investigation documentaire approfondie (marchés du BOAMP, registres SIRENE, comptes de la collectivité) pour établir ou infirmer un lien formel entre l'attribution de marchés havrais et des sociétés du groupe Forward Global. Source : RFI, enquête PNF."
+        }
+      ],
+      "noeudsLies": ["jerome-karsenti", "michel-calzaroni", "antoine-basbous"],
+      "sources": [
+        {
+          "titre": "Présentation Forward Global — site officiel",
+          "url": "https://forwardglobal.com/en/presentation-cyber-risk-strategic-communication/",
+          "type": "officiel"
+        },
+        {
+          "titre": "'Whistleblower' files complaint against French presidential hopeful — RFI",
+          "url": "https://www.rfi.fr/en/france/20250624-whistleblower-files-complaint-against-french-presidential-hopeful",
+          "type": "presse",
+          "auteur": "RFI"
+        },
+        {
+          "titre": "Police raid ex-French PM's office in Le Havre — RFI",
+          "url": "https://www.rfi.fr/en/france/20240418-police-raid-ex-french-pm-s-office-in-le-havre-as-part-of-corruption-inquiry",
+          "type": "presse",
+          "auteur": "RFI"
+        }
+      ]
+    }
+  ]
+}

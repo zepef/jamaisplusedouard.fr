@@ -31,25 +31,53 @@ if [ ! -d "node_modules/mammoth" ]; then
   npm install mammoth --save 2>&1 | tee -a "$LOG_FILE"
 fi
 
+# ── Kill switch : data-incoming/PAUSE suspend toute la veille ──
+if [ -f "data-incoming/PAUSE" ]; then
+  echo "[elestio-cron] data-incoming/PAUSE présent — veille suspendue (kill switch actif)." | tee -a "$LOG_FILE"
+else
+
 # Run watcher
 echo "[elestio-cron] Running inbox-watcher..." | tee -a "$LOG_FILE"
 node scripts/inbox-watcher.mjs 2>&1 | tee -a "$LOG_FILE"
 
 # Check for changes in bot-exchange
-if git diff --quiet public/bot-exchange/ && git diff --quiet --cached public/bot-exchange/; then
-  echo "[elestio-cron] No new data in bot-exchange. Done." | tee -a "$LOG_FILE"
-  exit 0
-fi
-
-# Stage and commit new outputs
-git add public/bot-exchange/
-git commit -m "chore(veille): inbox-watcher $(date +%Y-%m-%d_%H:%M)
+# ── bot-exchange (métadonnées de veille) → main si modifié ──
+if ! (git diff --quiet public/bot-exchange/ && git diff --quiet --cached public/bot-exchange/); then
+  git add public/bot-exchange/
+  git commit -m "chore(veille): inbox-watcher $(date +%Y-%m-%d_%H:%M)
 
 Co-Authored-By: Paperclip <noreply@paperclip.ing>" 2>&1 | tee -a "$LOG_FILE"
+  git push 2>&1 | tee -a "$LOG_FILE"
+  echo "[elestio-cron] bot-exchange poussé." | tee -a "$LOG_FILE"
+fi
 
-git push 2>&1 | tee -a "$LOG_FILE"
+# ── Intégration des propositions structurées de Hermès (data-incoming/) ──
+echo "[elestio-cron] Running integrate-proposals..." | tee -a "$LOG_FILE"
+node scripts/integrate-proposals.mjs 2>&1 | tee -a "$LOG_FILE"
 
-echo "[elestio-cron] $(date -Iseconds) — Done, pushed bot-exchange updates." | tee -a "$LOG_FILE"
+# Métadonnées d'intégration (manifeste, archive, rapport) → main
+if ! git diff --quiet data-incoming/ || [ -n "$(git ls-files --others --exclude-standard data-incoming/)" ]; then
+  git add data-incoming/
+  git commit -m "chore(veille): integration markers $(date +%Y-%m-%d_%H:%M)" 2>&1 | tee -a "$LOG_FILE"
+  git push 2>&1 | tee -a "$LOG_FILE"
+fi
+
+# Contenu publié proposé → branche de revue (jamais sur main)
+if ! git diff --quiet lib/data/; then
+  BRANCH="veille/incoming-$(date +%Y%m%d-%H%M)"
+  echo "[elestio-cron] Nouveau contenu proposé → branche $BRANCH (revue requise)" | tee -a "$LOG_FILE"
+  git checkout -b "$BRANCH" 2>&1 | tee -a "$LOG_FILE"
+  git add lib/data/
+  git commit -m "veille: propositions de contenu $(date +%Y-%m-%d_%H:%M) — revue requise
+
+Co-Authored-By: Hermes <noreply@hermes>" 2>&1 | tee -a "$LOG_FILE"
+  git push -u origin "$BRANCH" 2>&1 | tee -a "$LOG_FILE"
+  git checkout main 2>&1 | tee -a "$LOG_FILE"
+  echo "[elestio-cron] Branche $BRANCH poussée. Ouvrez une PR pour valider." | tee -a "$LOG_FILE"
+fi
+
+echo "[elestio-cron] $(date -Iseconds) — Veille terminée." | tee -a "$LOG_FILE"
+fi
 
 # ── Newsletter quotidienne (une seule fois par jour, run du matin 8h UTC) ──
 HOUR=$(date -u +%H)

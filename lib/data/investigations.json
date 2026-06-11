@@ -1,0 +1,959 @@
+[
+  {
+    "slug": "attali-minc-architectes-ombre",
+    "titre": "Attali & Minc — Les architectes de l'ombre",
+    "sousTitre": "Connexions avec le réseau étendu Philippe–Juppé–Raffarin–Villepin",
+    "resume": "Jacques Attali et Alain Minc constituent les deux « architectes de l'ombre » du système politique français. Sans mandat électif, ils ont façonné les carrières de trois présidents et influencé deux Premiers ministres du réseau étudié. Attali est l'architecte direct du couple Macron-Philippe.",
+    "date": "2026-03-30",
+    "themes": [
+      "fcf",
+      "faf",
+      "facilitateurs",
+      "macron",
+      "philippe",
+      "juppe",
+      "raffarin"
+    ],
+    "parties": [
+      {
+        "titre": "Jacques Attali : le faiseur de rois transpartisan",
+        "contenu": "Polytechnicien, énarque (promotion Robespierre, 1970), ancien auditeur au Conseil d'État. Conseiller spécial de Mitterrand pendant dix ans (1981-1991). Fondateur et premier président de la BERD (1991-1993). Président de la Commission pour la libération de la croissance française (2007-2010).\n\nLa séquence Attali → Macron → Philippe est documentée et constitue la découverte la plus significative de cette investigation :\n\n2007 : Attali choisit Macron (28 ans, inspecteur des finances) comme rapporteur général adjoint de la Commission pour la libération de la croissance.\n2011 : Attali présente Macron à François Hollande. Macron est nommé secrétaire général adjoint de l'Élysée (2012), puis ministre de l'Économie (2014).\nMars 2017 : Attali suggère à Macron de choisir Édouard Philippe comme Premier ministre. Il organise leur rencontre.\nMai 2017 : Philippe est nommé Premier ministre. Son cabinet est peuplé de juppéistes et de membres de la FCF.\n\nAttali est membre fondateur du Conseil stratégique de la FCF dès 2013, aux côtés de Raffarin, Fabius, Philippe, Mérieux, de Castries et Villani. Il quitte la fondation en mars 2020, coïncidant avec l'arrivée de la pandémie."
+      },
+      {
+        "titre": "Alain Minc : le conseiller transversal des présidents",
+        "contenu": "ENA (promotion Léon Blum, 1975, major), Inspection générale des finances. Ancien président du conseil de surveillance du Monde. Président d'AM Conseil. Trésorier de la Fondation Saint-Simon. Membre du Siècle. Un tiers des grands patrons du CAC 40 ont rémunéré ses services.\n\nMinc → Juppé : a soutenu Juppé à la primaire 2016, puis s'est reporté sur Macron après sa défaite — le même transfert que les juppéistes eux-mêmes (Philippe, Boyer, Hufnagel).\n\nMinc → Philippe (via Boyer) : fait passer des messages à Philippe via Gilles Boyer (conseiller spécial à Matignon). Le canal Minc → Boyer → Philippe est documenté par le JDD.\n\nMinc → Macron : mentor dès sa sortie de l'ENA, l'a introduit dans les cercles du pouvoir. A soutenu Macron en 2017 et 2022.\n\nMinc est ancien Young Leader de la FAF. La séquence Minc (YL) → Juppé (YL 1982) → Philippe (YL 2011) → Macron (YL 2012) dessine une chaîne de cooptation transatlantique sur quatre décennies."
+      },
+      {
+        "titre": "Analyse croisée : agents facilitateurs du système",
+        "contenu": "Les deux hommes fonctionnent en tandem complémentaire depuis les années 1980. Attali opère depuis la gauche (Mitterrand, Hollande), Minc depuis la droite (Balladur, Sarkozy, Juppé). Mais les deux convergent vers Macron, qui incarne la synthèse droite-gauche.\n\nEn termes de systèmes multi-agents, Attali et Minc ne sont pas des centroïdes mais des « agents facilitateurs » — des nœuds qui optimisent non pas leur propre accès au pouvoir mais leur capacité à connecter des agents entre eux. Leur valeur réside dans le réseau, pas dans le pouvoir formel.\n\nLa FCF est la structure où Attali et le réseau Philippe-Raffarin se rencontrent formellement. Le Conseil stratégique réunit un « faiseur de rois » (Attali), un candidat présidentiel (Philippe), un « Monsieur Chine » (Raffarin), le président du Conseil constitutionnel (Fabius) et un industriel lié au P4 de Wuhan (Mérieux) — cinq niveaux de pouvoir dans une seule fondation.\n\nL'angle mort : ni Attali ni Minc n'ont de connexion documentée avec Villepin, qui opère dans un écosystème distinct (Djouhri, Veolia/Proglio, Qatar, Russie)."
+      }
+    ],
+    "noeudsLies": [
+      "jacques-attali",
+      "alain-minc",
+      "commission-attali",
+      "emmanuel-macron",
+      "edouard-philippe",
+      "alain-juppe",
+      "jean-pierre-raffarin",
+      "gilles-boyer",
+      "benoit-ribadeau-dumas",
+      "emmanuel-lenain",
+      "laurent-fabius",
+      "alain-merieux"
+    ],
+    "sources": [
+      {
+        "titre": "Wikipédia — Jacques Attali",
+        "type": "presse"
+      },
+      {
+        "titre": "Wikipédia — Commission pour la libération de la croissance",
+        "type": "presse"
+      },
+      {
+        "titre": "Europe 1 — Attali sur Macron : « Je ne crois pas m'être trompé »",
+        "type": "presse"
+      },
+      {
+        "titre": "Le Lanceur — Macron, le candidat des oligarques (double mentorat Attali-Minc)",
+        "type": "presse"
+      },
+      {
+        "titre": "France 2 / Quelle époque — Attali et Minc critiquent Philippe et Macron (mars 2026)",
+        "type": "presse"
+      },
+      {
+        "titre": "Wikipédia — Alain Minc",
+        "type": "presse"
+      },
+      {
+        "titre": "Le JDD — Minc et le prélèvement à la source : canal Boyer–Philippe",
+        "type": "presse"
+      },
+      {
+        "titre": "Cairn.info — Alain Minc, marchand d'affaires et d'idéologie",
+        "type": "presse"
+      },
+      {
+        "titre": "Révolution Permanente — La FAF, usine à dirigeants capitalistes",
+        "type": "presse"
+      },
+      {
+        "titre": "Forbes France — Conseil stratégique FCF (Attali, Philippe, Raffarin)",
+        "type": "presse"
+      },
+      {
+        "titre": "France China Foundation — liste du Conseil stratégique",
+        "type": "officiel"
+      }
+    ]
+  },
+  {
+    "slug": "uber-files-kohler-triangle-portuaire",
+    "titre": "Uber Files & Affaire Kohler — Le triangle portuaire",
+    "sousTitre": "De la Commission Attali (2007) au Grand Port Maritime du Havre",
+    "resume": "Ce rapport approfondit deux axes : la chaîne Commission Attali → Uber Files → Macron → Philippe, et le triangle portuaire Kohler–Philippe–CMA CGM/MSC au Havre. Kohler a siégé au GPMH aux côtés de Philippe sans déclarer ses liens avec MSC.",
+    "date": "2026-03-30",
+    "themes": [
+      "uber-files",
+      "kohler",
+      "port-du-havre",
+      "msc",
+      "cma-cgm",
+      "conflits-interets",
+      "deregulation"
+    ],
+    "parties": [
+      {
+        "titre": "De la Commission Attali aux Uber Files : la chaîne de dérégulation",
+        "contenu": "En juillet 2007, Jacques Attali est chargé par Sarkozy de présider une commission de 42 membres. Emmanuel Macron, inspecteur des finances de 28 ans, est nommé rapporteur général adjoint. Parmi les 316 mesures : la libéralisation des VTC, qui conduit à la loi Novelli (2009).\n\nQuand Macron devient ministre de l'Économie (2014), il met en œuvre ces principes. Les Uber Files (124 000 documents internes) révèlent : 17 échanges documentés entre Uber et le cabinet de Macron, au moins 4 rencontres Macron-Kalanick, un « deal » caché (Uber renonce à UberPop, l'État réduit la formation VTC de 250h à 7h), des amendements « clé en main » rédigés par Uber, un « kill switch » désactivant les serveurs lors des perquisitions.\n\nLa commission d'enquête parlementaire (2023) conclut : pas de conflit d'intérêts ni d'enrichissement personnel, mais des « relations privilégiées » et un « deal » confirmé sous serment. Les 10 députés Renaissance se sont abstenus. Les 12 députés Nupes/Liot/RN l'ont approuvé."
+      },
+      {
+        "titre": "Alexis Kohler : le triangle portuaire",
+        "contenu": "Alexis Kohler, secrétaire général de l'Élysée (2017-2025), est mis en examen en 2022 pour prise illégale d'intérêts, trafic d'influence et corruption passive pour ses conflits d'intérêts avec MSC, fondée par la famille Aponte — cousins de sa mère.\n\nDe 2010 à 2012, Kohler siège au GPMH comme représentant de l'APE. Dans la même enceinte : Édouard Philippe (maire depuis octobre 2010) et Antoine Rufenacht (ancien maire, mentor de Philippe). Selon Mediapart, Kohler n'a jamais informé les autres membres de ses liens familiaux avec MSC et ne s'est pas déporté lors des votes concernant MSC. Philippe, en revanche, se déportait quand il détectait un risque de conflit d'intérêts.\n\nLe port du Havre est le nœud géostratégique : hub de CMA CGM (3e armateur mondial), client de MSC (2e armateur, famille Kohler), lié à COSCO Shipping (1er armateur chinois, jumelage avec Dalian), sous la gouvernance politique de Philippe."
+      },
+      {
+        "titre": "CMA CGM : le nœud multifonctionnel",
+        "contenu": "En 2023, Rodolphe Saadé (PDG de CMA CGM) rachète BFM TV, RMC et BFM Business à Patrick Drahi. CMA CGM devient simultanément un acteur du transport maritime mondial, un propriétaire de médias nationaux et un partenaire portuaire du maire du Havre.\n\nEn 2024, CMA CGM rachète la branche Bolloré Transport & Logistics, renforçant sa position en Afrique. Yann Le Goff, responsable sécurité régionale de CMA CGM, est Young Leader FAF 2011 dans la même promotion que Philippe.\n\nLe triangle portuaire MSC–CMA CGM–Élysée constitue un nœud de conflits d'intérêts documentés. Kohler est l'« agent pivot » qui connecte l'écosystème Macron/Élysée à l'écosystème maritime mondial via le port du Havre, où Philippe exerce le pouvoir local."
+      }
+    ],
+    "noeudsLies": [
+      "alexis-kohler",
+      "msc-aponte",
+      "rodolphe-saade-cma-cgm",
+      "gpmh",
+      "uber-files",
+      "jacques-attali",
+      "commission-attali",
+      "emmanuel-macron",
+      "edouard-philippe",
+      "cma-cgm",
+      "yann-le-goff",
+      "antoine-rufenacht"
+    ],
+    "sources": [
+      {
+        "titre": "ICIJ — Uber Files investigation (2022-2023)",
+        "type": "presse"
+      },
+      {
+        "titre": "The Guardian — publication initiale des Uber Files (juillet 2022)",
+        "type": "presse"
+      },
+      {
+        "titre": "Le Monde / Radio France — enquête conjointe Uber Files",
+        "type": "presse"
+      },
+      {
+        "titre": "Assemblée nationale — rapport commission d'enquête n° 1521 (juillet 2023)",
+        "type": "officiel"
+      },
+      {
+        "titre": "Mediapart — révélations Kohler-MSC (mai-août 2018)",
+        "type": "presse"
+      },
+      {
+        "titre": "Anticor — plaintes successives Kohler (2018-2019)",
+        "type": "officiel"
+      },
+      {
+        "titre": "Off-Investigation — Affaire Kohler : le scandale qui menace Macron",
+        "type": "presse"
+      },
+      {
+        "titre": "Europe 1 — Ce que la justice reproche à Kohler (novembre 2024)",
+        "type": "presse"
+      },
+      {
+        "titre": "Transparency International France — note Uber Files (mai 2023)",
+        "type": "officiel"
+      }
+    ]
+  },
+  {
+    "slug": "bilderberg-philippe-attal",
+    "titre": "Le réseau Bilderberg — Philippe, Attal et le cénacle transatlantique",
+    "sousTitre": "Henri de Castries : le pont entre Bilderberg et la France China Foundation",
+    "resume": "Le groupe Bilderberg réunit chaque année 120 à 140 dirigeants sous la règle de Chatham House. Henri de Castries, président du comité depuis 2012, est simultanément au CS de la FCF — pont unique entre réseau transatlantique et sino-français. Philippe y a participé quatre fois, Attal deux, Macron une. Les trois ont été promus dans les mois suivant leur première participation.",
+    "date": "2026-03-30",
+    "themes": [
+      "bilderberg",
+      "castries",
+      "axa",
+      "attal",
+      "transatlantique",
+      "fcf",
+      "institut-montaigne"
+    ],
+    "parties": [
+      {
+        "titre": "Chronologie des participations Bilderberg",
+        "contenu": "Philippe : quatre participations confirmées (2016, 2023, 2024, 2025). Nommé Premier ministre onze mois après sa première participation en 2016.\n\nAttal : invité à Lisbonne en 2023 (ministre des Comptes publics), nommé PM sept mois plus tard. Présent à Stockholm en 2025 comme ancien PM. En 2025, les deux anciens PM macronistes sont présents ensemble, aux côtés de Nicolas Roche (SGDSN).\n\nMacron : participe en 2014 (SG adjoint Élysée), nommé ministre de l'Économie deux mois plus tard.\n\nLe pattern « promotion post-Bilderberg » ne démontre pas une causalité, mais révèle que le comité de sélection (présidé par de Castries) identifie des personnalités à fort potentiel d'ascension avant que leur promotion ne soit publique."
+      },
+      {
+        "titre": "Henri de Castries : le nœud unique du système",
+        "contenu": "Ancien PDG d'AXA pendant 16 ans (2000-2016), de Castries cumule des positions sans équivalent : président du comité de direction du Bilderberg depuis 2012, président de l'Institut Montaigne depuis 2015, membre du Conseil stratégique de la FCF, Young Leader FAF à triple sélection (1994, 1995, 1998), condisciple de Villepin à l'ENA (promotion Voltaire, 1980).\n\nIl est le seul individu identifié qui siège simultanément au comité de direction du Bilderberg ET au Conseil stratégique de la FCF. Au sein de la FCF, il retrouve Philippe, Raffarin et Attali. Au Bilderberg, il sélectionne et accueille Philippe, Attal et avait accueilli Macron.\n\nL'écosystème AXA irrigue le Bilderberg français : de Castries (ex-PDG), Buberl (DG actuel) et Gosset-Grainville (président du CA) étaient présents ensemble en 2023. Patricia Barbizet, ex-présidente du Siècle, est le second représentant français permanent au comité directeur."
+      },
+      {
+        "titre": "Le Bilderberg comme 7ème cercle du réseau Philippe",
+        "contenu": "Notre cartographie identifiait six cercles d'influence : Juppéie, ENA Marc-Bloch, FAF, FCF, monde des affaires, Horizons. Le Bilderberg constitue un septième cercle, plus discret, caractérisé par : opacité maximale (Chatham House), sélection par le haut (de Castries sélectionne), exclusivité transatlantique (aucune personnalité russe, chinoise, indienne ou africaine invitée).\n\nL'édition 2025 (Stockholm) marque un tournant avec les sujets : relations transatlantiques, axe autoritaire, IA et sécurité nationale. Parmi les participants : le SG de l'OTAN (Rutte), le PDG de Pfizer (Bourla), Peter Thiel et Alex Karp (Palantir), Satya Nadella (Microsoft).\n\nEn MAS, de Castries est un « super-facilitateur » qui ne se contente pas de connecter des agents mais sélectionne ceux exposés au réseau transatlantique. En cooptant les futurs dirigeants, il garantit que le prochain occupant de l'Élysée aura été exposé à la vision transatlantique avant d'y accéder."
+      }
+    ],
+    "noeudsLies": [
+      "henri-de-castries",
+      "gabriel-attal",
+      "patricia-barbizet",
+      "institut-montaigne",
+      "edouard-philippe",
+      "emmanuel-macron",
+      "jacques-attali",
+      "jean-pierre-raffarin"
+    ],
+    "sources": [
+      {
+        "titre": "bilderberg-meetings.org — listes officielles des participants 2023-2025",
+        "type": "officiel"
+      },
+      {
+        "titre": "FranceSoir — Le groupe Bilderberg, un mini-Davos très secret (2023)",
+        "type": "presse"
+      },
+      {
+        "titre": "Regards.fr — Deux anciens PM macronistes chez Bilderberg (2025)",
+        "type": "presse"
+      },
+      {
+        "titre": "Ifri — Bilderberg, la conférence la plus secrète du monde",
+        "type": "presse"
+      },
+      {
+        "titre": "Parlement européen — question écrite E-001703/2023 (Virginie Joron)",
+        "type": "officiel"
+      },
+      {
+        "titre": "Wikipédia — Henri de Castries, Institut Montaigne",
+        "type": "presse"
+      }
+    ]
+  },
+  {
+    "slug": "blackrock-reseau-philippe",
+    "titre": "BlackRock & le réseau Philippe — Le gestionnaire d'actifs au cœur du système",
+    "sousTitre": "De Cirelli à Kohler : la convergence des intérêts financiers et politiques",
+    "resume": "BlackRock (10 000 Mds $) est lié structurellement au réseau Philippe via Cirelli (ex-dircab Raffarin, promu LH par Philippe en pleine grève des retraites). En mars 2025, BlackRock et MSC (famille Kohler) s'associent pour acheter 43 ports mondiaux. Philippe propose 15 % de capitalisation retraites — le rêve de BlackRock.",
+    "date": "2026-03-30",
+    "themes": [
+      "blackrock",
+      "cirelli",
+      "retraites",
+      "capitalisation",
+      "msc",
+      "ports",
+      "cac-40",
+      "raffarin"
+    ],
+    "parties": [
+      {
+        "titre": "Jean-François Cirelli : le pont BlackRock–Raffarin–Philippe",
+        "contenu": "ENA (promotion Léonard de Vinci, 1985), ancien conseiller de Chirac, directeur adjoint du cabinet de Raffarin (2002-2004), artisan de la réforme des retraites Fillon 2003 — son « plus grand sujet de fierté ». PDG de Gaz de France puis numéro 2 de GDF Suez (Engie). Président de BlackRock France depuis 2015.\n\nLa chaîne est directe : conseiller de Chirac → dircab de Raffarin → PDG Gaz de France → BlackRock France → invité par Philippe au CAP 2022 → promu LH par Philippe.\n\nPhilippe lance en 2018 le Comité Action Publique 2022. Cirelli y siège et recommande des « transferts au secteur privé ». Cirelli déclarait devant l'AMF vouloir « renforcer l'idée auprès des autorités publiques qu'il faut investir pour la retraite dans les marchés de capitaux ». Le patron de BlackRock conseille directement le Premier ministre.\n\nLe 31 décembre 2019, en pleine grève historique, Cirelli est élevé officier de la Légion d'honneur sur proposition de Philippe. Le 7 janvier 2020, des grévistes envahissent le siège de BlackRock."
+      },
+      {
+        "titre": "Le deal BlackRock–MSC : le nœud portuaire mondial",
+        "contenu": "En mars 2025, BlackRock et TiL (opérateur portuaire de MSC, famille Aponte, cousins de Kohler) annoncent l'acquisition de 43 ports de CK Hutchison dans 23 pays pour 22,8 milliards de dollars. BlackRock prend les deux ports stratégiques du Canal de Panama, MSC/TiL la majorité des 41 autres.\n\nCOSCO Shipping (armateur chinois d'État, partenaire du port du Havre via le jumelage Dalian) exige une participation majoritaire dans le consortium, menaçant de faire capoter le deal. Ce bras de fer illustre la rivalité sino-américaine pour le contrôle des infrastructures portuaires — le même enjeu qui sous-tend le port du Havre.\n\nConnexions avec le réseau : BlackRock est actionnaire d'AXA (de Castries/Bilderberg), BNP (Lemierre/Bilderberg 2025), Total (Pouyanné/Bilderberg), SocGen (où Kohler rejoint en 2025). Le deal BlackRock-MSC connecte directement le gestionnaire d'actifs au triangle Kohler–MSC–Le Havre–Philippe."
+      },
+      {
+        "titre": "Philippe 2027 : le programme BlackRock",
+        "contenu": "En juin 2025, Philippe propose 15 % de capitalisation dans les retraites, tout en menaçant de relever l'âge de départ à 67 ans si cette option n'est pas retenue.\n\nChronologie de la convergence : Cirelli dircab Raffarin et réforme Fillon 2003 → Cirelli président BlackRock France 2015 → Larry Fink reçu à l'Élysée juin 2017 (30 jours après investiture Macron) → ministres Philippe pitchent la France à BlackRock octobre 2017 → Cirelli invité au CAP 2022 (2018) → Cirelli promu LH décembre 2019 → réforme retraites Philippe/Macron 2019-2020 → Philippe propose 15 % capitalisation 2025.\n\nDans le modèle MAS, BlackRock est une contrainte environnementale — un attracteur financier vers lequel gravitent les agents qui optimisent leur capital relationnel. La convergence Philippe-BlackRock est le produit d'un alignement structurel entre un candidat réformateur et un gestionnaire qui a besoin de la capitalisation."
+      }
+    ],
+    "noeudsLies": [
+      "blackrock",
+      "jean-francois-cirelli",
+      "jean-pierre-raffarin",
+      "edouard-philippe",
+      "alexis-kohler",
+      "msc-aponte",
+      "henri-de-castries",
+      "gpmh"
+    ],
+    "sources": [
+      {
+        "titre": "FranceSoir — La dangereuse collusion entre Philippe et BlackRock (juin 2025)",
+        "type": "presse"
+      },
+      {
+        "titre": "Basta! — BlackRock et les retraites : pourquoi et comment",
+        "type": "presse"
+      },
+      {
+        "titre": "Élucid — BlackRock en France : les dangers d'une intoxication institutionnelle (2023)",
+        "type": "presse"
+      },
+      {
+        "titre": "Novethic — La promotion du patron français de BlackRock passe mal (2020)",
+        "type": "presse"
+      },
+      {
+        "titre": "Arte — reportage BlackRock et les retraites (septembre 2019)",
+        "type": "presse"
+      },
+      {
+        "titre": "The Maritime Executive — Hutchison Sells Panama and Other Ports (mars 2025)",
+        "type": "presse"
+      },
+      {
+        "titre": "Wikipédia — BlackRock, Jean-François Cirelli",
+        "type": "presse"
+      }
+    ]
+  },
+  {
+    "slug": "coalition-philippe-2027",
+    "titre": "La Coalition Philippe 2027 — 90 signataires, un réseau, une candidature",
+    "sousTitre": "Analyse de la tribune « Pour la France, construisons l'union ! » — La Tribune dimanche, 29 mars 2026",
+    "resume": "90 personnalités de quatre familles politiques (Renaissance, LR, Horizons, MoDem) publient un appel à une candidature unique pour 2027. Marc Ferracci (témoin de Macron, fils d'un membre de la Commission Attali) signe la tribune, bouclant la chaîne Attali → Macron → Philippe. Philippe Tabarot (ministre des Transports, supervise les ports) renforce le triangle portuaire.",
+    "date": "2026-03-30",
+    "themes": [
+      "coalition-2027",
+      "tribune",
+      "ferracci",
+      "tabarot",
+      "bregeon",
+      "transports",
+      "attali",
+      "primaire"
+    ],
+    "parties": [
+      {
+        "titre": "La tribune : anatomie d'un ralliement",
+        "contenu": "La tribune paraît le 29 mars 2026, un jour après l'installation de Philippe comme maire du Havre pour son troisième mandat. Le timing accompagne la transition municipales → présidentielle. Le grand meeting présidentiel est prévu le 12 avril à Paris.\n\nLes signataires écrivent : « Nous appelons à un sursaut d'unité, pour créer les conditions d'un large rassemblement autour d'un projet et d'une candidature unique en 2027 ». Officiellement, aucun candidat n'est désigné. Officieusement, Maud Bregeon déclare sur LCI que Philippe « a pris une sérieuse option, étant potentiellement le mieux placé pour mener ce combat ».\n\nParmi les signataires : des ministres en exercice (Bregeon, Jeanbrun, Tabarot, Rist, Moutchou), des députés et anciens ministres (Ferracci, Travert, Panosyan-Bouvet), et des sénateurs (Buffet) issus de quatre familles politiques."
+      },
+      {
+        "titre": "Marc Ferracci : le bouclage de la chaîne Attali",
+        "contenu": "Marc Ferracci rencontre Macron à 22 ans à Sciences Po. Témoin de mariage de Macron, et Macron est le sien. Son père Pierre Ferracci (Groupe Alpha) a siégé à la Commission Attali en 2007 — la même commission où Macron était rapporteur. Pierre Ferracci a déclaré que le libéralisme de Macron est « un peu le produit de la commission Attali ».\n\nLa chaîne se boucle : Attali → Pierre Ferracci (commission 2007) → Marc Ferracci (ami intime de Macron) → Macron → Philippe (PM 2017, suggestion d'Attali) → coalition 2027 (tribune du 29 mars). L'écosystème Attali-Macron ne disparaît pas avec la fin du mandat Macron. Il se transfère vers Philippe via ses agents les plus intimes.\n\nEn 2023, Blast révèle que Ferracci détient un tiers des parts du Groupe Alpha, dont la filiale Secafi bénéficierait de la réorganisation de Pôle emploi qu'il co-rapporte. Ce schéma de conflit d'intérêts familial rappelle l'affaire Kohler/MSC."
+      },
+      {
+        "titre": "Le triangle Transports-Ports-Philippe renforcé",
+        "contenu": "Philippe Tabarot, ministre des Transports et co-signataire, supervise les ports maritimes français dont le GPMH — nœud Philippe/Kohler/MSC/CMA CGM. Deux précédents sur ce poste : Djebbari (YL FCF 2020, interdit par la HATVP de rejoindre CMA CGM) et Beaune (Bilderberg 2023).\n\nTabarot est visé par une enquête PNF pour détournement de fonds publics et prise illégale d'intérêts. Ce pattern d'investigations PNF se retrouve chez Philippe (métropole du Havre, 2024) et Kohler (MSC, 2022) — trois nœuds du réseau sous surveillance judiciaire.\n\nCette tribune constitue un 8ème cercle du réseau Philippe : la coalition gouvernementale transpartisane. Elle se distingue des précédents cercles par sa nature explicitement politique et sa composition multipartite. C'est le passage de l'émergence à la coalescence — les agents qui optimisaient individuellement leur capital relationnel se coordonnent explicitement autour de la candidature Philippe."
+      }
+    ],
+    "noeudsLies": [
+      "marc-ferracci",
+      "philippe-tabarot",
+      "maud-bregeon",
+      "edouard-philippe",
+      "jacques-attali",
+      "commission-attali",
+      "emmanuel-macron",
+      "gpmh",
+      "alexis-kohler"
+    ],
+    "sources": [
+      {
+        "titre": "La Tribune dimanche — tribune « Pour la France, construisons l'union ! » (29 mars 2026)",
+        "type": "presse"
+      },
+      {
+        "titre": "France Info — 90 personnalités appellent à une candidature unique (29 mars 2026)",
+        "type": "presse"
+      },
+      {
+        "titre": "LCI — Maud Bregeon : Philippe « mieux placé pour mener ce combat »",
+        "type": "presse"
+      },
+      {
+        "titre": "Blast — conflit d'intérêts Secafi/Alpha/France Travail (2023)",
+        "type": "presse"
+      },
+      {
+        "titre": "Wikipédia — Marc Ferracci, Philippe Tabarot",
+        "type": "presse"
+      },
+      {
+        "titre": "France 3 PACA — « Ce sont des traîtres » : réactions LR (octobre 2025)",
+        "type": "presse"
+      }
+    ]
+  },
+  {
+    "slug": "bilan-fiscal-social-philippe",
+    "titre": "Bilan fiscal, social et sanitaire — Les dossiers manquants du mandat Philippe",
+    "sousTitre": "CSG, ISF/IFI, flat tax, ordonnances travail, assurance chômage, obligation vaccinale",
+    "resume": "Huit dossiers supplémentaires du mandat Philippe (2017-2020) : la réforme fiscale du capital (ISF→IFI, flat tax, CSG), la réforme du marché du travail (ordonnances, assurance chômage) et les dossiers sanitaires. Le bilan dessine une orientation cohérente : alléger la fiscalité du capital tout en alourdissant les prélèvements sur le travail et les retraités — exactement aligné avec les intérêts de BlackRock.",
+    "date": "2026-03-31",
+    "themes": [
+      "isf",
+      "ifi",
+      "flat-tax",
+      "csg",
+      "ordonnances-travail",
+      "chomage",
+      "blackrock",
+      "ferracci",
+      "retraites"
+    ],
+    "parties": [
+      {
+        "titre": "La réforme fiscale du capital : ISF, flat tax, CSG",
+        "contenu": "Au 1er janvier 2018, trois réformes simultanées transforment la fiscalité française :\n\nCSG +1,7 point : 22,5 milliards de recettes. Les salariés du privé sont légèrement gagnants (suppression cotisations), mais les retraités perdent 3,5 milliards. Selon l'IFRAP, l'État gagne 1,32 milliard net — un impôt déguisé. Déclencheur direct de la colère des Gilets jaunes.\n\nISF → IFI : seuls les biens immobiliers taxés, actifs financiers exonérés. Contribuables : 358 000 (ISF) → 133 000 (IFI). Coût : 4,5 Mds/an. France Stratégie (2023) conclut : aucun effet significatif sur l'investissement. Connexion BlackRock : en exonérant les actifs financiers, la réforme rend les ETF BlackRock plus attractifs que l'immobilier.\n\nFlat tax (PFU 30 %) : taux unique remplaçant le barème progressif pour les revenus du capital. Les dividendes explosent (+60 % entre 2017 et 2019) mais se concentrent sur les 0,1 % les plus riches. Le sénateur Éblé : « 4,5 Mds/an pour 50 000 emplois = 90 000 € par emploi ! »"
+      },
+      {
+        "titre": "Ordonnances travail et assurance chômage : la chaîne Attali-Ferracci",
+        "contenu": "Le 31 août 2017, Philippe et Pénicaud présentent 5 ordonnances réformant le Code du travail : plafonnement des indemnités prud'homales (« barème Macron »), rupture conventionnelle collective, fusion des instances en CSE, primauté de l'accord d'entreprise.\n\nConnexion réseau : les ordonnances s'inscrivent dans la chaîne Commission Attali (2007) → Macron ministre (deal Uber) → ordonnances Philippe (2017). Marc Ferracci, théoricien de la « flexisécurité », est le cerveau de la réforme. Il est témoin de mariage de Macron ET fils de Pierre Ferracci (Commission Attali). Ferracci signe la tribune des 90 pour Philippe en mars 2026.\n\nL'été 2019, la réforme de l'assurance chômage réduit les allocations pour les travailleurs précaires. L'Unédic estime que 1,15 million d'allocataires verront leurs droits réduits. La réforme est inspirée par Ferracci.\n\nEn MAS, le bilan Philippe n'est pas une série de décisions isolées — c'est la fonction d'utilité révélée d'un centroïde optimisant dans l'espace d'états défini par BlackRock (capitalisation), CMA CGM (dérégulation portuaire) et le réseau Attali-Ferracci (flexisécurité)."
+      },
+      {
+        "titre": "Dossiers sanitaires et correctif factuel",
+        "contenu": "Point de rigueur : l'obligation vaccinale des soignants (loi du 5 août 2021) a été votée sous Castex, pas Philippe (parti le 3 juillet 2020). L'infographie virale la lui attribue à tort. Philippe est responsable de la gestion initiale du Covid : confinement (17 mars 2020), décret Rivotril (28 mars 2020), « masques inutiles » (13 mars 2020, TF1).\n\nEnviron 15 000 soignants ont été suspendus, dont 4 000 encore suspendus en mai 2022. L'obligation a été suspendue le 13 mai 2023 après recommandation de la HAS.\n\nLes impôts de production (3,5 % du PIB, champion européen) n'ont PAS été réduits sous Philippe malgré les recommandations de BlackRock, du MEDEF et de la Commission européenne. Philippe a préféré ISF/flat tax — des mesures qui bénéficient aux actionnaires plutôt qu'aux entreprises productrices. La baisse n'interviendra que sous Castex et Attal."
+      }
+    ],
+    "noeudsLies": [
+      "edouard-philippe",
+      "blackrock",
+      "jean-francois-cirelli",
+      "marc-ferracci",
+      "commission-attali",
+      "jacques-attali",
+      "jean-paul-delevoye",
+      "emmanuel-macron"
+    ],
+    "sources": [
+      {
+        "titre": "France Stratégie — Comité d'évaluation réformes fiscalité du capital (octobre 2023)",
+        "type": "officiel"
+      },
+      {
+        "titre": "Sénat — ISF → IFI et PFU : un premier bilan (rapport Éblé-Montgolfier, octobre 2019)",
+        "type": "officiel"
+      },
+      {
+        "titre": "Vie-publique.fr — Suppression de l'ISF, IFI, flat tax : quel bilan ?",
+        "type": "officiel"
+      },
+      {
+        "titre": "IFRAP — Ce que l'ISF a fait perdre à la France",
+        "type": "presse"
+      },
+      {
+        "titre": "Vision Libérale — Philippe a ajouté 406 milliards à la dette (mars 2026)",
+        "type": "presse"
+      },
+      {
+        "titre": "JDN — Loi Travail : les principales mesures des ordonnances",
+        "type": "presse"
+      },
+      {
+        "titre": "Légifrance — Décret n° 2023-368 (suspension obligation vaccinale)",
+        "type": "officiel"
+      }
+    ]
+  },
+  {
+    "slug": "controverses-mandat-philippe",
+    "titre": "Les controverses du mandat Philippe — Huit dossiers, un bilan contesté",
+    "sousTitre": "LBD, Rivotril, Fessenheim, 80 km/h, retraites, NDDL, taxe carbone, chômage",
+    "resume": "Le mandat Philippe (2017-2020) est marqué par huit dossiers controversés : répression des Gilets jaunes (2 500 blessés, 24 éborgnés), décret Rivotril, fermeture de Fessenheim (5 Mds de coût), 80 km/h, réforme des retraites inachevée, NDDL, taxe carbone (déclencheur Gilets jaunes) et 406,6 milliards de dette ajoutée.",
+    "date": "2026-03-31",
+    "themes": [
+      "gilets-jaunes",
+      "rivotril",
+      "fessenheim",
+      "80kmh",
+      "retraites",
+      "nddl",
+      "taxe-carbone",
+      "dette"
+    ],
+    "parties": [
+      {
+        "titre": "Répression des Gilets jaunes et décret Rivotril",
+        "contenu": "De novembre 2018 à mi-2019, le mouvement des Gilets jaunes constitue la pire crise sociale depuis Mai 68. Selon Amnesty International : 2 500 blessés, 24 éborgnés, 5 mains arrachées. La France est le seul pays de l'UE à utiliser les LBD 40 et les grenades GLI-F4 (25 g de TNT) en maintien de l'ordre. L'ONU, le Conseil de l'Europe et Amnesty International condamnent une répression disproportionnée. 89 000 agents mobilisés, véhicules blindés en métropole.\n\nLe 28 mars 2020, le décret Rivotril autorise la dispensation d'un dépresseur respiratoire pour patients Covid en fin de vie. Des soignants témoignent sur France 2 : « On nous demande de faire une euthanasie passive. » La SFGG dément : c'est un soin palliatif. Le décret pallie une pénurie de midazolam.\n\nParallèlement, les ARS établissent des fiches excluant les résidents d'EHPAD de l'hospitalisation en réanimation. Philippe affirme devant la commission d'enquête qu'il n'y avait pas d'instruction d'interdiction, contredisant les fiches ARS documentées."
+      },
+      {
+        "titre": "Fessenheim, NDDL et taxe carbone",
+        "contenu": "Fessenheim : le gouvernement ferme la doyenne des centrales nucléaires (décret du 18 février 2020). Aucune justification technique — c'est l'exécution d'une promesse Hollande aux écologistes. Coût estimé : 5 milliards d'euros. En pleine crise énergétique 2022, les 10 TWh manquants auraient représenté 3 à 6 milliards sur le marché. La mission parlementaire conclut à un « fiasco ».\n\nNDDL : le 17 janvier 2018, Philippe abandonne le projet d'aéroport. Le 9 avril, 2 500 gendarmes expulsent les zadistes. Un étudiant a la main arrachée en ramassant une grenade. La droite accuse Philippe d'avoir « capitulé ».\n\nTaxe carbone : la composante carbone de la TICPE passe de 7 €/t (2014) à 44,60 €/t (2018). Le 17 novembre 2018, 280 000 Gilets jaunes se lèvent. Le 4 décembre, Philippe annonce un moratoire ; l'Élysée le désavoue le lendemain. Résultat : zéro recette, une crise historique, et une prime d'activité d'urgence de 9,5 Mds/an."
+      },
+      {
+        "titre": "Retraites inachevées et bilan économique : 406 milliards de dette",
+        "contenu": "Le 11 décembre 2019, Philippe présente le système universel à points. Trois mois de grèves s'ensuivent. Delevoye démissionne pour activités non déclarées (il avait rencontré BlackRock en mars 2018). Philippe utilise le 49.3 en février 2020, puis la pandémie gèle la réforme.\n\nBilan économique : le chômage baisse (9,4 % → 7,1 % entre 2017 et 2019) mais la dette explose de 406,6 milliards en trois ans (98,4 % → 115,7 % du PIB). Les réformes structurelles sont inachevées (retraites, assurance chômage). Le sénateur Dallier (LR) : « La situation de la France est moins bonne au moment où il part que quand il arrive. »\n\nPublic Sénat titre : « Un homme d'État mais des réformes inachevées. » Euractiv résume un mandat « marqué par les crises ». La dette ajoutée en trois ans dépasse celle des huit années Hollande."
+      }
+    ],
+    "noeudsLies": [
+      "edouard-philippe",
+      "jean-paul-delevoye",
+      "blackrock",
+      "jean-francois-cirelli",
+      "emmanuel-macron"
+    ],
+    "sources": [
+      {
+        "titre": "Amnesty International — Gilets jaunes : un bilan inquiétant (novembre 2019)",
+        "type": "officiel"
+      },
+      {
+        "titre": "France Info / Pièces à conviction — EHPAD et Rivotril (novembre 2020)",
+        "type": "presse"
+      },
+      {
+        "titre": "Légifrance — Décret n° 2020-360 (Rivotril) et n° 2020-129 (Fessenheim)",
+        "type": "officiel"
+      },
+      {
+        "titre": "Assemblée nationale — Mission d'information Fessenheim",
+        "type": "officiel"
+      },
+      {
+        "titre": "Public Sénat — Un homme d'État mais des réformes inachevées (juillet 2020)",
+        "type": "presse"
+      },
+      {
+        "titre": "Euractiv — Philippe quitte Matignon après un mandat marqué par les crises",
+        "type": "presse"
+      },
+      {
+        "titre": "Vision Libérale — Philippe a ajouté 406 milliards à la dette (mars 2026)",
+        "type": "presse"
+      }
+    ]
+  },
+  {
+    "slug": "sondages-medias-philippe",
+    "titre": "Sondages & médias complaisants — La fabrique du candidat providentiel",
+    "sousTitre": "Elabe/BFMTV vs moipresident.online vs Ipsos-BVA vs Odoxa",
+    "resume": "Le sondage Elabe/BFMTV du 28 mars 2026 donne à Philippe 3,5 à 8,5 points de plus que l'agrégation bayésienne indépendante. BFMTV appartient à CMA CGM (Saadé), dont le hub est Le Havre. La synchronisation sondage + tribune 90 signataires + meeting constitue une opération de communication intégrée. Le baromètre Ipsos-BVA donne Philippe dernier du bloc central (20 %).",
+    "date": "2026-03-31",
+    "themes": [
+      "sondages",
+      "bfmtv",
+      "cma-cgm",
+      "elabe",
+      "medias",
+      "propagande",
+      "moipresident"
+    ],
+    "parties": [
+      {
+        "titre": "Le sondage Elabe/BFMTV : un candidat surévalué",
+        "contenu": "Sondage Elabe du 25-27 mars 2026 (1 504 personnes) : Philippe à 20,5-25,5 % au premier tour selon les configurations. Philippe 51,5 % vs Bardella 48,5 % au second tour.\n\nPoint critique : le score de 51,5 % est DANS la marge d'erreur (3,1 points). Ce résultat n'est pas statistiquement significatif. Le meilleur score (25,5 %) repose sur une configuration irréaliste : gauche éparpillée ET absence de tout candidat LR. Or Retailleau est déclaré et affirme qu'« un candidat macroniste ne pourra pas être élu ».\n\nL'agrégation bayésienne de moipresident.online donne Philippe à 17 % au 16 mars — soit 3,5 à 8,5 points de moins. Seul Philippe bénéficie de cet écart ; Bardella et Glucksmann sont cohérents entre les sources."
+      },
+      {
+        "titre": "Ipsos-BVA et Odoxa : la réalité des données",
+        "contenu": "Le baromètre Ipsos-BVA/CESI de mars 2026 donne la satisfaction en cas d'accession à la présidence : Bardella 35 %, Le Pen 33 %, Marion Maréchal 24 %, Darmanin 22 %, Attal 21 %, Philippe 20 %. Philippe est dernier du bloc central, à 15 points de Bardella. Ce baromètre contredit frontalement le récit du « seul capable de battre le RN ».\n\nLe baromètre Odoxa de décembre 2025 montrait Philippe sous la barre des 30 % d'opinions favorables (29 %, point le plus bas depuis sa candidature). Avant les municipales, un sondage le donnait battu au Havre par le communiste Lecoq.\n\nLuc Ferry qualifie Philippe de « pire Premier ministre de la Ve République » et ne croit pas aux sondages. Le contraste entre la promotion médiatique et les indicateurs réels est saisissant."
+      },
+      {
+        "titre": "BFMTV/CMA CGM : le conflit d'intérêts médiatique",
+        "contenu": "BFMTV, commanditaire du sondage, appartient depuis 2023 à CMA Média (filiale CMA CGM, Rodolphe Saadé). CMA CGM est le 3e armateur mondial, dont le hub principal est Le Havre — fief de Philippe. Le média qui commande le sondage et le candidat qu'il promeut partagent un intérêt commun.\n\nLa triple offensive du 28-29 mars : sondage Elabe/BFMTV (28 mars) + tribune 90 signataires dans La Tribune dimanche (29 mars) + annonce meeting Horizons (12 avril). Le sondage légitime la tribune, la tribune légitime le meeting, le meeting lance la campagne. Boulevard Voltaire : « La Macronie poursuit la mise en orbite d'Édouard Philippe. »\n\nEn MAS, les sondages ne sont pas des mesures neutres — ce sont des signaux qui influencent le comportement des agents. Un sondage commandé par un média du réseau crée une boucle de rétroaction positive : la prophétie auto-réalisatrice du système médiatico-politique."
+      }
+    ],
+    "noeudsLies": [
+      "edouard-philippe",
+      "rodolphe-saade-cma-cgm",
+      "cma-cgm",
+      "elabe-bfmtv",
+      "gabriel-attal",
+      "maud-bregeon"
+    ],
+    "sources": [
+      {
+        "titre": "Elabe — Sondage pour BFMTV et La Tribune dimanche (25-27 mars 2026)",
+        "type": "presse"
+      },
+      {
+        "titre": "moipresident.online — agrégation bayésienne des sondages (16 mars 2026)",
+        "type": "presse"
+      },
+      {
+        "titre": "Ipsos-BVA/CESI — Baromètre politique mars 2026",
+        "type": "presse"
+      },
+      {
+        "titre": "Odoxa-Mascaret — Baromètre de popularité décembre 2025 pour Public Sénat",
+        "type": "presse"
+      },
+      {
+        "titre": "Boulevard Voltaire — Sondage, tribune, meeting : la promotion de Philippe (30 mars 2026)",
+        "type": "presse"
+      },
+      {
+        "titre": "Planet.fr — Cote de popularité en net recul (décembre 2025)",
+        "type": "presse"
+      }
+    ]
+  },
+  {
+    "slug": "bilderberg-cooptation-castries",
+    "titre": "Édouard Philippe et le groupe Bilderberg — Cinq participations, un coopteur",
+    "sousTitre": "Henri de Castries, le coopteur commun de Macron et Philippe",
+    "resume": "De Castries confirme au JDD avoir personnellement coopté Philippe au Bilderberg en 2015 et Macron en 2014. Cinq participations documentées (2015-2025). Le pattern d'élévation post-Bilderberg est récurrent : Macron ministre 2 mois après, Philippe PM 11 mois après, Attal PM 7 mois après. Juppé était présent en 2015 avec Philippe.",
+    "date": "2026-04-01",
+    "themes": [
+      "bilderberg",
+      "castries",
+      "cooptation",
+      "macron",
+      "juppe",
+      "axa",
+      "dgse",
+      "transatlantique"
+    ],
+    "parties": [
+      {
+        "titre": "Les cinq participations d'Édouard Philippe (2015-2025)",
+        "contenu": "Henri de Castries confirme au JDD : « C'est moi qui l'ai proposé. Comme maire, il avait développé des idées intéressantes. » Philippe n'est alors que simple maire du Havre.\n\n2015 (Telfs-Buchen) : première cooptation. Philippe se retrouve à la table de Kissinger, Peter Thiel (Palantir), Demis Hassabis (DeepMind), les présidents de BP, Shell, Lazard, BlackRock, LinkedIn, le PM belge Charles Michel. Alain Juppé, son mentor, est également présent.\n\n2016 (Dresde) : deuxième carton. Philippe y côtoie Christine Lagarde (FMI), Laurent Fabius, Emmanuelle Charpentier. Onze mois plus tard, il est nommé Premier ministre.\n\n2023-2025 (Lisbonne, Madrid, Stockholm) : retour en force. En 2025, première fois que deux anciens PM macronistes (Philippe et Attal) participent ensemble, aux côtés de Nicolas Roche (SGDSN, nommé deux mois plus tôt).\n\nChronologie des cooptations de Castries : Macron en 2014 → ministre 2 mois après. Philippe en 2015 → PM 11 mois après la 2e participation (2016). Attal en 2023 → PM 7 mois après. FranceSoir documente ce pattern récurrent d'élévation post-Bilderberg."
+      },
+      {
+        "titre": "Le noyau français récurrent et le renseignement",
+        "contenu": "L'analyse des listes de participants révèle un noyau qui recoupe les autres cercles d'influence de Philippe :\n\nHenri de Castries (AXA, Institut Montaigne) — 2015, 2016, 2023. Patrick Pouyanné (TotalEnergies) — 2023, 2025. Patricia Barbizet (ex-Kering, ex-présidente du Siècle) — 2016, 2023. Thomas Buberl (DG AXA) — 2023. Antoine Gosset-Grainville (président CA AXA) — 2023. Jean Lemierre (président BNP Paribas) — 2025. Bernard Émié (directeur DGSE) — 2023. Nicolas Roche (SGDSN) — 2025.\n\nLa présence simultanée de dirigeants du renseignement français (Émié, Roche) aux côtés de candidats présidentiels dans un forum privé est soulevée par Regards.fr : « Il est légitime de s'interroger sur ce qu'ont été faire et dire Nicolas Roche, mais aussi Gabriel Attal et Édouard Philippe à cette réunion annuelle. »\n\nLa triple concentration AXA (de Castries + Buberl + Gosset-Grainville) au Bilderberg 2023 documente l'irrigation de l'écosystème par un seul assureur — dont le conseil stratégique FCF inclut Philippe et Raffarin."
+      },
+      {
+        "titre": "Le Bilderberg comme méta-cercle du réseau Philippe",
+        "contenu": "Le Bilderberg constitue le 7ème cercle de la cartographie. Il se distingue par sa dimension transatlantique et le calibre des co-participants (chefs d'État, PDG Fortune 500, chefs du renseignement).\n\nLes intersections entre cercles sont significatives : AXA (Bilderberg) est au CS de la FCF. Juppé (cercle 1) est présent au Bilderberg 2015 avec Philippe. Castries (Bilderberg) préside l'Institut Montaigne, qui a inspiré la doctrine Macron 2017. Le Bilderberg fonctionne comme un méta-cercle où les nœuds des cercles inférieurs (FAF, FCF, monde des affaires) se retrouvent.\n\nPhilippe Villin, ancien patron du Figaro, décrit les invités comme « assez conformistes, tous attachés au capitalisme et au libre-échangisme ». Etienne Davignon (avant-dernier président) : « Pour y être coopté, il faut avoir de l'entregent et une vision planétaire. »\n\nEn MAS, le Bilderberg est l'espace de coordination de plus haut niveau — le lieu où les fonctions d'utilité des centroïdes s'alignent sous couvert de confidentialité Chatham House."
+      }
+    ],
+    "noeudsLies": [
+      "henri-de-castries",
+      "edouard-philippe",
+      "gabriel-attal",
+      "emmanuel-macron",
+      "alain-juppe",
+      "patricia-barbizet",
+      "patrick-pouyanné",
+      "jean-lemierre",
+      "bernard-emie",
+      "institut-montaigne",
+      "blackrock"
+    ],
+    "sources": [
+      {
+        "titre": "bilderbergmeetings.org — listes officielles 2015-2025",
+        "type": "officiel"
+      },
+      {
+        "titre": "JDD — Ce que Macron a dit au Bilderberg en 2014 (témoignage de Castries)",
+        "type": "presse"
+      },
+      {
+        "titre": "FranceSoir — enquêtes Bilderberg 2023-2024, schémas d'élévation",
+        "type": "presse"
+      },
+      {
+        "titre": "Regards.fr — Deux anciens PM macronistes chez Bilderberg (juin 2025)",
+        "type": "presse"
+      },
+      {
+        "titre": "Parlement européen — question écrite E-001703/2023 (Virginie Joron)",
+        "type": "officiel"
+      },
+      {
+        "titre": "publicintelligence.net — archives participants depuis 1954",
+        "type": "presse"
+      }
+    ]
+  },
+  {
+    "slug": "kohler-saade-narcotrafic-havre",
+    "titre": "Kohler, Saadé, le port du Havre et le tsunami blanc",
+    "sousTitre": "MSC, CMA CGM, narcotrafic portuaire et nexus médiatico-politique",
+    "resume": "Le Havre représente 78 % des saisies portuaires françaises de cocaïne. Estimation : 70 à 280 tonnes/an transitent par le port. Kohler a voté des contrats MSC au GPMH sans déclarer ses liens familiaux. Saadé (CMA CGM) contrôle BFM TV/RMC et affiche 296 M€ de déficit médiatique — un investissement d'influence, pas de rendement. Macron a personnellement écrit au PNF pour disculper Kohler.",
+    "date": "2026-04-01",
+    "themes": [
+      "kohler",
+      "saade",
+      "cma-cgm",
+      "msc",
+      "narcotrafic",
+      "cocaïne",
+      "bfmtv",
+      "havre",
+      "gpmh",
+      "medias"
+    ],
+    "parties": [
+      {
+        "titre": "Kohler au GPMH : les votes MSC et la chronologie judiciaire",
+        "contenu": "Mediapart révèle en août 2018 que Kohler a voté en faveur de contrats entre le GPMH et Terminal Normandie MSC (TNMSC) lors des séances de septembre 2010 et septembre 2011. Or la mère de Kohler est cousine germaine de Rafaela Aponte, cofondatrice de MSC. Kohler n'a jamais informé les autres membres ni ne s'est déporté. Philippe, lui, se déportait régulièrement.\n\nChronologie judiciaire : mai 2018 (révélation Mediapart, enquête PNF) → août 2018 (plainte Anticor) → été 2019 (classement sans suite) → Mediapart révèle que Macron a personnellement écrit au PNF pour disculper Kohler, au lendemain d'un rapport de police l'accablant → septembre 2022 (mise en examen prise illégale d'intérêts, témoin assisté trafic d'influence) → novembre 2024 (cour d'appel confirme les poursuites). Ses anciens supérieurs à l'APE (Bézard, Comolli) sont également mis en examen pour complicité.\n\nFrance Télévisions a déprogrammé un Complément d'enquête prévu sur Kohler. La question de ce que Philippe savait des liens Kohler-Aponte au GPMH reste ouverte."
+      },
+      {
+        "titre": "L'empire médiatique Saadé : 296 M€ de déficit pour l'influence",
+        "contenu": "En moins de trois ans, Saadé a bâti un pôle médiatique de premier plan : La Provence et Corse-Matin (81 M€, 2022), La Tribune (2023), Altice Média — BFM TV, RMC, BFM Business, 10 BFM Régions, RMC Sport (1,55 Md€, mars 2024), Brut (2025), parts dans M6 (10,25 %). Troisième pôle médiatique français après Bolloré et Arnault.\n\nL'Informé note que le rachat d'Altice Média représentait 14 fois l'Ebitda 2023. Le vendeur (Drahi) aurait déclaré : « Une influence politique, ça n'a pas de prix. » Six mois après, 250 M€ de dépréciation et 296 M€ de déficit net en 2024. L'investissement est structurellement déficitaire — objectif d'influence, pas de rentabilité.\n\nEn mars 2024, le directeur de La Provence est mis à pied après une Une défavorable à Macron. Grève de plusieurs titres. L'actionnaire intervient quand la couverture du pouvoir exécutif ne convient pas. La question : cette influence s'exercera-t-elle en faveur de Philippe pendant la campagne 2027 ?"
+      },
+      {
+        "titre": "Le tsunami blanc : narcotrafic portuaire au Havre",
+        "contenu": "Le Havre représente 78 % des saisies portuaires françaises de cocaïne. En 2024, 22 tonnes saisies (avec interceptions amont). Les spécialistes estiment que les saisies ne représentent que 5 à 20 % du trafic réel — soit 70 à 280 tonnes par an. Les experts parlent d'un « tsunami blanc ».\n\nLe mode opératoire du « conteneur clone » (saisie du 30/12/2024, 2 tonnes) : un conteneur portant un marquage identique est déposé à l'avance, sort sans passer par le scanner. Implication récurrente de dockers : en huit ans, une quinzaine d'enlèvements, dont un docker torturé et tué en 2020. La zone portuaire couvre 10 000 hectares (= Paris intra-muros). 8 000 conteneurs/jour, moins de 5 % contrôlés. 350 douaniers. L'OFAST n'est installé que depuis septembre 2023 (21 agents).\n\nOff-Investigation et Bloomberg confirment que « plusieurs cargos MSC ont été découverts avec d'importantes quantités de cocaïne ». Le maire, dont la légitimité repose en partie sur la prospérité portuaire, se trouve en conflit d'intérêts structurel entre promotion du port et contrôle de ses dérives — et ce depuis 2010."
+      }
+    ],
+    "noeudsLies": [
+      "alexis-kohler",
+      "rodolphe-saade-cma-cgm",
+      "msc-aponte",
+      "gpmh",
+      "edouard-philippe",
+      "cma-cgm",
+      "elabe-bfmtv",
+      "antoine-rufenacht",
+      "yann-le-goff"
+    ],
+    "sources": [
+      {
+        "titre": "Mediapart (Martine Orange, Laurent Mauduit) — révélations Kohler-MSC-GPMH 2018",
+        "type": "presse"
+      },
+      {
+        "titre": "Off-Investigation — série « Emmanuel, un homme d'affaires à l'Élysée », épisode Kohler",
+        "type": "presse"
+      },
+      {
+        "titre": "Bloomberg — enquête MSC-cocaïne",
+        "type": "presse"
+      },
+      {
+        "titre": "Europe 1 — Kohler a voté des contrats MSC au port du Havre",
+        "type": "presse"
+      },
+      {
+        "titre": "Décideurs Magazine — relations Saadé-Philippe",
+        "type": "presse"
+      },
+      {
+        "titre": "L'Informé — pertes CMA Média 2024, 296 M€ de déficit",
+        "type": "presse"
+      },
+      {
+        "titre": "Franceinfo / Envoyé spécial — saisies Le Havre 2019-2024",
+        "type": "presse"
+      },
+      {
+        "titre": "France Bleu Normandie — conteneurs clones, enlèvements dockers",
+        "type": "presse"
+      },
+      {
+        "titre": "HATVP — avis Djebbari/CMA CGM, risques déontologiques substantiels",
+        "type": "officiel"
+      }
+    ]
+  },
+  {
+    "slug": "nunez-bras-arme-repression",
+    "titre": "Laurent Nuñez — Le bras armé de la répression macroniste",
+    "sousTitre": "DGSI • Gilets jaunes • BRAV-M • JO 2024 • gouvernement Lecornu II",
+    "resume": "Laurent Nuñez est l'exécuteur opérationnel de la répression des Gilets jaunes (2 500 blessés, 24 éborgnés) dans le gouvernement Philippe II. Directeur de la DGSI, secrétaire d'État à l'Intérieur (tandem Castaner-Nuñez), coordonnateur renseignement à l'Élysée, préfet de police de Paris, puis ministre de l'Intérieur (Lecornu II). Découverte centrale : le triangle ENA Nuñez–Bompard–Caubel relie directement sa promotion (Cyrano de Bergerac, 1997-99) au cabinet Philippe et au parti Horizons.",
+    "date": "2026-04-02",
+    "themes": [
+      "nunez",
+      "dgsi",
+      "gilets-jaunes",
+      "brav-m",
+      "jo-2024",
+      "lecornu",
+      "ena",
+      "repression"
+    ],
+    "parties": [
+      {
+        "titre": "Parcours préfectoral — l'ascension d'un appareil sécuritaire",
+        "contenu": "Laurent Nuñez-Belda (né le 19 février 1964 à Bourges) est issu d'une famille de pieds-noirs d'origine espagnole rapatriés en 1962. Après un DESS en gestion des collectivités locales, il est inspecteur des impôts à Bercy, puis intègre l'ENA par le concours interne en 1997 (promotion Cyrano de Bergerac, 1997-1999).\n\nChaque poste le place au cœur de crises majeures : directeur de cabinet du préfet de police de Paris (attentats Charlie Hebdo/Hyper Cacher, 2015), préfet de police des Bouches-du-Rhône — où il déploie charges de CRS et canon à eau contre des grévistes à Fos-sur-Mer en 2016.\n\nLe 22 juin 2017, cinq semaines après la nomination de Philippe à Matignon, Macron nomme Nuñez à la tête de la DGSI. La simultanéité avec la formation du gouvernement Philippe n'est pas anodine : Macron réorganise l'ensemble du dispositif sécuritaire dès les premières semaines du quinquennat."
+      },
+      {
+        "titre": "La répression des Gilets jaunes — le bras armé de Philippe",
+        "contenu": "Le 16 octobre 2018, Nuñez entre au gouvernement Philippe II comme secrétaire d'État auprès du ministre de l'Intérieur Christophe Castaner. Le timing est critique : le mouvement des Gilets jaunes éclate un mois plus tard, le 17 novembre 2018.\n\nLe tandem Castaner-Nuñez : officiellement, Castaner est le ministre et Nuñez son adjoint. En réalité, selon Libération et Le Monde, « c'est lui [Nuñez] qui est véritablement aux manettes » à Beauvau. Castaner assume le rôle politique et médiatique ; Nuñez épluche les dossiers et prémâche le travail.\n\nDéfense des LBD (mars 2019, BFMTV) : « Sans le LBD, on est incapable d'interpeller des personnes dans des scènes de guérilla urbaine. » Il reproche au Défenseur des droits Jacques Toubon d'avoir fragilisé les policiers. Il participe au limogeage du préfet Delpuech en mars 2019, jugé trop laxiste, ouvrant la phase la plus dure de la répression sous Lallement.\n\nLa chaîne de responsabilité s'établit sur quatre niveaux : décision politique (Macron/Philippe), pilotage opérationnel (Castaner/Nuñez), exécution terrain (Lallement), continuité post-2020 (Nuñez comme préfet de police, puis ministre)."
+      },
+      {
+        "titre": "Le triangle ENA : Nuñez–Bompard–Caubel",
+        "contenu": "La découverte structurante de l'investigation : Nuñez et Alexandre Bompard sont condisciples de la promotion Cyrano de Bergerac de l'ENA (1997-1999). L'arrêté du 19 avril 1999 (Légifrance, JORFTEXT000000211140) en fait foi. Bompard sort 4e de la promotion et choisit l'Inspection générale des finances ; Nuñez rejoint le ministère de l'Intérieur.\n\nL'épouse d'Alexandre Bompard, Charlotte Caubel (magistrate, Sciences Po), est nommée en mai 2017 conseillère justice au cabinet d'Édouard Philippe à Matignon. Elle y reste trois ans (2017-2020), devenant cheffe du pôle justice. Nuñez, entré au gouvernement Philippe en octobre 2018, siège donc dans le même exécutif que l'épouse de son condisciple de l'ENA.\n\nCharlotte Caubel est membre du parti Horizons. Après Matignon, elle dirige la Protection judiciaire de la jeunesse (2020-2022), puis devient secrétaire d'État chargée de l'Enfance dans le gouvernement Borne (2022-2024). Son mari Alexandre Bompard dirige Carrefour (CA 2024 : 86 milliards d'euros), groupe ayant d'importants intérêts en Chine et partenaire officiel des JO 2024.\n\nCe triangle relie directement la promotion ENA de Nuñez au cœur du cabinet Philippe et au parti Horizons."
+      },
+      {
+        "titre": "Analyse MAS — l'agent d'exécution régalien",
+        "contenu": "En termes de systèmes multi-agents, Laurent Nuñez n'est pas un centroïde mais un agent spécialisé de type « exécuteur régalien ». Sa fonction d'utilité est la maximisation du contrôle sécuritaire au service du centroïde dominant (Macron).\n\nContrairement à Attali ou Minc (agents facilitateurs qui connectent des centroïdes), Nuñez implémente les décisions des centroïdes dans l'espace d'états sécuritaire. Sa loyauté va directement au président — qui le nomme personnellement à chaque poste clé (DGSI, CNRLT, préfecture de police, ministère) — pas au Premier ministre qui le supervise nominalement.\n\nVis-à-vis de Philippe, Nuñez est un subordonné opérationnel (2018-2020) sans fidélité organique. Leur lien est une co-responsabilité : toute mise en cause de la répression des Gilets jaunes implique simultanément Philippe (responsabilité politique) et Nuñez (exécution opérationnelle).\n\nDans le gouvernement Lecornu II, sa présence aux côtés de membres Horizons (Parmentier-Lecocq, Bregeon) crée un lien indirect supplémentaire avec la sphère philippiste."
+      },
+      {
+        "titre": "Controverses — BRAV-M, Nahel Merzouk, Sainte-Soline",
+        "contenu": "BRAV-M et retraites (2023) : la brigade BRAV-M, créée sous son secrétariat d'État (2019), est mise en cause pour sept blessés graves lors des manifestations contre la réforme des retraites 2023. Nuñez prend leur défense et paie leurs frais d'avocat contre l'avis de ses services.\n\nAffaire Nahel Merzouk (2023-2024) : en juillet 2023, Nuñez soutient les propos du DGPN Frédéric Veaux estimant « qu'un policier n'a pas sa place en prison ». En février 2024, il émet un avis « particulièrement favorable » pour la mutation du policier ayant tué Nahel dans le commissariat de son choix — décision dénoncée comme une institutionnalisation de l'impunité policière.\n\nSainte-Soline (2023-2025) : des vidéos policières révèlent des « tirs tendus » de grenades, pratique illégale. Nuñez refuse le terme de « violences policières » mais demande une enquête administrative.\n\nEn parallèle, sa gestion des JO de Paris 2024 est unanimement reconnue comme un succès sécuritaire majeur, lui valant le grade de commandeur de la Légion d'honneur."
+      }
+    ],
+    "noeudsLies": [
+      "laurent-nunez",
+      "christophe-castaner",
+      "sebastien-lecornu",
+      "gabriel-attal",
+      "bernard-emie",
+      "alexandre-bompard",
+      "charlotte-caubel"
+    ],
+    "sources": [
+      {
+        "titre": "Wikipédia — article « Laurent Nuñez »",
+        "type": "presse"
+      },
+      {
+        "titre": "Légifrance — Arrêté du 19 avril 1999, promotion Cyrano de Bergerac (JORFTEXT000000211140)",
+        "type": "officiel"
+      },
+      {
+        "titre": "Europe 1 — « Cinq choses à savoir sur Laurent Nuñez » (octobre 2018)",
+        "type": "presse"
+      },
+      {
+        "titre": "Le JDD — « Laurent Nuñez, patron de la DGSI et nouvel homme fort du renseignement » (juillet 2017)",
+        "type": "presse"
+      },
+      {
+        "titre": "France 24 — « Nuñez nommé à l'Intérieur » (octobre 2025)",
+        "type": "presse"
+      },
+      {
+        "titre": "Révolution Permanente — « Un artisan de la répression des Gilets jaunes à Beauvau » (octobre 2025)",
+        "type": "presse"
+      },
+      {
+        "titre": "Vie-publique.fr — Interview Nuñez, BFMTV, 19 mars 2019 (maintien de l'ordre)",
+        "type": "officiel"
+      },
+      {
+        "titre": "Libération / Le Monde — « C'est lui qui est véritablement aux manettes » (Nuñez à Beauvau)",
+        "type": "presse"
+      },
+      {
+        "titre": "Le Point — « Le couple Bompard a le vent en poupe » (juin 2017)",
+        "type": "presse"
+      },
+      {
+        "titre": "Gendinfo — « Laurent Nuñez succède à Bruno Retailleau » (octobre 2025)",
+        "type": "presse"
+      },
+      {
+        "titre": "info.gouv.fr — Fiche Charlotte Caubel (parcours officiel)",
+        "type": "officiel"
+      },
+      {
+        "titre": "JSS — « Charlotte Caubel nommée procureure adjointe à Paris » (août 2025)",
+        "type": "presse"
+      },
+      {
+        "titre": "FranceSoir — « Laurent Nuñez succède à Didier Lallement » (juillet 2022)",
+        "type": "presse"
+      }
+    ]
+  },
+  {
+    "slug": "leakid-forward-global",
+    "titre": "LeakID & Forward Global — Intelligence économique, désinformation et réseaux macronistes",
+    "sousTitre": "De iStrat à Bridgepoint : l'ascension d'un groupe d'influence dans la sphère du pouvoir",
+    "resume": "Forward Global (ex-Avisa Partners, ex-iStrat) est un groupe d'intelligence économique valorisé à plus de 200 M€ en 2024, organisateur du FIC et client du CAC 40. Sa connexion avec la sphère macroniste est documentée : Olivia Grégoire (secrétaire d'État 2021-2024) y était directrice associée (2013-2014) ; Sylvain Fort (rédacteur des discours de Macron 2017-2019) en était associé (2020-2022). L'enquête révèle aussi un « nettoyage de réputation » après les scandales de désinformation 2022-23 (faux articles dans des médias nationaux, manipulation Wikipédia, clients autoritaires, tensions DGSI/DGSE), et la dissolution juridique de l'entité LeakID au 1er janvier 2025.",
+    "date": "2026-04-03",
+    "themes": [
+      "avisa-partners",
+      "forward-global",
+      "desinformation",
+      "intelligence-economique",
+      "fic",
+      "olivia-gregoire",
+      "sylvain-fort",
+      "leakid",
+      "bridgepoint",
+      "matthieu-creux"
+    ],
+    "parties": [
+      {
+        "titre": "Forward Global (ex-Avisa Partners) : du nettoyage de réputation à la valorisation 200 M€",
+        "contenu": "Forward Global est fondé en 2010 sous le nom d'iStrat par Matthieu Creux, 23 ans, Sciences Po Paris, ancien collaborateur parlementaire de Valérie Pécresse et chargé de mission au cabinet du Ministère de l'Enseignement supérieur. Le groupe agrège progressivement : cybersécurité offensive (Lexfo, 80 ingénieurs, 2 accréditations ANSSI), intelligence économique (CEIS, organisateur du FIC), anti-piratage (LeakID, Rivendell — 800 M d'URLs signalées à Google), investigation (Uncovery), communication stratégique (DGM Conseil, 35°Nord), récupération de données (Databack) et formation (Ubik Academy).\n\nEn 2022-2023, Avisa Partners est touché par des scandales documentés par Mediapart et Politico : journalistes payés pour écrire de faux contenus dans les espaces participatifs de Mediapart, L'Express, HuffPost, AgoraVox, Les Échos ; interventions clandestines sur Wikipédia au profit de clients ; conseils à des régimes autoritaires (Égypte, Turquie, Kazakhstan, Qatar, RDC, Tchad). Les ministères de l'Intérieur et des Armées boycottent le FIC en 2023. La DGSI et la DGSE accusent Avisa d'opérations contraires aux intérêts diplomatiques et économiques français.\n\nEn juin 2023, le groupe se rebaptise Forward Global, cède les activités d'influence digitale et la marque Avisa Partners à Arnaud Dassier pour 5 M€. Cette opération de « nettoyage de réputation » permet d'attirer Bridgepoint Development Capital : en novembre 2024, un LBO valorise Forward Global à plus de 200 M€, Bridgepoint prenant environ 48 % du capital."
+      },
+      {
+        "titre": "Les connexions macronistes : Grégoire et Fort",
+        "contenu": "Deux agents de la sphère macroniste ont des liens documentés avec Forward Global :\n\nOlivia Grégoire (secrétaire d'État déléguée à la Consommation 2021-2024, Renaissance) était directrice associée d'iStrat de 2013 à 2014 — la période où Macron entre au gouvernement Hollande comme ministre de l'Économie. Ce lien iStrat → Grégoire → macronie constitue une connexion précoce entre le futur groupe d'intelligence économique et les cercles du pouvoir.\n\nSylvain Fort (normalien, agrégé de lettres, directeur de la communication de l'Élysée puis rédacteur des discours de Macron 2017-2019) est associé d'Avisa Partners de 2020 à 2022 — la période juste avant les scandales. Sa séquence (architecte de la communication présidentielle → firme d'influence qui sera ensuite éclaboussée) illustre le pantouflage vers l'intelligence économique privée.\n\nCes deux connexions placent Forward Global à l'intersection du pouvoir exécutif macroniste et d'une industrie de l'influence qui opère dans une zone grise entre intelligence légitime et désinformation documentée. L'enquête ne démontre pas d'implication de Grégoire ou Fort dans les pratiques controversées — ils sont partis avant les scandales — mais leur présence dessine l'écosystème de recrutement du groupe."
+      },
+      {
+        "titre": "LeakID SAS : dissolution et héritage technologique",
+        "contenu": "LeakID a été fondée en 2007 par Hervé Lemaire (ex-Head of Digital chez Virgin/EMI) sous le SIREN 499 956 092. Pionnière française du Notice & Takedown anti-piratage, elle a créé Rivendell (désindexation Google) en 2013, devenant le premier émetteur mondial de demandes DMCA — plus de 800 millions d'URLs signalées. LeakID protège annuellement plus de 20 000 œuvres et 4 000 événements en direct.\n\nAcquise par Avisa Partners en juin 2022, LeakID SAS est dissoute sans liquidation le 1er janvier 2025, par décision de l'associé unique Forward Global (article 1844-5 al. 3 du Code civil), ses activités étant absorbées dans la division Content Protection du groupe.\n\nUne controverse technique : la stratégie de notification préemptive de Rivendell (signaler des URLs avant leur indexation) gonfle artificiellement les statistiques — TorrentFreak estime que plus de 50 % des URLs signalées n'existaient pas dans l'index Google. Cette pratique sert de blacklisting préventif mais interroge sur la réalité des volumes affichés.\n\nEn termes MAS, LeakID était un agent d'enforcement distribué (crawling multi-protocole, takedown automatisé), absorbé dans un conglomérat d'intelligence plus large. La dissolution de l'entité juridique modifie les cadres contractuels des clients sans changer l'activité opérationnelle."
+      }
+    ],
+    "noeudsLies": [
+      "forward-global",
+      "matthieu-creux",
+      "olivia-gregoire",
+      "sylvain-fort",
+      "edouard-philippe",
+      "emmanuel-macron"
+    ],
+    "sources": [
+      {
+        "titre": "Rapport d'enquête LeakID / Forward Global — Claude (Anthropic), 2 avril 2026",
+        "type": "officiel"
+      },
+      {
+        "titre": "Mediapart — Avisa Partners : l'empire de la désinformation (2022-2023)",
+        "type": "presse"
+      },
+      {
+        "titre": "Politico — Avisa Partners Wikipedia manipulation (2022)",
+        "type": "presse"
+      },
+      {
+        "titre": "Légifrance — Avis de dissolution LeakID SAS (SIREN 499 956 092)",
+        "type": "officiel"
+      },
+      {
+        "titre": "TorrentFreak — Rivendell : the world's biggest copyright notice sender",
+        "type": "presse"
+      },
+      {
+        "titre": "Bridgepoint — communiqué LBO Forward Global (novembre 2024)",
+        "type": "officiel"
+      },
+      {
+        "titre": "Percona — Case study : LeakID MariaDB multi-master architecture",
+        "type": "officiel"
+      }
+    ]
+  },
+  {
+    "slug": "forward-global-ecosysteme-influence",
+    "titre": "Forward Global : la galaxie de l'influence et les connexions havraises",
+    "sousTitre": "Un groupe international de conseil stratégique et d'influence numérique aux ramifications multiples",
+    "resume": "Forward Global est un groupe international de conseil en gestion des risques numériques, économiques et informationnels, basé à Paris avec des bureaux à Bruxelles, Londres et Washington. Né de l'agrégation de nombreuses sociétés (DGM Conseil, CEIS, Avisa Partners, Lexfo, Gabara Strategies, Observatoire des Pays Arabes, 35°Nord, etc.), il intervient dans la cybersécurité, le conseil en affaires publiques, la lutte anti-contrefaçon (LeakID), la gestion de réputation et les investigations. Le groupe, qui a adopté le statut de Société à Mission en 2022, travaille pour des gouvernements, des institutions et des grandes entreprises internationales. Ses liens avec l'écosystème d'Édouard Philippe et les possibles attributions de marchés publics au Havre constituent une piste d'investigation ouverte, dans le cadre de l'enquête préliminaire du PNF sur le hub numérique havrais.",
+    "date": "2025-06",
+    "themes": [
+      "lobbying",
+      "cyber-influence",
+      "entreprises",
+      "international"
+    ],
+    "parties": [
+      {
+        "titre": "I. Présentation du groupe Forward Global",
+        "contenu": "Forward Global se présente comme un cabinet international spécialisé dans la gestion des risques numériques, économiques et informationnels. Basé en France, il possède des bureaux principaux à Paris, Bruxelles, Londres et Washington D.C., avec des équipes techniques à Lyon, Toulouse, La Roche-sur-Yon, Genève, Abidjan, Dakar, Tunis et Maurice. Le groupe est structuré autour de trois pôles (Cybersécurité, Conseil Stratégique, Affaires Publiques) et propose sept catégories de services : Cybersécurité, Soutien aux contentieux (Litigation & Dispute Support), Lutte anti-contrefaçon (Combating Illicit Trade), Stratégie d'investissement et intelligence économique, Intelligence M&A, Risques et conformité (Risk & Compliance), Communication stratégique et affaires gouvernementales (Strategic Communications & Government Affairs). En 2022, Forward Global a adopté le statut de Société à Mission (loi Pacte 2019). Source : site officiel Forward Global."
+      },
+      {
+        "titre": "II. Agréation par acquisitions successives",
+        "contenu": "Forward Global s'est constitué par croissance organique et acquisitions : DGM Conseil (fondé en 1986 par Michel Calzaroni, pionnier de la communication corporate) ; Observatoire des Pays Arabes (fondé en 1992 par Antoine Basbous, recherche géopolitique) ; CEIS (Compagnie Européenne d'Intelligence Stratégique, fondée en 1997, leader en intelligence économique et cybersécurité) ; bureau de Bruxelles (établi en 2001) ; Databack (laboratoire de récupération de données, 2004) ; LeakID (technologie anti-contrefaçon, 2007) ; Lexfo (consulting cybersécurité, 2009) ; Momentum System International (lutte contre la désinformation, 2015) ; Avisa Partners (affaires publiques Bruxelles, 2018) ; Gabara Strategies (relations publiques Londres, 2019) ; IDA Group (affaires publiques Berlin et Bruxelles, 2019) ; 35°Nord (communication Afrique, 2021). Cette accumulation de sociétés d'influence, de renseignement économique et de cybersécurité en fait un acteur majeur du conseil aux décideurs politiques et économiques. Source : site officiel Forward Global."
+      },
+      {
+        "titre": "III. Piste d'investigation : liens avec l'écosystème Philippiste et Le Havre",
+        "contenu": "Dans le cadre de l'enquête préliminaire du PNF (septembre 2023 - en cours) portant sur des soupçons de favoritisme, trafic d'influence et détournement de fonds publics autour d'un 'hub numérique' au Havre, les types de sociétés susceptibles d'avoir bénéficié de contrats ou marchés liés à ce projet incluent potentiellement des sociétés de conseil en stratégie numérique, cybersécurité et affaires publiques. Forward Global, par son périmètre d'activité (conseil aux collectivités, affaires publiques, communication stratégique), est un type d'acteur pertinent à investiguer dans ce contexte. Les documents saisis lors de la perquisition d'avril 2024 à la mairie du Havre — toujours examinés par les enquêteurs en juin 2025 — sont susceptibles de contenir des éléments relatifs à l'attribution de marchés publics. Cette piste nécessite une investigation documentaire approfondie (marchés du BOAMP, registres SIRENE, comptes de la collectivité) pour établir ou infirmer un lien formel entre l'attribution de marchés havrais et des sociétés du groupe Forward Global. Source : RFI, enquête PNF."
+      }
+    ],
+    "noeudsLies": [
+      "jerome-karsenti",
+      "michel-calzaroni",
+      "antoine-basbous"
+    ],
+    "sources": [
+      {
+        "titre": "Présentation Forward Global — site officiel",
+        "url": "https://forwardglobal.com/en/presentation-cyber-risk-strategic-communication/",
+        "type": "officiel"
+      },
+      {
+        "titre": "'Whistleblower' files complaint against French presidential hopeful — RFI",
+        "url": "https://www.rfi.fr/en/france/20250624-whistleblower-files-complaint-against-french-presidential-hopeful",
+        "type": "presse",
+        "auteur": "RFI"
+      },
+      {
+        "titre": "Police raid ex-French PM's office in Le Havre — RFI",
+        "url": "https://www.rfi.fr/en/france/20240418-police-raid-ex-french-pm-s-office-in-le-havre-as-part-of-corruption-inquiry",
+        "type": "presse",
+        "auteur": "RFI"
+      }
+    ]
+  }
+]

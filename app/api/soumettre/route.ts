@@ -1,7 +1,13 @@
 import type { NextRequest } from "next/server";
+import { randomUUID } from "crypto";
 import { jsonResponse, errorResponse } from "@/lib/api-utils";
+import { rateLimit, getClientIp } from "@/lib/rate-limit";
 
 export async function POST(request: NextRequest) {
+  if (!rateLimit(`soumettre:${getClientIp(request)}`, 5, 60_000)) {
+    return errorResponse("Trop de soumissions. Réessayez dans une minute.", 429);
+  }
+
   try {
     const body = await request.json();
     const { categorie, contenu, sources, contact, anonyme } = body;
@@ -23,21 +29,21 @@ export async function POST(request: NextRequest) {
       return errorResponse("Categorie invalide.");
     }
 
-    // Log the submission (sera stocke en BDD quand PostgreSQL sera connecte)
-    const submission = {
-      categorie,
-      contenu: contenu.trim(),
-      sources: sources || null,
-      contact: anonyme ? null : contact || null,
-      anonyme: Boolean(anonyme),
-      date: new Date().toISOString(),
-      ip: request.headers.get("x-forwarded-for") || "unknown",
-    };
+    if (process.env.SUPABASE_URL) {
+      const { supabase } = await import("@/lib/db/supabase");
+      const { error } = await supabase.from("soumissions").insert({
+        id: randomUUID(),
+        categorie,
+        contenu: contenu.trim(),
+        sources: sources?.trim() || null,
+        contact: anonyme ? null : contact?.trim() || null,
+        anonyme: Boolean(anonyme),
+      });
 
-    console.log("[soumission]", JSON.stringify(submission));
-
-    if (process.env.DATABASE_URL) {
-      // TODO: stocker en BDD quand elle sera connectee
+      if (error) {
+        console.error("Submission DB error:", error.message);
+        return errorResponse("Erreur lors de la soumission.", 500);
+      }
     }
 
     return jsonResponse({

@@ -26,7 +26,7 @@ export async function POST(request: NextRequest) {
 
       if (error) {
         console.error("Supabase newsletter error:", error.message);
-        return errorResponse(`Erreur BDD: ${error.message}`, 500);
+        return errorResponse("Erreur lors de l'inscription. Réessayez plus tard.", 500);
       }
 
       // Envoyer l'email de confirmation si Resend est configuré
@@ -52,7 +52,7 @@ export async function POST(request: NextRequest) {
   } catch (error) {
     const msg = error instanceof Error ? error.message : String(error);
     console.error("Newsletter error:", msg);
-    return errorResponse(`Erreur: ${msg}`, 500);
+    return errorResponse("Erreur lors de l'inscription. Réessayez plus tard.", 500);
   }
 }
 
@@ -76,11 +76,12 @@ export async function GET(request: NextRequest) {
       .eq("token", token);
 
     if (error) {
-      return errorResponse(`Erreur: ${error.message}`, 500);
+      console.error("Newsletter confirm error:", error.message);
+      return errorResponse("Erreur lors de la confirmation.", 500);
     }
 
     return jsonResponse({ message: "Abonnement confirmé." });
-  } catch (error) {
+  } catch {
     return errorResponse("Erreur lors de la confirmation", 500);
   }
 }

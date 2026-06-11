@@ -30,6 +30,17 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta" });
 
+  const ogLocales: Record<string, string> = {
+    fr: "fr_FR",
+    en: "en_US",
+    de: "de_DE",
+    es: "es_ES",
+    ru: "ru_RU",
+    ja: "ja_JP",
+    it: "it_IT",
+    zh: "zh_CN",
+  };
+
   return {
     metadataBase: new URL("https://jamaisplusedouard.fr"),
     title: {
@@ -42,7 +53,7 @@ export async function generateMetadata({
       description: t("ogDescription"),
       url: "https://jamaisplusedouard.fr",
       siteName: "jamaisplusedouard.fr",
-      locale: locale === "fr" ? "fr_FR" : locale,
+      locale: ogLocales[locale] || "fr_FR",
       type: "website",
       images: [
         {
@@ -75,7 +86,7 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
 
-  if (!routing.locales.includes(locale as any)) {
+  if (!routing.locales.includes(locale as (typeof routing.locales)[number])) {
     notFound();
   }
 

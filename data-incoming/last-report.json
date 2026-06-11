@@ -1,0 +1,35 @@
+{
+  "runAt": "2026-06-10T10:04:35.692Z",
+  "files": [
+    {
+      "file": "2026-06-09-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-06-09-veille-initiale.json",
+      "added": {
+        "reseau": 4,
+        "timeline": 7,
+        "controverses": 2,
+        "investigations": 1
+      },
+      "skipped": {
+        "reseau": 1
+      },
+      "errors": []
+    },
+    {
+      "file": "2026-06-10-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    }
+  ],
+  "totals": {
+    "added": 14,
+    "skipped": 1,
+    "invalid": 0
+  }
+}

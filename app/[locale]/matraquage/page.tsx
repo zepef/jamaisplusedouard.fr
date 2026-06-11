@@ -1,4 +1,3 @@
-import Link from "next/link";
 import GlassCard from "@/components/ui/GlassCard";
 import {
   chainesMedia,

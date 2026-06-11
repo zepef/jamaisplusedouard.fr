@@ -144,7 +144,7 @@ function generateHTML(changes) {
 
   <p style="color:#3f3f46;font-size:9px;text-align:center;line-height:1.6;">
     jamaisplusedouard.fr — Liberte d'expression (Art. 11 DDHC)<br/>
-    <a href="${SITE_URL}/api/newsletter/unsubscribe?email={{email}}" style="color:#52525b;text-decoration:underline;">Se desabonner</a>
+    {{unsubscribe}}
   </p>
 
 </div>
@@ -197,7 +197,7 @@ async function getSubscribers() {
   const supabase = createClient(url, key);
   const { data, error } = await supabase
     .from("abonnes_newsletter")
-    .select("email")
+    .select("email, token")
     .eq("confirmed", true);
 
   if (error) {
@@ -205,20 +205,29 @@ async function getSubscribers() {
     return [];
   }
 
-  const emails = data.map((r) => r.email);
+  const recipients = data.map((r) => ({ email: r.email, token: r.token }));
 
-  // Destinataires permanents
+  // Destinataires permanents (sans token : lien de desabonnement non tokenise)
   const ALWAYS_SEND = ["pef@tckc.ai"];
   for (const addr of ALWAYS_SEND) {
-    if (!emails.includes(addr)) emails.push(addr);
+    if (!recipients.some((r) => r.email === addr)) {
+      recipients.push({ email: addr, token: null });
+    }
   }
 
-  return emails;
+  return recipients;
 }
 
 // ── 4. Send via Resend ──────────────────────────────────────
 
-async function sendNewsletter(emails, html, subject) {
+function unsubscribeHtml(token) {
+  if (token) {
+    return `<a href="${SITE_URL}/api/newsletter/unsubscribe?token=${encodeURIComponent(token)}" style="color:#52525b;text-decoration:underline;">Se desabonner</a>`;
+  }
+  return `<a href="${SITE_URL}" style="color:#52525b;text-decoration:underline;">jamaisplusedouard.fr</a>`;
+}
+
+async function sendNewsletter(recipients, html, subject) {
   const apiKey = process.env.RESEND_API_KEY;
   if (!apiKey) {
     console.error("[newsletter] RESEND_API_KEY manquant");
@@ -228,13 +237,13 @@ async function sendNewsletter(emails, html, subject) {
   const resend = new Resend(apiKey);
 
   // Send in batches
-  for (let i = 0; i < emails.length; i += BATCH_SIZE) {
-    const batch = emails.slice(i, i + BATCH_SIZE);
-    const batchPayload = batch.map((email) => ({
+  for (let i = 0; i < recipients.length; i += BATCH_SIZE) {
+    const batch = recipients.slice(i, i + BATCH_SIZE);
+    const batchPayload = batch.map(({ email, token }) => ({
       from: `Jamais Plus Edouard <${FROM_EMAIL}>`,
       to: email,
       subject,
-      html: html.replace("{{email}}", encodeURIComponent(email)),
+      html: html.replace("{{unsubscribe}}", unsubscribeHtml(token)),
     }));
 
     try {

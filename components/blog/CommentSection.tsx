@@ -1,8 +1,18 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import GlassCard from "@/components/ui/GlassCard";
 import { useTranslations } from "next-intl";
+
+function getVoterId(): string {
+  if (typeof window === "undefined") return "";
+  let id = localStorage.getItem("jpe_voter_id");
+  if (!id) {
+    id = crypto.randomUUID();
+    localStorage.setItem("jpe_voter_id", id);
+  }
+  return id;
+}
 
 type Commentaire = {
   id: string;
@@ -27,6 +37,8 @@ export default function CommentSection({ articleSlug }: Props) {
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [message, setMessage] = useState("");
   const [tri, setTri] = useState<"recent" | "utile" | "signale">("recent");
+  const votedRef = useRef<Set<string>>(new Set());
+  const reportedRef = useRef<Set<string>>(new Set());
 
   // Charger les commentaires
   const loadComments = useCallback(async () => {
@@ -42,8 +54,22 @@ export default function CommentSection({ articleSlug }: Props) {
   }, [articleSlug]);
 
   useEffect(() => {
-    loadComments();
-  }, [loadComments]);
+    let active = true;
+    (async () => {
+      try {
+        const res = await fetch(`/api/commentaires?slug=${articleSlug}`);
+        if (res.ok) {
+          const data = await res.json();
+          if (active) setCommentaires(data.commentaires || []);
+        }
+      } catch {
+        // Silently fail — comments are not critical
+      }
+    })();
+    return () => {
+      active = false;
+    };
+  }, [articleSlug]);
 
   // Poster un commentaire
   async function handleSubmit(e: React.FormEvent) {
@@ -81,11 +107,13 @@ export default function CommentSection({ articleSlug }: Props) {
 
   // Voter
   async function handleVote(commentId: string, type: "utile" | "inutile") {
+    if (votedRef.current.has(commentId)) return;
+    votedRef.current.add(commentId);
     try {
       await fetch("/api/commentaires/vote", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ commentId, type }),
+        body: JSON.stringify({ commentId, type, voterId: getVoterId() }),
       });
       loadComments();
     } catch {
@@ -98,11 +126,14 @@ export default function CommentSection({ articleSlug }: Props) {
     commentId: string,
     motif: "insulte" | "desinformation" | "spam"
   ) {
+    const key = `${commentId}:${motif}`;
+    if (reportedRef.current.has(key)) return;
+    reportedRef.current.add(key);
     try {
       await fetch("/api/commentaires/signaler", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ commentId, motif }),
+        body: JSON.stringify({ commentId, motif, voterId: getVoterId() }),
       });
       setMessage(t("signaleConfirm", { motif }));
       setTimeout(() => setMessage(""), 3000);

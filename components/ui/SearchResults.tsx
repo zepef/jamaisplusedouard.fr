@@ -1,17 +1,10 @@
 "use client";
 
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo } from "react";
 import Link from "next/link";
 import GlassCard from "@/components/ui/GlassCard";
 import { useTranslations } from "next-intl";
-import {
-  timeline,
-  controverses,
-  reseau,
-  type TimelineEvent,
-  type Controverse,
-  type PersonneReseau,
-} from "@/lib/seed-data";
+import { timeline, controverses, reseau } from "@/lib/seed-data";
 
 type ResultType = "controverse" | "chronologie" | "reseau";
 

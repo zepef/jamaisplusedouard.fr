@@ -1,5 +1,18 @@
 import type { NextRequest } from "next/server";
 import { jsonResponse, errorResponse } from "@/lib/api-utils";
+import { rateLimit, getClientIp } from "@/lib/rate-limit";
+
+type CommentRow = {
+  id: string;
+  pseudo: string;
+  contenu: string;
+  created_at: string;
+  votes_utile: number | null;
+  votes_inutile: number | null;
+  sig_insulte: number | null;
+  sig_desinfo: number | null;
+  sig_spam: number | null;
+};
 
 export async function GET(request: NextRequest) {
   const slug = request.nextUrl.searchParams.get("slug");
@@ -17,7 +30,7 @@ export async function GET(request: NextRequest) {
       if (error) throw error;
 
       return jsonResponse({
-        commentaires: (data || []).map((r: any) => ({
+        commentaires: ((data || []) as CommentRow[]).map((r) => ({
           id: r.id,
           pseudo: r.pseudo,
           contenu: r.contenu,
@@ -39,6 +52,10 @@ export async function GET(request: NextRequest) {
 }
 
 export async function POST(request: NextRequest) {
+  if (!rateLimit(`commentaire:${getClientIp(request)}`, 5, 60_000)) {
+    return errorResponse("Trop de commentaires. Réessayez dans une minute.", 429);
+  }
+
   try {
     const { articleSlug, pseudo, contenu } = await request.json();
 

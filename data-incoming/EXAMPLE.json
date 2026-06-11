@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "source": "exemple.docx",
+    "producer": "hermes",
+    "generatedAt": "2026-04-09T08:00:00Z"
+  },
+  "reseau": [
+    {
+      "nom": "Prénom Nom",
+      "slug": "prenom-nom",
+      "role": "Rôle précis et sourcé",
+      "description": "Description vérifiée du lien avec l'écosystème.",
+      "typeLien": "professionnel",
+      "partiPolitique": "Horizons",
+      "sousReseaux": ["le-havre", "entreprises"],
+      "rattachement": "philippe"
+    }
+  ],
+  "timeline": [
+    {
+      "annee": "2026",
+      "titre": "Événement daté",
+      "description": "Description factuelle et sourcée de l'événement.",
+      "categorie": "carriere",
+      "section": "Carrière"
+    }
+  ],
+  "controverses": [
+    {
+      "slug": "exemple-controverse",
+      "titre": "Titre de la controverse",
+      "resume": "Résumé court.",
+      "contenu": "Contenu détaillé et croisé.",
+      "date": "2026-04",
+      "gravite": "moyenne",
+      "themes": ["lobbying"],
+      "sources": [
+        { "titre": "Article de presse", "url": "https://example.org/article", "type": "presse", "auteur": "Journaliste" }
+      ]
+    }
+  ],
+  "investigations": [
+    {
+      "slug": "exemple-investigation",
+      "titre": "Titre de l'investigation",
+      "sousTitre": "Sous-titre",
+      "resume": "Résumé de l'enquête.",
+      "date": "2026-04",
+      "themes": ["reseau"],
+      "parties": [
+        { "titre": "Partie I", "contenu": "Contenu de la partie." }
+      ],
+      "noeudsLies": ["prenom-nom"],
+      "sources": [
+        { "titre": "Document officiel", "url": "https://example.org/doc", "type": "officiel" }
+      ]
+    }
+  ]
+}

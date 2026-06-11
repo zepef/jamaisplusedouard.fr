@@ -36,11 +36,7 @@ const typeStyles: Record<string, string> = {
   registre: "text-yellow-400",
 };
 
-export default async function SourcesPage({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}) {
+export default async function SourcesPage() {
   const t = await getTranslations("pages.sources");
   return (
     <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12">

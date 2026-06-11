@@ -1,10 +1,10 @@
 import type { NextRequest } from "next/server";
 
 export async function GET(request: NextRequest) {
-  const email = request.nextUrl.searchParams.get("email");
+  const token = request.nextUrl.searchParams.get("token");
 
-  if (!email) {
-    return new Response("Email manquant", { status: 400 });
+  if (!token) {
+    return new Response("Lien de desabonnement invalide", { status: 400 });
   }
 
   if (!process.env.SUPABASE_URL) {
@@ -17,7 +17,7 @@ export async function GET(request: NextRequest) {
     const { error } = await supabase
       .from("abonnes_newsletter")
       .delete()
-      .eq("email", decodeURIComponent(email).toLowerCase().trim());
+      .eq("token", token);
 
     if (error) {
       console.error("Unsubscribe error:", error.message);

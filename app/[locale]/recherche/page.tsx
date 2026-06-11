@@ -8,10 +8,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 export default async function RecherchePage({
-  params,
   searchParams,
 }: {
-  params: Promise<{ locale: string }>;
   searchParams: Promise<{ q?: string }>;
 }) {
   const { q } = await searchParams;

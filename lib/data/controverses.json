@@ -1,0 +1,269 @@
+[
+  {
+    "slug": "gilets-jaunes-mutiles",
+    "titre": "Gilets jaunes mutilés — la doctrine du maintien de l'ordre",
+    "resume": "432 blessés graves, 25 éborgnes, 5 mains arrachées, 1 décès. L'ONU et Amnesty International ont demandé l'interdiction des LBD40.",
+    "contenu": "Le mouvement des Gilets jaunes éclate en novembre 2018. Le bilan humain est sans précédent dans l'histoire récente du maintien de l'ordre en France : 432 blessés graves recensés parmi plus de 2 500 blessés, dont 1 décès (Zineb Redouane, 80 ans, tuée par une grenade lacrymogène à Marseille), 5 mains arrachées, 25 personnes éborgnées, 236 blessés à la tête, 221 blessés par des tirs de LBD40.\n\nL'usage massif des lanceurs de balles de défense (LBD40) et des grenades de désencerclement (GLI-F4) est au cœur des critiques. En 2018, l'utilisation des LBD à bondi de plus de 200% par rapport à l'année précédente selon l'IGPN. L'ONU, le Conseil de l'Europe, Amnesty International et le Défenseur des droits Jacques Toubon ont demandé l'interdiction de ces armes, proscrites ailleurs en Europe.\n\nDavid Dufresne (Visionscarto) note que les policiers étaient « encouragés par le gouvernement d'Édouard Philippe à employer la force ». L'IGPN à été saisie de 313 enquêtes judiciaires pour suspicions de violences policières.",
+    "date": "2018-11-17",
+    "gravite": "haute",
+    "themes": [
+      "gilets-jaunes",
+      "repression",
+      "droits-humains",
+      "maintien-ordre"
+    ],
+    "sources": [
+      {
+        "titre": "Le Mur Jaune — bilan des blessés",
+        "url": "https://lemurjaune.fr",
+        "type": "presse"
+      },
+      {
+        "titre": "Amnesty International — rapport LBD",
+        "url": "https://amnesty.fr",
+        "type": "officiel"
+      },
+      {
+        "titre": "Défenseur des droits — rapport Toubon",
+        "url": "https://défenseurdesdroits.fr",
+        "type": "officiel"
+      }
+    ]
+  },
+  {
+    "slug": "décret-rivotril",
+    "titre": "Décret Rivotril — euthanasie légalisée ?",
+    "resume": "Le décret du 28 mars 2020 autorise un dépresseur respiratoire pour patients Covid en EHPAD, alors que l'accès hospitalier est restreint.",
+    "contenu": "Le décret n° 2020-360 du 28 mars 2020, signé par Édouard Philippe et Olivier Véran, autorise la dispensation du Rivotril (clonazépam) injectable en pharmacie pour les patients Covid « dont l'état clinique le justifie ».\n\nLe Rivotril est une benzodiazépine dont l'un des effets principaux est la dépression respiratoire — précisément le symptôme du Covid grave. Des accusations d'« euthanasie légalisée » se répandent.\n\nLa pénurie de midazolam (médicament de référence pour les sédations, réservé aux réanimateurs) à provoqué le recours au Rivotril comme produit de substitution. Parallèlement, les ARS émettent des fiches restreignant l'accès hospitalier pour les résidents d'EHPAD dans le cadre du Plan Blanc.\n\nDes familles ont été prévenues du décès de proches qu'elles avaient eus au téléphone la veille, sans pouvoir les revoir ni les enterrer en leur présence.",
+    "date": "2020-03-28",
+    "gravite": "haute",
+    "themes": [
+      "covid",
+      "sante",
+      "ehpad",
+      "rivotril"
+    ],
+    "sources": [
+      {
+        "titre": "Décret n° 2020-360 du 28 mars 2020",
+        "url": "https://legifrance.gouv.fr/jorf/id/JORFTEXT000041762964",
+        "type": "officiel"
+      },
+      {
+        "titre": "SFGG — réponse sur le Rivotril",
+        "url": "https://sfgg.org",
+        "type": "officiel"
+      }
+    ]
+  },
+  {
+    "slug": "masques-mensonge",
+    "titre": "Covid — « Le masque est inutile en population générale »",
+    "resume": "Déclaration du 13 mars 2020 sur TF1 alors que les stocks sont insuffisants. Maintien du 1er tour des municipales le 15 mars.",
+    "contenu": "Le 13 mars 2020, Édouard Philippe affirme sur TF1 que le port du masque est inutile « en population générale », avant de faire volte-face début avril.\n\nLe premier tour des élections municipales est maintenu le 15 mars, deux jours avant le confinement national de 55 jours — l'un des plus stricts d'Europe.\n\nLe gouvernement à nié l'utilité des masques alors que les stocks étaient insuffisants. La commission d'enquête parlementaire révélera les contradictions entre les déclarations publiques et la réalité de la gestion des stocks.\n\n168 000 personnes sont décédées du Covid-19 entre 2020 et septembre 2023.",
+    "date": "2020-03-13",
+    "gravite": "haute",
+    "themes": [
+      "covid",
+      "masques",
+      "municipales",
+      "mensonge"
+    ],
+    "sources": [
+      {
+        "titre": "Interview TF1 — 13 mars 2020",
+        "url": "https://tf1.fr",
+        "type": "presse"
+      },
+      {
+        "titre": "Santé publique France — bilan Covid",
+        "url": "https://santepubliquefrance.fr",
+        "type": "officiel"
+      }
+    ]
+  },
+  {
+    "slug": "80-kmh",
+    "titre": "80 km/h — la mesure imposée contre tous",
+    "resume": "Portée contre la volonté de Macron, massivement impopulaire, à contribué au mouvement des Gilets jaunes. Lien potentiel avec Atos (radars automatiques).",
+    "contenu": "En janvier 2018, Philippe annonce la réduction de la vitesse de 90 à 80 km/h sur les routes secondaires. C'est le dossier le plus personnel de son mandat : il le porté contre la volonté d'Emmanuel Macron lui-même.\n\nLa mesure est massivement impopulaire, particulièrement dans la France périurbaine et rurale. Elle contribue au ressentiment qui nourrira le mouvement des Gilets jaunes quelques mois plus tard.\n\nLe groupe Atos — dont Philippe deviendra administrateur en 2020 (rémunéré ~70 000€/an) et avec lequel il entretient des liens depuis 2006 — est en pointe sur le traitement des données des infractions routières (radars automatiques). Boulevard Voltaire et Blast ont relevé un potentiel conflit d'intérêts.",
+    "date": "2018-07-01",
+    "gravite": "moyenne",
+    "themes": [
+      "80km",
+      "sécurité-routière",
+      "atos",
+      "conflits-interets"
+    ],
+    "sources": [
+      {
+        "titre": "Boulevard Voltaire — liens Atos",
+        "url": "https://bvoltaire.fr",
+        "type": "presse"
+      },
+      {
+        "titre": "Blast — enquête conflits d'intérêts",
+        "url": "https://blast-info.fr",
+        "type": "presse"
+      }
+    ]
+  },
+  {
+    "slug": "vaccins-obligatoires",
+    "titre": "11 vaccins obligatoires — « Dans la patrie de Pasteur »",
+    "resume": "8 vaccins supplémentaires imposés sous peine d'exclusion de la collectivité. Conflits d'intérêts avec les laboratoires soulevés.",
+    "contenu": "Édouard Philippe annonce en personne le 4 juillet 2017 : « L'an prochain, les vaccins pour la petite enfance qui sont unanimement recommandés par les autorités de santé deviendront obligatoires. Dans la patrie de Pasteur, ce n'est pas admissible » que des enfants meurent de la rougeole.\n\n8 vaccins recommandés s'ajoutent aux 3 déjà obligatoires. La vaccination conditionne l'entrée en collectivité (crèches, écoles, centres de loisirs).\n\nLa mesure est contestée par les mouvements anti-vaccination et certains médecins qui estiment qu'« étendre l'obligation peut transformer des hésitants en opposants ». La question des conflits d'intérêts liés aux laboratoires est soulevée.",
+    "date": "2018-01-01",
+    "gravite": "moyenne",
+    "themes": [
+      "vaccins",
+      "sante",
+      "obligation",
+      "libertés"
+    ],
+    "sources": [
+      {
+        "titre": "Discours de politique générale — 4 juillet 2017",
+        "url": "https://gouvernement.fr",
+        "type": "officiel"
+      }
+    ]
+  },
+  {
+    "slug": "cma-cgm-reseau",
+    "titre": "CMA CGM — les liens du réseau havrais",
+    "resume": "Les connexions entre le réseau d'Édouard Philippe et CMA CGM, géant du transport maritime basé au Havre, suscitent des interrogations.",
+    "contenu": "Yann Le Goff, responsable sécurité régionale chez CMA CGM, figure dans la promotion 2011 des Young Leaders de la French-American Foundation aux côtés d'Édouard Philippe.\n\nLe port du Havre, fief politique de Philippe (maire depuis 2010), est le premier point d'entrée de cocaïne en Europe.\n\nCMA CGM est le premier armateur français et l'un des plus grands groupes mondiaux de transport maritime. La convergence entre les fonctions de maire du Havre, les liens dans le réseau Young Leaders, et le rôle stratégique du port dans le trafic de stupéfiants mérite un examen attentif.",
+    "date": "2026-03-25",
+    "gravite": "haute",
+    "themes": [
+      "cma-cgm",
+      "le-havre",
+      "narcotrafic",
+      "reseau",
+      "young-leaders"
+    ],
+    "sources": [
+      {
+        "titre": "French-American Foundation — promotion 2011",
+        "url": "https://frenchamerican.org",
+        "type": "officiel"
+      }
+    ]
+  },
+  {
+    "slug": "métropole-havre-enquete",
+    "titre": "Enquête PNF — gestion de la métropole du Havre",
+    "resume": "Enquête pour prise illégale d'intérêts, détournement de fonds publics, favoritisme et harcèlement moral. Perquisitions en avril 2024.",
+    "contenu": "En avril 2024, Édouard Philippe est visé par une enquête préliminaire du parquet national financier pour prise illégale d'intérêts, détournement de fonds publics, favoritisme et harcèlement moral.\n\nL'enquête fait suite à une plainte d'une ancienne directrice générale adjointe de la métropole. Des perquisitions ont lieu à la mairie du Havre le 3 avril 2024.\n\nEn juin 2025, une plainte avec constitution de partie civile est déposée. Philippe conteste fermement toute irrégularité.",
+    "date": "2024-04-03",
+    "gravite": "haute",
+    "themes": [
+      "le-havre",
+      "justice",
+      "favoritisme",
+      "fonds-publics"
+    ],
+    "sources": [
+      {
+        "titre": "Parquet national financier — enquête",
+        "url": "https://justice.gouv.fr",
+        "type": "officiel"
+      }
+    ]
+  },
+  {
+    "slug": "fcf-cma-cgm-nexus",
+    "titre": "Le nexus FCF — CMA CGM — Le Havre : un réseau d'influence sino-portuaire",
+    "resume": "Le directeur de cabinet de Philippe à Matignon (Ribadeau-Dumas, ENA Marc-Bloch) est membre de la France China Foundation. Le co-créateur de la FCF (Lenain) est conseiller diplomatique de Philippe. CMA CGM, premier client du port du Havre, est au cœur de ce réseau. Le Havre est le 1er point d'entrée de cocaïne en Europe.",
+    "contenu": "Benoît Ribadeau-Dumas, directeur de cabinet d'Édouard Philippe à Matignon de 2017 à 2020, est issu de la même promotion ENA Marc-Bloch (1995-1997) que Philippe. Il est également membre de la France China Foundation (promotion 2013).\n\nEmmanuel Lenain, co-créateur de la France China Foundation, est le conseiller diplomatique d'Édouard Philippe à Matignon. Il fait le lien entre les réseaux transatlantiques (French-American Foundation) et sino-français (FCF) autour du Premier ministre.\n\nCMA CGM, premier armateur français et l'un des plus grands groupes mondiaux de transport maritime, est un acteur majeur des routes commerciales vers l'Asie. Ses navires représentent une part significative du trafic du port du Havre — fief politique d'Édouard Philippe depuis 2010.\n\nYann Le Goff, responsable de la sécurité régionale chez CMA CGM, est dans la promotion Young Leaders 2011 de Philippe à la French-American Foundation.\n\nLe port du Havre est le premier point d'entrée de la cocaïne en Europe selon Europol. Les saisies de drogue y ont explosé : 18 tonnes de cocaïne saisies en 2023 selon les douanes françaises. La question de la sécurité portuaire — domaine où se croisent les intérêts de CMA CGM, la responsabilité du maire, et les réseaux d'influence franco-chinois — mérite un examen approfondi.\n\nCe faisceau de connexions — même promotion ENA, même réseau Young Leaders, mêmes cercles franco-chinois, même port stratégique — dessine un système d'influence qui entoure Édouard Philippe depuis ses années de formation jusqu'à son exercice du pouvoir.",
+    "date": "2026-03-27",
+    "gravite": "haute",
+    "themes": [
+      "fcf",
+      "cma-cgm",
+      "le-havre",
+      "narcotrafic",
+      "reseau",
+      "young-leaders",
+      "ribadeau-dumas",
+      "influence"
+    ],
+    "sources": [
+      {
+        "titre": "France China Foundation — liste des membres",
+        "url": "https://francechinafoundation.org",
+        "type": "officiel"
+      },
+      {
+        "titre": "French-American Foundation — promotion 2011",
+        "url": "https://frenchamerican.org",
+        "type": "officiel"
+      },
+      {
+        "titre": "Europol — rapport narcotrafic portuaire",
+        "url": "https://europol.europa.eu",
+        "type": "officiel"
+      },
+      {
+        "titre": "Douanes françaises — saisies 2023",
+        "url": "https://douane.gouv.fr",
+        "type": "officiel"
+      }
+    ]
+  },
+  {
+    "slug": "plainte-partie-civile-juin-2025-havre",
+    "titre": "Plainte avec constitution de partie civile contre Édouard Philippe pour trafic d'influence au Havre",
+    "resume": "Une ancienne cadre de la mairie du Havre, reconnue lanceuse d'alerte par la Défenseure des droits, a déposé une plainte avec constitution de partie civile le 20 juin 2025 contre Édouard Philippe pour trafic d'influence, favoritisme, prise illégale d'intérêts et harcèlement. Cette procédure vise à forcer la désignation d'un juge d'instruction indépendant, la lanceuse d'alerte estimant que l'enquête préliminaire du Parquet national financier n'avançait pas suffisamment, craignant que le parquet ne soit 'trop craintif' pour instruire vis-à-vis d'un 'probable futur candidat à la présidentielle'.",
+    "contenu": "L'affaire débute en septembre 2023 lorsqu'une ancienne cadre de la mairie du Havre dépose une première plainte concernant la mise en place d'un hub numérique censé favoriser l'innovation dans la ville. Le Parquet national financier (PNF) ouvre une enquête préliminaire visant Édouard Philippe et deux autres élus pour des soupçons de trafic d'influence, favoritisme, détournement de fonds publics et harcèlement moral. En avril 2024, la police judiciaire perquisitionne l'hôtel de ville du Havre et saisit des documents. En janvier 2025, la Défenseure des droits reconnaît officiellement la plaignante comme lanceuse d'alerte, un label que Philippe conteste fermement. Le 20 juin 2025, par l'intermédiaire de son avocat Jérôme Karsenti, elle dépose une plainte avec constitution de partie civile — une procédure qui, si elle aboutit, force la nomination d'un juge d'instruction indépendant et permet au plaignant d'être informé de l'avancement de l'enquête. La lanceuse d'alerte déclare aux médias (RFI, Le Monde, France Inter) qu'elle estime que le dossier n'avance pas, tandis que son avocat exprime la crainte que le PNF soit réticent à instruire contre un candidat potentiel à la présidence. Édouard Philippe rejette toutes les accusations, qualifiant la procédure de 'triste vendetta' d'une fonctionnaire mécontente dont le contrat n'a pas été renouvelé. L'enquête préliminaire est toujours en cours à la date de juin 2025. Le PNF examine toujours les documents saisis lors de la perquisition de 2024.",
+    "date": "2025-06",
+    "gravite": "haute",
+    "themes": [
+      "judiciaire",
+      "politique",
+      "gestion-locale"
+    ],
+    "sources": [
+      {
+        "titre": "'Whistleblower' files complaint against French presidential hopeful — RFI",
+        "url": "https://www.rfi.fr/en/france/20250624-whistleblower-files-complaint-against-french-presidential-hopeful",
+        "type": "presse",
+        "auteur": "RFI"
+      },
+      {
+        "titre": "Police raid ex-French PM's office in Le Havre as part of corruption inquiry — RFI",
+        "url": "https://www.rfi.fr/en/france/20240418-police-raid-ex-french-pm-s-office-in-le-havre-as-part-of-corruption-inquiry",
+        "type": "presse",
+        "auteur": "RFI"
+      }
+    ]
+  },
+  {
+    "slug": "enquete-pnf-havre-2023-2025",
+    "titre": "Enquête préliminaire du PNF sur les marchés publics et le hub numérique du Havre",
+    "resume": "Depuis septembre 2023, le Parquet national financier (PNF) mène une enquête préliminaire pour trafic d'influence, favoritisme, détournement de fonds publics et harcèlement visant Édouard Philippe et deux autres élus du Havre. L'enquête, toujours en cours en juin 2025, concerne l'attribution de marchés liés à un hub numérique.",
+    "contenu": "L'enquête préliminaire ouverte par le Parquet national financier (PNF) en septembre 2023 porte sur des faits présumés de trafic d'influence, favoritisme, détournement de fonds publics et harcèlement. Elle vise Édouard Philippe — en sa qualité de maire du Havre — et deux autres responsables municipaux. L'affaire est centrée sur la création d'un 'hub numérique' destiné à promouvoir l'innovation dans la ville. Les termes exacts du projet, les contrats attribués et leurs bénéficiaires font l'objet des investigations. En avril 2024, la police judiciaire a perquisitionné l'hôtel de ville et saisi des documents qui sont toujours en cours d'analyse par les enquêteurs. L'enquête demeure au stade préliminaire, et la lanceuse d'alerte — par sa plainte avec constitution de partie civile du 20 juin 2025 — cherche à obtenir la désignation d'un juge d'instruction indépendant pour accélérer la procédure. La nature exacte des marchés attribués, les montants en jeu et les éventuels liens avec des sociétés de conseil (dont Forward Global ou ses filiales) n'ont pas été formellement établis par les sources publiques à ce stade de l'enquête.",
+    "date": "2023-09",
+    "gravite": "haute",
+    "themes": [
+      "judiciaire",
+      "lobbying",
+      "gestion-locale"
+    ],
+    "sources": [
+      {
+        "titre": "'Whistleblower' files complaint against French presidential hopeful — RFI",
+        "url": "https://www.rfi.fr/en/france/20250624-whistleblower-files-complaint-against-french-presidential-hopeful",
+        "type": "presse",
+        "auteur": "RFI"
+      },
+      {
+        "titre": "Police raid ex-French PM's office in Le Havre as part of corruption inquiry — RFI",
+        "url": "https://www.rfi.fr/en/france/20240418-police-raid-ex-french-pm-s-office-in-le-havre-as-part-of-corruption-inquiry",
+        "type": "presse",
+        "auteur": "RFI"
+      }
+    ]
+  }
+]
