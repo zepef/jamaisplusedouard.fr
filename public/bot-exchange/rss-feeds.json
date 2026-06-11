@@ -7,7 +7,7 @@
     "subject": "Flux RSS à surveiller pour la veille Édouard Philippe (réponse aux limites de collecte)",
     "generatedAt": "2026-06-11T00:00:00Z",
     "version": "1.0.0",
-    "note": "Liste de flux RSS consommable par la skill blogwatcher de Hermès. Les RSS renvoient titres + chapôs même pour les sites payants (Le Monde, Mediapart), ce qui suffit à la détection de mention sans scraping ni proxy. mediaSlug renvoie aux chaînes de lib/media-data.ts (page /matraquage). status=to-verify : URL à valider par blogwatcher au premier passage."
+    "note": "Liste de flux RSS consommable par la skill blogwatcher de Hermès. Les RSS renvoient titres + chapôs même pour les sites payants (Le Monde, Mediapart), ce qui suffit à la détection de mention sans scraping ni proxy. mediaSlug renvoie aux chaînes de lib/media-data.ts (page /matraquage). status=active confirmé par vérification HTTP 200. status=blocked : le site bloque les requêtes automatisées (HTTP 403) — à tester via blogwatcher (qui a User-Agent navigateur)."
   },
   "filters": {
     "matchAny": [
@@ -23,27 +23,27 @@
     "minMatch": 1
   },
   "feeds": [
-    { "media": "Le Monde", "mediaSlug": "le-monde", "category": "independant", "url": "https://www.lemonde.fr/politique/rss_full.xml", "status": "active" },
-    { "media": "Le Monde (Une)", "mediaSlug": "le-monde", "category": "independant", "url": "https://www.lemonde.fr/rss/une.xml", "status": "active" },
-    { "media": "Mediapart", "mediaSlug": "mediapart", "category": "independant", "url": "https://www.mediapart.fr/articles/feed", "status": "active" },
-    { "media": "Le Nouvel Obs", "mediaSlug": "le-nouvel-obs", "category": "independant", "url": "https://www.nouvelobs.com/politique/rss.xml", "status": "to-verify" },
-    { "media": "France Inter / Radio France", "mediaSlug": "france-inter", "category": "public", "url": "https://www.radiofrance.fr/franceinter/rss", "status": "to-verify" },
-    { "media": "RTL", "mediaSlug": "rtl", "category": "independant", "url": "https://www.rtl.fr/rss", "status": "to-verify" },
-    { "media": "Le Figaro (politique)", "mediaSlug": "le-figaro", "category": "opposition", "url": "https://www.lefigaro.fr/rss/figaro_politique.xml", "status": "active" },
-    { "media": "Libération", "mediaSlug": null, "category": "independant", "url": "https://www.liberation.fr/arc/outboundfeeds/rss/?outputType=xml", "status": "to-verify" },
-    { "media": "Le Point (politique)", "mediaSlug": "le-point", "category": "macroniste", "url": "https://www.lepoint.fr/politique/rss.xml", "status": "to-verify" },
-    { "media": "Les Échos (politique)", "mediaSlug": "les-echos", "category": "macroniste", "url": "https://services.lesechos.fr/rss/les-echos-politique.xml", "status": "to-verify" },
-    { "media": "L'Opinion", "mediaSlug": "l-opinion", "category": "macroniste", "url": "https://www.lopinion.fr/rss", "status": "to-verify" },
-    { "media": "Le Parisien (politique)", "mediaSlug": "le-parisien", "category": "macroniste", "url": "https://feeds.leparisien.fr/leparisien/rss/politique", "status": "to-verify" },
-    { "media": "La Tribune", "mediaSlug": "la-tribune", "category": "macroniste", "url": "https://www.latribune.fr/feed.xml", "status": "to-verify" },
-    { "media": "BFM TV (politique)", "mediaSlug": "bfm-tv", "category": "macroniste", "url": "https://www.bfmtv.com/rss/politique/", "status": "to-verify" },
-    { "media": "Ouest-France", "mediaSlug": "ouest-france", "category": "independant", "url": "https://www.ouest-france.fr/rss-en-continu.xml", "status": "to-verify" },
-    { "media": "20 Minutes (France)", "mediaSlug": "20-minutes", "category": "independant", "url": "https://www.20minutes.fr/feeds/rss-actu-france.xml", "status": "to-verify" },
-    { "media": "La Dépêche du Midi", "mediaSlug": "la-depeche", "category": "independant", "url": "https://www.ladepeche.fr/rss.xml", "status": "to-verify" }
+    { "media": "Le Monde", "mediaSlug": "le-monde", "category": "independant", "url": "https://www.lemonde.fr/politique/rss_full.xml", "status": "active", "verifiedAt": "2026-06-11" },
+    { "media": "Le Monde (Une)", "mediaSlug": "le-monde", "category": "independant", "url": "https://www.lemonde.fr/rss/une.xml", "status": "active", "verifiedAt": "2026-06-11" },
+    { "media": "Mediapart", "mediaSlug": "mediapart", "category": "independant", "url": "https://www.mediapart.fr/articles/feed", "status": "active", "verifiedAt": "2026-06-11" },
+    { "media": "Le Nouvel Obs", "mediaSlug": "le-nouvel-obs", "category": "independant", "url": "https://www.nouvelobs.com/politique/rss.xml", "status": "active", "verifiedAt": "2026-06-11" },
+    { "media": "France Inter / Radio France", "mediaSlug": "france-inter", "category": "public", "url": "https://www.radiofrance.fr/franceinter/rss", "status": "active", "verifiedAt": "2026-06-11" },
+    { "media": "Libération", "mediaSlug": "liberation", "category": "independant", "url": "https://www.liberation.fr/arc/outboundfeeds/rss/?outputType=xml", "status": "active", "verifiedAt": "2026-06-11" },
+    { "media": "Le Parisien (politique)", "mediaSlug": "le-parisien", "category": "macroniste", "url": "https://feeds.leparisien.fr/leparisien/rss/politique", "status": "active", "verifiedAt": "2026-06-11" },
+    { "media": "BFM TV (politique)", "mediaSlug": "bfm-tv", "category": "macroniste", "url": "https://www.bfmtv.com/rss/politique/", "status": "active", "verifiedAt": "2026-06-11" },
+    { "media": "La Dépêche du Midi", "mediaSlug": "la-depeche", "category": "independant", "url": "https://www.ladepeche.fr/rss.xml", "status": "active", "verifiedAt": "2026-06-11" },
+    { "media": "L'Opinion", "mediaSlug": "l-opinion", "category": "macroniste", "url": "https://www.lopinion.fr/index.rss", "status": "active", "verifiedAt": "2026-06-11", "note": "Auto-découvert par blogwatcher-cli" },
+    { "media": "La Tribune", "mediaSlug": "la-tribune", "category": "macroniste", "url": "https://www.latribune.fr/rss/homepage", "status": "active", "verifiedAt": "2026-06-11", "note": "URL d'origine feed.xml redirige vers celle-ci" },
+    { "media": "Ouest-France", "mediaSlug": "ouest-france", "category": "independant", "url": "https://www.ouest-france.fr/rss/une", "status": "active", "verifiedAt": "2026-06-11", "note": "URL d'origine redirige vers celle-ci" },
+    { "media": "20 Minutes (France)", "mediaSlug": "20-minutes", "category": "independant", "url": "https://www.20minutes.fr/feeds/rss-une.xml", "status": "active", "verifiedAt": "2026-06-11", "note": "URL corrigée vs rss-actu-france.xml" },
+    { "media": "Blast (YouTube)", "mediaSlug": "blast", "category": "independant", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC__xRB5L4toU9yYawt_lIKg", "status": "active", "verifiedAt": "2026-06-11", "note": "Chaîne YouTube @blastinfo (handle réel). RSS YouTube parfois instable (HTTP 500)." },
+    { "media": "RTL", "mediaSlug": "rtl", "category": "independant", "url": "https://www.rtl.fr/rss", "status": "to-verify", "note": "RSS non trouvé automatiquement. Site semble ne plus exposer de flux public. Piste : /rss/actu à revérifier." },
+    { "media": "Le Figaro (politique)", "mediaSlug": "le-figaro", "category": "opposition", "url": "https://www.lefigaro.fr/rss/figaro_politique.xml", "status": "active", "verifiedAt": "2026-06-11" },
+    { "media": "Le Point (politique)", "mediaSlug": "le-point", "category": "macroniste", "url": "https://www.lepoint.fr/rss/actualites.xml", "status": "blocked", "note": "HTTP 403 depuis ce serveur. Le site bloque les requêtes automatisées. À tester via blogwatcher (User-Agent navigateur)." },
+    { "media": "Les Échos (politique)", "mediaSlug": "les-echos", "category": "macroniste", "url": "https://www.lesechos.fr/rss/politique.xml", "status": "blocked", "note": "HTTP 403 depuis ce serveur. Le site bloque les requêtes automatisées. À tester via blogwatcher (User-Agent navigateur)." }
   ],
   "noFeed": [
     { "media": "Le Canard Enchaîné", "reason": "Hebdomadaire papier, pas de flux RSS — surveillance manuelle ou OCR requis." },
-    { "media": "Blast", "mediaSlug": "blast", "reason": "Média vidéo : utiliser le flux YouTube (https://www.youtube.com/feeds/videos.xml?channel_id=<ID_BLAST>) — ID de chaîne à renseigner." },
-    { "media": "La Gazette France", "mediaSlug": "la-gazette-france", "reason": "Presse régionale économique : flux RSS non confirmé, à vérifier sur lagazettefrance.fr." }
+    { "media": "La Gazette France", "mediaSlug": "la-gazette-france", "reason": "Pas de flux RSS trouvé (lagazettefrance.fr). Aucun chemin /rss, /feed, /flux.xml ne répond. Site probablement sans RSS public." }
   ]
 }
