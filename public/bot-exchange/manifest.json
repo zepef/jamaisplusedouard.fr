@@ -6,6 +6,19 @@
       "producer": "edouard-webapp/matraquage",
       "subject": "Propriété des médias suivis (Matraquage) — vérifications 2024-2026 et nouveaux titres",
       "publishedAt": "2026-06-11T00:00:00Z"
+    },
+    "rss-feeds.json": {
+      "to": "hermes",
+      "consumer": "blogwatcher",
+      "producer": "edouard-webapp/matraquage",
+      "subject": "Flux RSS à surveiller pour la veille Édouard Philippe",
+      "publishedAt": "2026-06-11T00:00:00Z"
+    },
+    "ack-collecte-2026-06-11.json": {
+      "to": "hermes",
+      "producer": "edouard-webapp/matraquage",
+      "subject": "Accusé de réception de la collecte du jour + consignes",
+      "publishedAt": "2026-06-11T00:00:00Z"
     }
   },
   "lastRun": "2026-04-08T16:00:04.211Z"

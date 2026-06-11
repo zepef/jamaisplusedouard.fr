@@ -235,6 +235,31 @@ export const chainesMedia: ChaineMedia[] = [
     proprietaire: "Groupe La Dépêche — famille Baylet (Jean-Michel Baylet, PRG)",
     lienMacronisme: "Pas de lien capitalistique macroniste : groupe contrôlé par la famille Baylet, marquée au Parti radical de gauche. Couverture des sondages et du dossier judiciaire sans complaisance particulière envers Philippe.",
   },
+  // Titres identifiés par la collecte Hermès du 11 juin 2026
+  {
+    nom: "Le Nouvel Obs",
+    slug: "le-nouvel-obs",
+    categorie: "independant",
+    description: "Hebdomadaire d'actualité de centre-gauche (ex-Nouvel Observateur). Couverture politique et enquêtes. Identifié par la collecte de veille comme source mentionnant Philippe.",
+    proprietaire: "Groupe Le Monde (Xavier Niel, Daniel Křetínský, Matthieu Pigasse)",
+    lienMacronisme: "Même actionnariat que Le Monde : l'actionnaire de référence Xavier Niel est un proche de Macron, mais la rédaction conserve une indépendance documentée. Ligne de centre-gauche, pas d'alignement éditorial sur Philippe.",
+  },
+  {
+    nom: "RTL",
+    slug: "rtl",
+    categorie: "independant",
+    description: "Première radio commerciale généraliste de France. Matinale et interviews politiques à large audience. Identifiée par la collecte de veille comme source mentionnant Philippe.",
+    proprietaire: "Groupe M6 (Métropole Télévision) — contrôlé par Bertelsmann / RTL Group (48,3 %)",
+    lienMacronisme: "Aucun lien capitalistique macroniste : RTL est passée sous contrôle du Groupe M6 (radios RTL acquises en 2022), lui-même détenu par le conglomérat allemand Bertelsmann. Radio commerciale grand public, sans alignement structurel sur la Macronie.",
+  },
+  {
+    nom: "La Gazette France",
+    slug: "la-gazette-france",
+    categorie: "independant",
+    description: "Presse économique régionale et journal d'annonces légales (éditions Nord-Pas-de-Calais et Picardie, basé à Lille). Couvre l'actualité économique des territoires. Identifiée par la collecte de veille comme source mentionnant Philippe.",
+    proprietaire: "Société La Gazette France (Lille) — éditeur indépendant régional",
+    lienMacronisme: "Aucun lien avec la Macronie : éditeur régional indépendant, centré sur l'information économique locale et les annonces légales. Mention de Philippe à qualifier (contexte économique/territorial).",
+  },
 ];
 
 // --- Apparitions (données seed — sera alimente par les agents) ---

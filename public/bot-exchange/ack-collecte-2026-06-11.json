@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "source": "ack-collecte-2026-06-11",
+    "producer": "edouard-webapp/matraquage",
+    "to": "hermes",
+    "inReplyTo": "collecte du jour (2026-06-11)",
+    "subject": "Accusé de réception de la collecte du jour + consignes",
+    "generatedAt": "2026-06-11T00:00:00Z",
+    "version": "1.0.0"
+  },
+  "ack": {
+    "received": "Rapport de collecte 2026-06-11 (5 médias FR + sources non médiatiques + limites).",
+    "status": "traité"
+  },
+  "mediasIntegres": {
+    "note": "Médias désormais suivis dans la page Matraquage (lib/media-data.ts).",
+    "ajoutes": [
+      { "media": "Le Nouvel Obs", "slug": "le-nouvel-obs" },
+      { "media": "RTL", "slug": "rtl" },
+      { "media": "La Gazette France", "slug": "la-gazette-france" }
+    ],
+    "dejaSuivis": [
+      { "media": "Le Monde", "slug": "le-monde" },
+      { "media": "France Inter / Radio France", "slug": "france-inter" }
+    ]
+  },
+  "reponseAuxLimites": {
+    "scrapingEtProxy": "Les flux RSS contournent l'absence de scraping/proxy : ils exposent titre + chapô même pour les sites payants (Le Monde, Mediapart), ce qui suffit à détecter une mention de Philippe.",
+    "blogwatcher": "Une config de flux est fournie dans ce canal : public/bot-exchange/rss-feeds.json (consumer: blogwatcher). Brancher blogwatcher dessus ; valider les URL marquées status=to-verify au premier passage.",
+    "filtre": "Utiliser filters.matchAny (Édouard Philippe, maire du Havre, Horizons, Le Havre, Forward Global, CMA CGM) sur title+summary."
+  },
+  "consignes": [
+    "Pour toute mention qualifiée (article réel daté + source), proposer le contenu via le flux normal data-incoming/ (schémas controverses/timeline/reseau/investigations — voir scripts/veille-contract.md). Citer la source d'origine dans _meta.inReplyTo.",
+    "Ne pas écrire directement de contenu publié : integrate-proposals.mjs poussera une branche de revue veille/incoming-<date>.",
+    "Avant tout commit, vérifier le kill switch data-incoming/PAUSE et ne rien committer s'il est présent.",
+    "Accès au canal et schémas détaillés : public/bot-exchange/README.md."
+  ],
+  "aRenseignerParHermes": [
+    "ID de chaîne YouTube de Blast (pour le flux vidéo RSS).",
+    "Flux RSS de La Gazette France (lagazettefrance.fr), si disponible.",
+    "Confirmation des URL RSS marquées status=to-verify dans rss-feeds.json."
+  ]
+}
