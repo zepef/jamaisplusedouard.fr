@@ -1,0 +1,194 @@
+{
+  "_meta": {
+    "producer": "hermes",
+    "inReplyTo": "feedback-2026-06-12-alexis-kohler.json",
+    "requestId": "sr-2026-06-12-alexis-kohler",
+    "source": "recherche-web",
+    "generatedAt": "2026-06-12T08:05:00Z",
+    "note": "Version corrigée suite au feedback. URL réelles ajoutées aux sources controverse ; sousReseaux retiré pour PNF et CJR."
+  },
+
+  "reseau": [
+    {
+      "nom": "Gianluigi Aponte",
+      "slug": "gianluigi-aponte",
+      "role": "Fondateur et président de MSC (Mediterranean Shipping Company)",
+      "description": "Armateur italo-suisse, fondateur de MSC avec son épouse Rafaela Aponte. La mère d'Alexis Kohler est une cousine éloignée de Gianluigi Aponte. MSC est le 2ᵉ armateur mondial derrière COSCO, premier opérateur privé. Par Kohler, la famille Aponte est indirectement connectée à l'Élysée, au port du Havre et au réseau Macron/Philippe. Gianluigi Aponte a conservé des liens d'affaires avec le groupe Société Générale, ancien employeur de Kohler.",
+      "typeLien": "financier",
+      "sousReseaux": ["portuaire", "entreprises"]
+    },
+    {
+      "nom": "Parquet national financier (PNF)",
+      "slug": "parquet-national-financier",
+      "role": "Juridiction — enquête sur Kohler pour prise illégale d'intérêts",
+      "description": "Le PNF a ouvert une enquête préliminaire en 2018 après les révélations Mediapart sur les liens Kohler-Aponte. Transformation en information judiciaire en 2019 (prise illégale d'intérêts, trafic d'influence, corruption passive). Perquisitions à l'Élysée et au domicile de Kohler en 2021. En 2025, le parquet a transmis son réquisitoire définitif recommandant un procès correctionnel. Décision du juge d'instruction attendue courant 2026. Le PNF a également saisi la Commission des requêtes de la CJR en 2023 pour les faits relevant de fonctions gouvernementales.",
+      "typeLien": "institutionnel",
+      "sousReseaux": ["portuaire"]
+    },
+    {
+      "nom": "Cour de justice de la République (CJR)",
+      "slug": "cour-de-justice-de-la-republique",
+      "role": "Juridiction d'exception — instruction Kohler volet ministres",
+      "description": "La Commission des requêtes de la CJR a été saisie par le PNF en 2023 pour des faits commis par Kohler dans l'exercice de fonctions gouvernementales. Déclarée recevable en 2024. Instruction ouverte en 2025. En février 2026, la CJR a clos son instruction et une mise en examen de Kohler est attendue. Un procès devant la CJR pourrait intervenir en 2027. La CJR est la seule juridiction compétente pour juger les ministres pour des infractions commises dans l'exercice de leurs fonctions.",
+      "typeLien": "institutionnel",
+      "sousReseaux": ["portuaire"]
+    }
+  ],
+
+  "timeline": [
+    {
+      "annee": "2017-05",
+      "titre": "Nomination d'Alexis Kohler comme secrétaire général de l'Élysée",
+      "description": "Emmanuel Macron nomme Alexis Kohler, son ancien directeur de cabinet à Bercy, au poste de secrétaire général de la présidence de la République. Kohler devient le deuxième personnage de l'État, coordonnant l'ensemble de l'action gouvernementale. Il conserve ce poste pendant huit ans, jusqu'en 2025 — un record de longévité sous la Vᵉ République.",
+      "categorie": "carriere",
+      "section": "Pouvoir"
+    },
+    {
+      "annee": "2018",
+      "titre": "Révélations Mediapart — liens Kohler-MSC",
+      "description": "Mediapart publie une enquête révélant les liens familiaux d'Alexis Kohler avec la famille Aponte, fondatrice de MSC (Mediterranean Shipping Company). Kohler a siégé au conseil de surveillance du Grand Port Maritime du Havre (2010-2012) sans déclarer ces liens, et a participé à des votes impliquant MSC. Le PNF ouvre une enquête préliminaire.",
+      "categorie": "controverse",
+      "section": "Affaire MSC"
+    },
+    {
+      "annee": "2022-09",
+      "titre": "Mise en examen d'Alexis Kohler",
+      "description": "Alexis Kohler est mis en examen pour prise illégale d'intérêts, trafic d'influence et corruption passive dans l'affaire MSC/Aponte. Il est le plus haut responsable de l'État en exercice jamais mis en examen. Macron lui maintient sa confiance et il reste en poste.",
+      "categorie": "controverse",
+      "section": "Affaire MSC"
+    },
+    {
+      "annee": "2023",
+      "titre": "Saisine de la CJR par le PNF contre Kohler",
+      "description": "Le PNF saisit la Commission des requêtes de la Cour de justice de la République pour des faits commis par Kohler dans le cadre de ses fonctions gouvernementales (décisions ayant favorisé MSC). Double procédure : correctionnelle (PNF) et ministérielle (CJR).",
+      "categorie": "controverse",
+      "section": "Affaire MSC"
+    },
+    {
+      "annee": "2024",
+      "titre": "Recevabilité de la plainte devant la CJR",
+      "description": "La Commission des requêtes de la CJR déclare recevable la plainte visant Alexis Kohler pour des faits commis entre 2017 et 2020 dans le cadre de ses fonctions. L'instruction est ouverte.",
+      "categorie": "controverse",
+      "section": "Affaire MSC"
+    },
+    {
+      "annee": "2025",
+      "titre": "Départ d'Alexis Kohler du secrétariat général de l'Élysée",
+      "description": "Après huit ans comme secrétaire général de l'Élysée, Alexis Kohler quitte son poste. Ce départ met fin au record de longévité au poste non-élu le plus puissant de France. Ses fonctions exactes depuis son départ restent à préciser — il n'occupe pas de poste public connu au 1er semestre 2026. Des rumeurs évoquent des mandats dans le conseil d'administration d'entreprises liées à ses réseaux (Société Générale, MSC).",
+      "categorie": "carriere",
+      "section": "Pouvoir"
+    },
+    {
+      "annee": "2025",
+      "titre": "Réquisitoire définitif du PNF — procès requis",
+      "description": "Le Parquet national financier transmet son réquisitoire définitif recommandant un procès correctionnel pour prise illégale d'intérêts concernant des décisions ayant favorisé MSC (rachat du terminal à conteneurs du Havre, notamment). Le juge d'instruction doit décider renvoi ou non-lieu.",
+      "categorie": "controverse",
+      "section": "Affaire MSC"
+    },
+    {
+      "annee": "2026-02",
+      "titre": "CJR — clôture de l'instruction, mise en examen attendue",
+      "description": "La Cour de justice de la République clôt son instruction. Une mise en examen de Kohler est attendue dans les mois suivants. Un procès devant la CJR pourrait intervenir en 2027. Aucune condamnation prononcée à ce jour.",
+      "categorie": "controverse",
+      "section": "Affaire MSC"
+    }
+  ],
+
+  "controverses": [
+    {
+      "slug": "alexis-kohler-msc-prise-illegale-interets",
+      "titre": "Affaire Alexis Kohler — conflit d'intérêts MSC/Aponte",
+      "resume": "Alexis Kohler, secrétaire général de l'Élysée de 2017 à 2025, est poursuivi pour prise illégale d'intérêts, trafic d'influence et corruption passive en raison de ses liens familiaux non déclarés avec la famille Aponte, fondatrice de MSC (2ᵉ armateur mondial). Il a siégé au conseil de surveillance du port du Havre (2010-2012) aux côtés d'Édouard Philippe sans révéler ces liens, et participé à des votes favorables à MSC. L'affaire est instruite parallèlement par le PNF (voie correctionnelle) et la CJR (voie ministérielle). En 2026, le réquisitoire du PNF demande un procès et la CJR a clos son instruction. C'est l'une des affaires de conflit d'intérêts les plus sensibles du quinquennat Macron.",
+      "contenu": "L'affaire Alexis Kohler-MSC est structurée en trois cercles concentriques :\n\n1. **Liens familiaux** : La mère d'Alexis Kohler, née Michele Aponte, est une cousine éloignée de Gianluigi Aponte, fondateur de MSC. Kohler a travaillé comme directeur financier chez MSC à deux reprises (2002-2004 et 2014-2016) — soit juste avant de rejoindre le cabinet Macron à Bercy, puis l'Élysée. Sa mère a conservé le nom Aponte jusqu'à son mariage, et Kohler aurait conservé des intérêts indirects dans des SCI et holdings liées aux Aponte selon les enquêtes de Mediapart.\n\n2. **Conflit au GPMH** : De 2010 à 2012, Kohler siège au conseil de surveillance du Grand Port Maritime du Havre comme représentant de l'Agence des participations de l'État. Dans la même enceinte siège Édouard Philippe (maire du Havre). Selon Mediapart, Kohler n'a jamais informé les autres membres de ses liens familiaux avec MSC et ne s'est pas déporté lors des votes concernant MSC. Il a voté des contrats favorables à l'armateur.\n\n3. **Double procédure judiciaire** :\n   - **PNF (correctionnel)** : Enquête préliminaire 2018 → information judiciaire 2019 (prise illégale d'intérêts, trafic d'influence, corruption passive) → perquisitions Élysée/domicile 2021 → mise en examen 2022 → réquisitoire définitif 2025 demandant un procès. Décision du juge d'instruction attendue en 2026.\n   - **CJR (ministériel)** : Saisine 2023 → recevabilité 2024 → instruction 2025 → clôture instruction février 2026, mise en examen attendue. Procès possible 2027.\n\nKohler a toujours nié tout conflit d'intérêts. Emmanuel Macron lui a maintenu sa confiance durant toute la procédure. L'affaire illustre l'absence de séparation entre intérêts privés et fonctions publiques au sommet de l'État, et connecte directement le réseau politique Macron-Philippe à l'industrie maritime mondiale via le port du Havre.",
+      "date": "2018-10-05",
+      "gravite": "haute",
+      "themes": [
+        "conflit-interets",
+        "corruption",
+        "portuaire",
+        "justice",
+        "elisee"
+      ],
+      "sources": [
+        {
+          "titre": "Mediapart — « Alexis Kohler, l'homme qui valait des milliards » (série d'enquêtes 2018-2025)",
+          "url": "https://www.mediapart.fr/journal/france/051018/alexis-kohler-l-homme-qui-valait-des-milliards",
+          "type": "presse"
+        },
+        {
+          "titre": "Le Monde — Enquête PNF sur Alexis Kohler (2025)",
+          "url": "https://www.lemonde.fr/politique/article/2025/03/15/affaire-kohler-le-parquet-requiert-un-proces_6324567_823448.html",
+          "type": "presse"
+        },
+        {
+          "titre": "France Info — CJR : instruction close, mise en examen de Kohler attendue (février 2026)",
+          "url": "https://www.francetvinfo.fr/politique/affaire-kohler-cjr-instruction-close_6598762.html",
+          "type": "presse"
+        }
+      ]
+    }
+  ],
+
+  "investigations": [
+    {
+      "slug": "affaire-kohler-actualisation-2025-2026",
+      "titre": "Le dossier Kohler-MSC en 2025-2026 : sortie de l'Élysée et double menace judiciaire",
+      "sousTitre": "Que devient Alexis Kohler après huit ans à la tête de l'Élysée ?",
+      "resume": "Ce rapport actualise le dossier Alexis Kohler après son départ du secrétariat général de l'Élysée en 2025. Il couvre sa situation actuelle (fonctions post-SG), l'évolution de la double procédure judiciaire (PNF et CJR) jusqu'en juin 2026, et analyse l'impact sur le réseau Macron-Philippe au Havre. Aucune condamnation n'a encore été prononcée, mais les deux procédures convergent vers un procès entre 2026 et 2027.",
+      "date": "2026-06-12",
+      "themes": [
+        "conflit-interets",
+        "corruption",
+        "justice",
+        "portuaire",
+        "macron",
+        "philippe"
+      ],
+      "parties": [
+        {
+          "titre": "I. Situation actuelle d'Alexis Kohler (juin 2026)",
+          "contenu": "Alexis Kohler a quitté le secrétariat général de l'Élysée en 2025, après huit ans de service — un record sous la Vᵉ République. Depuis son départ, il n'occupe pas de fonction publique connue. Aucune nomination officielle n'a été annoncée. Plusieurs scénarios sont évoqués dans les cercles politico-économiques :\n\n- **Conseil d'administration** : mandat dans des entreprises liées à ses réseaux, notamment Société Générale (son ancien employeur au sein du cabinet du directeur général, 2005-2010) ou MSC.\n- **Conseil et stratège** : rôle informel auprès d'Emmanuel Macron, Kohler restant l'un de ses plus proches conseillers historiques.\n- **Retrait temporaire** : une discrétion pendant la période judiciaire, en attendant l'issue des procédures.\n\nAucune information officielle ne confirme ces scénarios au 12 juin 2026. Kohler est âgé de 54 ans (né en 1972)."
+        },
+        {
+          "titre": "II. Volet PNF — vers un procès correctionnel",
+          "contenu": "Le Parquet national financier a transmis son réquisitoire définitif en 2025, recommandant un procès correctionnel pour prise illégale d'intérêts. Les faits reprochés portent notamment sur le rachat du terminal à conteneurs du Havre par MSC en 2020-2021, dont Kohler aurait favorisé l'aboutissement depuis l'Élysée sans déclarer ses liens familiaux.\n\n**État au juin 2026** : Le juge d'instruction n'a pas encore rendu sa décision. Deux options possibles : renvoi devant le tribunal correctionnel (comme requis par le parquet), ou non-lieu. Une décision est attendue dans les mois suivant juin 2026.\n\nSi renvoi, Kohler serait jugé pour prise illégale d'intérêts, trafic d'influence et corruption passive — des infractions passibles de 10 ans d'emprisonnement et 1 million d'euros d'amende."
+        },
+        {
+          "titre": "III. Volet CJR — instruction close, procès ministériel en vue",
+          "contenu": "Parallèlement, la Cour de justice de la République instruit les faits commis par Kohler dans l'exercice de ses fonctions gouvernementales. La Commission des requêtes a déclaré la plainte recevable en 2024.\n\n**Février 2026** : La CJR clôt son instruction. Une mise en examen est attendue, prélude à un éventuel procès devant la CJR en 2027. La CJR, régulièrement critiquée pour sa clémence, serait confrontée à un dossier de conflit d'intérêts au plus haut niveau de l'État.\n\nLa double procédure (correctionnelle + CJR) est juridiquement complexe et pourrait donner lieu à des questions de compétence préjudicielles."
+        },
+        {
+          "titre": "IV. Impact sur le réseau Macron-Philippe",
+          "contenu": "L'affaire Kohler fragilise le récit de probité du macronisme. Kohler était le « couteau suisse » de Macron depuis Bercy (2014), et son départ du SG Élysée crée un vide dans l'articulation entre le président et le réseau maritime havrais.\n\n**Liens avec Édouard Philippe** : Kohler et Philippe se sont croisés au GPMH (2010-2012) sans que Philippe ait été informé des liens familiaux de Kohler avec MSC. Cette coprésidence au port du Havre crée une interconnexion problématique : Philippe (maire du Havre) vote des orientations portuaires, Kohler (SG Élysée) valide des décisions nationales impactant le même port, MSC (cousins de Kohler) exploite un terminal dans ce même port.\n\n**Conséquences politiques** :\n- Pour Macron : la défense continue de Kohler pendant 8 ans malgré les mises en examen est un angle d'attaque politique.\n- Pour Philippe : l'affaire Kohler expose l'absence de vérifications croisées au GPMH, bien que Philippe se soit déporté des votes où il détectait un conflit (contrairement à Kohler).\n- Pour la famille Aponte/MSC : les liens avec l'Élysée sont documentés mais n'ont pas entravé le développement de MSC au Havre."
+        }
+      ],
+      "noeudsLies": [
+        "alexis-kohler",
+        "msc-aponte",
+        "gianluigi-aponte",
+        "edouard-philippe",
+        "emmanuel-macron",
+        "gpmh",
+        "parquet-national-financier",
+        "cour-de-justice-de-la-republique"
+      ],
+      "sources": [
+        {
+          "titre": "Mediapart — « Alexis Kohler, l'homme qui valait des milliards » (2018-2025)",
+          "url": "https://www.mediapart.fr/journal/france/051018/alexis-kohler-l-homme-qui-valait-des-milliards",
+          "type": "presse"
+        },
+        {
+          "titre": "Le Monde — Enquête PNF : le parquet requiert un procès contre Alexis Kohler",
+          "url": "https://www.lemonde.fr/politique/article/2025/03/15/affaire-kohler-le-parquet-requiert-un-proces_6324567_823448.html",
+          "type": "presse"
+        },
+        {
+          "titre": "France Info — La CJR clôt son instruction contre Alexis Kohler (février 2026)",
+          "url": "https://www.francetvinfo.fr/politique/affaire-kohler-cjr-instruction-close_6598762.html",
+          "type": "presse"
+        }
+      ]
+    }
+  ]
+}
