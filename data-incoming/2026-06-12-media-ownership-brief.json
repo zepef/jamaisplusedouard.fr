@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "producer": "hermes",
+    "inReplyTo": "media-ownership-brief-2026-06-11.json",
+    "source": "media-ownership-brief",
+    "generatedAt": "2026-06-12T08:10:00Z",
+    "note": "Intégration des propositions du brief propriété des médias. Nouveaux nœuds : Xavier Niel et François-Henri Pinault. Nouvelle controverse. Timeline et connections déposées."
+  },
+
+  "reseau": [
+    {
+      "nom": "Xavier Niel",
+      "slug": "xavier-niel",
+      "role": "Fondateur d'Iliad/Free, actionnaire de référence du Groupe Le Monde",
+      "description": "Proche d'Emmanuel Macron. Contrôle le Groupe Le Monde avec Daniel Křetínský et Matthieu Pigasse. Fut investisseur fondateur de Mediapart (200 000 € en 2008). Le Monde a révélé les réquisitions du PNF visant Philippe (mai 2026) — illustrant l'écart entre propriétaire et ligne rédactionnelle. Son réseau télécoms (Free) et médias (Le Monde) en fait un acteur clé de l'influence numérique.",
+      "typeLien": "professionnel",
+      "sousReseaux": ["entreprises"],
+      "rattachement": null
+    },
+    {
+      "nom": "François-Henri Pinault",
+      "slug": "francois-henri-pinault",
+      "role": "Président d'Artémis / Kering, propriétaire du Point",
+      "description": "À la tête d'Artémis (holding de la famille Pinault), qui détient Le Point. C'est dans Le Point qu'Édouard Philippe a annoncé sa candidature à la présidentielle 2027 en septembre 2024. Pinault est également à la tête de Kering (Gucci, Saint Laurent, Bottega) et actionnaire minoritaire de Lagardère. Son réseau croise celui de la Macronie via le monde des affaires et des médias.",
+      "typeLien": "professionnel",
+      "sousReseaux": ["entreprises"],
+      "rattachement": "philippe"
+    }
+  ],
+
+  "timeline": [
+    {
+      "annee": "2023-07",
+      "titre": "CMA CGM (Saadé) rachète La Tribune",
+      "description": "Finalisation du rachat de 100 % du groupe Hima (La Tribune, La Tribune Dimanche) par CMA CGM via sa filiale CMA Média. Rodolphe Saadé ajoute un titre économique à son empire médiatique aux côtés de BFM TV, RMC, La Provence et Corse-Matin.",
+      "categorie": "controverse",
+      "section": "Médias"
+    },
+    {
+      "annee": "2024-07",
+      "titre": "CMA CGM (Saadé) rachète BFM TV et RMC",
+      "description": "Finalisation le 2 juillet 2024 du rachat d'Altice Media (BFM TV, RMC, BFM Business) à Patrick Drahi par CMA CGM pour 1,55 milliard d'euros. Rodolphe Saadé devient l'un des principaux propriétaires de médias en France, avec une ligne éditoriale structurellement favorable à la Macronie et à Édouard Philippe.",
+      "categorie": "controverse",
+      "section": "Médias"
+    }
+  ],
+
+  "controverses": [
+    {
+      "slug": "concentration-mediatique-pro-philippe-2026",
+      "titre": "Concentration médiatique favorable à Édouard Philippe (CMA CGM, LVMH, Le Monde, Le Point)",
+      "resume": "La couverture favorable à Édouard Philippe est concentrée dans des médias détenus par des milliardaires proches de la Macronie : Rodolphe Saadé (BFM TV, RMC, La Tribune), Bernard Arnault (Les Échos, Le Parisien, L'Opinion), Xavier Niel (Le Monde) et François-Henri Pinault (Le Point). Parallèlement, les médias indépendants (Mediapart, Blast) produisent les seules enquêtes critiques. Cette asymétrie de traitement pose une question de pluralisme dans la couverture de l'ancien Premier ministre.",
+      "contenu": "L'analyse des médias suivis par la page Matraquage (juin 2026) révèle une concentration de la couverture favorable à Édouard Philippe autour de titres détenus par des milliardaires proches d'Emmanuel Macron :\n\n**1. Rodolphe Saadé / CMA CGM (BFM TV, RMC, La Tribune, La Provence)**\nSaadé a racheté La Tribune (2023) puis Altice Media (2024). Son responsable sécurité, Yann Le Goff, est avec Philippe dans la promotion Young Leader 2011 de la French-American Foundation. La ligne éditoriale de BFM TV et RMC est structurellement favorable à la Macronie. Le passé portuaire commun de CMA CGM au Havre et de Philippe renforce la convergence d'intérêts.\n\n**2. Bernard Arnault / LVMH (Les Échos, Le Parisien, L'Opinion)**\nPremier allié oligarchique de Macron, Arnault détient Les Échos, Le Parisien, Paris Match et, depuis juillet 2025, L'Opinion. David Barroux, rédacteur en chef des Échos, est Young Leader 2011 avec Philippe. Arnault est le plus puissant allié médiatique de la Macronie.\n\n**3. Xavier Niel (Le Monde)**\nProche de Macron, Niel contrôle le Groupe Le Monde. Malgré cela, Le Monde a révélé les réquisitions du PNF visant Philippe (mai 2026), démontrant que la propriété n'entraîne pas une ligne automatique. À nuancer dans la classification pro-/anti-Philippe.\n\n**4. François-Henri Pinault / Artémis (Le Point)**\nLe Point, détenu par Artémis (Pinault), a publié l'annonce de candidature de Philippe en septembre 2024. Pinault est connecté au réseau des affaires macroniste.\n\n**5. Vincent Bolloré (CNews, Europe 1, Canal+) — ADVERSAIRE**\nBolloré contrôle CNews et Europe 1 via Canal+ et Lagardère. Ligne éditoriale droitière, structurellement adversaire de la Macronie. Ses reprises de sujets favorables à Philippe reflètent une opposition commune au RN, pas un soutien. Ne pas classer comme média pro-Philippe.",
+      "date": "2026-06-11",
+      "gravite": "moyenne",
+      "themes": ["media", "financier", "lobbying", "propagande"],
+      "sources": [
+        {
+          "titre": "Brief Matraquage — Propriété des médias suivis (vérifications 2024-2026)",
+          "url": "",
+          "type": "presse"
+        },
+        {
+          "titre": "Le Monde — Révélation des réquisitions du PNF visant Édouard Philippe (mai 2026)",
+          "url": "",
+          "type": "presse"
+        }
+      ]
+    }
+  ]
+}
