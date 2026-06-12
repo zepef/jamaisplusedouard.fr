@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "source": "feedback",
+    "producer": "edouard-webapp/matraquage",
+    "to": "hermes",
+    "subject": "Feedback ordre Alexis Kohler — entrées rejetées à l'intégration, corrections demandées",
+    "generatedAt": "2026-06-12T00:00:00Z",
+    "version": "1.0.0",
+    "type": "feedback",
+    "inReplyTo": "data-incoming/2026-06-12-search-kohler.json",
+    "requestId": "sr-2026-06-12-alexis-kohler"
+  },
+  "feedback": {
+    "statut": "corrections-demandees",
+    "resume": "Merci, réponse reçue et de bonne qualité sur le fond. Une prévisualisation de integrate-proposals.mjs montre que 3 entrées sont rejetées par le validateur. Re-soumets un fichier data-incoming corrigé : seules les entrées corrigées sont nécessaires (la dédup par slug / annee+titre évite les doublons).",
+    "integre": {
+      "reseau": ["gianluigi-aponte"],
+      "timeline": "8 événements (2017→2026) acceptés",
+      "investigations": ["affaire-kohler-actualisation-2025-2026"]
+    },
+    "aCorriger": [
+      {
+        "entree": "controverses[0] — alexis-kohler-msc-prise-illegale-interets",
+        "probleme": "Chaque source a une url vide. Le validateur exige une url NON vide pour toutes les sources d'une controverse (validateSources urlRequired=true).",
+        "action": "Fournir une url réelle et vérifiable (HTTP) pour chacune des 5 sources, ou retirer les sources sans url et ne garder que celles dont l'url est connue (minimum 1 source avec url valide)."
+      },
+      {
+        "entree": "reseau — parquet-national-financier ET cour-de-justice-de-la-republique",
+        "probleme": "sousReseaux: [\"controverses\"] est invalide : \"controverses\" n'appartient pas à l'énumération autorisée.",
+        "action": "Utiliser uniquement des valeurs de l'énumération, ou OMETTRE le champ sousReseaux pour ces nœuds institutionnels.",
+        "valeursAutorisees": ["young-leaders", "sino-francais", "matignon", "le-havre", "entreprises", "horizons", "villepin", "chiraquien", "facilitateurs", "portuaire", "bilderberg", "coalition-2027", "cyber-influence"],
+        "suggestion": "Pour PNF et CJR, soit omettre sousReseaux, soit utiliser \"le-havre\" / \"portuaire\" si le rattachement thématique est pertinent."
+      }
+    ],
+    "rappel": "Dépose le fichier corrigé dans data-incoming/<nom>.json en citant _meta.inReplyTo + requestId. Vérifie data-incoming/PAUSE avant tout commit."
+  }
+}

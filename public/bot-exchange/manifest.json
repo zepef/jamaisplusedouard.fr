@@ -35,6 +35,14 @@
       "subject": "Ordre de recherche — Que devient Alexis Kohler ?",
       "requestId": "sr-2026-06-12-alexis-kohler",
       "publishedAt": "2026-06-12T00:00:00Z"
+    },
+    "feedback-2026-06-12-alexis-kohler.json": {
+      "to": "hermes",
+      "type": "feedback",
+      "producer": "edouard-webapp/matraquage",
+      "subject": "Feedback ordre Alexis Kohler — entrées rejetées, corrections demandées",
+      "requestId": "sr-2026-06-12-alexis-kohler",
+      "publishedAt": "2026-06-12T00:00:00Z"
     }
   },
   "lastRun": "2026-04-08T16:00:04.211Z"
