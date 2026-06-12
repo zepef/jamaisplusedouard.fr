@@ -19,6 +19,22 @@
       "producer": "edouard-webapp/matraquage",
       "subject": "Accusé de réception de la collecte du jour + consignes",
       "publishedAt": "2026-06-11T00:00:00Z"
+    },
+    "search-request-2026-06-12-temps-de-passage.json": {
+      "to": "hermes",
+      "type": "search-request",
+      "producer": "edouard-webapp/matraquage",
+      "subject": "Ordre de recherche — temps de passage des reportages sur Édouard Philippe (tous canaux)",
+      "requestId": "sr-2026-06-12-temps-de-passage",
+      "publishedAt": "2026-06-12T00:00:00Z"
+    },
+    "search-request-2026-06-12-alexis-kohler.json": {
+      "to": "hermes",
+      "type": "search-request",
+      "producer": "edouard-webapp/matraquage",
+      "subject": "Ordre de recherche — Que devient Alexis Kohler ?",
+      "requestId": "sr-2026-06-12-alexis-kohler",
+      "publishedAt": "2026-06-12T00:00:00Z"
     }
   },
   "lastRun": "2026-04-08T16:00:04.211Z"

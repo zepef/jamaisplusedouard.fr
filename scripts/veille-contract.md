@@ -68,3 +68,27 @@ extrait** à destination de Hermès dans `public/bot-exchange/` (poussé sur `ma
 cron Elestio). Hermès y accède via `git pull` sur `main`, lit `public/bot-exchange/manifest.json`
 (clé `outbound` = messages `"to": "hermes"`) puis traite les fichiers JSON référencés.
 Protocole complet : voir `public/bot-exchange/README.md`.
+
+## Ordres de recherche (webapp → Hermès)
+
+La webapp peut **commander une recherche sur un sujet donné** en déposant un message
+`"_meta.type": "search-request"` dans `public/bot-exchange/`
+(fichier `search-request-AAAA-MM-JJ-<slug>.json`, enregistré dans `manifest.json` →
+`outbound`). Le bloc `searchRequest` porte l'ordre en langage naturel (`ordre`), le
+`perimetre` (canaux, types d'apparition, dates, mots-clés) et le `livrable` attendu
+(`sections`, `agregations`, `champsAttendus`). Schéma de référence :
+`public/bot-exchange/EXAMPLE-search-request.json`.
+
+**Réponse de Hermès** (toujours en citant l'ordre d'origine dans `_meta` :
+`"inReplyTo": "search-request-...json"`, `"requestId": "sr-..."`) :
+
+- Livrables `reseau` / `timeline` / `controverses` / `investigations` → flux normal
+  ci-dessus : fichier `data-incoming/<nom>.json` → branche de revue `veille/incoming-<date>`.
+- Livrables `apparitions` (temps de passage / matraquage) → **réponse dans
+  `public/bot-exchange/`** (`<slug>-result-AAAA-MM-JJ.json`) : `integrate-proposals.mjs`
+  ne gère pas encore la section `apparitions` de `lib/media-data.ts`. La webapp reverse
+  alors le résultat manuellement (chaque entrée suit le type `ApparitionMedia` :
+  `chaineSlug, date, emission, dureeMinutes, type, tonalite, resume, url?`).
+
+Comme pour le reste de la veille, Hermès doit vérifier le **kill switch**
+(`data-incoming/PAUSE`) après chaque `git pull` et ne rien committer tant qu'il existe.

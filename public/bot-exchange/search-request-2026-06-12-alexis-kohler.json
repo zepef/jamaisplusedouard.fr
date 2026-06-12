@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "source": "search-request",
+    "producer": "edouard-webapp/matraquage",
+    "to": "hermes",
+    "subject": "Ordre de recherche — Que devient Alexis Kohler ?",
+    "generatedAt": "2026-06-12T00:00:00Z",
+    "version": "1.0.0",
+    "type": "search-request"
+  },
+  "searchRequest": {
+    "id": "sr-2026-06-12-alexis-kohler",
+    "ordre": "Que devient Alexis Kohler ?",
+    "objectif": "Faire le point sur la situation actuelle d'Alexis Kohler : fonctions depuis son départ du secrétariat général de l'Élysée, actualité judiciaire (MSC / Aponte, soupçons de prise illégale d'intérêts), et liens avec le réseau Macron/Philippe.",
+    "perimetre": {
+      "canaux": ["all"],
+      "dateDebut": "2024-01-01",
+      "dateFin": "2026-06-12",
+      "langues": ["fr"],
+      "motsCles": ["Alexis Kohler", "secrétaire général de l'Élysée", "MSC", "Aponte", "prise illégale d'intérêts", "Société Générale"],
+      "exclusions": []
+    },
+    "livrable": {
+      "format": "data-incoming",
+      "sections": ["reseau", "timeline", "controverses", "investigations"],
+      "nbSourcesMin": 2,
+      "notes": "Réponse via data-incoming/ (flux normal du contrat de veille) → branche de revue veille/incoming-<date>. Citer inReplyTo + requestId dans _meta."
+    },
+    "priorite": "haute",
+    "echeance": "2026-06-19",
+    "statut": "open"
+  }
+}

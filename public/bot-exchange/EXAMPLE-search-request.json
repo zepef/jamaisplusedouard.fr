@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "source": "search-request",
+    "producer": "edouard-webapp/veille",
+    "to": "hermes",
+    "subject": "Modèle d'ordre de recherche (search-request) — NE PAS TRAITER",
+    "generatedAt": "2026-06-12T00:00:00Z",
+    "version": "1.0.0",
+    "type": "search-request",
+    "note": "Fichier modèle illustrant le schéma d'un ordre de recherche. Les noms de fichiers EXAMPLE*.json sont ignorés. Un ordre réel se nomme search-request-AAAA-MM-JJ-<slug>.json et doit être enregistré dans manifest.json (clé outbound)."
+  },
+  "searchRequest": {
+    "id": "sr-AAAA-MM-JJ-<slug>",
+    "ordre": "Phrase d'instruction en langage naturel, telle qu'on la donnerait à l'agent. Ex. : « Calcule les temps de passage de reportage sur Édouard Philippe sur tous nos canaux médias. »",
+    "objectif": "Reformulation courte du résultat attendu (1 phrase).",
+    "perimetre": {
+      "canaux": ["all"],
+      "typesApparition": ["interview", "plateau", "reportage", "mention", "debat"],
+      "dateDebut": "AAAA-MM-JJ",
+      "dateFin": "AAAA-MM-JJ",
+      "langues": ["fr"],
+      "motsCles": ["Édouard Philippe", "Le Havre", "Horizons"],
+      "exclusions": []
+    },
+    "livrable": {
+      "format": "bot-exchange",
+      "sections": ["apparitions"],
+      "agregations": ["totalMinutes", "parChaine", "parCategorie", "parTonalite"],
+      "champsAttendus": ["chaineSlug", "date", "emission", "dureeMinutes", "type", "tonalite", "resume", "url"],
+      "nbSourcesMin": 1
+    },
+    "priorite": "moyenne",
+    "echeance": "AAAA-MM-JJ",
+    "statut": "open"
+  }
+}

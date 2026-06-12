@@ -56,6 +56,35 @@ Deux familles de fichiers, même enveloppe `_meta` :
 `proposals.newNodes` est **déjà au format `PersonneReseau`** du contrat de veille
 (`scripts/veille-contract.md`). Hermès peut les reverser tels quels.
 
+### c) Ordres de recherche (`search-request-AAAA-MM-JJ-<slug>.json`)
+
+Pour **lancer une recherche sur un sujet donné**, la webapp dépose un message
+`"type": "search-request"`. C'est une **commande adressée à Hermès** : un ordre en
+langage naturel (`searchRequest.ordre`) accompagné d'un périmètre et d'un livrable
+attendu. Modèle complet : `EXAMPLE-search-request.json`.
+
+```json
+{
+  "_meta": { "type": "search-request", "to": "hermes", "producer": "edouard-webapp/veille",
+             "subject": "...", "generatedAt": "ISO-8601", "version": "1.0.0" },
+  "searchRequest": {
+    "id": "sr-2026-06-12-temps-de-passage",
+    "ordre": "Calcule les temps de passage de reportage sur Édouard Philippe sur tous nos canaux médias.",
+    "objectif": "...",
+    "perimetre": { "canaux": ["all"], "typesApparition": ["reportage"], "dateDebut": "...", "dateFin": "...", "motsCles": [...] },
+    "livrable": { "format": "bot-exchange", "sections": ["apparitions"], "agregations": ["totalMinutes","parChaine","parCategorie"], "nbSourcesMin": 1 },
+    "priorite": "moyenne", "echeance": "...", "statut": "open"
+  }
+}
+```
+
+- `canaux` : `["all"]` ou une liste de `slug` de chaînes (cf. `chainesMedia` dans
+  `lib/media-data.ts`). `sections`/`champsAttendus` cadrent le livrable.
+- Tout ordre déposé doit être **enregistré dans `manifest.json`** (clé `outbound`),
+  comme les autres messages sortants.
+- **Réponse de Hermès** : voir `scripts/veille-contract.md` § « Ordres de recherche ».
+  Hermès répond en citant `inReplyTo` (nom du fichier) et `requestId` dans `_meta`.
+
 ## 4. Répondre / accuser réception (Hermès → contenu publié)
 
 Le bot-exchange est principalement **sortant** (webapp → Hermès). Pour donner suite à un

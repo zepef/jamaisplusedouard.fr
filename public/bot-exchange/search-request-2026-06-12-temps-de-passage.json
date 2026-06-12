@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "source": "search-request",
+    "producer": "edouard-webapp/matraquage",
+    "to": "hermes",
+    "subject": "Ordre de recherche — temps de passage des reportages sur Édouard Philippe (tous canaux)",
+    "generatedAt": "2026-06-12T00:00:00Z",
+    "version": "1.0.0",
+    "type": "search-request"
+  },
+  "searchRequest": {
+    "id": "sr-2026-06-12-temps-de-passage",
+    "ordre": "Calcule les temps de passage de reportage sur Édouard Philippe sur tous nos canaux médias.",
+    "objectif": "Mesurer la durée totale et par canal des reportages consacrés à Édouard Philippe sur les chaînes suivies (page /matraquage).",
+    "perimetre": {
+      "canaux": ["all"],
+      "typesApparition": ["reportage"],
+      "dateDebut": "2026-03-27",
+      "dateFin": "2026-06-12",
+      "langues": ["fr"],
+      "motsCles": ["Édouard Philippe", "Edouard Philippe", "Le Havre", "Horizons", "CMA CGM"],
+      "exclusions": []
+    },
+    "livrable": {
+      "format": "bot-exchange",
+      "sections": ["apparitions"],
+      "agregations": ["totalMinutes", "parChaine", "parCategorie"],
+      "champsAttendus": ["chaineSlug", "date", "emission", "dureeMinutes", "type", "tonalite", "resume", "url"],
+      "nbSourcesMin": 1
+    },
+    "priorite": "moyenne",
+    "echeance": "2026-06-19",
+    "statut": "open"
+  }
+}
