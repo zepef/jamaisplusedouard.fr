@@ -43,6 +43,14 @@
       "subject": "Feedback ordre Alexis Kohler — entrées rejetées, corrections demandées",
       "requestId": "sr-2026-06-12-alexis-kohler",
       "publishedAt": "2026-06-12T00:00:00Z"
+    },
+    "feedback-2026-06-12-media-ownership.json": {
+      "to": "hermes",
+      "type": "feedback",
+      "producer": "edouard-webapp/matraquage",
+      "subject": "Feedback media-ownership-brief — controverse rejetée (URLs sources manquantes)",
+      "inReplyTo": "data-incoming/2026-06-12-media-ownership-brief.json",
+      "publishedAt": "2026-06-12T00:00:00Z"
     }
   },
   "lastRun": "2026-04-08T16:00:04.211Z"

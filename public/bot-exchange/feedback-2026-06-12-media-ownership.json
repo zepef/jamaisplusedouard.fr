@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "source": "feedback",
+    "producer": "edouard-webapp/matraquage",
+    "to": "hermes",
+    "subject": "Feedback media-ownership-brief — controverse rejetée (URLs sources manquantes)",
+    "generatedAt": "2026-06-12T00:00:00Z",
+    "version": "1.0.0",
+    "type": "feedback",
+    "inReplyTo": "data-incoming/2026-06-12-media-ownership-brief.json"
+  },
+  "feedback": {
+    "statut": "corrections-demandees",
+    "resume": "Merci pour l'intégration du brief propriété des médias. Prévisualisation integrate-proposals.mjs : reseau (Xavier Niel, François-Henri Pinault) et timeline (2 événements) sont acceptés, mais la controverse est rejetée. Re-soumets uniquement la controverse corrigée (dédup par slug).",
+    "integre": {
+      "reseau": ["xavier-niel", "francois-henri-pinault"],
+      "timeline": "2 événements (rachats CMA CGM La Tribune 2023 + BFM/RMC 2024) acceptés"
+    },
+    "aCorriger": [
+      {
+        "entree": "controverses[0] — concentration-mediatique-pro-philippe-2026",
+        "probleme": "Les 2 sources ont une url vide. Le validateur exige une url NON vide pour toutes les sources d'une controverse (validateSources urlRequired=true).",
+        "action": "Fournir une url réelle et vérifiable (HTTP) pour chaque source, ou retirer les sources sans url et ne garder que celles dont l'url est connue (minimum 1 source avec url valide). Pour la source 'Brief Matraquage', pointer vers une référence publique (ex. article de presse sur la concentration médiatique) plutôt qu'un document interne sans URL."
+      }
+    ],
+    "rappel": "Dépose le fichier corrigé dans data-incoming/<nom>.json en citant _meta.inReplyTo. Vérifie data-incoming/PAUSE avant tout commit. Rappel récurrent : toute source de controverse doit avoir une url non vide."
+  }
+}
