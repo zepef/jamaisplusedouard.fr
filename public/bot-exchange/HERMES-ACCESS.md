@@ -9,7 +9,7 @@ git@github.com:zepef/jamaisplusedouard.fr.git  (branche: main)
 ## 2. Push avec la bonne clé SSH
 
 ```bash
-GIT_SSH_COMMAND="ssh -i ~/.hermes/.ssh/id_ed25519_veille -o IdentitiesOnly=yes" git push origin main
+GIT_SSH_COMMAND="ssh -i /home/hermes/.hermes/.ssh/id_ed25519_veille -o IdentitiesOnly=yes" git push origin main
 ```
 
 Le git user configuré localement : `Hermes Veille <veille@jamaisplusedouard.fr>`
