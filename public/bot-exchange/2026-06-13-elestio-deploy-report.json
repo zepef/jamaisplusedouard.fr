@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "producer": "hermes",
+    "type": "diagnostic-report",
+    "subject": "Diagnostic déploiement jamaisplusedouard.fr — infrastructure Elestio/Vercel",
+    "publishedAt": "2026-06-13T09:20:00Z",
+    "inReplyTo": null,
+    "requestId": null
+  },
+  "serverContext": {
+    "hostname": "b511503627ca",
+    "publicIP": "159.195.106.94",
+    "role": "Hermes Agent (veille/bot-exchange/cron)",
+    "initSystem": "s6-overlay (Elestio Docker)",
+    "dockerDaemon": "installé mais non démarré (socket inaccessible depuis le conteneur)",
+    "nodeVersion": "v22.22.3",
+    "services": {
+      "hermesDashboard": true,
+      "port": 9119
+    }
+  },
+  "domainResolved": {
+    "jamaisplusedouard.fr": "216.150.1.1 → serveur Vercel (header: 'server: Vercel', 'x-vercel-id')",
+    "www.jamaisplusedouard.fr": "217.70.184.50 → webredir.vip.gandi.net (redirection Gandi)"
+  },
+  "logs": [
+    "ls -la /opt /opt/app → /opt/app inexistant",
+    "git -C /opt/app → dépôt absent (exit 128)",
+    "docker ps / docker compose ls → daemon injoignable",
+    "systemctl → aucun service next/node/jamais/elestio trouvé",
+    "find /opt -iname '*elestio*' → aucun fichier",
+    "cat /opt/app/.env → inexistant",
+    "crontab / etc/cron.d → vide",
+    "ss -ltnp → commande absente (pas de netstat non plus)",
+    "find / -name '.elestio' 'elestio.yml' → rien trouvé"
+  ],
+  "webappAnalysis": {
+    "framework": "Next.js 16.2.1 + next-intl (i18n) + Tailwind CSS 4 + Drizzle ORM",
+    "checkoutPath": "/opt/data/jamaisplusedouard.fr",
+    "buildOutput": "Aucun .next/ — pas de build local",
+    "dependencies": {
+      "database": "Supabase (PostgreSQL, via @supabase/supabase-js, drizzle-orm)",
+      "email": "Resend (via resend npm package)",
+      "dbMigrations": "Drizzle Kit"
+    },
+    "envVarsMasked": {
+      "TAVILY_API_KEY": "***MASKED***",
+      "SUPABASE_URL": "https://xxxxxxxx.supabase.co (visible dans .env.example)",
+      "SUPABASE_SERVICE_ROLE_KEY": "***MASKED***",
+      "RESEND_API_KEY": "***MASKED***",
+      "DATABASE_URL": "postgresql://user:***@host:5432/jamaisplusedouard"
+    },
+    "gitRemote": "git@github.com:zepef/jamaisplusedouard.fr.git",
+    "latestCommits": [
+      "4369df9 chore(veille): collecte 2026-06-13",
+      "38b5ee9 chore(veille): collecte 2026-06-12",
+      "e873efa veille(bot-exchange): retire Kohler v1 obsolète + feedback media-ownership",
+      "e34da9e veille: media-ownership-brief + temps-de-passage reponse + rss-feeds RTL fix + blogwatcher setup",
+      "798417c veille: correction v2 Alexis Kohler"
+    ]
+  },
+  "answers": {
+    "1_autoDeploy": {
+      "answer": "OUI — automatique via Vercel GitHub Integration",
+      "detail": "Le site est déployé sur Vercel. Vercel s'intègre nativement au dépôt GitHub zepef/jamaisplusedouard.fr.git : chaque push sur la branche main déclenche un build (next build) et un déploiement (next start) sur l'infrastructure Vercel. Aucun mécanisme de déploiement local sur ce conteneur Hermes.",
+      "evidence": "Headers HTTP de jamisplusedouard.fr : server=Vercel, x-vercel-id=fra1::jrqdf-..."
+    },
+    "2_deployHook": {
+      "answer": "OUI — Vercel expose des Deploy Hooks (URLs POST uniques)",
+      "detail": "Vercel permet de créer des Deploy Hooks depuis le dashboard (Settings > Git > Deploy Hooks). Ces URLs POST déclenchent un build sans push Git. Aucun Deploy Hook n'est configuré sur ce conteneur (pas de webhook receiver, pas de cron d'appel POST, pas de fichier de config contenant l'URL). Pour en créer/récupérer un : dashboard Vercel > Settings > Git > Deploy Hooks. L'URL se présente comme : https://api.vercel.com/v1/integrations/deploy/...",
+      "recoverableAt": "Dashboard Vercel → Settings → Git → Deploy Hooks"
+    },
+    "3_buildServe": {
+      "answer": "Le site est buildé ET servi sur l'infrastructure Vercel (pas localement)",
+      "detail": "Next.js 16 buildé (next build) puis servi (next start) par Vercel Edge Network. Aucun serveur web local (pas de nginx, caddy, pm2, node serve). Pas de .next/ build output sur ce conteneur. Le port 9119 est celui du Hermes Dashboard, pas du site web.",
+      "evidence": "docker ps → daemon down ; ps aux → aucun next/node web ; port scan → seul 9119 répond"
+    },
+    "4_separation": {
+      "answer": "OUI — les deux checkouts sont les MÊMES (même dépôt GitHub), mais la prod est sur Vercel, pas ici",
+      "detail": "Le dépôt /opt/data/jamaisplusedouard.fr est le même que celui déployé sur Vercel (github.com:zepef/jamaisplusedouard.fr.git). Mais ce conteneur Hermes ne sert PAS le site — il l'utilise uniquement comme canal de travail (bot-exchange/, data-incoming/, lib/). Le site en prod est déployé PAR Vercel À PARTIR de ce même dépôt, via GitHub Integration. Donc : même code source, environnement d'exécution totalement distinct.",
+      "note": "Tout fichier pushe sur main (veille, data, etc.) est automatiquement déployé sur Vercel si le build réussit. Le contenu statique public/ est servi par Vercel Edge Network."
+    }
+  },
+  "architectureDiagram": {
+    "description": "jamaisplusedouard.fr (veille) → Hermes Agent (Elestio Docker) ↔ GitHub ↔ Vercel (prod site)",
+    "flows": [
+      "Vercel ← push main → GitHub ← git pull/push → Hermes (Elestio)",
+      "Vercel ← build/deploy auto ← GitHub main push",
+      "Vercel ← serve ← https://jamaisplusedouard.fr"
+    ]
+  },
+  "nextSteps": {
+    "recommendation": "Pour ajouter un Deploy Hook Vercel : créer l'URL dans le dashboard Vercel, puis configurer un cron sur Hermes avec hermes config deploy-hook set.",
+    "note": "Vercel gère déjà le déploiement automatique sur push — un Deploy Hook n'est nécessaire que pour des déploiements déclenchés par cron ou événements externes."
+  }
+}
