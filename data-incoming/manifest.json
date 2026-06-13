@@ -11,7 +11,27 @@
     "2026-06-10-collecte-brute.json": {
       "hash": "f680584fffd52cc4",
       "processedAt": "2026-06-10T10:04:35.694Z"
+    },
+    "2026-06-11-collecte-brute.json": {
+      "hash": "1588ad1ddbff1d02",
+      "processedAt": "2026-06-13T08:44:27.443Z"
+    },
+    "2026-06-12-collecte-brute.json": {
+      "hash": "8a006c5defd9f87b",
+      "processedAt": "2026-06-13T08:44:27.445Z"
+    },
+    "2026-06-12-media-ownership-brief.json": {
+      "hash": "a7732aea771e94da",
+      "processedAt": "2026-06-13T08:44:27.447Z"
+    },
+    "2026-06-12-search-kohler-v2.json": {
+      "hash": "3a0a2f7b7821d9dc",
+      "processedAt": "2026-06-13T08:44:27.451Z"
+    },
+    "2026-06-13-collecte-brute.json": {
+      "hash": "9a6ca4eb86477637",
+      "processedAt": "2026-06-13T08:44:27.451Z"
     }
   },
-  "lastRun": "2026-06-10T10:04:35.727Z"
+  "lastRun": "2026-06-13T08:44:27.534Z"
 }

@@ -1,35 +1,51 @@
 {
-  "runAt": "2026-06-10T10:04:35.692Z",
+  "runAt": "2026-06-13T08:44:27.440Z",
   "files": [
     {
-      "file": "2026-06-09-collecte-brute.json",
+      "file": "2026-06-11-collecte-brute.json",
       "added": {},
       "skipped": {},
       "errors": []
     },
     {
-      "file": "2026-06-09-veille-initiale.json",
-      "added": {
-        "reseau": 4,
-        "timeline": 7,
-        "controverses": 2,
-        "investigations": 1
-      },
-      "skipped": {
-        "reseau": 1
-      },
+      "file": "2026-06-12-collecte-brute.json",
+      "added": {},
+      "skipped": {},
       "errors": []
     },
     {
-      "file": "2026-06-10-collecte-brute.json",
+      "file": "2026-06-12-media-ownership-brief.json",
+      "added": {
+        "reseau": 2,
+        "timeline": 2
+      },
+      "skipped": {},
+      "errors": [
+        "controverses[0].sources[0].url requis",
+        "controverses[0].sources[1].url requis"
+      ]
+    },
+    {
+      "file": "2026-06-12-search-kohler-v2.json",
+      "added": {
+        "reseau": 3,
+        "timeline": 8,
+        "controverses": 1,
+        "investigations": 1
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-06-13-collecte-brute.json",
       "added": {},
       "skipped": {},
       "errors": []
     }
   ],
   "totals": {
-    "added": 14,
-    "skipped": 1,
-    "invalid": 0
+    "added": 17,
+    "skipped": 0,
+    "invalid": 1
   }
 }
