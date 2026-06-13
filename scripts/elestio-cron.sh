@@ -51,30 +51,10 @@ Co-Authored-By: Paperclip <noreply@paperclip.ing>" 2>&1 | tee -a "$LOG_FILE"
   echo "[elestio-cron] bot-exchange poussé." | tee -a "$LOG_FILE"
 fi
 
-# ── Intégration des propositions structurées de Hermès (data-incoming/) ──
-echo "[elestio-cron] Running integrate-proposals..." | tee -a "$LOG_FILE"
-node scripts/integrate-proposals.mjs 2>&1 | tee -a "$LOG_FILE"
-
-# Métadonnées d'intégration (manifeste, archive, rapport) → main
-if ! git diff --quiet data-incoming/ || [ -n "$(git ls-files --others --exclude-standard data-incoming/)" ]; then
-  git add data-incoming/
-  git commit -m "chore(veille): integration markers $(date +%Y-%m-%d_%H:%M)" 2>&1 | tee -a "$LOG_FILE"
-  git push 2>&1 | tee -a "$LOG_FILE"
-fi
-
-# Contenu publié proposé → branche de revue (jamais sur main)
-if ! git diff --quiet lib/data/; then
-  BRANCH="veille/incoming-$(date +%Y%m%d-%H%M)"
-  echo "[elestio-cron] Nouveau contenu proposé → branche $BRANCH (revue requise)" | tee -a "$LOG_FILE"
-  git checkout -b "$BRANCH" 2>&1 | tee -a "$LOG_FILE"
-  git add lib/data/
-  git commit -m "veille: propositions de contenu $(date +%Y-%m-%d_%H:%M) — revue requise
-
-Co-Authored-By: Hermes <noreply@hermes>" 2>&1 | tee -a "$LOG_FILE"
-  git push -u origin "$BRANCH" 2>&1 | tee -a "$LOG_FILE"
-  git checkout main 2>&1 | tee -a "$LOG_FILE"
-  echo "[elestio-cron] Branche $BRANCH poussée. Ouvrez une PR pour valider." | tee -a "$LOG_FILE"
-fi
+# ── Intégration des propositions (data-incoming/) ──
+# Déléguée à l'agent Hermès LOCAL (scripts/hermes-local-cron.sh, Planificateur
+# Windows toutes les 6 h). Elestio ne lance plus integrate-proposals.mjs ni la
+# branche de revue : il se contente de collecter et de publier bot-exchange.
 
 echo "[elestio-cron] $(date -Iseconds) — Veille terminée." | tee -a "$LOG_FILE"
 fi

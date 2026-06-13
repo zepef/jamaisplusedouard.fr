@@ -51,3 +51,5 @@ app/CLAUDE.md
 
 # Cron runtime artifacts
 scripts/inbox-watcher.log
+scripts/hermes-local.log
+scripts/.hermes-local-state
