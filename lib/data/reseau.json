@@ -1201,5 +1201,58 @@
       "cyber-influence"
     ],
     "rattachement": null
+  },
+  {
+    "nom": "Xavier Niel",
+    "slug": "xavier-niel",
+    "role": "Fondateur d'Iliad/Free, actionnaire de référence du Groupe Le Monde",
+    "description": "Proche d'Emmanuel Macron. Contrôle le Groupe Le Monde avec Daniel Křetínský et Matthieu Pigasse. Fut investisseur fondateur de Mediapart (200 000 € en 2008). Le Monde a révélé les réquisitions du PNF visant Philippe (mai 2026) — illustrant l'écart entre propriétaire et ligne rédactionnelle. Son réseau télécoms (Free) et médias (Le Monde) en fait un acteur clé de l'influence numérique.",
+    "typeLien": "professionnel",
+    "sousReseaux": [
+      "entreprises"
+    ],
+    "rattachement": null
+  },
+  {
+    "nom": "François-Henri Pinault",
+    "slug": "francois-henri-pinault",
+    "role": "Président d'Artémis / Kering, propriétaire du Point",
+    "description": "À la tête d'Artémis (holding de la famille Pinault), qui détient Le Point. C'est dans Le Point qu'Édouard Philippe a annoncé sa candidature à la présidentielle 2027 en septembre 2024. Pinault est également à la tête de Kering (Gucci, Saint Laurent, Bottega) et actionnaire minoritaire de Lagardère. Son réseau croise celui de la Macronie via le monde des affaires et des médias.",
+    "typeLien": "professionnel",
+    "sousReseaux": [
+      "entreprises"
+    ],
+    "rattachement": "philippe"
+  },
+  {
+    "nom": "Gianluigi Aponte",
+    "slug": "gianluigi-aponte",
+    "role": "Fondateur et président de MSC (Mediterranean Shipping Company)",
+    "description": "Armateur italo-suisse, fondateur de MSC avec son épouse Rafaela Aponte. La mère d'Alexis Kohler est une cousine éloignée de Gianluigi Aponte. MSC est le 2ᵉ armateur mondial derrière COSCO, premier opérateur privé. Par Kohler, la famille Aponte est indirectement connectée à l'Élysée, au port du Havre et au réseau Macron/Philippe. Gianluigi Aponte a conservé des liens d'affaires avec le groupe Société Générale, ancien employeur de Kohler.",
+    "typeLien": "financier",
+    "sousReseaux": [
+      "portuaire",
+      "entreprises"
+    ]
+  },
+  {
+    "nom": "Parquet national financier (PNF)",
+    "slug": "parquet-national-financier",
+    "role": "Juridiction — enquête sur Kohler pour prise illégale d'intérêts",
+    "description": "Le PNF a ouvert une enquête préliminaire en 2018 après les révélations Mediapart sur les liens Kohler-Aponte. Transformation en information judiciaire en 2019 (prise illégale d'intérêts, trafic d'influence, corruption passive). Perquisitions à l'Élysée et au domicile de Kohler en 2021. En 2025, le parquet a transmis son réquisitoire définitif recommandant un procès correctionnel. Décision du juge d'instruction attendue courant 2026. Le PNF a également saisi la Commission des requêtes de la CJR en 2023 pour les faits relevant de fonctions gouvernementales.",
+    "typeLien": "institutionnel",
+    "sousReseaux": [
+      "portuaire"
+    ]
+  },
+  {
+    "nom": "Cour de justice de la République (CJR)",
+    "slug": "cour-de-justice-de-la-republique",
+    "role": "Juridiction d'exception — instruction Kohler volet ministres",
+    "description": "La Commission des requêtes de la CJR a été saisie par le PNF en 2023 pour des faits commis par Kohler dans l'exercice de fonctions gouvernementales. Déclarée recevable en 2024. Instruction ouverte en 2025. En février 2026, la CJR a clos son instruction et une mise en examen de Kohler est attendue. Un procès devant la CJR pourrait intervenir en 2027. La CJR est la seule juridiction compétente pour juger les ministres pour des infractions commises dans l'exercice de leurs fonctions.",
+    "typeLien": "institutionnel",
+    "sousReseaux": [
+      "portuaire"
+    ]
   }
 ]

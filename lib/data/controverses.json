@@ -265,5 +265,37 @@
         "auteur": "RFI"
       }
     ]
+  },
+  {
+    "slug": "alexis-kohler-msc-prise-illegale-interets",
+    "titre": "Affaire Alexis Kohler — conflit d'intérêts MSC/Aponte",
+    "resume": "Alexis Kohler, secrétaire général de l'Élysée de 2017 à 2025, est poursuivi pour prise illégale d'intérêts, trafic d'influence et corruption passive en raison de ses liens familiaux non déclarés avec la famille Aponte, fondatrice de MSC (2ᵉ armateur mondial). Il a siégé au conseil de surveillance du port du Havre (2010-2012) aux côtés d'Édouard Philippe sans révéler ces liens, et participé à des votes favorables à MSC. L'affaire est instruite parallèlement par le PNF (voie correctionnelle) et la CJR (voie ministérielle). En 2026, le réquisitoire du PNF demande un procès et la CJR a clos son instruction. C'est l'une des affaires de conflit d'intérêts les plus sensibles du quinquennat Macron.",
+    "contenu": "L'affaire Alexis Kohler-MSC est structurée en trois cercles concentriques :\n\n1. **Liens familiaux** : La mère d'Alexis Kohler, née Michele Aponte, est une cousine éloignée de Gianluigi Aponte, fondateur de MSC. Kohler a travaillé comme directeur financier chez MSC à deux reprises (2002-2004 et 2014-2016) — soit juste avant de rejoindre le cabinet Macron à Bercy, puis l'Élysée. Sa mère a conservé le nom Aponte jusqu'à son mariage, et Kohler aurait conservé des intérêts indirects dans des SCI et holdings liées aux Aponte selon les enquêtes de Mediapart.\n\n2. **Conflit au GPMH** : De 2010 à 2012, Kohler siège au conseil de surveillance du Grand Port Maritime du Havre comme représentant de l'Agence des participations de l'État. Dans la même enceinte siège Édouard Philippe (maire du Havre). Selon Mediapart, Kohler n'a jamais informé les autres membres de ses liens familiaux avec MSC et ne s'est pas déporté lors des votes concernant MSC. Il a voté des contrats favorables à l'armateur.\n\n3. **Double procédure judiciaire** :\n   - **PNF (correctionnel)** : Enquête préliminaire 2018 → information judiciaire 2019 (prise illégale d'intérêts, trafic d'influence, corruption passive) → perquisitions Élysée/domicile 2021 → mise en examen 2022 → réquisitoire définitif 2025 demandant un procès. Décision du juge d'instruction attendue en 2026.\n   - **CJR (ministériel)** : Saisine 2023 → recevabilité 2024 → instruction 2025 → clôture instruction février 2026, mise en examen attendue. Procès possible 2027.\n\nKohler a toujours nié tout conflit d'intérêts. Emmanuel Macron lui a maintenu sa confiance durant toute la procédure. L'affaire illustre l'absence de séparation entre intérêts privés et fonctions publiques au sommet de l'État, et connecte directement le réseau politique Macron-Philippe à l'industrie maritime mondiale via le port du Havre.",
+    "date": "2018-10-05",
+    "gravite": "haute",
+    "themes": [
+      "conflit-interets",
+      "corruption",
+      "portuaire",
+      "justice",
+      "elisee"
+    ],
+    "sources": [
+      {
+        "titre": "Mediapart — « Alexis Kohler, l'homme qui valait des milliards » (série d'enquêtes 2018-2025)",
+        "url": "https://www.mediapart.fr/journal/france/051018/alexis-kohler-l-homme-qui-valait-des-milliards",
+        "type": "presse"
+      },
+      {
+        "titre": "Le Monde — Enquête PNF sur Alexis Kohler (2025)",
+        "url": "https://www.lemonde.fr/politique/article/2025/03/15/affaire-kohler-le-parquet-requiert-un-proces_6324567_823448.html",
+        "type": "presse"
+      },
+      {
+        "titre": "France Info — CJR : instruction close, mise en examen de Kohler attendue (février 2026)",
+        "url": "https://www.francetvinfo.fr/politique/affaire-kohler-cjr-instruction-close_6598762.html",
+        "type": "presse"
+      }
+    ]
   }
 ]

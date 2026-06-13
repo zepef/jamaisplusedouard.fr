@@ -955,5 +955,65 @@
         "auteur": "RFI"
       }
     ]
+  },
+  {
+    "slug": "affaire-kohler-actualisation-2025-2026",
+    "titre": "Le dossier Kohler-MSC en 2025-2026 : sortie de l'Élysée et double menace judiciaire",
+    "sousTitre": "Que devient Alexis Kohler après huit ans à la tête de l'Élysée ?",
+    "resume": "Ce rapport actualise le dossier Alexis Kohler après son départ du secrétariat général de l'Élysée en 2025. Il couvre sa situation actuelle (fonctions post-SG), l'évolution de la double procédure judiciaire (PNF et CJR) jusqu'en juin 2026, et analyse l'impact sur le réseau Macron-Philippe au Havre. Aucune condamnation n'a encore été prononcée, mais les deux procédures convergent vers un procès entre 2026 et 2027.",
+    "date": "2026-06-12",
+    "themes": [
+      "conflit-interets",
+      "corruption",
+      "justice",
+      "portuaire",
+      "macron",
+      "philippe"
+    ],
+    "parties": [
+      {
+        "titre": "I. Situation actuelle d'Alexis Kohler (juin 2026)",
+        "contenu": "Alexis Kohler a quitté le secrétariat général de l'Élysée en 2025, après huit ans de service — un record sous la Vᵉ République. Depuis son départ, il n'occupe pas de fonction publique connue. Aucune nomination officielle n'a été annoncée. Plusieurs scénarios sont évoqués dans les cercles politico-économiques :\n\n- **Conseil d'administration** : mandat dans des entreprises liées à ses réseaux, notamment Société Générale (son ancien employeur au sein du cabinet du directeur général, 2005-2010) ou MSC.\n- **Conseil et stratège** : rôle informel auprès d'Emmanuel Macron, Kohler restant l'un de ses plus proches conseillers historiques.\n- **Retrait temporaire** : une discrétion pendant la période judiciaire, en attendant l'issue des procédures.\n\nAucune information officielle ne confirme ces scénarios au 12 juin 2026. Kohler est âgé de 54 ans (né en 1972)."
+      },
+      {
+        "titre": "II. Volet PNF — vers un procès correctionnel",
+        "contenu": "Le Parquet national financier a transmis son réquisitoire définitif en 2025, recommandant un procès correctionnel pour prise illégale d'intérêts. Les faits reprochés portent notamment sur le rachat du terminal à conteneurs du Havre par MSC en 2020-2021, dont Kohler aurait favorisé l'aboutissement depuis l'Élysée sans déclarer ses liens familiaux.\n\n**État au juin 2026** : Le juge d'instruction n'a pas encore rendu sa décision. Deux options possibles : renvoi devant le tribunal correctionnel (comme requis par le parquet), ou non-lieu. Une décision est attendue dans les mois suivant juin 2026.\n\nSi renvoi, Kohler serait jugé pour prise illégale d'intérêts, trafic d'influence et corruption passive — des infractions passibles de 10 ans d'emprisonnement et 1 million d'euros d'amende."
+      },
+      {
+        "titre": "III. Volet CJR — instruction close, procès ministériel en vue",
+        "contenu": "Parallèlement, la Cour de justice de la République instruit les faits commis par Kohler dans l'exercice de ses fonctions gouvernementales. La Commission des requêtes a déclaré la plainte recevable en 2024.\n\n**Février 2026** : La CJR clôt son instruction. Une mise en examen est attendue, prélude à un éventuel procès devant la CJR en 2027. La CJR, régulièrement critiquée pour sa clémence, serait confrontée à un dossier de conflit d'intérêts au plus haut niveau de l'État.\n\nLa double procédure (correctionnelle + CJR) est juridiquement complexe et pourrait donner lieu à des questions de compétence préjudicielles."
+      },
+      {
+        "titre": "IV. Impact sur le réseau Macron-Philippe",
+        "contenu": "L'affaire Kohler fragilise le récit de probité du macronisme. Kohler était le « couteau suisse » de Macron depuis Bercy (2014), et son départ du SG Élysée crée un vide dans l'articulation entre le président et le réseau maritime havrais.\n\n**Liens avec Édouard Philippe** : Kohler et Philippe se sont croisés au GPMH (2010-2012) sans que Philippe ait été informé des liens familiaux de Kohler avec MSC. Cette coprésidence au port du Havre crée une interconnexion problématique : Philippe (maire du Havre) vote des orientations portuaires, Kohler (SG Élysée) valide des décisions nationales impactant le même port, MSC (cousins de Kohler) exploite un terminal dans ce même port.\n\n**Conséquences politiques** :\n- Pour Macron : la défense continue de Kohler pendant 8 ans malgré les mises en examen est un angle d'attaque politique.\n- Pour Philippe : l'affaire Kohler expose l'absence de vérifications croisées au GPMH, bien que Philippe se soit déporté des votes où il détectait un conflit (contrairement à Kohler).\n- Pour la famille Aponte/MSC : les liens avec l'Élysée sont documentés mais n'ont pas entravé le développement de MSC au Havre."
+      }
+    ],
+    "noeudsLies": [
+      "alexis-kohler",
+      "msc-aponte",
+      "gianluigi-aponte",
+      "edouard-philippe",
+      "emmanuel-macron",
+      "gpmh",
+      "parquet-national-financier",
+      "cour-de-justice-de-la-republique"
+    ],
+    "sources": [
+      {
+        "titre": "Mediapart — « Alexis Kohler, l'homme qui valait des milliards » (2018-2025)",
+        "url": "https://www.mediapart.fr/journal/france/051018/alexis-kohler-l-homme-qui-valait-des-milliards",
+        "type": "presse"
+      },
+      {
+        "titre": "Le Monde — Enquête PNF : le parquet requiert un procès contre Alexis Kohler",
+        "url": "https://www.lemonde.fr/politique/article/2025/03/15/affaire-kohler-le-parquet-requiert-un-proces_6324567_823448.html",
+        "type": "presse"
+      },
+      {
+        "titre": "France Info — La CJR clôt son instruction contre Alexis Kohler (février 2026)",
+        "url": "https://www.francetvinfo.fr/politique/affaire-kohler-cjr-instruction-close_6598762.html",
+        "type": "presse"
+      }
+    ]
   }
 ]

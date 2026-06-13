@@ -341,5 +341,75 @@
     "description": "Un sondage Elabe de mars 2026 donne Philippe battant Marine Le Pen au second tour (53%-47%) et Jordan Bardella (51.5%-48.5%). Cependant, il fait face à une concurrence croissante de Bruno Retailleau (LR) et Gabriel Attal (Renaissance) qui fragmentent l'électorat de droite et du centre.",
     "categorie": "carriere",
     "section": "Présidentielle 2027"
+  },
+  {
+    "annee": "2023-07",
+    "titre": "CMA CGM (Saadé) rachète La Tribune",
+    "description": "Finalisation du rachat de 100 % du groupe Hima (La Tribune, La Tribune Dimanche) par CMA CGM via sa filiale CMA Média. Rodolphe Saadé ajoute un titre économique à son empire médiatique aux côtés de BFM TV, RMC, La Provence et Corse-Matin.",
+    "categorie": "controverse",
+    "section": "Médias"
+  },
+  {
+    "annee": "2024-07",
+    "titre": "CMA CGM (Saadé) rachète BFM TV et RMC",
+    "description": "Finalisation le 2 juillet 2024 du rachat d'Altice Media (BFM TV, RMC, BFM Business) à Patrick Drahi par CMA CGM pour 1,55 milliard d'euros. Rodolphe Saadé devient l'un des principaux propriétaires de médias en France, avec une ligne éditoriale structurellement favorable à la Macronie et à Édouard Philippe.",
+    "categorie": "controverse",
+    "section": "Médias"
+  },
+  {
+    "annee": "2017-05",
+    "titre": "Nomination d'Alexis Kohler comme secrétaire général de l'Élysée",
+    "description": "Emmanuel Macron nomme Alexis Kohler, son ancien directeur de cabinet à Bercy, au poste de secrétaire général de la présidence de la République. Kohler devient le deuxième personnage de l'État, coordonnant l'ensemble de l'action gouvernementale. Il conserve ce poste pendant huit ans, jusqu'en 2025 — un record de longévité sous la Vᵉ République.",
+    "categorie": "carriere",
+    "section": "Pouvoir"
+  },
+  {
+    "annee": "2018",
+    "titre": "Révélations Mediapart — liens Kohler-MSC",
+    "description": "Mediapart publie une enquête révélant les liens familiaux d'Alexis Kohler avec la famille Aponte, fondatrice de MSC (Mediterranean Shipping Company). Kohler a siégé au conseil de surveillance du Grand Port Maritime du Havre (2010-2012) sans déclarer ces liens, et a participé à des votes impliquant MSC. Le PNF ouvre une enquête préliminaire.",
+    "categorie": "controverse",
+    "section": "Affaire MSC"
+  },
+  {
+    "annee": "2022-09",
+    "titre": "Mise en examen d'Alexis Kohler",
+    "description": "Alexis Kohler est mis en examen pour prise illégale d'intérêts, trafic d'influence et corruption passive dans l'affaire MSC/Aponte. Il est le plus haut responsable de l'État en exercice jamais mis en examen. Macron lui maintient sa confiance et il reste en poste.",
+    "categorie": "controverse",
+    "section": "Affaire MSC"
+  },
+  {
+    "annee": "2023",
+    "titre": "Saisine de la CJR par le PNF contre Kohler",
+    "description": "Le PNF saisit la Commission des requêtes de la Cour de justice de la République pour des faits commis par Kohler dans le cadre de ses fonctions gouvernementales (décisions ayant favorisé MSC). Double procédure : correctionnelle (PNF) et ministérielle (CJR).",
+    "categorie": "controverse",
+    "section": "Affaire MSC"
+  },
+  {
+    "annee": "2024",
+    "titre": "Recevabilité de la plainte devant la CJR",
+    "description": "La Commission des requêtes de la CJR déclare recevable la plainte visant Alexis Kohler pour des faits commis entre 2017 et 2020 dans le cadre de ses fonctions. L'instruction est ouverte.",
+    "categorie": "controverse",
+    "section": "Affaire MSC"
+  },
+  {
+    "annee": "2025",
+    "titre": "Départ d'Alexis Kohler du secrétariat général de l'Élysée",
+    "description": "Après huit ans comme secrétaire général de l'Élysée, Alexis Kohler quitte son poste. Ce départ met fin au record de longévité au poste non-élu le plus puissant de France. Ses fonctions exactes depuis son départ restent à préciser — il n'occupe pas de poste public connu au 1er semestre 2026. Des rumeurs évoquent des mandats dans le conseil d'administration d'entreprises liées à ses réseaux (Société Générale, MSC).",
+    "categorie": "carriere",
+    "section": "Pouvoir"
+  },
+  {
+    "annee": "2025",
+    "titre": "Réquisitoire définitif du PNF — procès requis",
+    "description": "Le Parquet national financier transmet son réquisitoire définitif recommandant un procès correctionnel pour prise illégale d'intérêts concernant des décisions ayant favorisé MSC (rachat du terminal à conteneurs du Havre, notamment). Le juge d'instruction doit décider renvoi ou non-lieu.",
+    "categorie": "controverse",
+    "section": "Affaire MSC"
+  },
+  {
+    "annee": "2026-02",
+    "titre": "CJR — clôture de l'instruction, mise en examen attendue",
+    "description": "La Cour de justice de la République clôt son instruction. Une mise en examen de Kohler est attendue dans les mois suivants. Un procès devant la CJR pourrait intervenir en 2027. Aucune condamnation prononcée à ce jour.",
+    "categorie": "controverse",
+    "section": "Affaire MSC"
   }
 ]
