@@ -61,14 +61,18 @@ def search_tavily(query):
     )
     try:
         resp = urllib.request.urlopen(req, timeout=30)
-        return json.loads(resp.read())
+        return json.loads(resp.read()), None
     except Exception as e:
         print(f"  [WARN] Tavily error: {e}", flush=True)
-        return {"results": []}
+        return {"results": []}, str(e)
 
 
 def main():
     print(f"[veille] {datetime.now(timezone.utc).isoformat()} — Démarrage", flush=True)
+
+    # Identité git (clone frais = pas de config locale)
+    git(["config", "user.name", "Bot Veille"])
+    git(["config", "user.email", "veille@jamaisplusedouard.fr"])
 
     # 1. Git pull
     r = git(["pull", "--quiet"])
@@ -85,16 +89,30 @@ def main():
     # 3. Collecte Tavily
     all_results = []
     seen_urls = set()
+    errors = 0
     for q in QUEBEC:
         print(f"[veille] Recherche: {q[:60]}...", flush=True)
-        res = search_tavily(q)
+        res, err = search_tavily(q)
+        if err:
+            errors += 1
         for r in res.get("results", []):
             url = r.get("url", "")
             if url and url not in seen_urls and url.startswith("http"):
                 seen_urls.add(url)
                 all_results.append(r)
 
-    print(f"[veille] {len(all_results)} résultats uniques collectés", flush=True)
+    print(f"[veille] {len(all_results)} résultats uniques collectés ({errors}/{len(QUEBEC)} requêtes en erreur)", flush=True)
+
+    # 3b. PROTECTION — échec d'auth total : ne PAS committer de fichier vide
+    if errors == len(QUEBEC):
+        print("[veille] ⛔ ÉCHEC AUTH TAVILY — toutes les requêtes ont échoué (401 probable). Commit sauté.", flush=True)
+        print("[veille]   Cause probable: TAVILY_API_KEY absente ou invalide sur CET hôte (vérifier .env / env).", flush=True)
+        sys.exit(0)
+
+    # 3c. PROTECTION — seuil minimum : 0 résultat = bruit dans l'historique git, on ne committe pas
+    if not all_results:
+        print("[veille] ⚠️ 0 résultat unique — commit sauté (seuil minimum non atteint).", flush=True)
+        sys.exit(0)
 
     # 4. Production JSON (structure minimaliste — le contenu réel sera enrichi par l'agent)
     output = {
@@ -112,6 +130,9 @@ def main():
             for r in all_results[:10]
         ]
     }
+    if errors > 0:
+        output["_meta"]["degraded"] = True
+        output["_meta"]["degradedReason"] = f"{errors}/{len(QUEBEC)}_tavily_queries_failed"
 
     # Write to data-incoming/
     date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
