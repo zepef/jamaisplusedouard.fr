@@ -2,7 +2,8 @@
   "_meta": {
     "source": "exemple.docx",
     "producer": "hermes",
-    "generatedAt": "2026-04-09T08:00:00Z"
+    "generatedAt": "2026-04-09T08:00:00Z",
+    "note": "Pour le flux ledger Matraquage (section apparitions), le producteur est PasEdouard."
   },
   "reseau": [
     {
@@ -54,6 +55,18 @@
       "sources": [
         { "titre": "Document officiel", "url": "https://example.org/doc", "type": "officiel" }
       ]
+    }
+  ],
+  "apparitions": [
+    {
+      "chaineSlug": "l-express",
+      "date": "2026-08-01",
+      "emission": "Exemple — fixture PasEdouard (EXAMPLE.json est ignoré par l'intégrateur)",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Entrée d'exemple pour le contrat apparitions. Ne pas intégrer : les fichiers EXAMPLE.json sont exclus.",
+      "url": "https://www.lexpress.fr/exemple-pasedouard-fixture"
     }
   ]
 }
