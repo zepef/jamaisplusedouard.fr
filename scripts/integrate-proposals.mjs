@@ -153,6 +153,7 @@ function matchingClose(src, openIdx, openCh, closeCh) {
   let escape = false;
   for (let i = openIdx; i < src.length; i++) {
     const c = src[i];
+    const next = src[i + 1];
     if (inStr) {
       if (escape) {
         escape = false;
@@ -163,6 +164,17 @@ function matchingClose(src, openIdx, openCh, closeCh) {
         continue;
       }
       if (c === quote) inStr = false;
+      continue;
+    }
+    // Les commentaires TS (ex. « l'implémentation ») ne doivent pas compter comme des strings.
+    if (c === "/" && next === "/") {
+      const eol = src.indexOf("\n", i);
+      i = eol === -1 ? src.length : eol;
+      continue;
+    }
+    if (c === "/" && next === "*") {
+      const end = src.indexOf("*/", i + 2);
+      i = end === -1 ? src.length : end + 1;
       continue;
     }
     if (c === "\"" || c === "'" || c === "`") {
@@ -308,12 +320,15 @@ function main() {
   }
 
   let mediaSrc = fs.existsSync(MEDIA_DATA) ? fs.readFileSync(MEDIA_DATA, "utf-8") : "";
-  let mediaIndex;
+  let mediaIndex = { slugs: new Set(), urls: new Set(), triples: new Set() };
+  let mediaIndexOk = false;
   try {
-    mediaIndex = mediaSrc ? loadMediaIndex(mediaSrc) : { slugs: new Set(), urls: new Set(), triples: new Set() };
+    if (mediaSrc) {
+      mediaIndex = loadMediaIndex(mediaSrc);
+      mediaIndexOk = true;
+    }
   } catch (e) {
     console.log(`[integrate] Impossible de lire lib/media-data.ts : ${e.message}`);
-    mediaIndex = { slugs: new Set(), urls: new Set(), triples: new Set() };
   }
   const pendingApparitions = [];
 
@@ -373,47 +388,52 @@ function main() {
 
     const incomingApparitions = payload.apparitions;
     if (Array.isArray(incomingApparitions)) {
-      let added = 0;
-      let skipped = 0;
-      incomingApparitions.forEach((item, i) => {
-        const errs = [];
-        validateApparition(item, errs, i);
-        if (errs.length > 0) {
-          fileReport.errors.push(...errs);
-          report.totals.invalid++;
-          return;
-        }
-        const slug = item.chaineSlug.trim();
-        if (!mediaIndex.slugs.has(slug)) {
-          fileReport.errors.push(
-            `apparitions[${i}].chaineSlug inconnu (« ${slug} ») — entrée ignorée`
-          );
-          skipped++;
-          return;
-        }
-        if (apparitionIsDup(item, mediaIndex.urls, mediaIndex.triples)) {
-          skipped++;
-          return;
-        }
-        const row = {
-          chaineSlug: slug,
-          date: item.date.trim(),
-          emission: item.emission.trim(),
-          dureeMinutes: item.dureeMinutes,
-          type: item.type,
-          tonalite: item.tonalite,
-          resume: item.resume.trim(),
-        };
-        if (isStr(item.url)) row.url = item.url.trim();
-        pendingApparitions.push(row);
-        rememberApparition(row, mediaIndex.urls, mediaIndex.triples);
-        added++;
-        mediaChanged = true;
-      });
-      if (added) fileReport.added.apparitions = added;
-      if (skipped) fileReport.skipped.apparitions = skipped;
-      report.totals.added += added;
-      report.totals.skipped += skipped;
+      if (!mediaIndexOk) {
+        fileReport.errors.push("apparitions ignorées : impossible de parser lib/media-data.ts");
+        report.totals.invalid++;
+      } else {
+        let added = 0;
+        let skipped = 0;
+        incomingApparitions.forEach((item, i) => {
+          const errs = [];
+          validateApparition(item, errs, i);
+          if (errs.length > 0) {
+            fileReport.errors.push(...errs);
+            report.totals.invalid++;
+            return;
+          }
+          const slug = item.chaineSlug.trim();
+          if (!mediaIndex.slugs.has(slug)) {
+            fileReport.errors.push(
+              `apparitions[${i}].chaineSlug inconnu (« ${slug} ») — entrée ignorée`
+            );
+            skipped++;
+            return;
+          }
+          if (apparitionIsDup(item, mediaIndex.urls, mediaIndex.triples)) {
+            skipped++;
+            return;
+          }
+          const row = {
+            chaineSlug: slug,
+            date: item.date.trim(),
+            emission: item.emission.trim(),
+            dureeMinutes: item.dureeMinutes,
+            type: item.type,
+            tonalite: item.tonalite,
+            resume: item.resume.trim(),
+          };
+          if (isStr(item.url)) row.url = item.url.trim();
+          pendingApparitions.push(row);
+          rememberApparition(row, mediaIndex.urls, mediaIndex.triples);
+          added++;
+          mediaChanged = true;
+        });
+        if (added) fileReport.added.apparitions = added;
+        if (skipped) fileReport.skipped.apparitions = skipped;
+        report.totals.added += added;
+        report.totals.skipped += skipped;
+      }
     }
 
     // Archiver le fichier traité
