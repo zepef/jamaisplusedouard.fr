@@ -72,11 +72,13 @@ Co-Authored-By: Hermes <noreply@hermes>" 2>&1 | tee -a "$LOG_FILE"
 fi
 
 # Contenu publié proposé → branche de revue (jamais de merge direct sur main).
-if ! git diff --quiet lib/data/; then
+# lib/data/*.json (réseau/timeline/controverses/investigations) et
+# lib/media-data.ts (apparitions Matraquage, append-only).
+if ! git diff --quiet -- lib/data/ lib/media-data.ts; then
   BRANCH="veille/incoming-$(date +%Y%m%d-%H%M)"
   log "Nouveau contenu proposé → branche $BRANCH (revue requise)."
   git checkout -b "$BRANCH" 2>&1 | tee -a "$LOG_FILE"
-  git add lib/data/
+  git add lib/data/ lib/media-data.ts
   git commit -m "veille: propositions de contenu $(date +%Y-%m-%d_%H:%M) — revue requise [hermes-local]
 
 Co-Authored-By: Hermes <noreply@hermes>" 2>&1 | tee -a "$LOG_FILE"

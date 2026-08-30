@@ -1,6 +1,6 @@
 # Contrat d'intégration de la veille (Hermès → contenu publié)
 
-Hermès dépose des fichiers JSON **structurés** dans `data-incoming/` (via git commit/push sur `main`). Le cron Elestio lance `scripts/integrate-proposals.mjs`, qui valide, dédoublonne et fusionne les nouvelles entrées dans `lib/data/*.json`, puis pousse une **branche de revue** `veille/incoming-<date>`. Aucune écriture directe sur `main` pour le contenu publié : vous validez via Pull Request.
+Hermès (et le ledger **PasEdouard** pour les apparitions médias) dépose des fichiers JSON **structurés** dans `data-incoming/` (via git commit/push sur `main`). `scripts/integrate-proposals.mjs` valide, dédoublonne et fusionne les nouvelles entrées dans `lib/data/*.json` et, pour `apparitions`, **append** dans `lib/media-data.ts` (jamais d'écrasement), puis le cron local pousse une **branche de revue** `veille/incoming-<date>`. Aucune écriture directe sur `main` pour le contenu publié : vous validez via Pull Request.
 
 ## Format de fichier (`data-incoming/<nom>.json`)
 
@@ -10,7 +10,8 @@ Hermès dépose des fichiers JSON **structurés** dans `data-incoming/` (via git
   "reseau": [ /* PersonneReseau[] */ ],
   "timeline": [ /* TimelineEvent[] */ ],
   "controverses": [ /* Controverse[] */ ],
-  "investigations": [ /* Investigation[] */ ]
+  "investigations": [ /* Investigation[] */ ],
+  "apparitions": [ /* ApparitionMedia[] — flux ledger : producer PasEdouard */ ]
 }
 ```
 
@@ -41,6 +42,19 @@ Les fichiers nommés `manifest.json`, `EXAMPLE.json` ou commençant par `_` sont
 - `noeudsLies`* : string[] (slugs de nœuds réseau liés)
 - `sources`* : `{ titre*, url?, type* ∈ presse|officiel|social|registre }[]`
 
+### ApparitionMedia (apparitions) — Matraquage
+Cible : `export const apparitions` dans `lib/media-data.ts` (append-only).
+**Producteur du flux ledger** : `PasEdouard` (`_meta.producer`).
+
+- `chaineSlug`* : slug d'une `ChaineMedia` déjà présente dans `lib/media-data.ts`
+- `date`*, `emission`*, `resume`*
+- `dureeMinutes`* : number ≥ 0 (0 = article web / durée inconnue)
+- `type`* ∈ `interview | plateau | reportage | mention | debat`
+- `tonalite`* ∈ `favorable | neutre | critique`
+- `url`?
+
+Un `chaineSlug` inconnu est **ignoré** (pas d'ajout de chaîne automatique) et reporté dans le log d'intégration. Pour qu'un nouveau média soit accepté, ajouter d'abord la `ChaineMedia` correspondante dans `lib/media-data.ts` (PR séparée ou même PR que les slugs).
+
 ## Kill switch (mise en pause depuis le dépôt)
 
 Créer un fichier `data-incoming/PAUSE` suspend **toute la veille** : le cron
@@ -58,8 +72,9 @@ git rm data-incoming/PAUSE && git commit -m "veille: reprise" && git push
 ## Déduplication
 - `reseau` / `controverses` / `investigations` : clé = `slug`
 - `timeline` : clé = `annee` + `titre`
+- `apparitions` : clé = `url` si présente, sinon `chaineSlug` + `date` + `emission`
 
-Une entrée dont la clé existe déjà dans `lib/data/*.json` est **ignorée** (pas d'écrasement). Les entrées invalides sont rejetées et listées dans le rapport ; les entrées valides du même fichier sont tout de même intégrées.
+Une entrée dont la clé existe déjà dans `lib/data/*.json` (ou, pour les apparitions, dans `lib/media-data.ts`) est **ignorée** (pas d'écrasement). Les entrées invalides sont rejetées et listées dans le rapport ; les entrées valides du même fichier sont tout de même intégrées.
 
 ## Canal retour (webapp → Hermès) : `public/bot-exchange/`
 
@@ -82,13 +97,11 @@ La webapp peut **commander une recherche sur un sujet donné** en déposant un m
 **Réponse de Hermès** (toujours en citant l'ordre d'origine dans `_meta` :
 `"inReplyTo": "search-request-...json"`, `"requestId": "sr-..."`) :
 
-- Livrables `reseau` / `timeline` / `controverses` / `investigations` → flux normal
-  ci-dessus : fichier `data-incoming/<nom>.json` → branche de revue `veille/incoming-<date>`.
-- Livrables `apparitions` (temps de passage / matraquage) → **réponse dans
-  `public/bot-exchange/`** (`<slug>-result-AAAA-MM-JJ.json`) : `integrate-proposals.mjs`
-  ne gère pas encore la section `apparitions` de `lib/media-data.ts`. La webapp reverse
-  alors le résultat manuellement (chaque entrée suit le type `ApparitionMedia` :
-  `chaineSlug, date, emission, dureeMinutes, type, tonalite, resume, url?`).
+- Livrables `reseau` / `timeline` / `controverses` / `investigations` / `apparitions`
+  → flux normal ci-dessus : fichier `data-incoming/<nom>.json` → branche de revue
+  `veille/incoming-<date>`. Les apparitions (temps de passage / matraquage) suivent
+  le type `ApparitionMedia` et sont **append** dans `lib/media-data.ts`.
+  Producteur du ledger médias : **PasEdouard**.
 
 Comme pour le reste de la veille, Hermès doit vérifier le **kill switch**
 (`data-incoming/PAUSE`) après chaque `git pull` et ne rien committer tant qu'il existe.

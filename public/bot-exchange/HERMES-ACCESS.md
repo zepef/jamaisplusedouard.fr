@@ -40,7 +40,7 @@ Hermès répond de deux façons :
 | Livrable | Destination | Format |
 |---|---|---|
 | `reseau`, `timeline`, `controverses`, `investigations` | `data-incoming/<nom>.json` → branche de revue `veille/incoming-<date>` | Schémas dans `scripts/veille-contract.md` |
-| `apparitions` (temps de passage) | `public/bot-exchange/<slug>-result-AAAA-MM-JJ.json` | `ApparitionMedia[]` : `{ chaineSlug, date, emission, dureeMinutes, type, tonalite, resume, url? }` |
+| `apparitions` (temps de passage / ledger PasEdouard) | `data-incoming/<nom>.json` (`apparitions`[]) → append `lib/media-data.ts` sur branche de revue | `ApparitionMedia` : `{ chaineSlug, date, emission, dureeMinutes, type, tonalite, resume, url? }` |
 
 Hermès cite toujours le fichier d'origine dans `_meta.inReplyTo` et le `requestId` dans `_meta`.
 

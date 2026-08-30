@@ -91,7 +91,8 @@ Le bot-exchange est principalement **sortant** (webapp → Hermès). Pour donner
 brief, Hermès suit le flux normal du contrat de veille :
 
 1. Construire un fichier `data-incoming/<nom>.json` (schémas `reseau` / `timeline` /
-   `controverses` / `investigations` — voir `scripts/veille-contract.md`).
+   `controverses` / `investigations` / `apparitions` — voir `scripts/veille-contract.md`).
+   Le flux ledger Matraquage utilise `_meta.producer: "PasEdouard"`.
 2. Dans `_meta`, citer le brief d'origine, p. ex. :
    `"_meta": { "producer": "hermes", "inReplyTo": "media-ownership-brief-2026-06-11.json", "generatedAt": "..." }`.
 3. `git commit && git push` sur `main`. Le cron lance `integrate-proposals.mjs`, qui
