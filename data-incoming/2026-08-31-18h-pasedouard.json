@@ -1,0 +1,120 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-08-31-18h.json)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-08-31T16:13:13Z",
+    "note": "Vague JPE Livre 31 août 18h. 16 pubs ledger ; n'inclut pas la vague PR#3. tonalite neutre, dureeMinutes 0. Pas de nouvelles ChaineMedia."
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "tf1-info",
+      "date": "2026-08-30",
+      "emission": "Législatives : Édouard Philippe veut créer un \"nouveau parti\" ou une \"confédération de partis\" avec des \"candidats uniques\"",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "À Tourcoing, Philippe refuse de considérer la victoire de Le Pen comme jouée et propose un nouveau parti ou une confédération avec candidats uniques par circonscription pour les législatives suivant la présidentielle.",
+      "url": "https://www.tf1info.fr/politique/legislatives-philippe-veut-creer-un-nouveau-parti-ou-une-confederation-de-partis-avec-des-candidats-uniques-2461280.html"
+    },
+    {
+      "chaineSlug": "france-3",
+      "date": "2026-08-30",
+      "emission": "En campagne pour 2027, Édouard Philippe sert des frites avec Gérald Darmanin à Tourcoing",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Reportage : Philippe et Darmanin servent des frites au camion Frénoi puis s'expriment devant plus de 600 personnes. Darmanin: « la seule personne qui peut gagner ». Philippe esquisse un nouveau parti / confédération, sans préciser la retraite à 67 ans.",
+      "url": "https://france3-regions.franceinfo.fr/hauts-de-france/nord-0/tourcoing/en-campagne-pour-2027-edouard-philippe-sert-des-frites-avec-gerald-darmanin-a-tourcoing-3408611.html"
+    },
+    {
+      "chaineSlug": "les-echos",
+      "date": "2026-08-30",
+      "emission": "« Je serai ton premier matelot » : à Tourcoing, Gérald Darmanin et Edouard Philippe mettent en scène leur alliance pour la présidentielle",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Reportage : première apparition commune depuis le ralliement de mi-août. Darmanin pose des conditions (retraite 67 ans, immigration). Philippe: « J'ai entendu tes attentes » ; pas d'immigration zéro sauf Mayotte ; nouveau parti/confédération. Darmanin se dit « premier matelot » du « capitaine ».",
+      "url": "https://www.lesechos.fr/elections/presidentielle/je-serai-ton-premier-matelot-a-tourcoing-gerald-darmanin-et-edouard-philippe-mettent-en-scene-leur-alliance-pour-la-presidentielle-2248873"
+    },
+    {
+      "chaineSlug": "la-voix-du-nord",
+      "date": "2026-08-30",
+      "emission": "Présidentielle 2027 : à Tourcoing, Édouard Philippe et Gérald Darmanin mettent en scène leur ralliement",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Article abonné : quatrième rentrée de Populaires à Tourcoing, mise en scène du ralliement de Darmanin à Philippe moins de deux semaines après l'annonce, « aux allures de fête de fiançailles ».",
+      "url": "https://www.lavoixdunord.fr/1732943/article/2026-08-30/presidentielle-2027-tourcoing-edouard-philippe-et-gerald-darmanin-mettent-en"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-08-30",
+      "emission": "Présidentielle 2027 : à Tourcoing, Édouard Philippe enrôle Gérald Darmanin dans sa campagne et se projette sur une future « majorité absolue »",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Reportage envoyé spécial : Darmanin met en scène son soutien ; Philippe reste flou sur le programme (droite sociale) et se projette vers une « majorité absolue » en cas de victoire.",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-a-tourcoing-edouard-philippe-enrole-gerald-darmanin-dans-sa-campagne-et-se-projette-sur-une-future-majorite-absolue-20260830"
+    },
+    {
+      "chaineSlug": "le-monde",
+      "date": "2026-08-31",
+      "emission": "Présidentielle 2027 : Edouard Philippe poursuit son pari du rassemblement de la droite et du centre face à la pression de ses challengers et aux appels à la primaire",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Décryptage (modifié 10h30) : à Tourcoing, Darmanin s'affiche en soutien ; Philippe veut un « nouveau parti » ou une « confédération ». Premier « seul-en-scène » depuis la rentrée, devant une soixantaine de parlementaires. Rappel des propositions (Mayotte, enseignants +20 %, chômage 12 mois).",
+      "url": "https://www.lemonde.fr/politique/article/2026/08/31/presidentielle-2027-edouard-philippe-poursuit-son-pari-du-rassemblement-de-la-droite-et-du-centre-face-a-la-pression-de-ses-challengers-et-aux-appels-a-la-primaire_6762138_823448.html"
+    },
+    {
+      "chaineSlug": "lcp",
+      "date": "2026-08-31",
+      "emission": "\"Nouveau parti\", \"bannière commune\", candidats uniques… comment Édouard Philippe prépare déjà la bataille des législatives",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Analyse (avec AFP) du plan législatif esquissé à Tourcoing : contrat de majorité, bannière commune, valeurs du rassemblement. Darmanin: « Je serai heureux d'être ton premier matelot », ambition Matignon évoquée.",
+      "url": "https://lcp.fr/actualites/nouveau-parti-banniere-commune-candidats-uniques-comment-edouard-philippe-prepare-deja"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-08-31",
+      "emission": "Présidentielle 2027 : Maud Bregeon estime « qu'il n'y a plus match » entre Philippe et Attal, et que « le temps de la primaire est terminé »",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Bregeon, soutien de Philippe, juge « qu'il n'y a plus match » à droite et au centre, dénonce « l'hypocrisie » des appels à une primaire, et appelle Attal, Retailleau, Bertrand et Wauquiez à se ranger derrière le maire du Havre. Sondage Elabe 17–20,5 % vs Attal 12 %.",
+      "url": "https://www.lefigaro.fr/politique/presidentielle-2027-maud-bregeon-estime-qu-il-n-y-a-plus-match-entre-philippe-et-attal-et-que-le-temps-de-la-primaire-est-termine-20260831"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-08-31",
+      "emission": "\"Il n'y a pas match\": pour Maud Bregeon, Édouard Philippe est le seul du bloc central à pouvoir accéder au second tour de la présidentielle",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Compte-rendu de l'interview BFMTV-RMC : Bregeon juge Philippe seul capable d'être au second tour, « il fait le double de ses concurrents ». Sondage Elabe 17–20,5 % ; Attal 6,5 % si les deux sont en lice ; Retailleau 6,5 %.",
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/il-n-y-a-pas-match-pour-maud-bregeon-edouard-philippe-est-le-seul-du-bloc-central-a-pouvoir-acceder-au-second-tour-de-la-presidentielle_AN-202608310259.html"
+    },
+    {
+      "chaineSlug": "ouest-france",
+      "date": "2026-08-31",
+      "emission": "Présidentielles 2027. « Acceptons l'idée qu'il faut stocker l'eau », dit Édouard Philippe auprès des agriculteurs",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Reprise AFP : à Châlons, Philippe défend les retenues collinaires et un effort de compétitivité agricole, contre la surtransposition européenne. Échange avec Arnaud Rousseau (FNSEA).",
+      "url": "https://www.ouest-france.fr/elections/presidentielle/presidentielles-2027-acceptons-lidee-quil-faut-stocker-leau-dit-edouard-philippe-aupres-des-agriculteurs-1481c018-a535-11f1-94d9-ff4da0548a19"
+    },
+    {
+      "chaineSlug": "ouest-france",
+      "date": "2026-08-31",
+      "emission": "Présidentielle 2027. Face à Attal ou Retailleau, « il n'y a pas match », c'est Édouard Philippe, dit Maud Bregeon",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Reprise AFP : Bregeon sur RMC-BFMTV juge qu'il n'y a « pas match » et que « le temps de la primaire est terminé », Philippe étant « le seul à pouvoir faire ce rassemblement-là ».",
+      "url": "https://www.ouest-france.fr/elections/presidentielle/presidentielle-2027-face-a-attal-ou-retailleau-il-ny-a-pas-match-cest-edouard-philippe-dit-maud-bregeon-3407d07a-a518-11f1-94d9-ff4da0548a19"
+    }
+  ]
+}
