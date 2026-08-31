@@ -1,0 +1,210 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-08-30-18h + rematch hors-liste post-PR#1)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-08-31T09:45:00Z",
+    "note": "Déposé par JPE Livre. 8 items temps réel 18h + rematch des pubs hors-liste contre slugs mergés PR#1. tonalite neutre, dureeMinutes 0. Pas de nouvelles ChaineMedia."
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "tf1-info",
+      "date": "2026-08-30",
+      "emission": "Présidentielle 2027 : Édouard Philippe \"est la seule personne\" qui peut \"gagner et gouverner\", selon Gérald Darmanin",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "À Tourcoing, Darmanin (discours de 45 min) déclare qu'Édouard Philippe est « la seule personne qui peut être au second tour […], gagner l'élection présidentielle, avoir une majorité parlementaire ». Il écarte une primaire : « Nous ne pouvons pas avoir plusieurs candidats au premier tour ».",
+      "url": "https://www.tf1info.fr/politique/video-presidentielle-2027-edouard-philippe-est-la-seule-personne-qui-peut-gagner-et-gouverner-selon-gerald-darmanin-49482-2461258.html"
+    },
+    {
+      "chaineSlug": "mediapart",
+      "date": "2026-08-30",
+      "emission": "Édouard Philippe veut créer un « nouveau parti » ou une « confédération de partis » avec des « candidats uniques » aux législatives",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Fil AFP : à Tourcoing, Philippe propose un nouveau parti ou une confédération avec des candidats uniques par circonscription pour les législatives suivant la présidentielle.",
+      "url": "https://www.mediapart.fr/journal/fil-dactualites/300826/edouard-philippe-veut-creer-un-nouveau-parti-ou-une-confederation-de-partis-avec-des-candidats-un"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-08-30",
+      "emission": "EN DIRECT - Présidentielle 2027 : Édouard Philippe veut créer un «nouveau parti» ou une «confédération de partis» avec des «candidats uniques» aux législatives",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Live mis à jour 17h56. Philippe à Tourcoing : nouveau parti/confédération, « je ne promets pas l'immigration zéro, mais je veux qu'on choisisse notre immigration », « dans mon gouvernement, je ne prendrai que les meilleurs ». Darmanin : seule personne qui peut gagner et avoir une majorité. Attal à Châlons : « on n'est pas des photocopies ».",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/en-direct-presidentielle-2027-edouard-philippe-s-exprime-ce-dimanche-chez-gerald-darmanin-a-tourcoing-pour-une-demonstration-de-rassemblement-20260830"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-08-30",
+      "emission": "Édouard Philippe et Gérald Darmanin affichent leur unité à Tourcoing",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Vidéo BFMTV (1 min 27) : première apparition commune à Tourcoing après le ralliement. Citations associées : Darmanin « seule personne qui peut gagner » ; Philippe sur l'immigration choisie et la majorité à l'Assemblée.",
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/video-edouard-philippe-et-gerald-darmanin-affichent-leur-unite-a-tourcoing_VN-202608300227.html"
+    },
+    {
+      "chaineSlug": "rmc",
+      "date": "2026-08-30",
+      "emission": "Présidentielle 2027: Gérald Darmanin accueille Édouard Philippe à Tourcoing ce dimanche",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Segment matinal (1 min 09) annonçant l'accueil de Philippe à Tourcoing pour la rentrée de Darmanin.",
+      "url": "https://rmc.bfmtv.com/replay-emissions/la-matinale-week-end/video-presidentielle-2027-gerald-darmanin-accueille-edouard-philippe-a-tourcoing-ce-dimanche_VN-202608300122.html"
+    },
+    {
+      "chaineSlug": "rmc",
+      "date": "2026-08-30",
+      "emission": "Marine Le Pen annoncée gagnante dans tous les scénarios de la présidentielle: \"Elle domine de manière insolente\", analyse Bruno Jeudy",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Édito sur le sondage Elabe (La Tribune Dimanche/BFMTV) : Le Pen largement en tête ; Philippe consolide sa place dans le bloc central ; Attal recule ; Retailleau à 6–7 %.",
+      "url": "https://rmc.bfmtv.com/replay-emissions/la-matinale-week-end/marine-le-pen-annoncee-gagnante-dans-tous-les-scenarios-de-la-presidentielle-elle-domine-de-maniere-insolente-analyse-bruno-jeudy_AV-202608300159.html"
+    },
+    {
+      "chaineSlug": "rtl",
+      "date": "2026-08-30",
+      "emission": "Présidentielle 2027 : Marine Le Pen largement en tête, Édouard Philippe devant Jean-Luc Mélenchon, selon un sondage",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Sondage Elabe (BFMTV/La Tribune dimanche, 26–28 août) : Le Pen 34 à 35,5 % ; Philippe, seul du bloc central, à 17 % devant Mélenchon (14 %) ; au second tour Le Pen 52,5 % face à Philippe.",
+      "url": "https://www.rtl.fr/actu/politique/presidentielle-2027-marine-le-pen-largement-en-tete-edouard-philippe-devant-jean-luc-melenchon-selon-un-sondage-elabe-7900666748"
+    },
+    {
+      "chaineSlug": "europe-1",
+      "date": "2026-08-30",
+      "emission": "Présidentielle 2027 : Gabriel Attal assume ses «différences» avec Édouard Philippe et ses «idées d'il y a 20 ans»",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Depuis Châlons-en-Champagne, Attal oppose ses « vraies différences » à Philippe (retraites, « idées d'il y a 20 ans »), moins d'une heure avant l'intervention de Philippe à Tourcoing. Il écarte de facto une primaire.",
+      "url": "https://www.europe1.fr/politique/presidentielle-2027-gabriel-attal-assume-ses-differences-avec-edouard-philippe-et-ses-idees-dil-y-a-20-ans-1044410"
+    },
+    {
+      "chaineSlug": "rmc",
+      "date": "2025-01-08",
+      "emission": "Budget: Edouard Philippe prêt à accepter un \"effort\" \"un peu moindre\" s'il permet de conserver la \"stabilité politique\"",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "Sur France 5, Édouard Philippe se dit prêt à accepter un effort budgétaire un peu moindre (déficit 5,4% plutôt que 5%) pour conserver la stabilité politique et éviter une deuxième motion de censure. Il juge une suspension de la réforme des retraites une « mauvaise idée ».",
+      "url": "https://rmc.bfmtv.com/actualites/politique/budget-edouard-philippe-pret-a-accepter-un-effort-un-peu-moindre-s-il-permet-de-conserver-la-stabilite-politique_AN-202501080977.html"
+    },
+    {
+      "chaineSlug": "l-independant",
+      "date": "2025-01-19",
+      "emission": "Retraites à 67 ans, réduction de la dette, traité franco-algérien… « Revenu d’entre les chauves », Edouard Philippe esquisse son programme pour les élections de 2027",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "À partir de l’entretien au Parisien, l’article résume les pistes de Philippe pour 2027 : dette, retraites, service militaire et traité franco-algérien.",
+      "url": "https://www.lindependant.fr/2025/01/19/retraites-a-67-ans-reduction-de-la-dette-traite-franco-algerien-revenu-dentre-les-chauves-edouard-philippe-esquisse-son-programme-pour-les-elections-12455486.php"
+    },
+    {
+      "chaineSlug": "rmc",
+      "date": "2025-01-26",
+      "emission": "Edouard Philippe, tourné vers 2027, apporte un soutien \"sans illusions\" au gouvernement",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Compte-rendu du meeting régional Horizons à Bordeaux: soutien « sans illusions » au gouvernement Bayrou, mise en garde contre la proportionnelle, appel à un « bloc républicain et démocrate » pour les municipales et 2027.",
+      "url": "https://rmc.bfmtv.com/actualites/politique/edouard-philippe-tourne-vers-2027-apporte-un-soutien-sans-illusions-au-gouvernement_AD-202501260402.html"
+    },
+    {
+      "chaineSlug": "paris-normandie",
+      "date": "2025-02-03",
+      "emission": "Le Havre : dans l’affaire Édouard Philippe, la plaignante obtient le statut de lanceuse d’alerte",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "La plaignante dans l’enquête visant le maire du Havre pour prise illégale d’intérêts, détournement de fonds publics, favoritisme et harcèlement moral obtient le statut de lanceuse d’alerte.",
+      "url": "https://www.paris-normandie.fr/id602905/article/2025-02-03/le-havre-dans-laffaire-edouard-philippe-la-plaignante-obtient-le-statut-de"
+    },
+    {
+      "chaineSlug": "tf1-info",
+      "date": "2025-02-23",
+      "emission": "\"Elle ne me fait pas peur\" : sur LCI, Edouard Philippe dit \"avoir envie de battre Marine Le Pen\"",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "Compte-rendu TF1/LCI de l’entretien Rochebin au Havre: Philippe veut battre Le Pen dans les urnes tout en estimant utile que les magistrats appliquent la loi dans l’affaire des assistants RN.",
+      "url": "https://www.tf1info.fr/politique/election-presidentielle-2027-elle-ne-me-fait-pas-peur-sur-lci-edouard-philippe-dit-avoir-envie-de-battre-marine-le-pen-2355729.html"
+    },
+    {
+      "chaineSlug": "tf1-info",
+      "date": "2025-02-24",
+      "emission": "Présidentielle : Édouard Philippe \"confirme\" vouloir accéder au pouvoir",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "Clip TF1 Info: interrogé par Darius Rochebin sur LCI, Philippe confirme son envie d’accéder au pouvoir après avoir « pris beaucoup de temps » à décider.",
+      "url": "https://www.tf1info.fr/politique/videos/video-presidentielle-edouard-philippe-confirme-vouloir-acceder-au-pouvoir-7548-2355943.html"
+    },
+    {
+      "chaineSlug": "l-independant",
+      "date": "2025-03-12",
+      "emission": "Candidat à l'élection présidentielle, Edouard Philippe attendu dans l’Aude le 25 mars",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Annonce d’un déplacement du président d’Horizons à Carcassonne et Narbonne le 25 mars, avec une halte à Trèbes chez Éric Ménassi.",
+      "url": "https://www.lindependant.fr/2025/03/12/candidat-a-lelection-presidentielle-edouard-philippe-attendu-dans-laude-le-25-mars-12565846.php"
+    },
+    {
+      "chaineSlug": "huffpost",
+      "date": "2025-03-16",
+      "emission": "Édouard Philippe répond (sèchement) à François Bayrou, qui n’a pas aimé ses remarques sur les retraites",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Après que Bayrou a accusé Philippe de négliger la démocratie sociale, l’ancien Premier ministre répond via l’AFP et au meeting de Lille que le conclave n’a plus d’objet.",
+      "url": "https://www.huffingtonpost.fr/politique/article/edouard-philippe-repond-sechement-a-francois-bayrou-qui-n-a-pas-aime-ses-remarques-sur-le-conclave_247527.html"
+    },
+    {
+      "chaineSlug": "tf1-info",
+      "date": "2025-03-16",
+      "emission": "Édouard Philippe dévoile sa feuille de route en cas d'élection à la présidentielle de 2027",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Congrès Horizons à Lille (~1600 personnes): dissolution, référendums sur les retraites et une « règle d’or » budgétaire, ordonnances justice/éducation/santé; programme en mai 2026; piques à François Bayrou.",
+      "url": "https://www.tf1info.fr/politique/ancien-premier-ministre-et-maire-du-havre-edouard-philippe-devoile-sa-feuille-de-route-en-cas-d-election-a-la-presidentielle-de-2027-2359655.html"
+    },
+    {
+      "chaineSlug": "l-independant",
+      "date": "2025-03-24",
+      "emission": "Déplacement d’Edouard Philippe dans l’Aude et les Pyrénées-Orientales : « Quand on a envie de proposer un projet aux Français, il faut s’imprégner de la réalité »",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "Entretien avant une tournée dans l’Aude (25 mars) et les Pyrénées-Orientales (26 mars) : Philippe dit préférer écouter les territoires plutôt que « être dans la capitale ».",
+      "url": "https://www.lindependant.fr/2025/03/24/deplacement-dedouard-philippe-dans-laude-et-les-pyrenees-orientales-quand-on-a-envie-de-proposer-un-projet-aux-francais-il-faut-simpregner-de-la-12585674.php"
+    },
+    {
+      "chaineSlug": "l-express",
+      "date": "2025-05-21",
+      "emission": "Gestion du Covid-19: non-lieu requis pour trois ex-membres du gouvernement, dont Edouard Philippe",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le procureur général Rémy Heitz requiert un non-lieu à la CJR pour Philippe, Buzyn et Véran, témoins assistés dans l’enquête sur la gestion du Covid-19.",
+      "url": "https://www.lexpress.fr/informations/gestion-du-covid-19-non-lieu-requis-pour-trois-ex-membres-du-gouvernement-dont-edouard-philippe-5FLC4EYK5NGH7BEUUS72HCPZ2A/"
+    },
+    {
+      "chaineSlug": "rfi",
+      "date": "2025-06-04",
+      "emission": "Présidentielle 2027: Édouard Philippe en pleine promotion de son livre et en campagne",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "À la sortie du Prix de nos mensonges, Philippe (France Inter, AFP) critique l’immobilisme macronien, défend capitalisation retraites et immigration de compétences.",
+      "url": "https://www.rfi.fr/fr/france/20250604-pr%C3%A9sidentielle-2027-%C3%A9douard-philippe-en-pleine-promotion-de-son-livre-et-en-campagne"
+    }
+  ]
+}
