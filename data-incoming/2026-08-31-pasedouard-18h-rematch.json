@@ -205,6 +205,206 @@
       "tonalite": "neutre",
       "resume": "À la sortie du Prix de nos mensonges, Philippe (France Inter, AFP) critique l’immobilisme macronien, défend capitalisation retraites et immigration de compétences.",
       "url": "https://www.rfi.fr/fr/france/20250604-pr%C3%A9sidentielle-2027-%C3%A9douard-philippe-en-pleine-promotion-de-son-livre-et-en-campagne"
+    },
+    {
+      "chaineSlug": "rmc",
+      "date": "2025-06-05",
+      "emission": "\"Les pensions sont faibles\": les limites de la retraite par capitalisation voulue par Edouard Philippe",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Décryptage des propos France Inter: l’économiste Michaël Zemmour juge l’exemple allemand « repoussoir » et estime que le système par répartition n’est pas en faillite.",
+      "url": "https://rmc.bfmtv.com/actualites/economie/travail/les-pensions-sont-faibles-les-limites-de-la-retraite-par-capitalisation-voulue-par-edouard-philippe_AV-202506050334.html"
+    },
+    {
+      "chaineSlug": "paris-normandie",
+      "date": "2025-06-23",
+      "emission": "Harcèlement moral, détournement de fonds… Édouard Philippe visé par une plainte en Normandie",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Dépêche AFP : une haute fonctionnaire dépose le 20 juin une plainte pour prise illégale d’intérêts et détournement de fonds visant Philippe et deux autres personnes.",
+      "url": "https://www.paris-normandie.fr/id640453/article/2025-06-23/harcelement-moral-detournement-de-fonds-edouard-philippe-vise-par-une-plainte-en"
+    },
+    {
+      "chaineSlug": "paris-normandie",
+      "date": "2025-06-23",
+      "emission": "Plainte contre Édouard Philippe, la rue Gallieni piétonnisée, le HAC… Le point actu au Havre à 20 h",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Fil local du soir : la plainte du 20 juin contre Philippe pour prise illégale d’intérêts et détournement de fonds est le premier item du point actu havrais.",
+      "url": "https://www.paris-normandie.fr/id640687/article/2025-06-23/plainte-contre-edouard-philippe-la-rue-gallieni-pietonnisee-le-hac-le-point-actu"
+    },
+    {
+      "chaineSlug": "paris-normandie",
+      "date": "2025-07-02",
+      "emission": "Le maire du Havre Édouard Philippe concerné par une deuxième plainte pour violation du secret médical",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Relais du Canard enchaîné : la même plaignante dépose le 20 juin une plainte contre X pour divulgation de données personnelles et violation du secret médical, visant CPAM et Le Havre Seine Métropole.",
+      "url": "https://www.paris-normandie.fr/id642975/article/2025-07-02/le-maire-du-havre-edouard-philippe-vise-par-une-deuxieme-plainte-pour-violation"
+    },
+    {
+      "chaineSlug": "rmc",
+      "date": "2025-07-07",
+      "emission": "Enquête sur la gestion du Covid-19: non-lieu pour Edouard Philippe, Agnès Buzyn et Olivier Véran",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Compte-rendu RMC du non-lieu CJR. Les trois n’étaient pas mis en examen mais témoins assistés; Buzyn: « C'est attendu ».",
+      "url": "https://rmc.bfmtv.com/actualites/societe/sante/enquete-sur-la-gestion-du-covid-19-non-lieu-pour-edouard-philippe-agnes-buzyn-et-olivier-veran_AN-202507070465.html"
+    },
+    {
+      "chaineSlug": "la-croix",
+      "date": "2025-07-07",
+      "emission": "Gestion de Covid : la justice prononce un non-lieu pour Édouard Philippe et deux ex-ministres",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "La CJR prononce le 7 juillet le non-lieu requis en mai pour Philippe, Véran et Buzyn dans l’enquête sur la gestion du Covid-19.",
+      "url": "https://www.la-croix.com/politique/gestion-de-covid-la-justice-prononce-un-non-lieu-pour-edouard-philippe-et-deux-ex-ministres-20250707"
+    },
+    {
+      "chaineSlug": "france-3",
+      "date": "2025-10-07",
+      "emission": "« Le temps presse. » Crise politique : Édouard Philippe demande à Emmanuel Macron d’avancer les élections présidentielles",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Version régionale : Philippe sur RTL (Marc-Olivier Fogiel) parle d’« affaissement de l’État » et dit avoir refusé le ministère des Armées pour garder sa « liberté de parole ».",
+      "url": "https://france3-regions.franceinfo.fr/normandie/seine-maritime/havre/le-temps-presse-edouard-philippe-demande-a-macron-d-organiser-une-presidentielle-anticipee-apres-l-adoption-du-budget-3228920.html"
+    },
+    {
+      "chaineSlug": "huffpost",
+      "date": "2025-10-07",
+      "emission": "Édouard Philippe appelle Emmanuel Macron à organiser une présidentielle anticipée",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Invité de RTL, Philippe refuse une « démission immédiate » mais veut un PM aux affaires courantes puis un départ « ordonné » après le budget.",
+      "url": "https://www.huffingtonpost.fr/politique/article/edouard-philippe-appelle-emmanuel-macron-a-organiser-une-presidentielle-anticipee_255691.html"
+    },
+    {
+      "chaineSlug": "lcp",
+      "date": "2025-10-07",
+      "emission": "Édouard Philippe appelle Emmanuel Macron à organiser une présidentielle anticipée après l'adoption d'un budget",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "LCP reprend l’interview RTL : Philippe n’est « pas pour [la] démission immédiate et brutale » mais pour un départ « de façon ordonnée » après le budget.",
+      "url": "https://lcp.fr/actualites/edouard-philippe-appelle-emmanuel-macron-a-organiser-une-presidentielle-anticipee-apres"
+    },
+    {
+      "chaineSlug": "l-express",
+      "date": "2025-10-07",
+      "emission": "Démission du gouvernement : Elisabeth Borne ouvre la porte à une « suspension » de la réforme des retraites",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Article sur la crise Lecornu ; une section relaye l’appel de Philippe (RTL, Marc-Olivier Fogiel) à une présidentielle anticipée après le budget 2026.",
+      "url": "https://www.lexpress.fr/politique/demission-du-gouvernement-sebastien-lecornu-entame-48-heures-de-negociations-sur-le-fil-XVM6D7P3N5AZXBR7EEOLMQFCOE/"
+    },
+    {
+      "chaineSlug": "liberation",
+      "date": "2025-10-07",
+      "emission": "Edouard Philippe et Gabriel Attal : pourquoi ils tirent sur l’Elysée",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Décryptage : Attal (TF1, 6 oct.) dit ne plus « comprendre » Macron ; Philippe (7 oct.) constate « l’affaissement de l’État » et réclame une présidentielle anticipée.",
+      "url": "https://www.liberation.fr/politique/elections/edouard-philippe-et-gabriel-attal-pourquoi-ils-tirent-sur-lelysee-20251007_PC3AT6VBMNAHVLGCBOHWKK52YA/"
+    },
+    {
+      "chaineSlug": "france-culture",
+      "date": "2025-10-08",
+      "emission": "Un plan P. comme (Édouard) Philippe ?",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Billet politique (3 min): la proposition de présidentielle anticipée brise un tabou venu de l’intérieur du camp présidentiel; analyse de la stratégie de campagne silencieuse et du recul dans les sondages (15-16%).",
+      "url": "https://www.radiofrance.fr/franceculture/podcasts/le-billet-politique/un-plan-p-comme-edouard-philippe-6801230"
+    },
+    {
+      "chaineSlug": "public-senat",
+      "date": "2025-10-14",
+      "emission": "Les propos d'Edouard Philippe appelant à une présidentielle anticipée sont « dangereux », dénonce François Patriat",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "François Patriat, invité de la matinale Public Sénat, qualifie de « dangereux » l’appel de Philippe: la fonction présidentielle serait « à la merci de tous les mouvements populaires ». Il plaide pour réparer le socle commun.",
+      "url": "https://www.publicsenat.fr/actualites/politique/les-propos-dedouard-philippe-appelant-a-une-presidentielle-anticipee-sont-dangereux-denonce-francois-patriat"
+    },
+    {
+      "chaineSlug": "l-express",
+      "date": "2025-10-16",
+      "emission": "« La seule décision digne » : la nouvelle charge d’Edouard Philippe pour une démission d’Emmanuel Macron",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Sur France 2, Philippe dit que le départ anticipé de Macron est « la seule décision digne » pour éviter 18 mois de crise, tout en rejetant une démission « demain matin ».",
+      "url": "https://www.lexpress.fr/politique/la-seule-decision-digne-la-nouvelle-charge-dedouard-philippe-pour-une-demission-demmanuel-macron-6KQV2FKDLVANRGPV4TNW2ZB4UY/"
+    },
+    {
+      "chaineSlug": "tf1-info",
+      "date": "2025-10-16",
+      "emission": "\"La seule décision digne\" : Édouard Philippe appelle de nouveau à une démission d'Emmanuel Macron",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "Compte-rendu TF1 de l’émission France 2: dix jours après RTL, Philippe maintient qu’un départ anticipé est « la seule décision digne » et attribue à Macron « une responsabilité éminente » dans la crise.",
+      "url": "https://www.tf1info.fr/politique/la-seule-decision-digne-edouard-philippe-appelle-de-nouveau-a-une-demission-d-emmanuel-macron-2401045.html"
+    },
+    {
+      "chaineSlug": "rmc",
+      "date": "2025-10-17",
+      "emission": "\"Je ne lui dois rien\": Edouard Philippe appelle de nouveau au départ d'Emmanuel Macron",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "RMC sur L’Événement France 2: Philippe dit « j’ai beaucoup de respect […] mais je ne lui dois rien, il est venu me chercher »; réquisitoire contre le blocage institutionnel et la carte blanche à Lecornu sur les retraites.",
+      "url": "https://rmc.bfmtv.com/actualites/politique/je-ne-lui-dois-rien-edouard-philippe-appelle-de-nouveau-au-depart-d-emmanuel-macron_AN-202510170110.html"
+    },
+    {
+      "chaineSlug": "france-3",
+      "date": "2025-10-17",
+      "emission": "La démission d'Emmanuel Macron, \"seule décision digne\" pour sortir de la crise politique selon Édouard Philippe, candidat à l'Élysée",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "France 3 Normandie: récap de l’intervention France 2; Philippe juge la suspension des retraites une concession qui va trop loin et le renoncement au 49.3 un « pari risqué ».",
+      "url": "https://france3-regions.franceinfo.fr/normandie/seine-maritime/edouard-philippe-candidat-a-l-elysee-la-demission-d-emmanuel-macron-seule-decision-digne-pour-sortir-de-la-crise-politique-3234812.html"
+    },
+    {
+      "chaineSlug": "l-express",
+      "date": "2025-10-17",
+      "emission": "Présidentielle anticipée : la très dangereuse idée d’Edouard Philippe, par Christophe Alonso",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Tribune de droit public : Alonso juge que plaider pour une démission anticipée de Macron est une double erreur d’analyse institutionnelle.",
+      "url": "https://www.lexpress.fr/idees-et-debats/presidentielle-anticipee-la-tres-dangereuse-idee-dedouard-philippe-par-christophe-alonso-C3SXWOFMFJGIBBYY3EG4EUPWIY/"
+    },
+    {
+      "chaineSlug": "public-senat",
+      "date": "2025-11-06",
+      "emission": "Entreprises : Un « deal » à 250 milliards d’euros sur un quinquennat, que représente la proposition d’Édouard Philippe ?",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Décryptage du « deal fiscal » annoncé le 6 novembre (LinkedIn/vidéo): 50 Md€/an de baisse d’impôts de production contre 50 Md€ de baisse d’aides, soit 250 Md€ sur un quinquennat; CVAE, C3S, CFE visés.",
+      "url": "https://www.publicsenat.fr/actualites/economie/entreprises-un-deal-a-250-milliards-deuros-sur-un-quinquennat-que-represente-la-proposition-dedouard-philippe"
+    },
+    {
+      "chaineSlug": "tf1-info",
+      "date": "2025-12-08",
+      "emission": "Budget de la Sécurité sociale : Édouard Philippe déclare sur LCI qu'il recommande « l'abstention » aux députés Horizons",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "Invité d’Objectif 2027 (Darius Rochebin), Philippe dénonce la suspension des retraites et l’augmentation du déficit sous pression du PS, tout en refusant d’être « artisan du chaos ».",
+      "url": "https://www.tf1info.fr/politique/video-objectif-2027-budget-de-la-securite-sociale-edouard-philippe-declare-sur-lci-qu-il-recommande-l-abstention-aux-deputes-horizons-2411595.html"
     }
   ]
 }
