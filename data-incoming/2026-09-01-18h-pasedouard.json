@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-01-18h.json)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-01T16:20:00Z",
+    "note": "Vague JPE Livre 1er sept 18h. 6 pubs ledger ; 3 poussées (le-parisien, la-depeche, boulevard-voltaire). Skips no-slug : Infos Dijon, Challenges, X. tonalite neutre. Pas de nouvelles ChaineMedia. Ne pas renvoyer PR#3/#4/#5."
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-09-01",
+      "emission": "« 67 ans, c’est trop dans un premier temps » : les retraites, la réforme qui colle à la peau d’Édouard Philippe",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Article (paywall partiel) : alors que ses proches le poussent à clarifier l’âge de départ à la retraite, Édouard Philippe refuse toujours un chiffre « totémique » et veut d’abord installer le « combat idéologique » du travailler plus. Un proche cité estime que « 67 ans, c’est trop dans un premier temps ». Date JSON-LD 1er sept. 06h45.",
+      "url": "https://www.leparisien.fr/elections/presidentielle/67-ans-cest-trop-dans-un-premier-temps-les-retraites-la-reforme-qui-colle-a-la-peau-dedouard-philippe-01-09-2026-SDQ3XEZB4ZGINBF4WO7OS72R4I.php"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-09-01",
+      "emission": "Édouard Philippe propose un parti unique de la droite et du centre : réactions mitigées à gauche et chez Gabriel Attal",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Publié le 01/09/2026 à 06:35. Relais des réactions à la proposition formulée à Tourcoing (candidats uniques / nouveau parti ou confédération). Un conseiller d’Attal parle de « tambouille interne » ; perplexité à gauche ; François Bayrou y croit (« un seul candidat » pour l’espace réformiste).",
+      "url": "https://www.ladepeche.fr/2026/09/01/edouard-philippe-propose-un-parti-unique-de-la-droite-et-du-centre-reactions-mitigees-a-gauche-et-chez-gabriel-attal-13529973.php"
+    },
+    {
+      "chaineSlug": "boulevard-voltaire",
+      "date": "2026-09-01",
+      "emission": "[ÉDITO] « Nouveau parti » : Édouard Philippe réinvente le fil à couper le beurre",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Édito critique de la proposition Tourcoing d’un « nouveau parti » ou confédération pour la droite et le centre (candidats uniques) : l’auteur ironise sur le « fil à couper le beurre » et l’UMP réinventée, tout en relevant que la souveraineté est absente des valeurs listées.",
+      "url": "https://www.bvoltaire.fr/edito-nouveau-parti-edouard-philippe-reinvente-le-fil-a-couper-le-beurre/"
+    }
+  ]
+}
