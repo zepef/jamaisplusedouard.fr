@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-01-08h.json)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-01T06:16:56Z",
+    "note": "Vague JPE Livre 1er sept 8h. 4 pubs ledger ; 2 poussées (BFMTV, La Croix). Skips no-slug : L'Union, X. tonalite neutre. Pas de nouvelles ChaineMedia. Ne pas renvoyer PR#3/#4."
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-08-31",
+      "emission": "Édouard Philippe, un homme en campagne - 31/08",
+      "dureeMinutes": 5,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Séquence de 5 min 6 s diffusée dans BFM Grand Soir (Maxime Switek, 21h-00h), mise en ligne à 23h44 le 31 août. Titre : « Édouard Philippe, un homme en campagne ». Description éditeur générique de l’émission ; pas de citation extraite de la vidéo.",
+      "url": "https://www.bfmtv.com/replay-emissions/bfm-grand-soir/video-edouard-philippe-un-homme-en-campagne-31-08_VN-202608310929.html"
+    },
+    {
+      "chaineSlug": "la-croix",
+      "date": "2026-09-01",
+      "emission": "Édouard et madame Union",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Chronique humoristique d’Alain Rémond (rubrique À vif), publiée le 1er septembre à 4h00 : il s’amuse d’un titre d’Ouest-France (« Présidentielle : Édouard Philippe tend la main à l’union ») et imagine Philippe saluant « Madame Union » pour lui tendre la main.",
+      "url": "https://www.la-croix.com/a-vif/edouard-et-madame-union-20260831"
+    }
+  ]
+}
