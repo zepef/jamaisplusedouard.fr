@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-03-08h.json)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-03T06:25:00Z",
+    "note": "Vague JPE Livre 3 sept 08h. 4 pubs ledger ; 2 poussées (france-info-tv, europe-1). Skips no-slug : Sud Ouest, Le Singulier. X needsAuth. tonalite neutre. Ne pas renvoyer PR#3–#8."
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "france-info-tv",
+      "date": "2026-09-03",
+      "emission": "\"Les socialistes la font bien !\" : la droite et le centre peuvent-ils encore organiser une primaire pour la présidentielle de 2027 ?",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Analyse primaire droite/centre (Morin, Wauquiez, Lisnard). Le refus d’EP (« Une primaire, ça sert à quoi ? À accentuer les différences », foire de Châlons) mine le processus ; Attal et Retailleau se disent ouverts. Morin : lourde responsabilité pour qui refuse.",
+      "url": "https://www.franceinfo.fr/elections/presidentielle/les-socialistes-la-font-bien-la-droite-et-le-centre-peuvent-ils-encore-organiser-une-primaire-pour-la-presidentielle-de-2027_8171882.html"
+    },
+    {
+      "chaineSlug": "europe-1",
+      "date": "2026-09-03",
+      "emission": "Les candidats de la droite et du centre toujours divisés à l'idée d'une potentielle primaire",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Attal et Retailleau prêts à une primaire ; EP continue de rejeter (« formidable exercice pour insister sur les divisions »). Hervé Morin l’interpelle sur une « lourde responsabilité » et propose une charte de valeurs.",
+      "url": "https://www.europe1.fr/politique/les-candidats-de-la-droite-et-du-centre-toujours-divises-a-lidee-dune-potentielle-primaire-1050992"
+    }
+  ]
+}
