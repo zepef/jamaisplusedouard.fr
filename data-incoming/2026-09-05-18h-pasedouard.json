@@ -1,0 +1,13 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-05-18h)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-05T16:10:00Z",
+    "note": "Vague JPE Livre 5 sept 18h. 6 pubs ledger ; 3 poussées (france-info-tv x2, le-figaro). Skips no-slug Gentside, Sud Radio, Boursorama AFP. X needsAuth. le-figaro type citation→mention (union fermée). Ne pas renvoyer PR#3–#13."
+  },
+  "apparitions": [
+    {"chaineSlug":"france-info-tv","date":"2026-09-05","emission":"\"On coupe le robinet\" : Marine Le Pen et Edouard Philippe s’affrontent par tweets interposés sur l'aide à l'Ukraine","dureeMinutes":0,"type":"reportage","tonalite":"neutre","resume":"Publié 09h37. Relais Radio France du clash X EP/Le Pen après Aliot « On coupe le robinet ». EP : « voix de la faiblesse et de l’alignement coupable » ; Le Pen « bilan international piteux », Versailles/Brégançon ; Attal « parti de l’étranger ». Page ouverte.","url":"https://www.franceinfo.fr/elections/presidentielle/on-coupe-le-robinet-marine-le-pen-et-edouard-philippe-s-affrontent-par-tweets-interposes-sur-l-aide-a-l-ukraine_8178434.html"},
+    {"chaineSlug":"france-info-tv","date":"2026-09-05","emission":"\"Soumission à la Russie\", \"patriotes de pacotille\"... Les candidats à la présidentielle fustigent la position du RN sur l'aide à l'Ukraine","dureeMinutes":0,"type":"mention","tonalite":"neutre","resume":"Publié 14h21 (MAJ 14h58). Tour d’horizon après Aliot/Jacobelli : EP cité (« Couper le robinet… c’est servir la Russie ») dans la passe d’armes avec Le Pen ; Attal à Lille ; Glucksmann Châlons ; Tondelier. Page ouverte.","url":"https://www.franceinfo.fr/elections/presidentielle/parti-de-la-soumission-a-la-russie-patriotes-de-pacotille-les-candidats-a-la-presidentielle-fustigent-la-position-du-rn-sur-l-aide-a-l-ukraine_8178707.html"},
+    {"chaineSlug":"le-figaro","date":"2026-09-05","emission":"Présidentielle 2027 : «Edouard Philippe nous fera regretter Emmanuel Macron», lance la candidate Écologiste","dureeMinutes":0,"type":"mention","tonalite":"neutre","resume":"Publié 10h41. Vidéo Braderie de Lille : Marine Tondelier cite EP dans le titre (« nous fera regretter Emmanuel Macron »). Titre/URL/date vérifiés (corps vidéo limité cookies). Page ouverte.","url":"https://video.lefigaro.fr/figaro/politique/presidentielle-2027-edouard-philippe-nous-fera-regretter-emmanuel-macron-lance-la-candidate-ecologiste-20260905"}
+  ]
+}
