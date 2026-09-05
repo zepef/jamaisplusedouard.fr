@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-05-08h)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-05T06:10:00Z",
+    "note": "Vague JPE Livre 5 sept 8h. 7 pubs ledger ; 2 poussées (tf1-info, la-voix-du-nord). Skips no-slug L'Internaute x2, Politico Europe, France 24 EN, Boursorama AFP. X needsAuth. Ne pas renvoyer PR#3–#12."
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "tf1-info",
+      "date": "2026-09-04",
+      "emission": "\"Couper le robinet\" à l'Ukraine ? Plusieurs candidats à la présidentielle fustigent la position du RN",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Publié 17h44. Aliot (BFMTV) : « On coupe le robinet ». EP cité longuement (posts X) : servir la Russie, « voix de la faiblesse » ; Le Pen contre-attaque. Aussi Attal, Faure, Glucksmann. Page ouverte. Manqué à la passe 18h.",
+      "url": "https://www.tf1info.fr/politique/couper-le-robinet-a-l-ukraine-plusieurs-candidats-a-la-presidentielle-fustigent-la-position-du-rn-rassemblement-national-marine-le-pen-2462400.html"
+    },
+    {
+      "chaineSlug": "la-voix-du-nord",
+      "date": "2026-09-04",
+      "emission": "Le RN envisage de « couper le robinet » à l’Ukraine, « c’est laisser Poutine gagner », répondent Attal, Philippe et une partie de la gauche",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Publié 17h42. Fil AFP/relais : EP « Couper le robinet à l’Ukraine, c’est servir la Russie » + 2e volée sur les liens Russie ; Attal « parti de l’étranger » ; Faure/Glucksmann ; Le Pen « bilan international piteux ». Titre/URL/date vérifiés (corps partiel). Manqué à la passe 18h.",
+      "url": "https://www.lavoixdunord.fr/1734407/article/2026-09-04/le-rn-envisage-de-couper-le-robinet-l-ukraine-c-est-laisser-poutine-gagner"
+    }
+  ]
+}
