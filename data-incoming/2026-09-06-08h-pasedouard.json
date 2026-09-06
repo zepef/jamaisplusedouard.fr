@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-06-08h)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-06T06:05:00Z",
+    "note": "Vague JPE Livre 6 sept 8h. 8 pubs ledger ; 3 poussées (rtl, la-voix-du-nord, la-depeche). Skips no-slug Sud Ouest, Dauphiné, Télégramme, Objectif Sud, 21 News. X needsAuth. la-voix-du-nord type citation→mention. Ne pas renvoyer PR#3–#14."
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "rtl",
+      "date": "2026-09-05",
+      "emission": "\"Couper le robinet\" de l'aide à l'Ukraine : le RN dans l'embarras après la proposition polémique de Louis Aliot",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Publié 09h43. Rattrapage. Relais clash Ukraine : EP cité en premier (« soutien au régime de Poutine ») après Aliot « on coupe le robinet » ; Attal, Glucksmann ; Le Pen contre-attaque Versailles/Brégançon/Havre 2019 ; Bardella à Londres nuance. Page ouverte.",
+      "url": "https://www.rtl.fr/actu/politique/couper-le-robinet-de-l-aide-a-l-ukraine-le-rn-dans-l-embarras-apres-la-proposition-polemique-de-louis-aliot-7900669145"
+    },
+    {
+      "chaineSlug": "la-voix-du-nord",
+      "date": "2026-09-05",
+      "emission": "Tacle à Edouard Philippe, appel à l’union de la gauche… les messages de Gabriel Attal et Marine Tondelier à la Braderie de Lille",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Publié 16h24. Rattrapage Braderie de Lille : Attal et Tondelier ; Tondelier ironise sur EP « rempart » (« seule personne qui peut nous faire regretter Emmanuel Macron »). Page ouverte (corps partiel).",
+      "url": "https://www.lavoixdunord.fr/1734632/article/2026-09-05/tacle-edouard-philippe-appel-l-union-de-la-gauche-les-messages-de-gabriel-attal"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-09-05",
+      "emission": "Présidentielle 2027 : Marine Le Pen largement en tête, Édouard Philippe s’impose comme le mieux placé derrière elle selon un dernier sondage",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Publié 21h38 (MAJ 06h46 le 6/09). Ipsos/BVA–Le Parisien : Le Pen 34–36 % ; EP jusqu’à 19 % seul au centre, 14,5 % si Attal (7,5 %) derrière Mélenchon 15 %. Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/09/05/presidentielle-2027-marine-le-pen-largement-en-tete-edouard-philippe-simpose-comme-le-mieux-place-derriere-elle-selon-un-dernier-sondage-13537517.php"
+    }
+  ]
+}
