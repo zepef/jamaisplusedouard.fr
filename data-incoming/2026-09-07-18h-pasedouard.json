@@ -1,0 +1,13 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-07-18h)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-07T16:50:00Z",
+    "note": "Vague JPE Livre 7 sept 18h. 9 pubs ledger ; 3 poussées (rmc, tf1-info, la-depeche). Skips no-slug Midi Libre x4, Sud Ouest, La Gazette de Nîmes. X needsAuth. Fil Alès narco + abaya LFI. Ne pas renvoyer PR#3–#15."
+  },
+  "apparitions": [
+    {"chaineSlug":"rmc","date":"2026-09-07","emission":"« Fiche S financière », frapper les consommateurs… Ce qu’Edouard Philippe propose pour lutter contre le narcotrafic","dureeMinutes":0,"type":"reportage","tonalite":"neutre","resume":"Article jour Alès (horodatage AN-202609070417). Entourage EP à RMC : état d’urgence narco, fiche S financière, recouvrement amendes, choc transparence fonctionnaires, peines type terrorisme, reconnaissance faciale limitée. Page ouverte.","url":"https://rmc.bfmtv.com/actualites/politique/fiche-s-financiere-frapper-les-consommateurs-ce-qu-edouard-philippe-propose-pour-lutter-contre-le-narcotraffic_AN-202609070417.html"},
+    {"chaineSlug":"tf1-info","date":"2026-09-07","emission":"EN DIRECT - Présidentielle 2027 : les candidats continuent de battre campagne, Gabriel Attal lance l’opération « 1.000 bistrots »","dureeMinutes":0,"type":"reportage","tonalite":"neutre","resume":"Publié 06h45, MAJ 18h39. Fil live : EP Alès — consterné abaya LFI (18h10) ; état d’urgence narcotrafic + reconnaissance faciale (18h39) ; Bregeon accélère rassemblement derrière EP. Page ouverte.","url":"https://www.tf1info.fr/politique/en-direct-presidentielle-2027-les-dernieres-actualites-les-candidats-battent-deja-campagne-les-informations-lundi-7-septembre-2026-2462679.html"},
+    {"chaineSlug":"la-depeche","date":"2026-09-07","emission":"Abaya à l’école : « La proposition de M. Mélenchon m’apparaît être une trahison de la laïcité », tacle Édouard Philippe","dureeMinutes":0,"type":"reportage","tonalite":"neutre","resume":"Publié 17h05. Depuis Alès : EP « consterné », « trahison de la laïcité » vs Panot/Mélenchon sur abaya ; aussi rassemblement droite/centre + narco. Page ouverte.","url":"https://www.ladepeche.fr/2026/09/07/abaya-a-lecole-la-proposition-de-m-melenchon-mapparait-etre-une-trahison-de-la-laicite-tacle-edouard-philippe-13539759.php"}
+  ]
+}
