@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-11-08h)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-11T06:05:00Z",
+    "note": "Vague JPE Livre 11 sept 8h. 3 pubs ledger ; 1 poussée paris-normandie. Skips no-slug L'Indépendant, actu.fr/76actu. X needsAuth. Ne pas renvoyer PR#3–#22."
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "paris-normandie",
+      "date": "2026-09-10",
+      "emission": "Primaire, soutien et décentralisation : la rentrée d'Hervé Morin, président des Centristes et de la Normandie",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Publié 18:10. Entretien Morin : EP « le seul qui n'est pas favorable » à la primaire ; Larcher pour ; quatre noms (EP, Retailleau, Attal, Lisnard) ; clarification avant Noël ; soutien amitié Lisnard. Page ouverte. Rattrapage passe 10/18h.",
+      "url": "https://www.paris-normandie.fr/id744145/article/2026-09-10/primaire-soutien-et-decentralisation-la-rentree-dherve-morin-president-des"
+    }
+  ]
+}
