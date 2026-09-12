@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-12-08h)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-12T06:05:00Z",
+    "note": "Vague JPE Livre 12 sept 8h. 4 pubs ledger ; 3 poussées (europe-1, bfm-tv, rmc). Skip no-slug Boursorama AFP. X needsAuth. Ne pas renvoyer PR#3–#24."
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "europe-1",
+      "date": "2026-09-11",
+      "emission": "«Se reposer, décompresser» : Édouard Philippe souhaite une prise de fonction du président «en septembre», une proposition qui fait bondir ses adversaires",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Publié 19:39, maj 22:18. Podcast Laigneau : transition mai→septembre ; Attal à Metz « pas une minute à perdre / pas de repos ». Contexte croissance/inflation. Page ouverte.",
+      "url": "https://www.europe1.fr/politique/se-reposer-decompresser-edouard-philippe-souhaite-une-prise-de-fonction-du-president-en-septembre-une-proposition-qui-fait-bondir-ses-adversaires-1071254"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-09-11",
+      "emission": "Raillé après avoir été accusé de vouloir \"prendre des vacances\" sitôt élu président, Édouard Philippe fustige des \"polémiques\" à partir \"de phrases tronquées\"",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Publié ~16:40. Alerteinfos 1,6 M vues ; EP republie extrait complet ; RN Tanguy/Laporte ; tweet EP « phrases tronquées ». Rattrapage même fil. Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/horizons/raille-apres-avoir-ete-accuse-de-vouloir-prendre-des-vacances-sitot-elu-president-edouard-philippe-fustige-des-polemiques-a-partir-de-phrases-tronquees_AV-202609110638.html"
+    },
+    {
+      "chaineSlug": "rmc",
+      "date": "2026-09-11",
+      "emission": "\"Une erreur de com'\": Édouard Philippe critiqué pour avoir supposé qu'un président-élu aurait tout de suite besoin de \"décompresser\"",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Publié ~15:21. Analyse com' ; Chenu/Clouet/Attal ; Benjamin Morel (Estelle Midi) sur transition US/Mx et risque majorité ; Alertesinfo cité. Rattrapage. Page ouverte.",
+      "url": "https://rmc.bfmtv.com/actualites/politique/une-erreur-de-com-edouard-philippe-critique-pour-avoir-admis-qu-un-president-elu-aurait-tout-de-suite-besoin-de-decompresser_AV-202609110583.html"
+    }
+  ]
+}
