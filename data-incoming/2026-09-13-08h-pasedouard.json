@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-13-08h)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-13T06:20:00Z",
+    "note": "Vague JPE Livre 13 sept 8h. 5 pubs ledger ; 2 poussées (20-minutes, la-gazette-france). Skips no-slug Moselle TV, France 24 AFP, Epoch Times. X needsAuth. Ne pas renvoyer PR#3–#26."
+  },
+  "apparitions": [
+    {"chaineSlug":"20-minutes","date":"2026-09-12","emission":"Présidentielle 2027 : Edouard Philippe, François Hollande et Bruno Retailleau appellent au rassemblement","dureeMinutes":0,"type":"reportage","tonalite":"neutre","resume":"Publié 18h30. Section EP Terres de Jim : rassemblement droite/centre, lièvre/tortue, réponse à Attal ; aussi Hollande (Fête de la Rose) et Retailleau (Nogent). Page ouverte.","url":"https://www.20minutes.fr/politique/4244788-20260912-presidentielle-2027-edouard-philippe-francois-hollande-bruno-retailleau-appellent-rassemblement"},
+    {"chaineSlug":"la-gazette-france","date":"2026-09-12","emission":"Édouard Philippe défend le \"rassemblement\" et fustige \"l'excitation\"","dureeMinutes":0,"type":"reportage","tonalite":"neutre","resume":"Relais AFP Metz Terres de Jim (même fil). Page ouverte. Rattrapage.","url":"https://www.lagazettefrance.fr/article/edouard-philippe-defend-le-rassemblement-et-fustige-l-excitation"}
+  ]
+}
