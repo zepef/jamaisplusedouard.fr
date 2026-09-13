@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-13-18h)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-13T16:15:00Z",
+    "note": "Vague JPE Livre 13 sept 18h. 6 pubs ledger ; 2 poussées (rtl, la-depeche). Skips no-slug La Tribune Dimanche, Valeurs actuelles, Centre Europe Presse, Tout Metz. X needsAuth. Ne pas renvoyer PR#3–#27."
+  },
+  "apparitions": [
+    {"chaineSlug":"rtl","date":"2026-09-13","emission":"Ils battent leur record : la popularité d'Emmanuel Macron et de Sébastien Lecornu au plus bas","dureeMinutes":0,"type":"reportage","tonalite":"neutre","resume":"Publié 10:43. Relais Ipsos BVA-Cesi / Tribune Dimanche : section « Mélenchon et Philippe au coude à coude » ; 57 % mécontents si EP à l’Élysée, 60 % pour Attal. Page ouverte.","url":"https://www.rtl.fr/actu/politique/ils-battent-leur-record-la-popularite-d-emmanuel-macron-et-de-sebastien-lecornu-au-plus-bas-7900671799"},
+    {"chaineSlug":"la-depeche","date":"2026-09-13","emission":"Présidentielle 2027 - Sondage : record d'impopularité pour Macron, nouvelle poussée pour Bardella et Le Pen, baisse pour Philippe et Attal... un baromètre qui en dit long sur l'état d'esprit des Français","dureeMinutes":0,"type":"reportage","tonalite":"neutre","resume":"Publié 12:31, maj 12:43. Baromètre Ipsos-Cesi / Tribune Dimanche : EP 19 % (−4 pts), 57 % mécontents (+12) ; égalité Mélenchon 19 % ; Attal 18 % (−1). Page ouverte.","url":"https://www.ladepeche.fr/2026/09/13/sondage-record-dimpopularite-pour-macron-nouvelle-poussee-pour-bardella-et-le-pen-baisse-pour-philippe-et-attal-un-barometre-qui-en-dit-long-sur-letat-13548886.php"}
+  ]
+}
