@@ -1,0 +1,11 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-15-18h)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-15T16:30:00Z",
+    "note": "Vague JPE Livre 15 sept 18h. 2 pubs ledger ; 1 poussée lcp. Skip no-slug Le Télégramme. X needsAuth. Ne pas renvoyer PR#3–#31."
+  },
+  "apparitions": [
+    {"chaineSlug":"lcp","date":"2026-09-15","emission":"'Édouard le flemmard': le RN utilise une chanson et des montages créés par IA pour attaquer Édouard Philippe","dureeMinutes":0,"type":"reportage","tonalite":"neutre","resume":"Publié mardi 15 sept 2026 à 11:15. Offensive RN (Bigot chanson IA, Chenu montages Martine, Tanguy) après podcast Laigneau ; ~900 reposts X ; entourage EP inquiet (Ali Juppé) ; Maël de Calan relativise. Page ouverte.","url":"https://lcp.fr/actualites/edouard-le-flemmard-le-rn-utilise-une-chanson-et-des-montages-crees-par-ia-pour-attaquer"}
+  ]
+}
