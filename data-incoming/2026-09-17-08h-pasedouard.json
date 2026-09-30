@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-17-08h)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-17T06:25:00Z",
+    "note": "Vague JPE Livre 17 sept 8h (rattrapage soir 16). 8 pubs ledger ; 4 poussées bfm-tv(plateau),huffpost,cnews,20-minutes. Types video→plateau, direct→mention. Skips no-slug Angers Info,Sud Ouest,Gentside,Capital. X needsAuth. Proches ledger + Christophe Béchu. Ne pas renvoyer PR#3–#33."
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-09-16",
+      "emission": "La tribune politique : 2027, Édouard Philippe cherche encore son élan - 16/09",
+      "dureeMinutes": 3,
+      "type": "plateau",
+      "tonalite": "neutre",
+      "resume": "Replay tribune politique BFM Business du mercredi 16/09/2026 (diffusion indiquée 08h18, durée 3:17). Titre page : « 2027, Édouard Philippe cherche encore son élan ». Page ouverte (métadonnées ; corps vidéo non transcripté).",
+      "url": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/video-la-tribune-politique-2027-edouard-philippe-cherche-encore-son-elan-16-09_VN-202609160223.html"
+    },
+    {
+      "chaineSlug": "huffpost",
+      "date": "2026-09-16",
+      "emission": "« Édouard le flemmard » : Philippe face au poison lent du mauvais surnom",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Publié 16/09/2026 12:30 (maj 17:03). Analyse : surnom RN « Édouard le flemmard » après podcast Laigneau ; parallèle « Ali Juppé » ; viralité mèmes/IA ; entourage « obligé de le prendre au sérieux » ; tension avec mantra « travailler plus/plus longtemps » et réforme retraites immi",
+      "url": "https://www.huffingtonpost.fr/politique/article/edouard-le-flemmard-philippe-face-au-poison-lent-du-mauvais-surnom_325011.html"
+    },
+    {
+      "chaineSlug": "cnews",
+      "date": "2026-09-16",
+      "emission": "En direct - Présidentielle 2027 : Edouard Philippe réclame un «doublement immédiat» des aides ciblées pour compenser la flambée des prix des carburants",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Live 16/09/2026 (publié 10:25, maj soir). Brève : post X EP demandant « doublement immédiat » des aides ciblées carburants financé par économies budgétaires ; citation tweet @EPhilippe_LH. Page live multi-sujets (aussi Le Pen, Brun, etc.). Page ouverte.",
+      "url": "https://www.cnews.fr/france/2026-09-16/presidentielle-2027-edouard-philippe-reclame-un-doublement-immediat-des-aides"
+    },
+    {
+      "chaineSlug": "20-minutes",
+      "date": "2026-09-16",
+      "emission": "Prix des carburants : Edouard Philippe demande au gouvernement un « doublement » des aides ciblées",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Publié 16/09/2026 17h18 (maj 17h36, AFP). Même fil : doublement aides ciblées via économies budgétaires ; « faire le plein est devenu un sacrifice » ; électrification ; ordre dans les comptes. Page ouverte.",
+      "url": "https://www.20minutes.fr/economie/4245929-20260916-prix-carburants-edouard-philippe-demande-gouvernement-doublement-aides-ciblees"
+    }
+  ]
+}
