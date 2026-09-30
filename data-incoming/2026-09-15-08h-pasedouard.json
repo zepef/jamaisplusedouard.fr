@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-15-08h)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-15T06:39:43Z",
+    "note": "Vague JPE Livre 15 sept 8h. 3 pubs ledger ; 1 poussée la-depeche. Skips no-slug RMC, Politico Europe. X needsAuth. Ne pas renvoyer PR#3–#30."
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-09-15",
+      "emission": "DECRYPTAGE. Présidentielle 2027 : comment les entourages de Gabriel Attal et d'Edouard Philippe négocient leurs ralliements lors de dîners secrets",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Publié 07:01. Dîners discrets de conseillers du bloc central (Chinaud / Braun-Pivet) ; 3e rendez-vous prévu en octobre. Marie Guévenoux pour EP ; débat sur désistement Attal dès novembre. Ipsos : EP ne passe que seul au centre. Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/09/15/decryptage-presidentielle-2027-comment-les-entourages-de-gabriel-attal-et-dedouard-philippe-negocient-leurs-ralliements-lors-de-diners-secrets-13551071.php"
+    }
+  ]
+}
