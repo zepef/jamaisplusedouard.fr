@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard rematch skips 4 sept 18h (huffpost, liberation x2)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-04T16:30:00Z",
+    "note": "Mini-vague rematch JPE Livre. 3 URLs précédemment skippées no-slug à tort ; slugs huffpost et liberation déjà sur main (PR#1). Le Singulier non inclus. tonalite neutre. Ne pas renvoyer PR#3–#11."
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "huffpost",
+      "date": "2026-09-04",
+      "emission": "Le RN veut « couper le robinet » à l’Ukraine mais Marine Le Pen n’aime pas qu’Édouard Philippe le rappelle",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "EP attaque le RN après Aliot : « Le Rassemblement national a changé de position sur à peu près tout, sauf sur son soutien au régime de Poutine ». Le Pen répond sur Versailles/Brégançon et la réception de Medvedev au Havre (juin 2019), sans reprendre ni démentir « couper le robinet ».",
+      "url": "https://www.huffingtonpost.fr/politique/article/le-rn-veut-couper-le-robinet-a-l-ukraine-mais-marine-le-pen-n-aime-pas-qu-edouard-philippe-le-rappelle_318123.html"
+    },
+    {
+      "chaineSlug": "liberation",
+      "date": "2026-09-03",
+      "emission": "Présidentielle 2027 : à droite et au centre, privés de primaire, les unitaires amers",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Article Libération du 3 sept. (19h54 PT) : à droite et au centre, les unitaires se disent amers d’être privés de primaire. Page paywall ; titre, URL et date Google News vérifiés. Reporté de la passe 8h.",
+      "url": "https://www.liberation.fr/politique/presidentielle-2027-a-droite-et-au-centre-prives-de-primaire-les-unitaires-amers-20260903_RUX6ERBHSZATPIWCTFJUFASGEE/"
+    },
+    {
+      "chaineSlug": "liberation",
+      "date": "2026-09-03",
+      "emission": "Bruno Retailleau n’est pas un potentiel allié d’Edouard Philippe, c’est un agent électoral du RN",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Billet Libération (slug 3 sept., vu en Google News le 4 sept. 08h07 PT). Retailleau présenté comme agent électoral du RN, pas comme allié potentiel d’EP. Page paywall ; titre, URL et auteur (billet) vérifiés. Reporté de la passe 8h.",
+      "url": "https://www.liberation.fr/politique/bruno-retailleau-nest-pas-un-potentiel-allie-dedouard-philippe-cest-un-agent-electoral-du-rn-20260903_ZF6DAT7IKBFSPN3F3VVSMKDTCQ/"
+    }
+  ]
+}
