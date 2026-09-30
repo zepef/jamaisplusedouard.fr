@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-16-08h)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-16T06:10:00Z",
+    "note": "Vague JPE Livre 16 sept 8h. 2 pubs ledger ; 1 poussée l-express (type article→mention). Skip no-slug Parlons Politique. X needsAuth. Ne pas renvoyer PR#3–#32."
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "l-express",
+      "date": "2026-09-15",
+      "emission": "Edouard Philippe le \"flemmard\" : les leçons accablantes d’une polémique risible",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Publié 15/09/2026 à 19:05. Analyse Paul Chaulet : polémique RN « flemmard » après podcast Laigneau ; propos tronqués ; mythe hyperprésident ; digressions podcast = mine pour détracteurs.",
+      "url": "https://www.lexpress.fr/politique/edouard-philippe-le-flemmard-les-lecons-accablantes-dune-polemique-risible-MEZC5XLE7NH3XJH5NTDHGDY5RQ/"
+    }
+  ]
+}
