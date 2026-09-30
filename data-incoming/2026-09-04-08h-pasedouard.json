@@ -1,0 +1,13 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-04-08h)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-04T06:10:00Z",
+    "note": "Vague JPE Livre 4 sept 08h. 5 pubs ledger ; 3 poussées (europe-1, ouest-france, les-echos). Skips no-slug : Courrier de la Mayenne, Tendance Ouest. X needsAuth. tonalite neutre. Ne pas renvoyer PR#3–#9."
+  },
+  "apparitions": [
+    {"chaineSlug":"europe-1","date":"2026-09-03","emission":"2027 : «Édouard Philippe a peur» de la primaire, juge David Lisnard","dureeMinutes":0,"type":"reportage","tonalite":"neutre","resume":"David Lisnard (Nouvelle énergie), invité jeudi 3 sept., réaffirme une grande primaire droite/centre et estime qu’Édouard Philippe «a peur» de la primaire ; refuse de gouverner avec des «macronistes» ; «la machine à perdre, c’est d’arriver totalement éparpillé».","url":"https://www.europe1.fr/politique/2027-edouard-philippe-a-peur-de-la-primaire-juge-david-lisnard-1052336"},
+    {"chaineSlug":"ouest-france","date":"2026-09-03","emission":"Présidentielle 2027: le président du conseil départemental de la Mayenne, Olivier Richefou, penche pour Édouard Philippe","dureeMinutes":0,"type":"reportage","tonalite":"neutre","resume":"Alors que l’UDI nationale ne s’est pas encore positionnée, son vice-président Olivier Richefou, président du conseil départemental de la Mayenne, affirme en marge d’une conférence de presse de rentrée son soutien à Édouard Philippe.","url":"https://www.ouest-france.fr/elections/presidentielle/presidentielle-2027-le-president-du-conseil-departemental-de-la-mayenne-olivier-richefou-penche-pour-edouard-philippe-83f9f806-a77f-11f1-8a27-1e0c4eb5e395"},
+    {"chaineSlug":"les-echos","date":"2026-09-04","emission":"SONDAGE EXCLUSIF - Le match « perdant-perdant » de Gabriel Attal et Edouard Philippe dans l'opinion","dureeMinutes":0,"type":"reportage","tonalite":"neutre","resume":"Classement Elabe pour Les Echos (4 sept. 07h) : EP à 26 % d’image positive (4e, −4 pts / mois, −8 / deux mois) ; Attal 25 % (−5). Les deux reculent tandis que Marine Le Pen et Jordan Bardella progressent en tête. Match Attal–Philippe jugé «perdant-perdant» par l’opinion.","url":"https://www.lesechos.fr/elections/presidentielle/sondage-exclusif-le-match-perdant-perdant-de-gabriel-attal-et-edouard-philippe-dans-lopinion-2249741"}
+  ]
+}
