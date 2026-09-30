@@ -1,0 +1,60 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-14-18h)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-14T16:30:00Z",
+    "note": "Vague JPE Livre 14 sept 18h. 8 pubs ledger ; 5 poussées (le-monde, rtl, l-express, 20-minutes, bfm-tv). Skips no-slug Boursorama, L'Internaute, Valeurs actuelles. X needsAuth. Ne pas renvoyer PR#3–#29."
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "le-monde",
+      "date": "2026-09-13",
+      "emission": "Enquête électorale présidentielle 2027 : Marine Le Pen entame la campagne sur un socle inédit au cœur d’un électorat inquiet et en colère",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Publié 13 sept 19h00, maj 14 sept 09h35. Enquête Ipsos-BVA-CESI pour Le Monde/Cevipof/FJJ/Montaigne (3-9 sept, n=13060). Le Pen ≥33 % tous scénarios ; EP (Horizons) fortement dépendant du maintien ou non d’Attal. Page ouverte.",
+      "url": "https://www.lemonde.fr/politique/article/2026/09/13/enquete-electorale-presidentielle-2027-marine-le-pen-entame-la-campagne-sur-un-socle-inedit-au-c-ur-d-un-electorat-inquiet-et-en-colere_6772946_823448.html"
+    },
+    {
+      "chaineSlug": "rtl",
+      "date": "2026-09-14",
+      "emission": "SONDAGE RTL - Présidentielle 2027 : Marine Le Pen en léger recul pour la première fois, Jean-Luc Mélenchon se stabilise aux portes du second tour",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Publié 06:23. Toluna Harris Interactive pour M6/RTL (8-10 sept, n=2052). Le Pen 33–36 % (−2 pts). EP mieux placé pour briser duel Le Pen/Mélenchon si seul au centre et face à Hollande ; citation Lévy : « Édouard Philippe n’apparaît pas de nature à tuer le match ». Second tour Le Pen 55 % / EP 45 %. Page ouverte.",
+      "url": "https://www.rtl.fr/actu/politique/sondage-rtl-presidentielle-2027-marine-le-pen-en-leger-recul-pour-la-premiere-fois-jean-luc-melenchon-se-stabilise-aux-portes-du-second-tour-7900671878"
+    },
+    {
+      "chaineSlug": "l-express",
+      "date": "2026-09-14",
+      "emission": "Présidentielle 2027 : Edouard Philippe, prédateur en douceur de Bruno Retailleau",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Publié 06:30, lecture 8 min. Portrait stratégique : EP cherche à asphyxier Retailleau « avec doigté » ; estime affichée, citations en petit comité sur les « doutes » du Vendéen. Paywall partiel ; titre, date, auteur et chapô vérifiés page ouverte.",
+      "url": "https://www.lexpress.fr/politique/presidentielle-2027-edouard-philippe-predateur-en-douceur-de-bruno-retailleau-WUOBH2TUONBGTH5OZUN5WS57TM/"
+    },
+    {
+      "chaineSlug": "20-minutes",
+      "date": "2026-09-14",
+      "emission": "Présidentielle 2027 : Marine Le Pen en tête dans tous les scénarios, selon un sondage",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Publié 08:48, maj 10:42. Relais AFP Ipsos-BVA : EP 17,5 % / 21 % seul au centre ; Mélenchon 4/6 scénarios ; Attal jamais qualifié ; 71 % veulent un « vrai changement ». Page ouverte.",
+      "url": "https://www.20minutes.fr/politique/4245144-20260914-presidentielle-2027-marine-pen-tete-tous-scenarios-selon-sondage"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-09-14",
+      "emission": "DIRECT. Présidentielle 2027: Marine Le Pen donnée en tête des intentions de vote dans deux nouveaux sondages, loin devant Jean-Luc Mélenchon, Édouard Philippe ou Gabriel Attal",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Direct politique du 14 sept (ouvert ~07h21, maj soir). Essentiel : deux nouveaux sondages placent Le Pen loin devant Mélenchon, EP et Attal pour la 2e place. Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/direct-presidentielle-2027-marine-le-pen-donnee-en-tete-des-intentions-de-vote-dans-deux-nouveaux-sondages-loin-devant-jean-luc-melenchon-edouard-philippe-ou-gabriel-attal_LN-202609140130.html"
+    }
+  ]
+}
