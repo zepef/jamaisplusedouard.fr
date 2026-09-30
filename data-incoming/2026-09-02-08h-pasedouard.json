@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-02-08h.json)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-02T06:25:00Z",
+    "note": "Vague JPE Livre 2 sept 08h. 7 pubs ledger ; 5 poussées (le-figaro, bfm-tv, revolution-permanente, le-parisien, france-2). Skips no-slug : Parlons Politique, L'Union. X needsAuth — non consulté. tonalite neutre. dureeMinutes 2 pour JT franceinfo (med-2026-156), sinon 0. Ne pas renvoyer PR#3/#4/#5/#6."
+  },
+  "apparitions": [
+    {"chaineSlug":"le-figaro","date":"2026-09-01","emission":"«Protéger nos enfants est le premier devoir de l’État» : Édouard Philippe veut créer une «inspection nationale de l'enfance»","dureeMinutes":0,"type":"reportage","tonalite":"neutre","resume":"Publié 18h21 maj 18h59. AFP lettre aux parents: inspection nationale enfance modèle britannique, contrôles tous les 3 ans, attestation honorabilité, droit de savoir, amende responsabilisation scolaire.","url":"https://www.lefigaro.fr/actualite-france/proteger-nos-enfants-est-le-premier-devoir-de-l-etat-edouard-philippe-veut-creer-une-inspection-nationale-de-l-enfance-20260901"},
+    {"chaineSlug":"bfm-tv","date":"2026-09-01","emission":"\"Chaque établissement sera contrôlé au moins tous les trois ans\": Édouard Philippe veut créer une \"inspection nationale de l'enfance\"","dureeMinutes":0,"type":"reportage","tonalite":"neutre","resume":"Relais AFP lettre aux parents ~18h57.","url":"https://www.bfmtv.com/politique/horizons/chaque-etablissement-sera-controle-au-moins-tous-les-trois-ans-edouard-philippe-veut-creer-une-inspection-nationale-de-l-enfance_AD-202609010761.html"},
+    {"chaineSlug":"revolution-permanente","date":"2026-09-01","emission":"Education : Attal, Philippe et Retailleau veulent en finir avec le collège unique","dureeMinutes":0,"type":"mention","tonalite":"neutre","resume":"Article mentionnant Édouard Philippe aux côtés d’Attal et Retailleau sur la fin du collège unique.","url":"https://www.revolutionpermanente.fr/Education-Attal-Philippe-et-Retailleau-veulent-en-finir-avec-le-college-unique"},
+    {"chaineSlug":"le-parisien","date":"2026-09-01","emission":"Présidentielle 2027 : Édouard Philippe veut créer une « inspection nationale de l’enfance »","dureeMinutes":0,"type":"reportage","tonalite":"neutre","resume":"Relais AFP : Édouard Philippe veut créer une inspection nationale de l’enfance (lettre aux parents).","url":"https://www.leparisien.fr/politique/presidentielle-2027-edouard-philippe-veut-creer-une-inspection-nationale-de-lenfance-01-09-2026-XNOBS73MW5ER5IMOVRSN7G3XBU.php"},
+    {"chaineSlug":"france-2","date":"2026-09-01","emission":"Présidentielle 2027 : Édouard Philippe et Gabriel Attal, les héritiers du président ?","dureeMinutes":2,"type":"reportage","tonalite":"neutre","resume":"JT 20h France 2 ~1:36. Édouard Philippe et Gabriel Attal présentés comme héritiers du président.","url":"https://www.franceinfo.fr/replay-jt/france-2/20-heures/presidentielle-2027-edouard-philippe-et-gabriel-attal-les-heritiers-du-president_8172767.html"}
+  ]
+}
