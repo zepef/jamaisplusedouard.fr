@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-08-18h)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-08T16:10:00Z",
+    "note": "Vague JPE Livre 8 sept 18h. 3 pubs ledger ; 3 poussées france-info-tv (8h30 + 2 extraits). X needsAuth. Fil rassemblement / Tour Eiffel / narco. Ne pas renvoyer PR#3–#17."
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "france-info-tv",
+      "date": "2026-09-08",
+      "emission": "Présidentielle 2027, Tour Eiffel … Le \"8h30 franceinfo\" d'Édouard Philippe",
+      "dureeMinutes": 23,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "Invité du 8h30 franceinfo (~23 min), publié 08:58, mis à jour 13:36. Narcotrafic / état d’urgence / reconnaissance faciale ; retraites (67 ans) ; concurrence Attal/Retailleau ; risque dispersion droite-centre ; réaction Tour Eiffel. Page ouverte.",
+      "url": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/le-8h30-franceinfo-d-edouard-philippe_8160212.html"
+    },
+    {
+      "chaineSlug": "france-info-tv",
+      "date": "2026-09-08",
+      "emission": "Edouard Philippe dénonce une décision \"absurde\" après l'éviction de salariées de la tour Eiffel lors d'un événement hindou",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Publié 09:25. Extrait 8h30 : EP juge « absurde » l’éviction de salariées lors d’un événement hindou privé ; art de vivre français ; soutien aux salariés ; erreur reconnue par la SETE. Mentions Ariel Weil. Page ouverte.",
+      "url": "https://www.franceinfo.fr/politique/edouard-philippe/edouard-philippe-denonce-une-decision-absurde-apres-l-eviction-de-salariees-de-la-tour-eiffel-lors-d-un-evenement-hindou_8182721.html"
+    },
+    {
+      "chaineSlug": "france-info-tv",
+      "date": "2026-09-08",
+      "emission": "Selon Edouard Philippe, il y a un risque \"très grand\" que la droite ne soit pas au second tour, s'il n'y a pas de rassemblement avant la présidentielle",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Publié 10:16. Extrait 8h30 : si dispersion candidats droite/centre en janv./févr., risque « très grand » de ne pas être au 2e tour ; rassembler droite et centre vs RN ; espoir qu’une partie de la gauche se détache de Mélenchon. Page ouverte.",
+      "url": "https://www.franceinfo.fr/elections/presidentielle/selon-edouard-philippe-il-y-a-un-risque-tres-grand-que-la-droite-ne-soit-pas-au-second-tour-s-il-n-y-a-pas-de-rassemblement-avant-la-presidentielle_8182781.html"
+    }
+  ]
+}
