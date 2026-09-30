@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-08-08h)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-08T06:05:00Z",
+    "note": "Vague JPE Livre 8 sept 8h. 7 pubs ledger ; 3 poussées (bfm-tv x3). Skips no-slug Sud Radio, Le Singulier, Planet.fr, TV Sud Magazine. X needsAuth. Fil Alès narco. Ne pas renvoyer PR#3–#16."
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-09-07",
+      "emission": "Présidentielle 2027: Édouard Philippe veut rassembler largement la droite et le centre",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Vidéo ~15h31 (VN-202609070570, ~1 min). Clip campagne : EP veut rassembler droite et centre ; contexte déplacement Alès narco. Métadonnées + page titre ouvertes (corps JS).",
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/video-presidentielle-2027-edouard-philippe-veut-rassembler-largement-la-droite-et-le-centre_VN-202609070570.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-09-07",
+      "emission": "Présidentielle 2027: « Je propose la création d'un état d'urgence narcotrafic », déclare Édouard Philippe",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Vidéo ~16h23 (VN-202609070605, ~54 s). Déclaration EP à Alès : état d’urgence narcotrafic. Métadonnées + page titre ouvertes (corps JS).",
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/video-presidentielle-2027-je-propose-la-creation-d-un-etat-d-urgence-narcotrafic-declare-edouard-philippe_VN-202609070605.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-09-07",
+      "emission": "Édouard Philippe propose la création d'un « état d'urgence pour le narcotrafic » inspiré de la lutte contre le terrorisme",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Article AV-202609070649. Alès : état d’urgence narco sous contrôle juge, reconnaissance faciale, Outre-mer, saisies/prestations, fichiers S, signalement agents publics. Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/edouard-philippe-propose-la-creation-d-un-etat-d-urgence-pour-le-narcotrafic-inspire-de-la-lutte-contre-le-terrorisme_AV-202609070649.html"
+    }
+  ]
+}
