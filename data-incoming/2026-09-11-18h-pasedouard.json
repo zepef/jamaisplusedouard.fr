@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-11-18h)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-11T16:20:00Z",
+    "note": "Vague JPE Livre 11 sept 18h. 6 pubs ledger ; 3 poussées (la-depeche, rtl, 20-minutes). Skips no-slug Journal du Net, 21 News, Midi Libre. X needsAuth. Ne pas renvoyer PR#3–#23."
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-09-11",
+      "emission": "Présidentielle 2027 : Edouard Philippe suggère de \"décompresser\" s'il est élu, une à deux semaines de repos \"ne font pas de mal avant de repartir\"",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Publié 08:39, maj 09:42. Podcast Laigneau : EP veut investiture mai→septembre (modèle US) pour consulter/constituer équipe ; 1-2 semaines repos pas 3 mois ; riposte RN (Lavalette, Ménagé) + LFI Clouet ; tweet EP « phrases tronquées ». Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/09/11/presidentielle-2027-edouard-philippe-suggere-de-decompresser-sil-est-elu-une-a-deux-semaines-de-repos-ne-font-pas-de-mal-avant-de-repartir-13545900.php"
+    },
+    {
+      "chaineSlug": "rtl",
+      "date": "2026-09-11",
+      "emission": "\"Se reposer, décompresser\" mais pas que : pourquoi Édouard Philippe aimerait repousser la prise de fonctions du président de la République de mai à septembre ?",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Publié 12:13. Explication podcast 7 sept : transition mai-septembre pour consulter/équipes + 1-2 semaines repos ; Chenu réplique ; EP « phrases tronquées » ; « faut faire avec le système ». Page ouverte.",
+      "url": "https://www.rtl.fr/actu/politique/se-reposer-decompresser-mais-pas-que-pourquoi-edouard-philippe-aimerait-repousser-la-prise-de-fonctions-du-president-de-la-republique-de-mai-a-septembre-7900671274"
+    },
+    {
+      "chaineSlug": "20-minutes",
+      "date": "2026-09-11",
+      "emission": "Présidentielle 2027 : Elu en mai, président après l’été… La « pause » imaginée par Philippe est-elle une bonne idée ?",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Publié 16:48, maj 17:11. Analyse : idée défendue via Institut Montaigne / Bruno Cautrès (« refroidir le temps démocratique ») ; railleries adversaires vs modèle US. Page ouverte.",
+      "url": "https://www.20minutes.fr/politique/4244589-20260911-presidentielle-2027-elu-mai-president-apres-pause-imaginee-phillippe-bonne-idee"
+    }
+  ]
+}
