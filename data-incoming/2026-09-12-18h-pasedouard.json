@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-12-18h)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-12T16:05:00Z",
+    "note": "Vague JPE Livre 12 sept 18h. 7 pubs ledger ; 2 poussées (rfi, france-3). Skips no-slug Paris Match, Boursorama AFP, Sud Radio, Sud Ouest, La Provence. X needsAuth. Ne pas renvoyer PR#3–#25."
+  },
+  "apparitions": [
+    {"chaineSlug":"rfi","date":"2026-09-12","emission":"Édouard Philippe osera-t-il proposer la retraite à 67 ans ?","dureeMinutes":0,"type":"reportage","tonalite":"neutre","resume":"Épisode « Politique, le choix de la semaine », publié 14:42. Sparadrap des 67 ans (Challenges 2021) ; réforme retraites imminente selon entourage ; contraste Attal sans âge légal. Page ouverte.","url":"https://www.rfi.fr/fr/podcasts/politique-le-choix-de-la-semaine/20260912-%C3%A9douard-philippe-osera-t-il-proposer-la-retraite-%C3%A0-67-ans"},
+    {"chaineSlug":"france-3","date":"2026-09-11","emission":"Les Terres de Jim, une grande fête agricole dans un contexte très politique : \"on attend des candidats à l'élection, des engagements et des actions\"","dureeMinutes":0,"type":"mention","tonalite":"neutre","resume":"Rattrapage 11 sept 17:05. Reportage Terres de Jim ; EP et Attal annoncés ce week-end ; Attal déjà sur place vendredi. Mention EP. Page ouverte.","url":"https://france3-regions.franceinfo.fr/grand-est/moselle/metz/les-terres-de-jim-une-grande-fete-agricole-dans-un-contexte-tres-politique-on-attend-des-candidats-a-l-election-des-engagements-et-des-actions-3415379.html"}
+  ]
+}
