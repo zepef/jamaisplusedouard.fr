@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-02-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-02T05:55:00Z",
+    "note": "Vague JPE Livre 2 oct 08h. +8 pubs — soir Haute-Savoie (pompiers + Annemasse narco) + durcissement EP sur Bardella/Mediapart + sondage Elabe Les Echos matin. X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": [
+      "Le Dauphiné Libéré",
+      "Paris-Normandie",
+      "Boursorama (AFP)",
+      "France 24 (AFP)",
+      "Les Echos"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-01",
+      "emission": "Narcotrafic : Édouard Philippe veut \"appliquer des dispositions pénales réservées aux terroristes\"",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "BFMTV 01/10 20h14. Vidéo ~2 min 17 : meeting Annemasse — EP plaide « choc d’efficacité pénal » et dispositions pénales jusqu’ici réservées aux terroristes contre le narcotrafic. Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/video-narcotrafic-edouard-philippe-veut-appliquer-des-dispositions-penales-reservees-aux-terroristes_VN-202610010804.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-01",
+      "emission": "Écrits antisémites attribués à Jordan Bardella: \"Il est quasiment établi\" qu'il a tenu des propos \"à caractère manifestement et scandaleusement antisémites\"",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "BFMTV 01/10 20h59. Vidéo ~1 min 10 : EP à Annemasse estime qu’il est « quasiment établi » que Bardella a tenu des propos antisémites ; « a menti en démentant » après nouvelles révélations Mediapart. Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/video-ecrits-antisemites-attribues-a-jordan-bardella-il-est-quasiment-etabli-qu-il-a-tenu-des-propos-a-caractere-manifestement-et-scandaleusement-antisemites_VN-202610010830.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-01",
+      "emission": "Édouard Philippe affirme qu'\"il est quasiment établi\" que Jordan Bardella a tenu des propos \"scandaleusement antisémites\", après la nouvelle publication de Mediapart",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "BFMTV 01/10 22h50 (AFP). Article : EP juge « quasiment établi » le caractère antisémite des messages Bardella authentifiés via Meta/huissier ; conséquences à tirer ; Bardella parle de « pseudo-preuves ». Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/horizons/edouard-philippe-affirme-qu-il-est-quasiment-etabli-que-jordan-bardella-a-tenu-des-propos-scandaleusement-antisemites-apres-la-nouvelle-publication-de-mediapart_AD-202610010919.html"
+    }
+  ]
+}

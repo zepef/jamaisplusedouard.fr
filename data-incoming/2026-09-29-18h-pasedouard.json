@@ -1,0 +1,159 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-29-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-29T16:15:00Z",
+    "note": "Vague JPE Livre 29 sept 18h. +21 pubs — fil réforme retraites EP (vidéo YouTube) : 65 ans / 45 annuités + capitalisation ; réactions CGT/CFDT ; analyses. X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": [
+      "Le Télégramme",
+      "France 24 (AFP)",
+      "Le Singulier",
+      "TF1 Info",
+      "Boursorama (Reuters)",
+      "Boursorama (AFP)",
+      "21 News"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-09-29",
+      "emission": "Édouard Philippe veut relever l'âge légal de départ à la retraite à 65 ans et augmenter la durée de cotisation à 45 ans",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "BFMTV 29/09 11h42 (màj 13h02, AFP). Vidéo YouTube EP : âge légal progressivement à 65 ans, cotisation 45 ans (<10 ans), reprise réforme 2023 ; 1 Français/3 part avant 65 (60-64) ; capitalisation ; critique en creux Attal",
+      "url": "https://www.bfmtv.com/economie/patrimoine/retraite/edouard-philippe-veut-relever-l-age-legal-de-depart-a-la-retraite-a-65-ans-et-augmenter-la-duree-de-cotisation-a-45-ans_AD-202609290407.html"
+    },
+    {
+      "chaineSlug": "rtl",
+      "date": "2026-09-29",
+      "emission": "Édouard Philippe dévoile sa réforme des retraites et propose de \"porter progressivement la durée de cotisation à 45 ans et l'âge de départ à 65 ans\"",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "RTL 29/09 12h04 (màj 12h15, AFP). Vidéo YouTube EP : 45 ans cotisation / 65 ans ; reprise 2023 puis <10 ans ; 1/3 avant 65 ; partenaires sociaux + capitalisation ; tacle Attal. Page ouverte.",
+      "url": "https://www.rtl.fr/actu/politique/edouard-philippe-devoile-sa-reforme-des-retraites-et-propose-de-porter-progressivement-la-duree-de-cotisation-a-45-ans-et-l-age-de-depart-a-65-ans-7900678491"
+    },
+    {
+      "chaineSlug": "france-info-tv",
+      "date": "2026-09-29",
+      "emission": "Age de départ à 65 ans, 45 annuités de cotisation… Edouard Philippe, candidat Horizons à la présidentielle, dévoile son projet de réforme des retraites",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "franceinfo 29/09 12h24 (màj 12h52, AFP). Vidéo YouTube : 45 ans / 65 ans, 1/3 avant ; capitalisation ; cite aussi Retailleau (63/65). Page ouverte.",
+      "url": "https://www.franceinfo.fr/elections/presidentielle/age-de-depart-a-65-ans-45-annuites-de-cotisation-edouard-philippe-candidat-horizons-a-la-presidentielle-devoile-son-projet-de-reforme-des-retraites_8214737.html"
+    },
+    {
+      "chaineSlug": "la-croix",
+      "date": "2026-09-29",
+      "emission": "Départ à 65 ans, durée de cotisation : comment Édouard Philippe veut réformer les retraites",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "La Croix 29/09 12h27 (AFP). Relais projet EP 65 ans / 45 annuités, capitalisation, 1/3 avant 65 ; contexte Harris Mélenchon devant EP ; critique Attal. Page ouverte.",
+      "url": "https://www.la-croix.com/politique/depart-a-65-ans-duree-de-cotisation-comment-edouard-philippe-veut-reformer-les-retraites-20260929"
+    },
+    {
+      "chaineSlug": "public-senat",
+      "date": "2026-09-29",
+      "emission": "Retraites : Édouard Philippe sort du bois et propose un âge de départ à 65 ans",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Public Sénat 29/09 12h34. Analyse + AFP : calendrier 2 temps (reprise 2023 puis 65/45) ; 1/3 avant 65 ; capitalisation ; distinction nette vs Attal (suppression âge légal) ; Harris Mélenchon devant. Page ouverte.",
+      "url": "https://www.publicsenat.fr/actualites/politique/retraites-edouard-philippe-sort-du-bois-et-propose-un-age-de-depart-a-65-ans"
+    },
+    {
+      "chaineSlug": "l-independant",
+      "date": "2026-09-29",
+      "emission": "Présidentielle 2027 : âge de départ à 65 ans \"pour les Français qui le peuvent\", 45 annuités de cotisation… Édouard Philippe dévoile son projet de réforme des retraites",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "L'Indépendant 29/09 12h40 (AFP). Relais vidéo EP 65/45, 1/3 avant, capitalisation ; étiquette « 67 ans » ; Attal ; Harris. Page ouverte.",
+      "url": "https://www.lindependant.fr/2026/09/29/presidentielle-2027-age-de-depart-a-65-ans-pour-les-francais-qui-le-peuvent-45-annuites-de-cotisation-edouard-philippe-devoile-son-projet-de-reforme-13574498.php"
+    },
+    {
+      "chaineSlug": "lcp",
+      "date": "2026-09-29",
+      "emission": "Retraites: Édouard Philippe veut porter l'âge de départ à 65 ans et la durée de cotisation à 45 ans",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "LCP 29/09 13h20. Vidéo YouTube « Retraites : ma réforme pour sauver le système » (~11h30) : 65 ans / 45 ans ; « charlatans » si retour à 60 ; critique système sans âge (Attal) ; capitalisation + 1er versement État sur PE",
+      "url": "https://lcp.fr/actualites/retraites-edouard-philippe-veut-porter-l-age-de-depart-a-65-ans-et-la-duree-de"
+    },
+    {
+      "chaineSlug": "20-minutes",
+      "date": "2026-09-29",
+      "emission": "Présidentielle 2027 : Edouard Philippe propose de repousser l’âge de la retraite et d’allonger à 45 ans de cotisations",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "20 Minutes 29/09 13h25 (màj 13h41, AFP). Relais : 65 ans / 45 annuités <10 ans, capitalisation, 1/3 avant 65 ; contexte sondages bloc central. Page ouverte.",
+      "url": "https://www.20minutes.fr/politique/4249744-20260929-presidentielle-2027-edouard-philippe-propose-repousser-age-retraite-allonger-45-ans-cotisations"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-09-29",
+      "emission": "Âge de départ à 65 ans, 45 annuités de cotisation: Édouard Philippe est \"à côté du sujet\", estime Marylise Léon, secrétaire générale de la CFDT",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "BFMTV 29/09 13h35 (vidéo 2′04). Réaction Marylise Léon (CFDT) : EP « à côté du sujet » sur 65 ans / 45 annuités. Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/horizons/video-age-de-depart-a-65-ans-45-annuites-de-cotisation-edouard-philippe-est-a-cote-du-sujet-estime-marylise-leon-secretaire-generale-de-la-cfdt_VN-202609290494.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-09-29",
+      "emission": "Retraite: \"Pourquoi pas 70 ans pendant qu'on y est\", rétorque Sophie Binet à Édouard Philippe qui propose un âge de départ à 65 ans",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "BFMTV 29/09 13h46 (vidéo 0′23). Sophie Binet (CGT) ironise « Pourquoi pas 70 ans » face à la proposition EP 65 ans / 45 annuités. Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/horizons/video-retraite-pourquoi-pas-70-ans-pendant-qu-on-y-est-retorque-sophie-binet-a-edouard-philippe-qui-propose-un-age-de-depart-a-65-ans_VN-202609290496.html"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-09-29",
+      "emission": "Présidentielle 2027 : âge de départ à 65 ans, 45 annuités de cotisation... dans le dossier retraite, Édouard Philippe dévoile son projet de réforme",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "La Dépêche 29/09 14h00 (màj 14h42). Synthèse projet EP 65/45, dérogations, capitalisation ; critique Attal. Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/09/29/presidentielle-2027-age-de-depart-a-65-ans-45-annuites-de-cotisation-dans-le-dossier-retraite-edouard-philippe-devoile-son-projet-de-reforme-13574558.php"
+    },
+    {
+      "chaineSlug": "huffpost",
+      "date": "2026-09-29",
+      "emission": "Édouard Philippe dévoile (enfin) son projet de réforme des retraites, avec un âge de départ à 65 ans",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "HuffPost 29/09 14h04. Analyse : EP s’éloigne du totem 67 ans ; 65/45 en <10 ans ; 1/3 avant 65 ; capitalisation obligatoire + 1er versement État sur PER jeunes (non chiffré). Page ouverte.",
+      "url": "https://www.huffingtonpost.fr/politique/article/edouard-philippe-devoile-enfin-son-projet-de-reforme-des-retraites-avec-un-age-de-depart-a-65-ans_332586.html"
+    },
+    {
+      "chaineSlug": "cnews",
+      "date": "2026-09-29",
+      "emission": "Capitalisation, départ à 65 ans, durée de cotisation… Edouard Philippe dévoile son projet de réforme des retraites",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "CNews 29/09 14h40 (datetime 12:40Z). Vidéo EP : système mixte répartition/capitalisation ; 45 ans / 65 ans ; reprise réforme 2023 puis <10 ans. Page ouverte.",
+      "url": "https://www.cnews.fr/france/2026-09-29/capitalisation-depart-65-ans-duree-de-cotisation-edouard-philippe-devoile-sa"
+    },
+    {
+      "chaineSlug": "la-croix",
+      "date": "2026-09-29",
+      "emission": "Présidentielle 2027 : Édouard Philippe assume le risque de porter l’âge de la retraite à 65 ans",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "La Croix 29/09 17h58. Analyse Corinne Laurent : vidéo 19 min « Il est temps de parler des retraites » ; timing entre visite pape et budget 1er oct. ; totem 67 ans (Challenges 2021) ; 65/45 en <10 ans. Page ouverte.",
+      "url": "https://www.la-croix.com/politique/presidentielle-2027-edouard-philippe-assume-le-risque-de-porter-l-age-de-la-retraite-a-65-ans-20260929"
+    }
+  ]
+}

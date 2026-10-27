@@ -1,0 +1,67 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (raw/temps-reel-2026-10-15-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-27T08:54:17Z",
+    "note": "Passe 2026-10-15-18h dérivée du ledger (mêmes règles que les data-incoming PasEdouard : outlet -> slug de la liste fermée, emission = titre, resume = résumé du ledger, dureeMinutes 0, tonalité neutre ; sans slug = skip). 11 pubs au ledger pour cette passe. (exports/temps-reel-2026-10-15-18h.jsonl contient un data-incoming déjà formé ; dérivé depuis raw/)",
+    "skips_no_slug": [
+      "Politico Europe",
+      "France 24 (AFP)",
+      "Boursorama (AFP)",
+      "Crif",
+      "X"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-15",
+      "emission": "Présidentielle 2027 : Bruno Retailleau repousse l’appel au rassemblement d’Édouard Philippe pour « laisser aux électeurs la liberté »",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Parisien 15/10 12h34 : lettre de Retailleau datée du 13/10 (révélée par Politico) rejetant la main tendue d’EP ; « le rassemblement ne peut être un préalable… il faut laisser aux électeurs la liberté de choisir ». Rappel : Attal avait déjà décliné ; selon Libération, EP a reproposé une rencontre début novembre. Métadonnées + extraits.",
+      "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-bruno-retailleau-repousse-lappel-au-rassemblement-dedouard-philippe-pour-laisser-aux-electeurs-la-liberte-15-10-2026-LIIE6YFBG5FLPMNNNU6O4OBMXE.php"
+    },
+    {
+      "chaineSlug": "mediapart",
+      "date": "2026-10-15",
+      "emission": "Présidentielle: Retailleau propose un débat à Edouard Philippe pour « confronter nos projets »",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Fil AFP Mediapart 15/10 13h40 : reprise de la dépêche — Retailleau propose un débat à EP « pour confronter nos projets devant les Français ». Chapô visible (abonnés).",
+      "url": "https://www.mediapart.fr/journal/fil-dactualites/151026/presidentielle-retailleau-propose-un-debat-edouard-philippe-pour-confronter-nos-projets"
+    },
+    {
+      "chaineSlug": "lcp",
+      "date": "2026-10-15",
+      "emission": "Présidentielle 2027: \"Ayons ensemble un débat public, devant les Français\", répond Bruno Retailleau à Édouard Philippe",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "LCP 15/10 15h53 : courrier d’EP du 8/10 proposant de se retrouver « dès le début du mois de novembre, pour préparer ensemble le quinquennat » ; réponse de Retailleau du 13/10 (débat public). Entourage EP : « Notre souhait, c’est rassembler, tendre la main », le rendez-vous de novembre jugé encore possible. Extraits lus.",
+      "url": "https://lcp.fr/actualites/presidentielle-2027-ayons-ensemble-un-debat-public-devant-les-francais-repond-bruno"
+    },
+    {
+      "chaineSlug": "cnews",
+      "date": "2026-10-15",
+      "emission": "«Edouard Phillipe traîne un passif impossible à éliminer : son passage à Matignon sous Emmanuel Macron», analyse Jean-Christophe Gallien",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "CNews 15/10 15h39 : le politologue Jean-Christophe Gallien juge sur le plateau qu’EP « traîne un passif impossible à éliminer : son passage à Matignon sous Emmanuel Macron ». Page ouverte (extrait vidéo, texte court).",
+      "url": "https://www.cnews.fr/france/2026-10-15/edouard-phillipe-traine-un-passif-impossible-eliminer-son-passage-matignon-sous"
+    },
+    {
+      "chaineSlug": "les-echos",
+      "date": "2026-10-15",
+      "emission": "SONDAGE EXCLUSIF - Présidentielle 2027 : Glucksmann fait une percée, la deuxième place se joue dans un mouchoir",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Les Echos 15/10 17h20 : baromètre PrésiTrack OpinionWay (3ᵉ vague). Hypothèse EP seul candidat du bloc central : Glucksmann 15 %, à égalité avec EP (−4 pts) et Mélenchon (−1) ; hypothèse Attal : Glucksmann 16 %, au second tour face à Le Pen, toujours largement en tête. Chapô lu (abonnés).",
+      "url": "https://www.lesechos.fr/elections/sondages/sondage-exclusif-presidentielle-2027-glucksmann-fait-une-percee-la-deuxieme-place-se-joue-dans-un-mouchoir-2257250"
+    }
+  ]
+}

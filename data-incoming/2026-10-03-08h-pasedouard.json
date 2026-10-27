@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-03-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-03T05:55:00Z",
+    "note": "Vague JPE Livre 3 oct 8h. +3 pubs — reprises Elabe (La Dépêche + BFMTV) ; Figaro indiscrets messe pape. X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": []
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-02",
+      "emission": "Présidentielle 2027 - sondage : la cote de confiance d'Édouard Philippe grimpe de 4 points... et rattrape celle de Marine Le Pen",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "La Dépêche 02/10 19h32 (màj 03/10 07h18). Reprise baromètre Elabe/Les Echos : EP +4 pts à 30 % (3e), derrière Bardella/Le Pen (37 %) ; Attal 25 % (5e) ; chez électeurs Macron EP 70 % (+12) vs Attal 61 %. Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/02/presidentielle-2027-sondage-la-cote-de-confiance-dedouard-philippe-grimpe-de-4-points-et-rattrape-celle-de-marine-le-pen-13580965.php"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-02",
+      "emission": "Avec 4 points de plus, Édouard Philippe progresse dans l’opinion et se place juste derrière Marine Le Pen et Jordan Bardella",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "BFMTV 02/10 18h49. Reprise Elabe/Les Echos : EP image positive 30 % (+4, 3e) derrière Bardella/Le Pen (37 %) ; 70 % chez électeurs Macron vs Attal 61 %, Darmanin 49 %. Terrain 29-30/09, n=1000. Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/horizons/avec-4-points-de-plus-edouard-philippe-progresse-dans-l-opinion-et-se-place-juste-derriere-marine-le-pen-et-jordan-bardella_AN-202610020749.html"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-02",
+      "emission": "Philippe, Attal, Pécresse et la paix du Christ... Les indiscrets du Figaro",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Le Figaro 02/10 20h30 (confidentiels). À la messe du pape place de la Concorde, Pécresse assise entre Attal et EP ; geste de paix (« la concorde »). Rivalité présidentielle évoquée. Extrait abonnés ouvert.",
+      "url": "https://www.lefigaro.fr/politique/philippe-attal-pecresse-et-la-paix-du-christ-les-indiscrets-du-figaro-20261002"
+    }
+  ]
+}

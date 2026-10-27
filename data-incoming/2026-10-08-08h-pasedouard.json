@@ -1,0 +1,77 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-08-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-08T06:00:37Z",
+    "note": "Passe 8 oct 8h. +11 pubs (med-2026-596…med-2026-606) — jour J « L'Heure de vérité » France 2 20h40 (Le Parisien, HuffPost, La Tribune Vigogne, Figaro Boichot, LeBlogTVNews, Stars Actu, Orange vidéo) ; Figaro/Verian stature : Le Pen +10 pts sur EP ; L'Opinion bloc central « dans la mélasse » ; Figaro électorats EP/Attal ; Ouest-France entretien Béchu (union, vote utile). 6 apparitions ; 5 skips. X (accès public Grok Bot) : 0 post @EPhilippe_LH depuis la dernière passe. Pas de PR.",
+    "skips_no_slug": [
+      "Ouest-France",
+      "HuffPost",
+      "LeBlogTVNews",
+      "Orange Actualités",
+      "Stars Actu"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "la-tribune",
+      "date": "2026-10-08",
+      "emission": "L’heure régalienne d’Édouard Philippe. La chronique de Ludovic Vigogne",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Chronique La Tribune 08/10 : « L'Heure de vérité » revient jeudi sur France 2 ; EP, premier invité, compte en tirer parti pour consolider son avance dans les sondages (axe régalien). Page ouverte.",
+      "url": "https://www.latribune.fr/article/la-tribune-dimanche/politique/12144250230358/l-heure-regalienne-d-edouard-philippe-la-chronique-de-ludovic-vigogne"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-08",
+      "emission": "Stature présidentielle : toujours en tête, Marine Le Pen creuse l’écart avec Édouard Philippe",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "EXCLUSIF Figaro 08/10 (abonnés) : baromètre Verian d'octobre, EP, qui faisait quasiment jeu égal avec Marine Le Pen sur la stature présidentielle, est désormais 10 points derrière elle. Page ouverte (chapô).",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/sondages/stature-presidentielle-toujours-en-tete-marine-le-pen-creuse-l-ecart-avec-edouard-philippe-20261008"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-07",
+      "emission": "« Ce sera un grand test » : Édouard Philippe joue son « Heure de vérité »",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Décryptage Figaro 07/10 19h35 (abonnés) : sur France 2 jeudi, le candidat d'Horizons s'attend à revenir sur ses annonces sur la retraite à 65 ans et sur l'école, en pleine contestation lycéenne. Page ouverte (chapô).",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/ce-sera-un-grand-test-edouard-philippe-joue-son-heure-de-verite-20261007"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-07",
+      "emission": "Socle macroniste, jeunes contre retraités, porosité avec LR : entre Gabriel Attal et Édouard Philippe, des électorats cousins mais pas jumeaux",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Décryptage Figaro 07/10 19h05 (abonnés) : comparaison des bases électorales d'EP et d'Attal, sondage après sondage. Page ouverte (chapô).",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/candidats/socle-macroniste-jeunes-contre-retraites-porosite-avec-lr-entre-gabriel-attal-et-edouard-philippe-des-electorats-cousins-mais-pas-jumeaux-20261007"
+    },
+    {
+      "chaineSlug": "l-opinion",
+      "date": "2026-10-08",
+      "emission": "Les candidats du bloc central dans la mélasse",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "L'Opinion 08/10 : EP, Gabriel Attal et Bruno Retailleau se neutralisent et permettent à Marine Le Pen d'asseoir sa domination. Page ouverte (chapô).",
+      "url": "https://www.lopinion.fr/politique/les-candidats-du-bloc-central-dans-la-melasse"
+    },
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-08",
+      "emission": "Polémiques, lancement repoussé… « L’Heure de vérité » arrive enfin sur France 2",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Parisien 08/10 6h45 : après un an de préparation et un faux départ, EP premier invité jeudi 20h40 de « L'Heure de vérité » (Caroline Roux, Burgot, Latrous, Duhamel, Bastié, Porcher) ; rendez-vous mensuel, une dizaine de numéros d'ici le 1er tour. Page ouverte.",
+      "url": "https://www.leparisien.fr/culture-loisirs/tv/polemiques-lancement-repousse-lheure-de-verite-arrive-enfin-sur-france-2-08-10-2026-A5ULF45LDBGQ7IFYYIPFTJYDZE.php"
+    }
+  ]
+}

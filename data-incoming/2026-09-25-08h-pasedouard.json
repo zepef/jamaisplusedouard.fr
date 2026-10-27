@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-25-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-25T06:05:00Z",
+    "note": "Vague JPE Livre 25 sept 8h. 1 pub post-last_run 24/09 18h ; 1 poussée. Fil : La Croix 18h57 EP/Attal sans dynamique bloc central (carburants + pape). X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": []
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "la-croix",
+      "date": "2026-09-24",
+      "emission": "Présidentielle 2027 : au centre, Édouard Philippe et Gabriel Attal en quête d’élan",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "La Croix 24/09 18h57. Brève : EP (Horizons) a l’avantage sur Attal (Renaissance) dans les sondages, mais aucun des deux ne crée de dynamique autour du « bloc central » ; contexte carburants + visite pape Léon XIV. Page ouverte.",
+      "url": "https://www.la-croix.com/politique/presidentielle-2027-au-centre-edouard-philippe-et-gabriel-attal-en-quete-d-elan-20260924"
+    }
+  ]
+}

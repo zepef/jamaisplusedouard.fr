@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (exports/temps-reel-2026-10-22-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-27T08:54:17Z",
+    "note": "Passe 2026-10-22-18h dérivée du ledger (mêmes règles que les data-incoming PasEdouard : outlet -> slug de la liste fermée, emission = titre, resume = résumé du ledger, dureeMinutes 0, tonalité neutre ; sans slug = skip). 28 pubs au ledger pour cette passe.",
+    "skips_no_slug": [
+      "X",
+      "Paris Match",
+      "JDN",
+      "Le Dauphiné Libéré",
+      "Jean-Marc Morandini",
+      "La Nouvelle République",
+      "RCF",
+      "La Libre Belgique",
+      "Stéphane Larue News",
+      "i24NEWS",
+      "dekkbi.com",
+      "Planet.fr",
+      "Boursorama (AFP)",
+      "Sud Radio",
+      "Hespress Français",
+      "Euronews",
+      "Le Journal des Français",
+      "Presse Agence",
+      "Capital"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-22",
+      "emission": "Édouard Philippe: \"Lorsque l'État ne garantit pas à ses citoyens qu'il est en mesure de les protéger, il faut toujours redouter qu'ils cherchent à le faire eux-mêmes\"",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Vidéo : EP dans les Ardennes sur les violences du 17/10 et la manifestation du 24/10 (« il faut toujours redouter qu'ils cherchent à le faire eux-mêmes »). Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/video-edouard-philippe-lorsque-l-etat-ne-garantit-pas-a-ses-citoyens-qu-il-est-en-mesure-de-les-proteger-il-faut-toujours-redouter-qu-ils-cherchent-a-le-faire-eux-memes_VN-202610220439.html"
+    },
+    {
+      "chaineSlug": "tf1-info",
+      "date": "2026-10-22",
+      "emission": "Après le 17 octobre, Philippe et Attal jouent plus que jamais la rupture avec Macron",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "EP et Attal absents de la réunion de Matignon du 22/10 sur le maintien de l'ordre ; distanciation avec Macron. Page ouverte.",
+      "url": "https://www.tf1info.fr/politique/elections/presidentielle/apres-le-17-octobre-edouard-philippe-et-gabriel-attal-jouent-plus-que-jamais-la-rupture-avec-emmanuel-macron-2471375.html"
+    },
+    {
+      "chaineSlug": "tf1-info",
+      "date": "2026-10-22",
+      "emission": "VÉRIF' - Est-il vrai qu'un policier municipal \"ne peut même pas verbaliser une personne en train de dégrader un bien public\"",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Vérif' : la phrase d'EP sur X selon laquelle un policier municipal « ne peut même pas verbaliser » une dégradation ; nuancée (PV possible pour dégradation légère). Page ouverte.",
+      "url": "https://www.tf1info.fr/justice-faits-divers/verif-17-octobre-est-il-vrai-comme-le-dit-edouard-philippe-qu-un-policier-municipal-ne-peut-meme-pas-verbaliser-une-personne-en-train-de-degrader-un-bien-public-2471384.html"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-22",
+      "emission": "Présidentielle 2027 - sondage : Le Pen et Mélenchon plébiscités, un seul candidat en embuscade... Pour qui veulent voter les jeunes ? - ladepeche.fr",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Sondage jeunes : Le Pen et Mélenchon plébiscités chez les moins de 35 ans ; hypothèse EP seul candidat du bloc central. Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/22/presidentielle-2027-sondage-le-pen-et-melenchon-plebiscites-un-seul-candidat-en-embuscade-pour-qui-veulent-voter-13615195.php"
+    },
+    {
+      "chaineSlug": "le-nouvel-obs",
+      "date": "2026-10-22",
+      "emission": "Manifestations du 17 octobre : les partis politiques reçus ce jeudi à Matignon, le renseignement convoqué à l’Elysée",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Partis reçus à Matignon après le 17/10 ; Horizons représenté par Christophe Béchu. Page ouverte.",
+      "url": "https://www.nouvelobs.com/politique/20261022.OBS119422/manifestations-du-17-octobre-les-partis-politiques-recus-ce-jeudi-a-matignon-le-renseignement-convoque-a-l-elysee.html"
+    },
+    {
+      "chaineSlug": "l-independant",
+      "date": "2026-10-22",
+      "emission": "Violences du 17 octobre : les partis reçus par Lecornu à Matignon, Macron convoque \"l’ensemble des services de renseignement\" à l’Élysée",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Partis reçus par Lecornu à Matignon ; Horizons, parti d'EP, représenté par Christophe Béchu. Page ouverte.",
+      "url": "https://www.lindependant.fr/2026/10/22/violences-du-17-octobre-les-partis-recus-par-lecornu-a-matignon-macron-convoque-lensemble-des-services-de-renseignement-a-lelysee-13614717.php"
+    },
+    {
+      "chaineSlug": "rmc",
+      "date": "2026-10-22",
+      "emission": "\"On ne recule jamais\": cet ex-député LREM a demandé à Emmanuel Macron de démissionner, voici ce qu'il lui a répondu",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Jean-Baptiste Moreau (ex-député LREM) a demandé à Macron de démissionner ; juge « ingrats » les ex-macronistes candidats (EP, Attal visés sans être nommés). Page ouverte.",
+      "url": "https://rmc.bfmtv.com/actualites/politique/on-ne-recule-jamais-cet-ex-depute-lrem-a-demande-a-emmanuel-macron-de-demissionner-voici-ce-qu-il-lui-a-repondu_AV-202610220210.html"
+    },
+    {
+      "chaineSlug": "l-opinion",
+      "date": "2026-10-22",
+      "emission": "#dessin / Le candidat de l’union",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Dessin de Kak « Le candidat de l'union », tagué Édouard Philippe. Page ouverte.",
+      "url": "https://www.lopinion.fr/de-qui-se-moque-t-on/dessin-le-candidat-de-lunion"
+    },
+    {
+      "chaineSlug": "lcp",
+      "date": "2026-10-22",
+      "emission": "Combien vont coûter les ex-Premiers ministres à l'État en 2026?",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Coût des ex-Premiers ministres en 2026 ; EP, maire du Havre, ne bénéficie pas de ces avantages. Page ouverte.",
+      "url": "https://lcp.fr/actualites/combien-vont-couter-les-ex-premiers-ministres-a-l-etat-en-2026-444160?amp"
+    }
+  ]
+}

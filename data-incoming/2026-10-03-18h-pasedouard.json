@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-03-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-03T16:00:00Z",
+    "note": "Vague JPE Livre 3 oct 18h. +2 pubs — RFI podcast retraites 65 ans ; L'Express analyse campagne à contretemps. X needsAuth (pas de connecteur). Pas de PR.",
+    "skips_no_slug": []
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "rfi",
+      "date": "2026-10-03",
+      "emission": "Édouard Philippe essaie de ne pas buter sur les retraites",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "RFI 03/10 08h50. Podcast « Politique, le choix de la semaine » : EP place l'âge légal à 65 ans (pas 67) ; réforme élaborée avec Darmanin ; timing concurrent des révélations Mediapart/Bardella ; impact campagne interrogé. Page ouverte.",
+      "url": "https://www.rfi.fr/fr/podcasts/politique-le-choix-de-la-semaine/20261003-%C3%A9douard-philippe-essaie-de-ne-pas-buter-sur-les-retraites"
+    },
+    {
+      "chaineSlug": "l-express",
+      "date": "2026-10-03",
+      "emission": "Présidentielle 2027 : Edouard Philippe, la campagne à contretemps",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "L'Express 03/10 12h29. Analyse : temporalité décalée et modération revendiquée ; le candidat peine à séduire ; inquiétude dans l'entourage (« mur du son »). Extrait ouvert (paywall).",
+      "url": "https://www.lexpress.fr/politique/presidentielle-2027-edouard-philippe-la-campagne-a-contretemps-2EODHZM5NBDUXMXF5OFAAL3KVQ/"
+    }
+  ]
+}

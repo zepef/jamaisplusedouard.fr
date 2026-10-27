@@ -1,0 +1,206 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-19-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-19T16:27:48Z",
+    "note": "Passe 19 oct 18h (fenêtre ~7h55 → ~18h20 Paris 19/10, + rattrapages des 18/10 soir et 19/10 matin non vus à 8h : Le Figaro 23h06, AFP/Boursorama 22h33, Les Echos 20h44, Public Sénat 21h17, Contrepoints, Ohmymag, Gentside/Fillon, 3 vidéos Le Figaro TV du Grand Oral, Politico Dimanchissime 17h32, Les 4 Vérités 18h22, HuffPost compilateur 6h00, Demócrata 6h54, Dakarposte 0h23). +34 pubs (med-2026-834…867), 0 post X. Fil : (1) suites de la lettre d'EP à Macron (« Notre pays a besoin d'être commandé ») : L'Opinion 17h00 (F.-X. Bourmaud, « Edouard Philippe coupe les ponts avec Emmanuel Macron »), Les Echos 17h56 (entourage « atterré »), Libération 11h49 (métadonnées Google News, page anti-bot), Linternaute 10h35, JDD 10h38, RMC 7h15, directs La Dépêche (8h13), TF1 Info (intro AFP) ; (2) Le Havre : Paris-Normandie 10h41 — la Ville, « Edouard Philippe et les élus du conseil municipal », appellent à un rassemblement citoyen lundi 19/10 18h parvis de l'Hôtel de Ville (aucun compte rendu publié à ~18h20) ; (3) commission d'enquête : Le Figaro direct 9h01, Maud Bregeon « aussi soutien du candidat Horizons » charge LFI, Braun-Pivet réclame une commission d'enquête ; (4) sondages (reprises, pas de nouvelle enquête EP depuis Elabe/YouGov) : Le Parisien 11h42 et La Provence 14h36 (Elabe), La Dépêche 10h32 (YouGov 13 %), HuffPost compilateur (EP 12,8 % vs Attal 6,2 % testés ensemble), Toute l'Europe, Europe Infos, Valeurs actuelles 10h29 (Cluster17/Le Point 14-15/10 : EP 17 %, Lisnard 7 % = Retailleau) ; (5) droite : Fillon soutient Retailleau et « écarte » EP (Gentside, Avignon 17/10) ; Contrepoints charge le bilan d'EP ; Politico : Attal veut saisir l'offre de « tiers de confiance » de Borloo entre lui et EP. Non retenus : Le Parisien 15h14 (réunion des chefs de parti autour de Lecornu, Le Pen/Bardella absents : pas d'EP), Le Parisien 9h47 Attal « le gouvernement a failli », RTL 7h55 Attal, Le Figaro 11h47 Attal forces armées, BFMTV 17h56 Attal réseaux sociaux (EP seulement en liens annexes), Le Figaro 13h17 annonces Lecornu (EP en lien annexe), L'Obs 16h09 Mélenchon HEC (EP en lien annexe), Atlantico 9h34 (EP seulement en mot-clé), Midi Libre 14h24 Drucker (EP seulement en liens), Le Parisien 13h19 Rouen, franceinfo 15h49 rassemblements devant les mairies, France 3 Normandie maires, Paris-Normandie 18/10 18h21, 19/10 15h38 et 17h17, ICI Normandie (pas d'EP), directs BFMTV, Europe 1, Ouest-France et Les Echos du 19/10 (pas d'EP à ~18h15), franceinfo L'invité politique (Othman Nasrou, pas d'EP), Bonjour ! TF1 19/10 (pas d'EP) ; RMC EN-202610190098 et podcast (doublons de med-2026-833) ; Maison des Lanceurs d'Alerte page Cornelia Findeisen (non datée, date non vérifiable) ; Yahoo (reprise HuffPost déjà au livre), mapressedujour (agrégateur), vidéos Orange Actualités re-datées (archives 2017-2020) ; actu.fr 16/10 rythmes scolaires (hors fenêtre) ; Radio 8 Ardennes (déjà jugé). Rien de neuf vérifié sur les Ardennes (réunion publique Metropolis 21/10 18h30 déjà au livre), sur Findeisen/PNF, sur une réponse d'EP au débat proposé par Retailleau, ni sur de nouveaux ralliements. Proches inchangé (Bregeon déjà au fichier ; aucune source nouvelle documentant un lien). À surveiller : compte rendu du rassemblement du Havre (19/10 18h) et éventuelle prise de parole d'EP ; réunion des chefs de parti autour de Lecornu (date non annoncée, participation Horizons/EP) ; commission d'enquête parlementaire ; couvre-feux/état d'urgence et réactions d'EP ; déplacement Ardennes 21-22/10 ; prochains sondages post-17 octobre ; médiation Borloo Attal–EP ; réponse au débat Retailleau ; suites Findeisen/PNF. 18 apparitions ; skips_no_slug Boursorama, Contrepoints, Dakarposte, Demócrata, Europe Infos, Gentside, La Provence, Le Courrier européen, Les 4 Vérités Hebdo, Linternaute, Ohmymag, Politico Europe, Toute l'Europe, Valeurs actuelles.",
+    "skips_no_slug": [
+      "Boursorama",
+      "Contrepoints",
+      "Dakarposte",
+      "Demócrata",
+      "Europe Infos",
+      "Gentside",
+      "La Provence",
+      "Le Courrier européen",
+      "Les 4 Vérités Hebdo",
+      "Linternaute",
+      "Ohmymag",
+      "Politico Europe",
+      "Toute l'Europe",
+      "Valeurs actuelles"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "paris-normandie",
+      "date": "2026-10-19",
+      "emission": "Après les débordements en marge de la manifestation au Havre, la Ville appelle à un rassemblement",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "La Ville du Havre appelle à un rassemblement citoyen lundi 19/10 à 18h sur le parvis de l'Hôtel de Ville « après les violences qui ont frappé notre ville et notre pays ce week-end ». Communiqué cité : « Edouard Philippe et les élus du conseil municipal proposent à tous ceux qui souhaitent témoigner leur solidarité, dénoncer ces violences et montrer leur attachement à l'ordre et aux principes républicains, de se rassembler lundi à 18h » ; « La violence n'aura jamais sa place, ni au Havre ni ailleurs. » Page ouverte.",
+      "url": "https://www.paris-normandie.fr/id753455/article/2026-10-19/apres-les-debordements-en-marge-de-la-manifestation-au-havre-la-ville-appelle-un"
+    },
+    {
+      "chaineSlug": "l-opinion",
+      "date": "2026-10-19",
+      "emission": "Journal d'une succession : divorce, mode d'emploi",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Chronique : « Après trois tentatives plus ou moins concluantes, Edouard Philippe coupe les ponts avec Emmanuel Macron », la rupture tenant « en six mots » sur X (« Notre pays a besoin d'être commandé ») ; rappel de la tentative de 2025 (« L'Etat n'est plus tenu », appel à une présidentielle anticipée) puis du mea culpa au lancement de la campagne municipale au Havre. Page ouverte (début d'article).",
+      "url": "https://www.lopinion.fr/politique/journal-dune-succession-divorce-mode-demploi"
+    },
+    {
+      "chaineSlug": "liberation",
+      "date": "2026-10-19",
+      "emission": "Philippe réagit à l'allocution de Macron après le 17 octobre : «Notre pays a besoin d'être commandé»",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Article Libération consacré à la réaction d'EP à l'allocution d'Emmanuel Macron (lettre sur X du 18/10 22h05). Métadonnées Google News (titre, heure 19/10 11h49 Paris, URL) ; page bloquée au robot (anti-bot), contenu non lu.",
+      "url": "https://www.liberation.fr/politique/philippe-reagit-a-lallocution-de-macron-apres-le-17-octobre-notre-pays-a-besoin-detre-commande-20261019_6QDEL4M5ZBBX3CRNTTNRZH4J6M/"
+    },
+    {
+      "chaineSlug": "le-jdd",
+      "date": "2026-10-19",
+      "emission": "Prise de parole d'Emmanuel Macron sur les violences du 17 octobre : les réactions de la classe politique",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Tour des réactions : « À droite, des critiques sur le manque de fermeté » ; EP « aurait préféré des \"décisions et des initiatives permettant le retour à l'ordre et le rétablissement de l'autorité de l'État\" », formule « Notre pays a besoin d'être commandé » ; embed du post X d'EP ; aussi Retailleau (« très inquiétant »), Bardella, Panot, Tondelier. Page ouverte.",
+      "url": "https://www.lejdd.fr/politique/tres-inquietant-lamentable-la-classe-politique-accable-emmanuel-macron-apres-son-intervention-sur-les-violences-du-17-octobre-186399"
+    },
+    {
+      "chaineSlug": "les-echos",
+      "date": "2026-10-19",
+      "emission": "Violences, pillages : Lecornu peine à trouver une réponse forte",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Analyse des réponses du gouvernement Lecornu après le 17 octobre : Macron « a aussi essuyé des critiques de la part de son propre camp. « Notre pays a besoin d'être commandé », a estimé sur X Edouard Philippe, président d'Horizons et candidat à la présidentielle » ; « Son entourage le dit « atterré » par la situation actuelle ». Page ouverte.",
+      "url": "https://www.lesechos.fr/politique-societe/gouvernement/violences-pillages-lecornu-peine-a-trouver-une-reponse-forte-2257777"
+    },
+    {
+      "chaineSlug": "rmc",
+      "date": "2026-10-19",
+      "emission": "17 octobre : l'allocution d'Emmanuel Macron critiquée",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Vidéo RMC (1:30) du 19/10 7h15 : « Emmanuel Macron lâché jusque dans son propre camp : la charge lourde d'Edouard Philippe : \"Notre pays a besoin d'être commandé\" ». Page ouverte.",
+      "url": "https://rmc.bfmtv.com/actualites/societe/video-17-octobre-l-allocution-d-emmanuel-macron-critiquee_VN-202610190126.html"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-19",
+      "emission": "DIRECT. Violences du 17 octobre : Matignon annonce de premiers couvre-feux pour les nuits de lundi et mardi",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Direct La Dépêche du 19/10 (ouvert 7h29, maj ~18h ; titre évolutif) : entrée 8h13 « Edouard Philippe \"aurai(t) préféré\" des \"décisions et des initiatives permettant le retour à l'ordre\" », lettre d'EP à Macron sur X reproduite (« Notre pays a besoin d'être commandé »). Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/19/violences-du-17-octobre-laurent-nunez-a-presente-sa-demission-a-emmanuel-macron-le-president-la-refusee-13609454.php"
+    },
+    {
+      "chaineSlug": "tf1-info",
+      "date": "2026-10-19",
+      "emission": "EN DIRECT - Violences urbaines : Matignon annonce de premiers couvre-feux pour les nuits de lundi et mardi dans plusieurs villes du Nord",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Direct TF1 Info du 19/10 (ouvert 6h30, maj ~18h ; titre évolutif). Introduction (reprise AFP) : Macron « sans avoir convaincu, jusque dans son camp » ; « \"J'aurais préféré, comme des millions de Français, des décisions et des initiatives permettant le retour à l'ordre et le rétablissement de l'autorité de l'État\", l'a interpellé sur X son ancien Premier ministre Édouard Philippe », qui lui reconnaît « une volonté louable de rétablir le dialogue ». Page ouverte.",
+      "url": "https://www.tf1info.fr/societe/en-direct-manifestation-17-octobre-le-jour-d-apres-pillages-heurts-violences-l-heure-des-reactions-apres-l-allocution-d-emmanuel-macron-2470686.html"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-19",
+      "emission": "EN DIRECT - Lille, Douai, Denain… Matignon annonce de premiers couvre-feux pour les nuits de lundi et mardi après les violences du 17 octobre",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Direct Le Figaro du 19/10 (ouvert 6h10, maj ~18h15 ; titre évolutif ; jugé sans EP à 6h10 lors de la passe précédente). Entrée 9h01 sur Maud Bregeon (LCI) : « Aussi soutien du candidat Horizons, Édouard Philippe, la ministre a infligé une violente charge à l'égard des Insoumis » ; mention de la demande de commission d'enquête de Yaël Braun-Pivet. Page ouverte.",
+      "url": "https://www.lefigaro.fr/actualite-france/en-direct-violences-manifestations-pillages-degats-paris-allocution-macron-17-octobre-emutes-20261019"
+    },
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-19",
+      "emission": "Présidentielle 2027 : Édouard Philippe, Raphaël Glucksmann et Jean-Luc Mélenchon au coude à coude dans un nouveau sondage",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Reprise du sondage Elabe pour BFMTV et La Tribune Dimanche (14-16/10, 1 701 personnes) : EP 15,5 à 16,5 % s'il est seul candidat du bloc central, 9,5 à 10,5 % avec Gabriel Attal ; Glucksmann 15-16,5 % ; second tour Le Pen 52,5 % face à EP. Page ouverte.",
+      "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-edouard-philippe-raphael-glucksmann-et-jean-luc-melenchon-au-coude-a-coude-dans-un-nouveau-sondage-19-10-2026-JULD5LZWRBGILHZQYPOAH45U6I.php"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-19",
+      "emission": "Présidentielle 2027 - sondage : un duel serré entre Raphaël Glucksmann et Jean-Luc Mélenchon selon ce sondage, Marine Le Pen toujours largement en tête",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Reprise du sondage YouGov pour Le HuffPost (18/10) : EP « s'impose également comme un acteur clé, obtenant 13 % » ; rappel Odoxa-Backbone (Le Pen 37 %, Mélenchon 18 %, EP 17 %). Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/19/presidentielle-2027-sondage-un-duel-serre-entre-raphael-glucksmann-et-jean-luc-melenchon-selon-ce-sondage-marine-le-pen-toujours-largement-en-tete-13609582.php"
+    },
+    {
+      "chaineSlug": "huffpost",
+      "date": "2026-10-19",
+      "emission": "Le compilateur de sondages du « HuffPost » révèle les ravages de la « primaire sauvage » du bloc central",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Moyenne des sondages : EP et Attal engagés dans une « primaire sauvage » ; testés ensemble, EP 12,8 % contre 6,2 % pour Attal en moyenne ; Attal seul 11,8 % ; Le Pen 34,8 % face à EP candidat unique ; « match à trois » EP–Glucksmann–Mélenchon pour le second tour. Rattrapage du matin (6h00, avant la passe de 8h). Page ouverte.",
+      "url": "https://www.huffingtonpost.fr/politique/article/tous-les-sondages-de-la-presidentielle-2027-agreges-dans-notre-compilateur-ravageur-pour-le-bloc-central_341453.html"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-18",
+      "emission": "«Totalement dépassé», «artisan du chaos» : de LFI au RN, la classe politique étrille l'allocution d'Emmanuel Macron, jugée pas à la hauteur de la crise",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Rattrapage 18/10 23h06 (maj 19/10 8h47) : intertitre « Notre pays a besoin d'être commandé » ; « À droite, on réclame plutôt une réponse ferme aux violences » ; EP « aurai(t) préféré » des décisions, « même s'il a reconnu une volonté louable de rétablir le dialogue » ; aussi Retailleau, Bardella, Ciotti, Zemmour, Bompard, Panot. Page ouverte.",
+      "url": "https://www.lefigaro.fr/politique/totalement-depasse-artisan-du-chaos-de-lfi-au-rn-la-classe-politique-etrille-l-allocution-d-emmanuel-macron-jugee-pas-a-la-hauteur-de-la-crise-20261018"
+    },
+    {
+      "chaineSlug": "les-echos",
+      "date": "2026-10-18",
+      "emission": "Acculé par les violences, Emmanuel Macron tente la désescalade",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Rattrapage 18/10 20h44 (maj 19/10 8h05) : EP « a dénoncé sur BFMTV le « projet de conflictualisation » de LFI » et espérait « des décisions » et pas « des commentaires » ; « Le pays a besoin d'être commandé ». Page ouverte.",
+      "url": "https://www.lesechos.fr/politique-societe/emmanuel-macron-president/accule-par-les-violences-emmanuel-macron-tente-la-desescalade-2257617"
+    },
+    {
+      "chaineSlug": "public-senat",
+      "date": "2026-10-18",
+      "emission": "Violences du 17 octobre : Macron exprime sa « colère » et sa « honte » et promet « toute la transparence »",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Rattrapage 18/10 21h17 : avant l'allocution, « Édouard Philippe, également candidat, avertissait sur BFMTV : « Il faut des décisions. S'il se borne à du commentaire, ce serait dangereux. » ». Page ouverte.",
+      "url": "https://www.publicsenat.fr/actualites/politique/violences-du-17-octobre-macron-exprime-sa-colere-et-sa-honte-et-promet-toute-la-transparence"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-18",
+      "emission": "Violences du 17 octobre: Édouard Philippe dénonce un «mélange délétère» entre «l'ultragauche» et «les pilleurs»",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "Vidéo Le Figaro TV (rattrapage 18/10 18h25), extrait du Grand Oral 2027 BFMTV-Le Figaro. Page ouverte.",
+      "url": "https://video.lefigaro.fr/figaro/politique/violences-du-17-octobre-edouard-philippe-denonce-un-melange-deletere-entre-l-ultragauche-et-les-pilleurs-20261018"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-18",
+      "emission": "Édouard Philippe dénonce la «division qui est en train de frapper le pays»",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "Vidéo Le Figaro TV (rattrapage 18/10 19h29), extrait du Grand Oral BFMTV : « rien ne justifie ces saccages » ; « Le désordre choque les Français. Tout ça est dangereux pour notre Nation (...) C'est une division qui est en train de frapper le pays ». Page ouverte.",
+      "url": "https://video.lefigaro.fr/figaro/politique/edouard-philippe-denonce-la-division-qui-est-en-train-de-frapper-le-pays-20261018"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-18",
+      "emission": "Retrouvez le «Grand Oral» BFMTV-Le Figaro avec Édouard Philippe",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "Replay Le Figaro TV (rattrapage 18/10 20h32) de l'émission « Grand Oral 2027 BFMTV-Le Figaro » du 18/10 dont EP était l'invité (page côté Le Figaro, distincte de l'émission BFMTV déjà au livre). Page ouverte.",
+      "url": "https://video.lefigaro.fr/figaro/politique/retrouvez-le-grand-oral-bfmtv-le-figaro-avec-edouard-philippe-20261018"
+    }
+  ]
+}

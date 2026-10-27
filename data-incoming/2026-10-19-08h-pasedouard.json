@@ -1,0 +1,297 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-19-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-19T16:27:48Z",
+    "note": "Passe 19 oct 8h, voir raw/temps-reel-2026-10-19-08h.jsonl. 28 apparitions ; skips_no_slug Infobae, L'Union, Parlons Politique, Vanity Fair, X.",
+    "skips_no_slug": [
+      "Infobae",
+      "L'Union",
+      "Parlons Politique",
+      "Vanity Fair",
+      "X"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-18",
+      "emission": "17 octobre: au moins 92 personnes interpellées et 50 magasins pillés depuis le début de la journée à Paris",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Direct BFMTV ouvert le 18/10 à 5h54 (maj 23h56 ; titre évolutif). Entrées EP : 18h22 « le niveau de violence hallucinant qui a été atteint à Paris, Marseille et Lyon » (au Havre, « les policiers m'ont dit qu'ils n'avaient pas le souvenir au cours des 25 dernières années d'échanges aussi violents ») ; 18h32 « Je n'accuse personne mais je veux comprendre », favorable à une commission d'enquête, temporise sur la démission du ministre de l'Intérieur, peines planchers mais « pas seulement […] un processus répressif » ; 19h01 « Plus LFI se radicalise, plus l'effet provoqué est un départ vers la partie la plus à droite du spectre politique », critique du RN (« des chiffres grotesques »). Page ouverte.",
+      "url": "https://www.bfmtv.com/societe/manifestations/direct-manifestations-du-17-octobre-l-heure-est-au-bilan-apres-une-journee-sous-haute-tension_LN-202610180040.html"
+    },
+    {
+      "chaineSlug": "20-minutes",
+      "date": "2026-10-18",
+      "emission": "EN DIRECT Violences urbaines : Sébastien Lecornu réunira les partis et les parlementaires, mais aussi les syndicats et collectivités...",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Direct 20 Minutes du 18/10 (ouvert 7h49, clos 22h54 ; titre évolutif) : entrée 22h13 « Edouard Philippe \"aurai(t) préféré\" des \"décisions et des initiatives permettant le retour à l'ordre\" », lettre d'EP à Macron sur X. Page ouverte.",
+      "url": "https://www.20minutes.fr/societe/4255280-20261018-direct-violences-urbaines-darmanin-veut-justice-extremement-ferme-face-violences-gravite-inouie"
+    },
+    {
+      "chaineSlug": "ouest-france",
+      "date": "2026-10-18",
+      "emission": "Violences du 17 octobre : 2 397 interpellations et 997 forces de sécurité blessées samedi, encore des heurts dimanche",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Direct Ouest-France du 18/10 (publié 8h21, maj 23h05) : entrée « Édouard Philippe aurait \"préféré\" des \"décisions et des initiatives permettant le retour à l'ordre\" » avec la lettre complète d'EP sur X (« Notre pays a besoin d'être commandé ») ; bilan normand (Caen, Le Havre, Rouen). Page ouverte (WebFetch).",
+      "url": "https://www.ouest-france.fr/societe/manifestation/direct-violences-du-17-octobre-ceux-qui-ont-detruit-doivent-payer-affirme-emmanuel-macron-78ee5954-d932-421b-aa9e-afc38a435c2d"
+    },
+    {
+      "chaineSlug": "cnews",
+      "date": "2026-10-18",
+      "emission": "En direct - Mobilisation du 17 octobre : 2.397 personnes ont été interpellées et 997 policiers et gendarmes ont été blessés, dont 7 grièvement",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Direct CNews du 18/10 (ouvert 11h13, maj 23h17 ; titre évolutif) : entrée « Édouard Philippe \"aurai(t) préféré\" d'Emmanuel Macron \"des décisions et des initiatives permettant le retour à l'ordre et le rétablissement de l'autorité de l'État\" », avec la lettre complète d'EP sur X (« Notre pays a besoin d'être commandé »). Page ouverte.",
+      "url": "https://www.cnews.fr/france/2026-10-18/mobilisation-du-17-octobre-2397-personnes-ont-ete-interpellees-et-997-policiers"
+    },
+    {
+      "chaineSlug": "europe-1",
+      "date": "2026-10-18",
+      "emission": "En direct - Émeutes du 17 octobre : RN, Horizons, LR, LFI... Les réactions de la classe politique après l'allocution d'Emmanuel Macron",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Direct Europe 1 (ouvert le 18/10 ~12h56 selon métadonnées, maj 19/10 6h36 ; titre évolutif) : entrée 22h25 « Édouard Philippe \"aurai(t) préféré\" des \"décisions et des initiatives permettant le retour à l'ordre\" », reprise de sa lettre sur X à Emmanuel Macron (« Monsieur le Président, je vous ai écouté ce soir… »). Page ouverte.",
+      "url": "https://www.europe1.fr/societe/en-direct-emeutes-du-17-octobre-emmanuel-macron-sadressera-aux-francais-a-20-heures-1159713"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-18",
+      "emission": "Violences du 17 octobre: \"Le gouvernement devra dire ce qu'a été la préparation de cette journée\", estime Édouard Philippe, candidat Horizons à la présidentielle",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "Vidéo BFMTV 18/10 18h35 (0:54), extrait vidéo BFMTV du Grand Oral 2027 BFMTV-Le Figaro du dimanche 18/10 (Marc Fauvelle, Marie Chantrait), EP invité au lendemain des violences du 17 octobre : EP estime que le gouvernement devra dire ce qu'a été la préparation de la journée du 17 octobre. Page ouverte.",
+      "url": "https://www.bfmtv.com/replay-emissions/le-grand-oral-2027/video-violences-du-17-octobre-le-gouvernement-devra-dire-ce-qu-a-ete-la-preparation-de-cette-journee-estime-edouard-philippe-candidat-horizons-a-la-presidentielle_VN-202610180294.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-18",
+      "emission": "\"Je serais favorable à une commission d'enquête sur le 17 octobre\", déclare Édouard Philippe, candidat Horizons à la présidentielle",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "Vidéo BFMTV 18/10 18h37 (1:03), extrait vidéo BFMTV du Grand Oral 2027 BFMTV-Le Figaro du dimanche 18/10 (Marc Fauvelle, Marie Chantrait), EP invité au lendemain des violences du 17 octobre : EP se dit favorable à une commission d'enquête sur le 17 octobre. Page ouverte.",
+      "url": "https://www.bfmtv.com/replay-emissions/le-grand-oral-2027/video-je-serais-favorable-a-une-commission-d-enquete-sur-le-17-octobre-declare-edouard-philippe-candidat-horizons-a-la-presidentielle_VN-202610180295.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-18",
+      "emission": "Loi casseur-payeur: engager la responsabilité des casseurs, \"franchement, ça gêne qui?\", s'agace Édouard Philippe, candidat à l'élection présidentielle",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "Vidéo BFMTV 18/10 18h46 (1:53), extrait vidéo BFMTV du Grand Oral 2027 BFMTV-Le Figaro du dimanche 18/10 (Marc Fauvelle, Marie Chantrait), EP invité au lendemain des violences du 17 octobre : EP défend une loi casseur-payeur (« franchement, ça gêne qui ? »). Page ouverte.",
+      "url": "https://www.bfmtv.com/replay-emissions/le-grand-oral-2027/video-loi-casseur-payeur-engager-la-responsabilite-des-casseurs-franchement-ca-gene-qui-s-agace-edouard-philippe-candidat-a-l-election-presidentielle_VN-202610180298.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-18",
+      "emission": "17-octobre: \"Est-ce qu'il y a eu ou non une faille dans les renseignements? Et si c'est le cas, tirons-en les conséquences\", estime Édouard Philippe, candidat Horizons à la présidentielle",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "Vidéo BFMTV 18/10 18h50 (1:05), extrait vidéo BFMTV du Grand Oral 2027 BFMTV-Le Figaro du dimanche 18/10 (Marc Fauvelle, Marie Chantrait), EP invité au lendemain des violences du 17 octobre : EP s'interroge sur une éventuelle faille du renseignement (« Et si c'est le cas, tirons-en les conséquences »). Page ouverte.",
+      "url": "https://www.bfmtv.com/replay-emissions/le-grand-oral-2027/video-17-octobre-est-ce-qu-il-y-a-eu-ou-non-une-faille-dans-les-renseignements-et-si-c-est-le-cas-tirons-en-les-consequences-estime-edouard-philippe-candidat-horizons-a-la-presidentielle_VN-202610180301.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-18",
+      "emission": "Édouard Philippe, candidat Horizons à la présidentielle veut \"proposer quelque chose qui permet d'échapper à un étau mortifère\" entre le RN et LFI",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "Vidéo BFMTV 18/10 18h56 (1:45), extrait vidéo BFMTV du Grand Oral 2027 BFMTV-Le Figaro du dimanche 18/10 (Marc Fauvelle, Marie Chantrait), EP invité au lendemain des violences du 17 octobre : EP veut « proposer quelque chose qui permet d'échapper à un étau mortifère » entre le RN et LFI (2nd tour Le Pen–Mélenchon). Page ouverte.",
+      "url": "https://www.bfmtv.com/replay-emissions/le-grand-oral-2027/video-edouard-philippe-candidat-horizons-a-la-presidentielle-veut-proposer-quelque-chose-qui-permet-d-echapper-a-un-etau-mortifere-entre-le-rn-et-lfi_VN-202610180304.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-18",
+      "emission": "17-octobre: \"Ce que pense [Donald Trump] de nous m'importe assez peu\", déclare Édouard Philippe, candidat Horizons à la présidentielle",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "Vidéo BFMTV 18/10 19h00 (1:47), extrait vidéo BFMTV du Grand Oral 2027 BFMTV-Le Figaro du dimanche 18/10 (Marc Fauvelle, Marie Chantrait), EP invité au lendemain des violences du 17 octobre : EP répond à Donald Trump (qui avait écrit que la France « brûle ») : « Ce que pense [Donald Trump] de nous m'importe assez peu ». Page ouverte.",
+      "url": "https://www.bfmtv.com/replay-emissions/le-grand-oral-2027/video-17-octobre-ce-que-pense-donald-trump-de-nous-m-importe-assez-peu-declare-edouard-philippe-candidat-horizons-a-la-presidentielle_VN-202610180307.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-18",
+      "emission": "Journée du 17-octobre: le Grand Oral d'Édouard Philippe, candidat Horizons à la présidentielle",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "Vidéo BFMTV 18/10 19h12, émission complète (49:58) du Grand Oral 2027 BFMTV-Le Figaro dont EP était l'invité ce dimanche 18h-19h, consacrée en grande partie aux violences du 17 octobre (ordre républicain, LFI, renseignement, peines planchers, casseur-payeur), à l'école, au pouvoir d'achat et à la présidentielle. Une seconde page « L'intégrale du Grand Oral 2027 du dimanche 18 octobre 2026 » (19h45, 50:16) reprend la même émission (non dupliquée). Page ouverte.",
+      "url": "https://www.bfmtv.com/replay-emissions/le-grand-oral-2027/video-journee-du-17-octobre-le-grand-oral-d-edouard-philippe-candidat-horizons-a-la-presidentielle_VN-202610180315.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-18",
+      "emission": "17 octobre: \"Je n'utilise pas le terme de violences policières (...), souvent utilisé par l'extrême gauche\", explique Édouard Philippe, candidat à l'élection présidentielle",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "Vidéo BFMTV 18/10 19h19 (0:54), extrait vidéo BFMTV du Grand Oral 2027 BFMTV-Le Figaro du dimanche 18/10 (Marc Fauvelle, Marie Chantrait), EP invité au lendemain des violences du 17 octobre : « Je n'utilise pas le terme de violences policières (...), souvent utilisé par l'extrême gauche ». Page ouverte.",
+      "url": "https://www.bfmtv.com/replay-emissions/le-grand-oral-2027/video-17-octobre-je-n-utilise-pas-le-terme-de-violences-policieres-souvent-utilise-par-l-extreme-gauche-explique-edouard-philippe-candidat-a-l-election-presidentielle_VN-202610180309.html"
+    },
+    {
+      "chaineSlug": "mediapart",
+      "date": "2026-10-18",
+      "emission": "Violences du 17 octobre : Philippe se « pose des questions » sur le niveau du renseignement et du dispositif",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Fil AFP sur Mediapart, 18/10 19h20 : dépêche AFP sur le Grand Oral BFMTV (questions sur le renseignement et le maintien de l'ordre, « niveau de violence hallucinant », situation « nourrie » par l'ultragauche et LFI). Page ouverte.",
+      "url": "https://www.mediapart.fr/journal/fil-dactualites/181026/violences-du-17-octobre-philippe-se-pose-des-questions-sur-le-niveau-du-renseignement-et-du-dispo"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-18",
+      "emission": "Mouvement lycéen: Édouard Philippe, candidat Horizons à la présidentielle, propose \"un petit peu plus de semaines de cours, avec un peu moins d'heures de cours\", et donc \"moins de vacances\"",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "Vidéo BFMTV 18/10 19h22 (1:47), extrait vidéo BFMTV du Grand Oral 2027 BFMTV-Le Figaro du dimanche 18/10 (Marc Fauvelle, Marie Chantrait), EP invité au lendemain des violences du 17 octobre : sur le mouvement lycéen, EP propose « un petit peu plus de semaines de cours, avec un peu moins d'heures de cours », et donc « moins de vacances ». Page ouverte.",
+      "url": "https://www.bfmtv.com/replay-emissions/le-grand-oral-2027/video-mouvement-lyceen-edouard-philippe-candidat-horizons-a-la-presidentielle-propose-un-petit-peu-plus-de-semaines-de-cours-avec-un-peu-moins-d-heures-de-cours-et-donc-moins-de-vacances_VN-202610180311.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-18",
+      "emission": "Édouard Philippe, candidat à l'élection présidentielle, estime qu'il faudrait travailler \"deux heures de plus par semaine\" pour \"avoir un gain de pouvoir d'achat\"",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "Vidéo BFMTV 18/10 19h24 (2:48), extrait vidéo BFMTV du Grand Oral 2027 BFMTV-Le Figaro du dimanche 18/10 (Marc Fauvelle, Marie Chantrait), EP invité au lendemain des violences du 17 octobre : EP estime qu'il faudrait travailler « deux heures de plus par semaine » pour « avoir un gain de pouvoir d'achat ». Page ouverte.",
+      "url": "https://www.bfmtv.com/replay-emissions/le-grand-oral-2027/video-edouard-philippe-candidat-a-l-election-presidentielle-estime-qu-il-faudrait-travailler-deux-heures-de-plus-par-semaine-pour-avoir-un-gain-de-pouvoir-d-achat_VN-202610180313.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-18",
+      "emission": "\"Est-ce qu'il y a eu ou non une faille?\": Édouard Philippe se \"pose des questions\" sur le niveau du renseignement après les violences du 17 octobre",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "BFMTV.com 18/10 19h26 (avec AFP) : compte rendu du Grand Oral. EP décrit un « niveau de violence hallucinant », « pas seulement du désordre mais une remise en cause des fondements de la République » ; il se « pose des questions » sur le renseignement et la mobilisation des forces (« Est-ce qu'il y a eu ou non une faille dans le renseignement ? Et si c'est le cas, tirons-en les conséquences ») ; violence « nourrie » et « légitimée » par des responsables de LFI, responsabilité politique de LFI « considérable », « alliance presque tactique » entre ultragauche et pilleurs. Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/horizons/est-ce-qu-il-y-a-eu-ou-non-une-faille-edouard-philippe-se-pose-des-questions-sur-le-niveau-du-renseignement-apres-les-violences-du-17-octobre_AD-202610180312.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-18",
+      "emission": "\"Je lui dis bon courage\": les mots d'Édouard Philippe, candidat Horizons à la présidentielle, à l'adresse de Raphaël Glucksmann, vainqueur de la primaire sociale-démocrate",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "Vidéo BFMTV 18/10 19h26 (0:58), extrait vidéo BFMTV du Grand Oral 2027 BFMTV-Le Figaro du dimanche 18/10 (Marc Fauvelle, Marie Chantrait), EP invité au lendemain des violences du 17 octobre : « Je lui dis bon courage », les mots d'EP à Raphaël Glucksmann, vainqueur de la primaire sociale-démocrate. Page ouverte.",
+      "url": "https://www.bfmtv.com/replay-emissions/le-grand-oral-2027/video-je-lui-dis-bon-courage-les-mots-d-edouard-philippe-candidat-horizons-a-la-presidentielle-a-l-adresse-de-raphael-glucksmann-vainqueur-de-la-primaire-sociale-democrate_VN-202610180314.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-18",
+      "emission": "Prise de parole d'Emmanuel Macron à 20h: \"Il faut des décisions\", estime Édouard Philippe, candidat Horizons à la présidentielle",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "Vidéo BFMTV 18/10 19h27 (1:24), extrait vidéo BFMTV du Grand Oral 2027 BFMTV-Le Figaro du dimanche 18/10 (Marc Fauvelle, Marie Chantrait), EP invité au lendemain des violences du 17 octobre : avant l'allocution d'Emmanuel Macron à 20h, EP estime qu'« il faut des décisions ». Page ouverte.",
+      "url": "https://www.bfmtv.com/replay-emissions/le-grand-oral-2027/video-prise-de-parole-d-emmanuel-macron-a-20h-il-faut-des-decisions-estime-edouard-philippe-candidat-horizons-a-la-presidentielle_VN-202610180316.html"
+    },
+    {
+      "chaineSlug": "lcp",
+      "date": "2026-10-18",
+      "emission": "Violences du 17 octobre: Marine Le Pen et Édouard Philippe accusent LFI, Jean-Luc Mélenchon charge le gouvernement",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "LCP 18/10 19h30 : EP (BFMTV), Le Pen (réseaux sociaux) et Mélenchon (LCI) s'affrontent sur les responsabilités. Citations d'EP : « La responsabilité politique de LFI dans ces violences est considérable », « Rien ne justifie ces saccages. Rien », favorable aux peines planchers/minimales et à une commission d'enquête, interroge le travail du renseignement. Page ouverte.",
+      "url": "https://lcp.fr/actualites/violences-du-17-octobre-marine-le-pen-et-edouard-philippe-accusent-lfi-jean-luc"
+    },
+    {
+      "chaineSlug": "europe-1",
+      "date": "2026-10-18",
+      "emission": "Violences du 17 octobre : Édouard Philippe se «pose des questions» sur le niveau du renseignement et du dispositif",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Europe 1/AFP 18/10 19h40 : reprise de la dépêche AFP sur le Grand Oral BFMTV (renseignement, dispositif de maintien de l'ordre, « niveau de violence hallucinant », responsabilité de LFI « considérable », « alliance presque tactique ») ; avant l'allocution de 20h, EP « espère qu'il va dire des choses fortes aux Français », juge que « le pays a besoin d'être commandé » et « espère » que Macron « sera président ». Page ouverte.",
+      "url": "https://www.europe1.fr/politique/violences-du-17-octobre-edouard-philippe-se-pose-des-questions-sur-le-niveau-du-renseignement-et-du-dispositif-1160793"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-18",
+      "emission": "Après le 17 octobre, Édouard Philippe s’alarme d’un « niveau de violence hallucinant » et charge LFI",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Figaro 18/10 20h30 (décryptage, réservé abonnés ; repris dans l'édition papier du 19/10) : invité du « Grand Oral 2027 BFMTV-Le Figaro » au lendemain des saccages, le candidat Horizons estime que « rien ne justifie ces saccages » ; contexte : climat « électrique et inédit à six mois de la présidentielle », réaction de Donald Trump, qui a vu dans « la France (qui) brûle » un pays « brisé ». Page ouverte (chapô et début).",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/apres-le-17-octobre-edouard-philippe-s-alarme-d-un-niveau-de-violence-hallucinant-et-charge-lfi-20261018"
+    },
+    {
+      "chaineSlug": "20-minutes",
+      "date": "2026-10-18",
+      "emission": "Violences du 17 octobre : Macron promet fermeté contre les auteurs et « transparence » sur le dispositif sécuritaire",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "20 Minutes 18/10 21h29 : compte rendu de l'allocution de Macron ; « jusque dans le bloc central, où Édouard Philippe a dit attendre \"des réponses\" sur le niveau de renseignement et du dispositif de maintien de l'ordre ». Page ouverte.",
+      "url": "https://www.20minutes.fr/societe/4255375-20261018-violences-17-octobre-macron-promet-fermete-contre-auteurs-transparence-dispositif-securitaire"
+    },
+    {
+      "chaineSlug": "france-2",
+      "date": "2026-10-18",
+      "emission": "La mobilisation du 17 octobre : une crise politique à 6 mois de la présidentielle",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Reportage du JT de 20h de France 2 (mis en ligne 18/10 22h04) : la crise ébranle le président et fragilise le Premier ministre ; Le Pen, Mélenchon et EP ont pris la parole. EP « se pose en recours » : « Un deuxième tour Le Pen-Mélenchon ? Je propose aux Français un moyen d'échapper à cet étau mortifère ». Braun-Pivet proposera une commission d'enquête. Page ouverte.",
+      "url": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/la-mobilisation-du-17-octobre-une-crise-politique-a-6-mois-de-la-presidentielle_8243230.html"
+    },
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-18",
+      "emission": "« La responsabilité politique de LFI est considérable » : après les violences, Jean-Luc Mélenchon sous le feu des critiques",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Le Parisien 18/10 22h08 : le gouvernement, la droite et l'extrême droite accusent LFI d'une part de « responsabilité » dans les violences ; titre tiré de la phrase d'EP sur BFMTV : « La responsabilité politique de LFI dans ces violences est considérable ». Passe d'armes Lecornu/Nuñez–Mélenchon. Page ouverte (WebFetch).",
+      "url": "https://www.leparisien.fr/elections/presidentielle/la-responsabilite-politique-de-lfi-est-considerable-apres-les-violences-jean-luc-melenchon-sous-le-feu-des-critiques-18-10-2026-CQTIZKXHYVBNPCFURQR3TETLAE.php"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-18",
+      "emission": "\"Lamentable\", \"irresponsable\", \"inquiétante\"... La classe politique réagit à l'allocution d'Emmanuel Macron après les violences urbaines du 17 octobre",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "BFMTV.com 18/10 22h51 : réactions à l'allocution de Macron (20h). Intertitre « Des critiques du RN, de LFI et d'Édouard Philippe » : EP « aurai(t) préféré » « des décisions et des initiatives permettant le retour à l'ordre et le rétablissement de l'autorité de l'État » (X), « Notre pays a besoin d'être commandé ». Aussi Bardella, Ciotti, Bompard, Panot, Retailleau, Tondelier, Roussel. Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/lamentable-irresponsable-inquietante-la-classe-politique-reagit-a-l-allocution-d-emmanuel-macron-apres-les-violences-urbaines-du-17-octobre_AV-202610180376.html"
+    },
+    {
+      "chaineSlug": "huffpost",
+      "date": "2026-10-19",
+      "emission": "Après les violences du 17 octobre, les responsables politiques atterrés par l’allocution d’Emmanuel Macron",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "HuffPost 19/10 5h45 (maj 6h32) : « Irresponsable », « lamentable » : les oppositions, « et jusqu'à son ancien Premier ministre Édouard Philippe », ont jugé sévèrement l'allocution de Macron ; citation de la lettre d'EP sur X (« sanction des pilleurs et des casseurs », « méthode détaillée pour rétablir la discussion avec les lycéens et les organisations syndicales », « volonté louable de rétablir le dialogue »). Page ouverte.",
+      "url": "https://www.huffingtonpost.fr/politique/article/apres-les-violences-du-17-octobre-les-responsables-politiques-atterres-par-l-allocution-d-emmanuel-macron_341684.html"
+    },
+    {
+      "chaineSlug": "rmc",
+      "date": "2026-10-19",
+      "emission": "Une proposition pour la France : Édouard Philippe veut des vacances scolaires plus courtes - 19/10",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "RMC, 5/7 Le Morning, chronique « Une proposition pour la France » (Virginie Phulpin, 6h43 ; vidéo mise en ligne 19/10 7h10, 3:09) consacrée à la proposition d'EP de raccourcir les vacances scolaires. Page ouverte.",
+      "url": "https://rmc.bfmtv.com/replay-emissions/5-7-le-morning-rmc/video-une-proposition-pour-la-france-edouard-philippe-veut-des-vacances-scolaires-plus-courtes-19-10_VN-202610190117.html"
+    }
+  ]
+}

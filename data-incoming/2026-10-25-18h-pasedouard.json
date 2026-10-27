@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (exports/temps-reel-2026-10-25-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-27T08:54:17Z",
+    "note": "Passe 2026-10-25-18h dérivée du ledger (mêmes règles que les data-incoming PasEdouard : outlet -> slug de la liste fermée, emission = titre, resume = résumé du ledger, dureeMinutes 0, tonalité neutre ; sans slug = skip). 9 pubs au ledger pour cette passe.",
+    "skips_no_slug": [
+      "Capital",
+      "Le Pèlerin",
+      "Herodote.net",
+      "Les 4 Vérités Hebdo"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "le-jdd",
+      "date": "2026-10-25",
+      "emission": "Présidentielle : Le Pen toujours loin devant et Mélenchon au second tour dans tous les scénarios, selon un nouveau sondage",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Sondage Ipsos-BVA-Cési : intertitre « Édouard Philippe en panne » ; EP à 15 % seul candidat du centre (-4 pts vs septembre), devancé par Mélenchon dans toutes les configurations, même sans Attal. Page ouverte.",
+      "url": "https://www.lejdd.fr/politique/presidentielle-le-pen-toujours-loin-devant-et-melenchon-au-second-tour-dans-tous-les-scenarios-selon-un-nouveau-sondage-186966"
+    },
+    {
+      "chaineSlug": "la-tribune",
+      "date": "2026-10-25",
+      "emission": "Retailleau et la déception Lisnard, Faure agace chez Glucksmann, Bertrand affûte sa stratégie... Nos informations confidentielles",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Confidentiels : brève « Philippe pire que Macron, pour Tondelier » (Marine Tondelier n'imagine pas les électeurs de gauche voter EP dès le 1er tour pour éviter un duel Le Pen-Mélenchon) ; évocation d'un retrait en faveur du « deuxième personnage de l'État » et de ce qu'en penseraient EP, Attal et Retailleau. Page ouverte.",
+      "url": "https://www.latribune.fr/article/la-tribune-dimanche/politique/40538165270613/retailleau-et-la-deception-lisnard-faure-agace-chez-glucksmann-bertrand-affute-sa-strategie-nos-informations-confidentielles"
+    },
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-25",
+      "emission": "Faire payer LFI pour les dégâts après les manifestations : la proposition polémique du patron des députés Horizons",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Laurent Marcangeli, « proche d'Édouard Philippe », propose sur Radio J d'utiliser la dotation publique de LFI pour rembourser les dégâts des manifestations. Page ouverte.",
+      "url": "https://www.leparisien.fr/politique/faire-payer-lfi-pour-les-degats-apres-les-manifestations-la-proposition-polemique-du-patron-des-deputes-horizons-25-10-2026-SIWDHMS7F5ENFOHOR6VENIZSRU.php"
+    },
+    {
+      "chaineSlug": "l-opinion",
+      "date": "2026-10-25",
+      "emission": "Ce que contient le programme radical de David Lisnard, le candidat à la présidentielle qui bouscule la droite",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Portrait-programme de David Lisnard (7-8 %) : sa dynamique est présentée comme « symptôme de la faiblesse du Vendéen et des difficultés d'Édouard Philippe ». Page ouverte.",
+      "url": "https://www.lopinion.fr/politique/cotiser-moins-pour-gagner-plus-le-projet-radical-de-david-lisnard-le-candidat-qui-bouscule-la-droite"
+    },
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-25",
+      "emission": "Présidentielle 2027 : David Lisnard de nouveau devant Bruno Retailleau, selon notre sondage",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Ipsos-BVA-Cési : Lisnard 6,5 % contre Retailleau 5,5 % dans le scénario où EP est candidat sans Attal. Page ouverte.",
+      "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-david-lisnard-de-nouveau-devant-bruno-retailleau-selon-notre-sondage-25-10-2026-YCUCGEBESVBQXEEFSSUQ2M5YTY.php"
+    }
+  ]
+}

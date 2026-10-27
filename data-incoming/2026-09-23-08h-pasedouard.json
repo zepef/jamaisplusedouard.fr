@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-23-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-23T06:20:00Z",
+    "note": "Vague JPE Livre 23 sept 8h. 8 pubs post-last_run 22/09 18h ; 3 poussées. Fil : sortie Crépuscule des princes + relais soir (Figaro, Gala, Epoch, ENTREVUE) ; portrait Boyer (La Dépêche) ; fracture Horizons carburants (Europe 1) ; stratégies Attal/Philippe/Bayrou (ENTREVUE 23/09). Skips no-slug : ['Parlons Politique', 'Gala', 'Epoch Times', 'ENTREVUE.FR']. X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": [
+      "Parlons Politique",
+      "Gala",
+      "Epoch Times",
+      "ENTREVUE.FR"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-09-22",
+      "emission": "«Très, très immature» : entre Édouard Philippe et Gabriel Attal, nouvelle poussée de frictions",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Le Figaro 22/09 18h49 (maj 19h57). Crépuscule des princes : EP se laisse aller aux mots acerbes sur Attal malgré consignes « petites phrases » ; Attal critique ceux qui « cherchent à endormir cette campagne ». Page ouverte (paywall partiel).",
+      "url": "https://www.lefigaro.fr/politique/tres-tres-immature-entre-edouard-philippe-et-gabriel-attal-nouvelle-poussee-de-frictions-20260922"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-09-22",
+      "emission": "PORTRAIT. Présidentielles 2027 : \"Ce n’est pas un baron noir mais un baron clair\" Qui est Gilles Boyer, l'influent conseiller d'Edouard Philippe ?",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "La Dépêche 22/09 19h31. Portrait Gilles Boyer, directeur de campagne EP avec Béchu et Guévenoux ; « baron clair » (Hufnagel) ; jalousies d’accès ; Ribadeau-Dumas et Frédéric Mion cités plus proches. Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/09/22/portrait-presidentielles-2027-ce-nest-pas-un-baron-noir-mais-un-baron-clair-qui-est-gilles-boyer-linfluent-conseiller-dedouard-philippe-13557049.php"
+    },
+    {
+      "chaineSlug": "europe-1",
+      "date": "2026-09-22",
+      "emission": "Crise des carburants : la «politique du chèque» fracture le parti Horizons",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Europe 1 22/09 19h55 (maj 20h29). Fracture Horizons : EP veut doubler les aides carburants ; Christelle Morançais (n°2) refuse la « politique du chèque » sur RTL, préfère moins de dépenses/impôts. Page ouverte.",
+      "url": "https://www.europe1.fr/economie/crise-des-carburants-la-politique-du-cheque-fracture-le-parti-horizons-1096478"
+    }
+  ]
+}

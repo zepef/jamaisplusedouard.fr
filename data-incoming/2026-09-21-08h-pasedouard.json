@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-21-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-21T06:08:04Z",
+    "note": "Vague JPE Livre 21 sept 08h. 2 pubs post-last_run 20/09 18h ; 2 poussées. Fils : Le Monde analyse Bayrou primaire « nébuleuse » (19h07) ; Villepin Grand Enjeu franceinfo (22h33) critique EP (« mesurettes »). X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": []
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "le-monde",
+      "date": "2026-09-20",
+      "emission": "Présidentielle 2027 : François Bayrou défend une primaire nébuleuse du « grand fleuve central »",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Analyse Le Monde 19h07 (Marie Pouzadoux). Bayrou questionne la légitimité d’Attal et EP ; primaire « grand fleuve central ». Distinct du fil AFP déjà ledger. Page ouverte (teaser).",
+      "url": "https://www.lemonde.fr/politique/article/2026/09/20/francois-bayrou-defend-une-primaire-nebuleuse-du-grand-fleuve-central-pour-la-presidentielle_6778405_823448.html"
+    },
+    {
+      "chaineSlug": "france-info-tv",
+      "date": "2026-09-20",
+      "emission": "Présidentielle 2027 : « J'ai le sentiment que bien des programmes sont un peu courts sur pattes », estime Dominique de Villepin, ancien Premier ministre",
+      "dureeMinutes": 47,
+      "type": "interview",
+      "tonalite": "critique",
+      "resume": "Grand Enjeu 20/09 22h33. Villepin sur EP : lié au bilan Macron/dette, « mesurettes », pas de soutien. Page ouverte.",
+      "url": "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-j-ai-le-sentiment-que-bien-des-programmes-sont-un-peu-courts-sur-pattes-estime-dominique-de-villepin-ancien-premier-ministre_8202191.html"
+    }
+  ]
+}

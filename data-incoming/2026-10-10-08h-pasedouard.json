@@ -1,0 +1,90 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-10-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-10T05:58:00Z",
+    "note": "Passe 10 oct 08h (fenêtre 9 oct 18h15 → 10 oct 07h55). +15 pubs (med-2026-637…med-2026-650 + 1 post X x-2108625186215866406) — Figaro (Boichot) convergences/différences EP-Attal-Retailleau ; TF1 Info : avant le meeting Attal à Lyon (10/10), « le maire du Havre creuse l'écart » ; L'Opinion comparatif natalité (350 € dès le 1er enfant) ; 24matins « pusillanimité » face à Duhamel ; post X EP Sommet de l'élevage (20h26). Rattrapage 9 oct. non capté : Euronews, 20 Minutes, Europe 1, France 24/AFP, ICI, Agra, Web-agri (Cournon), La Dépêche (Verian : EP 30 %, -4), Deco.fr ; L'Obs 8 oct. Proches : inchangé. 7 apparitions ; 8 skips.",
+    "skips_no_slug": [
+      "24matins",
+      "Euronews",
+      "France 24 (AFP)",
+      "ICI",
+      "Agra",
+      "Web-agri (AFP)",
+      "Deco.fr (M6)",
+      "X"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-09",
+      "emission": "Édouard Philippe, Gabriel Attal, Bruno Retailleau : quelles convergences et différences entre leurs projets ?",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Figaro 09/10 19h20 (décryptage, abonnés) : retraites, Constitution, immigration, Europe, comparaison des projets EP/Attal/Retailleau ; EP, mieux placé dans les sondages, appelle à une candidature unique. Page ouverte (chapô).",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/programmes/edouard-philippe-gabriel-attal-bruno-retailleau-quelles-convergences-et-quelles-differences-entre-leurs-projets-20261009"
+    },
+    {
+      "chaineSlug": "tf1-info",
+      "date": "2026-10-09",
+      "emission": "\"Il doit moins s'éparpiller\" : Gabriel Attal en meeting à Lyon, en quête d'un second souffle",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "TF1 Info 09/10 (maj 20h14) : avant le meeting d'Attal à Lyon le 10/10, « le maire du Havre creuse l'écart » ; un cadre du bloc central : « Le combat est terminé, Edouard l'a emporté » ; pique d'un proche d'EP contre Attal. Page ouverte.",
+      "url": "https://www.tf1info.fr/politique/elections/presidentielle/il-doit-moins-s-eparpiller-gabriel-attal-en-meeting-a-lyon-en-quete-d-un-second-souffle-2468985.html"
+    },
+    {
+      "chaineSlug": "l-opinion",
+      "date": "2026-10-09",
+      "emission": "Présidentielle : les propositions clés des candidats pour relancer la natalité",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "L'Opinion 09/10 18h30 : comparatif natalité ; EP défend une allocation unique de 350 € dès le premier enfant et une réduction d'impôt d'environ 3 000 € sur trois ans. Page ouverte.",
+      "url": "https://www.lopinion.fr/politique/presidentielle-les-propositions-cles-des-candidats-pour-relancer-la-natalite"
+    },
+    {
+      "chaineSlug": "20-minutes",
+      "date": "2026-10-09",
+      "emission": "Présidentielle 2027 : Quelles seraient les premières décisions d'Édouard Philippe ?",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "20 Minutes 09/10 11h22 : vingtaine d'ordonnances après les législatives, déficit à 2 %, immigration légale ÷2, refus d'une primaire. Rattrapage. Métadonnées de l'index de recherche.",
+      "url": "https://www.20minutes.fr/politique/4252755-20261009-presidentielle-2027-premieres-decisions-edouard-philippe"
+    },
+    {
+      "chaineSlug": "europe-1",
+      "date": "2026-10-09",
+      "emission": "Immigration, retraite, pouvoir d'achat... Ce qu'il faut retenir de l'interview d'Édouard Philippe dans «L'Heure de vérité»",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Europe 1 09/10 9h52 : synthèse de « L'Heure de vérité » ; EP prêt à réviser la Constitution (art. 89) pour l'immigration. Rattrapage. Métadonnées de l'index de recherche.",
+      "url": "https://www.europe1.fr/politique/immigration-retraite-pouvoir-dachat-ce-quil-faut-retenir-de-linterview-dedouard-philippe-dans-lheure-de-verite-1133483"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-09",
+      "emission": "Présidentielle 2027 - Sondage : Marine Le Pen toujours jugée la plus compétente pour diriger le pays, Édouard Philippe en embuscade tandis que Jean-Luc Mélenchon est loin derrière",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "La Dépêche 09/10 8h24 : baromètre Verian/Figaro Magazine ; EP à 30 % sur les compétences présidentielles (-4 sur un mois, -10 depuis avril), érosion « notamment à droite ». Rattrapage. Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/09/presidentielle-2027-sondages-les-candidats-a-la-peine-pour-convaincre-de-leurs-competences-et-de-leur-stature-presidentielles-13592060.php"
+    },
+    {
+      "chaineSlug": "le-nouvel-obs",
+      "date": "2026-10-08",
+      "emission": "Edouard Philippe : une « Heure de vérité »… et des doutes à lever",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "L'Obs 08/10 8h00 (analyse) : EP tient Attal à distance mais peine à rassembler et à susciter l'enthousiasme. Rattrapage (fenêtre 8 oct. 18h manquée). Métadonnées de l'index de recherche.",
+      "url": "https://www.nouvelobs.com/politique/20261008.OBS119009/edouard-philippe-une-heure-de-verite-et-des-doutes-a-lever.html"
+    }
+  ]
+}

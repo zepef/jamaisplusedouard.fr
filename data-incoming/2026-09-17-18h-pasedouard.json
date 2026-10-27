@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-17-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-17T16:35:00Z",
+    "note": "Vague JPE Livre 17 sept 18h. 3 pubs; 1 poussée. Fil Angers/climat (Figaro direct «sécurité climatique» 18h21) + AFP agenda candidats (Arab News) + mention EP dans fil Lecornu carburants (Pyrénées). CNews Angers 06h33 et Politico Playbook 07h exclus (avant last_run 08h25). X needsAuth.",
+    "skips_no_slug": [
+      "Arab News (AFP)",
+      "La République des Pyrénées"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-09-17",
+      "emission": "EN DIRECT - Présidentielle 2027 : Édouard Philippe veut doter la France d'une «véritable politique de sécurité climatique»",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Direct Figaro ouvert 07:31, maj 18:21. Entrée 18:21 : EP annonce vouloir une «véritable politique de sécurité climatique» (séquence Angers/adaptation). Aussi reportage siège/Béchu (10:03). Page ouverte.",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/en-direct-presidentielle-2027-le-climat-l-europe-et-les-enfants-au-menu-des-candidats-ce-jeudi-20260917"
+    }
+  ]
+}

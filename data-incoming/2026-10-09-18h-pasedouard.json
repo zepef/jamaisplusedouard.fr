@@ -1,0 +1,92 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-09-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-09T16:25:00Z",
+    "note": "Passe 9 oct 18h (fenêtre 9 oct 08h05 → 18h15). +17 pubs (med-2026-621…med-2026-636 + 1 post X x-2108571538794401792) — Sommet de l'élevage Cournon : EP tacle le programme agricole de Marine Le Pen (AFP/Boursorama 16h51, BFMTV 16h28, Centre France « On est tous paumés ») ; audiences « L'Heure de vérité » : 1,68 M, 10,1 % PDA, 3e du prime (HuffPost, TV Mag, Puremédias) ; immigration légale ÷2 (Boursorama) ; EP n'habitera pas l'Élysée (20 Minutes, Closer, CNews) ; analyses Atlantico, Le Soir « occasion manquée ». Rattrapage 5 items post-émission non captés (BFMTV x2, CNews, Capital, Le Monde). Proches : inchangé. 7 apparitions ; 10 skips.",
+    "skips_no_slug": [
+      "Boursorama (AFP)",
+      "Centre France (Le Pays, JDC, La Rep)",
+      "TV Magazine",
+      "Puremédias",
+      "Boursorama",
+      "Atlantico",
+      "Le Soir",
+      "Closer",
+      "Capital",
+      "X"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-09",
+      "emission": "\"Elle n'ose pas dire qu'elle veut sortir de l'Europe\": Edouard Philippe accuse Marine Le Pen de formuler des propositions \"très dangereuses pour les agriculteurs français\"",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "BFMTV 09/10 16h28 : EP au Sommet de l'élevage : « Elle n'ose pas dire qu'elle veut sortir de l'Europe. Mais elle propose des mesures qui auront pour effet immanquablement de détruire la cohésion européenne. » Page ouverte.",
+      "url": "https://www.bfmtv.com/economie/entreprises/agriculture/elle-n-ose-pas-dire-qu-elle-veut-sortir-de-l-europe-edouard-philippe-accuse-marine-le-pen-de-formuler-des-propositions-tres-dangereuses-pour-les-agriculteurs-francais_AD-202610090624.html"
+    },
+    {
+      "chaineSlug": "huffpost",
+      "date": "2026-10-09",
+      "emission": "Sur France 2, « L'Heure de vérité » avec Édouard Philippe fait un retour timide côté audiences",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "HuffPost 09/10 10h31 : 1,68 M de téléspectateurs (10,1 % PDA) entre 20h40 et 22h31, 3e du prime derrière Intraçables (TF1, 2,63 M) et France 3 (2,54 M) ; selon Visibrain, sept fois moins de messages sur les réseaux que le débat du Medef d'août ; France Télévisions parle de « succès ». Page ouverte.",
+      "url": "https://www.huffingtonpost.fr/medias/article/sur-france-2-l-heure-de-verite-avec-edouard-philippe-fait-un-retour-timide-cote-audiences_337031.html"
+    },
+    {
+      "chaineSlug": "20-minutes",
+      "date": "2026-10-09",
+      "emission": "S'il est élu, Edouard Philippe n'habitera pas à l'Elysée",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "20 Minutes 09/10 : invité de France 2 jeudi soir, EP entend continuer à rentrer chez lui s'il accède à la présidence, comme à Matignon. Page ouverte.",
+      "url": "https://www.20minutes.fr/politique/4252883-20261009-presidentielle-2027-elu-edouard-philippe-habitera-elysee-famille"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-09",
+      "emission": "\"On les aide beaucoup, mais à partir du deuxième\": Édouard Philippe veut verser 350 euros d'allocations dès le premier enfant et accorder 3.000 euros de réduction d'impôt",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "BFMTV 09/10 07h31 : allocation familiale unique de 350 € dès le premier enfant, réduction d'impôt d'environ 3 000 € pendant trois ans après une naissance pour les classes moyennes, prêt à taux zéro pour changer de logement. Page ouverte.",
+      "url": "https://www.bfmtv.com/economie/economie-social/finances-publiques/on-les-aide-beaucoup-mais-a-partir-du-deuxieme-edouard-philippe-veut-verser-350-euros-d-allocations-des-le-premier-enfant-et-accorder-3-000-euros-de-reduction-d-impot_AD-202610090156.html"
+    },
+    {
+      "chaineSlug": "cnews",
+      "date": "2026-10-09",
+      "emission": "«Comme quand j'étais à Matignon» : Édouard Philippe annonce qu'il n'habitera pas à l'Élysée s'il est élu en 2027",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "CNews 09/10 07h35 : en cas de victoire, EP ne résiderait pas au palais de l'Élysée. Page ouverte.",
+      "url": "https://www.cnews.fr/france/2026-10-09/comme-quand-jetais-matignon-edouard-philippe-annonce-quil-nhabitera-pas-lelysee"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-08",
+      "emission": "\"Il faudra aller vite\": Édouard Philippe présentera une vingtaine d'ordonnances dès juillet 2027 s'il remporte la présidentielle",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "BFMTV 08/10 23h07 : EP veut présenter une vingtaine d'ordonnances « dès juillet » 2027 s'il est élu. Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/il-faudra-aller-vite-edouard-philippe-presentera-une-vingtaine-d-ordonnances-des-juillet-2027-s-il-remporte-la-presidentielle_AD-202610081001.html"
+    },
+    {
+      "chaineSlug": "le-monde",
+      "date": "2026-10-08",
+      "emission": "Edouard Philippe propose de réviser « totalement » le système des allocations familiales",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Monde 08/10 : EP veut revoir totalement le système des allocations familiales (aide dès le premier enfant). Métadonnées issues de l'index de recherche et de l'URL datée (page payante, 402).",
+      "url": "https://www.lemonde.fr/politique/article/2026/10/08/edouard-philippe-proprose-de-reviser-totalement-le-systeme-des-allocations-familiales_6790287_823448.html"
+    }
+  ]
+}

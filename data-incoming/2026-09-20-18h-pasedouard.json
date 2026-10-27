@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-20-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-20T16:14:00Z",
+    "note": "Vague JPE Livre 20 sept 18h. 9 pubs; 4 poussées. Fils LTD dimanche (livre Crépuscule des princes / Attal ; Darmanin pilier) + sondage IA Ifop + Bayrou primaire MoDem (clôture Isle-sur-la-Sorgue) + Ciotti BFM Politique. X needsAuth. Skips no-slug: La Provence, La Tribune Dimanche.",
+    "skips_no_slug": [
+      "La Provence",
+      "La Tribune Dimanche"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-09-20",
+      "emission": "Présidentielle 2027: Marine Le Pen considérée comme la candidate la plus à même de gérer les défis de l'IA, selon un sondage",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Relais Ifop LTD/BFMTV publié dimanche. Le Pen 29 % sur l’IA ; Mélenchon/Attal 15 % ; Attal « dépasse ainsi Édouard Philippe » sur ce critère alors qu’EP le devance en intentions de vote. Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/presidentielle-2027-marine-le-pen-consideree-comme-la-candidate-la-plus-a-meme-de-gerer-les-defis-de-l-ia-selon-un-sondage_AN-202609200145.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-09-20",
+      "emission": "Éric Ciotti, président de l'UDR et maire de Nice, estime qu’Édouard Philippe « n’est pas de droite »",
+      "dureeMinutes": 2,
+      "type": "plateau",
+      "tonalite": "critique",
+      "resume": "Clip BFM Politique dimanche 20/09 (durée 1:57, diffusé ~12h55). Ciotti (UDR/Nice) estime qu’EP « n’est pas de droite ». Page ouverte.",
+      "url": "https://www.bfmtv.com/replay-emissions/bfm-politique/video-eric-ciotti-president-de-l-udr-et-maire-de-nice-estime-qu-edouard-philippe-n-est-pas-de-droite_VN-202609200189.html"
+    },
+    {
+      "chaineSlug": "le-monde",
+      "date": "2026-09-20",
+      "emission": "François Bayrou détaille les conditions de sa primaire en clôture de la rentrée du MoDem",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Le Monde/AFP 14h44. Bayrou détaille primaire « grand fleuve central » ; message personnel à EP (refuse) et Attal. Page ouverte.",
+      "url": "https://www.lemonde.fr/politique/article/2026/09/20/francois-bayrou-detaille-les-conditions-de-sa-primaire-en-cloture-de-la-rentree-du-modem_6778378_823448.html"
+    },
+    {
+      "chaineSlug": "europe-1",
+      "date": "2026-09-20",
+      "emission": "Parrainage de 10 parlementaires, premier tour en janvier... François Bayrou dresse le portrait de sa primaire pour un « candidat unique » du bloc central",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Europe 1/AFP 14h54. Même fil Bayrou clôture MoDem ; cite EP qui refuse la primaire et message « Qu'est-ce que vous craignez ? ». Page ouverte.",
+      "url": "https://www.europe1.fr/politique/parrainage-de-10-parlementaires-premier-tour-en-janvier-francois-bayrou-dresse-le-portrait-de-sa-primaire-pour-un-candidat-unique-du-bloc-central-1090643"
+    }
+  ]
+}

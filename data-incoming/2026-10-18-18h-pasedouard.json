@@ -1,0 +1,107 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-18-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-18T16:18:36Z",
+    "note": "Passe 18 oct 18h (fenêtre ~8h Paris → ~18h Paris 18/10, + 2 rattrapages La Tribune Dimanche du matin). +14 pubs (med-2026-789…801 + x-2111728815818838147). Fil : (1) EP invité du Grand Oral 2027 BFMTV-Le Figaro ce dimanche 18h (post X 9h59 Paris ; aucun extrait/article de l’émission encore publié à ~18h20) ; (2) sondages : reprises Elabe BFMTV/LTD (BFMTV vidéo 8h05, La Dépêche 9h06, RTL/AFP 10h03, Midi Libre/AFP 14h35, LTD Glucksmann 6h) et nouveau sondage YouGov pour Le HuffPost (12-15/10) : EP 13 % seul candidat du bloc central, à égalité avec Glucksmann, derrière Mélenchon 13-16 % (« la cote d’alerte n’est plus très loin ») ; (3) violences du 17 octobre : citations du post X d’EP (« la plus grande fermeté », « plein soutien à nos policiers ») dans L’Obs 10h53, franceinfo/AFP 13h22, Le Figaro direct ; (4) LTD confidentiels : 100 euros déclarés par réunion d’appartement au titre des concours en nature, 3ᵉ réunion XXL en décembre sur la santé ; 76actu 9h16 sur la résidence « chez moi » ; Parents.fr 16h rythmes scolaires ; Gala (mention concert Céline Dion). Non retenus : BFM Politique 18/10 (invité non EP, pas d’EP vérifié), Grand Jury RTL Chenu et Franc-jeu Retailleau 18/10 (pas d’EP vérifié dans les pages), BFMTV édito réactions 7h17 et BFMTV « Delors-Balladur… » 7h11 et direct BFMTV (EP seulement en liens annexes), Radio 8 Ardennes et RVM 16/10 (Ardennes, hors fenêtre), Europe 1 Praud 16/10 et Courrier cauchois/Tendance Ouest 14/10 (déjà au livre), titrespresse (agrégateur). Proches inchangé. À surveiller : extraits et reprises du Grand Oral BFMTV (18h-19h) ; allocution de Macron 20h ; déplacement Ardennes 21-22/10 ; réponse au débat proposé par Retailleau ; suites Findeisen/PNF. 9 apparitions ; skips_no_slug Gala, Midi Libre, Parents.fr, X, actu.fr / 76actu.",
+    "skips_no_slug": [
+      "Gala",
+      "Midi Libre",
+      "Parents.fr",
+      "X",
+      "actu.fr / 76actu"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "la-tribune",
+      "date": "2026-10-18",
+      "emission": "Tondelier privée d’emprunt, la lettre de Retailleau à un magazine people, Le Pen au concert de Céline Dion… Nos informations confidentielles de la semaine",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "La Tribune Dimanche n°159, 18/10 7h30 (rattrapage matinal, réservé abonnés, extraits lisibles) : confidentiels de la semaine. Rubrique « Édouard Philippe et les réunions à 100 euros » : 2ᵉ réunion d’appartement XXL du 15/10 (plus de 5 000 personnes chez 500 militants/sympathisants Horizons, thème éducation, EP en direct de son appartement havrais) ; pour anticiper toute demande de la Commission des comptes de campagne, 100 euros par réunion d’appartement au titre des concours en nature (~10 euros par participant) ; 3ᵉ réunion XXL annoncée pour décembre, consacrée à la santé. Autre brève : EP et Attal présents à la première du concert de Céline Dion le 12/09. Page ouverte.",
+      "url": "https://www.latribune.fr/article/la-tribune-dimanche/politique/14187819779648/tondelier-privee-d-emprunt-la-lettre-de-retailleau-a-un-magazine-people-le-pen-au-concert-de-celine-dion-nos-informations-confidentielles-de-la-semaine"
+    },
+    {
+      "chaineSlug": "la-tribune",
+      "date": "2026-10-18",
+      "emission": "« Il a changé de dimension avec la primaire » : À 16,5 % d'intentions de vote, Raphaël Glucksmann dans le grand bain",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "La Tribune Dimanche 18/10 6h00 (rattrapage matinal, réservé abonnés, extraits lisibles) : dynamique de Raphaël Glucksmann après la primaire ; selon Elabe pour BFMTV/LTD, 15 à 16,5 % (+2,5 à +4 pts), « désormais donné au coude-à-coude avec Édouard Philippe (entre 13,5 et 16,5 %) et Jean-Luc Mélenchon (entre 15 et 16 %) » ; Yannick Jadot : « Raphaël a changé de dimension avec la primaire ». Page ouverte.",
+      "url": "https://www.latribune.fr/article/la-tribune-dimanche/politique/presidentielle/1242934880475214/il-a-change-de-dimension-avec-la-primaire-a-16-5-dintentions-de-vote-raphael-glucksmann-dans-le-grand-bain"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-18",
+      "emission": "SONDAGE BFMTV. Présidentielle 2027: Édouard Philippe, Raphaël Glucksmann et Jean-Luc Mélenchon donnés au coude-à-coude derrière Marine Le Pen",
+      "dureeMinutes": 1,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "BFMTV 18/10 8h05, vidéo 0:56 (version vidéo du sondage Elabe BFMTV/La Tribune Dimanche déjà stocké en article, med-2026-784) : six mois avant le 1er tour, Le Pen largement en tête ; EP, Glucksmann et Mélenchon « tous les trois potentiellement à même de se qualifier pour le second tour ». Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/video-sondage-bfmtv-presidentielle-2027-edouard-philippe-raphael-glucksmann-et-jean-luc-melenchon-donnes-au-coude-a-coude-derriere-marine-le-pen_VN-202610180084.html"
+    },
+    {
+      "chaineSlug": "huffpost",
+      "date": "2026-10-18",
+      "emission": "Notre premier sondage pour la présidentielle : loin derrière Le Pen, un match à trois pour le second tour",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le HuffPost 18/10 7h15 (actualisé 16h06), sondage exclusif YouGov (1 094 personnes, en ligne, 12-15/10) : Le Pen 35-37 % ; Mélenchon 13-16 % devant ; Glucksmann 12-14 % « fait jeu égal avec Édouard Philippe (13 %) » quand EP est seul candidat du bloc central ; EP « n’obtient jamais plus de 15 % » et est « systématiquement devancé par Jean-Luc Mélenchon » — « la cote d’alerte n’est donc plus très loin pour le candidat Horizons » ; il reste le mieux placé à droite et dans l’espace macroniste (Attal 6-10 %, Retailleau 5-9 %) et obtient les meilleurs scores de second tour. Page ouverte.",
+      "url": "https://www.huffingtonpost.fr/politique/article/notre-premier-sondage-pour-la-presidentielle-loin-derriere-le-pen-un-match-a-trois-pour-le-second-tour_341090.html"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-18",
+      "emission": "Présidentielle 2027 - sondage : Marine Le Pen loin devant, Édouard Philippe, Raphaël Glucksmann et Jean-Luc Mélenchon dans un mouchoir de poche pour le second tour dans les intentions de vote",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "La Dépêche 18/10 9h06 (màj 11h36) : reprise du sondage Elabe ; Le Pen 31-33,5 % ; « match à trois » pour la 2ᵉ place : EP 15,5-16,5 % s’il est l’unique candidat du bloc central, Glucksmann 15-16,5 %, Mélenchon 15-16 % ; Attal 4,5-10,5 % ; Le Pen gagnante de tous les seconds tours testés. Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/18/presidentielle-2027-sondage-marine-le-pen-loin-devant-edouard-philippe-raphael-glucksmann-et-jean-luc-melenchon-dans-un-mouchoir-de-poche-pour-le-13608140.php"
+    },
+    {
+      "chaineSlug": "rtl",
+      "date": "2026-10-18",
+      "emission": "Présidentielle 2027 :  loin derrière Le Pen, Philippe, Mélenchon et Glucksmann dans un mouchoir de poche, selon un sondage",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "RTL/AFP 18/10 10h03 : sondage Elabe BFMTV/La Tribune Dimanche (14-16/10, 1 701 personnes) ; EP garde « une très légère avance » (15,5-16,5 %) « malgré la perte de 0,5 à 1,5 point », Glucksmann +2,5 à 4 pts (15-16,5 %), Mélenchon 15-16 % ; Attal 9,5-10,5 %, « six points de moins que son rival au sein du bloc central » ; 2nd tour Le Pen 52,5 % – EP 47,5 %. Page ouverte.",
+      "url": "https://www.rtl.fr/actu/politique/presidentielle-2027-loin-derriere-le-pen-philippe-melenchon-et-glucksmann-dans-un-mouchoir-de-poche-selon-un-sondage-7900686464"
+    },
+    {
+      "chaineSlug": "le-nouvel-obs",
+      "date": "2026-10-18",
+      "emission": "Après une mobilisation du 17 octobre qui a viré au chaos, les politiques se divisent sur la responsabilité des violences",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "L’Obs 18/10 10h53 : réactions politiques aux violences du 17 octobre ; intertitre « “Répondre avec la plus grande fermeté”, réagit Edouard Philippe » : « La République doit répondre avec la plus grande fermeté aux casseurs qui l’offensent », a réagi sur X EP (Horizons) ; aux côtés d’Attal, Retailleau, Faure, Glucksmann. Page ouverte.",
+      "url": "https://www.nouvelobs.com/societe/20261018.OBS119311/apres-une-mobilisation-17-octobre-qui-a-vire-au-chaos-les-politiques-se-divisent-sur-la-responsabilite-des-violences.html"
+    },
+    {
+      "chaineSlug": "france-info-tv",
+      "date": "2026-10-18",
+      "emission": "Au lendemain des violences du 17 octobre, les camps politiques se rejettent la responsabilité du \"chaos\"",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "franceinfo/AFP 18/10 13h22 : les camps se rejettent la responsabilité du « chaos » ; « les candidats à la présidentielle issus du macronisme parlent à l’unisson » : Attal (« provocation envers l’autorité de l’Etat ») et EP (« La République doit répondre avec la plus grande fermeté aux casseurs qui l’offensent (...) J’exprime mon plein soutien à nos policiers ») ; Retailleau, Nuñez. Page ouverte.",
+      "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/au-lendemain-des-violences-du-17-octobre-les-camps-politiques-se-rejettent-la-responsabilite-du-chaos_8242525.html"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-18",
+      "emission": "EN DIRECT - La CRS 8 de nouveau déployée à Paris, des affrontements et des pillages en cours aux abords de la place de la République",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Le Figaro, direct ouvert le 18/10 à 7h39 (titre courant relevé à ~18h ; le titre évolue au fil du direct) ; entrée de synthèse des réactions : Le Pen (« prises en otage par l’extrême gauche »), Bardella (« les professionnels du chaos »), Retailleau (« violence anti-flic ») ; « Édouard Philippe réclame “la plus grande fermeté” » ; Mélenchon, Faure, Tondelier, Glucksmann. Page ouverte.",
+      "url": "https://www.lefigaro.fr/actualite-france/en-direct-au-lendemain-des-violences-du-17-octobre-la-france-se-reveille-sous-le-choc-20261018"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-02-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-02T16:05:00Z",
+    "note": "Vague JPE Livre 2 oct 18h. +4 pubs — exclusif Opinion baisse IR ; Figaro campagne bousculée ; suite Bardella/Mediapart (HuffPost + Europe 1 Tanguy). X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": [
+      "HuffPost"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "l-opinion",
+      "date": "2026-10-02",
+      "emission": "Exclusif. Baisse de l'impôt sur le revenu : la mesure choc qu'étudie Edouard Philippe pour la présidentielle 2027",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "L'Opinion 02/10 17h31 (màj 17h36, exclusif). Équipes Horizons étudient forte baisse de l'impôt sur le revenu (classes moyennes, « le travail paie mieux »), poussée par Darmanin ; autre piste allègement charges salariales financé par hausse TVA ou CSG — face au « droit au brut » d'Attal. Page ouverte.",
+      "url": "https://www.lopinion.fr/politique/baisse-de-limpot-sur-le-revenu-la-mesure-choc-quetudie-edouard-philippe"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-02",
+      "emission": "Présidentielle 2027 : Édouard Philippe, une campagne sans cesse bousculée par l'actualité",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Figaro 02/10 17h44 (màj 17h51). Reportage Annemasse/Haute-Savoie : agenda écourté (lycéens), retour anticipé au Havre, Mer de Glace/Chamonix annulée ; semaine axée retraites 65 ans + narcotrafic. Page ouverte (extrait + métadonnées).",
+      "url": "https://www.lefigaro.fr/politique/presidentielle-2027-edouard-philippe-une-campagne-sans-cesse-bousculee-par-l-actualite-20261002"
+    },
+    {
+      "chaineSlug": "europe-1",
+      "date": "2026-10-02",
+      "emission": "Gérald Darmanin et Édouard Philippe : «Ces gens préparent déjà le deuxième tour», estime Jean-Philippe Tanguy",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Europe 1 02/10 09h35. L'Heure des Pros (~12 min) : Tanguy (RN) estime que Darmanin et EP « préparent déjà le deuxième tour » dans le débat Mediapart/Bardella ; Praud revient sur les « preuves » Mediapart. Page/métadonnées ouvertes.",
+      "url": "https://www.europe1.fr/emissions/lheure-des-pros/gerald-darmanin-et-edouard-philippe-ces-gens-preparent-deja-le-deuxieme-tour-estime-jean-phi-1117862"
+    }
+  ]
+}

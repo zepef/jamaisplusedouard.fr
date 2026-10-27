@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-13-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-13T06:05:00Z",
+    "note": "Passe 13 oct 8h (fenêtre 12 oct ~18h18 → ~8h05). +5 pubs (med-2026-691…med-2026-694 + post X x-2109744394890858496). Signal : La Voix du Nord 12/10 19h16 (Julien Lecuyer) interview EP « Le pronostic vital de l’automobile française est engagé » (visite mercredi au Mondial ; riposte : production en Europe, partage des technologies, aides) ; post X EP 22h33 renvoyant vers cette interview (~11,3k impressions). Figaro Contre-point Tabard 20h05 : second tour comme « fauteuil pour trois » Mélenchon / Glucksmann / EP. TF1 Info 20h09 : Dabi (Ifop) — électorat d’EP « droite et centre-droit », victoire Glucksmann « encombre un petit peu » l’espace central. Politico Playbook Paris 13/10 7h00 : sommet POLITICO compétitivité ce mardi avec EP, Glucksmann, Retailleau ; Borloo « tiers de confiance » ; déjeuner comité de liaison (Horizons/Renaissance/MoDem/UDI/Parti radical) et invitation EP vers Retailleau/Wauquiez ; Maël de Calan annoncé 7h35 RCF Notre Dame (aucune page d’interview trouvée au moment de la passe). Non retenus : Sud Ouest gagnants/perdants Glucksmann 12/10 16h10 (avant last_run) ; Dijon Actualités édito bourde 12h57 (avant last_run) ; France 24/AFP Mondial 13/10 0h11 (pas d’EP) ; 24Brussels réécriture Politico déjà écartée ; matinales 13/10 sans EP invité (Playbook : Lisnard BFMTV/RMC 8h25, Coquerel TF1, etc.). Toujours sans couverture : discours Licra 10/10 ; aucune réponse nouvelle Retailleau/Lisnard/Bayrou au courrier ni date de réunion début novembre ; pas de reprise presse dédiée de l’enquête Politico Europe 12/10 au-delà de 24Brussels ; LCP 12/10 soir sans invité EP/Horizons trouvé ; rien de nouveau Aubagne citant EP hors post déjà stocké ; PNF/enquête : rien. Pistes : retombées sommet POLITICO 13/10 (EP) ; visite Mondial mercredi ; reprises Tabard / Dabi ; réponses courrier ; Licra ; Maël de Calan RCF si replay. Proches : inchangé. 3 apparitions ; 2 skips (Politico Europe, X).",
+    "skips_no_slug": [
+      "Politico Europe",
+      "X"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "la-voix-du-nord",
+      "date": "2026-10-12",
+      "emission": "Édouard Philippe : « Le pronostic vital de l’automobile française est engagé »",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "La Voix du Nord 12/10 19h16 (interview réservée aux abonnés) : candidat Horizons, EP « sera en visite mercredi au Mondial de l’auto » ; face à la poussée des constructeurs chinois, il juge que « le pronostic vital de l’automobile française est engagé » et prône une riposte : production en Europe, partage des technologies, aides à la compétitivité française. Page ouverte.",
+      "url": "https://www.lavoixdunord.fr/1745706/article/2026-10-12/edouard-philippe-le-pronostic-vital-de-l-automobile-francaise-est-engage"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-12",
+      "emission": "Guillaume Tabard : « Jean-Luc Mélenchon, Raphaël Glucksmann et Édouard Philippe, un fauteuil pour trois »",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Le Figaro Contre-point 12/10 20h05 : après la victoire de Glucksmann à la primaire (ligne excluant LFI), Tabard situe l’accès au second tour comme une « bataille à trois » entre Mélenchon, Glucksmann et EP ; Glucksmann devrait réussir un « en même temps » : réunir électeurs de gauche et anciens macronistes. Page ouverte.",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/guillaume-tabard-jean-luc-melenchon-raphael-glucksmann-et-edouard-philippe-un-fauteuil-pour-trois-20261012"
+    },
+    {
+      "chaineSlug": "tf1-info",
+      "date": "2026-10-12",
+      "emission": "\"Une clarification très nette\" : que change la victoire de Raphaël Glucksmann à la primaire de gauche pour la présidentielle ?",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "TF1 Info 12/10 20h09 : décryptage Frédéric Dabi (Ifop) après la victoire de Glucksmann (66 %, 79 613 voix). Sur l’impact pour le centre : « L’électorat de Philippe est un électorat de droite et de centre-droit », celui d’Attal « n’est pas si proche » de Glucksmann ; la victoire « encombre un petit peu cet espace central » entre Mélenchon et Le Pen. Page ouverte.",
+      "url": "https://www.tf1info.fr/politique/elections/presidentielle/une-clarification-tres-nette-que-change-la-victoire-de-raphael-glucksmann-a-la-primaire-de-gauche-pour-la-presidentielle-2469522.html"
+    }
+  ]
+}

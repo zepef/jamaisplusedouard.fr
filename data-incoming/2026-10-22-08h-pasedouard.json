@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (exports/temps-reel-2026-10-22-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-27T08:54:17Z",
+    "note": "Passe 2026-10-22-08h dérivée du ledger (mêmes règles que les data-incoming PasEdouard : outlet -> slug de la liste fermée, emission = titre, resume = résumé du ledger, dureeMinutes 0, tonalité neutre ; sans slug = skip). 20 pubs au ledger pour cette passe.",
+    "skips_no_slug": [
+      "X",
+      "Sud Ouest",
+      "Social Mag",
+      "Le Singulier",
+      "InfoRadar",
+      "Parlons Politique",
+      "Tahiti Infos (AFP)",
+      "Midi Libre",
+      "TV83"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-22",
+      "emission": "Emmanuel Macron et Édouard Philippe, «gilets jaunes» et cagoules noires : histoire d’une malédiction",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Analyse (abonnés) : après les gilets jaunes de 2018, le mouvement « saison 2 » pourrait emporter EP en 2027 ; histoire d'une malédiction Macron-Philippe. Page ouverte.",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/emmanuel-macron-et-edouard-philippe-gilets-jaunes-et-cagoules-noires-histoire-d-une-malediction-20261022"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-22",
+      "emission": "Présidentielle 2027 - sondage : le bloc central décroche dans les intentions de vote, pourquoi Édouard Philippe et Gabriel Attal peinent-ils à convaincre ? - ladepeche.fr",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Sondages : le bloc central décroche ; EP à son plus bas niveau dans les compilations, Attal aussi en baisse ; pourquoi ils peinent à convaincre. Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/22/presidentielle-2027-sondage-le-bloc-central-decroche-dans-les-intentions-de-vote-pourquoi-edouard-philippe-et-gabriel-attal-peinent-ils-a-convaincre-13613378.php"
+    },
+    {
+      "chaineSlug": "l-opinion",
+      "date": "2026-10-21",
+      "emission": "A droite, la gageure du rassemblement",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Pour les électeurs de droite le « socle commun » n'existe pas : électeurs d'Attal et EP tentés par la gauche, ceux de Retailleau/Lisnard attirés par Le Pen ; EP se dit seul capable de rassembler. Page ouverte.",
+      "url": "https://www.lopinion.fr/politique/a-droite-la-gageure-du-rassemblement"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-21",
+      "emission": "Présidentielle 2027 : les candidats s’affronteront de nouveau lors d’un débat sur LCI, Édouard Philippe grand absent de cette rencontre",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Débat LCI/Restos du Cœur du 16 novembre : EP grand absent de cette rencontre. Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/21/presidentielle-2027-les-candidats-saffronteront-de-nouveau-lors-dun-debat-sur-lci-edouard-philippe-grand-absent-de-cette-rencontre-13613470.php"
+    },
+    {
+      "chaineSlug": "l-opinion",
+      "date": "2026-10-21",
+      "emission": "Sur les questions budgétaires, les clivages électoraux ne sont pas ceux que l’on croit",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Note Fondation Jean-Jaurès (Antoine Bristielle) : sur le budget, l'électorat d'EP est plus proche de celui de Glucksmann que de Retailleau. Page ouverte.",
+      "url": "https://www.lopinion.fr/politique/sur-les-questions-budgetaires-les-clivages-electoraux-ne-sont-pas-ceux-que-lon-croit"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-21",
+      "emission": "Violences du 17 octobre : le gouvernement sommé d’élargir les pouvoirs des polices municipales",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Décryptage : les élus pressent l'adoption du projet de loi polices municipales avant la présidentielle ; EP l'a répété mercredi soir auprès des forces de l'ordre à Charleville-Mézières. Page ouverte.",
+      "url": "https://www.lefigaro.fr/politique/violences-du-17-octobre-le-gouvernement-somme-d-elargir-les-pouvoirs-des-polices-municipales-20261021"
+    },
+    {
+      "chaineSlug": "europe-1",
+      "date": "2026-10-21",
+      "emission": "«Le président n’écoute plus personne» : Emmanuel Macron de plus en plus contesté dans son camp",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Macron contesté dans son camp : Lecornu lui reprocherait de ne plus écouter personne (Canard enchaîné) ; EP juge son départ au Qatar « pas le plus opportun ». Page ouverte.",
+      "url": "https://www.europe1.fr/politique/le-president-necoute-plus-personne-emmanuel-macron-de-plus-en-plus-conteste-dans-son-camp-1171095"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-22",
+      "emission": "«Gabriel Attal n’est plus un sujet» : les indiscrétions du Figaro Magazine",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Indiscrétions du Figaro Magazine (Carl Meeus) : « Gabriel Attal n'est plus un sujet » ; un proche juge qu'EP est « un candidat de droite et du centre ». Page ouverte.",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/gabriel-attal-n-est-plus-un-sujet-les-indiscretions-du-figaro-magazine-20261022"
+    },
+    {
+      "chaineSlug": "tf1-info",
+      "date": "2026-10-21",
+      "emission": "Présidentielle 2027 : LCI organise un nouveau débat le 16 novembre, la grande précarité et la solidarité au centre des échanges",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "LCI organise le 16/11 un 2ᵉ grand débat avec les Restos du Cœur ; EP seul absent du top 6, retenu au conseil municipal du Havre selon son entourage. Page ouverte.",
+      "url": "https://www.tf1info.fr/politique/elections/presidentielle/presidentielle-2027-lci-organise-un-nouveau-debat-le-16-novembre-la-grande-precarite-et-la-solidarite-au-centre-des-echanges-2471255.html"
+    },
+    {
+      "chaineSlug": "l-opinion",
+      "date": "2026-10-21",
+      "emission": "Violences du 17 octobre : règlements de comptes entre partis autour de Sébastien Lecornu à Matignon",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Réunion des partis à Matignon sur le fiasco du 17 octobre : chacun désigne son coupable ; EP « Notre pays a besoin d'être commandé ». Page ouverte.",
+      "url": "https://www.lopinion.fr/politique/violences-du-17-octobre-reglements-de-compte-entre-partis-autour-de-sebastien-lecornu-a-matignon"
+    },
+    {
+      "chaineSlug": "le-nouvel-obs",
+      "date": "2026-10-21",
+      "emission": "Après les violences du 17 octobre, la droite plus décomplexée que jamais",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Après les violences du 17/10, la droite plus décomplexée ; Maud Brégeon, soutien d'EP, a repris le mot « racaille ». Page ouverte.",
+      "url": "https://www.nouvelobs.com/politique/20261021.OBS119413/apres-les-violences-du-17-octobre-la-droite-plus-decomplexee-que-jamais.html"
+    }
+  ]
+}

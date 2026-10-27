@@ -1,0 +1,135 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-09-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-09T06:05:00Z",
+    "note": "Passe 9 oct 8h (rattrapage de la passe 8 oct 18h échouée ; fenêtre 8 oct ~07h30 → 9 oct 08h). +17 pubs (med-2026-607…med-2026-620 + 3 posts X x-2108277134339039447, x-2108279861286408450, x-2108300142700855559) — retombées « L'Heure de vérité » France 2 (franceinfo Duguet, AFP/France 24, Figaro Boichot + Timsit, Le Parisien/AFP 20 ordonnances dès juillet 2027, Libération Daoulas, Les Echos, L'Opinion, HuffPost Berthelier, RTL/AFP immigration légale ÷2) ; Figaro Tabard ; Mélenchon meeting au Havre 5 déc. (Le Parisien/AFP) ; Cluster 17/Le Point : EP -5 à 22 % (Le Parisien) ; comité de soutien Lyon présidé par Samuel Soulier (Lyon Capitale). X (accès public Grok Bot) : 11 posts originaux + 1 RT de @EPhilippe_LH depuis 2026-10-08T06:00Z (live-tweet de l'émission), 3 retenus. Audience Médiamétrie de l'émission non encore publiée à l'heure de la passe. Proches : +1 Samuel Soulier. Pas de PR. 12 apparitions ; 5 skips.",
+    "skips_no_slug": [
+      "Lyon Capitale",
+      "France 24 (AFP)",
+      "X"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-08",
+      "emission": "Présidentielle 2027 : Jean-Luc Mélenchon va « défier » Édouard Philippe en organisant un meeting dans sa ville du Havre le 5 décembre",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Parisien/AFP 08/10 12h25 : LFI annonce un meeting de Mélenchon au Havre le 5 décembre ; Manuel Bompard : « Nous voulons défier Édouard Philippe avec ce meeting dans la ville dont il est le maire ». Mélenchon y avait fait 30,17 % en 2022 et 29,81 % en 2017 ; coude à coude avec EP pour le second tour selon les sondages. Page ouverte.",
+      "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-jean-luc-melenchon-va-defier-edouard-philippe-en-organisant-un-meeting-dans-sa-ville-du-havre-le-5-decembre-08-10-2026-7PNGF2XLGBD5ZP5OD52K6E3P7Q.php"
+    },
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-08",
+      "emission": "Sondage présidentielle 2027 : la popularité d’Édouard Philippe, Marine Le Pen et Gabriel Attal en net recul, Jean-Luc Mélenchon sur le podium",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Parisien 08/10 18h14 : baromètre Cluster 17 pour Le Point (terrain 28-30 sept.) — EP perd 5 points à 22 % et chute de la 3e à la 12e place ; Le Pen 34 % (-4), Bardella 30 % (-5), Mélenchon 3e (26 %, stable) ; Attal -5 à 19 % (20e). Page ouverte.",
+      "url": "https://www.leparisien.fr/elections/presidentielle/sondage-presidentielle-2027-la-popularite-dedouard-philippe-marine-le-pen-et-gabriel-attal-en-net-recul-jean-luc-melenchon-sur-le-podium-08-10-2026-FBFLHID6CNCEFKMKOQKPOELWGM.php"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-08",
+      "emission": "Guillaume Tabard : « Édouard Philippe, de la longue marche au danger du surplace »",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Contre-point Figaro 08/10 19h20 : le maire du Havre, candidat officiel depuis deux ans et un mois mais d'ambition élyséenne évidente depuis son départ de Matignon (été 2020), face au risque du surplace. Page ouverte (chapô).",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/guillaume-tabard-edouard-philippe-de-la-longue-marche-au-danger-du-surplace-20261008"
+    },
+    {
+      "chaineSlug": "liberation",
+      "date": "2026-10-08",
+      "emission": "Défiscalisation des heures sup' et allocation familiale unique de 350 euros dès le premier enfant : Edouard Philippe ouvre (un peu) le carnet de chèque",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Libération 08/10 22h17 : défiscalisation des heures sup (totem sarkozyste), allocation familiale unique de 350 €/mois dès le 1er enfant, réduction d'impôt ~3 000 € sur 3 ans après une naissance, PTZ familles ; tacle à Macron sur le « réarmement démographique » ; échange avec Thomas Porcher sur le financement ; référendum retraites presque enterré (« on verra ») ; ordonnances « rédigées entre janvier et juin ». Page ouverte.",
+      "url": "https://www.liberation.fr/politique/elections/defiscalisation-des-heures-sup-et-allocation-familiale-unique-de-350-euros-des-le-premier-enfant-edouard-philippe-ouvre-un-peu-le-carnet-de-cheque-20261008_BBNCC4756JFTPG7P3HBE7WIE5E/"
+    },
+    {
+      "chaineSlug": "les-echos",
+      "date": "2026-10-08",
+      "emission": "Présidentielle 2027 : impôts, heures sup, familles… Edouard Philippe apporte une touche de sucré « après le salé des retraites »",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Les Echos 08/10 22h46 (abonnés, maj 09/10 0h33) : sur « L'Heure de vérité », EP dévoile des mesures de pouvoir d'achat ; reprend « travailler plus pour gagner plus », liberté pour les entreprises de fixer la durée hebdomadaire du travail avec dérogation aux 35 heures. Page ouverte (début).",
+      "url": "https://www.lesechos.fr/elections/presidentielle/presidentielle-2027-impots-heures-sup-familles-edouard-philippe-apporte-une-touche-de-sucre-apres-le-sale-des-retraites-2255975"
+    },
+    {
+      "chaineSlug": "france-info-tv",
+      "date": "2026-10-08",
+      "emission": "Immigration, allocations familiales, Parcoursup… Ce qu'il faut retenir de l'interview d'Edouard Philippe dans l'émission \"L'Heure de vérité\" sur France 2",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "franceinfo 08/10 23h05 : les passages marquants de l'interview de plus de deux heures du candidat Horizons, premier invité de « L'Heure de vérité » sur France 2 (immigration, retraites, allocations familiales, Parcoursup). Page ouverte (chapô).",
+      "url": "https://www.franceinfo.fr/politique/edouard-philippe/immigration-retraites-allocations-familiales-parcoursup-ce-qu-il-faut-retenir-de-l-interview-d-edouard-philippe-dans-l-emission-l-heure-de-verite_8228416.html"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-08",
+      "emission": "Présidentielle 2027 : dans «L’Heure de vérité», Édouard Philippe marque sa campagne à droite",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Figaro 08/10 23h13 : sur France 2, le candidat d'Horizons a promis de redresser les comptes publics, de renforcer le pouvoir d'achat des familles et de diviser l'immigration légale par deux. Page ouverte (chapô).",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/dans-l-heure-de-verite-edouard-philippe-marque-sa-campagne-a-droite-20261008"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-08",
+      "emission": "«Comme quand j’étais à Matignon» : Édouard Philippe annonce qu’il n’habitera pas à l’Élysée s’il est élu en 2027",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Figaro 08/10 23h59 : sur France 2, le candidat Horizons fait savoir qu'il n'habiterait pas à l'Élysée et rentrerait régulièrement auprès des siens, estimant avoir besoin de ses « forces de rappel ». Page ouverte (chapô).",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/candidats/comme-quand-j-etais-a-matignon-edouard-philippe-annonce-qu-il-n-habitera-pas-a-l-elysee-s-il-est-elu-en-2027-20261008"
+    },
+    {
+      "chaineSlug": "l-opinion",
+      "date": "2026-10-09",
+      "emission": "Ordonnances, « travailler plus pour gagner plus » et réduction de l'immigration : Edouard Philippe face à son « heure de vérité »",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "L'Opinion 09/10 0h04 : invité de « L'Heure de vérité », le candidat Horizons veut défiscaliser et exempter de cotisations sociales les heures supplémentaires au-delà des 35 heures (« 1000 euros de plus par an » au Smic selon lui). Page ouverte (chapô).",
+      "url": "https://www.lopinion.fr/politique/ordonnances-travailler-plus-pour-gagner-plus-et-reduction-de-limmigration-edouard-philippe-face-a-son-heure-de-verite"
+    },
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-09",
+      "emission": "Présidentielle 2027 : « Il faudra aller vite », Édouard Philippe projette de promulguer 20 ordonnances dès juillet s’il est élu",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Parisien/AFP 09/10 4h47 : EP présenterait « dès juillet » 2027, après dissolution et législatives, une vingtaine d'ordonnances pour une entrée en vigueur « dès l'automne », afin que le pays soit « commandé et gouverné ». Sur les retraites, il ne s'interdit rien (ordonnances, référendum) mais prévoit une concertation. Page ouverte.",
+      "url": "https://www.leparisien.fr/politique/presidentielle-2027-il-faudra-aller-vite-edouard-philippe-projette-de-promulguer-20-ordonnances-des-juillet-sil-est-elu-09-10-2026-RHK3OZBG2BBZJB3TDFNFNIJLPU.php"
+    },
+    {
+      "chaineSlug": "huffpost",
+      "date": "2026-10-09",
+      "emission": "Sur France 2, Philippe refuse de jouer « le bon pote » en pariant sur le sérieux et la sueur",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "HuffPost 09/10 5h45 (maj 6h52) : bilan critique de « L'Heure de vérité » — « grand oral de bon élève », refus de « raconter des craques », « pas de sang ni de larmes, mais de la sueur » ; détermination affichée (ordonnances dès juillet 2027) mais peine à « fendre l'armure » et à dessiner un projet enthousiasmant ; popularité érodée, talonné par Mélenchon. Page ouverte.",
+      "url": "https://www.huffingtonpost.fr/politique/article/dans-l-heure-de-verite-sur-france-2-edouard-philippe-refuse-d-etre-le-bon-pote-en-pariant-sur-le-serieux-et-la-sueur_336767.html"
+    },
+    {
+      "chaineSlug": "rtl",
+      "date": "2026-10-09",
+      "emission": "\"Un certain nombre de nos services publics sont saturés\" : Édouard Philippe veut \"diviser par deux l'immigration légale\"",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "RTL/AFP 09/10 7h19 : invité de « L'Heure de vérité », EP propose de diviser par deux l'immigration légale et un moratoire sur le regroupement familial. Page ouverte (chapô).",
+      "url": "https://www.rtl.fr/actu/politique/un-certain-nombre-de-nos-services-publics-sont-satures-edouard-philippe-veut-diviser-par-deux-l-immigration-legale-7900683231"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-20-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-20T06:16:35Z",
+    "note": "Vague JPE Livre 20 sept 08h (rattrapage depuis 17/09 18h, échec 19/09 inclus). 20 pubs; 8 poussées. Fils climat Ponts-de-Cé 17/09 + Élysée 18/09 (menace Russie) + Heure de vérité 24/09. X needsAuth.",
+    "skips_no_slug": [
+      "Angers Info (my-angers.info)",
+      "France 24 (AFP)",
+      "Le Singulier",
+      "L'Info Durable",
+      "AEF",
+      "NewsTele",
+      "Batiactu",
+      "Le Télégramme",
+      "France 24",
+      "Parlons Politique",
+      "Autosuffisance"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-09-17",
+      "emission": "Incendies: Édouard Philippe propose de «construire en France des Canadairs français»",
+      "dureeMinutes": 1,
+      "type": "plateau",
+      "tonalite": "neutre",
+      "resume": "Clip BFMTV 18h35 (1:04). EP annonce aux Ponts-de-Cé vouloir «construire en France des Canadairs français». Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/video-incendies-edouard-philippe-propose-de-construire-en-france-des-canadairs-francais_VN-202609170740.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-09-17",
+      "emission": "Agriculture, incendies, canicule... Les propositions d'Édouard Philippe pour le climat",
+      "dureeMinutes": 63,
+      "type": "plateau",
+      "tonalite": "neutre",
+      "resume": "Vidéo BFMTV 19h31 (durée ~1h03). Synthèse des propositions «sécurité climatique» (fonds 2 Md€, Canadair, etc.) après discours Ponts-de-Cé. Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/video-agriculture-incendies-canicule-les-propositions-d-edouard-philippe-pour-le-climat_VN-202609170829.html"
+    },
+    {
+      "chaineSlug": "la-croix",
+      "date": "2026-09-17",
+      "emission": "Présidentielle 2027 : Édouard Philippe présente son programme pour l’adaptation climatique",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Article La Croix maj 20h18. Programme adaptation (protéger/adapter/équiper), fonds 2 Md€, Canadair, ode à l’économie de marché. Page ouverte.",
+      "url": "https://www.la-croix.com/politique/presidentielle-2027-edouard-philippe-presente-son-programme-pour-l-adaptation-climatique-20260917"
+    },
+    {
+      "chaineSlug": "france-info-tv",
+      "date": "2026-09-17",
+      "emission": "Édouard Philippe souhaite doter la France d'une «véritable politique de sécurité climatique»",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Article franceinfo 21h27 (AFP). Fonds unique 2 Md€/an, Canadair français, journée nationale d’alerte, trois chantiers. Page ouverte.",
+      "url": "https://www.franceinfo.fr/elections/presidentielle/edouard-philippe-souhaite-doter-la-france-d-une-veritable-politique-de-securite-climatique_8197976.html"
+    },
+    {
+      "chaineSlug": "rfi",
+      "date": "2026-09-17",
+      "emission": "Présidentielle en France: Édouard Philippe se positionne sur l'adaptation au changement climatique",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "RFI 23h51. Analyse du discours Angers/Ponts-de-Cé : «sécurité climatique», combat idéologique RN/LFI, économie de marché. Page ouverte.",
+      "url": "https://www.rfi.fr/fr/france/20260917-pr%C3%A9sidentielle-en-france-%C3%A9douard-philippe-se-positionne-sur-l-adaptation-au-changement-climatique"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-09-18",
+      "emission": "Guerre au Moyen-Orient: «L'impact du conflit va se faire sentir durablement», comprend Édouard Philippe",
+      "dureeMinutes": 2,
+      "type": "plateau",
+      "tonalite": "neutre",
+      "resume": "Clip BFMTV 13h51 (2:25) sortie Élysée 18 sept. EP sur impact durable du conflit Moyen-Orient (réunion Macron candidats/carburants). Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/video-guerre-au-moyen-orient-l-impact-du-conflit-va-se-faire-sentir-durablement-comprend-edouard-philippe-candidat-horizons-a-l-election-presidentielle_VN-202609180477.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-09-18",
+      "emission": "Russie : le «niveau de menace» sur la France «s'élève», déclare Edouard Philippe",
+      "dureeMinutes": 2,
+      "type": "plateau",
+      "tonalite": "neutre",
+      "resume": "Clip BFMTV 13h56 (1:33). EP à la sortie de l’Élysée : le niveau de menace sur la France «s’élève» (Ukraine/Russie). Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/video-russie-le-niveau-de-menace-sur-la-france-s-eleve-declare-edouard-philippe-candidat-horizons-a-l-election-presidentielle_VN-202609180485.html"
+    },
+    {
+      "chaineSlug": "le-nouvel-obs",
+      "date": "2026-09-18",
+      "emission": "Menaces russes et prix des carburants : ce qu’il faut retenir des annonces de Macron",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "L'Obs 15h30 / maj 18h36. Récap Élysée ; EP promet attention à une France «forte et prête» face à la déstabilisation russe ; ne répond pas sur baisse carburants («pas l’objet»). Page ouverte.",
+      "url": "https://www.nouvelobs.com/politique/20260918.OBS118362/menaces-russes-et-prix-des-carburants-ce-qu-il-faut-retenir-des-annonces-de-macron.html"
+    }
+  ]
+}

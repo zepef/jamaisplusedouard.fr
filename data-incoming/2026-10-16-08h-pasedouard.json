@@ -1,0 +1,73 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-16-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-16T05:55:24Z",
+    "note": "Passe 16 oct 8h (fenêtre ~18h10 Paris 15/10 → ~7h50 Paris 16/10). +7 pubs (med-2026-736…742). Fil : (1) 2ᵉ réunion d’appartements en visio sur l’École (15/10 19h30) — reportage exclusif Le Parisien 22h28 (500+ salons, 82 départements) ; franceinfo/AFP 16/10 7h24 : EP prône un apprentissage concentré le matin et des vacances de Toussaint/Pâques raccourcies (« question assez explosive »), et juge que les professeurs « ne sont pas les mieux placés » pour l’orientation Parcoursup ; (2) sondages : L’Opinion 19h15 (Deprieck) « Malmené dans les sondages, EP assume de ralentir le rythme des annonces » (trois études le placent éliminé au 1er tour) ; reprises OpinionWay/Les Echos (L’Opinion 18h20, AFP France 24 20h11 : EP −7 pts depuis juillet) ; OpinionWay pour CNEWS 21h00 : EP 12 % (−3), 4ᵉ derrière Le Pen 35, Mélenchon 15, Glucksmann 13 ; (3) BFMTV 19h47 reprend le post X d’EP contre Le Pen sur l’Ukraine (« trahison »). X : 0 post @EPhilippe_LH depuis 16:10Z. Non retenus : Politico Playbook 16/10 (pas d’EP) ; La Provence/Le Télégramme Nasrou « prêt à débattre » (9/09, hors fenêtre) ; Ouest-France 16/10 6h30 rythmes scolaires (mention EP non vérifiée) ; IntelliNews/titrespresse (agrégateurs) ; edouardphilippe.fr page 12/10. Toujours pas de réponse publique d’EP à l’offre de débat de Retailleau. À surveiller : réactions aux propos sur les vacances scolaires, comité de liaison mi-octobre. Proches inchangé. 6 apparitions ; skips_no_slug France 24 (AFP).",
+    "skips_no_slug": [
+      "France 24 (AFP)"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "l-opinion",
+      "date": "2026-10-15",
+      "emission": "Présidentielle 2027 : Raphaël Glucksmann rattrape Edouard Philippe et Jean-Luc Mélenchon, selon un sondage",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "critique",
+      "resume": "L’Opinion 15/10 18h20 : reprise du baromètre OpinionWay pour Les Echos/Radio Classique. Hypothèse EP sans Attal mais avec Retailleau : EP, Glucksmann et Mélenchon à 15 % chacun ; le maire du Havre « chute de quatre points », Glucksmann en gagne cinq après sa victoire à la primaire. Lisnard non testé. Extrait lu via index de recherche.",
+      "url": "https://www.lopinion.fr/politique/presidentielle-2027-raphael-glucksmann-rattrape-edouard-philippe-et-jean-luc-melenchon-selon-un-sondage"
+    },
+    {
+      "chaineSlug": "l-opinion",
+      "date": "2026-10-15",
+      "emission": "Malmené dans les sondages, Edouard Philippe assume de ralentir le rythme des annonces",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "critique",
+      "resume": "L’Opinion 15/10 19h15 : « Trois études d’opinion entre mercredi et jeudi placent le maire du Havre en situation d’être éliminé au soir du premier tour » ; EP assume de tenir son rythme, « l’heure est à la répétition des mesures déjà connues ». Rappel du discours du 17/09 (hommage au fonds Barnier transmis via Clément Tonon), ralliements Bregeon et Lefèvre fin juin ; des LR ironisent sur l’élargissement promis (Pécresse, Copé, Wauquiez). Page ouverte (début, suite abonnés).",
+      "url": "https://www.lopinion.fr/politique/malmene-dans-les-sondages-edouard-philippe-assume-de-ralentir-le-rythme-des-annonces"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-15",
+      "emission": "\"Votre dernière déclaration est une trahison\": Édouard Philippe répond à Marine Le Pen qui veut supprimer les aides à l'Ukraine si elle est élue",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "BFMTV 15/10 19h47 : reprise du post X d’EP contre Marine Le Pen (aide financière à l’Ukraine maintenue six mois puis « cesserait ») — « alignée depuis longtemps sur les intérêts du Kremlin », « trahison », « la France, libre et souveraine, ne prend ses ordres ni à Moscou ni ailleurs ! ». Réponse de Zelensky : « Madame Le Pen ne maîtrise pas bien certains détails ». Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/votre-derniere-declaration-est-une-trahison-edouard-philippe-repond-a-marine-le-pen-qui-veut-supprimer-les-aides-a-l-ukraine-si-elle-est-elue_AN-202610150845.html"
+    },
+    {
+      "chaineSlug": "cnews",
+      "date": "2026-10-15",
+      "emission": "Sondage : à six mois de la présidentielle, Marine Le Pen largement en tête devant Jean-Luc Mélenchon et Raphaël Glucksmann",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "critique",
+      "resume": "CNews 15/10 21h00 (màj 16/10 0h21) : sondage OpinionWay pour CNEWS (13-14/10) — Le Pen 35 %, Mélenchon 15 %, Glucksmann 13 % (+4) ; EP « perd une place et 3 points » à 12 % ; Retailleau 6 %, Attal 5 %, Lisnard 4 %. Second tour : Le Pen 56 % face à Glucksmann comme face à EP, 68 % face à Mélenchon. Page ouverte.",
+      "url": "https://www.cnews.fr/france/2026-10-15/sondage-six-mois-de-la-presidentielle-marine-le-pen-largement-en-tete-devant-jean"
+    },
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-15",
+      "emission": "« Je vois que la bouteille est entamée » : on a suivi la réunion d’appartement d’Édouard Philippe depuis chez lui",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Parisien 15/10 22h28, exclusif, envoyée spéciale au Havre : 2ᵉ réunion d’appartements en visio simultanée sur l’École, depuis l’appartement familial d’EP. Apparition à 19h37 dans « plus de 500 salons » répartis dans 82 départements « jusqu’à New York » ; trois caméras automatiques et une régie installées depuis le matin. Page ouverte (début, suite abonnés).",
+      "url": "https://www.leparisien.fr/elections/presidentielle/je-vois-que-la-bouteille-est-entamee-on-a-suivi-la-reunion-dappartement-dedouard-philippe-depuis-chez-lui-15-10-2026-AJGJUDG3VZE6PJFO5GHY7M3S3E.php"
+    },
+    {
+      "chaineSlug": "france-info-tv",
+      "date": "2026-10-16",
+      "emission": "Edouard Philippe prône une évolution des rythmes scolaires, avec un apprentissage concentré en matinée et des vacances plus courtes",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "franceinfo/AFP 16/10 7h24 : lors de la réunion de campagne du 15/10 consacrée à l’éducation, EP prône des heures d’apprentissage concentrées le matin (sport, culture, langues l’après-midi) et « limiter le nombre de jours de congés » à la Toussaint et à Pâques — « une question assez explosive », dont il se dit « très partisan ». Sur Parcoursup (créé sous son gouvernement) : « les professeurs ne sont pas les mieux placés pour aider à l’orientation », « il faut qu’on améliore très largement l’orientation ». Page ouverte.",
+      "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/edouard-philippe-prone-une-evolution-des-rythmes-scolaires-avec-un-apprentissage-concentre-en-matinee-et-des-vacances-plus-courtes_8239537.html"
+    }
+  ]
+}

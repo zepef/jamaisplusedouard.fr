@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (exports/temps-reel-2026-10-27-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-27T08:54:17Z",
+    "note": "Passe 2026-10-27-08h dérivée du ledger (mêmes règles que les data-incoming PasEdouard : outlet -> slug de la liste fermée, emission = titre, resume = résumé du ledger, dureeMinutes 0, tonalité neutre ; sans slug = skip). 11 pubs au ledger pour cette passe.",
+    "skips_no_slug": [
+      "Infodujour.fr",
+      "Midi Libre",
+      "La Nouvelle République",
+      "POLITICO Europe"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "ouest-france",
+      "date": "2026-10-27",
+      "emission": "Pontchâteau. Présidentielle : un comité de soutien à Édouard Philippe",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Ryan Homond, 21 ans, annonce la création du « Comité avec Édouard » à Pontchâteau (Loire-Atlantique), ouvert aux adhérents Horizons, aux autres formations de la droite et du centre et aux sans-étiquette. Page ouverte (WebFetch).",
+      "url": "https://www.ouest-france.fr/pays-de-la-loire/pontchateau-44160/pontchateau-presidentielle-un-comite-de-soutien-a-edouard-philippe-41123155-3612-4e22-8869-c6289bfe8f9c"
+    },
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-27",
+      "emission": "« Ça va s’imposer » : la primaire de la droite et du centre revient au cœur des débats",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Les récents sondages compliquent la perspective de rassemblement entre Attal, Retailleau, EP et Lisnard, ce qui remet la question d'une primaire sur le devant de la scène. Page ouverte.",
+      "url": "https://www.leparisien.fr/elections/presidentielle/ca-va-simposer-la-primaire-de-la-droite-et-du-centre-revient-au-coeur-des-debats-27-10-2026-F2BPZAGLHVHN5GFOUS225RNCUU.php"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-27",
+      "emission": "Présidentielle 2027 : le centre s'effondre alors que le macronisme est sous le feu des critiques",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "EP perd 3 pts en un mois (19 % à 16 %) dans le sondage du journal, distancé de 2,5 pts par Mélenchon ; il ne recueille plus que 49 % des électeurs Macron 2022 (58 % en septembre) et 18 % des électeurs Pécresse (32 %). Retour sur son post X « Notre pays a besoin d'être commandé ». Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/27/presidentielle-2027-le-centre-seffondre-alors-que-le-macronisme-est-sous-le-feu-des-critiques-13621226.php"
+    },
+    {
+      "chaineSlug": "ouest-france",
+      "date": "2026-10-26",
+      "emission": "Quel avenir pour l’école ? Voici ce que proposent les principaux candidats à la présidentielle 2027",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Comparatif des programmes éducation (Parcoursup, emplois du temps) de Le Pen, Mélenchon, EP, Glucksmann, Attal et Retailleau ; EP juge Parcoursup « trop stressant ». Page ouverte (WebFetch, début d'article).",
+      "url": "https://www.ouest-france.fr/education/ecole/quel-avenir-pour-lecole-voici-ce-que-proposent-les-principaux-candidats-a-la-presidentielle-2027-10b2e196-d123-11f1-95ba-26d2045f6620"
+    },
+    {
+      "chaineSlug": "public-senat",
+      "date": "2026-10-27",
+      "emission": "Sondage : Le Pen et Mélenchon, grands bénéficiaires de la colère sociale",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Baromètre Odoxa pour Public Sénat : les Français soutiennent le mouvement lycéen mais veulent qu'il cesse ; Le Pen, Bardella et Mélenchon progressent tandis qu'EP et Attal reculent. Page ouverte.",
+      "url": "https://www.publicsenat.fr/actualites/politique/sondage-le-pen-et-melenchon-grands-beneficiaires-de-la-colere-sociale"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-27",
+      "emission": "DECRYPTAGE. Présidentielle 2027 - Sondage : pourquoi Marine Le Pen et Jean-Luc Mélenchon sortent gagnants des violences du 17 octobre selon le baromètre pour la presse régionale et Public Sénat",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Baromètre Odoxa-Mascaret presse régionale/Public Sénat : EP perd 3 pts d'adhésion, Attal 4 ; seuls 7 % et 6 % les voient comme bénéficiaires des violences du 17 octobre. Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/27/decryptage-presidentielle-2027-sondage-pourquoi-marine-le-pen-et-jean-luc-melenchon-sortent-gagnants-des-violences-du-17-octobre-selon-le-barometre-13620816.php"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-27",
+      "emission": "ÉDITO. Sondage exclusif après les manifs du 17 octobre : Mélenchon et Le Pen, les profiteurs du chaos",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Éditorial : EP et Attal « éclaboussés par ricochet par le désaveu d'Emmanuel Macron », difficulté pour EP s'il était le seul candidat du bloc central. Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/27/edito-sondage-exclusif-apres-les-manifs-du-17-octobre-melenchon-et-le-pen-les-profiteurs-du-chaos-13621455.php"
+    }
+  ]
+}

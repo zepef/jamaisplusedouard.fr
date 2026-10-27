@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-28-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-28T16:05:00Z",
+    "note": "Vague JPE Livre 28 sept 18h. +7 pubs post-last_run 08h (+ omission RTL sondage 07h). Fils : Toluna-Harris RTL/M6 (RTL 07h + Midi Libre AFP + France 24 AFP + CNews + Euronews) Le Pen 57%/EP 43% T2, Mélenchon devant EP T1 ; Conversation française (LCP communiqué + RTL phobie requins). X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": [
+      "Midi Libre",
+      "France 24 (AFP)",
+      "Euronews"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "rtl",
+      "date": "2026-09-28",
+      "emission": "SONDAGE RTL - Présidentielle 2027 : Marine Le Pen face à Jean-Luc Mélenchon au second tour dans tous les cas de figure",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "RTL 28/09 07h00 (mis à jour 07h04). Baromètre Toluna Harris Interactive M6/RTL vague 6 (22-24/09) : Le Pen 35–36 % T1 dans les 5 hypothèses ; avec Attal+EP, Mélenchon 17 % / EP 13 % / Glucksmann 10 % / Attal 5 % ; candidat unique bloc centr",
+      "url": "https://www.rtl.fr/actu/politique/sondage-rtl-presidentielle-2027-marine-le-pen-face-a-jean-luc-melenchon-au-second-tour-dans-tous-les-cas-de-figure-7900677372"
+    },
+    {
+      "chaineSlug": "lcp",
+      "date": "2026-09-28",
+      "emission": "Conversation française — Un candidat, un écrivain — nouveau rendez-vous mensuel présenté par Anna Cabana",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "LCP communiqué 28/09 09h51. Annonce du format Conversation française (LCP / La Tribune Dimanche, Anna Cabana) : 1er numéro EP × Olivier Norek ; YouTube 25/09, LCP.fr 26/09, TNT 1er oct. 20h30 (+ rediff.). Durées 26′ / 50′ YouTube. Page ouve",
+      "url": "https://lcp.fr/presse/communiques-de-presse/conversation-francaise-un-candidat-un-ecrivain-nouveau-rendez-vous"
+    },
+    {
+      "chaineSlug": "rtl",
+      "date": "2026-09-28",
+      "emission": "\"C'est ridicule, ça fait rigoler\" : Édouard Philippe se confie sur sa peur \"panique\" des requins",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "RTL 28/09 10h17. Relais Conversation française (LCP/Norek) : EP évoque une « peur enfantine et panique des requins », liée en partie aux Dents de la mer ; « C'est ridicule, ça fait rigoler » ; humour sur population de requins au Havre « rel",
+      "url": "https://www.rtl.fr/actu/politique/c-est-ridicule-ca-fait-rigoler-edouard-philippe-se-confie-sur-sa-peur-panique-des-requins-7900677531"
+    },
+    {
+      "chaineSlug": "cnews",
+      "date": "2026-09-28",
+      "emission": "Présidentielle 2027 : Marine Le Pen arriverait largement en tête face à Édouard Philippe au second tour, selon un sondage",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "CNews 28/09 10h35. Relais Toluna-Harris RTL/M6 : T2 Le Pen 57 % / EP 43 %, Le Pen 69 % / Mélenchon 31 %. Page ouverte.",
+      "url": "https://www.cnews.fr/france/2026-09-28/presidentielle-2027-marine-le-pen-arriverait-largement-en-tete-face-edouard"
+    }
+  ]
+}

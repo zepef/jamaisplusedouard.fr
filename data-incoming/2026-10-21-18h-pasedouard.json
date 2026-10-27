@@ -1,0 +1,127 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (exports/temps-reel-2026-10-21-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-27T08:54:17Z",
+    "note": "Passe 2026-10-21-18h dérivée du ledger (mêmes règles que les data-incoming PasEdouard : outlet -> slug de la liste fermée, emission = titre, resume = résumé du ledger, dureeMinutes 0, tonalité neutre ; sans slug = skip). 27 pubs au ledger pour cette passe.",
+    "skips_no_slug": [
+      "X",
+      "Contexte",
+      "RVM",
+      "Actu.fr",
+      "Sud Radio",
+      "L'Écho du Berry",
+      "Paris Match",
+      "Le Journal des Français",
+      "Le Moniteur des pharmacies",
+      "blue News",
+      "Planet.fr",
+      "Tribune Juive",
+      "JDN",
+      "Orange Actualités (Paris-Normandie)",
+      "Capital"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "le-nouvel-obs",
+      "date": "2026-10-21",
+      "emission": "Edouard Philippe agace le bloc central, le RN a un plan banlieues… Retrouvez les indiscrétions du « Nouvel Obs »",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Indiscrétions du Nouvel Obs 21/10 (abonnés) : « Edouard Philippe agace le bloc central » en tête de rubrique. Page ouverte (chapeau seulement).",
+      "url": "https://www.nouvelobs.com/politique/20261021.OBS119391/edouard-philippe-agace-le-bloc-central-le-rn-a-un-plan-banlieues-retrouvez-les-indiscretions-du-nouvel-obs.html"
+    },
+    {
+      "chaineSlug": "l-express",
+      "date": "2026-10-21",
+      "emission": "\"Ce week-end, on a perdu la présidentielle\" : après le 17 octobre, les candidats du bloc central dans la nasse",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "L'Express 21/10 : « Ce week-end, on a perdu la présidentielle » ; EP, Attal et Retailleau, identifiés au bilan Macron, pâtissent de la gestion du 17 octobre. Page ouverte.",
+      "url": "https://www.lexpress.fr/politique/ce-week-end-on-a-perdu-la-presidentielle-apres-le-17-octobre-les-candidats-du-bloc-central-dans-la-SRFX6NBHV5AAXDUEQZSHAUN6CM/"
+    },
+    {
+      "chaineSlug": "france-info-tv",
+      "date": "2026-10-21",
+      "emission": "Édouard Philippe souhaite \"donner plus de pouvoir\" à la police municipale",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "franceinfo 21/10 : EP invité des 4 Vérités (France 2) veut « donner plus de pouvoir » à la police municipale. Page ouverte.",
+      "url": "https://www.franceinfo.fr/politique/edouard-philippe/edouard-philippe-souhaite-donner-plus-de-pouvoir-a-la-police-municipale_8246890.html"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-21",
+      "emission": "«Je ne suis pas sûr que ça ait été compris» : Édouard Philippe critique le maintien du voyage d’Emmanuel Macron dans le Golfe en dépit des violences",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Figaro 21/10 : sur France 2, EP juge le maintien du voyage de Macron dans le Golfe pas « le plus opportun » (« pas sûr que ça ait été compris ») ; salue couvre-feux et renforts, mais tardifs. Page ouverte.",
+      "url": "https://www.lefigaro.fr/politique/je-ne-suis-pas-sur-que-ca-ait-ete-compris-edouard-philippe-critique-le-maintien-du-voyage-d-emmanuel-macron-dans-le-golfe-en-depit-des-violences-20261021"
+    },
+    {
+      "chaineSlug": "france-2",
+      "date": "2026-10-21",
+      "emission": "Les 4 vérités - Édouard Philippe - Extrait vidéo Télématin",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "France 2 Télématin 21/10 : Les 4 Vérités avec EP, interrogé par Francis Letellier. Page vidéo ouverte (heure de diffusion annoncée 8h10).",
+      "url": "https://www.france.tv/france-2/telematin/9000046-les-4-verites-edouard-philippe.html"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-21",
+      "emission": "«Cette situation ne me paraît plus tenable» : Édouard Philippe écrit à Sébastien Lecornu pour donner plus de pouvoir aux maires et à leurs polices",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "INFO Le Figaro 21/10 : EP écrit à Sébastien Lecornu pour accélérer la loi sur les polices municipales après les violences du 17 octobre (« Cette situation ne me paraît plus tenable »). Page ouverte.",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/candidats/cette-situation-ne-me-parait-plus-tenable-edouard-philippe-ecrit-a-sebastien-lecornu-pour-donner-plus-de-pouvoir-aux-maires-et-a-leur-police-20261021"
+    },
+    {
+      "chaineSlug": "huffpost",
+      "date": "2026-10-21",
+      "emission": "« Dans mon rôle » : Macron répond à  Philippe qui étrille son voyage dans le Golfe",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "HuffPost 21/10 : Macron répond « dans mon rôle » à EP qui étrille son voyage dans le Golfe. Page ouverte.",
+      "url": "https://www.huffingtonpost.fr/politique/article/emmanuel-macron-repond-a-edouard-philippe-qui-etrille-son-voyage-dans-le-golfe-malgre-la-crise_342849.html"
+    },
+    {
+      "chaineSlug": "tf1-info",
+      "date": "2026-10-21",
+      "emission": "SONDAGE LCI - Pour qui veulent voter les jeunes lors de l'élection présidentielle 2027 ?",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "TF1 Info/LCI 21/10 : vote des jeunes (Ifop-Fiducial Figaro/LCI/Sud Radio) ; scénario EP seul candidat du bloc central, Le Pen 30–31 % chez les 18-34 ans. Page ouverte.",
+      "url": "https://www.tf1info.fr/politique/elections/presidentielle/sondage-lci-pour-qui-veulent-voter-les-jeunes-lors-de-l-election-presidentielle-2027-2471222.html"
+    },
+    {
+      "chaineSlug": "l-opinion",
+      "date": "2026-10-21",
+      "emission": "Primaire, TVA sociale, répliques aux adversaires : les prises de risque calculées de Gabriel Attal",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "L'Opinion 21/10 : les prises de risque calculées d'Attal (primaire, TVA sociale) alors que l'écart avec EP se réduit. Page ouverte.",
+      "url": "https://www.lopinion.fr/politique/primaire-tva-sociale-repliques-aux-adversaires-les-prises-de-risque-calculees-de-gabriel-attal"
+    },
+    {
+      "chaineSlug": "rmc",
+      "date": "2026-10-21",
+      "emission": "L'élection présidentielle pourrait-elle avoir lieu de manière anticipée? \"Comment voulez-vous avoir un débat sérieux sur le vivre-ensemble?\"",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "RMC 21/10 : débat sur une présidentielle anticipée (Retailleau veut déplacer les dates) ; rappelle qu'EP a appelé à la démission de Macron. Page ouverte.",
+      "url": "https://rmc.bfmtv.com/actualites/politique/l-election-presidentielle-pourrait-elle-avoir-lieu-de-maniere-anticipee-comment-voulez-vous-avoir-un-debat-serieux-sur-le-vivre-ensemble_AN-202610210705.html"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-24-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-24T16:10:00Z",
+    "note": "Vague JPE Livre 24 sept 18h. 6 pubs post-last_run 24/09 08h ; 5 poussées. Fil : RTL EP (aides carburant / 7.000 postes non remplacés, relais BFMTV) ; sondage Cluster17/Politico EP=Mélenchon 19% (La Dépêche, L'Opinion, 20 Minutes, Corse-Matin) ; RTL mention Macron 20h. Skip no-slug : Corse-Matin. X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": [
+      "Corse-Matin"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-09-24",
+      "emission": "\"Trouver 450 millions dans le budget de l’État, c’est possible\": Édouard Philippe suggère de supprimer 7.000 postes de fonctionnaires en 2027 pour financer les nouvelles aides carburant",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "BFMTV 24/09 10h05. Relais interview RTL : EP soutient aides carburants ciblées ; finance 450 M€ par économies (recruter 123.000 au lieu de 130.000 fonctionnaires partant à la retraite) ; suspension réforme retraites « funeste ». Page ouverte.",
+      "url": "https://www.bfmtv.com/economie/economie-social/trouver-450-millions-dans-le-budget-de-l-etat-c-est-possible-edouard-philippe-suggere-de-supprimer-7-000-postes-de-fonctionnaires-en-2027-pour-financer-les-nouvelles-aides-carburant_AV-202609240327.html"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-09-24",
+      "emission": "Présidentielle 2027 - sondage : Marine Le Pen toujours loin devant, Jean-Luc Mélenchon et Édouard Philippe à égalité pour se qualifier pour le second tour",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "La Dépêche 24/09 08h53 (maj 14h51). Cluster17/Politico : Le Pen 31 % ; EP et Mélenchon à 19 % chacun (hyp. sans Attal) ; Attal seul à 13,5 % derrière Glucksmann 14 % / Mélenchon 20 %. Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/09/24/presidentielle-2027-sondage-marine-le-pen-toujours-loin-devant-jean-luc-melenchon-et-edouard-philippe-a-egalite-pour-se-qualifier-pour-le-second-tour-13566300.php"
+    },
+    {
+      "chaineSlug": "l-opinion",
+      "date": "2026-09-24",
+      "emission": "Sondage : Jean-Luc Mélenchon et Edouard Philippe à égalité au premier tour de la présidentielle",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "L'Opinion 24/09 15h02. Cluster17/Politico : Le Pen 30-31 % ; EP et Mélenchon 19 % ; Attal 13,5 % ; Glucksmann en hausse ; Lisnard 5 % ; citation Maël de Calan (soutien EP). Page ouverte.",
+      "url": "https://www.lopinion.fr/politique/jean-luc-melenchon-et-edouard-philippe-a-egalite-au-premier-tour-de-la-presidentielle-selon-un-sondage"
+    },
+    {
+      "chaineSlug": "20-minutes",
+      "date": "2026-09-24",
+      "emission": "Présidentielle 2027 : Un nouveau sondage donne Mélenchon et Philippe au coude-à-coude, loin derrière Le Pen",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "20 Minutes 24/09 15h03 (maj 17h00). Cluster17/Politico AFP : Le Pen 31 % ; EP et Mélenchon 19 % ; Attal 13,5 % si candidat à la place d'EP. Page ouverte.",
+      "url": "https://www.20minutes.fr/politique/4248384-20260924-presidentielle-2017-nouveau-sondage-donne-melenchon-philippe-coude-coude-loin-derriere-pen"
+    },
+    {
+      "chaineSlug": "rtl",
+      "date": "2026-09-24",
+      "emission": "Emmanuel Macron au 20 Heures : crise des carburants, menace russe... Ce que le président va dire pour tenter d'apaiser la colère des Français",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "RTL 24/09 13h28. Article Macron 20h TF1/France 2 ; cite lieutenant EP (« ne supporte pas d'être en dehors du jeu ») et EP sur RTL : crise carburants « va durer » (antagonisme USA/Iran, production/raffinage/distribution). Page ouverte.",
+      "url": "https://www.rtl.fr/actu/politique/emmanuel-macron-au-20h-de-tf1-et-france-2-ce-jeudi-ce-que-le-president-va-dire-pour-tenter-d-apaiser-la-colere-des-francais-7900676539"
+    }
+  ]
+}

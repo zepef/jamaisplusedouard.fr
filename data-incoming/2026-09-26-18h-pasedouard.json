@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-26-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-26T16:05:00Z",
+    "note": "Vague JPE Livre 26 sept 18h. +7 pubs post-last_run 26/09 08h. Fils : messe Léon XIV Concorde — EP présent (franceinfo, Paris Match x2, France 24 AFP, Midi Libre) ; relais aides carburant/7000 postes (Orange, MCETV). X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": [
+      "Orange Actualités",
+      "MCETV",
+      "Paris Match",
+      "France 24 (AFP)",
+      "Midi Libre"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "france-info-tv",
+      "date": "2026-09-26",
+      "emission": "Quels responsables politiques vont assister à la messe du pape place de la Concorde, à Paris ?",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "franceinfo 12h33 : entourages confirment EP (Horizons) et Attal présents à la messe Léon XIV Concorde, carré anciens Premiers ministres ; Macron absent.",
+      "url": "https://www.franceinfo.fr/monde/vatican/pape-leon-xiv/quels-responsables-politiques-vont-assister-a-la-messe-du-pape-place-de-la-concorde-a-paris_8210810.html"
+    }
+  ]
+}

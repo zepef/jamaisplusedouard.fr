@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-20-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-20T15:57:43Z",
+    "note": "Passe 20 oct 18h (fenêtre ~8h Paris → ~18h Paris 20/10, + rattrapage HuffPost 6h00). +9 pubs (med-2026-882…889 + x-2112503429591441641). Fil : (1) post X d'EP 13h17 : visite aux commerçants et habitants autour de la place de la République à Paris après les pillages du 17 octobre (pas encore de reprise presse) ; (2) agenda : invité des 4 Vérités (Télématin, France 2) mercredi 21/10 8h10 (communiqué FranceTvPro) ; Charleville-Mézières 21-22/10, réunion publique Metropolis, soutien Boris Ravignon (JDD) ; Rencontres de l'Avenir à Saint-Raphaël début novembre (TV83) ; (3) primaire : RTL 17h30, Lisnard relance, l'entourage de Retailleau juge EP « traumatisé de la primaire » ; (4) sondages : Cluster17/Le Point repris par La Dépêche (EP candidat unique droite-centre 20 %, à égalité avec Mélenchon), synthèse Corse-Matin ; (5) divers : Kernews (Pelleteur, maire de Pornichet : EP « ne peut pas gagner »), HuffPost (violences et candidats de l'héritage Macron). Non retenus : vidéos Orange Actualités re-datées (archives 2019 : service public, aides-soignantes, Becht, une année à Matignon, rumeur municipales Paris, Médine/Bataclan), L'Opinion 17h et 17h45 (EP seulement en liens annexes), JDD coulisses 17h49 (liens annexes), Le Point dette et Marcangeli (anti-bot), Le Parisien sondages 11h51/13h (bloqués), Le Monde tribunes 10h/15h (paywall), La Manche Libre (pas d'EP), iFrancja Retailleau (EP en liens), Sudinfo Drucker (déjà jugé), Libération re-daté. Proches inchangé (Ravignon déjà au fichier). À surveiller : 4 Vérités 21/10 8h10 ; Charleville 21-22/10 ; reprises presse de la visite place de la République ; réponse au débat TF1-LCI du 16/11 ; « acte II » samedi 24/10 ; suites Findeisen/PNF. 4 apparitions ; skips_no_slug X, FranceTvPro (France Télévisions), Corse-Matin, Kernews, TV83.",
+    "skips_no_slug": [
+      "X",
+      "FranceTvPro (France Télévisions)",
+      "Corse-Matin",
+      "Kernews",
+      "TV83"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "rtl",
+      "date": "2026-10-20",
+      "emission": "Un \"quart de finale\" : à six mois de l'élection présidentielle, la droite et le centre n'ont pas définitivement tranché la question d'une primaire",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "RTL 20/10 17h30 : David Lisnard, invité de RTL, réitère son appel à une primaire droite-centre ; EP, « en tête dans les sondages au sein du bloc central », refuse l'exercice ; entourage de Retailleau : « Une primaire sans lui n'aurait pas beaucoup de sens, à part organiser une primaire des petits candidats » et « Édouard Philippe est un traumatisé de la primaire » (référence à Juppé 2016) ; un proche de Retailleau propose « un arc partant d'Édouard Philippe et allant jusqu'à Bruno Retailleau ». Page ouverte.",
+      "url": "https://www.rtl.fr/actu/politique/un-quart-de-finale-a-six-mois-de-l-election-presidentielle-la-droite-et-le-centre-n-ont-pas-definitivement-tranche-la-question-d-une-primaire-7900687272"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-20",
+      "emission": "Présidentielle 2027 - sondage : Lisnard talonne Retailleau, Philippe au coude-à-coude... Quels scénarios en cas de candidature unique du centre et de la droite ?",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "La Dépêche 20/10 14h57 : sondage Cluster17 pour Le Point (1 263 personnes) ; candidat unique droite-centre : EP 20 %, à égalité avec Mélenchon, derrière Le Pen (35,5 %) — meilleure option du bloc ; Retailleau 17,5 %, Lisnard et Attal 17 % ; tous candidats : Le Pen 31 %, Mélenchon 18 %, EP 17 %, Glucksmann 11 %, Lisnard et Retailleau 7 %. Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/20/presidentielle-2027-sondage-lisnard-talonne-retailleau-philippe-au-coude-a-coude-quels-scenarios-en-cas-de-candidature-unique-du-centre-et-de-la-13611540.php"
+    },
+    {
+      "chaineSlug": "le-jdd",
+      "date": "2026-10-20",
+      "emission": "Gérald Darmanin à Marseille, procès de Sébastien Delogu... Les 4 infos dont vous allez entendre parler demain",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "JDD 20/10 17h39 (abonnés, partie lisible) : point 2 « Édouard Philippe se rend à Charleville-Mézières » mercredi et jeudi (Ardennes), réunion publique au cinéma Metropolis ; soutien du maire Boris Ravignon (carte Horizons au printemps, soutien officialisé le 30 août : « un homme d'une grande lucidité et courageux ») ; première visite officielle dans le département depuis 2018. Page ouverte.",
+      "url": "https://www.lejdd.fr/politique/gerald-darmanin-a-marseille-proces-de-sebastien-delogu-les-4-infos-dont-vous-allez-entendre-parler-demain-186552"
+    },
+    {
+      "chaineSlug": "huffpost",
+      "date": "2026-10-20",
+      "emission": "Comment les violences urbaines rejaillissent déjà sur l'élection présidentielle",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "HuffPost 20/10 6h00 (maj 13h15) : effets des violences du 17 octobre sur la campagne ; pour les candidats de l'héritage Macron (EP, Attal), « la partie risque d'être beaucoup plus corsée » vu le ressentiment contre le chef de l'État ; Mathieu Gallard (Ipsos) appelle à ne pas surinterpréter. Page ouverte.",
+      "url": "https://www.huffingtonpost.fr/politique/article/comment-les-violences-urbaines-rejaillissent-deja-sur-l-election-presidentielle_341923.html"
+    }
+  ]
+}

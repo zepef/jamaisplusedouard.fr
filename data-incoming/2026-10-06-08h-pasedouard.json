@@ -1,0 +1,78 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-06-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-06T05:59:23Z",
+    "note": "Vague JPE Livre 6 oct 08h. +13 pubs (med-2026-542…med-2026-554) — EP invité du 1er « L’Heure de vérité » (France 2, jeu. 8/10 20h40) ; Sénat : groupe Les Indépendants (Horizons) perd 5 à 7 sénateurs vers l’Union centriste (L’Opinion, AFP) ; Sommet de l’élevage : EP attendu vendredi 9/10 à Cournon (Figaro, CNews, Télégramme/AFP) ; Hollande/Spiegel débat à Sens ; Attal bistrots (L’Humanité) ; Borloo (Cabana). 6 apparitions ; 7 skips. X needsAuth. Pas de PR.",
+    "skips_no_slug": [
+      "Boursorama (AFP)",
+      "Le Télégramme",
+      "Parlons Politique",
+      "Courrier international",
+      "La Nouvelle République",
+      "Web-agri"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "france-info-tv",
+      "date": "2026-10-06",
+      "emission": "APPEL A TEMOIGNAGES. Posez vos questions à Edouard Philippe, invité de \"L'Heure de vérité\"",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "franceinfo 06/10 07h00. EP invité du premier numéro de « L’Heure de vérité » (Caroline Roux), jeudi 8 octobre à 20h40 sur France 2, avec Maryse Burgot, Neila Latrous, Benjamin Duhamel, Thomas Porcher, Eugénie Bastié ; appel aux questions du public. Page lue (WebFetch).",
+      "url": "https://www.franceinfo.fr/politique/edouard-philippe/appel-a-temoignages-posez-vos-questions-a-edouard-philippe-invite-de-l-heure-de-verite_8224003.html"
+    },
+    {
+      "chaineSlug": "l-opinion",
+      "date": "2026-10-05",
+      "emission": "Au Sénat, le groupe Horizons perd cinq membres",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "L’Opinion 05/10 18h37. Le groupe Les Indépendants (Horizons) perd cinq sénateurs au profit de l’Union centriste après la fronde de Louis Vogel contre Claude Malhuret (réélu) : Vogel, Alain Marc, Pierre Médevielle, Cyril Pellevat, Jean-Luc Brault. « Signal potentiellement inquiétant » pour l’assise d’EP. Page ouverte.",
+      "url": "https://www.lopinion.fr/politique/au-senat-le-groupe-horizons-perd-cinq-membres"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-05",
+      "emission": "En Auvergne, le grand défilé des présidentiables au Sommet de l'élevage",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Le Figaro 05/10 18h05. Sommet de l’élevage de Cournon : Le Pen, Zemmour, Dupont-Aignan, Ruffin, Bertrand attendus ; Roussel jeudi, EP vendredi, Attal sur la liste ; Macron incertain. Page ouverte.",
+      "url": "https://www.lefigaro.fr/politique/en-auvergne-le-grand-defile-des-presidentiables-au-sommet-de-l-elevage-20261005"
+    },
+    {
+      "chaineSlug": "cnews",
+      "date": "2026-10-06",
+      "emission": "Présidentielle 2027 : sept candidats attendus au Sommet de l’élevage, les agriculteurs en quête de réponses",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "CNews 06/10 07h32. Sept candidats attendus à Cournon ; Roussel jeudi « avant Edouard Philippe, présent vendredi », Attal jeudi ou vendredi. Page ouverte.",
+      "url": "https://www.cnews.fr/france/2026-10-06/presidentielle-2027-sept-candidats-attendus-au-sommet-de-lelevage-les"
+    },
+    {
+      "chaineSlug": "l-humanite",
+      "date": "2026-10-05",
+      "emission": "Opération 1 000 bistrots : quand Gabriel Attal paie sa tournée de campagne",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "L’Humanité 05/10 17h54. Attal, « décidé à doubler son rival Édouard Philippe » pour être le chef de file de la Macronie, fait campagne dans les bistrots. Page ouverte.",
+      "url": "https://www.humanite.fr/politique/gabriel-attal/operation-1-000-bistrots-quand-gabriel-attal-paie-sa-tournee-de-campagne"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-06",
+      "emission": "VRAI OU FAUX. Présidentielle 2027 : la France a-t-elle vraiment les enseignants \"les plus mal payés d’Europe\", comme le prétend Raphaël Glucksmann",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "La Dépêche 06/10 07h01, vérification. EP, Attal et Glucksmann veulent augmenter la rémunération des enseignants. Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/06/vrai-ou-faux-presidentielle-2027-la-france-a-t-elle-vraiment-les-enseignants-les-plus-mal-payes-deurope-comme-le-pretend-raphael-glucksmann-13584539.php"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-11-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-11T06:05:00Z",
+    "note": "Passe 11 oct 08h (fenêtre 10 oct 18h00 → 11 oct 08h05). +6 pubs (med-2026-659…med-2026-664) — BFMTV vidéo 10/10 20h49 : plan famille d'EP (350 € dès le 1er enfant, 3 000 € de réduction d'impôt, PTZ) ; baromètre Ipsos bva-CESI / La Tribune Dimanche (terrain 7-8 oct.) : EP 20 % de satisfaits s'il devenait président (+1), 54 % de mécontents (-3), 3e derrière Bardella 33 % et Le Pen 32 %, 72 % chez Renaissance-MoDem-Horizons ; rattrapage 10 oct. : La Dépêche « seuls le RN et LFI impriment », Orange/6Médias EP pas à l'Élysée, TV Mag « Empreintes » (EP futur invité du Figaro TV), CNews direct samedi. Aucune couverture trouvée à 8h du discours d'EP à la Licra (Le Havre, 10/10 18h30). Congrès du Parti radical à Dijon ce matin (EP, Attal, Borne annoncés à partir de 9h). X : 0 post EP depuis 10/10 17h55. Proches : inchangé. 4 apparitions ; 2 skips (Orange Actu, TV Magazine).",
+    "skips_no_slug": [
+      "Orange Actu (6Médias)",
+      "TV Magazine (Le Figaro)"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-10",
+      "emission": "Édouard Philippe veut verser 350 euros d’allocations dès le premier enfant",
+      "dureeMinutes": 4,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "BFMTV vidéo 10/10 20h49 (4 min) : propositions famille d'EP — allocation de 350 € dès le premier enfant, jusqu'à 3 000 € de réduction d'impôt pour les classes moyennes, prêt à taux zéro pour changer de logement. Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/video-edouard-philippe-veut-verser-350-euros-d-allocations-des-le-premier-enfant_VN-202610100360.html"
+    },
+    {
+      "chaineSlug": "la-tribune",
+      "date": "2026-10-10",
+      "emission": "Baromètre politique Ipsos bva-CESI École d'ingénieurs pour La Tribune Dimanche – Octobre 2026",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Rapport PDF Ipsos bva-CESI pour La Tribune Dimanche n°158 (terrain 7-8 oct., 1 000 pers.), article LTD « Macron au plus bas, Bardella et Le Pen accusent une baisse » (Jules Pecnard, 10/10 20h00). Question « satisfait s'il/elle devenait président(e) en 2027 » : EP 20 % satisfaits (19 % en sept.), 54 % mécontents (57 %), 3e derrière Bardella (33 %) et Le Pen (32 %) ; 72 % chez les sympathisants Renaissance-MoDem-Horizons (67 %), 32 % LR-UDI (34 %), 6 % RN. Macron à 15 % d'opinions favorables. PDF ouvert.",
+      "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/Ipsos-bva-CESI-La-Tribune-Dimanche-Barometre-Politique-octobre-2026-web.pdf"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-10",
+      "emission": "DÉCRYPTAGE. Présidentielle 2027 : \"C’est vrai que seuls le RN et LFI impriment\", pourquoi les candidats modérés peinent à capter l'attention",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "La Dépêche 10/10 11h57 : « il ne restera finalement rien ou presque » de L'Heure de vérité d'EP ; « il ne reste de lui qu'une image ou presque : celle d'un candidat servant des frites » ; équipes EP et Attal : « seuls le RN et LFI impriment » ; analyse de Thierry Saussez. Rattrapage 10 oct. Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/10/decryptage-presidentielle-2027-cest-vrai-que-seuls-le-rn-et-lfi-impriment-pourquoi-les-candidats-moderes-peinent-a-capter-lattention-13593494.php"
+    },
+    {
+      "chaineSlug": "cnews",
+      "date": "2026-10-10",
+      "emission": "En direct - Présidentielle 2027 : meeting de Gabriel Attal, discours d'Édouard Philippe et votes du 1er tour de la primaire de la gauche... Un programme chargé ce samedi",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Direct CNews 10/10 8h59 : programme du samedi — meeting Attal à Lyon, prise de parole d'EP (discours aux universités d'automne de la Licra au Havre, 18h30), vote de la primaire socialiste. Métadonnées issues de l'index de recherche (titre, date, chapô). Rattrapage 10 oct.",
+      "url": "https://www.cnews.fr/france/2026-10-10/presidentielle-2027-meeting-de-gabriel-attal-discours-dedouard-philippe-et-votes"
+    }
+  ]
+}

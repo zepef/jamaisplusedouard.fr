@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-17-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-17T16:01:38Z",
+    "note": "Passe 17 oct 18h (fenêtre ~8h Paris → ~18h Paris 17/10, + rattrapages 15-16/10). +8 pubs (med-2026-773…779 + x-2111486313891336202). Fil : (1) post X d’EP 17h55 sur la mobilisation du 17 octobre : fermeté face aux casseurs, « plein soutien à nos policiers » ; (2) Le JDD 15h50 reportage réunion d’appartement École (« Brûler des poubelles, ce n’est pas mon truc », Sarah’s Law) ; (3) agenda : EP à Charleville-Mézières 21-22/10, réunion publique Metropolis 21/10 18h30 (L’Ardennais, L’info des Ardennes), soutien Boris Ravignon ; RTL Les Aspirants : Retailleau vise les « anciens Premiers ministres de Macron ». Rattrapages : RTL/AFP rythmes scolaires 16/10, Libération 16/10 camp Philippe face à Findeisen (métadonnées), C dans l’air 15/10. Non retenus : Le Parisien 17h30 réactions classe politique au 17 octobre (pas d’EP), Les Echos DIRECT 17 octobre et LCP (pas d’EP vérifié), elections2027.com (agrégateur IA), ÉlyséeScope (non daté), Tendance Ouest flash 17/10 (pas de contenu). Proches inchangé (Ravignon déjà présent). À surveiller : reprises presse du post X d’EP sur les violences ; déplacement Ardennes 21-22/10 ; réponse au débat proposé par Retailleau ; suites Findeisen/PNF. 3 apparitions ; skips_no_slug L'Ardennais, L'info des Ardennes, Le JDD, Libération, X.",
+    "skips_no_slug": [
+      "L'Ardennais",
+      "L'info des Ardennes",
+      "Le JDD",
+      "Libération",
+      "X"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "rtl",
+      "date": "2026-10-16",
+      "emission": "\"Une question assez explosive\" : Édouard Philippe prône des vacances plus courtes et un apprentissage concentré le matin pour réformer les rythmes scolaires",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "RTL/AFP 16/10 7h02 (rattrapage) : à la réunion d’appartements connectée du 15/10 (~5 000 participants selon Horizons), EP prône des cours concentrés le matin et de limiter les vacances de Toussaint et de Pâques (« une question assez explosive », il s’en dit « très partisan ») ; sur Parcoursup, « les professeurs ne sont pas les mieux placés pour aider à l’orientation ». Page ouverte.",
+      "url": "https://www.rtl.fr/actu/politique/une-question-assez-explosive-edouard-philippe-prone-des-vacances-plus-courtes-et-un-apprentissage-concentre-le-matin-pour-reformer-les-rythmes-scolaires-7900685779"
+    },
+    {
+      "chaineSlug": "france-5",
+      "date": "2026-10-15",
+      "emission": "Philippe, Attal, Retailleau, Lisnard... Il n'en restera qu'un ? - C dans l'air",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "C dans l’air du 15/10 (rattrapage, 1h03) : le bloc central à la peine ; sondage Ifop cité Le Pen 32 %, Mélenchon 16 %, EP 13 %, Glucksmann 11,5 % ; idée de primaire du centre et de la droite ; Lisnard à 6 %. Invités Jérôme Jaffré, Vanessa Schneider, Nathalie Mauret, Carl Meeus. Page ouverte.",
+      "url": "https://www.france.tv/france-5/c-dans-l-air/8975491-philippe-attal-retailleau-lisnard-il-n-en-restera-qu-un-l-integrale.html"
+    },
+    {
+      "chaineSlug": "rtl",
+      "date": "2026-10-17",
+      "emission": "\"Sinon, Chirac aurait été battu\" : sur RTL, Bruno Retailleau balaie les sondages et promet d'aller \"jusqu'au bout\" en 2027",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "RTL 17/10 7h00, podcast « Les Aspirants » : Retailleau (7 à 10 % chez Toluna Harris Interactive RTL/M6, « la présence ou non d’Édouard Philippe sur la ligne de départ ayant un impact significatif ») promet d’aller « au bout » et vise EP et Attal : « les anciens Premiers ministres d’Emmanuel Macron vont être tenus comme coresponsables du bilan désastreux du président ». Page ouverte.",
+      "url": "https://www.rtl.fr/actu/politique/sinon-chirac-aurait-ete-battu-sur-rtl-bruno-retailleau-balaie-les-sondages-et-promet-d-aller-jusqu-au-bout-en-2027-7900685900"
+    }
+  ]
+}

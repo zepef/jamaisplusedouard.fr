@@ -1,0 +1,84 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-18-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-18T06:05:00Z",
+    "note": "Passe 18 oct 8h (fenêtre ~18h Paris 17/10 → ~8h Paris 18/10). +9 pubs (med-2026-780…788). Fil : (1) reprises du post X d’EP sur les violences du 17 octobre (CNews, LCP 19h24, Le Parisien, Le Monde) : « tous pourchassés et punis avec une grande sévérité » ; (2) sondage Elabe BFMTV/La Tribune Dimanche 17/10 22h : EP 15,5–16,5 %, au coude-à-coude avec Glucksmann et Mélenchon derrière Le Pen, Attal 9,5–10,5 % (BFMTV, LTD, Le Dauphiné/AFP) ; (3) six mois du 1er tour : RTL 18/10 7h01 (« EP ralenti, Attal décroche ») et Sud Ouest 18/10 7h00 « Philippe-Attal, le retour du fatal Chirac-Giscard ? » (ralliement souhaité en décembre côté Horizons). Non retenus : Focus-news (agrégateur non signé, reprises), CNews Darmanin (pas d’EP), Le Figaro récits 17/10 (pas d’EP vérifié). 0 post X depuis 17h55. Proches inchangé. À surveiller : déplacement Ardennes 21-22/10 ; réponse au débat proposé par Retailleau ; suites Findeisen/PNF. 7 apparitions ; skips_no_slug Le Dauphiné Libéré, Sud Ouest.",
+    "skips_no_slug": [
+      "Le Dauphiné Libéré",
+      "Sud Ouest"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "cnews",
+      "date": "2026-10-17",
+      "emission": "Mobilisation du 17 octobre : violence d’une extrême intensité, soutien aux forces de l’ordre… La classe politique réagit au chaos",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "CNews 17/10 : tour des réactions politiques aux violences du 17 octobre ; « tout comme Marine Le Pen », EP fustige « des scènes de chaos insupportables partout dans le pays » ; post X cité en entier : « Les auteurs des violences doivent être tous pourchassés et punis avec une grande sévérité. L’absence de fermeté dans la réponse pénale ne fera qu’alimenter la colère des millions de Français qui exigent légitimement l’ordre dans le pays. » Page ouverte.",
+      "url": "https://www.cnews.fr/france/2026-10-17/mobilisation-du-17-octobre-violence-dune-extreme-intensite-soutien-aux-forces-de"
+    },
+    {
+      "chaineSlug": "lcp",
+      "date": "2026-10-17",
+      "emission": "Manifestations du 17 octobre: soutien aux policiers ou critiques du maintien de l’ordre, les responsables politiques se divisent",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "LCP 17/10 19h24 (maj 19h39) : journée contre la vie chère (~800 000 manifestants selon les organisateurs), dégradations (mairies de Marseille et Lille, résidence de la préfète de Gironde) ; Lecornu promet la fermeté ; EP réclame que les auteurs des violences soient « tous pourchassés et punis avec une grande sévérité », aux côtés d’Attal (« provocation envers l’autorité de l’État ») et Retailleau (« force implacable de l’État »). Page ouverte.",
+      "url": "https://lcp.fr/actualites/manifestations-du-17-octobre-soutien-aux-policiers-ou-critiques-du-maintien-de-l-ordre"
+    },
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-17",
+      "emission": "« Prise d’otage par l’extrême gauche », critiques du maintien de l’ordre : les réactions de la classe politique à la mobilisation du 17 octobre",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Le Parisien 17/10 (version mise à jour ; écartée à la passe 18h faute de mention d’EP) : intertitre « Scènes de chaos insupportables » ; EP sur X : « La République doit répondre avec la plus grande fermeté aux casseurs qui l’offensent » ; la droite dénonce les violences, la gauche (Tondelier, Faure, Mélenchon) fustige le maintien de l’ordre ; Glucksmann appelle à « un grand sursaut républicain ». Page bloquée (403), extrait de l’index de recherche.",
+      "url": "https://www.leparisien.fr/societe/fascisme-rouge-desordre-organise-par-le-prefet-de-paris-les-reactions-de-la-classe-politique-a-la-mobilisation-du-17-octobre-17-10-2026-EKT4SYRCZJGQDOMGKSF7HBJQBU.php"
+    },
+    {
+      "chaineSlug": "le-monde",
+      "date": "2026-10-17",
+      "emission": "Mobilisation du 17 octobre : Emmanuel Macron dénonce les « semeurs de chaos qui ne cherchent qu’à abattre nos institutions », après des scènes de saccage dans plusieurs villes",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Le Monde 17/10 : Macron dénonce les « semeurs de chaos » ; Nuñez fait état de 550 000 manifestants (dont 110 000 à Paris) ; « La République doit répondre avec la plus grande fermeté aux casseurs qui l’offensent », a réagi sur X le candidat Horizons EP, tandis qu’Attal dénonce « une provocation contre l’autorité de l’Etat » et Retailleau réclame la prison. Page payante (402), extrait de l’index de recherche.",
+      "url": "https://www.lemonde.fr/politique/article/2026/10/17/mobilisation-du-17-octobre-emmanuel-macron-denonce-les-semeurs-de-chaos-qui-ne-cherchent-qu-a-abattre-nos-institutions-apres-des-scenes-de-saccage-dans-plusieurs-villes_6796686_823448.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-17",
+      "emission": "SONDAGE BFMTV. Présidentielle 2027: Édouard Philippe, Raphaël Glucksmann et Jean-Luc Mélenchon donnés au coude-à-coude derrière Marine Le Pen",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "BFMTV 17/10 22h00 : sondage Elabe BFMTV/La Tribune Dimanche à six mois du 1er tour ; Le Pen largement en tête ; « match à trois » pour le 2nd tour ; EP crédité de 15,5 % à 16,5 % dans les hypothèses où il est le seul candidat du bloc central. Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/sondage-bfmtv-presidentielle-2027-edouard-philippe-raphael-glucksmann-et-jean-luc-melenchon-donnes-au-coude-a-coude-derriere-marine-le-pen_AN-202610170298.html"
+    },
+    {
+      "chaineSlug": "la-tribune",
+      "date": "2026-10-17",
+      "emission": "Mélenchon, Glucksmann et Philippe au coude-à-coude pour la deuxième place, loin derrière Marine Le Pen",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "La Tribune Dimanche n°159 (18/10), en ligne 17/10 22h01 : sondage Elabe LTD/BFMTV ; bataille « très ouverte » pour la 2ᵉ place entre Glucksmann (15–16,5 %, en nette progression après la primaire PS), Mélenchon et EP ; analyse de Bernard Sananès (Elabe). Article abonnés, chapô ouvert.",
+      "url": "https://www.latribune.fr/article/la-tribune-dimanche/politique/3229827554354714/melenchon-glucksmann-et-philippe-au-coude-a-coude-pour-la-deuxieme-place-loin-derriere-marine-le-pen"
+    },
+    {
+      "chaineSlug": "rtl",
+      "date": "2026-10-18",
+      "emission": "Présidentielle 2027 : que disent les sondages à six mois jour pour jour du premier tour ?",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "RTL 18/10 7h01 : à six mois du 1er tour (18 avril) ; Le Pen 35–36 % ; Mélenchon qualifié selon Toluna Harris Interactive (16–18 %) ; « Édouard Philippe ralenti, Gabriel Attal décroche » : EP 16–18 %, Attal 10–11 % ; Odoxa-Backbone/Public Sénat : 38 % jugent EP bon candidat vs 30 % Attal ; un cadre RN : « Édouard Philippe sera dévitalisé, je ne le vois pas aller jusqu’au bout ». Extrait de l’index de recherche.",
+      "url": "https://www.rtl.fr/actu/politique/presidentielle-2027-que-disent-les-sondages-a-six-mois-jour-pour-jour-du-premier-tour-7900685944"
+    }
+  ]
+}

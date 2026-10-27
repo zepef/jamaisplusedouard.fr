@@ -1,0 +1,53 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-04-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-04T06:00:00Z",
+    "note": "Vague JPE Livre 4 oct 08h. +5 pubs — Attal coalition/primaire (Parisien + AFP RTL/Figaro/Monde) ; Sud Ouest analyse EP (skip no-slug). X needsAuth (pas de connecteur). Pas de PR.",
+    "skips_no_slug": [
+      "Sud Ouest"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-03",
+      "emission": "Gabriel Attal : « Il faut une coalition qui aille des électeurs de Raphaël Glucksmann à ceux de la droite républicaine »",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Le Parisien 03/10 19h00. Entretien Attal : ni EP ni lui ne peuvent gagner seuls le bloc central ; appelle à une « grande coalition » Glucksmann→droite républicaine et n’exclut pas une primaire. Page ouverte.",
+      "url": "https://www.leparisien.fr/elections/presidentielle/gabriel-attal-il-faut-une-coalition-qui-aille-des-electeurs-de-raphael-glucksmann-a-ceux-de-la-droite-republicaine-03-10-2026-7A4AQ6UWBZAVZPFZJHDLQ2DM3A.php"
+    },
+    {
+      "chaineSlug": "rtl",
+      "date": "2026-10-03",
+      "emission": "Présidentielle 2027 : Gabriel Attal plaide pour \"une grande coalition\" allant de la gauche sociale-démocrate à la droite républicaine",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "RTL 03/10 22h01 (AFP). Reprise entretien Attal/Parisien : grande coalition + primaire possible ; note qu’EP continue de le devancer dans les sondages. Page ouverte.",
+      "url": "https://www.rtl.fr/actu/politique/presidentielle-2027-gabriel-attal-plaide-pour-une-grande-coalition-allant-de-la-gauche-sociale-democrate-a-la-droite-republicaine-7900680517"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-03",
+      "emission": "Présidentielle 2027 : Gabriel Attal plaide pour un candidat unique rassemblant gauche social-démocrate et droite républicaine",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Le Figaro 03/10 22h06 (AFP). Attal plaide pour grande coalition / primaire ; EP « continue à le devancer » dans les enquêtes d’opinion. Page ouverte.",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/candidats/presidentielle-2027-gabriel-attal-plaide-pour-un-candidat-unique-rassemblant-gauche-social-democrate-et-droite-republicaine-20261003"
+    },
+    {
+      "chaineSlug": "le-monde",
+      "date": "2026-10-03",
+      "emission": "Présidentielle 2027 : Gabriel Attal propose une « grande coalition » de la gauche à la droite pour battre Marine Le Pen",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Le Monde 03/10 22h19 (màj 04/10 07h12, AFP). Attal : grande coalition gauche→droite + primaire possible ; EP continue de le devancer selon les sondages. Page ouverte.",
+      "url": "https://www.lemonde.fr/election-presidentielle-2027/article/2026/10/03/presidentielle-2027-gabriel-attal-propose-une-grande-coalition-de-la-gauche-a-la-droite-pour-battre-marine-le-pen_6787893_6205049.html"
+    }
+  ]
+}

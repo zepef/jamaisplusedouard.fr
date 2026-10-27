@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (exports/temps-reel-2026-10-24-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-27T08:54:17Z",
+    "note": "Passe 2026-10-24-18h dérivée du ledger (mêmes règles que les data-incoming PasEdouard : outlet -> slug de la liste fermée, emission = titre, resume = résumé du ledger, dureeMinutes 0, tonalité neutre ; sans slug = skip). 6 pubs au ledger pour cette passe.",
+    "skips_no_slug": [
+      "Ipsos",
+      "21News",
+      "Le Canard enchaîné",
+      "Le Dauphiné Libéré"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-24",
+      "emission": "Présidentielle : Mélenchon et Le Pen au second tour, Philippe et Attal dévissent… Les leçons de notre sondage post-17 octobre",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Analyse du sondage Ipsos bva-CESI pour Le Parisien après le 17 octobre : Mélenchon et Le Pen au second tour, EP et Attal en recul. Page bloquée au curl ; titre, date et URL issus des métadonnées Google News (fiables).",
+      "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-melenchon-et-le-pen-au-second-tour-philippe-et-attal-devissent-les-lecons-de-notre-sondage-post-17-octobre-24-10-2026-LYN2KP57QBBW3LILMLVLHS5DQU.php"
+    },
+    {
+      "chaineSlug": "cnews",
+      "date": "2026-10-24",
+      "emission": "Un acte «odieux», une réponse «implacable»... La classe politique s'émeut après la fusillade à Trappes",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Tour des réactions politiques après la fusillade de Trappes et La Verrière (un mort, cinq blessés) : EP, « maire du Havre et candidat Horizons », fait part de sa sidération ; Attal appelle à une réponse « implacable » ; Hollande dénonce un « acte odieux » ; Faure, Mélenchon cités. Page ouverte.",
+      "url": "https://www.cnews.fr/france/2026-10-24/un-acte-odieux-une-reponse-implacable-la-classe-politique-semeut-apres-la"
+    }
+  ]
+}

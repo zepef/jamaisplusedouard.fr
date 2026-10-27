@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-01-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-01T16:00:00Z",
+    "note": "Vague JPE Livre 1er oct 18h. +6 pubs — matinale TF1 retraites + alerte dette/budget (BFMTV, Le Monde, CNews) + Europe 1 Bardella ; skip Capital. X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": [
+      "Capital"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "tf1-info",
+      "date": "2026-10-01",
+      "emission": "\"Il faut sauver notre système\" : sur TF1, Édouard Philippe défend sa réforme des retraites avec un départ à 65 ans",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "TF1 Info 01/10 08h29. Bonjour ! Matinale : EP défend 65/45 + capitalisation. Page ouverte.",
+      "url": "https://www.tf1info.fr/politique/election-presidentielle-2027-il-faut-sauver-notre-systeme-sur-tf1-edouard-philippe-defend-sa-reforme-des-retraites-avec-un-depart-a-65-ans-2467353.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-01",
+      "emission": "Édouard Philippe redoute \"l'étranglement\" de la dette ou un \"choc extérieur\" qui conduirait à \"une crise financière\"",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "BFMTV 01/10 08h56 (AFP). Alerte dette / choc extérieur ; critique budget. Page ouverte.",
+      "url": "https://www.bfmtv.com/economie/economie-social/finances-publiques/edouard-philippe-redoute-l-etranglement-de-la-dette-ou-un-choc-exterieur-qui-conduirait-a-une-crise-financiere_AD-202610010243.html"
+    },
+    {
+      "chaineSlug": "le-monde",
+      "date": "2026-10-01",
+      "emission": "Budget 2027 : Edouard Philippe dit craindre « l’étranglement » de la dette alors que le gouvernement présente sa copie jeudi",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Monde 01/10 08h59 (AFP). EP (LCI) craint étranglement dette + crise financière. Page ouverte.",
+      "url": "https://www.lemonde.fr/politique/article/2026/10/01/budget-2027-edouard-philippe-dit-craindre-l-etranglement-de-la-dette-alors-que-le-gouvernement-presente-sa-copie-jeudi_6786459_823448.html"
+    },
+    {
+      "chaineSlug": "cnews",
+      "date": "2026-10-01",
+      "emission": "Présidentielle 2027 : «Il faut travailler plus longtemps» pour sauver le système de retraite, estime Édouard Philippe",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "CNews 01/10 09h04. Relais TF1 : travailler plus longtemps + capitalisation. Page ouverte.",
+      "url": "https://www.cnews.fr/france/2026-10-01/presidentielle-2027-il-faut-travailler-plus-longtemps-pour-sauver-le-systeme-de"
+    },
+    {
+      "chaineSlug": "europe-1",
+      "date": "2026-10-01",
+      "emission": "Propos attribués à Jordan Bardella : Édouard Philippe refuse de commenter l'affaire sans preuves",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Europe 1 01/10 14h24 (Chauveau). EP ne commente pas Bardella/Mediapart sans preuves ; tacle Macron à l’étranger. Page ouverte.",
+      "url": "https://www.europe1.fr/politique/propos-attribues-a-jordan-bardella-edouard-philippe-refuse-de-commenter-laffaire-sans-preuves-1116086"
+    }
+  ]
+}

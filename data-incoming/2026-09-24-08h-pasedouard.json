@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-24-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-24T06:15:00Z",
+    "note": "Vague JPE Livre 24 sept 08h. 3 pubs post-last_run 23/09 18h ; 0 poussée (tous no-slug). Fil : Capital Morançais vs EP carburants ; Tribune Chrétienne messe Léon XIV ; Playbook Paris RTL/Cluster17/Morançais. X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": [
+      "Capital",
+      "Tribune Chrétienne",
+      "Politico Europe"
+    ]
+  },
+  "apparitions": []
+}

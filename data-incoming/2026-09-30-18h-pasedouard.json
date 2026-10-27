@@ -1,0 +1,64 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-30-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-30T15:55:00Z",
+    "note": "Vague JPE Livre 30 sept 18h. +7 pubs — suite fil réforme retraites EP (JT franceinfo, Europe 1, BFMTV, RMC, Challenges, L'Humanité, JDN). X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": [
+      "Journal du Net",
+      "Challenges"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "france-info-tv",
+      "date": "2026-09-30",
+      "emission": "Edouard Philippe souhaite repousser l'âge de départ à la retraite à 65 ans",
+      "dureeMinutes": 1,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "franceinfo / JT France 2 30/09 08:55. Brève vidéo : EP 65 ans / 45 annuités ; Binet (CGT) s'insurge ; comparatif Attal/Mélenchon/Le Pen. Page ouverte.",
+      "url": "https://www.franceinfo.fr/politique/edouard-philippe/edouard-philippe-souhaite-repousser-l-age-de-depart-a-la-retraite-a-65-ans_8215868.html"
+    },
+    {
+      "chaineSlug": "europe-1",
+      "date": "2026-09-30",
+      "emission": "Avec la retraite à 65 ans, Edouard Philippe s'aligne sur son concurrent Bruno Retailleau",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Europe 1 30/09 09h37 (Chauveau). EP 65 ans + capitalisation aligné Retailleau ; 1/3 avant 60-64. Page ouverte.",
+      "url": "https://www.europe1.fr/politique/avec-la-retraite-a-65-ans-edouard-philippe-saligne-sur-son-concurrent-bruno-retailleau-1112990"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-09-30",
+      "emission": "Édouard Philippe secoue le débat sur les retraites",
+      "dureeMinutes": 1,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "BFMTV 30/09 12h17. Vidéo ~1m20 : EP propose 65 ans / 45 annuités, assume impopularité. Page ouverte.",
+      "url": "https://www.bfmtv.com/economie/video-edouard-philippe-secoue-le-debat-sur-les-retraites_VN-202609300433.html"
+    },
+    {
+      "chaineSlug": "rmc",
+      "date": "2026-09-30",
+      "emission": "“Je n’ai pas assez pour mettre de côté\": Edouard Philippe propose une part de retraite par capitalisation et divise les travailleurs",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "RMC 30/09 12h56. Focus capitalisation EP (collectif + PER 500 €) ; micro-trottoir travailleurs. Page ouverte.",
+      "url": "https://rmc.bfmtv.com/actualites/politique/je-n-ai-pas-assez-pour-mettre-de-cote-edouard-philippe-propose-une-part-de-retraite-par-capitalisation-et-divise-les-travailleurs_AV-202609300454.html"
+    },
+    {
+      "chaineSlug": "l-humanite",
+      "date": "2026-09-30",
+      "emission": "Retraites : Édouard Philippe veut ressusciter la réforme Borne… en pire",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "critique",
+      "resume": "L'Humanité 30/09. Critique reprise réforme Borne puis 65/45 + capitalisation ; âge effectif ~68 ans selon éditorial. Page ouverte.",
+      "url": "https://www.humanite.fr/politique/reforme-des-retraites/retraites-edouard-philippe-veut-ressusciter-la-reforme-borne-en-pire"
+    }
+  ]
+}
