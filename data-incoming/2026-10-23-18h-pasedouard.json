@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (exports/temps-reel-2026-10-23-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-27T08:54:17Z",
+    "note": "Passe 2026-10-23-18h dérivée du ledger (mêmes règles que les data-incoming PasEdouard : outlet -> slug de la liste fermée, emission = titre, resume = résumé du ledger, dureeMinutes 0, tonalité neutre ; sans slug = skip). 11 pubs au ledger pour cette passe.",
+    "skips_no_slug": [
+      "X",
+      "Actu.fr",
+      "Gala",
+      "Le Moniteur de Seine-et-Marne (mesinfos)",
+      "Juste Milieu",
+      "21News"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-23",
+      "emission": "\"Horreur\", \"le racisme tue\", \"violence terrifiante\": les réactions de la classe politique après la fusillade à Trappes",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Tour des réactions après la fusillade de Trappes : EP et Retailleau saluent « la réactivité » des forces de l'ordre ; EP : « l'horreur a frappé », « L’enquête devra dire les motivations de l’auteur de cet acte ignoble », rejoint par Marine Le Pen. Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/horreur-le-racisme-tue-violence-terrifiante-les-reactions-de-la-classe-politique-apres-la-fusillade-a-trappes_AN-202610230613.html"
+    },
+    {
+      "chaineSlug": "rtl",
+      "date": "2026-10-23",
+      "emission": "SONDAGE RTL - Présidentielle 2027 : Le Pen, Mélenchon, Philippe... Les violences du 17 octobre n'ont pas rebattu les cartes",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Sondage Toluna-Harris Interactive M6/RTL (19-21/10, 2 094 inscrits) : Le Pen 33-35 % ; Mélenchon qualifié partout ; candidat unique EP 16 % (-1) contre Mélenchon 17 % ; EP et Attal candidats : EP 13 % (stable), Glucksmann 12 %, Attal 5 %. Page ouverte.",
+      "url": "https://www.rtl.fr/actu/politique/sondage-rtl-presidentielle-2027-le-pen-melenchon-philippe-les-violences-du-17-octobre-n-ont-pas-rebattu-les-cartes-7900688275"
+    },
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-23",
+      "emission": "Présidentielle 2027 : Marine Le Pen battrait très facilement Jean-Luc Mélenchon au second tour, selon un nouveau sondage",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Sondage Harris Interactive M6/RTL : EP 13-16 % au 1er tour, « s'essouffle légèrement » (jusqu'à -1) ; Le Pen battrait EP 57-43 ; seuls 6 % des électeurs d'EP feraient barrage à Le Pen face à Mélenchon ; Lisnard 7-8 % devant Retailleau. Métadonnées et texte via recherche web (page anti-bot).",
+      "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-marine-le-pen-battrait-tres-facilement-jean-luc-melenchon-au-second-tour-selon-un-nouveau-sondage-23-10-2026-JCPITSD2VNAC7HHUGJ2TBLARZ4.php"
+    },
+    {
+      "chaineSlug": "le-point",
+      "date": "2026-10-22",
+      "emission": "Jean-Yves Dormagen : « Les 7 % de Lisnard sont un signal assez inquiétant » pour Retailleau et Philippe",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Entretien Cluster17/Le Point : « à part Édouard Philippe, personne aujourd'hui dans cet espace n'est beaucoup plus fort que David Lisnard » ; un quart des électeurs d'EP se reporteraient sur Glucksmann sans lui ; Mélenchon et EP « approchent tous deux les 20 % ». Rattrapage (non retenu à 8h faute d'URL).",
+      "url": "https://www.lepoint.fr/politique/presidentielle-2027-david-lisnard-peut-il-depasser-bruno-retailleau-et-edouard-philippe-HSH6YA7HYVDJVAEEGIZDKERNBM/"
+    }
+  ]
+}

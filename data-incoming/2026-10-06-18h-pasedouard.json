@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-06-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-06T16:06:55Z",
+    "note": "Vague JPE Livre 6 oct 18h. +15 pubs (med-2026-555…med-2026-569) — EP réplique au contre-budget RN de Marine Le Pen (La Dépêche « sacré problème avec les chiffres », Midi Libre « désinvolture spectaculaire ») ; « L’Heure de vérité » France 2 jeu. 8/10 (franceinfo, Entrevue, Parlons Politique, Toutelatele) ; Barthès raille « Route nationale » (TV Magazine) ; Sommet de l’élevage EP vendredi (Le Parisien, ICI, Actu.fr, Clermont Infos) ; désinformation russe ciblant EP/Attal (Sud Ouest/AFP, NewsGuard) ; lycéens (L’Opinion) ; seniors (Planet) ; Hollande/Spiegel (IsraelValley). X needsAuth. Pas de PR.",
+    "skips_no_slug": [
+      "Midi Libre",
+      "Entrevue",
+      "Parlons Politique",
+      "Toutelatele",
+      "TV Magazine",
+      "Clermont Infos 63",
+      "ICI (France Bleu)",
+      "Actu.fr",
+      "Sud Ouest",
+      "Planet.fr",
+      "IsraelValley"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-06",
+      "emission": "Présidentielle 2027 : \"Madame Le Pen, vous avez un sacré problème avec les chiffres\"… Édouard Philippe attaque le programme économique de la candidate du RN",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "La Dépêche 06/10 16h20. Après la présentation du contre-budget RN (« effort radical », coupes massives), EP réplique à Marine Le Pen (« vous avez un sacré problème avec les chiffres ») ; Le Pen avait visé sur X « la situation que vont nous léguer Emmanuel Macron, Édouard Philippe et Gabriel Attal ». Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/06/presidentielle-2027-madame-le-pen-vous-avez-un-sacre-probleme-avec-les-chiffres-edouard-philippe-attaque-le-programme-economique-de-la-candidate-du-rn-13587221.php"
+    },
+    {
+      "chaineSlug": "france-info-tv",
+      "date": "2026-10-06",
+      "emission": "\"L’Heure de vérité\". Avec Édouard Philippe",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "franceinfo/France 2 06/10 09h30. Page de l’émission : EP premier invité de « L’Heure de vérité » (Caroline Roux), jeudi 8 octobre 20h40 sur France 2 ; thèmes retraites, pouvoir d’achat, dette, Ukraine/Moyen-Orient, IA ; intervieweurs Burgot, Latrous, Duhamel, Porcher, Bastié. Page lue (WebFetch).",
+      "url": "https://www.franceinfo.fr/replay-magazine/france-2/l-heure-de-verite/l-heure-de-verite-avec-edouard-philippe_8205563.html"
+    },
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-06",
+      "emission": "« Le décalage est énorme entre ce qu’ils disent et ce qui se fait après » : les candidats à la présidentielle 2027 se bousculent au Sommet de l’élevage",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Le Parisien 06/10 09h39. Défilé des candidats au Sommet de l’élevage (Cournon) : Le Pen, Zemmour, Dupont-Aignan, Bertrand mercredi, Roussel jeudi, EP vendredi ; Attal non confirmé. Page lue (WebFetch).",
+      "url": "https://www.leparisien.fr/puy-de-dome-63/le-decalage-est-enorme-entre-ce-quils-disent-et-ce-qui-se-fait-apres-les-candidats-a-la-presidentielle-2027-se-bousculent-au-sommet-de-lelevage-dans-le-puy-de-dome-06-10-2026-VQLE4XTQNNDBJLI4H7S7VFDWN4.php"
+    },
+    {
+      "chaineSlug": "l-opinion",
+      "date": "2026-10-06",
+      "emission": "Blocus des lycéens : la droite cherche toujours le mode d’emploi",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "L’Opinion 06/10 17h34. Mouvement lycéen : Retailleau sur le terrain sécuritaire, EP ironise sur les revendications des lycéens, Attal multiplie les échanges avec la jeunesse ; Lecornu change de ton. Page ouverte.",
+      "url": "https://www.lopinion.fr/politique/blocus-des-lyceens-la-droite-cherche-toujours-le-mode-demploi"
+    }
+  ]
+}

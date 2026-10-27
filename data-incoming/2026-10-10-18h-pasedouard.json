@@ -1,0 +1,93 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-10-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-10T16:00:00Z",
+    "note": "Passe 10 oct 18h (fenêtre 10 oct 07h55 → 18h00). +9 pubs (med-2026-651…med-2026-658 + 1 post X x-2108838950848672234) — meeting Attal à Lyon : Les Echos (« Edouard Philippe a pris l'avantage sur Gabriel Attal mais il n'a pas tué le match », un sondeur), franceinfo direct (Attal « nettement distancé » ; militante : « Edouard Philippe a viré à droite »), CNews direct ; LCP : LFI ira « confronter Edouard Philippe dans sa mairie » du Havre le 5 déc. ; CNews agenda : discours d'EP aux universités d'automne de la Licra au Havre samedi 18h30 (non couvert à l'heure de la passe) ; 20 Minutes récap sondages (Ifop 15 %, Harris 13 %, OpinionWay 15 % ; Le Pen 57-43 face à EP chez Harris) ; LCI La Matinale + TF1 Info : EP ne logera pas à l'Élysée ; post X EP Stellantis (10h36). Proches : inchangé. 8 apparitions ; 1 skip (X).",
+    "skips_no_slug": [
+      "X"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "cnews",
+      "date": "2026-10-10",
+      "emission": "Présidentielle 2027 : Edouard Philippe, Jean-Luc Mélenchon, Gabriel Attal... Quels sont les grands rendez-vous du week-end ?",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "CNews 10/10 6h17 (maj 9h05) : agenda du week-end ; EP prononce samedi à 18h30, en qualité de maire, un discours aux universités d'automne de la Licra au Havre (9-11 oct.) aux côtés de Mario Stasi ; meeting Attal à Lyon, primaire socialiste, Mélenchon à Clermont dimanche. Rattrapage 10 oct. matin. Page ouverte.",
+      "url": "https://www.cnews.fr/france/2026-10-10/presidentielle-2027-edouard-philippe-jean-luc-melenchon-gabriel-attal-quels-sont"
+    },
+    {
+      "chaineSlug": "cnews",
+      "date": "2026-10-10",
+      "emission": "En direct - Présidentielle 2027 : «Il faut arrêter d'utiliser la carte bancaire des générations à venir pour payer les dettes des générations passées», martèle Gabriel Attal à Lyon",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "CNews direct 10/10 8h59 (maj 16h46) : meeting d'Attal à Lyon ; chapô « Édouard Philippe doit prendre la parole » (Licra, Le Havre). Page ouverte.",
+      "url": "https://www.cnews.fr/france/2026-10-10/presidentielle-2027-suivez-le-meeting-de-gabriel-attal-lyon-1932529"
+    },
+    {
+      "chaineSlug": "lcp",
+      "date": "2026-10-10",
+      "emission": "Présidentielle: ce week-end, Gabriel Attal et Jean-Luc Mélenchon se défient par meetings interposés",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "LCP 10/10 8h20 : duel Attal (Lyon) / Mélenchon (Clermont) ; Manuel Bompard annonce que les insoumis iront « confronter Edouard Philippe dans sa mairie » du Havre le 5 décembre. Page ouverte.",
+      "url": "https://lcp.fr/actualites/presidentielle-ce-week-end-gabriel-attal-et-jean-luc-melenchon-se-defient-par-meetings"
+    },
+    {
+      "chaineSlug": "france-info-tv",
+      "date": "2026-10-10",
+      "emission": "DIRECT. Présidentielle 2027 : en meeting à Lyon, Gabriel Attal appelle à \"une coalition des démocrates, de la gauche sociale à la droite républicaine\"",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "franceinfo direct 10/10 7h45 (maj 17h03) : Attal « nettement distancé dans les sondages par Edouard Philippe » ; une militante Renaissance : « Edouard Philippe a viré à droite » ; Attal cite Jean-Louis Borloo pour sa coalition. Page ouverte.",
+      "url": "https://www.franceinfo.fr/elections/presidentielle/direct-presidentielle-2027-gabriel-attal-jean-luc-melenchon-la-mobilisation-lyceenne-et-la-jeunesse-au-programme-des-grands-meetings-politiques-du-week-end_8231161.html"
+    },
+    {
+      "chaineSlug": "20-minutes",
+      "date": "2026-10-10",
+      "emission": "Présidentielle 2027 : Où en sont les sondages à six mois du premier tour ?",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "20 Minutes 10/10 9h12 : récapitulatif Ifop/Harris/OpinionWay ; EP 15 % (Ifop au 29/09), 13 % (Harris 24/09, derrière Mélenchon 17 %), 15 % (OpinionWay 10/09) ; second tour Le Pen-Philippe : 57 % pour Le Pen chez Harris (24/09), écart passé de 2 à 14 points depuis juillet. Page ouverte.",
+      "url": "https://www.20minutes.fr/societe/4252587-20261010-presidentielle-2027-sondages-six-mois-premier-tour"
+    },
+    {
+      "chaineSlug": "lci",
+      "date": "2026-10-10",
+      "emission": "\"Je préfère rentrer chez moi, c'est là que l'on a ses forces de rappel\" : Édouard Philippe ne veut pas loger à l'Élysée s'il est élu",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "LCI La Matinale (TF1+) 10/10 10h35 : séquence vidéo sur le choix d'EP de ne pas habiter l'Élysée s'il est élu (retombée « L'Heure de vérité »). Métadonnées de la page (uploadDate).",
+      "url": "https://www.tf1.fr/lci/la-matinale-618/videos/je-prefere-rentrer-chez-moi-cest-la-que-lon-a-ses-forces-de-rappel-edouard-philippe-ne-veut-pas-loger-a-lelysee-sil-est-elu-83262519.html"
+    },
+    {
+      "chaineSlug": "tf1-info",
+      "date": "2026-10-10",
+      "emission": "\"Je préfère rentrer chez moi\" : pourquoi Édouard Philippe ne veut pas loger à l'Élysée s'il est élu président de la République",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "TF1 Info 10/10 11h16 (La Matinale LCI) : EP ne logera pas à l'Élysée ; David Revault d'Allonnes rappelle les précédents Chirac, Sarkozy, Hollande. Page ouverte.",
+      "url": "https://www.tf1info.fr/politique/elections/presidentielle/video-je-prefere-rentrer-chez-moi-pourquoi-edouard-philippe-ne-veut-pas-loger-a-l-elysee-s-il-est-elu-president-de-la-republique-2469153.html"
+    },
+    {
+      "chaineSlug": "les-echos",
+      "date": "2026-10-10",
+      "emission": "« Elle est la fougue, le courage » : à Lyon, Attal se pose en candidat de la jeunesse pour contrer Mélenchon à la présidentielle 2027",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Les Echos 10/10 16h44 : meeting Attal à Lyon (2 000 personnes) ; Attal « toujours derrière Edouard Philippe dans les études d'opinion », un sondeur : « Edouard Philippe a pris l'avantage sur Gabriel Attal mais il n'a pas tué le match » ; EP « alterne le salé (retraites) et le sucré (impôts sur le revenu) » ; ralliement du maire de Montélimar Julien Cornillet à Attal. Page ouverte.",
+      "url": "https://www.lesechos.fr/elections/presidentielle/elle-est-la-fougue-le-courage-a-lyon-attal-se-pose-en-candidat-de-la-jeunesse-pour-contrer-melenchon-a-la-presidentielle-2027-2256210"
+    }
+  ]
+}

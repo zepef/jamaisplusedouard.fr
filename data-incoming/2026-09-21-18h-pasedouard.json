@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-21-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-21T16:45:00Z",
+    "note": "Vague JPE Livre 21 sept 18h. 9 pubs post-last_run 21/09 08h ; 4 poussées. Fil : report L’Heure de vérité EP (HuffPost, L'Indépendant, 20 Minutes + France Inter Havre). Skips no-slug : ['Élections 2027', 'Télé Star', 'Sudinfo', 'Le Télégramme', 'Epoch Times']. Politico Playbook 07h CET hors fenêtre. X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": [
+      "Élections 2027",
+      "Télé Star",
+      "Sudinfo",
+      "Le Télégramme",
+      "Epoch Times"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "france-inter",
+      "date": "2026-09-21",
+      "emission": "Le Havre a des airs de New York, c'est la \"Grosse pomme\" mais normande",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Chronique humoristique « C'est loin mais c'est beau », lundi 21/09 (cue 09h28). Ancrage Havre ; mentions EP (maire / « tremplin pour la présidentielle », piège NY, prix carburant « Edouard Philippe peut se préparer » vs ",
+      "url": "https://www.radiofrance.fr/franceinter/podcasts/c-est-loin-mais-c-est-beau/c-est-loin-mais-c-est-beau-du-lundi-21-septembre-2026-5461156"
+    },
+    {
+      "chaineSlug": "huffpost",
+      "date": "2026-09-21",
+      "emission": "Edouard Philippe et « L’heure de vérité » sur France 2 déprogrammés à cause de Macron",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "HuffPost 21/09 11h31. Premier numéro L’Heure de vérité (24/09, Caroline Roux) avec EP reporté : interview Macron TF1/France 2 à 20h. Cite Politico (SAV retraites 22-23/09) et Puremédias (Caroline Roux « l’émission est dé",
+      "url": "https://www.huffingtonpost.fr/politique/article/edouard-philippe-et-l-heure-de-verite-sur-france-2-deprogrammes-a-cause-de-macron_328455.html"
+    },
+    {
+      "chaineSlug": "l-independant",
+      "date": "2026-09-21",
+      "emission": "Coup dur pour Edouard Philippe : son premier grand rendez-vous télévisé reporté à cause d’Emmanuel Macron",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "L'Indépendant 21/09 14h19. EP devait inaugurer L’Heure de vérité 24/09 20h40 ; créneau pris par interview Macron TF1/France 2. Cite HuffPost. Aucune nouvelle date. Page ouverte.",
+      "url": "https://www.lindependant.fr/2026/09/21/coup-dur-pour-edouard-philippe-son-premier-grand-rendez-vous-televise-reporte-a-cause-demmanuel-macron-13561558.php"
+    },
+    {
+      "chaineSlug": "20-minutes",
+      "date": "2026-09-21",
+      "emission": "Le retour de « L’heure de vérité » avec Édouard Philippe sera décalé… à cause d’Emmanuel Macron",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "20 Minutes 21/09 16h09. Report L’Heure de vérité (invité EP / retraites) face à interview Macron TF1-France 2. Cite PureMédias et Politico. Page ouverte.",
+      "url": "https://www.20minutes.fr/arts-stars/television/4247444-20260921-retour-heure-verite-edouard-philippe-decale-cause-emmanuel-macron"
+    }
+  ]
+}

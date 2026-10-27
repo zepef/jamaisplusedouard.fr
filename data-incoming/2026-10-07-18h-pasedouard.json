@@ -1,0 +1,99 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-07-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-07T16:05:44Z",
+    "note": "Vague JPE Livre 7 oct 18h. +15 pubs (med-2026-581…med-2026-595) — AFP « EP au défi de l’enthousiasme » avant « L’Heure de vérité » (France 24, Boursorama, Le Singulier) ; EP/Attal/Hollande au pavillon mémorial du Crif 7-Octobre (Figaro/AFP) ; ministres ex-LR entre EP et Retailleau (L’Obs) ; podcast Les Echos duel au centre (Elabe EP 30 %) ; portrait Caroline Roux (Les Echos) ; Ifop vote blanc EP 13 % (La Dépêche) ; Mélenchon/contre-budget Le Pen (La Dépêche) ; Gentside riposte EP à Le Pen ; Sommet de l’élevage (Radio Scoop, EP annoncé jeudi selon l’article) ; tribune pesticides Cambrai (La Tribune) ; Lisnard (Le Parisien) ; AgoraVox ; Linternaute. 8 apparitions ; 7 skips. X needsAuth (non retenté). Pas de PR.",
+    "skips_no_slug": [
+      "France 24 (AFP)",
+      "Boursorama (AFP)",
+      "Le Singulier",
+      "Radio Scoop",
+      "Gentside",
+      "AgoraVox",
+      "Linternaute"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "le-nouvel-obs",
+      "date": "2026-10-07",
+      "emission": "Philippe ou Retailleau, qui les ministres de droite vont-ils soutenir ? Retrouvez les indiscrétions du « Nouvel Obs »",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "L'Obs 07/10 9h00 (abonnés). Indiscrétions : les six ministres issus de LR (Annie Genevard, Philippe Tabarot, Vincent Jeanbrun…) hésitent entre EP et Bruno Retailleau pour 2027. Page ouverte (chapô).",
+      "url": "https://www.nouvelobs.com/politique/20261007.OBS118980/philippe-ou-retailleau-qui-les-ministres-de-droite-vont-ils-soutenir-retrouvez-les-indiscretions-du-nouvel-obs.html"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-07",
+      "emission": "Édouard Philippe, Gabriel Attal et François Hollande visitent une exposition en hommage aux victimes du 7-Octobre",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Figaro/AFP 07/10 15h05. Attal puis EP premiers à se rendre au « pavillon mémorial » du Crif place des Vosges (7-Octobre, trois ans après) ; Braun-Pivet, Larcher, Hollande attendus. Page ouverte.",
+      "url": "https://www.lefigaro.fr/arts-expositions/edouard-philippe-gabriel-attal-et-francois-hollande-visitent-une-exposition-en-hommage-aux-victimes-du-7-octobre-20261007"
+    },
+    {
+      "chaineSlug": "les-echos",
+      "date": "2026-10-07",
+      "emission": "Présidentielles 2027 : duel au centre, qui peut battre Marine Le Pen ?",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Podcast « La Story » 07/10 17h. Lutte EP/Attal : baromètre Elabe septembre EP +4 à 30 % d'image positive vs Attal 25 % (avant l'annonce retraites 65 ans) ; Attal : « Édouard Philippe est candidat depuis deux ans. Moi, depuis quelques mois » ; appel d'Attal à une « grande coalition ». Page ouverte.",
+      "url": "https://www.lesechos.fr/elections/analyses/presidentielles-2027-duel-au-centre-qui-peut-battre-marine-le-pen-2255643"
+    },
+    {
+      "chaineSlug": "les-echos",
+      "date": "2026-10-07",
+      "emission": "L'heure de Caroline Roux",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Portrait 07/10 16h51 de Caroline Roux, qui relance « L'Heure de vérité » sur France 2 ; « Édouard Philippe ouvrira ce jeudi le bal ». Page ouverte.",
+      "url": "https://www.lesechos.fr/idees-debats/en-vue/lheure-de-caroline-roux-2255639"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-07",
+      "emission": "Présidentielle 2027 : 36 % des Français seraient prêts à voter blanc si cela pouvait faire annuler une élection, selon une enquête Ifop",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Ifop pour le Parti du vote blanc : vote blanc 6 % s'il est proposé comme un candidat ; Le Pen 34 %, Mélenchon 16 %, EP 13 %. Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/07/presidentielle-2027-36-des-francais-seraient-prets-a-voter-blanc-si-cela-pouvait-faire-annuler-une-election-selon-une-enquete-ifop-13588456.php"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-07",
+      "emission": "Présidentielle 2027 : Jean-Luc Mélenchon attaque le plan économique de Marine Le Pen, \"qui condamnera la France à la récession pendant 120 ans\"",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Mélenchon contre le contre-budget Le Pen ; rappel de la riposte d'EP la veille (« Vous avez un sacré problème avec les chiffres »). Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/07/presidentielle-2027-jean-luc-melenchon-attaque-le-plan-economique-de-marine-le-pen-qui-condamnera-la-france-a-la-recession-pendant-120-ans-13588881.php"
+    },
+    {
+      "chaineSlug": "la-tribune",
+      "date": "2026-10-07",
+      "emission": "OPINION. « Pesticides et santé publique : Gabriel Attal, Édouard Philippe et Bruno Retailleau, venez débattre à Cambrai le 10 octobre »",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Tribune 07/10 d'une médecin généraliste : les chaises d'Attal, EP et Retailleau risquent de rester vides au débat pesticides/santé publique de Cambrai (10/10). Page ouverte.",
+      "url": "https://www.latribune.fr/article/idees/47186091404634/opinion-pesticides-et-sante-publique-gabriel-attal-edouard-philippe-et-bruno-retailleau-venez-debattre-a-cambrai-le-10-octobre"
+    },
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-07",
+      "emission": "Présidentielle 2027 : « Il se passe quelque chose » ou la percée supposée de David Lisnard",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Percée en ligne de Lisnard ; un ministre de droite : « Pas un mot sur Retailleau, Attal ou Philippe ! ». Page ouverte (chapô).",
+      "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-il-se-passe-quelque-chose-ou-la-percee-supposee-de-david-lisnard-07-10-2026-F6DGWZ7VYBDZHEI7IOTTKJSZS4.php"
+    }
+  ]
+}

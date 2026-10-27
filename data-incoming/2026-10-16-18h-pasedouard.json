@@ -1,0 +1,142 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (exports/temps-reel-2026-10-16-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-27T08:54:17Z",
+    "note": "Passe 2026-10-16-18h dérivée du ledger (mêmes règles que les data-incoming PasEdouard : outlet -> slug de la liste fermée, emission = titre, resume = résumé du ledger, dureeMinutes 0, tonalité neutre ; sans slug = skip). 22 pubs au ledger pour cette passe.",
+    "skips_no_slug": [
+      "Midi Libre",
+      "Orange Actu (6Médias)",
+      "Gala",
+      "Gentside",
+      "Journal du Net",
+      "X",
+      "France 24 (AFP)",
+      "La Provence",
+      "Boursorama",
+      "Sud Ouest"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-16",
+      "emission": "EN DIRECT - Mobilisation du 17 octobre : «environ 500 actions envisagées» selon Laurent Nuñez, Jordan Bardella se dit «inquiet» d’éventuels «débordements»",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Le Figaro, direct ouvert 16/10 6h47 (màj 17h24) sur le mouvement lycéen et la mobilisation du 17 octobre. Entrée 7h16 « Rythmes scolaires : Philippe évoque un apprentissage concentré en matinée et des vacances plus courtes » (reprise AFP de la réunion d’appartements connectée du 15/10, ~5000 participants selon le parti ; citation « limiter le nombre de jours de congé ou de vacances au moment de la Toussaint, au moment de Pâques »). Page ouverte.",
+      "url": "https://www.lefigaro.fr/actualite-france/en-direct-colere-des-lyceens-les-organisations-lyceennes-veulent-desormais-negocier-qu-avec-sebastien-lecornu-20261016"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-16",
+      "emission": "Présidentielle 2027 - sondage : Raphaël Glucksmann à la deuxième place des intentions de vote derrière Marine Le Pen à égalité avec Jean-Luc Mélenchon et Édouard Philippe",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "La Dépêche 16/10 8h37 (màj 8h56) : détail du baromètre OpinionWay Les Echos/Radio Classique (13-14/10, 1043 personnes). Hypothèse EP seul candidat du bloc central : Le Pen 35 %, Glucksmann/Mélenchon/EP 15 % chacun (EP −4 pts), Retailleau 8 %. Hypothèse Attal : Glucksmann 16 % qualifié. Bruno Jeanbart (OpinionWay) : « le mouvement lycéen affaiblit les deux candidats du bloc central ». Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/16/presidentielle-2027-sondage-raphael-glucksmann-a-la-deuxieme-place-des-intentions-de-vote-derriere-marine-le-pen-a-egalite-avec-jean-luc-melenchon-et-13604843.php"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-16",
+      "emission": "DIRECT. Présidentielle 2027 : la préfecture de police de Paris refuse de valider le parcours des syndicats pour la manifestation du 17 octobre",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "La Dépêche, direct présidentielle du 16/10 (ouvert 8h57, màj 17h48 ; titre d’URL initial « Glucksmann au coude-à-coude avec Mélenchon et Philippe »). Entrées EP : « Édouard Philippe veut concentrer les cours le matin et réduire les vacances scolaires » et « Les pistes d’Edouard Philippe pour l’éducation » (réunion d’appartements du 15/10) ; détail OpinionWay chez les 18-24 ans : Mélenchon 49 %, Le Pen 28 %, … EP 4 %. Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/16/direct-presidentielle-2027-raphael-glucksmann-au-coude-a-coude-avec-jean-luc-melenchon-et-edouard-philippe-dans-un-nouveau-sondage-13604833.php"
+    },
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-16",
+      "emission": "« L’actualité nous l’impose » : Philippe et Attal adaptent leur campagne à la crise sociale",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Parisien 16/10 9h00 : face au mouvement lycéen, les deux candidats du bloc central accélèrent la sortie de leurs propositions éducation. EP a consacré la totalité de sa 2ᵉ réunion d’appartement (15/10) à l’éducation, détaillant notamment l’autonomie donnée aux établissements sur le temps scolaire. Page ouverte (début, suite abonnés).",
+      "url": "https://www.leparisien.fr/elections/presidentielle/lactualite-nous-limpose-philippe-et-attal-adaptent-leur-campagne-a-la-crise-sociale-16-10-2026-OEA6XKQ27NE53AMXY3Q2E3TLEU.php"
+    },
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-16",
+      "emission": "« Limiter les vacances de Toussaint ou de Pâques » : Édouard Philippe veut faire évoluer les rythmes scolaires",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Parisien/AFP 16/10 10h09 : propos d’EP à la réunion d’appartements connectée du 15/10 (~5 000 participants selon le parti) : apprentissages concentrés le matin, « est-ce que ça ne vaut pas le coup de limiter le nombre de jours de congés ou de vacances au moment de la Toussaint, au moment de Pâques ? », « une question assez explosive » ; Parcoursup : « il faut qu’on améliore très largement l’orientation ». Page ouverte.",
+      "url": "https://www.leparisien.fr/elections/limiter-les-vacances-de-toussaint-ou-de-paques-edouard-philippe-veut-faire-evoluer-les-rythmes-scolaires-16-10-2026-6FNMI35DNNBWHDEVYJQ6ZWE54Y.php"
+    },
+    {
+      "chaineSlug": "cnews",
+      "date": "2026-10-16",
+      "emission": "Présidentielle 2027 : ces idées d’Edouard Philippe pourraient bouleverser les rythmes scolaires",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "CNews 16/10 10h21 : propositions éducation d’EP (réunion d’appartement du 15/10, 5 000+ personnes) — rythmes scolaires, vacances, Parcoursup ; rappel du sondage OpinionWay pour CNEWS (15/10) : EP 12 % en cas de candidatures Attal (5 %) et Retailleau (6 %), contre 15-16 % le 11/09 ; second tour Le Pen 56–44 EP. Page ouverte.",
+      "url": "https://www.cnews.fr/france/2026-10-16/presidentielle-2027-ces-idees-dedouard-philippe-pourraient-bouleverser-les"
+    },
+    {
+      "chaineSlug": "ouest-france",
+      "date": "2026-10-16",
+      "emission": "REPORTAGE. Présidentielle 2027 : quel avenir pour l’école ? On a suivi une réunion d’appartement avec Édouard Philippe",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Ouest-France 16/10 10h25, reportage depuis Rennes chez un militant Horizons (7 personnes) : réunion d’appartements à distance du 15/10, 1h30 consacrée à l’éducation, « plus de 5 000 personnes » de 82 départements et de l’étranger (Guyane, New York, Washington) selon le parti ; « la plus grande réunion d’appartements de France » selon EP. Page ouverte (début, suite abonnés).",
+      "url": "https://www.ouest-france.fr/elections/presidentielle/reportage-quel-avenir-pour-lecole-on-a-suivi-une-reunion-dappartement-avec-edouard-philippe-7b82e32e-c924-11f1-b8bc-a46147b584ed"
+    },
+    {
+      "chaineSlug": "europe-1",
+      "date": "2026-10-16",
+      "emission": "«Édouard Philippe ne comprend rien à ce qu'est la France», déplore Pascal Praud",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Europe 1 16/10 11h45 : dans L’Heure des Pros, Pascal Praud critique la déclaration d’EP (France 2, 8/10) de ne pas vouloir vivre à l’Élysée : « il ne comprend vraiment rien à ce qu’est la France », « Quand tu es pape […] tu vas au Vatican » ; « S’il ne veut ni être élu tout de suite, ni aller à l’Élysée, il ne faut pas qu’il se présente ». Page ouverte.",
+      "url": "https://www.europe1.fr/politique/edouard-philippe-ne-comprend-rien-a-ce-quest-la-france-deplore-pascal-praud-1153706"
+    },
+    {
+      "chaineSlug": "le-nouvel-obs",
+      "date": "2026-10-16",
+      "emission": "Après sa victoire à la primaire, Glucksmann grimpe dans les sondages",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "L’Obs 16/10 12h40 : OpinionWay (EP 15 %, Mélenchon 14 %, Glucksmann 13 % si Attal et EP candidats) et Ifop-Fiducial 14/10 (EP 18 %). Glucksmann au Point : « Edouard Philippe représente la droite, porte le bilan des dix dernières années […] Ce n’est absolument pas soluble l’un dans l’autre. » La percée pourrait relancer la primaire à droite et au centre (Bergé, Lisnard : « la droite devrait être capable de faire de même »). Page ouverte.",
+      "url": "https://www.nouvelobs.com/politique/20261016.OBS119259/apres-sa-victoire-a-la-primaire-glucksmann-grimpe-dans-les-sondages.html"
+    },
+    {
+      "chaineSlug": "tf1-info",
+      "date": "2026-10-16",
+      "emission": "Parcoursup, rythmes scolaires... Que proposent les candidats à la présidentielle pour les lycéens ?",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "TF1 Info 16/10 13h03 : tour des propositions des candidats face au mouvement lycéen. Section « Edouard Philippe veut moins de cours l’après-midi, et moins de vacances » (réunion du 15/10, vacances de Toussaint/Pâques, Parcoursup ; rappel « Route nationale » TF1 sur des plannings adaptés selon les régions). Aussi Mélenchon, Le Pen, Glucksmann, Attal (« révolution du temps scolaire »), Retailleau, Roussel. Page ouverte.",
+      "url": "https://www.tf1info.fr/politique/elections/presidentielle/parcoursup-rythmes-scolaires-que-proposent-les-candidats-a-la-presidentielle-pour-les-lyceens-2470328.html"
+    },
+    {
+      "chaineSlug": "ouest-france",
+      "date": "2026-10-16",
+      "emission": "Présidentielle 2027 : le centre et la droite vont-ils se laisser tenter par une primaire ?",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Ouest-France 16/10 15h02 : après la victoire de Glucksmann à la primaire sociale-démocrate, les candidatures du centre et de la droite (Attal, Becht, Bertrand, Lisnard, EP, Platret, Retailleau) « se divisent plus qu’elles ne s’additionnent » ; Lisnard : « Sans une primaire, on file droit vers le duel Le Pen-Mélenchon ». Page ouverte (début, suite abonnés).",
+      "url": "https://www.ouest-france.fr/elections/presidentielle/un-premier-et-un-second-tours-en-janvier-le-centre-et-la-droite-vont-ils-se-laisser-tenter-par-une-primaire-24f777b8-c875-11f1-b3f5-183597cb1094"
+    },
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-16",
+      "emission": "Présidentielle 2027 : sans « candidature unique » au centre, « on sera responsables de l’élection de Marine Le Pen », alerte Aurore Bergé",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Le Parisien 16/10 16h32 : sur TF1, Aurore Bergé plaide pour une primaire / candidature unique du bloc central. Rappel OpinionWay Les Echos : si EP et Attal sont candidats, aucun ne se qualifie (EP 12 %, Attal 7 %, derrière Mélenchon 14 % et Glucksmann 13 %) ; EP seul : 15 %, à égalité à la 2ᵉ place. Page ouverte.",
+      "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-sans-candidature-unique-au-centre-on-sera-responsables-de-lelection-de-marine-le-pen-alerte-aurore-berge-16-10-2026-EXRZXOGNH5FCJDVDCVDWI3VFGA.php"
+    }
+  ]
+}

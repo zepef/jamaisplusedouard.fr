@@ -1,0 +1,75 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-15-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-15T05:58:03Z",
+    "note": "Passe 15 oct 8h (fenêtre ~18h Paris 14/10 → ~8h Paris 15/10). +9 pubs (med-2026-718, med-2026-719, x-2110427467571724658, med-2026-720, med-2026-721, med-2026-722, med-2026-723, med-2026-724, med-2026-725). Fil : (1) reprise Findeisen/La Dépêche 19h02 — livre Judith contre Goliath / PNF Cité numérique ; (2) sondages Odoxa + Ifop (20 Minutes 19h59, Le Parisien 20h49) — EP 17 % Odoxa / 14–18 % Ifop selon scénarios, second tour Le Pen 53–EP 47 ; (3) grand oral Apig 14/10 soir — Ouest-France 22h21 (citations EP exception culturelle), Mediapart AFP 22h10, La Nouvelle République 21h06, Stratégies 15/10 ; (4) post X EP 19h48 Mondial de l’Auto (Chine/industrie) ; (5) JDD 17h46 rattrapage — 2ᵉ réunion d’appartements ce soir 15/10 19h30 thème École. X : 1 post @EPhilippe_LH depuis 15:50Z (coût public Grok Bot, 1 call). Non retenus : edouardphilippe.fr (page 12/10 hors fenêtre stricte) ; mesinfos/globaltree agrégateurs ; RTL/CNews juin (1re édition). Toujours sans couverture vérifiée Licra 10/10. À surveiller : retours réunion école 15/10 soir, réactions politiques au livre Findeisen. Proches inchangé. 6 apparitions ; skips_no_slug La Nouvelle République, Stratégies, X.",
+    "skips_no_slug": [
+      "La Nouvelle République",
+      "Stratégies",
+      "X"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-14",
+      "emission": "Présidentielle 2027 : alors qu'Edouard Philippe est visé par une enquête du PNF, le livre d'une lanceuse d'alerte pourrait fragiliser sa campagne",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "critique",
+      "resume": "La Dépêche 14/10 19h02 : reprise nationale du livre « Judith contre Goliath » (Patchenco) de Cornelia Findeisen. Affaire Cité numérique du Havre (projet ~27 M€), convention LH French Tech 2,154 M€, risques pénaux signalés avant signature ; CDD non renouvelé avril 2023 ; plainte PNF sept. 2023 ; information judiciaire ; EP non poursuivi à ce stade, présumé innocent. EP et communauté urbaine n’ont pas souhaité commenter (via Le Monde). Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/14/presidentielle-2027-alors-quedouard-philippe-est-vise-par-une-enquete-du-pnf-le-livre-dune-lanceuse-dalerte-pourrait-fragiliser-sa-campagne-13602137.php"
+    },
+    {
+      "chaineSlug": "20-minutes",
+      "date": "2026-10-14",
+      "emission": "Présidentielle 2027 : Mélenchon chipe la deuxième place à Philippe, mais serait balayé par Le Pen au second tour",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "20 Minutes 14/10 19h59 (màj 20h06) : sondage Odoxa (Public Sénat, Nouvel Obs, presse régionale ; 24/09–07/10, n=12 005). Hypothèse EP : Mélenchon 18 %, EP 17 %, Le Pen 37 % ; second tour Le Pen 53 % / EP 47 %. Hypothèse Attal : Mélenchon 18,5 %, Attal 11 %, Le Pen 38 % ; second tour Le Pen 68 % / Mélenchon 32 %. Étude avant primaire Glucksmann. Page ouverte.",
+      "url": "https://www.20minutes.fr/politique/4254394-20261014-presidentielle-melenchon-chipe-deuxieme-place-philippe-balaye-pen-second-tour"
+    },
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-14",
+      "emission": "Présidentielle 2027 : vers un duel Mélenchon-Le Pen au second tour, selon deux sondages",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Parisien 14/10 20h49 : Odoxa (idem 20 Minutes) + Ifop-Fiducial pour LCI/Sud Radio (12–14/10, n=1 390). Ifop : si EP et Attal se maintiennent, Le Pen 34 %, Mélenchon 16 %, EP 14 % (= Glucksmann) ; si EP rassemble le centre, Le Pen 35 %, EP 18 % devant Mélenchon 16 % (second tour EP vs Le Pen). Candidature Natacha Polony non prise en compte. Page ouverte.",
+      "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-vers-un-duel-melenchon-le-pen-au-second-tour-selon-deux-sondages-14-10-2026-YQ3X2HPI25DPROYPQL3AQCQ6J4.php"
+    },
+    {
+      "chaineSlug": "mediapart",
+      "date": "2026-10-14",
+      "emission": "Des candidats à l’Elysée au chevet d’une presse en crise, grand écart sur les remèdes",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Mediapart (fil AFP) 14/10 22h10 : dépêche sur le grand oral Apig du 14/10 — solutions des candidats (taxe plateformes, pluralisme) face à la crise de la presse ; EP parmi les participants. Page ouverte (début ; suite abonnés).",
+      "url": "https://www.mediapart.fr/journal/fil-dactualites/141026/des-candidats-l-elysee-au-chevet-d-une-presse-en-crise-grand-ecart-sur-les-remedes"
+    },
+    {
+      "chaineSlug": "ouest-france",
+      "date": "2026-10-14",
+      "emission": "Les candidats à l’Élysée proposent leurs remèdes pour venir au secours d’une presse en crise",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Ouest-France 14/10 22h21 : grand oral Apig au Pavillon Élysée. EP : « Il y a une crise assez profonde de la presse » et « vous suscitez assez largement de la défiance, un peu moins que nous, mais à peine moins » ; parallèle avec l’exception culturelle et financements pour « garantir la réalité » d’un débat public informé. Présents : Attal, Retailleau, représentants Glucksmann/Le Pen/Mélenchon ; Ballard (RN) : « YouTube, c’est une saloperie ». Manifeste Apig « Le droit d’être informé ». Page ouverte.",
+      "url": "https://www.ouest-france.fr/medias/les-candidats-a-lelysee-proposent-leurs-remedes-pour-venir-au-secours-dune-presse-en-crise-5969cda0-c809-11f1-9522-1f9ae0711c0a"
+    },
+    {
+      "chaineSlug": "le-jdd",
+      "date": "2026-10-14",
+      "emission": "Réunion d'appartement d'Édouard Philippe, livre de Bruno Retailleau... Les 4 infos dont vous allez entendre parler demain",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "JDD 14/10 17h46 : agenda du 15/10 — 2ᵉ édition de la réunion numérique d’appartements d’EP (thème école/éducation ; format expérimenté le 25/06 : ~1 000 réunions, ~10 000 participants connectés depuis le Havre). Manqué par la passe 14/10 18h (publié ~11 min avant collected_at), ajouté en rattrapage. Page ouverte.",
+      "url": "https://www.lejdd.fr/politique/reunion-dappartement-dedouard-philippe-livre-de-bruno-retailleau-les-4-infos-dont-vous-allez-entendre-parler-demain-186006"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-22-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-22T16:35:00Z",
+    "note": "Vague JPE Livre 22 sept 18h. 6 pubs post-last_run 22/09 08h ; 2 poussées. Fil : livre Crépuscule des princes EP vs Attal (AFP + relais). Skips no-slug : ['Journal FR', 'Midi Libre', 'Arab News (AFP)', 'Planet.fr']. X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": [
+      "Journal FR",
+      "Midi Libre",
+      "Arab News (AFP)",
+      "Planet.fr"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "20-minutes",
+      "date": "2026-09-22",
+      "emission": "Présidentielle 2027 : « Il a gagné quelle campagne ? », « immature »… Philippe braque sa sulfateuse sur Attal",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "20 Minutes 22/09 15h20 (maj 15h27, AFP). Relais Crépuscule des princes : EP « très immature » ; Balladur « ressemble à Gabriel » ; Braun-Pivet « combat de coqs » ; quinquennat « désastre ». Page ouverte.",
+      "url": "https://www.20minutes.fr/politique/4247719-20260922-presidentielle-2027-gagne-campagne-immature-philippe-braque-sulfateuse-attal"
+    },
+    {
+      "chaineSlug": "huffpost",
+      "date": "2026-09-22",
+      "emission": "Édouard Philippe étrille le « très, très immature » Gabriel Attal dans un livre",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "HuffPost 22/09 17h13. Crépuscule des princes (sortie 23/09) : EP décrédibilise Attal (« très, très immature », législatives 92, Balladur) ; Braun-Pivet « combat de coqs » ; second quinquennat « désastre ». Page ouverte.",
+      "url": "https://www.huffingtonpost.fr/politique/article/edouard-philippe-etrille-le-tres-tres-immature-gabriel-attal-dans-un-livre_329250.html"
+    }
+  ]
+}

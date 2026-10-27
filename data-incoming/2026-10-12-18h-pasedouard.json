@@ -1,0 +1,48 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-12-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-12T16:18:25Z",
+    "note": "Passe 12 oct 18h (fenêtre 12 oct ~7h59 → ~18h18). +9 pubs (med-2026-683…med-2026-690 + post X x-2109619003094118631). Signal : Politico Europe 12/10 14h53 (Clea Caulcutt) « Philippe stood ready to defeat Le Pen. Now his allies are doubting his chances » — six membres de la famille politique d'EP, dont des membres de l'équipe, doutent de sa stratégie (« It's unbelievable how nothing is making an impact » ; discours retraites 70 000 vues YouTube vs 550 000 pour Mélenchon à HEC ; « no desire for the centrist bloc… like marriage after 10 years » ; cadre Horizons : « boxed into a duel with Attal » ; plan pour drainer les élus d'Attal ; réponse d'Arnaud Péricard). Retailleau présente 197 Md€ d'économies et qualifie EP et Attal de « co-responsables » de la dette (« Ceux qui ont allumé la mèche ne peuvent pas prétendre l'éteindre », AFP/France 24 15h27). Reprises baromètre Toluna Harris M6-RTL vague 7 : BFMTV 9h58 (« EP toujours préféré à Attal », 13/17 %), La Dépêche 8h54 (Mélenchon devant EP dans tous les scénarios). Suites Dijon : Orange/6Médias 9h25 d'après RTL (Borloo « tiers de confiance », EP n'a pas développé, proches : ralliement d'Attal « ni nécessaire ni urgent ») ; bourde « Monsieur le maire » (Rebsamen au lieu de Nathalie Koenders) reprise par Le Républicain Lorrain 10h07 et vidéo France 3 BFC 15h49. Gentside 16h15 retraites (65 ans / 45 annuités / capitalisation). X : post EP 14h15 sur les tirs au collège d'Aubagne (peines planchers pour atteintes aux agents publics, « Qu'attendons-nous ? »), 23,7k impressions. Non retenus : RTL Borloo 11/10 21h57 et Le Parisien Borloo 11/10, Bien Public bourde 11/10 18h33, Dijon Actualité 12/10 2h18 (tous avant last_run) ; Sud Ouest sondage 11h16 (3e reprise, chiffres EP 14 %/Attal 8 % discordants avec le rapport) ; actu.fr bourde 16h32 (3e reprise) ; 24Brussels (réécriture Politico) ; The Local/AFP (phrase AFP déjà stockée via LTD) ; Journal-Info, journalfr.com (agrégateurs) ; Figaro Retailleau 17h15 (EP en lien suggéré seulement) ; Sud Ouest/RL/L'Alsace Retailleau (même AFP) ; Figaro réactions Aubagne (pas d'EP cité). Toujours sans couverture : discours Licra 10/10 ; aucune réponse nouvelle de Retailleau/Lisnard/Bayrou au courrier ni date de réunion ; aucune réaction d'EP à la victoire de Glucksmann trouvée ; LCP « Lundi c'est politique » diffusé 19h32, pas d'invité EP/Horizons visible ; pas de trace de la visio éducation ; rien de nouveau sur le meeting Mélenchon au Havre. Pistes : reprises de l'enquête Politico ; réactions politiques à Aubagne citant EP / peines planchers ; LCP 12/10 soir ; réponses au courrier ; Licra. Proches : inchangé. 3 apparitions ; 6 skips (Politico Europe, France 24 (AFP), Orange Actu (6Médias), Le Républicain Lorrain, Gentside, X).",
+    "skips_no_slug": [
+      "Politico Europe",
+      "France 24 (AFP)",
+      "Orange Actu (6Médias)",
+      "Le Républicain Lorrain",
+      "Gentside",
+      "X"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-12",
+      "emission": "Présidentielle 2027: un nouveau sondage place Marine Le Pen toujours largement en tête au premier tour, au côté de Jean-Luc Mélenchon, malgré l'affaire Bardella",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "BFMTV.com 12/10 9h58 : reprise du baromètre Toluna Harris Interactive M6-RTL (5-8 oct.) ; intertitre « Édouard Philippe toujours préféré à Gabriel Attal » : Mélenchon (18-19 %) devancerait EP, « qui obtiendrait entre 13% des voix en cas de candidature simultanée de Gabriel Attal et 17% en cas de candidature unique du bloc central » ; Attal 5 à 12 % ; Le Pen 35-37 %. Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/presidentielle-2027-un-nouveau-sondage-place-marine-le-pen-toujours-largement-en-tete-au-premier-tour-au-cote-de-jean-luc-melenchon-malgre-l-affaire-bardella_AN-202610120289.html"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-12",
+      "emission": "Présidentielle 2027 - Sondage : Jean-Luc Mélenchon qualifié au second tour dans tous les scénarios, devant Édouard Philippe, Gabriel Attal ou Raphaël Glucksmann",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "La Dépêche 12/10 8h54 (maj 9h29) : baromètre Toluna Harris Interactive M6-RTL ; avec candidatures simultanées EP/Attal, Mélenchon 18 % devant EP 13 % et Attal 5 % ; candidature unique au centre face à Glucksmann : Mélenchon 18 % contre EP 17 % ; hypothèse Hollande : EP 17 % (+1). Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/12/presidentielle-2027-sondage-jean-luc-melenchon-qualifie-au-second-tour-dans-tous-les-scenarios-devant-edouard-philippe-gabriel-attal-ou-raphael-13596624.php"
+    },
+    {
+      "chaineSlug": "france-3",
+      "date": "2026-10-12",
+      "emission": "Au congrès du Parti Radical, Edouard Philippe remercie \"Monsieur le maire\" de Dijon",
+      "dureeMinutes": 1,
+      "type": "reportage",
+      "tonalite": "critique",
+      "resume": "Vidéo France 3 BFC (33 s) 12/10 15h49 : « Longue vie à Dijon, Monsieur le maire » — EP s'adresse à François Rebsamen « semblant oublier que Nathalie Koenders dirige la ville depuis novembre 2024 » et persiste : « Je pourrais l'appeler Monsieur le ministre ou Monsieur le sénateur. Pour moi, c'est Monsieur le maire ! ». Page ouverte.",
+      "url": "https://france3-regions.franceinfo.fr/bourgogne-franche-comte/cote-d-or/dijon/au-congres-du-parti-radical-edouard-philippe-remercie-monsieur-le-maire-de-dijon-3432408.html"
+    }
+  ]
+}

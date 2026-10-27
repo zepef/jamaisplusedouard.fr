@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-22-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-22T06:15:00Z",
+    "note": "Vague JPE Livre 22 sept 08h. 7 pubs post-last_run 21/09 18h ; 2 poussées. Fil : Figaro interventionnisme + Playbook HdV 8/10. Skips no-slug : ['Univers Freebox', 'Parlons Politique', 'Politico Europe', 'Fondation Jean-Jaurès', 'Orange Actualités']. X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": [
+      "Univers Freebox",
+      "Parlons Politique",
+      "Politico Europe",
+      "Fondation Jean-Jaurès",
+      "Orange Actualités"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-09-21",
+      "emission": "Présidentielle 2027 : Édouard Philippe, une campagne perturbée par l’interventionnisme d’Emmanuel Macron",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Figaro 21/09 19h47 (maj 22/09 06h18). Récit : déplacement Anjou / sécurité climatique écourté par sommet Élysée 18/09 ; L’Heure de vérité (retraites) reportée face à interview Macron TF1/France 2. Marie Guévenoux : « Ça ",
+      "url": "https://www.lefigaro.fr/politique/presidentielle-2027-edouard-philippe-une-campagne-perturbee-par-l-interventionnisme-d-emmanuel-macron-20260921"
+    },
+    {
+      "chaineSlug": "20-minutes",
+      "date": "2026-09-21",
+      "emission": "Le Havre : Sabre, os humain, gants de boxe… Les visiteurs découvrent le bureau d’Édouard Philippe",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "20 Minutes 21/09 19h25. Journées européennes du patrimoine : visite du bureau du maire au Havre (sabre, tibia, gants de boxe, Perret). Cite ICI.fr. Page ouverte.",
+      "url": "https://www.20minutes.fr/societe/4247391-20260921-havre-sabre-os-humain-gants-boxe-visiteurs-decouvrent-bureau-edouard-philippe"
+    }
+  ]
+}

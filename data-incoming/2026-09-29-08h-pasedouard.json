@@ -1,0 +1,74 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-29-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-29T05:56:00Z",
+    "note": "Vague JPE Livre 29 sept 08h. +8 pubs (5 relais/analyses Toluna-Harris omis passe 18h + Odoxa 29/09 + HuffPost alerte). Fils : EP 13–16% derrière Mélenchon / T2 Le Pen 57%/EP 43% ; Odoxa EP 27%(−3) ; appels union Rodwell/Moreau. X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": [
+      "Valeurs actuelles",
+      "Sud Ouest"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-09-28",
+      "emission": "Présidentielle 2027 : Marine Le Pen creuse l'écart au second tour face à Édouard Philippe comme face à Jean-Luc Mélenchon, selon un sondage",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Figaro 28/09 07h51 (màj 18h19, AFP). Toluna-Harris RTL/M6 : T2 Le Pen 57 % / EP 43 %, Le Pen 69 % / Mélenchon 31 %. T1 Le Pen 35–36 %, Mélenchon 18 % devant EP 16 % ; Attal 12–13 % ; Retailleau 8–10 %. Terrain 22-24/09, n=1974. Page ouve",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/sondages/presidentielle-2027-marine-le-pen-creuse-l-ecart-au-second-tour-face-a-edouard-philippe-comme-face-a-jean-luc-melenchon-selon-un-sondage-20260928"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-09-28",
+      "emission": "Présidentielle 2027 - sondage : Marine Le Pen creuse l'écart au second tour face à n'importe quel adversaire",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "La Dépêche 28/09 08h40 (màj 09h24). Toluna-Harris RTL/M6 vague 6 : T1 Le Pen 35–36 %, Mélenchon 16–18 % (17 % si Attal+EP vs EP 13 % / Attal 5 %) ; candidat unique centre EP ou Attal 16 % derrière Mélenchon 18 %. T2 Le Pen 69 %/Mélenchon 31",
+      "url": "https://www.ladepeche.fr/2026/09/28/presidentielle-2027-sondage-marine-le-pen-creuse-lecart-au-second-tour-face-a-nimporte-quel-adversaire-13572446.php"
+    },
+    {
+      "chaineSlug": "l-opinion",
+      "date": "2026-09-28",
+      "emission": "Présidentielle 2027 : un second tour Le Pen-Mélenchon inévitable, selon un sondage",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "l'Opinion 28/09 10h43. Analyse Toluna-Harris RTL/M6 : Mélenchon devant EP dans toutes les configs (EP 13–16 %) ; T2 Le Pen largement devant Mélenchon et EP (43 %). Relie la tendance négative à Cluster17 (coude-à-coude 19 %) et à la dissonan",
+      "url": "https://www.lopinion.fr/politique/presidentielle-2027-un-second-tour-le-pen-melenchon-inevitable-selon-un-sondage"
+    },
+    {
+      "chaineSlug": "l-opinion",
+      "date": "2026-09-28",
+      "emission": "La campagne d’Edouard Philippe patine, la droite et le centre s’inquiètent",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "l'Opinion 28/09 17h30 (màj 18h56). Analyse : EP 13–16 % derrière Mélenchon dans toutes les hypos Toluna-Harris ; T2 Le Pen 57 %/EP 43 % ; plus bas depuis Ifop février ; rentrée « tonitruante » chassée par pouvoir d’achat/international ; élu",
+      "url": "https://www.lopinion.fr/politique/la-campagne-dedouard-philippe-patine-la-droite-et-le-centre-sinquietent"
+    },
+    {
+      "chaineSlug": "public-senat",
+      "date": "2026-09-29",
+      "emission": "Sondage : les cotes de popularité de Marine Le Pen et d’Edouard Philippe reculent fortement, Raphaël Glucksmann progresse",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Public Sénat 29/09 05h00. Baromètre Odoxa-Mascaret pour Public Sénat/presse régionale : EP 27 % (−3), Attal 25 % (−3) ; Le Pen/Bardella 35 % (−4/−5) ; depuis mai 2025 EP −10 pts. Glucksmann 20 % (+1). Terrain 23-24/09, n=1005. Page ouverte.",
+      "url": "https://www.publicsenat.fr/actualites/politique/sondage-les-cotes-de-popularite-de-marine-le-pen-et-dedouard-philippe-reculent-fortement-raphael-glucksmann-progresse"
+    },
+    {
+      "chaineSlug": "huffpost",
+      "date": "2026-09-29",
+      "emission": "Présidentielle 2027 : L’alerte sur les sondages qu’Édouard Philippe et Gabriel Attal doivent prendre au sérieux",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "HuffPost 29/09 06h00. Analyse : Toluna-Harris 28/09 + Cluster17 24/09 — EP sans dynamique, Mélenchon qualifié partout ; même sans Attal EP plafonne à 16 % ; −3 pts vs vague 14/09. Appels Rodwell/Moreau à accélérer l’union ; L’Heure de Vérit",
+      "url": "https://www.huffingtonpost.fr/politique/article/presidentielle-2027-l-alerte-sur-les-sondages-qu-edouard-philippe-et-gabriel-attal-doivent-prendre-au-serieux_332215.html"
+    }
+  ]
+}

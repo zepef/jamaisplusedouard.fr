@@ -1,0 +1,117 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (exports/temps-reel-2026-10-21-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-27T08:54:17Z",
+    "note": "Passe 2026-10-21-08h dérivée du ledger (mêmes règles que les data-incoming PasEdouard : outlet -> slug de la liste fermée, emission = titre, resume = résumé du ledger, dureeMinutes 0, tonalité neutre ; sans slug = skip). 16 pubs au ledger pour cette passe.",
+    "skips_no_slug": [
+      "X",
+      "Valeurs actuelles",
+      "upday News",
+      "Paris Match",
+      "Orange Actualités (L'Express/6Medias)"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "l-opinion",
+      "date": "2026-10-20",
+      "emission": "Edouard Philippe nomme sept porte-paroles pour ferrailler contre LFI et le RN",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "L'Opinion 20/10 19h12 : EP dévoile sept porte-paroles, annonce repoussée « semaine après semaine » ; surprise Grégory Allione (eurodéputé adhérent Renaissance, membre de Populaires, le think tank de Darmanin) ; six élus Horizons : Nathalie Loiseau, Charlotte Parmentier-Lecocq, Jérémie Patrier-Leitus, Maël de Calan, Julie Boillot, Kadir Mebarek ; Maël de Calan coordonne. Page ouverte (chapeau) + extrait WebSearch.",
+      "url": "https://www.lopinion.fr/politique/edouard-philippe-nomme-sept-porte-paroles-pour-ferrailler-contre-lfi-et-le-rn"
+    },
+    {
+      "chaineSlug": "ouest-france",
+      "date": "2026-10-20",
+      "emission": "Député du Calvados, Jérémie Patrier-Leitus sera l’un des porte-paroles de la campagne d’Edouard Philippe",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Ouest-France 20/10 19h22 : Jérémie Patrier-Leitus (député 3e circ. du Calvados, ex-président de la commission d'enquête sur l'audiovisuel public) nommé l'un des sept porte-paroles d'EP, aux côtés de Maël de Calan (président du Finistère), Grégory Allione et Nathalie Loiseau (eurodéputés), Kadir Mebarek (maire de Melun), Julie Boillot (conseillère de Paris), Charlotte Parmentier-Lecocq (députée du Nord) ; « une mission importante et une marque de confiance ». Repris par Caen.maville. Métadonnées WebSearch (curl bloqué) + page Ma Ville ouverte.",
+      "url": "https://www.ouest-france.fr/elections/presidentielle/depute-du-calvados-jeremie-patrier-leitus-sera-lun-des-porte-paroles-de-la-campagne-dedouard-philippe-ce8d2934-cc9f-11f1-bb5f-3dc5c0feacca"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-20",
+      "emission": "Présidentielle 2027 : en reflux dans les sondages, Édouard Philippe confronté au risque du dégagisme",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Figaro 20/10 20h (décryptage, abonnés) : après la mobilisation marquée par des émeutes, EP voit ses intentions de vote s'effriter, comme Attal ; les deux ex-Premiers ministres tentent de résister à l'impopularité d'un pouvoir jugé à bout de souffle. Page ouverte (chapeau).",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-en-reflux-dans-les-sondages-edouard-philippe-confronte-au-risque-du-degagisme-20261020"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-20",
+      "emission": "Présidentielle 2027 : Mélenchon qualifié face à Le Pen surpuissante, Philippe éliminé dans tous les cas… Après les émeutes, découvrez le sondage du Figaro",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Figaro 20/10 19h (exclusif, abonnés) : sondage Ifop-Fiducial Le Figaro/Sud Radio/LCI mené à chaud de samedi soir à lundi ; les violences du 17 octobre consolident la base de Le Pen ; Mélenchon qualifié, EP éliminé dans toutes les hypothèses. Page ouverte (chapeau).",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/sondages/presidentielle-2027-melenchon-qualifie-face-a-le-pen-surpuissante-philippe-elimine-dans-tous-les-cas-apres-les-emeutes-decouvrez-le-sondage-du-figaro-20261020"
+    },
+    {
+      "chaineSlug": "l-opinion",
+      "date": "2026-10-20",
+      "emission": "Présidentielle 2027 : Le Pen domine, Mélenchon creuse l’écart, Philippe s’effondre",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "L'Opinion 20/10 19h : sondage Ifop-Fiducial LCI/Le Figaro/Sud Radio post-17 octobre rend plus probable un duel Le Pen–Mélenchon ; EP « s'effondre ». Page ouverte (chapeau).",
+      "url": "https://www.lopinion.fr/politique/presidentielle-2027-le-pen-domine-melenchon-creuse-lecart-philippe-seffondre"
+    },
+    {
+      "chaineSlug": "tf1-info",
+      "date": "2026-10-20",
+      "emission": "SONDAGE LCI - Présidentielle 2027 : après les violences du 17 octobre, ce que révèle notre dernière enquête",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "TF1 Info/LCI 20/10 18h58 (vidéo) : Ifop-Fiducial ; Le Pen 38 % si Attal candidat unique du bloc central, 36 % si c'est EP ; Mélenchon 16–16,5 % ; Glucksmann talonne EP (14 et 15 %) ; duel à trois Mélenchon–Glucksmann–Philippe pour la 2e place. Page ouverte.",
+      "url": "https://www.tf1info.fr/politique/elections/presidentielle/sondage-lci-presidentielle-2027-apres-les-violences-du-17-octobre-ce-que-revele-notre-derniere-enquete-2471007.html"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-20",
+      "emission": "Présidentielle 2027 - Sondage : Le Pen s'envole après les violences du 17 octobre, Mélenchon loin devant à gauche alors que Philippe s'enlise",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "La Dépêche 20/10 20h53 : Ifop-Fiducial réalisé du 17 au 19/10 ; EP 12 % avec Attal, 15 % seul (−6 pts depuis la rentrée) ; second tour Le Pen 56–44 face à EP (écart le plus faible), 68–32 face à Mélenchon. Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/20/presidentielle-2027-sondage-le-pen-senvole-apres-les-violences-du-17-octobre-melenchon-loin-devant-a-gauche-alors-que-philippe-senlise-13612221.php"
+    },
+    {
+      "chaineSlug": "cnews",
+      "date": "2026-10-20",
+      "emission": "Présidentielle 2027 : Jean-Luc Mélenchon se qualifie au second tour dans tous les cas de figure, selon un sondage",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "CNews 20/10 21h17 : Mélenchon 15–20 %, EP 12–16 %, systématiquement derrière ; écart le plus faible au second tour face à EP (Le Pen 56–44). Page ouverte.",
+      "url": "https://www.cnews.fr/france/2026-10-20/presidentielle-2027-jean-luc-melenchon-se-qualifie-au-second-tour-dans-tous-les"
+    },
+    {
+      "chaineSlug": "20-minutes",
+      "date": "2026-10-21",
+      "emission": "Mélenchon deuxième de la présidentielle dans un sondage après les violences",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "20 Minutes 21/10 6h29 : Ifop LCI/Le Figaro/Sud Radio ; Mélenchon devance d'une courte tête EP (12–16 %) et Glucksmann ; Le Pen l'emporterait dans tous les cas testés, notamment contre EP. Page ouverte.",
+      "url": "https://www.20minutes.fr/politique/4256158-20261021-presidentielle-2027-melenchon-second-tour-sondage-apres-violences"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-20",
+      "emission": "Couvre-feux après le 17 octobre: \"C'est une solution à court terme\", estime Maël de Calan, président du parti Horizons dans le Finistère, porte-parole d'Édouard Philippe",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "BFMTV 20/10 23h04 (vidéo 1:18) : Maël de Calan, porte-parole d'EP, juge la reconduction des couvre-feux « une solution à court terme » ; contexte : Lecornu promet un dispositif « massif » samedi, Nuñez demande d'interdire les manifestations troublant l'ordre public. Page ouverte (aussi sur Orange Actualités).",
+      "url": "https://www.bfmtv.com/politique/horizons/video-couvre-feux-apres-le-17-octobre-c-est-une-solution-a-court-terme-estime-mael-de-calan-president-du-parti-horizons-dans-le-finistere-porte-parole-d-edouard-philippe_VN-202610200902.html"
+    }
+  ]
+}

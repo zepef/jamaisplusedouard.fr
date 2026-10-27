@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-27-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-27T15:53:00Z",
+    "note": "Vague JPE Livre 27 sept 18h. +5 pubs post-last_run 27/09 08h. Fils : Conversation française EP/Norek (LCP actualité chef) ; messe Concorde Attal/EP séparés + liste politiques (Jean-Marc Morandini) ; Le Feur/Attal vs EP (Le Télégramme) ; direct sondage rassemblement (La Dépêche). X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": [
+      "Le Télégramme",
+      "Jean-Marc Morandini"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "lcp",
+      "date": "2026-09-27",
+      "emission": "« Une élection présidentielle sert à choisir quelqu’un qui est un chef »: Édouard Philippe se confie sur l'exercice de l'autorité",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "LCP 27/09 07h35 (maj 13h15). Article sur Conversation française (partenariat La Tribune Dimanche) : EP face à Olivier Norek insiste sur la capacité à commander (« un chef c’est fait pour cheffer », Chirac) ; expérience (service militaire, mairie), conquête du pouvoir, concurrence",
+      "url": "https://lcp.fr/actualites/une-election-presidentielle-sert-a-choisir-quelqu-un-qui-est-un-chef-edouard-philippe-se"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-09-27",
+      "emission": "DIRECT. Présidentielle 2027 : aucun candidat ne réussit à \"rassembler les Français\" d'après ce sondage",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "La Dépêche 27/09 09h14 (maj 14h39). Direct dimanche : rappelle Cluster17 EP=Mélenchon 19 % (Le Pen 31 %) ; baromètre « rassembler les Français » où Glucksmann et EP plafonnent à 3,0/10 devant Le Pen 2,7, Attal 2,5. Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/09/27/direct-presidentielle-2027-aucun-candidat-ne-reussit-a-rassembler-les-francais-dapres-ce-sondage-13571147.php"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-14-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-14T05:58:00Z",
+    "note": "Passe 14 oct 8h (fenêtre ~18h12 Paris 13/10 → ~8h Paris 14/10). +5 pubs (med-2026-707…710 + 1 post X). Signaux : Figaro 13/10 soir — décryptage canaux coulisses Béchu/Barnier entre camps EP-Attal-Retailleau (18h55) ; fiche candidat Horizons (22h45) ; Wauquiez sèche le cocktail parlementaire Retailleau du 14/10 alors qu’EP a réitéré l’invitation majorité droite/centre (18h32, mention). Playbook Politico 14/10 07h (« L’écot en écho ») : EP annoncerait avant Noël un « plan de sauvegarde des finances publiques » ; blocage Attal-Philippe au comité de liaison (Béchu tient le RDV novembre EP + LR vs Riester/Borloo) ; justification invitation Lisnard. X : 1 post @EPhilippe_LH 22h09 Paris — retraites Le Pen « 30 milliards » / « propos grotesques » (#POLITICOCompétitivité). Non retenus (hors fenêtre / avant last_run) : Politico « temps forts » sommet 13/10 18h00 CET ; Ouest-France Maine-et-Loire 09h01 ; 20 Minutes budget 14h25 ; Bregeon BFMTV Face à Face 12/10 ; Dimanchissime 11/10. Skips secondaires : ÉlyséeScope SEO, elections2027.com, Senioractu. Toujours sans couverture vérifiée : Licra 10/10, visite EP Mondial auto (annoncée « mercredi » mais pas de page ouverte ce matin), PNF. À surveiller 14/10 : Grand oral Apig économie des médias (EP annoncé), débat Assemblée contribution UE. Proches inchangé. 3 apparitions ; skips_no_slug Politico Europe + X.",
+    "skips_no_slug": [
+      "Politico Europe",
+      "X"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-13",
+      "emission": "Présidentielle 2027 : Édouard Philippe, Gabriel Attal, Bruno Retailleau… Derrière les rivalités, un dialogue entretenu en coulisses par leurs soutiens",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Figaro 13/10 18h55 (màj 20h22) : décryptage des canaux discrets entre camps EP / Attal / Retailleau malgré le durcissement public. Scène Béchu (codirecteur campagne EP, président intérim Horizons) saluant Barnier (soutien Retailleau) le 6/10 ; les deux veulent un seul candidat droite-centre pour éviter un duel Le Pen-Mélenchon. Page ouverte.",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-edouard-philippe-garbiel-attal-bruno-retailleau-derriere-les-rivalites-un-dialogue-entretenu-en-coulisses-par-leurs-soutiens-20261013"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-13",
+      "emission": "« Il ne se rend à aucune activité de campagne » : Laurent Wauquiez sèche la réunion parlementaire de la droite organisée par Bruno Retailleau",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Figaro 13/10 18h32 (màj 14/10 07h18) : Retailleau convoque parlementaires LR mercredi 14/10 au Concorde pour l’unité, alors qu’EP a réitéré son invitation aux chefs droite/centre à bâtir une « majorité puissante, soudée, dans le respect des sensibilités ». Wauquiez sèche la réunion. Extrait abonnés ouvert (lead).",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/il-ne-se-rend-a-aucune-activite-de-campagne-laurent-wauquiez-seche-la-reunion-parlementaire-de-la-droite-organisee-par-bruno-retailleau-20261013"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-13",
+      "emission": "Présidentielle 2027 : Édouard Philippe, candidat d’Horizons",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Figaro 13/10 22h45 : fiche candidat Horizons — biographie, mandats, Horizons, candidature annoncée au Point (3/09/2024), meeting Adidas Arena 5/07/2026, appels au rassemblement droite/centre « autour de la Toussaint », 4 axes programme (sûre, enfants, prospère, conquérante). Page ouverte.",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/candidats/presidentielle-2027-edouard-philippe-candidat-d-horizons-20261013"
+    }
+  ]
+}

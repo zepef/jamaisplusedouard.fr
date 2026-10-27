@@ -1,0 +1,68 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-07-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-07T05:56:14Z",
+    "note": "Vague JPE Livre 7 oct 8h. +11 pubs (med-2026-570…med-2026-580) — riposte Attal/EP au contre-budget Le Pen (L’Opinion) ; « L’Heure de vérité » France 2 jeu. 8/10 (Figaro, Parlons Politique, revue Larue) ; Canard enchaîné « EP uppercuté par l’actualité » (retraites 65 ans) ; Maël de Calan « retour à l’ordre » lycéens (BFMTV) ; éducation des candidats (CNews) ; coulisses Attal/EP (JDD) ; IA et présidentielle (Stratégies) ; LR/Retailleau (Breizh-info) ; Playbook Politico (Sommet de l’élevage vendredi). 5 apparitions ; 6 skips. X needsAuth. Pas de PR.",
+    "skips_no_slug": [
+      "Stratégies",
+      "Le Canard enchaîné",
+      "Parlons Politique",
+      "Breizh-info",
+      "Stéphane Larue",
+      "Politico"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "cnews",
+      "date": "2026-10-06",
+      "emission": "Blocus des lycées : que proposent les principaux candidats à la présidentielle en matière d'éducation ?",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "CNews 06/10 18h01. Tour des programmes éducation de huit candidats pendant l’acte III du blocus des lycées ; section EP : hausse des salaires des enseignants et établissements plus autonomes (ébauche de programme 2027). Page ouverte.",
+      "url": "https://www.cnews.fr/france/2026-10-06/blocus-des-lycees-que-proposent-les-principaux-candidats-la-presidentielle-en"
+    },
+    {
+      "chaineSlug": "l-opinion",
+      "date": "2026-10-06",
+      "emission": "Les équipes de Gabriel Attal et Edouard Philippe étrillent le plan économique de Marine Le Pen",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "L’Opinion 06/10 18h12. Les deux candidats de l’ex-macronie réagissent immédiatement au contre-budget de Marine Le Pen, accusé de mesures fausses et dispendieuses. Page ouverte.",
+      "url": "https://www.lopinion.fr/politique/les-equipes-de-gabriel-attal-et-edouard-philippe-etrillent-le-plan-economique-de-marine-le-pen"
+    },
+    {
+      "chaineSlug": "le-jdd",
+      "date": "2026-10-06",
+      "emission": "Attal cherche ses alliés, YouTube dans le viseur de l’Arcom... Les coulisses du JDNews",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "JDD 06/10 18h55. Coulisses : Attal cherche à reprendre l’initiative face à EP sur le rassemblement ; un proche du maire du Havre : « Nous partageons l’objectif de rassembler, mais reste à s’entendre sur le projet et la méthode ». Page ouverte.",
+      "url": "https://www.lejdd.fr/politique/attal-cherche-ses-allies-youtube-dans-le-viseur-de-larcom-les-coulisses-du-jdnews-185355"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-06",
+      "emission": "France 2 relance l’émission culte « L’Heure de vérité »",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Le Figaro 06/10 20h20. Retour de « L’Heure de vérité » sur France 2 le 8 octobre, 44 ans après sa création, avec EP premier invité. Page ouverte.",
+      "url": "https://www.lefigaro.fr/medias/france-2-relance-l-emission-culte-l-heure-de-verite-20261006"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-06",
+      "emission": "Mobilisation lycéenne: \"Le retour à l'ordre est nécessaire\", estime Maël de Calan, porte-parole d'Édouard Philippe",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "BFMTV 06/10 (vidéo). Sur l’acte III de la mobilisation lycéenne, Maël de Calan, porte-parole d’EP : « Le retour à l’ordre est nécessaire ». Page ouverte.",
+      "url": "https://www.bfmtv.com/societe/video-mobilisation-lyceenne-le-retour-a-l-ordre-est-necessaire-estime-mael-de-calan-porte-parole-d-edouard-philippe_VN-202610060988.html"
+    }
+  ]
+}

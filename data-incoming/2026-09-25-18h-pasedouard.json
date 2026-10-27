@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-25-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-25T15:55:00Z",
+    "note": "Vague JPE Livre 25 sept 18h. 3 pubs post-last_run 25/09 08h ; 0 poussée (slugs absents). Fils : JdN relais Cluster17 ; Challenges France Travail ; ActuaLitté Conversation française LCP/Norek. X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": [
+      "Journal du Net",
+      "Challenges",
+      "ActuaLitté"
+    ]
+  },
+  "apparitions": []
+}

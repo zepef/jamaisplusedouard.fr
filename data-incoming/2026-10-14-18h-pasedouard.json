@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-14-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-14T15:57:03Z",
+    "note": "Passe 14 oct 18h (fenêtre ~8h Paris → ~18h Paris 14/10). +7 pubs (med-2026-711…717). Signal majeur : la lanceuse d’alerte de l’affaire de la Cité numérique du Havre (PNF, information judiciaire depuis mai 2026) sort de l’anonymat — Cornelia Findeisen (ex-« Judith ») publie « Judith contre Goliath » (Patchenco) le 14/10 ; entretien exclusif Nouvel Obs 8h00 (Matthieu Aron) ; Le Monde 13/10 (page bloquée, rattrapage) ; reprises Tendance Ouest 10h36, Courrier cauchois 12h33, Orange/6Médias-L’Express 12h45. Le cabinet d’EP n’a pas souhaité commenter (Tendance Ouest). Dijon : Nathalie Koenders répond au lapsus « Monsieur le maire » en pointant l’alliance Horizons–Reconquête aux municipales ; Océane Godard (PS) demande des excuses. Algérie360 reprend le plan immigration/famille de « L’Heure de vérité ». X : 0 post @EPhilippe_LH depuis 05:50Z ; posts tiers sur Findeisen non stockés (Matthieu Aron 06:11Z ~66k impressions, Didier Maïsto ~11k). Non retenus : direct La Dépêche 13/10 (replay, items déjà couverts) ; elections2027.com et vof-news.fr (agrégateurs) ; Lyon Capitale comité de soutien (déjà stocké, 8/10) ; L’Alsace 13/10 « lettre morte » (hors fenêtre). Toujours sans couverture vérifiée : grand oral Apig économie des médias (EP annoncé 14/10, JDD) ; visite EP au Mondial de l’auto ; Licra 10/10. À surveiller : réactions politiques et réponse d’EP au livre, comptes rendus Apig. Proches inchangé. 2 apparitions ; skips_no_slug Tendance Ouest, Le Courrier cauchois, Orange Actu (6Médias), Dijon Actualité, Algérie360.",
+    "skips_no_slug": [
+      "Tendance Ouest",
+      "Le Courrier cauchois",
+      "Orange Actu (6Médias)",
+      "Dijon Actualité",
+      "Algérie360"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "le-nouvel-obs",
+      "date": "2026-10-14",
+      "emission": "Exclusif. La lanceuse d’alerte qui fait trembler Edouard Philippe prend la parole",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "critique",
+      "resume": "Nouvel Obs 14/10 8h00 (màj 9h19), entretien exclusif : Cornelia Findeisen, jusqu’ici « Judith », sort de l’anonymat. Énarque, DGA de la communauté urbaine du Havre (présidée par EP) pendant deux ans, chargée de la Cité numérique (projet 2020, plus de 2 M€ de subventions) ; opération lancée sans appel d’offres, exploitation confiée à LH French Tech présidée par Stéphanie de Bazelaire, adjointe d’EP. Elle a saisi le PNF en septembre 2023. Page ouverte (début d’article, suite abonnés).",
+      "url": "https://www.nouvelobs.com/politique/20261014.OBS119194/exclusif-la-lanceuse-d-alerte-qui-fait-trembler-edouard-philippe-prend-la-parole.html"
+    },
+    {
+      "chaineSlug": "le-monde",
+      "date": "2026-10-13",
+      "emission": "Enquête sur Édouard Philippe : la plaignante publie un livre pour donner sa version des faits",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "critique",
+      "resume": "Le Monde 13/10 (rubrique Société) : la plaignante de l’affaire de la Cité numérique du Havre, Cornelia Findeisen, publie « Judith contre Goliath » le 14/10 ; elle dit ne pas « avoir choisi ce calendrier » et aurait « préféré ne jamais avoir à écrire ce livre ». Page bloquée (Client Challenge) : titre et date via index de recherche + URL, propos confirmés par le direct La Dépêche du 13/10 (« Contacté par le Monde ») et Le Courrier cauchois 14/10. Manqué par la passe du 14/10 8h, ajouté en rattrapage.",
+      "url": "https://www.lemonde.fr/societe/article/2026/10/13/enquete-sur-edouard-philippe-la-plaignante-publie-un-livre-pour-donner-sa-version-des-faits_6793142_3224.html"
+    }
+  ]
+}

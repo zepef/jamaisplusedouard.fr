@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-01-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-01T05:55:00Z",
+    "note": "Vague JPE Livre 1er oct 8h. +9 pubs — fil sondage Ifop-Fiducial soir 30/09 (Figaro, L'Opinion, 20 Minutes + skips TF1/Sud Radio/Sud Ouest/Midi Libre) et comparatifs retraites Europe 1 18h30 + RTL 04h00. X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": [
+      "TF1 Info",
+      "Sud Radio",
+      "Sud Ouest",
+      "Midi Libre"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "europe-1",
+      "date": "2026-09-30",
+      "emission": "Le Pen, Retailleau, Attal... Que proposent les principaux candidats à la présidentielle pour les retraites ?",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Europe 1 30/09 18h30 (Rouillard). Comparatif retraites candidats au lendemain annonce EP 65/45. Page ouverte.",
+      "url": "https://www.europe1.fr/politique/le-pen-retailleau-attal-que-proposent-les-principaux-candidats-a-la-presidentielle-pour-les-retraites-1114199"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-09-30",
+      "emission": "Présidentielle 2027 : Le Pen fait la course en tête, Philippe creuse l’écart face à Attal, la gauche recule… Découvrez le sondage du Figaro",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Figaro 30/09 19h00. Baromètre Ifop-Fiducial Figaro/LCI/Sud Radio : EP creuse écart vs Attal ; RN/Horizons qualifiables. Page ouverte (paywall).",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/sondages/presidentielle-2027-le-pen-fait-la-course-en-tete-philippe-creuse-l-ecart-face-a-attal-la-gauche-recule-decouvrez-le-sondage-du-figaro-20260930"
+    },
+    {
+      "chaineSlug": "l-opinion",
+      "date": "2026-09-30",
+      "emission": "Edouard Philippe au second tour de la présidentielle dans tous les scénarios, selon un sondage",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "L'Opinion 30/09 19h15. EP au T2 dans tous scénarios Ifop ; 21-23 % T1. Page ouverte.",
+      "url": "https://www.lopinion.fr/politique/edouard-philippe-au-second-tour-de-la-presidentielle-dans-tous-les-scenarios-selon-un-sondage"
+    },
+    {
+      "chaineSlug": "20-minutes",
+      "date": "2026-09-30",
+      "emission": "Présidentielle 2027 : Philippe passe devant Mélenchon au premier tour dans un nouveau sondage",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "20 Minutes 30/09 20h27 (AFP). EP devant Mélenchon T1 toutes configs ; Le Pen 32-36 %. Page ouverte.",
+      "url": "https://www.20minutes.fr/politique/4250209-20260930-presidentielle-2027-philippe-passe-devant-melenchon-premier-tour-nouveau-sondage"
+    },
+    {
+      "chaineSlug": "rtl",
+      "date": "2026-10-01",
+      "emission": "Fin de l'âge légal, départ à 60 ou 65 ans, capitalisation... Que proposent les principaux candidats à la présidentielle 2027 pour les retraites ?",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "RTL 01/10 04h00 (Vignaud/AFP). Comparatif retraites 2027 centré sur EP 65/45 + capitalisation. Page ouverte.",
+      "url": "https://www.rtl.fr/actu/politique/fin-de-l-age-legal-depart-a-60-ou-65-ans-capitalisation-que-proposent-les-principaux-candidats-a-la-presidentielle-2027-pour-les-retraites-7900679075"
+    }
+  ]
+}

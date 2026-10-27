@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-05-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-05T06:00:00Z",
+    "note": "Vague JPE Livre 5 oct 08h. +8 pubs — TF1 « Route nationale » (EP 1er invité, 20h 4/10) + reprises Public/Gala ; Le Point retraites ; Planet rebond confiance ; La Dépêche boulet retraites (Odoxa 27 %) ; Sud Ouest comités avec Édouard 47. 4 apparitions (la-depeche+le-point+tf1-info) ; 4 skips. X needsAuth (pas de connecteur). Pas de PR.",
+    "skips_no_slug": [
+      "Public",
+      "Planet.fr",
+      "Gala",
+      "Sud Ouest"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "le-point",
+      "date": "2026-10-04",
+      "emission": "Retraites : Édouard Philippe peut-il vraiment « sauver le système » ?",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Point 04/10 19h01 (rubrique économie). Analyse du plan retraites EP (65 ans / 45 annuités / capitalisation). Métadonnées fiables via sitemap news Le Point (page 403 au robot, contenu non lu).",
+      "url": "https://www.lepoint.fr/economie/retraites-que-penser-des-propositions-dedouard-philippe-pour-sauver-le-systeme-WE6P3F35FJBJPDULXXL7QJJYWU/"
+    },
+    {
+      "chaineSlug": "tf1-info",
+      "date": "2026-10-04",
+      "emission": "\"On peut accepter d'être impopulaire quand on pense que c'est nécessaire\" : Édouard Philippe, premier invité de \"Route nationale\" sur TF1",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "TF1 20h 04/10 (article 21h47). EP premier invité de « Route nationale » : Le Havre → pays d’Auge, artisans et profs ; carburants, retraites, salaires, école ; 80 km/h « pas pour emmerder le monde » ; « on peut accepter d’être impopulaire » ; agenda annoncé Annecy, Annemasse, Savoie. Page ouverte.",
+      "url": "https://www.tf1info.fr/politique/elections/presidentielle/reportage-on-peut-accepter-d-etre-impopulaire-quand-on-pense-que-c-est-necessaire-edouard-philippe-est-le-premier-invite-de-route-nationale-sur-tf1-2467966.html"
+    },
+    {
+      "chaineSlug": "tf1-info",
+      "date": "2026-10-04",
+      "emission": "Présidentielle 2027 : \"Route Nationale\" avec Édouard Philippe",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "TF1 Info 04/10 23h05. Vidéo intégrale du segment « Route nationale » du 20h : rencontres artisans (salaires, retraites) et professeurs de collège. Page ouverte.",
+      "url": "https://www.tf1info.fr/politique/elections/presidentielle/videos/video-presidentielle-2027-route-nationale-avec-edouard-philippe-37669-2468019.html"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-05",
+      "emission": "Présidentielle 2027 : Édouard Philippe et le boulet des retraites",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "La Dépêche 05/10 06h39. Plan 65 ans/45 annuités vs 71 % d’opposés à un nouvel allongement ; électeurs EP partagés 42/42 ; baromètre Odoxa-Mascaret (Public Sénat/PQR) : popularité EP 27 % (-5 en 6 mois, -10 en un an). Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/05/presidentielle-2027-edouard-philippe-et-le-boulet-des-retraites-13580883.php"
+    }
+  ]
+}

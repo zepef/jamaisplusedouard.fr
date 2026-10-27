@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-11-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-11T15:56:30Z",
+    "note": "Passe 11 oct 18h (fenêtre 11 oct 08h05 → 17h56). +12 pubs (med-2026-665…med-2026-676) — congrès du Parti radical à Dijon (126e) : Attal et EP appellent au rassemblement « chacun dans son couloir » (AFP/France 24 14h35, Figaro 14h45, 20 Minutes 14h54, LTD 17h12, Bien Public 17h49 « la stratégie de l'évitement ») ; poignée de main brève (TF1 Info 12h40, BFMTV 14h22) ; EP : pas d'« addition comptable et mécanique d'appareils partisans », refus d'une primaire du bloc central ; courrier d'EP aux chefs de partis et groupes de droite et du centre (daté du 8 oct. selon LTD/AFP, envoyé « vendredi par mail » selon les confidentiels LTD) pour se réunir début/première quinzaine de novembre ; Melty récap sondages ; rattrapage 11 oct. : RTL stratégie Mélenchon (meeting au Havre 5 déc.), LTD « Attal, vent de face » (Teinturier : EP « a pris le leadership »), Cadres-Dirigeants (2 h de travail en plus). Aucune couverture trouvée du discours d'EP à la Licra (Hôtel de Ville du Havre, 10/10 18h30, horaire confirmé sur licra.org/ua2026). Baromètre Toluna Harris Interactive M6-RTL vague 7 (terrain 5-8 oct., PDF daté du 12 oct. déjà en ligne) non intégré : à reprendre à la passe du 12 oct. 8h. Aucune émission politique du dimanche avec EP trouvée. X : 0 post @EPhilippe_LH depuis 10/10 17h55 ; 1 recherche Dijon/Licra (posts LCI, BFMTV, journalistes) non retenue. Proches : inchangé. 8 apparitions ; 4 skips (France 24 (AFP), Le Bien Public, Melty, Cadres-Dirigeants).",
+    "skips_no_slug": [
+      "France 24 (AFP)",
+      "Le Bien Public",
+      "Melty",
+      "Cadres-Dirigeants"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-11",
+      "emission": "Présidentielle 2027 : réunis à Dijon, Gabriel Attal et Édouard Philippe appellent chacun au rassemblement, sans proposer de solution concrète",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Figaro/AFP 11/10 14h45 (maj 15h38) : au 126e congrès du Parti radical à Dijon, EP : « ce rassemblement, nous en aurons besoin dans les mois qui viennent », mais pas « d'une addition comptable et mécanique d'appareils partisans » ; refus réitéré d'une primaire du bloc central (« au mieux le rassemblement hypocrite, au pire impossible ») ; Attal : « Évidemment, j'ai parlé » à EP, « nous étions assis l'un à côté de l'autre » ; « brève et peu chaleureuse poignée de main » ; EP « reste pour l'heure le mieux placé dans le camp central selon les sondages ». Page ouverte.",
+      "url": "https://www.lefigaro.fr/politique/reunis-a-dijon-gabriel-attal-et-edouard-philippe-appellent-chacun-au-rassemblement-sans-proposer-de-solution-concrete-20261011"
+    },
+    {
+      "chaineSlug": "la-tribune",
+      "date": "2026-10-11",
+      "emission": "Présidentielle : Gabriel Attal et Édouard Philippe appellent au rassemblement du bloc central, mais chacun dans son couloir",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "La Tribune Dimanche 11/10 17h12 : congrès du Parti radical à Dijon ; EP « mieux placé dans les sondages » maintient son refus d'une primaire ; dans son discours, EP évoque un courrier daté du 8 octobre aux chefs des partis et groupes parlementaires de la droite et du centre, les appelant à se retrouver « dès le début du mois de novembre, pour préparer ensemble le quinquennat qui s'ouvre » et « Construisons ensemble le socle d'un programme de gouvernement » soutenu par une « majorité puissante, soudée ». Page ouverte.",
+      "url": "https://www.latribune.fr/article/la-tribune-dimanche/politique/84798776065116/presidentielle-gabriel-attal-et-edouard-philippe-appellent-au-rassemblement-du-bloc-central-mais-chacun-dans-son-couloir"
+    },
+    {
+      "chaineSlug": "20-minutes",
+      "date": "2026-10-11",
+      "emission": "Présidentielle 2027 : Attal et Philippe continuent d’appeler au rassemblement (chacun de son côté)",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "20 Minutes 11/10 14h54 : « (rapide) poignée de mains » entre Attal et EP au 126e congrès du Parti radical à Dijon ; EP refuse une primaire du bloc central et liste les convergences (Europe, économie de marché régulée, autorité de l'État, laïcité, universalisme républicain). Page ouverte.",
+      "url": "https://www.20minutes.fr/politique/4253249-20261011-presidentielle-2027-attal-philippe-continuent-appeler-rassemblement-chacun-cote"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-11",
+      "emission": "Édouard Philippe et Gabriel Attal échangent une poignée de main au congrès du Parti radical avant leurs discours respectifs",
+      "dureeMinutes": 2,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "BFMTV vidéo 11/10 14h22 (1:23) : poignée de main EP-Attal au 126e congrès du Parti radical à Dijon (10-11 oct.) ; « Si les deux candidats […] se mettent d'accord sur la nécessité d'une union, ses limites restent à définir ». Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/horizons/video-edouard-philippe-et-gabriel-attal-echangent-une-poignee-de-main-au-congres-du-parti-radical-avant-leurs-discours-respectifs_VN-202610110221.html"
+    },
+    {
+      "chaineSlug": "tf1-info",
+      "date": "2026-10-11",
+      "emission": "Dijon : Gabriel Attal et Édouard Philippe échangent une poignée de main",
+      "dureeMinutes": 1,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "TF1 Info vidéo 11/10 12h40 : à l'arrivée d'EP au congrès du Parti radical à Dijon, poignée de main avec Gabriel Attal, « tous deux candidats du bloc central à la présidentielle ». Page ouverte.",
+      "url": "https://www.tf1info.fr/politique/videos/video-dijon-gabriel-attal-et-edouard-philippe-echangent-une-poignee-de-main-13809-2469270.html"
+    },
+    {
+      "chaineSlug": "la-tribune",
+      "date": "2026-10-11",
+      "emission": "Le mail pour l’union d'Édouard Philippe, Louise Montangon future recrue ciottiste… Nos informations confidentielles de la semaine",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Confidentiels LTD n°158, 11/10 8h15 : EP a adressé « vendredi par mail » un courrier aux responsables de la droite et du centre (Attal, Retailleau, Lisnard, Bayrou, Marseille, Morin, Delattre, Wauquiez, Fesneau, Darnaud…) pour un dialogue « dans la première quinzaine de novembre » ; citation : « Sous l'ombrelle de personne. Sous l'autorité de personne. En laissant, bien entendu, chaque candidature prospérer. » Page ouverte.",
+      "url": "https://www.latribune.fr/article/la-tribune-dimanche/politique/12587154328861/le-mail-pour-l-union-dedouard-philippe-louise-montangon-future-recrue-ciottiste-nos-informations-confidentielles-de-la-semaine"
+    },
+    {
+      "chaineSlug": "rtl",
+      "date": "2026-10-11",
+      "emission": "Présidentielle 2027  : la stratégie de Mélenchon derrière ses meetings face à Attal, Le Pen et Philippe",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "RTL 11/10 6h00 : meeting de Mélenchon au Havre le 5 décembre ; Manuel Bompard : « Nous voulons défier Édouard Philippe avec ce meeting dans la ville dont il est le maire » ; rappel municipales (Jean-Paul Lecoq 2e avec 41,17 %). Rattrapage 11 oct. (avant 8h05). Page ouverte.",
+      "url": "https://www.rtl.fr/actu/politique/presidentielle-2027-la-strategie-de-melenchon-derriere-ses-meetings-face-a-attal-le-pen-et-philippe-7900683097"
+    },
+    {
+      "chaineSlug": "la-tribune",
+      "date": "2026-10-11",
+      "emission": "Présidentielle 2027 : Attal, vent de face",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "LTD 11/10 7h15 (envoyé spécial à Lyon) : après son meeting de Lyon, Attal « n'a pour l'instant pas réussi à rattraper son retard par rapport à Édouard Philippe » ; « Au sein de la droite et du centre, Édouard Philippe domine toujours » ; Brice Teinturier (Ipsos-BVA) : « Il a pris le leadership sur Gabriel Attal ». Rattrapage 11 oct. (avant 8h05). Page ouverte.",
+      "url": "https://www.latribune.fr/article/la-tribune-dimanche/politique/11215165118884/presidentielle-2027-attal-vent-de-face"
+    }
+  ]
+}

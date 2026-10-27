@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-27-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-27T06:01:00Z",
+    "note": "Vague JPE Livre 27 sept 08h. +4 pubs post-last_run 26/09 18h. Fils : AFP messe Concorde (Mediapart, Boursorama, Bourse Direct) ; Conversation EP/Norek La Tribune Dimanche. X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": [
+      "Boursorama (AFP)",
+      "Bourse Direct"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "mediapart",
+      "date": "2026-09-26",
+      "emission": "Le Pen, Philippe, Retailleau: foule de candidats à la messe du pape",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Mediapart (fil AFP) 26/09 19h40. Dépêche : nombreuses personnalités du centre à l'extrême droite à la messe Léon XIV Concorde ; titre cite Le Pen, Philippe, Retailleau. EP (Horizons) et Attal parmi les candidats macronistes présents (texte intégral via syndications AFP). Page ouv",
+      "url": "https://www.mediapart.fr/journal/fil-dactualites/260926/le-pen-philippe-retailleau-foule-de-candidats-la-messe-du-pape"
+    },
+    {
+      "chaineSlug": "la-tribune",
+      "date": "2026-09-27",
+      "emission": "Conversation entre Édouard Philippe et Olivier Norek : « C’est sûr qu’une campagne peut offrir un décor à un polar »",
+      "dureeMinutes": 0,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "La Tribune Dimanche 27/09 04h30 (partenariat LCP). Premier épisode « Conversation française » / République des lettres : dialogue EP–Olivier Norek (polar, pouvoir, commandement, fiction avec Gilles Boyer). Antenne LCP prévue 1/10. Page ouverte.",
+      "url": "https://www.latribune.fr/article/la-tribune-dimanche/politique/1931620866697814/conversation-entre-edouard-philippe-et-olivier-norek-c-est-sur-qu-une-campagne-peut-offrir-un-decor-a-un-polar"
+    }
+  ]
+}

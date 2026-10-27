@@ -1,0 +1,99 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-20-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-20T05:56:36Z",
+    "note": "Passe 20 oct 8h (fenêtre ~18h20 Paris 19/10 → ~8h10 Paris 20/10, + rattrapages 20 Minutes 18h19 et AgoraVox 19/10 8h14). +15 pubs (med-2026-868…881 + x-2112260348158099661). Fil : (1) Le Havre : rassemblement du 19/10 18h à l'appel de l'AMF, perturbé par des manifestants (BFMTV 2 vidéos 18h33/18h34 ; Paris-Normandie 20h15 : « il n'y a pas de liberté sans ordre », « indispensable que l'ordre revienne ») ; post X d'EP 21h11 ; (2) suites de la lettre à Macron : Le Monde 19h15 (EP et Attal « tentent d'incarner une forme de rupture », métadonnées Google News, page bloquée), Tabard/Le Figaro 20h15, 20 Minutes 18h19 (Xavier Albertini : « Il faut un chef pour cheffer »), Les Echos 18h27 (conseiller d'EP : « l'affaire Papy Voise en 2002 »), LCP 19h20, Brut 19h08, Gala 21h46 ; (3) signal : Politico Playbook 20/10 — débat TF1-LCI/Restos du cœur du 16 novembre accepté par Le Pen, Mélenchon (a priori), Glucksmann, Attal, Retailleau ; EP « embêté » par son conseil municipal du Havre le même jour ; (4) divers : La Libre (reprise Elabe), Influencia (Stanley Cup Horizons 62 €). Non retenus : Le Point 6h00 entretien Laurent Marcangeli (page anti-bot, EP non vérifié), La Lettre 6h20 Ademe/Horizons (anti-bot, EP non vérifié), Alta Frequenza Marcangeli (corse), Le Parisien 18h21 état d'urgence, 18h52 Macron à bout de souffle, 20h25 « bordel » (EP non vu dans la partie lisible), Le Figaro Retailleau second tour 22h30, Thréard 18h58, RN parti de l'ordre 19h54, extrême gauche 20h25 (EP seulement en liens annexes), La Dépêche Virginie Martin (EP seulement en commentaires), La Dépêche 20/10 6h31 et L'Indépendant édito (pas d'EP), L'Opinion 19h45 (pas d'EP lisible), Drucker (Le Parisien/Midi Libre/La Dépêche, déjà jugé), Libération 11h49 (déjà au livre, re-daté 3h07), vidéos Orange Actualités re-datées (archives). Proches inchangé (Albertini, Poussier-Winsback, Marcangeli déjà au fichier). À surveiller : réponse d'EP à l'invitation au débat TF1-LCI du 16/11 ; déplacement Ardennes 21-22/10 (réunion publique Metropolis 21/10 18h30) ; « acte II » annoncé samedi 24/10 ; réunion des chefs de parti autour de Lecornu ; commission d'enquête ; prochains sondages post-17 octobre ; médiation Borloo Attal–EP ; débat Retailleau ; suites Findeisen/PNF. 8 apparitions ; skips_no_slug AgoraVox, Brut, Gala, Influencia, La Libre Belgique, Politico Europe, X.",
+    "skips_no_slug": [
+      "AgoraVox",
+      "Brut",
+      "Gala",
+      "Influencia",
+      "La Libre Belgique",
+      "Politico Europe",
+      "X"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-19",
+      "emission": "Violences du 17 octobre: Édouard Philippe affirme qu'il est \"indispensable que l'ordre revienne\"",
+      "dureeMinutes": 1,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Vidéo BFMTV (1:02) du 19/10 18h34 : EP, maire du Havre et candidat Horizons, a organisé un rassemblement devant l'hôtel de ville après les violences du 17 octobre et juge « indispensable que l'ordre revienne ». Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/video-violences-du-17-octobre-edouard-philippe-affirme-qu-il-est-indispensable-que-l-ordre-revienne_VN-202610190735.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-19",
+      "emission": "17 octobre: un rassemblement autour du maire du Havre, Édouard Philippe, perturbé par des manifestants",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Vidéo BFMTV (0:48) du 19/10 18h33 : le rassemblement autour d'EP au Havre, après les violences du 17 octobre, a été perturbé par des manifestants ce lundi. Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/video-17-octobre-un-rassemblement-autour-du-maire-du-havre-edouard-philippe-perturbe-par-des-manifestants_VN-202610190734.html"
+    },
+    {
+      "chaineSlug": "paris-normandie",
+      "date": "2026-10-19",
+      "emission": "« On veut des solutions face à cette violence » : au Havre, un rassemblement sous tension",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Compte rendu du rassemblement du 19/10 18h sur le parvis de l'hôtel de ville du Havre (élus de la majorité, préfet Jean-Benoît Albertini, forces de l'ordre, pompiers). EP : « La liberté de manifester est inscrite dans la constitution » ; « Il est indispensable que l’ordre revienne. Pas pour être sous le joug d’un État policier mais parce qu’il n’y a pas de liberté sans ordre » ; refus de « l’inversion des accusations ». Discours perturbés par des jeunes tenus à distance par le dispositif policier (« La vraie violence, c’est celle de l’État ! »). Page ouverte.",
+      "url": "https://www.paris-normandie.fr/id753627/article/2026-10-19/veut-des-solutions-face-cette-violence-au-havre-un-rassemblement-sous-tension"
+    },
+    {
+      "chaineSlug": "les-echos",
+      "date": "2026-10-19",
+      "emission": "Violences du 17 octobre : comment la question de l'ordre fait irruption dans la campagne présidentielle",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Analyse : les prétendants à l'Élysée se sont « tous précipités pour réagir ». « On a tous en tête l'affaire Papy Voise en 2002 », note un conseiller d'EP ; l'ancien Premier ministre « a été particulièrement sévère à l'égard du chef de l'Etat » (citation de sa lettre sur X). Page ouverte (maj 18h59).",
+      "url": "https://www.lesechos.fr/elections/presidentielle/violences-du-17-octobre-comment-la-question-de-lordre-fait-irruption-dans-la-campagne-presidentielle-2257806"
+    },
+    {
+      "chaineSlug": "le-monde",
+      "date": "2026-10-19",
+      "emission": "Après la mobilisation du 17 octobre, Edouard Philippe et Gabriel Attal tentent d’incarner une forme de rupture avec les deux quinquennats d’Emmanuel Macron",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Article Le Monde (URL : « face à l'impopularité d'Emmanuel Macron, Edouard Philippe et Gabriel Attal rejouent la stratégie de la rupture »). Métadonnées Google News (titre, 19/10 19h15 Paris, URL) ; page bloquée au robot (accès restreint), contenu non lu.",
+      "url": "https://www.lemonde.fr/politique/article/2026/10/19/presidentielle-2027-face-a-l-impopularite-d-emmanuel-macron-edouard-philippe-et-gabriel-attal-rejouent-la-strategie-de-la-rupture_6797573_823448.html"
+    },
+    {
+      "chaineSlug": "lcp",
+      "date": "2026-10-19",
+      "emission": "Violences du 17 octobre: qui propose quoi sur le maintien de l'ordre?",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Tour des propositions : « Du côté du bloc central, Édouard Philippe et Gabriel Attal affichent une volonté de fermeté » ; lettre d'EP sur X (retour à l'ordre, sanction des pilleurs et casseurs) ; position d'Horizons (« L'autorité publique doit être fermement restaurée partout où elle est contestée ») ; Attal « en concurrence avec Édouard Philippe au sein du bloc central ». Page ouverte.",
+      "url": "https://lcp.fr/actualites/violences-du-17-octobre-qui-propose-quoi-sur-le-maintien-de-l-ordre-444073"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-19",
+      "emission": "Guillaume Tabard : « Pour Emmanuel Macron, une impuissance dangereuse après le 17 octobre»",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Analyse : « Ce n’est pas un de ses opposants, mais un de ses anciens premiers ministres, Édouard Philippe, qui, juste après son allocution télévisée, dans laquelle il n’a entendu que des « commentaires », lui rappelle que « notre pays a besoin d’être commandé » » ; même constat d'Attal (« l’autorité de l’État a failli »). Page ouverte.",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/guillaume-tabard-pour-emmanuel-macron-une-impuissance-dangereuse-apres-le-17-octobre-20261019"
+    },
+    {
+      "chaineSlug": "20-minutes",
+      "date": "2026-10-19",
+      "emission": "« Ils ne font que subir »… Le gouvernement peut-il sortir de la crise ?",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Analyse : « La pique la plus cruelle est d’ailleurs venue d’un de ses anciens Premiers ministres. « Notre pays a besoin d’être commandé », a tancé Edouard Philippe sur X » ; le député Horizons Xavier Albertini : « Il faut un chef pour cheffer » et « C’est pour éviter cette fin de quinquennat qu’Edouard Philippe avait demandé un départ programmé du chef de l’Etat [en octobre 2025] ». Page ouverte.",
+      "url": "https://www.20minutes.fr/politique/4255683-20261019-violences-17-octobre-font-subir-malgre-annonces-gouvernement-peine-reprendre-main"
+    }
+  ]
+}

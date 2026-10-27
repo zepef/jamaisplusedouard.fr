@@ -1,0 +1,84 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-05-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-05T16:00:00Z",
+    "note": "Vague JPE Livre 5 oct 18h. +18 pubs (med-2026-524…med-2026-541) — retombées « Route nationale » TF1 (audiences 5,57 M, Gala/Closer/Morandini/Toutelatele) ; Libération EP-Attal rassemblement ; agenda : congrès Parti radical Dijon dim 11/10 + Sommet de l’élevage (Cournon) fin de semaine ; retraites (Linternaute 12 %, éditorial La Dépêche, JDD Foucher, Figaro) ; Le Point dette ; Bernstein défense ; baromètre IA. 6 apparitions ; 12 skips. X needsAuth. Pas de PR.",
+    "skips_no_slug": [
+      "Gentside",
+      "Gala",
+      "Sud Ouest",
+      "Jean-Marc Morandini",
+      "Closer",
+      "Toutelatele",
+      "Actu.fr",
+      "Toute l'Europe",
+      "Boursorama",
+      "Presse Agence",
+      "Linternaute",
+      "ICI / France Bleu Pays d'Auvergne"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-05",
+      "emission": "Anne de Guigné : « Le travail, grand absent de la campagne présidentielle »",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Figaro 05/10 07h45 (chronique conjoncture). Tour des propositions travail des candidats : EP s’engage sur la retraite (65 ans, 45 annuités), aux côtés d’Attal et Mélenchon. Page ouverte.",
+      "url": "https://www.lefigaro.fr/conjoncture/anne-de-guigne-le-travail-grand-absent-de-la-campagne-presidentielle-20261005"
+    },
+    {
+      "chaineSlug": "le-jdd",
+      "date": "2026-10-05",
+      "emission": "Retraites : «Nous devrons tous travailler plus longtemps», martèle l'économiste Antoine Foucher",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le JDD 05/10 07h59. Entretien avec Antoine Foucher (ex-dircab de Muriel Pénicaud) ; question sur le plan EP (65 ans, 45 annuités, sans toucher aux pensions, part de capitalisation). Page ouverte.",
+      "url": "https://www.lejdd.fr/Societe/retraites-nous-devrons-tous-travailler-plus-longtemps-martele-leconomiste-antoine-foucher-185118"
+    },
+    {
+      "chaineSlug": "liberation",
+      "date": "2026-10-05",
+      "emission": "Présidentielle 2027 : Edouard Philippe et Gabriel Attal jouent à rassemble-moi si tu peux",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Libération 05/10 11h22 (abonnés). EP (« droite et centre ») et Attal (« de Glucksmann à Retailleau ») tentent chacun le rassemblement, avec de « cuisants échecs » pour l’instant ; chaque camp accuse l’autre de recycler les recettes du passé. Chapô et début lus.",
+      "url": "https://www.liberation.fr/politique/presidentielle-2027-edouard-philippe-et-gabriel-attal-jouent-a-rassemble-moi-si-tu-peux-20261005_RIBLAXBATZFE3GCI5FVM224GGQ/"
+    },
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-05",
+      "emission": "ÉDITORIAL. Retraite : l'âge d'or",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "La Dépêche 05/10 12h26, éditorial. Retraites : « Edouard Philippe propose 65 ans quand Jean-Luc Mélenchon reste attaché à un retour possible aux 60 ans ». Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/05/editorial-retraite-lage-dor-13584519.php"
+    },
+    {
+      "chaineSlug": "le-point",
+      "date": "2026-10-05",
+      "emission": "Crise de la dette : Mélenchon, Le Pen, Philippe – trois stratégies sous pression des marchés",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Point 05/10 15h00 (éditos). Comparaison des stratégies dette/marchés de Mélenchon, Le Pen et EP. Métadonnées Google News (page 403 au robot, contenu non lu).",
+      "url": "https://www.lepoint.fr/editos-du-point/crise-de-la-dette-melenchon-le-pen-philippe-trois-strategies-sous-pression-des-marches-C2ZU774DUVDOJLFBHLCGSCENVU/"
+    },
+    {
+      "chaineSlug": "l-opinion",
+      "date": "2026-10-05",
+      "emission": "Face aux extrêmes, l’appel à l’union de Gabriel Attal sonne dans le vide",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "L’Opinion 05/10 17h15. « Comme Edouard Philippe en septembre », Attal se heurte au refus d’accélérer le rassemblement ; rappel de la lettre d’EP du 8 septembre (de Bayrou à Lisnard, candidature unique dès la Toussaint). Page ouverte.",
+      "url": "https://www.lopinion.fr/politique/face-aux-extremes-lappel-a-lunion-de-gabriel-attal-sonne-dans-le-vide"
+    }
+  ]
+}

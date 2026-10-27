@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-04-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-04T16:00:00Z",
+    "note": "Vague JPE Livre 4 oct 18h. +4 pubs — JDD pâle campagne EP ; Béchu/Match anti-primaire Attal ; Echos/Obs reprises coalition. 3 apparitions (les-echos+le-jdd+le-nouvel-obs) ; 1 skip Paris Match. X needsAuth (pas de connecteur). Pas de PR.",
+    "skips_no_slug": [
+      "Paris Match"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "les-echos",
+      "date": "2026-10-04",
+      "emission": "Présidentielle 2027 : Gabriel Attal tente de reprendre la main en poussant l'idée d'une primaire",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Les Echos 04/10 12h53. Analyse Attal : grande coalition + primaire comme solution ; EP continue de le devancer (Elabe 30 % vs Attal 25 %). Page ouverte.",
+      "url": "https://www.lesechos.fr/elections/presidentielle/presidentielle-2027-gabriel-attal-tente-de-reprendre-la-main-en-poussant-lidee-dune-primaire-2255017"
+    },
+    {
+      "chaineSlug": "le-jdd",
+      "date": "2026-10-04",
+      "emission": "Édouard Philippe : une pâle campagne qui instille le doute",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "JDD 04/10 13h01. Analyse : image techno austère / déficit d’affect ; Toluna a placé Mélenchon devant EP au T1 ; Ifop replace EP 2e si candidat unique du centre ; Guévenoux mise sur ancrage Havre ; Bournazel sur sérieux. Page ouverte.",
+      "url": "https://www.lejdd.fr/politique/edouard-philippe-une-pale-campagne-qui-instille-le-doute-185172"
+    },
+    {
+      "chaineSlug": "le-nouvel-obs",
+      "date": "2026-10-04",
+      "emission": "Pourquoi Attal appelle à une « grande coalition » allant de la gauche social-démocrate et à la droite républicaine",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "L'Obs 04/10 13h23 (màj 15h04, AFP). Attal coalition/primaire ; refus Glucksmann/Retailleau ; EP continue de le devancer ; électorats Attal/Philippe ne s’additionnent pas (Fondation Jean-Jaurès). Page ouverte.",
+      "url": "https://www.nouvelobs.com/politique/20261004.OBS118878/pourquoi-attal-appelle-a-une-grande-coalition-allant-de-la-gauche-social-democrate-et-a-la-droite-republicaine.html"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-17-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-17T06:02:12Z",
+    "note": "Passe 17 oct 8h (fenêtre ~18h05 Paris 16/10 → ~8h Paris 17/10, + rattrapages du 16/10). +9 pubs (med-2026-764…med-2026-772). Fil : (1) la lanceuse d’alerte Cornelia Findeisen (ex-« Judith », Cité numérique du Havre) en entretien AFP repris par 20 Minutes 18h11 et Sud Ouest, et par France 3 Normandie 18h06 (« J’ai été dénigrée par Édouard Philippe ») ; entourage d’EP sans commentaire ; (2) Le Figaro confidentiels 20h00 : EP rouvre la chasse aux ralliements après les sénatoriales ; Charente Libre 19h15 : équipe « Avec Édouard » en Charente pilotée par Thomas Mesnier ; (3) rattrapages : Le Parisien 11h58 sondage jeunes (EP 4 % chez les 18-24 ans), Closer 12h30 réunion d’appartement, France Inter chronique Asko (racines judéo-chrétiennes), Parlons Politique (Attal/Philippe). X : 0 post @EPhilippe_LH depuis 16/10 15:50Z. 5 apparitions ; skips_no_slug Parlons Politique, Closer, Sud Ouest, Charente Libre.",
+    "skips_no_slug": [
+      "Parlons Politique",
+      "Closer",
+      "Sud Ouest",
+      "Charente Libre"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "france-inter",
+      "date": "2026-10-16",
+      "emission": "Quand des hommes d'Etat, Philippe, Sarkozy ou Retailleau nous inventent des racines judéo-chrétiennes...",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "critique",
+      "resume": "France Inter, chronique « Les mots d’Asko » du vendredi 16/10 (heure de diffusion non affichée ; rattrapage) : Claude Askolovitch conteste la notion de « racines judéo-chrétiennes » de la France, en partant d’EP à « L’Heure de vérité » (« J’ai du mal à imaginer que quiconque puisse douter que la France a des racines judéo-chrétiennes […] C’est un fait »), qui refuse toutefois de toucher à la Constitution contrairement à Retailleau ; rapprochement avec Sarkozy et Ciotti. Page ouverte.",
+      "url": "https://www.radiofrance.fr/franceinter/podcasts/les-mots-d-asko/la-chronique-d-asko-du-vendredi-16-octobre-2026-6866550"
+    },
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-16",
+      "emission": "Sondage présidentielle 2027 : 49 % des jeunes voteraient Jean-Luc Mélenchon dès le premier tour, loin devant Marine Le Pen et Édouard Philippe",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "critique",
+      "resume": "Le Parisien 16/10 11h58 (rattrapage) : détail par âge du baromètre OpinionWay Les Echos (13-14/10, 1 043 pers.). Chez les 18-24 ans : Mélenchon 49 %, Le Pen 28 %, Zemmour 11 %, Retailleau 8 %, EP 4 %. Chez les 65 ans et plus : Le Pen 32 %, Glucksmann 21 %, EP 19 %. Ensemble : EP 15 % candidat unique du centre, à égalité avec Mélenchon et Glucksmann. Page ouverte.",
+      "url": "https://www.leparisien.fr/elections/presidentielle/sondage-presidentielle-2027-49-des-jeunes-voteraient-jean-luc-melenchon-des-le-premier-tour-loin-devant-marine-le-pen-et-edouard-philippe-16-10-2026-V5ZAPWXBYFD5PGSPDSLZIIZEQY.php"
+    },
+    {
+      "chaineSlug": "france-3",
+      "date": "2026-10-16",
+      "emission": "\"Être réduite au silence, c'est une double peine\" : la lanceuse d'alerte qui met en cause la gestion d'Édouard Philippe sort de l'ombre pour donner sa version des faits",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "critique",
+      "resume": "France 3 Normandie 16/10 18h06 : entretien avec Cornelia Findeisen sur « Judith contre Goliath ». Plainte au PNF du 14/09/2023 sur la Cité numérique ; statut de lanceuse d’alerte reconnu en janvier 2025 ; auditionnée en septembre 2026 dans l’information judiciaire (deux juges d’instruction). Citation : « J’ai été dénigrée par Édouard Philippe […] Être réduite au silence, c’est une double peine ». Les mis en cause (EP, Stéphanie de Bazelaire) ne commentent pas et disent attendre que « la justice termine son travail ». Page ouverte.",
+      "url": "https://france3-regions.franceinfo.fr/normandie/seine-maritime/havre/etre-reduite-au-silence-c-est-une-double-peine-la-lanceuse-d-alerte-qui-met-en-cause-la-gestion-d-edouard-philippe-sort-de-l-ombre-pour-donner-sa-version-des-faits-3433893.html"
+    },
+    {
+      "chaineSlug": "20-minutes",
+      "date": "2026-10-16",
+      "emission": "Enquête sur Édouard Philippe : La lanceuse d’alerte « Judith », à l’origine de la plainte dévoile son identité",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "critique",
+      "resume": "20 Minutes/AFP 16/10 18h11 : Cornelia Findeisen (ex-« Judith ») se dévoile ; enquête pour soupçons de détournement de fonds publics, favoritisme, prise illégale d’intérêts et concussion au Havre ; « Je suis outrée de ne pas entendre beaucoup parler de la corruption pendant la campagne présidentielle ». Entourage d’EP : pas de commentaire, EP « se tient à la disposition de la justice ». Page ouverte.",
+      "url": "https://www.20minutes.fr/politique/4255058-20261016-enquete-edouard-philippe-lanceuse-alerte-judith-origine-plainte-devoile-identite"
+    },
+    {
+      "chaineSlug": "le-figaro",
+      "date": "2026-10-16",
+      "emission": "Édouard Philippe rouvre la chasse aux ralliements… Les indiscrets du Figaro",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Le Figaro, confidentiels 16/10 20h00 : après le ralliement de Gérald Darmanin cet été, EP avait suspendu la recherche de soutiens pendant les sénatoriales pour ne pas froisser ses alliés locaux ; le scrutin clos, il a « donné consigne à ses troupes de rouvrir les portes ». Page ouverte (début, suite abonnés).",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/edouard-philippe-rouvre-la-chasse-aux-ralliements-les-indiscrets-du-figaro-20261016"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-28-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-28T06:05:00Z",
+    "note": "Vague JPE Livre 28 sept 08h. +6 pubs post-last_run 27/09 18h (+ omissions 27). Fils : Toluna-Harris RTL/M6 Le Pen 57%/EP 43% (BFMTV+Sud Ouest 28/09) ; Cluster17 rejet (La Dépêche 06h06 + Midi Libre 17h54) ; Conversation française superstition sac vert (HuffPost) ; Attal automne AFP (Le Télégramme). X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": [
+      "Le Télégramme",
+      "Midi Libre",
+      "Sud Ouest"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-09-27",
+      "emission": "Présidentielle 2027 : le baromètre du rejet révèle un électorat profondément fragmenté, Marine Tondelier la moins appréciée",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "La Dépêche 27/09 06h06. Cluster17/Politico (15-16/09, n=2045) : probabilité de vote 0–3 — Tondelier 81 %, Mélenchon 73 %, Attal/Villepin 72 %, Retailleau 69 %, EP 68 %, Glucksmann 66 %, Le Pen 62 %. Probabilité élevée 7–10 : Le Pen 30 %, Mélenchon 19 %, EP 18 %. Rassembler : Gluc",
+      "url": "https://www.ladepeche.fr/2026/09/27/presidentielle-2027-le-barometre-du-rejet-revele-un-electorat-profondement-fragmente-marine-tondelier-la-moins-appreciee-13570161.php"
+    },
+    {
+      "chaineSlug": "huffpost",
+      "date": "2026-09-27",
+      "emission": "Il n’y a pas que Marine Tondelier qui a un objet fétiche vert",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "HuffPost 27/09 15h19. Relais Conversation française (LCP/LTD) : EP se dit « hyperrationnel » puis « superstitieux » — ancre/bracelet, sac vert « qui l’accompagne partout » (écussons militaires, porte-bonheur) ; « il ne peut rien m’arriver avec tout ça ». Contexte image/campagne v",
+      "url": "https://www.huffingtonpost.fr/politique/article/il-n-y-a-pas-que-marine-tondelier-qui-a-un-objet-fetiche-vert_331987.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-09-28",
+      "emission": "Présidentielle 2027: Marine Le Pen creuse l'écart au second tour selon un sondage, Jean-Luc Mélenchon qualifié dans toutes les hypothèses",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "BFMTV 28/09 06h26 (AFP). Toluna-Harris Interactive RTL/M6 (22-24/09, n=1974) : T2 Le Pen 57 % / EP 43 %, Le Pen 69 % / Mélenchon 31 %. T1 Le Pen 35–36 %, Mélenchon 18 % devant EP 16 % ; Attal 12–13 %. Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/presidentielle-2027-marine-le-pen-creuse-l-ecart-au-second-tour-selon-un-sondage-jean-luc-melenchon-qualifie-dans-toutes-les-hypotheses_AD-202609280058.html"
+    }
+  ]
+}

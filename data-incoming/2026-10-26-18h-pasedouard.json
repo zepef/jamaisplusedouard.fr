@@ -1,0 +1,93 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (exports/temps-reel-2026-10-26-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-27T08:54:17Z",
+    "note": "Passe 2026-10-26-18h dérivée du ledger (mêmes règles que les data-incoming PasEdouard : outlet -> slug de la liste fermée, emission = titre, resume = résumé du ledger, dureeMinutes 0, tonalité neutre ; sans slug = skip). 18 pubs au ledger pour cette passe.",
+    "skips_no_slug": [
+      "Cluster17",
+      "POLITICO Europe",
+      "upday News",
+      "Midi Libre",
+      "Sud Ouest",
+      "Le Télégramme",
+      "Boursorama",
+      "Le Dauphiné Libéré",
+      "melty",
+      "Le Canard enchaîné",
+      "La Nouvelle Revue Politique"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-26",
+      "emission": "Présidentielle 2027 - sondage : Edouard Philippe en chute libre, Jean-Luc Mélenchon en embuscade, Marine Le Pen consolide son avance",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "EP perd du terrain dans les intentions de vote, Mélenchon se hisse 2e, Le Pen renforce son statut de favorite (Cluster 17/POLITICO). Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/26/presidentielle-2027-sondage-edouard-philippe-en-chute-libre-jean-luc-melenchon-en-embuscade-marine-le-pen-consolide-son-avance-13620689.php"
+    },
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-26",
+      "emission": "Présidentielle 2027 : Édouard Philippe doublé par Jean-Luc Mélenchon, qualifié pour un second tour avec Marine Le Pen, selon un nouveau sondage",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Reprise du sondage Cluster 17/POLITICO. Page bloquée (403), titre/date/URL issus des métadonnées Google News.",
+      "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-edouard-philippe-double-par-jean-luc-melenchon-qualifie-pour-un-second-tour-avec-marine-le-pen-selon-un-nouveau-sondage-26-10-2026-H3MMNQ4PABEDVO4TC4OYKNTQIQ.php"
+    },
+    {
+      "chaineSlug": "l-independant",
+      "date": "2026-10-26",
+      "emission": "SONDAGE. Présidentielle 2027 : Édouard Philippe en chute libre, Raphaël Glucksmann distancé par Jean-Luc Mélenchon, qui se qualifie pour un second tour face à Marine Le Pen",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Cluster 17/POLITICO : Mélenchon devancerait EP pour le second tour face à Le Pen (33 %). Page ouverte.",
+      "url": "https://www.lindependant.fr/2026/10/26/sondage-presidentielle-2027-edouard-philippe-en-chute-libre-raphael-glucksmann-distance-par-jean-luc-melenchon-qui-se-qualifie-pour-un-second-tour-13620940.php"
+    },
+    {
+      "chaineSlug": "cnews",
+      "date": "2026-10-26",
+      "emission": "Présidentielle 2027 : près de la moitié des électeurs d’Emmanuel Macron en 2022 ne voteront pas pour le bloc central, selon un sondage",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Reprise du sondage Ipsos-BVA-Cési/Le Parisien sur le report des électeurs Macron 2022 vers EP et le bloc central. Page ouverte.",
+      "url": "https://www.cnews.fr/france/2026-10-26/presidentielle-2027-pres-de-la-moitie-des-electeurs-demmanuel-macron-en-2022-ne"
+    },
+    {
+      "chaineSlug": "le-jdd",
+      "date": "2026-10-26",
+      "emission": "Présidentielle : Le Pen creuse l’écart avec Mélenchon, Lisnard dépasse Retailleau… Les enseignements d'un nouveau sondage",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Cluster 17/POLITICO : Le Pen 33 %, Mélenchon profite de la chute d'EP, Lisnard concurrence Retailleau. Page ouverte.",
+      "url": "https://www.lejdd.fr/politique/presidentielle-le-pen-creuse-lecart-avec-melenchon-lisnard-depasse-retailleau-les-enseignements-dun-nouveau-sondage-187047"
+    },
+    {
+      "chaineSlug": "marianne",
+      "date": "2026-10-26",
+      "emission": "Durée de cotisation, mères et précaires pénalisés... La réalité derrière la retraite à 65 ans voulue par Édouard Philippe",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Analyse critique du projet retraites d'EP : âge légal de 64 à 65 ans, durée de cotisation de 43 à 45 ans pour une pension pleine ; propositions jugées floues. Page ouverte.",
+      "url": "https://www.marianne.net/economie/duree-de-cotisation-meres-et-precaires-penalises-la-realite-derriere-la-retraite-a-65-ans-voulue-par-edouard-philippe"
+    },
+    {
+      "chaineSlug": "lcp",
+      "date": "2026-10-26",
+      "emission": "Parcoursup: suppression, remplacement, réforme... Ce que proposent les candidats à la présidentielle",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Comparatif des candidats : Parcoursup lancé en 2018 par le gouvernement d'EP, qui a estimé dans L'heure de vérité (France 2) que « Parcoursup c'est stressant et ça ne marche pas comme ça devrait ». Page ouverte.",
+      "url": "https://lcp.fr/actualites/parcoursup-suppression-remplacement-reforme-ce-que-proposent-les-candidats-a-la"
+    }
+  ]
+}

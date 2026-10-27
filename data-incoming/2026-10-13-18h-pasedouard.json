@@ -1,0 +1,74 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-13-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-13T16:12:00Z",
+    "note": "Passe 13 oct 18h (fenêtre ~8h05 → ~18h12 Paris). +21 pubs (med-2026-695…706 + 9 posts X). Signal principal : sommet POLITICO compétitivité 13/10 — EP attaque le programme RN (« péter » / « fissurer » l’Europe), défense nucléaire + renouvelables, IA (« capital américain avec épargne et données européennes », Mistral), finances publiques / moment d’influence / moteur franco-allemand ; vidéos BFMTV + 4 articles Politico (3 FR + 1 EN) + Retailleau citant proposition EP sur droits de douane Chine. Parallèle budget : reprises 13/10 du « budget alternatif » Horizons 10 Md€ (Marcangeli) — BFMTV 09h29, Europe 1 10h52, CNews 13h17 (Figaro source 12/10 22h58 hors fenêtre last_run, manqué par passe 8h — non rétroactivé). Lisnard Face à Face 13/10 : refuse invitation EP novembre, « EP fait partie du problème », mail non répondu. X : 9 posts @EPhilippe_LH (direct sommet 10h31, hommage Dominique Bernard 11h55, puis 7 posts 17h07–17h40 sur comptes/Allemagne/auto/Chine/IA). Non retenus : ActuFrance24 (ferme), Orange Actu (reprise BFMTV Lisnard), Senioractu, Face à Face replay générique sans citation EP vérifiable hors article AV, Figaro Marcangeli 12/10 22h58 (avant last_run). Toujours sans : Licra 10/10, Mondial auto (visite mercredi), Maël de Calan RCF replay, PNF. Proches inchangé. 6 apparitions ; skips_no_slug Politico Europe + X.",
+    "skips_no_slug": [
+      "Politico Europe",
+      "X"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-13",
+      "emission": "\"Ça devrait être notre moment d'influence\": Édouard Philippe regrette que le poids de la France dans les décisions européennes se réduise à cause de son incapacité à redresser ses comptes publics",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "BFM Business / BFMTV 13/10 13h29 (sommet Politico) : EP rapporte que les partenaires européens lui disent « Réglez vos sujets… et ensuite on discute » ; la période « devrait être notre moment d’influence » mais la France est plombée par le non-respect des règles 3%/60% ; relation franco-allemande « moteur cassé » à réparer via finances publiques crédibles. Page ouverte.",
+      "url": "https://www.bfmtv.com/economie/economie-social/finances-publiques/ca-devrait-etre-notre-moment-d-influence-edouard-philippe-regrette-que-le-poids-de-la-france-dans-les-decisions-europeennes-se-reduise-a-cause-de-son-incapacite-a-redresser-ses-comptes-publics_AV-202610130507.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-13",
+      "emission": "\"Ne faisons plus d'élections, faisons le parcoursup des présidents\": David Lisnard répond à Édouard Philippe et dit \"ne pas vouloir d'arrangements entre notables\"",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "BFMTV 13/10 10h02 (Face à Face Lisnard 13/10) : Lisnard ironise sur l’invitation d’EP à négocier début novembre (« Parcoursup des présidents », « Édouard Balladur ») ; « Édouard Philippe fait partie du problème » ; dit n’avoir « pas encore répondu » au mail d’EP (« autre chose à faire ») ; refuse le « bloc central », veut une primaire ouverte. Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/ne-faisons-plus-d-elections-faisons-le-parcoursup-des-presidents-david-lisnard-repond-a-edouard-philippe-et-dit-ne-pas-vouloir-d-arrangements-entre-notables_AV-202610130325.html"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-13",
+      "emission": "Un fonctionnaire sur 3 non remplacé, deux jours de carence, retour de la \"retraite à 64 ans\": le plan d'Édouard Philippe pour économiser rapidement 10 milliards d'euros",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "BFM Business 13/10 09h29 : reprise de l’interview Figaro de Laurent Marcangeli (Horizons) — « budget alternatif » de 10 Md€ d’économies (moitié État / moitié social) pour annuler autant de hausses d’impôts ; revenir sur la suspension de la réforme des retraites (~1 Md€) ; non-remplacement d’1 fonctionnaire sur 3 ; 2 jours de carence public ; −3%/an dépenses Sécu. Page ouverte.",
+      "url": "https://www.bfmtv.com/economie/un-fonctionnaire-sur-3-non-remplace-deux-jours-de-carence-retour-de-la-retraite-a-64-ans-le-plan-d-edouard-philippe-pour-economiser-rapidement-10-milliards-d-euros_AD-202610130296.html"
+    },
+    {
+      "chaineSlug": "cnews",
+      "date": "2026-10-13",
+      "emission": "Budget 2027 : comment le parti d’Edouard Philippe entend réaliser 10 milliards d’euros d’économies supplémentaires",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "CNews 13/10 13h17 : synthèse du « budget alternatif » Horizons (Marcangeli / Figaro) — 10 Md€ d’économies pour annuler autant de hausses d’impôts ; reprise calendrier retraites 64 ans ; non-remplacement 1/3 fonctionnaires ; 2 jours carence ; −3% dépenses Sécu. Page ouverte.",
+      "url": "https://www.cnews.fr/france/2026-10-13/budget-2027-comment-le-parti-dedouard-philippe-entend-realiser-10-milliards"
+    },
+    {
+      "chaineSlug": "europe-1",
+      "date": "2026-10-13",
+      "emission": "Budget 2027 : Horizons propose 10 milliards d'économies supplémentaires",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Europe 1 13/10 10h52 (AFP) : le parti d’EP via Marcangeli propose un « budget alternatif » de 10 Md€ d’économies supplémentaires (État/social) pour annuler des hausses d’impôts, tout en visant déficit à 5% en 2027 ; revenir sur la suspension des retraites. Page ouverte.",
+      "url": "https://www.europe1.fr/economie/budget-2027-horizons-propose-10-milliards-deconomies-supplementaires-1144583"
+    },
+    {
+      "chaineSlug": "bfm-tv",
+      "date": "2026-10-13",
+      "emission": "Budget: \"Dans les propositions de Marine Le Pen, il y a quelque chose de nature à fissurer l'Europe\", estime Édouard Philippe",
+      "dureeMinutes": 1,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "BFMTV 13/10 11h40 (vidéo 1:23) : extrait sommet Politico — EP estime que dans les propositions de Marine Le Pen « il y a quelque chose de nature à fissurer l'Europe ». Page ouverte.",
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/video-budget-dans-les-propositions-de-marine-le-pen-il-y-a-quelque-chose-de-nature-a-fissurer-l-europe-estime-edouard-philippe_VN-202610130428.html"
+    }
+  ]
+}

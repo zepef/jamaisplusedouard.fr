@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-10-12-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-12T05:59:33Z",
+    "note": "Passe 12 oct 8h (fenêtre 11 oct 17h56 → 12 oct ~7h59). +6 pubs (med-2026-677…med-2026-682) — suites Dijon : Les Echos 11/10 19h11 (Delattre « pare-feu » entre EP et Attal ; EP veut l'union droite-centre « sans la gauche », Attal des sociaux-démocrates à la droite ; législatives « condition absolue » ; un proche d'EP : Attal « se démonétise » ; l'entourage d'EP dément toute discussion privée) ; baromètre Toluna Harris Interactive M6-RTL vague 7 (terrain 5-8 oct., publié 12/10) : EP 13 % (hyp. Glucksmann-Attal-Philippe), 17 % (Glucksmann-Philippe et Hollande-Philippe ; 16 % en vague 6), Mélenchon 18, Le Pen 35-36 ; 2nd tour Le Pen 56 / EP 44 (57/43 en vague 6) ; Politico Playbook Paris 12/10 7h00 (Lisnard destinataire du courrier d'EP ; EP « attend avec impatience » le retrait de Retailleau selon Playbook) ; LTD 11/10 19h19 victoire de Glucksmann à la primaire sociale-démocrate (66,17 % dès le 1er tour, mention EP) ; rattrapage 11 oct. : Parlons Politique « peine à transformer ses propositions en élan » (10h58), édito Opinion Internationale (Michel Taube, 6h06). Non retenus : direct TF1 Info primaire (2469249, entrées EP antérieures à 17h56), direct Figaro 12/10 et franceinfo/Europe 1/Sud Ouest Glucksmann (sans EP ou mention AFP identique), RTS (même phrase AFP), Orange/Sud Ouest dépêche AFP Dijon (doublon France 24 déjà stocké), TF1 Info « Route nationale » Attal 11/10 21h06 (simple lien vers EP), Paris-Normandie 7/10 Licra (hors fenêtre). Discours d'EP à la Licra (Hôtel de Ville du Havre, 10/10 18h30) toujours sans couverture trouvée. Aucune émission politique du dimanche soir ni matinale du lundi avec EP ou un proche Horizons trouvée (matinale TF1 : Éric Coquerel). Pistes à reprendre : réactions du bloc central à la victoire de Glucksmann ; réponses au courrier d'EP (Retailleau, Lisnard, Bayrou) et date de la réunion de novembre ; reprises presse du baromètre Harris vague 7 ; LCP « Lundi c'est politique » 12/10 ; prise de parole d'EP sur l'éducation (visio) annoncée par Parlons Politique ; meeting Mélenchon au Havre le 5 déc. X : 1 recherche from:EPhilippe_LH depuis 11/10 17h55 (1er essai HTTP 429, 2e essai OK) = 0 post ; 1 comptage 7 j (29 800 posts depuis 5/10 08h). Proches : inchangé. 3 apparitions ; 3 skips (Politico Europe, Parlons Politique, Opinion Internationale).",
+    "skips_no_slug": [
+      "Politico Europe",
+      "Parlons Politique",
+      "Opinion Internationale"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "les-echos",
+      "date": "2026-10-11",
+      "emission": "Présidentielle 2027 : à Dijon, Edouard Philippe et Gabriel Attal appellent au rassemblement, sans dire comment",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Les Echos 11/10 19h11 (maj 21h51) : au 126e congrès du Parti radical à Dijon, Nathalie Delattre assise entre EP et Attal ; Attal veut un rassemblement « des sociaux-démocrates à la droite républicaine », EP « ne jure que par un rassemblement de la droite et du centre, sans la gauche » et redit son opposition à une primaire ; EP sur les législatives : « Elles sont la condition absolue d'une action politique à la hauteur des enjeux » ; extrait du courrier aux présidents de partis (Bayrou, Retailleau, Lisnard…) et de groupes (Wauquiez, Fesneau, Darnaud…) : « Sous l'ombrelle de personne. Sous l'autorité de personne. » ; un proche d'EP sur Attal : « Plus le temps passe, plus il se démonétise » ; l'entourage d'EP dément toute discussion privée : « Ils se sont salués de manière chaleureuse, mais sans discuter en privé ». Page ouverte.",
+      "url": "https://www.lesechos.fr/elections/presidentielle/presidentielle-2027-a-dijon-edouard-philippe-et-gabriel-attal-appellent-au-rassemblement-sans-dire-comment-2256257"
+    },
+    {
+      "chaineSlug": "rtl",
+      "date": "2026-10-12",
+      "emission": "Rapport Toluna - Baromètre Présidentielle 2027 - Vague 7 (M6-RTL) - 12 octobre 2026",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Rapport PDF Toluna Harris Interactive pour M6 et RTL, vague 7 (terrain en ligne 5-8 oct., 2 004 inscrits issus de 2 348 pers.), publié lundi 12/10 (article RTL « SONDAGE RTL - Présidentielle 2027 : vers un duel Le Pen-Mélenchon, l'affaire Bardella sans effet sur les intentions de vote RN », Marie-Pierre Haddad, 12/10 6h00, qui ne cite pas EP). 1er tour : hypothèse Glucksmann-Attal-Philippe : EP 13 %, Mélenchon 18, Le Pen 35, Glucksmann 10, Retailleau 7, Attal 5 ; Glucksmann-Philippe : EP 17 %, Mélenchon 18, Le Pen 36 ; Hollande-Philippe : EP 17 %, Mélenchon 18, Le Pen 36 (vague 6 du 28/09 selon RTL : 13 % et 16 %). 2nd tour Le Pen 56 % / EP 44 % (vague 6 : 57/43) ; Le Pen 67 / Mélenchon 33. Potentiel électoral : note moyenne EP 3,0 (2,9 en sept.). Marge d'erreur 1,4 à 3,1 pts. PDF ouvert.",
+      "url": "https://tolunacorporate.com/wp-content/uploads/2026/10/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-7-M6-RTL-12-octobre-2026.pdf"
+    },
+    {
+      "chaineSlug": "la-tribune",
+      "date": "2026-10-11",
+      "emission": "Présidentielle : Raphaël Glucksmann remporte largement la primaire sociale-démocrate dès le premier tour",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "LTD 11/10 19h19 : Glucksmann désigné dès le premier tour de la primaire sociale-démocrate ; il « est actuellement crédité de 9 % à 14 % des intentions de vote, loin derrière » Marine Le Pen, « l'ancien Premier ministre d'Emmanuel Macron, Édouard Philippe (centre-droit) » et Jean-Luc Mélenchon. Page ouverte.",
+      "url": "https://www.latribune.fr/article/la-tribune-dimanche/politique/2266887398757114/presidentielle-raphael-glucksmann-remporte-largement-la-primaire-sociale-democrate-des-le-premier-tour"
+    }
+  ]
+}

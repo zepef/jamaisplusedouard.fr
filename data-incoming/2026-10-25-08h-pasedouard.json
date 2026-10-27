@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (exports/temps-reel-2026-10-25-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-27T08:54:17Z",
+    "note": "Passe 2026-10-25-08h dérivée du ledger (mêmes règles que les data-incoming PasEdouard : outlet -> slug de la liste fermée, emission = titre, resume = résumé du ledger, dureeMinutes 0, tonalité neutre ; sans slug = skip). 7 pubs au ledger pour cette passe.",
+    "skips_no_slug": [
+      "Midi Libre",
+      "Entrevue",
+      "WanSquare",
+      "Libre Journal"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "la-depeche",
+      "date": "2026-10-24",
+      "emission": "Présidentielle 2027 - sondage : Edouard Philippe et Gabriel Attal décrochent, Marine Le Pen toujours devant mais pas d'effet 17 octobre",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Sondage Ipsos-BVA-Cési pour Le Parisien, premier depuis les manifestations du 17 octobre : Mélenchon qualifié pour le second tour, Lisnard et Glucksmann en élan au détriment d'EP et d'Attal. Page ouverte.",
+      "url": "https://www.ladepeche.fr/2026/10/24/presidentielle-2027-sondage-philippe-et-attal-decrochent-marine-le-pen-toujours-devant-mais-pas-deffet-17-octobre-13618808.php"
+    },
+    {
+      "chaineSlug": "l-independant",
+      "date": "2026-10-24",
+      "emission": "Présidentielle 2027 : Jean-Luc Mélenchon et Marine Le Pen au second tour, Edouard Philippe et Gabriel Attal à la peine selon un dernier sondage",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Sondage Ipsos-BVA-Cési : sursaut de Lisnard et Glucksmann, « contre-performance d'Édouard Philippe et de Gabriel Attal », duel final Le Pen-Mélenchon ; la crise sociale a fragilisé le bloc central. Page ouverte.",
+      "url": "https://www.lindependant.fr/2026/10/24/presidentielle-2027-jean-luc-melenchon-et-marine-le-pen-au-second-tour-edouard-philippe-et-gabriel-attal-a-la-peine-selon-un-dernier-sondage-13619023.php"
+    },
+    {
+      "chaineSlug": "20-minutes",
+      "date": "2026-10-25",
+      "emission": "Un duel Le Pen-Mélenchon encore annoncé par un sondage pour la présidentielle",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Reprise AFP du sondage Ipsos-BVA-Cési/Le Parisien : EP testé à 15 % seul au centre, derrière Mélenchon ; 13 % à égalité avec Glucksmann si Attal se présente aussi. Page ouverte (même dépêche que BFMTV et Yahoo, non dupliqués).",
+      "url": "https://www.20minutes.fr/politique/4257273-20261025-presidentielle-2027-duel-pen-melenchon-encore-annonce-sondage"
+    }
+  ]
+}

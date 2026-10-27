@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-26-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-26T05:57:00Z",
+    "note": "Vague JPE Livre 26 sept 08h. +4 pubs post-last_run 25/09 18h. Fils : LCP+france.tv Conversation française EP/Norek (dispo 26/09) ; AFP messe Léon XIV Concorde (Sud Radio + France 24) mention EP. X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": [
+      "france.tv",
+      "Sud Radio",
+      "France 24 (AFP)"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "lcp",
+      "date": "2026-09-26",
+      "emission": "Conversation française : Édouard Philippe et Olivier Norek",
+      "dureeMinutes": 26,
+      "type": "interview",
+      "tonalite": "neutre",
+      "resume": "Première Conversation française (Anna Cabana) : EP face à Olivier Norek sur pouvoir, commandement, désobéissance civile. Dispo LCP.fr 26/09→23/09/2028 ; TNT 1/10 20h31.",
+      "url": "https://lcp.fr/programmes/conversation-francaise/conversation-francaise-edouard-philippe-et-olivier-norek-441482"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (temps-reel-2026-09-23-18h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-09-23T16:40:00Z",
+    "note": "Vague JPE Livre 23 sept 18h. 5 pubs post-last_run 23/09 08h ; 0 poussée (tous no-slug). Fil : relais jour sortie Crépuscule des princes (JdN, Gentside, Orange) + Paris Match triptyque Retailleau/Attal/EP + 21 News match nul sondages. X needsAuth. Pas de PR (Cloud Agents indisponibles).",
+    "skips_no_slug": [
+      "Journal du Net",
+      "Gentside",
+      "21 News",
+      "Paris Match",
+      "Orange Actualités"
+    ]
+  },
+  "apparitions": []
+}

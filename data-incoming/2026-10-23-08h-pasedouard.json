@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (exports/temps-reel-2026-10-23-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-27T08:54:17Z",
+    "note": "Passe 2026-10-23-08h dérivée du ledger (mêmes règles que les data-incoming PasEdouard : outlet -> slug de la liste fermée, emission = titre, resume = résumé du ledger, dureeMinutes 0, tonalité neutre ; sans slug = skip). 6 pubs au ledger pour cette passe.",
+    "skips_no_slug": [
+      "X",
+      "L'Ardennais",
+      "The Times of Israël",
+      "La Lettre"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "europe-1",
+      "date": "2026-10-22",
+      "emission": "SONDAGE - Présidentielle 2027 : après le 17 octobre, Marine Le Pen consolide son avance au premier tour, David Lisnard devance Gabriel Attal",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "Sondage OpinionWay pour CNews : EP 12 % au 1er tour, 4e derrière Le Pen, Mélenchon et Glucksmann ; Le Pen 56-44 face à EP au 2nd tour. Page ouverte.",
+      "url": "https://www.europe1.fr/politique/sondage-presidentielle-2027-apres-le-17-octobre-marine-le-pen-consolide-son-avance-au-premier-tour-david-lisnard-devance-gabriel-attal-1174275"
+    },
+    {
+      "chaineSlug": "cnews",
+      "date": "2026-10-22",
+      "emission": "Sondage : Marine Le Pen conforte son avance au premier tour de l'élection présidentielle et battrait plus largement Jean-Luc Mélenchon au second",
+      "dureeMinutes": 0,
+      "type": "mention",
+      "tonalite": "neutre",
+      "resume": "OpinionWay pour CNews (21-22/10) : Glucksmann 13 % et EP 12 % conservent les 3e et 4e places ; hypothèse de 2nd tour Le Pen-EP testée. Page ouverte.",
+      "url": "https://www.cnews.fr/france/2026-10-22/sondage-marine-le-pen-conforte-son-avance-au-premier-tour-de-lelection"
+    }
+  ]
+}

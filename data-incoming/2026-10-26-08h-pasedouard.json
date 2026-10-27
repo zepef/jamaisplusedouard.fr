@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "source": "ledger PasEdouard (exports/temps-reel-2026-10-26-08h.jsonl)",
+    "producer": "PasEdouard",
+    "generatedAt": "2026-10-27T08:54:17Z",
+    "note": "Passe 2026-10-26-08h dérivée du ledger (mêmes règles que les data-incoming PasEdouard : outlet -> slug de la liste fermée, emission = titre, resume = résumé du ledger, dureeMinutes 0, tonalité neutre ; sans slug = skip). 9 pubs au ledger pour cette passe.",
+    "skips_no_slug": [
+      "POLITICO Europe",
+      "La Lettre de l'Expansion",
+      "Le Grenier de l'éco",
+      "Les 4 Vérités Hebdo",
+      "Capital"
+    ]
+  },
+  "apparitions": [
+    {
+      "chaineSlug": "le-point",
+      "date": "2026-10-26",
+      "emission": "Pour Édouard Philippe, la fin de l’argument d’autorité",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Texte de la rubrique Débats du Point consacré à EP ; page bloquée (403 anti-bot), titre/date/URL issus des métadonnées Google News.",
+      "url": "https://www.lepoint.fr/debats/pour-edouard-philippe-la-fin-de-largument-dautorite-5JC7K2KJUJG5DMXGMS4V2ZVO4Y/"
+    },
+    {
+      "chaineSlug": "le-parisien",
+      "date": "2026-10-26",
+      "emission": "Présidentielle 2027 : selon notre sondage, seulement un électeur sur deux d’Emmanuel Macron au premier tour en 2022 voterait pour le bloc central",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Ipsos-BVA-Cési : si EP est seul candidat du bloc central, 49 % des électeurs Macron 2022 voteraient pour lui (21 % Glucksmann, 14 % Le Pen) ; avec Attal, 42 % EP contre 13 % Attal ; scénario EP + Lisnard : 47 % EP. Page ouverte.",
+      "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-selon-notre-sondage-seulement-un-electeur-sur-deux-demmanuel-macron-au-premier-tour-en-2022-voterait-pour-le-bloc-central-26-10-2026-X6GZHIUYWZF27OZFTZWCXHLV2A.php"
+    },
+    {
+      "chaineSlug": "rtl",
+      "date": "2026-10-24",
+      "emission": "Présidentielle 2027 : Le Pen et Mélenchon au second tour dans tous les cas de figure, Philippe et Attal en difficulté, selon un sondage",
+      "dureeMinutes": 0,
+      "type": "reportage",
+      "tonalite": "neutre",
+      "resume": "Nouveau sondage : Le Pen et Mélenchon au second tour dans tous les cas de figure ; percée de Glucksmann, au coude-à-coude avec EP. Page ouverte (rattrapage, manquée par la passe du 25/10 8h).",
+      "url": "https://www.rtl.fr/actu/politique/presidentielle-2027-le-pen-et-melenchon-au-second-tour-dans-tous-les-cas-de-figure-philippe-et-attal-en-difficulte-selon-un-sondage-7900688983"
+    }
+  ]
+}
