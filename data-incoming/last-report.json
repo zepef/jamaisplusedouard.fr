@@ -1,51 +1,1140 @@
 {
-  "runAt": "2026-06-13T08:44:27.440Z",
+  "runAt": "2026-10-30T08:58:04.917Z",
   "files": [
-    {
-      "file": "2026-06-11-collecte-brute.json",
-      "added": {},
-      "skipped": {},
-      "errors": []
-    },
-    {
-      "file": "2026-06-12-collecte-brute.json",
-      "added": {},
-      "skipped": {},
-      "errors": []
-    },
-    {
-      "file": "2026-06-12-media-ownership-brief.json",
-      "added": {
-        "reseau": 2,
-        "timeline": 2
-      },
-      "skipped": {},
-      "errors": [
-        "controverses[0].sources[0].url requis",
-        "controverses[0].sources[1].url requis"
-      ]
-    },
-    {
-      "file": "2026-06-12-search-kohler-v2.json",
-      "added": {
-        "reseau": 3,
-        "timeline": 8,
-        "controverses": 1,
-        "investigations": 1
-      },
-      "skipped": {},
-      "errors": []
-    },
     {
       "file": "2026-06-13-collecte-brute.json",
       "added": {},
       "skipped": {},
       "errors": []
+    },
+    {
+      "file": "2026-06-14-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-06-15-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-06-16-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-06-17-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-06-18-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-06-21-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-06-22-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-06-23-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-06-24-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-06-25-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-06-26-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-06-27-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-06-28-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-06-29-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-06-30-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-01-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-02-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-03-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-04-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-05-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-06-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-07-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-08-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-09-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-10-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-11-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-12-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-13-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-14-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-15-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-16-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-17-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-18-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-19-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-20-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-21-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-22-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-23-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-24-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-25-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-26-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-27-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-28-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-29-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-30-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-07-31-collecte-brute.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-08-31-18h-pasedouard.json",
+      "added": {
+        "apparitions": 11
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-08-31-pasedouard-18h-rematch.json",
+      "added": {
+        "apparitions": 75
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-01-08h-pasedouard.json",
+      "added": {
+        "apparitions": 2
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-01-18h-pasedouard.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-02-08h-pasedouard.json",
+      "added": {
+        "apparitions": 5
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-02-18h-pasedouard.json",
+      "added": {
+        "apparitions": 4
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-03-08h-pasedouard.json",
+      "added": {
+        "apparitions": 2
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-04-08h-pasedouard.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-04-18h-pasedouard.json",
+      "added": {
+        "apparitions": 5
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-04-18h-rematch-huff-libe.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-05-08h-pasedouard.json",
+      "added": {
+        "apparitions": 2
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-05-18h-pasedouard.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-06-08h-pasedouard.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-07-18h-pasedouard.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-08-08h-pasedouard.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-08-18h-pasedouard.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-09-08h-pasedouard.json",
+      "added": {
+        "apparitions": 6
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-09-18h-pasedouard.json",
+      "added": {
+        "apparitions": 8
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-10-08h-pasedouard.json",
+      "added": {
+        "apparitions": 8
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-10-18h-pasedouard.json",
+      "added": {
+        "apparitions": 4
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-11-08h-pasedouard.json",
+      "added": {
+        "apparitions": 1
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-11-18h-pasedouard.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-12-08h-pasedouard.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-12-18h-pasedouard.json",
+      "added": {
+        "apparitions": 2
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-13-08h-pasedouard.json",
+      "added": {
+        "apparitions": 2
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-13-18h-pasedouard.json",
+      "added": {
+        "apparitions": 2
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-14-08h-pasedouard.json",
+      "added": {
+        "apparitions": 4
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-14-18h-pasedouard.json",
+      "added": {
+        "apparitions": 5
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-15-08h-pasedouard.json",
+      "added": {
+        "apparitions": 1
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-15-18h-pasedouard.json",
+      "added": {
+        "apparitions": 1
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-16-08h-pasedouard.json",
+      "added": {
+        "apparitions": 1
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-17-08h-pasedouard.json",
+      "added": {
+        "apparitions": 4
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-17-18h-pasedouard.json",
+      "added": {
+        "apparitions": 1
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-20-08h-pasedouard.json",
+      "added": {
+        "apparitions": 8
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-20-18h-pasedouard.json",
+      "added": {
+        "apparitions": 4
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-21-08h-pasedouard.json",
+      "added": {
+        "apparitions": 2
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-21-18h-pasedouard.json",
+      "added": {
+        "apparitions": 4
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-22-08h-pasedouard.json",
+      "added": {
+        "apparitions": 2
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-22-18h-pasedouard.json",
+      "added": {
+        "apparitions": 2
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-23-08h-pasedouard.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-23-18h-pasedouard.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-24-08h-pasedouard.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-24-18h-pasedouard.json",
+      "added": {
+        "apparitions": 5
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-25-08h-pasedouard.json",
+      "added": {
+        "apparitions": 1
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-25-18h-pasedouard.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-26-08h-pasedouard.json",
+      "added": {
+        "apparitions": 1
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-26-18h-pasedouard.json",
+      "added": {
+        "apparitions": 1
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-27-08h-pasedouard.json",
+      "added": {
+        "apparitions": 2
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-27-18h-pasedouard.json",
+      "added": {
+        "apparitions": 2
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-28-08h-pasedouard.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-28-18h-pasedouard.json",
+      "added": {
+        "apparitions": 4
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-29-08h-pasedouard.json",
+      "added": {
+        "apparitions": 6
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-29-18h-pasedouard.json",
+      "added": {
+        "apparitions": 14
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-30-08h-pasedouard.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-09-30-18h-pasedouard.json",
+      "added": {
+        "apparitions": 5
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-01-08h-pasedouard.json",
+      "added": {
+        "apparitions": 5
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-01-18h-pasedouard.json",
+      "added": {
+        "apparitions": 5
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-02-08h-pasedouard.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-02-18h-pasedouard.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-03-08h-pasedouard.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-03-18h-pasedouard.json",
+      "added": {
+        "apparitions": 2
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-04-08h-pasedouard.json",
+      "added": {
+        "apparitions": 4
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-04-18h-pasedouard.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-05-08h-pasedouard.json",
+      "added": {
+        "apparitions": 4
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-05-18h-pasedouard.json",
+      "added": {
+        "apparitions": 6
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-06-08h-pasedouard.json",
+      "added": {
+        "apparitions": 6
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-06-18h-pasedouard.json",
+      "added": {
+        "apparitions": 4
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-07-08h-pasedouard.json",
+      "added": {
+        "apparitions": 5
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-07-18h-pasedouard.json",
+      "added": {
+        "apparitions": 8
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-08-08h-pasedouard.json",
+      "added": {
+        "apparitions": 6
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-09-08h-pasedouard.json",
+      "added": {
+        "apparitions": 12
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-09-18h-pasedouard.json",
+      "added": {
+        "apparitions": 7
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-10-08h-pasedouard.json",
+      "added": {
+        "apparitions": 7
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-10-18h-pasedouard.json",
+      "added": {
+        "apparitions": 8
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-11-08h-pasedouard.json",
+      "added": {
+        "apparitions": 4
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-11-18h-pasedouard.json",
+      "added": {
+        "apparitions": 8
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-12-08h-pasedouard.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-12-18h-pasedouard.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-13-08h-pasedouard.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-13-18h-pasedouard.json",
+      "added": {
+        "apparitions": 6
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-14-08h-pasedouard.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-14-18h-pasedouard.json",
+      "added": {
+        "apparitions": 2
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-15-08h-pasedouard.json",
+      "added": {
+        "apparitions": 6
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-15-18h-pasedouard.json",
+      "added": {
+        "apparitions": 5
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-16-08h-pasedouard.json",
+      "added": {
+        "apparitions": 6
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-16-18h-pasedouard.json",
+      "added": {
+        "apparitions": 12
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-17-08h-pasedouard.json",
+      "added": {
+        "apparitions": 5
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-17-18h-pasedouard.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-18-08h-pasedouard.json",
+      "added": {
+        "apparitions": 7
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-18-18h-pasedouard.json",
+      "added": {
+        "apparitions": 9
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-19-08h-pasedouard.json",
+      "added": {
+        "apparitions": 28
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-19-18h-pasedouard.json",
+      "added": {
+        "apparitions": 18
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-20-08h-pasedouard.json",
+      "added": {
+        "apparitions": 8
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-20-18h-pasedouard.json",
+      "added": {
+        "apparitions": 4
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-21-08h-pasedouard.json",
+      "added": {
+        "apparitions": 10
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-21-18h-pasedouard.json",
+      "added": {
+        "apparitions": 10
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-22-08h-pasedouard.json",
+      "added": {
+        "apparitions": 11
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-22-18h-pasedouard.json",
+      "added": {
+        "apparitions": 9
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-23-08h-pasedouard.json",
+      "added": {
+        "apparitions": 2
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-23-18h-pasedouard.json",
+      "added": {
+        "apparitions": 4
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-24-08h-pasedouard.json",
+      "added": {},
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-24-18h-pasedouard.json",
+      "added": {
+        "apparitions": 2
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-25-08h-pasedouard.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-25-18h-pasedouard.json",
+      "added": {
+        "apparitions": 5
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-26-08h-pasedouard.json",
+      "added": {
+        "apparitions": 3
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-26-18h-pasedouard.json",
+      "added": {
+        "apparitions": 7
+      },
+      "skipped": {},
+      "errors": []
+    },
+    {
+      "file": "2026-10-27-08h-pasedouard.json",
+      "added": {
+        "apparitions": 7
+      },
+      "skipped": {},
+      "errors": []
     }
   ],
   "totals": {
-    "added": 17,
+    "added": 575,
     "skipped": 0,
-    "invalid": 1
+    "invalid": 0
   }
 }
