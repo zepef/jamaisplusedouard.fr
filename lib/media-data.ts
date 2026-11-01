@@ -8338,6 +8338,38 @@ export const apparitions: ApparitionMedia[] = [
     resume: "Annonce : Philippe invité en direct du 20H de TF1 le dimanche 1/11 face à Anne-Claire Coudray (crise sociale, primaire droite-centre). Page d'annonce, heure de mise en ligne non relevée (page bloquée en lecture directe, métadonnées de recherche).",
     url: "https://www.tf1info.fr/politique/direct-interview-presidentielle-edouard-philippe-invite-du-20h-de-tf1-ce-dimanche-primaire-centre-droite-democrates-gabriel-attal-mobilisation-sociale-2473135.html",
   },
+  // Lot 1er novembre 2026 18h (export temps réel). dureeMinutes 0, tonalite neutre.
+  // « Mediapart (AFP) » rattaché au slug existant mediapart.
+  {
+    chaineSlug: "huffpost",
+    date: "2026-11-01",
+    emission: "Présidentielle 2027 : la pression monte sur Édouard Philippe pour une primaire de la droite et du centre",
+    dureeMinutes: 0,
+    type: "reportage",
+    tonalite: "neutre",
+    resume: "Avant le 20H de TF1 : pression d'Attal, ralliement de Bruno Le Maire à l'idée de primaire, Bergé, Fesneau contre Lisnard ; Maël de Calan (porte-parole) : Philippe « reste le seul à garder une chance de se qualifier au second tour ». Daté du 1/11, heure non relevée.",
+    url: "https://www.huffingtonpost.fr/politique/article/presidentielle-2027-la-pression-monte-sur-edouard-philippe-pour-une-primaire-de-la-droite-et-du-centre_349571.html",
+  },
+  {
+    chaineSlug: "mediapart",
+    date: "2026-11-01",
+    emission: "Primaire ou pas primaire ? Philippe répond au 20H00 de TF1",
+    dureeMinutes: 0,
+    type: "mention",
+    tonalite: "neutre",
+    resume: "Fil AFP, 01/11 13:30 : le débat sur la primaire doit être tranché par Philippe au 20H de TF1.",
+    url: "https://www.mediapart.fr/journal/fil-dactualites/011126/primaire-ou-pas-primaire-philippe-repond-au-20h00-de-tf1",
+  },
+  {
+    chaineSlug: "20-minutes",
+    date: "2026-11-01",
+    emission: "Présidentielle 2027 : Fesneau veut une primaire « des sociaux-démocrates à la droite républicaine », mais sans Lisnard",
+    dureeMinutes: 0,
+    type: "mention",
+    tonalite: "neutre",
+    resume: "Fesneau (MoDem, Tribune Dimanche) exclut Lisnard d'une primaire ; Philippe cité comme en baisse mais devant Attal. Publié 01/11 10:40.",
+    url: "https://www.20minutes.fr/politique/4259296-20261101-presidentielle-2027-fesneau-veut-primaire-sociaux-democrates-droite-republicaine-lisnard",
+  },
 ];
 
 // --- Calculs ---
