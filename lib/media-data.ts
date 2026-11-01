@@ -8307,6 +8307,37 @@ export const apparitions: ApparitionMedia[] = [
     resume: "Bergé relance la primaire droite-centre ; Philippe y reste opposé. Publié 31/10 15:28.",
     url: "https://www.bfmtv.com/politique/elections/presidentielle/de-plus-en-plus-de-voix-la-reclament-aurore-berge-plaide-a-nouveau-pour-une-primaire-du-centre-et-de-la-droite-pour-la-presidentielle_AV-202610310268.html",
   },
+  // Lot 1er novembre 2026 8h (export temps réel). dureeMinutes 0, tonalite neutre.
+  {
+    chaineSlug: "la-tribune",
+    date: "2026-11-01",
+    emission: "En baisse dans les sondages, le temps des doutes pour Édouard Philippe",
+    dureeMinutes: 0,
+    type: "reportage",
+    tonalite: "neutre",
+    resume: "Ludovic Vigogne (La Tribune Dimanche n°161, abonnés) : Philippe a reconnu le 26/10 devant ses lieutenants une période compliquée ; recul sondagier face à Glucksmann et Mélenchon, concurrence de Lisnard ; invité du 20H de TF1 le 1/11. Publié 01/11 06:00.",
+    url: "https://www.latribune.fr/article/la-tribune-dimanche/politique/presidentielle/70176235402782/en-baisse-dans-les-sondages-le-temps-des-doutes-pour-edouard-philippe",
+  },
+  {
+    chaineSlug: "le-jdd",
+    date: "2026-11-01",
+    emission: "Primaire : les rivaux d'Édouard Philippe s'activent pour lui forcer la main",
+    dureeMinutes: 0,
+    type: "reportage",
+    tonalite: "neutre",
+    resume: "Victor-Isaac Anne : Philippe refuse toujours la primaire (refus renouvelé par Christophe Béchu à Renaissance) ; camp Retailleau qui s'ouvre à l'idée ; absence annoncée au débat LCI du 16/11 ; Ifop doit sonder le désir de primaire. Publié 01/11 07:55.",
+    url: "https://www.lejdd.fr/politique/primaire-les-rivaux-dedouard-philippe-sactivent-pour-lui-forcer-la-main-187455",
+  },
+  {
+    chaineSlug: "tf1-info",
+    date: "2026-11-01",
+    emission: "Primaire, mobilisation sociale... Édouard Philippe invité du 20H de TF1 ce dimanche",
+    dureeMinutes: 0,
+    type: "interview",
+    tonalite: "neutre",
+    resume: "Annonce : Philippe invité en direct du 20H de TF1 le dimanche 1/11 face à Anne-Claire Coudray (crise sociale, primaire droite-centre). Page d'annonce, heure de mise en ligne non relevée (page bloquée en lecture directe, métadonnées de recherche).",
+    url: "https://www.tf1info.fr/politique/direct-interview-presidentielle-edouard-philippe-invite-du-20h-de-tf1-ce-dimanche-primaire-centre-droite-democrates-gabriel-attal-mobilisation-sociale-2473135.html",
+  },
 ];
 
 // --- Calculs ---
