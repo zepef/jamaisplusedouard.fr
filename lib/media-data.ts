@@ -8431,6 +8431,48 @@ export const apparitions: ApparitionMedia[] = [
     resume: "Publié 02/11 06:51 : refus de la primaire, rendez-vous en février alors que les sondages s'effritent.",
     url: "https://www.europe1.fr/politique/presidentielle-edouard-philippe-ferme-la-porte-a-une-primaire-et-se-donne-jusquen-fevrier-pour-simposer-1201047",
   },
+  // Lot 2 novembre 2026 18h (export temps réel). dureeMinutes 0, tonalite neutre.
+  // « France 3 Normandie » rattaché au slug existant france-3.
+  {
+    chaineSlug: "france-3",
+    date: "2026-11-02",
+    emission: "Refus d'une primaire de la droite et du centre, \"calomnies racistes\"... Pourquoi l'interview d'Édouard Philippe sur TF1 crée la polémique",
+    dureeMinutes: 0,
+    type: "reportage",
+    tonalite: "neutre",
+    resume: "Publié 02/11 12h37 (Manon Loubet et AFP) : réactions d'Attal et de Mélenchon à l'interview TF1 ; TF1 dit que la venue de Mélenchon était déjà reportée.",
+    url: "https://france3-regions.franceinfo.fr/normandie/seine-maritime/havre/refus-d-une-primaire-de-la-droite-et-du-centre-calomnies-racistes-pourquoi-l-interview-d-edouard-philippe-sur-tf1-cree-la-polemique-3442854.html",
+  },
+  {
+    chaineSlug: "rtl",
+    date: "2026-11-02",
+    emission: "Propos sur l'immigration, attaque contre TF1, riposte sur X : pourquoi Édouard Philippe et Jean-Luc Mélenchon se livrent une passe d'armes depuis dimanche soir",
+    dureeMinutes: 0,
+    type: "reportage",
+    tonalite: "neutre",
+    resume: "Publié 02/11 12:11 : retour sur la séquence immigration/violences du 17 octobre au 20H de TF1 et la riposte de Mélenchon.",
+    url: "https://www.rtl.fr/actu/politique/propos-sur-l-immigration-attaque-contre-tf1-riposte-sur-x-pourquoi-edouard-philippe-et-jean-luc-melenchon-se-livrent-une-passe-d-armes-depuis-dimanche-soir-7900691417",
+  },
+  {
+    chaineSlug: "le-figaro",
+    date: "2026-11-02",
+    emission: "Présidentielle 2027 : malgré le refus d'Édouard Philippe, Gabriel Attal pense la primaire «inéluctable»",
+    dureeMinutes: 0,
+    type: "mention",
+    tonalite: "neutre",
+    resume: "Attal sur TF1 lundi : la primaire est « inéluctable » ; Philippe : « Si les Français ont décidément envie de passer à autre chose […] j'en tirerai les conséquences ».",
+    url: "https://www.lefigaro.fr/elections/presidentielles/candidats/presidentielle-2027-malgre-le-refus-d-edouard-philippe-gabriel-attal-pense-la-primaire-ineluctable-20261102",
+  },
+  {
+    chaineSlug: "france-inter",
+    date: "2026-11-02",
+    emission: "Primaires : tensions et trahisons",
+    dureeMinutes: 0,
+    type: "mention",
+    tonalite: "neutre",
+    resume: "Chronique « Le petit carnet de campagne » du 02/11 sur le rejet de la primaire par Philippe.",
+    url: "https://www.radiofrance.fr/franceinter/podcasts/le-petit-carnet-de-campagne/petits-carnets-de-campagne-du-lundi-02-novembre-2026-1095864",
+  },
 ];
 
 // --- Calculs ---
