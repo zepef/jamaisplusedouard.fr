@@ -41,7 +41,7 @@ const CENTROIDES = new Set(["philippe", "juppe", "raffarin", "villepin"]);
 const SOURCE_TYPES = new Set(["presse", "officiel", "social", "registre"]);
 const CATEGORIES = new Set(["biographie", "controverse", "carriere"]);
 const GRAVITES = new Set(["haute", "moyenne", "basse"]);
-const APPARITION_TYPES = new Set(["interview", "plateau", "reportage", "mention", "debat"]);
+const APPARITION_TYPES = new Set(["interview", "plateau", "reportage", "mention", "debat", "post_x"]);
 const TONALITES = new Set(["favorable", "neutre", "critique"]);
 
 // ── Helpers de validation ────────────────────────────────────
