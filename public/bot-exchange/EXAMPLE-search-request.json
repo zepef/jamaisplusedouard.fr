@@ -15,7 +15,7 @@
     "objectif": "Reformulation courte du résultat attendu (1 phrase).",
     "perimetre": {
       "canaux": ["all"],
-      "typesApparition": ["interview", "plateau", "reportage", "mention", "debat"],
+      "typesApparition": ["interview", "plateau", "reportage", "mention", "debat", "post_x"],
       "dateDebut": "AAAA-MM-JJ",
       "dateFin": "AAAA-MM-JJ",
       "langues": ["fr"],

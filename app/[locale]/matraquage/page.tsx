@@ -3,6 +3,7 @@ import {
   chainesMedia,
   apparitions,
   getStatsMedia,
+  LIBELLES_TYPE_APPARITION,
   type MediaCategorie,
 } from "@/lib/media-data";
 import { getTranslations } from "next-intl/server";
@@ -262,7 +263,7 @@ export default async function MatraquagePage() {
                       {tc(a.tonalite as "favorable" | "neutre" | "critique")}
                     </span>
                     <span className="tag text-muted border-glass-border bg-glass">
-                      {a.type}
+                      {LIBELLES_TYPE_APPARITION[a.type]}
                     </span>
                     {a.dureeMinutes > 0 && (
                       <span className="text-[10px] font-mono text-muted">
