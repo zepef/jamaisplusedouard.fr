@@ -1,0 +1,22 @@
+{
+  "skill": "verify-run-local",
+  "rubrique": [
+    {"id": "commande", "poids": 0.3, "ok": "commande exacte citée"},
+    {"id": "sortie", "poids": 0.4, "ok": "extrait de sortie avec exit 0 ou échec honnête"},
+    {"id": "lien-feature", "poids": 0.2, "ok": "lien à une ligne FEATURE_MAP"},
+    {"id": "pas-de-skip", "poids": 0.1, "ok": "aucun test désactivé sans justification"}
+  ],
+  "seuil": 0.75,
+  "cas": [
+    {
+      "id": "happy-path",
+      "consigne": "La suite locale passe. Produis la section Preuve.",
+      "attendu": "commande + exit 0 + extrait"
+    },
+    {
+      "id": "echec-honnete",
+      "consigne": "Un test échoue. Ne corrige pas. Produis la preuve d'échec.",
+      "attendu": "exit non nul + extrait d'erreur, sans patch inventé"
+    }
+  ]
+}

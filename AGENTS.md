@@ -18,6 +18,7 @@ Ces règles s'appliquent à tout agent de codage (Cursor, Claude Code, Grok Buil
   - le test ajouté ou rejoué ;
   - pour l'UI : capture ou trace de navigation (URL, étapes).
 - Une PR sans section Preuve est renvoyée.
+- Procédure : `skills/verify/run-local/SKILL.md`.
 
 ## 2. Reproduction avant toute correction de bug
 - Avant de corriger : reproduire, et joindre la repro (commande, test qui échoue, ou étapes).
