@@ -1,0 +1,52 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    name: lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      # Le lockfile omet le peer optionnel @swc/helpers@0.5.24 exigé par @swc/core.
+      # `npm ci` seul échoue ; --legacy-peer-deps installe le lock tel quel.
+      - run: npm ci --legacy-peer-deps
+      - run: npm run lint
+
+  test:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm test
+
+  preuve:
+    name: preuve
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: La description contient ## Preuve
+        env:
+          PR_BODY: ${{ github.event.pull_request.body }}
+        run: |
+          if ! printf '%s\n' "$PR_BODY" | grep -F -q '## Preuve'; then
+            echo "R0 : la description de la PR doit contenir une section « ## Preuve » (commande, sortie, code de sortie)."
+            exit 1
+          fi

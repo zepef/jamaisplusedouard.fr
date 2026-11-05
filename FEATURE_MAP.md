@@ -2,7 +2,7 @@
 
 Site de veille citoyenne multilingue (8 langues : fr, en, de, es, ru, ja, it, zh — `i18n/routing.ts`), commentaires et newsletter.
 
-Stack : Next.js 16, next-intl, Supabase, Resend, D3. CI actuelle : aucun workflow GitHub Actions ; cron Elestio (`scripts/elestio-cron.sh`).
+Stack : Next.js 16, next-intl, Supabase, Resend, D3. CI : `.github/workflows/ci.yml` (jobs `lint`, `test`, `preuve`) ; cron Elestio (`scripts/elestio-cron.sh`).
 
 | Fonctionnalité | Point d'entrée | Chemin de navigation / déclenchement | État attendu | Commande ou test |
 |---|---|---|---|---|
@@ -22,5 +22,6 @@ Stack : Next.js 16, next-intl, Supabase, Resend, D3. CI actuelle : aucun workflo
 | Inbox watcher | `scripts/inbox-watcher.mjs` | `npm run inbox-watch` | JSON dans `public/bot-exchange` | `npm run inbox-watch` |
 | Sources | `app/[locale]/sources/page.tsx` | /fr/sources | page présente | `npm run build` |
 | Mentions légales | `app/[locale]/mentions-legales/page.tsx` | /fr/mentions-legales | page présente | `npm run build` |
+| Vérification locale | `skills/verify/run-local/SKILL.md`, `.github/workflows/ci.yml` | PR : jobs `lint`, `test`, `preuve` | `npm run lint` et `npm test` verts ; description avec `## Preuve` | `npm test` |
 
 Mise à jour obligatoire dans le même commit que toute modification d'une fonctionnalité.
