@@ -518,6 +518,30 @@ export const chainesMedia: ChaineMedia[] = [
     proprietaire: "Compte tenu par Édouard Philippe. Plateforme : X Corp., filiale de SpaceX Super Intelligence (ex-xAI), elle-même filiale de SpaceX depuis le 2 février 2026",
     lienMacronisme: "Parole directe du candidat, pas un média tiers. La catégorie « macroniste » est un classement faute de catégorie « compte personnel » — à confirmer.",
   },
+  {
+    nom: "Le Phare dunkerquois",
+    slug: "le-phare-dunkerquois",
+    categorie: "independant",
+    description: "Hebdomadaire régional de Dunkerque et de son arrondissement, publié le mercredi, avec une édition numérique. Lancé en 2002 au sein du groupe Nord Littoral.",
+    proprietaire: "Société Nouvelle Nord Littoral — Rossel France (groupe Rossel)",
+    lienMacronisme: "Même société éditrice que Nord Littoral, filiale du groupe belge Rossel, comme La Voix du Nord. Pas de lien capitalistique macroniste.",
+  },
+  {
+    nom: "La Nouvelle République",
+    slug: "la-nouvelle-republique",
+    categorie: "independant",
+    description: "Quotidien régional basé à Tours, fondé en 1944, diffusé dans l'Indre, l'Indre-et-Loire, le Loir-et-Cher, les Deux-Sèvres et la Vienne. Édité par le groupe NRCO.",
+    proprietaire: "Groupe NRCO. Principaux actionnaires documentés : groupe Centre-France et famille Saint-Cricq. Les pourcentages divergent selon les sources et ne sont pas repris",
+    lienMacronisme: "Capital régional dispersé, sans lien capitalistique macroniste documenté. La répartition exacte du capital est à confirmer.",
+  },
+  {
+    nom: "La Provence",
+    slug: "la-provence",
+    categorie: "macroniste",
+    description: "Quotidien régional de Marseille et de la Provence, né en 1997 de la fusion du Provençal et du Méridional.",
+    proprietaire: "CMA Media, filiale de CMA CGM (Rodolphe Saadé). Le Journal des Entreprises (11 octobre 2026) indique CMA Press News au capital et Véronique Saadé comme présidente",
+    lienMacronisme: "Même groupe que BFM TV, RMC et La Tribune. La part de 11 % attribuée à Xavier Niel (NJJ) lors du rachat de 2022 figure encore sur Wikipédia ; elle n'apparaît pas dans la structure de capital citée en octobre 2026 — à confirmer.",
+  },
 ];
 
 export const LIBELLES_TYPE_APPARITION: Record<ApparitionMedia["type"], string> = {
@@ -9207,6 +9231,37 @@ export const apparitions: ApparitionMedia[] = [
     tonalite: "neutre",
     resume: "Post du 05/11 22:18 (Paris) sur Euronaval ; ~7 200 impressions au relevé.",
     url: "https://x.com/EPhilippe_LH/status/2118452969507033173",
+  },
+  // Réintégration des trois titres exclus faute de chaîne (exports du 05/11 et du 06/11). dureeMinutes 0, tonalite neutre.
+  {
+    chaineSlug: "le-phare-dunkerquois",
+    date: "2026-11-04",
+    emission: "Présidentielle 2027 : À Zuydcoote, Edouard Philippe veut renégocier les accords avec le Royaume-Uni et attirer moins de migrants",
+    dureeMinutes: 0,
+    type: "reportage",
+    tonalite: "neutre",
+    resume: "04/11 : déplacement à Zuydcoote sur les traversées vers l'Angleterre, renégociation des accords avec le Royaume-Uni.",
+    url: "https://www.nordlittoral.fr/303174/article/2026-11-04/presidentielle-2027-edouard-philippe-veut-renegocier-les-accords-avec-le-royaume",
+  },
+  {
+    chaineSlug: "la-nouvelle-republique",
+    date: "2026-11-04",
+    emission: "Présidentielle 2027 : Édouard Philippe veut une \"discussion ferme\" avec Londres sur les migrations clandestines",
+    dureeMinutes: 0,
+    type: "reportage",
+    tonalite: "neutre",
+    resume: "04/11 17:08 (AFP) : prêt à « aller jusqu'à la dénonciation des accords du Touquet » ; passeurs qualifiés d'« esclavagistes du monde moderne ».",
+    url: "https://www.lanouvellerepublique.fr/a-la-une/presidentielle-2027-edouard-philippe-veut-une-discussion-ferme-avec-londres-sur-les-migrations-clandestines-1793808542",
+  },
+  {
+    chaineSlug: "la-provence",
+    date: "2026-11-05",
+    emission: "Après les inondations, le candidat à l’élection présidentielle Édouard Philippe en visite à Salon-de-Provence",
+    dureeMinutes: 0,
+    type: "reportage",
+    tonalite: "neutre",
+    resume: "05/11 20:05 (Léonie Morinière) : déplacement à Salon-de-Provence auprès du maire Nicolas Isnard et des secours après les inondations ; visite du CSU et échanges avec pompiers et élus.",
+    url: "https://www.laprovence.com/article/region/19080561417374/apres-les-inondations-le-candidat-a-l-election-presidentielle-edouard-philippe-en-visite-a-salon-de-provence",
   },
 ];
 
