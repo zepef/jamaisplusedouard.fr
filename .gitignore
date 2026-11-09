@@ -53,3 +53,8 @@ app/CLAUDE.md
 scripts/inbox-watcher.log
 scripts/hermes-local.log
 scripts/.hermes-local-state
+
+# Cloudflare (OpenNext / wrangler)
+.open-next/
+.wrangler/
+.dev.vars*
