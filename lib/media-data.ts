@@ -9354,6 +9354,37 @@ export const apparitions: ApparitionMedia[] = [
     resume: "",
     url: "https://www.cnews.fr/france/2026-11-09/presidentielle-2027-edouard-philippe-et-raphael-glucksmann-en-perte-de-vitesse",
   },
+  // Lot 10 novembre 2026 8h (export temps réel). dureeMinutes 0, tonalite neutre. extrait absent : resume vide.
+  {
+    chaineSlug: "le-parisien",
+    date: "2026-11-09",
+    emission: "« Je n’ai aucun problème à résister à cette pression » : cerné par la primaire, Philippe tente de s’échapper avec un « grand tour »",
+    dureeMinutes: 0,
+    type: "reportage",
+    tonalite: "neutre",
+    resume: "",
+    url: "https://www.leparisien.fr/elections/presidentielle/je-nai-aucun-probleme-a-resister-a-cette-pression-cerne-par-la-primaire-philippe-tente-de-sechapper-avec-un-grand-tour-09-11-2026-P2SHIDWFEREIHA4E72K6CVIDPM.php",
+  },
+  {
+    chaineSlug: "la-croix",
+    date: "2026-11-09",
+    emission: "Présidentielle 2027 : Édouard Philippe, le risque d’une campagne en solitaire",
+    dureeMinutes: 0,
+    type: "mention",
+    tonalite: "neutre",
+    resume: "",
+    url: "https://www.la-croix.com/politique/presidentielle-2027-edouard-philippe-le-risque-d-une-campagne-en-solitaire-20261109",
+  },
+  {
+    chaineSlug: "europe-1",
+    date: "2026-11-09",
+    emission: "Présidentielle 2027 : la pression s'accentue sur Édouard Philippe pour qu'il accepte une primaire",
+    dureeMinutes: 0,
+    type: "mention",
+    tonalite: "neutre",
+    resume: "",
+    url: "https://www.europe1.fr/politique/presidentielle-2027-la-pression-saccentue-sur-edouard-philippe-pour-quil-accepte-une-primaire-1219574",
+  },
 ];
 
 // --- Calculs ---
