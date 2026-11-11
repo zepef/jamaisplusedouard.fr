@@ -23,5 +23,6 @@ Stack : Next.js 16, next-intl, Supabase, Resend, D3. CI : `.github/workflows/ci.
 | Sources | `app/[locale]/sources/page.tsx` | /fr/sources | page présente | `npm run build` |
 | Mentions légales | `app/[locale]/mentions-legales/page.tsx` | /fr/mentions-legales | page présente | `npm run build` |
 | Vérification locale | `skills/verify/run-local/SKILL.md`, `.github/workflows/ci.yml` | PR : jobs `lint`, `test`, `preuve` | `npm run lint` et `npm test` verts ; description avec `## Preuve` | `npm test` |
+| Déploiement Cloudflare (pilote) | `wrangler.jsonc`, `open-next.config.ts` | `npm run cf:deploy` → https://jamaisplusedouard.tckc.workers.dev | mêmes pages que jamaisplusedouard.fr (8 langues) ; aucun secret posé : pas d'écriture Supabase ni d'envoi Resend ; aucun domaine (la production reste sur Vercel) | `npm run cf:build` puis comparaison des URL avec la production |
 
 Mise à jour obligatoire dans le même commit que toute modification d'une fonctionnalité.

@@ -1,0 +1,25 @@
+{
+  // Pilote Cloudflare (OpenNext) : déploiement sur jamaisplusedouard.tckc.workers.dev UNIQUEMENT.
+  // Aucune route ni domaine : jamaisplusedouard.fr reste servi par Vercel.
+  // Aucun secret posé : sans SUPABASE_URL ni RESEND_API_KEY, le pilote n écrit pas en base et n envoie aucun e-mail.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "jamaisplusedouard",
+  "main": ".open-next/worker.js",
+  "account_id": "126ff1781dd67afa614a87fa82296f13",
+  "compatibility_date": "2026-11-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "services": [
+    // Auto-référence exigée par OpenNext ; le nom doit être celui du worker.
+    { "binding": "WORKER_SELF_REFERENCE", "service": "jamaisplusedouard" }
+  ],
+  "images": {
+    // Optimisation de next/image via Cloudflare Images.
+    "binding": "IMAGES"
+  }
+}
