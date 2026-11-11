@@ -542,6 +542,14 @@ export const chainesMedia: ChaineMedia[] = [
     proprietaire: "CMA Media, filiale de CMA CGM (Rodolphe Saadé). Le Journal des Entreprises (11 octobre 2026) indique CMA Press News au capital et Véronique Saadé comme présidente",
     lienMacronisme: "Même groupe que BFM TV, RMC et La Tribune. La part de 11 % attribuée à Xavier Niel (NJJ) lors du rachat de 2022 figure encore sur Wikipédia ; elle n'apparaît pas dans la structure de capital citée en octobre 2026 — à confirmer.",
   },
+  {
+    nom: "Capital",
+    slug: "capital",
+    categorie: "opposition",
+    description: "Magazine mensuel d'économie fondé en 1991, et son site capital.fr. Édité par Prisma Media.",
+    proprietaire: "Prisma Media — société du Louis Hachette Group. Associé unique : Prisma Group. Président et directeur de la publication : Arnaud Lagardère (mentions légales, décision du 27 août 2025)",
+    lienMacronisme: "Même pôle que CNews, Europe 1 et Le Journal du Dimanche (Louis Hachette Group). Wikipédia indique un contrôle de Vincent Bolloré via Prisma Media depuis 2021. Pas de lien capitalistique macroniste documenté. La quote-part exacte de Bolloré n'est pas reprise — à confirmer.",
+  },
 ];
 
 export const LIBELLES_TYPE_APPARITION: Record<ApparitionMedia["type"], string> = {
@@ -9353,6 +9361,69 @@ export const apparitions: ApparitionMedia[] = [
     tonalite: "neutre",
     resume: "",
     url: "https://www.cnews.fr/france/2026-11-09/presidentielle-2027-edouard-philippe-et-raphael-glucksmann-en-perte-de-vitesse",
+  },
+  // Lot 10 novembre 2026 8h (export temps réel). dureeMinutes 0, tonalite neutre. extrait absent : resume vide.
+  {
+    chaineSlug: "le-parisien",
+    date: "2026-11-09",
+    emission: "« Je n’ai aucun problème à résister à cette pression » : cerné par la primaire, Philippe tente de s’échapper avec un « grand tour »",
+    dureeMinutes: 0,
+    type: "reportage",
+    tonalite: "neutre",
+    resume: "",
+    url: "https://www.leparisien.fr/elections/presidentielle/je-nai-aucun-probleme-a-resister-a-cette-pression-cerne-par-la-primaire-philippe-tente-de-sechapper-avec-un-grand-tour-09-11-2026-P2SHIDWFEREIHA4E72K6CVIDPM.php",
+  },
+  {
+    chaineSlug: "la-croix",
+    date: "2026-11-09",
+    emission: "Présidentielle 2027 : Édouard Philippe, le risque d’une campagne en solitaire",
+    dureeMinutes: 0,
+    type: "mention",
+    tonalite: "neutre",
+    resume: "",
+    url: "https://www.la-croix.com/politique/presidentielle-2027-edouard-philippe-le-risque-d-une-campagne-en-solitaire-20261109",
+  },
+  {
+    chaineSlug: "europe-1",
+    date: "2026-11-09",
+    emission: "Présidentielle 2027 : la pression s'accentue sur Édouard Philippe pour qu'il accepte une primaire",
+    dureeMinutes: 0,
+    type: "mention",
+    tonalite: "neutre",
+    resume: "",
+    url: "https://www.europe1.fr/politique/presidentielle-2027-la-pression-saccentue-sur-edouard-philippe-pour-quil-accepte-une-primaire-1219574",
+  },
+  // Réintégration Capital, exclu de l'export du 10/11 faute de chaîne. dureeMinutes 0, tonalite neutre. extrait absent : resume vide.
+  {
+    chaineSlug: "capital",
+    date: "2026-11-09",
+    emission: "Édouard Philippe à Chartres : retraite à 65 ans, pouvoir d’achat, déserts médicaux, ce qu’il a répondu aux habitants",
+    dureeMinutes: 0,
+    type: "reportage",
+    tonalite: "neutre",
+    resume: "",
+    url: "https://www.capital.fr/economie-politique/edouard-philippe-a-chartres-retraite-a-65-ans-pouvoir-dachat-deserts-medicaux-ce-quil-a-repondu-aux-habitants-1531724",
+  },
+  // Lot 11 novembre 2026 8h (export temps réel). dureeMinutes 0, tonalite neutre. extrait absent : resume vide.
+  {
+    chaineSlug: "20-minutes",
+    date: "2026-11-11",
+    emission: "Présidentielle 2027 : Retailleau soumet à Philippe, Attal et Lisnard des dates pour une primaire",
+    dureeMinutes: 0,
+    type: "mention",
+    tonalite: "neutre",
+    resume: "",
+    url: "https://www.20minutes.fr/politique/4262102-20261111-presidentielle-2027-retailleau-soumet-philippe-attal-lisnard-dates-primaire",
+  },
+  {
+    chaineSlug: "la-depeche",
+    date: "2026-11-10",
+    emission: "Présidentielle 2027 : le candidat Horizons Édouard Philippe attendu à Toulouse ce samedi",
+    dureeMinutes: 0,
+    type: "mention",
+    tonalite: "neutre",
+    resume: "",
+    url: "https://www.ladepeche.fr/2026/11/10/presidentielle-2027-le-candidat-horizons-edouard-philippe-attendu-a-toulouse-ce-samedi-13645627.php",
   },
 ];
 
