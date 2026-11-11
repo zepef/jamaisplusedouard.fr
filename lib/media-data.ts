@@ -9404,6 +9404,27 @@ export const apparitions: ApparitionMedia[] = [
     resume: "",
     url: "https://www.capital.fr/economie-politique/edouard-philippe-a-chartres-retraite-a-65-ans-pouvoir-dachat-deserts-medicaux-ce-quil-a-repondu-aux-habitants-1531724",
   },
+  // Lot 11 novembre 2026 8h (export temps réel). dureeMinutes 0, tonalite neutre. extrait absent : resume vide.
+  {
+    chaineSlug: "20-minutes",
+    date: "2026-11-11",
+    emission: "Présidentielle 2027 : Retailleau soumet à Philippe, Attal et Lisnard des dates pour une primaire",
+    dureeMinutes: 0,
+    type: "mention",
+    tonalite: "neutre",
+    resume: "",
+    url: "https://www.20minutes.fr/politique/4262102-20261111-presidentielle-2027-retailleau-soumet-philippe-attal-lisnard-dates-primaire",
+  },
+  {
+    chaineSlug: "la-depeche",
+    date: "2026-11-10",
+    emission: "Présidentielle 2027 : le candidat Horizons Édouard Philippe attendu à Toulouse ce samedi",
+    dureeMinutes: 0,
+    type: "mention",
+    tonalite: "neutre",
+    resume: "",
+    url: "https://www.ladepeche.fr/2026/11/10/presidentielle-2027-le-candidat-horizons-edouard-philippe-attendu-a-toulouse-ce-samedi-13645627.php",
+  },
 ];
 
 // --- Calculs ---
